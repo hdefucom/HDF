@@ -1,1 +1,38 @@
 this is HDF's first repositories.
+
+git command:
+
+#创建版本库
+git init
+
+#修改保存到暂存区
+git add <file>
+
+#提交到版本库
+git commit -m <message>
+
+#仓库状态
+git status
+
+#查看差异
+git diff <file>
+
+#查看提交日志
+git log
+git log --pretty=oneline
+
+#版本回退
+git reset --hard HEAD(当前版本，加^后缀标识上一版本，可加多个)
+git reset --hard <commit id>
+
+#命令记录
+git reflog
+
+#撤销修改
+git check --<file>
+
+
+
+
+
+
