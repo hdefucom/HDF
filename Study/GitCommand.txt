@@ -18,6 +18,7 @@ git diff <file>
 #查看提交日志
 git log
 git log --pretty=oneline
+git log --graph
 
 #版本回退
 git reset --hard HEAD(当前版本，加^后缀标识上一版本，可加多个)
@@ -27,11 +28,46 @@ git reset --hard <commit id>
 git reflog
 
 #撤销修改
-git check --<file>
+git checkout --<file>  (谨记--和file中间有空格隔开)
+#checkout只是撤销工作区的修改，如果已经添加到暂存区，先版本回退再撤销
+
+#删除文件
+git rm <file>
+
+#关联远程库
+git remote add <originname> <url>
+git remote rm <originname>
+git remote -v
+git push -u <originname> <branch>
+git clone <url>
+
+#分支
+git branch
+git branch <branch>
+git checkout <branch>
+git checkout -b <branch>
+git switch <branch>
+git switch -c <branch>
+git branch -d <branch>
+git branch -D <branch>强制丢弃一个没有被合并过的分支
+git merge <branch>
+#通常，合并分支时，如果可能，Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息。
+#如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
+git merge --no-ff -m <message> <branch>
+
+
+#储存工作区
+git stash 
+git stash list
+git stash apply@{<index>}
+git stash apply
+git stash pop
+
+
+#复制一个特定的提交到当前分支
+git cherry-pick <commit id>
 
 
 
-
-aaa
 
 
