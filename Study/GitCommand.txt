@@ -1,71 +1,95 @@
-#git command
+##########################################
+#GitCommand
 
-#创建版本库
-git init
+#************************版本库管理************************
+git init    #初始化版本库
+git clone <url>    #克隆远程库
 
-#修改保存到暂存区
-git add <file>   （文件夹/）（*.文件后缀）
+git remote add <originname> <url>    #添加远程库关联
+git remote rm <originname>    #删除远程库关联
+git remote -v    #查看远程库关联详情
 
-#提交到版本库
-git commit -m <message>
+git push -u <originname> <branch>    #推送当前分支到远程库
+git pull    #从远程库抓取分支
 
-#仓库状态
-git status
+git status    #仓库状态
 
-#查看差异
-git diff <file>
-
-#查看提交日志
-git log
-git log --pretty=oneline
+git log    #查看提交日志
+git log --pretty=oneline    #查看提交日志精简（）
 git log --graph
 
-#版本回退
+git reflog    #命令记录
+
+git rebase    #变基
+#*******************************************************
+
+
+#************************增删改************************
+git add <file>   （文件夹/）（*.文件后缀）    #保存到暂存区
+git rm <file>    #删除文件
+git diff <file>    #查看差异
+
+git commit -m <message>    #提交到版本库
+git cherry-pick <commit id>    #复制一个特定的提交到当前分支
+
+
+git checkout --<file>    #撤销修改(谨记--和file中间有空格隔开)
+#checkout只是撤销工作区的修改，如果已经添加到暂存区，先版本回退再撤销
+#*******************************************************
+
+
+#************************版本回退************************
 git reset --hard HEAD(当前版本，加^后缀标识上一版本，可加多个)
 git reset --hard <commit id>
+#*******************************************************
 
-#命令记录
-git reflog
 
-#撤销修改
-git checkout --<file>  (谨记--和file中间有空格隔开)
-#checkout只是撤销工作区的修改，如果已经添加到暂存区，先版本回退再撤销
+#************************分支************************
+git branch    #查看分支
+git branch <branch>    #创建分支
+git checkout <branch>    #切换分支
+git checkout -b <branch>    #创建并切换分支
+git switch <branch>    #切换分支
+git switch -c <branch>    #创建并切换分支
+git branch -d <branch>    #删除分支
+git branch -D <branch>强制删除一个没有被合并过的分支
+git merge <branch>    #合并分支
 
-#删除文件
-git rm <file>
-
-#关联远程库
-git remote add <originname> <url>
-git remote rm <originname>
-git remote -v
-git push -u <originname> <branch>
-git clone <url>
-
-#分支
-git branch
-git branch <branch>
-git checkout <branch>
-git checkout -b <branch>
-git switch <branch>
-git switch -c <branch>
-git branch -d <branch>
-git branch -D <branch>强制丢弃一个没有被合并过的分支
-git merge <branch>
 #通常，合并分支时，如果可能，Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息。
 #如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
 git merge --no-ff -m <message> <branch>
+#*******************************************************
 
 
-#储存工作区
-git stash 
-git stash list
-git stash apply@{<index>}
-git stash apply
-git stash pop
+#************************储存工作区************************
+git stash    #保存工作区
+git stash list    #查看保存列表
+git stash apply@{<index>}     #找回指定工作区
+git stash apply    找回list最上一个保存记录
+git stash pop    找回并删除list最上一个保存记录
+#*******************************************************
 
 
-#复制一个特定的提交到当前分支
-git cherry-pick <commit id>
+#************************标签************************
+git tag    #查看所有标签
+git tag <tagname>    #创建标签
+git tag <tagname> <commit id>    #给指定提交添加标签
+git tag -a <tagname> -m <message> <commit id>    #添加带说明的标签
+git show <tagname>    #查看标签详情
+git tag -d <tagname>    #删除标签
+git push <origin> <tagname>    #将标签推送远程库
+git push <origin> --tags    #将所标签推送远程库
+git push <origin> :refs/tags/<tagname>    #将标签从远程库删除（注意，先得删除本地标签）
+#*******************************************************
+
+
+
+
+
+
+
+
+
 
 
 
