@@ -4,7 +4,7 @@
 git init
 
 #修改保存到暂存区
-git add <file>
+git add <file>   （文件夹/）（*.文件后缀）
 
 #提交到版本库
 git commit -m <message>
