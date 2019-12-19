@@ -19,7 +19,7 @@ namespace HDF.Framework.Text
                 //});
             }
 
-
+            Console.WriteLine("this is hdf's first project!");
 
 
 
