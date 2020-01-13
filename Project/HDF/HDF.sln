@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.Framework.Common", "HDF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{988A0FD2-8C43-48A6-98C8-A2EE2A906B7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emr_to_hmis", "emr_to_hmis\emr_to_hmis.csproj", "{EACFB394-6816-40FA-BE96-3A78CAF21082}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{988A0FD2-8C43-48A6-98C8-A2EE2A906B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{988A0FD2-8C43-48A6-98C8-A2EE2A906B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{988A0FD2-8C43-48A6-98C8-A2EE2A906B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACFB394-6816-40FA-BE96-3A78CAF21082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACFB394-6816-40FA-BE96-3A78CAF21082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACFB394-6816-40FA-BE96-3A78CAF21082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACFB394-6816-40FA-BE96-3A78CAF21082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

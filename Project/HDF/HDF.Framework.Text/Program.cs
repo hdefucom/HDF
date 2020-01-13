@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Concurrent;
+//using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -14,12 +14,13 @@ using System.Web.Http.Results;
 using System.Xml;
 using Newtonsoft.Json;
 using HDF.Framework.Common;
+using System.Linq.Expressions;
+using ExpressionEvaluator;
 
 namespace HDF.Framework.Text
 {
     class Program
     {
-        [STAThread]
         static void Main(string[] args)
         {
             //进程启动
@@ -213,19 +214,71 @@ namespace HDF.Framework.Text
 
             }
 
+            //调用浏览器打开网页
+            {
+                //System.Diagnostics.Process.Start("Chrome.exe", "http://localhost:8081/#/shangbao/report?userName=0&orgCode=1");
+                //System.Diagnostics.Process.Start("http://localhost:8081/#/shangbao/report?userName=0&orgCode=1");
+
+                
+                //Task.WaitAll(Task.Run(() =>
+                //System.Diagnostics.Process.Start("chrome.exe", "http://localhost:8081/dashboard#/shangbao/report?userName=0&orgCode=1&PATIENT=00014648")
+                //));
+            }
+
+            //负载均衡  自定义策略
+            {
+                //轮询策略-->集群排队挨个来，如果没台服务器性能一致，没影响，如果性能不一致，会导致负载不均衡
+
+                //权重轮询加权算法
+            }
+
+            //Expression Eval
+            {
+
+                //Expression<Func<string>> expression = () => "aaa";
+                //Expression<Func<string>> expression = "() => \"aaa\"";
+
+                //string str= expression.Compile().Invoke();
+
+                //TypeRegistry reg = new TypeRegistry();
+
+                //reg.RegisterType("Helper", typeof(StringCodeHelper));
+
+
+
+                //CompiledExpression<string> exp = new CompiledExpression<string>("Helper.GetPYCode(\"黄德富\")");
+                //exp.TypeRegistry = reg;
+                //string a = exp.Eval();
+
+            }
+
+            {
+                string aa = "gemr:asdfkahsdjfkshadkjfsahkfhhafks";
+
+                int i= aa.IndexOf("gemr:");
+
+                string name = "\"userName\":\"00\"";
+
+                string b = Convert.ToBase64String(Encoding.Default.GetBytes(name));
+
+
+                string aaaa= Encoding.Default.GetString( Convert.FromBase64String(b));
+
+
+            }
 
 
 
 
 
 
-
-
+            //string str = "zj1FD2lk2Rk8pmZj0ifLFw==".ToMD5();
 
 
 
             //Console.ReadKey();
         }
+
 
 
         public static async Task GetDaet()
@@ -249,6 +302,59 @@ namespace HDF.Framework.Text
             }
         }
 
+        private string AnalysisCSharpExpression(string code)
+        {
+
+            /* 每次都要编译，性能太差   有ExpressionEvaluator
+            try
+            {
+                CSharpCodeProvider cs = new CSharpCodeProvider();
+
+                ICodeCompiler cc = cs.CreateCompiler();
+
+                CompilerParameters cp = new CompilerParameters();
+                cp.GenerateInMemory = true;//设定在内存中创建程序集
+                cp.GenerateExecutable = false;//设定是否创建可执行文件,也就是exe文件或者dll文件
+                cp.ReferencedAssemblies.Add("System.dll");//此处代码是添加对应dll文件的引用
+                cp.ReferencedAssemblies.Add("System.Core.dll");//System.Linq存在于System.Core.dll文件中
+
+                string strExpre = "using System;";
+                strExpre += "      using System.Collections.Generic;                     ";
+                strExpre += "      using System.Linq;                                    ";
+                strExpre += "      using System.Text;                                    ";
+                strExpre += "      using System.Threading.Tasks;                         ";
+
+                strExpre += "      namespace HDFText{                                    ";
+                strExpre += "          public class TestClass{                           ";
+                strExpre += "              public string ExecuteCode(){                  ";
+                strExpre += "                  Func<string> func = ()=> " + code + ";    ";
+                strExpre += "                  return func.Invoke();                     ";
+                strExpre += "              }                                             ";
+                strExpre += "          }                                                 ";
+                strExpre += "      }";
+                CompilerResults cr = cc.CompileAssemblyFromSource(cp, strExpre);
+                if (cr.Errors.HasErrors)
+                {
+                    Func<string> func = () => "" + "(" + "".Replace("公司", "").Replace("有限", "") + ")";
+                    throw new Exception(cr.Errors.ToString());
+                }
+                else
+                {
+                    //5.创建一个Assembly对象
+                    Assembly ass = cr.CompiledAssembly;//动态编译程序集
+                    object obj = ass.CreateInstance("HDFText.TestClass");
+                    MethodInfo mi = obj.GetType().GetMethod("ExecuteCode");
+                    return mi.Invoke(obj, null).ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }*/
+
+            return "";
+        }
+
     }
 
 
@@ -261,5 +367,17 @@ namespace HDF.Framework.Text
             throw new NotImplementedException();
         }
     }
+
+    public class Test2 : ICloneable
+    {
+        public Test t { get; set; }
+        public object Clone()
+        {
+            Test2 t2 = this.MemberwiseClone() as Test2;
+            t2.t = new Test();
+            return t2;
+        }
+    }
+
 
 }
