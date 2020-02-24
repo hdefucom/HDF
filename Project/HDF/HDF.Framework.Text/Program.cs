@@ -16,6 +16,7 @@ using Newtonsoft.Json;
 using HDF.Framework.Common;
 using System.Linq.Expressions;
 using ExpressionEvaluator;
+using System.Data.SqlClient;
 
 namespace HDF.Framework.Text
 {
@@ -252,31 +253,45 @@ namespace HDF.Framework.Text
 
             }
 
+            //编码解码
             {
-                string aa = "gemr:asdfkahsdjfkshadkjfsahkfhhafks";
+                //string aa = "gemr:asdfkahsdjfkshadkjfsahkfhhafks";
 
-                int i= aa.IndexOf("gemr:");
+                //int i= aa.IndexOf("gemr:");
 
-                string name = "\"userName\":\"00\"";
+                //string name = "\"userName\":\"00\"";
 
-                string b = Convert.ToBase64String(Encoding.Default.GetBytes(name));
+                //string b = Convert.ToBase64String(Encoding.Default.GetBytes(name));
 
 
-                string aaaa= Encoding.Default.GetString( Convert.FromBase64String(b));
+                //string aaaa= Encoding.Default.GetString( Convert.FromBase64String(b));
 
 
             }
 
 
+            string str = null;
+
+            Console.WriteLine(str?.ToString());
 
 
+            //Console.WriteLine(nameof(str));
+
+
+            string aa() {
+                return "aa";
+            }
+
+            Console.WriteLine(aa());
+
+            int aaaa = 100_00_00;
 
 
             //string str = "zj1FD2lk2Rk8pmZj0ifLFw==".ToMD5();
 
 
 
-            //Console.ReadKey();
+            Console.ReadKey();
         }
 
 

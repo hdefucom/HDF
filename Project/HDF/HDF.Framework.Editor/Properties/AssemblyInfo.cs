@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("emr_to_hmis")]
+[assembly: AssemblyTitle("HDF.Framework.Editor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("emr_to_hmis")]
+[assembly: AssemblyProduct("HDF.Framework.Editor")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("eacfb394-6816-40fa-be96-3a78caf21082")]
+[assembly: Guid("4aed65c4-2a9c-46ec-8ad2-a45f3f3c84b3")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
