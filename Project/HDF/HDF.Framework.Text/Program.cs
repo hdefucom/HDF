@@ -17,6 +17,9 @@ using HDF.Framework.Common;
 using System.Linq.Expressions;
 using ExpressionEvaluator;
 using System.Data.SqlClient;
+using System.Data;
+using HtmlAgilityPack;
+using System.Reflection.Emit;
 
 namespace HDF.Framework.Text
 {
@@ -24,6 +27,8 @@ namespace HDF.Framework.Text
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("this is hdf's first project!");
+
             //进程启动
             {
                 //Task.Run(() =>
@@ -36,8 +41,6 @@ namespace HDF.Framework.Text
             //http通信
             {
 
-
-                Console.WriteLine("this is hdf's first project!");
 
                 /*
                  院感
@@ -109,7 +112,7 @@ namespace HDF.Framework.Text
                 //string str4 = "2019-11-11 8:11:12";
                 //string str5 = "2019年11月11日 08:11:12";
                 //string str6 = "2019年11月11日 8时11分12秒";
-                
+
 
                 //string rstr1 = str1.ToString("");
                 //string rstr2 = str2.ToString();
@@ -120,19 +123,6 @@ namespace HDF.Framework.Text
 
 
 
-
-            }
-
-            //async await
-            {
-                /* async await
-                Console.WriteLine("main-"+Thread.CurrentThread.ManagedThreadId);
-
-                Task t= GetDaet();
-                t.Wait();
-
-                Console.WriteLine("wc"); 
-                */
 
             }
 
@@ -208,7 +198,7 @@ namespace HDF.Framework.Text
 
                 //IEnumerator
 
-               
+
 
 
 
@@ -220,7 +210,7 @@ namespace HDF.Framework.Text
                 //System.Diagnostics.Process.Start("Chrome.exe", "http://localhost:8081/#/shangbao/report?userName=0&orgCode=1");
                 //System.Diagnostics.Process.Start("http://localhost:8081/#/shangbao/report?userName=0&orgCode=1");
 
-                
+
                 //Task.WaitAll(Task.Run(() =>
                 //System.Diagnostics.Process.Start("chrome.exe", "http://localhost:8081/dashboard#/shangbao/report?userName=0&orgCode=1&PATIENT=00014648")
                 //));
@@ -269,22 +259,125 @@ namespace HDF.Framework.Text
 
             }
 
+            //DBHelper test
+            {
 
-            string str = null;
+                //DBHelper.Init("DB");
 
-            Console.WriteLine(str?.ToString());
+                //DBHelper.ExecuteNonQueryInTran(
+                //    "update Users set age=@age where UserId='10000';update Users set sex=@sex where UserId='10000'",
+                //    i => i == 2,
+                //    CommandType.Text,
+                //    new SqlParameter[] {
+                //        new SqlParameter("@age","20"),
+                //        new SqlParameter("@sex","1")
+                //    }
+                //    );
 
 
-            //Console.WriteLine(nameof(str));
 
 
-            string aa() {
-                return "aa";
             }
 
-            Console.WriteLine(aa());
+            //Emit
+            {
+                //AssemblyBuilder assemblyBuilder = AppDomain.CurrentDomain.DefineDynamicAssembly(new System.Reflection.AssemblyName(), AssemblyBuilderAccess.Run);
 
-            int aaaa = 100_00_00;
+                //TypeBuilder typeBuilder = null;
+
+                //MethodBuilder methodBuilder = null;
+
+                //ILGenerator iLGenerator = methodBuilder.GetILGenerator();
+
+                //iLGenerator.Emit(OpCodes.Ldstr, "");
+                //iLGenerator.Emit(OpCodes.Call, typeof(Console).GetMethod(""));
+                //iLGenerator.Emit(OpCodes.Ret);
+
+
+            }
+
+            //线程
+            {
+                /* async await
+                Console.WriteLine("main-"+Thread.CurrentThread.ManagedThreadId);
+
+                Task t= GetDaet();
+                t.Wait();
+
+                Console.WriteLine("wc"); 
+                */
+
+                //委托BeginInvoke
+                {
+                    //Action action = () =>
+                    //{
+                    //    Console.WriteLine("start-" + Thread.CurrentThread.ManagedThreadId);
+                    //    Thread.Sleep(1000);
+                    //    Console.WriteLine("end-" + Thread.CurrentThread.ManagedThreadId);
+                    //};
+
+                    //Console.WriteLine("**************start***************");
+                    //for (int i = 0; i < 5; i++)
+                    //{
+                    //    action.BeginInvoke(result => Console.WriteLine(result.IsCompleted.ToString()), null);
+                    //}
+                    //Console.WriteLine("**************end***************");
+
+                    //IAsyncResult asyncResult = null;
+                    //asyncResult.AsyncWaitHandle.WaitOne();//等待异步完成
+                    //asyncResult.AsyncWaitHandle.WaitOne(-1);//等待异步完成
+                    //asyncResult.AsyncWaitHandle.WaitOne(1000);//最大等待1000毫秒
+                }
+
+                //Thread
+                {
+                    //Thread thread = new Thread(()=> { });
+                    //thread.Start();
+
+                    //thread.Suspend();
+                    //thread.Resume();
+
+                    //thread.Join();
+
+                    //try
+                    //{
+                    //    thread.Abort();
+                    //}
+                    //catch (Exception)
+                    //{
+                    //    Thread.ResetAbort();
+                    //}
+
+                    ////默认前台线程
+                    //thread.IsBackground = false;
+                    ////前台线程：线程结束才真正结束
+                    ////后台线程：随着进程一起结束
+
+                    //thread.Priority = ThreadPriority.Highest;//优先级 Highest优先级最高
+                }
+
+                //ThreadPool
+                {
+                    ThreadPool.QueueUserWorkItem(state => { });
+
+                    ThreadPool.GetMaxThreads(out int maxWork, out int maxIO);
+                    ThreadPool.GetMinThreads(out int minWork, out int minIO);
+
+                    ThreadPool.SetMaxThreads(8,8);
+                    ThreadPool.SetMinThreads(8,8);
+
+                    ManualResetEvent manualResetEvent = new ManualResetEvent(false);
+                    ThreadPool.QueueUserWorkItem(state => {
+                        manualResetEvent.Set();
+                    });
+                    manualResetEvent.WaitOne();//状态为false会一直阻塞，直到调用的Set方法设置true，才会向下执行
+                }
+
+            }
+
+
+
+
 
 
             //string str = "zj1FD2lk2Rk8pmZj0ifLFw==".ToMD5();
@@ -305,7 +398,7 @@ namespace HDF.Framework.Text
                 Task<int> t = Task.Run(() =>
                 {
 
-                    Console.WriteLine("task-" + Thread.CurrentThread.ManagedThreadId+DateTime.Now.ToString());
+                    Console.WriteLine("task-" + Thread.CurrentThread.ManagedThreadId + DateTime.Now.ToString());
                     return DateTime.Now.Second;
                 });
                 await t;
@@ -369,6 +462,98 @@ namespace HDF.Framework.Text
 
             return "";
         }
+
+
+
+
+        /// <summary>
+        /// 爬取xxx数据
+        /// </summary>
+        /// <param name="_URL"></param>
+        /// <param name="_PageCount"></param>
+        /// <param name="_MaxTime"></param>
+        /// <param name="_TableName"></param>
+        private static void Crawler_1024XP(string _URL, int _PageCount, DateTime _MaxTime ,string _TableName)
+        {
+            for (int i = 0; i < _PageCount; i++)
+            {
+                string resultString = "";
+
+                HttpWebRequest request = WebRequest.CreateHttp(string.Format(_URL, i + 1));
+                request.Method = "GET";
+                request.ContentType = "text/html;charset=UTF-8";
+
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                {
+                    if (response.StatusCode != HttpStatusCode.OK) return;
+
+                    try
+                    {
+                        using (Stream myResponseStream = response.GetResponseStream())
+                        {
+                            StreamReader myStreamReader = new StreamReader(myResponseStream);
+
+                            resultString = myStreamReader.ReadToEnd();
+
+                            myStreamReader.Close();
+                            myResponseStream.Close();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                }
+
+                if (string.IsNullOrEmpty(resultString)) return;
+
+                HtmlDocument document = new HtmlDocument();
+                document.LoadHtml(resultString);
+
+                string path = "//*[@id='ajaxtable']/tbody[1]/tr";
+
+                HtmlNodeCollection nodelist = document.DocumentNode.SelectNodes(path);
+
+                foreach (var node in nodelist)
+                {
+                    if (
+                         node.Attributes["class"] != null
+                        && node.Attributes["align"] != null
+                        && node.Attributes["class"].Value == "tr3 t_one"
+                        && node.Attributes["align"].Value == "center")
+                    {
+                        if (node.SelectSingleNode(".//td[2]/img") != null) continue;
+
+                        //string title = node.SelectSingleNode(".//td[2]/h3/a").InnerText;
+                        string title = node.SelectSingleNode(".//td[2]").InnerText.Replace("&nbsp;", "");
+                        string url = "http://e1.a6def2ef910.pw/pw/" + node.SelectSingleNode(".//td[2]/h3/a").Attributes["href"].Value;
+                        string time = node.SelectSingleNode(".//td[5]").InnerText;
+
+                        DateTime dt = Convert.ToDateTime(time);
+
+                        if (dt <= _MaxTime) return;
+
+                        Console.WriteLine($" {dt.ToString()} \t {title} \t {url} ");
+
+                        string sql = $"insert into {_TableName}(Title,Url,Time) values(@title,@url,@time)";
+
+                        System.Data.Common.DbParameter[] parm = {
+                            DBHelper.CreateParameter("@title", title),
+                            DBHelper.CreateParameter("@url", url),
+                            DBHelper.CreateParameter("@time", dt.ToString())
+                        };
+
+                        DBHelper.ExecuteNonQuery(sql, CommandType.Text, parm);
+                    }
+
+                }
+            }
+
+        }
+
+
+
+
 
     }
 
