@@ -20,6 +20,9 @@ using System.Data.SqlClient;
 using System.Data;
 using HtmlAgilityPack;
 using System.Reflection.Emit;
+using System.Data.SQLite;
+using zlib;
+using HDF.Framework.Test;
 
 namespace HDF.Framework.Text
 {
@@ -31,11 +34,11 @@ namespace HDF.Framework.Text
 
             //进程启动
             {
-                //Task.Run(() =>
-                //{
-                //    Form_CallProgram form = new Form_CallProgram();
-                //    form.ShowDialog();
-                //});
+                Task.Run(() =>
+                {
+                    Form_CallProgram form = new Form_CallProgram();
+                    form.ShowDialog();
+                });
             }
 
             //http通信
@@ -358,6 +361,7 @@ namespace HDF.Framework.Text
 
                 //ThreadPool
                 {
+                    /*
                     ThreadPool.QueueUserWorkItem(state => { });
 
                     ThreadPool.GetMaxThreads(out int maxWork, out int maxIO);
@@ -371,7 +375,12 @@ namespace HDF.Framework.Text
                         manualResetEvent.Set();
                     });
                     manualResetEvent.WaitOne();//状态为false会一直阻塞，直到调用的Set方法设置true，才会向下执行
+                    */
                 }
+
+            }
+
+            {
 
             }
 

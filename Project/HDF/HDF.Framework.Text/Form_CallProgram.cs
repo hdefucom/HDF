@@ -47,7 +47,23 @@ namespace HDF.Framework.Test
             }
             Process process = new Process();
             process.StartInfo.FileName = path;
-            process.StartInfo.Arguments = txt_Parameter.Text;
+
+            string funcid = "1001";
+
+            string basexml = @"<base_xml>
+                             <hosp_code>1563</hosp_code>
+                             <dept_code>1141</dept_code>
+                             <dept_name>北京西路门诊部</dept_name>
+                             <doct>
+                             <code>0084</code>
+                             <name>黄淑华</name>
+                             <type>03</type>
+                             </doct>
+                           </base_xml> ";
+            string detailsxml = "<details_xml><doct_pwd></doct_pwd></details_xml>";
+            basexml = basexml.Replace(" ", "").Replace("\r", "").Replace("\n", "");
+            detailsxml = detailsxml.Replace(" ", "").Replace("\r", "").Replace("\n", "");
+            process.StartInfo.Arguments = $"{funcid} {basexml} {detailsxml}";
             process.Start();
 
         }
