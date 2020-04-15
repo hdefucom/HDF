@@ -23,6 +23,7 @@ using System.Reflection.Emit;
 using System.Data.SQLite;
 using zlib;
 using HDF.Framework.Test;
+using System.Runtime.CompilerServices;
 
 namespace HDF.Framework.Text
 {
@@ -34,11 +35,11 @@ namespace HDF.Framework.Text
 
             //进程启动
             {
-                Task.Run(() =>
-                {
-                    Form_CallProgram form = new Form_CallProgram();
-                    form.ShowDialog();
-                });
+                //Task.Run(() =>
+                //{
+                //    Form_CallProgram form = new Form_CallProgram();
+                //    form.ShowDialog();
+                //});
             }
 
             //http通信
@@ -105,27 +106,6 @@ namespace HDF.Framework.Text
                     myResponseStream.Close();
                 }
                 */
-
-            }
-
-            {
-                //string str1 = "2019/11/11 08:11:12";
-                //string str2 = "2019/11/11 8:11:12";
-                //string str3 = "2019-11-11 08:11:12";
-                //string str4 = "2019-11-11 8:11:12";
-                //string str5 = "2019年11月11日 08:11:12";
-                //string str6 = "2019年11月11日 8时11分12秒";
-
-
-                //string rstr1 = str1.ToString("");
-                //string rstr2 = str2.ToString();
-                //string rstr3 = str3.ToString();
-                //string rstr4 = str4.ToString();
-                //string rstr5 = str5.ToString();
-                //string rstr6 = str6.ToString();
-
-
-
 
             }
 
@@ -378,16 +358,34 @@ namespace HDF.Framework.Text
                     */
                 }
 
+                //async await
+                {
+                   // Console.WriteLine($"main方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+
+                   // //Task<string> a = test();
+
+                   // ////a.Wait();
+
+                   // //Console.WriteLine(a.Result);
+
+                   //testvoid().Wait();
+
+
+
+                   // Console.WriteLine($"main方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                }
+
             }
 
             {
 
+
+
             }
 
-            //沙发空间按时付款
 
 
-             
+
 
             //string str = "zj1FD2lk2Rk8pmZj0ifLFw==".ToMD5();
 
@@ -396,8 +394,9 @@ namespace HDF.Framework.Text
             Console.ReadKey();
         }
 
+        #region 
 
-
+        /*
         public static async Task GetDaet()
         {
             while (true)
@@ -418,11 +417,13 @@ namespace HDF.Framework.Text
                 Thread.Sleep(1000);
             }
         }
+        */
 
+        /*
         private string AnalysisCSharpExpression(string code)
         {
 
-            /* 每次都要编译，性能太差   有ExpressionEvaluator
+             每次都要编译，性能太差   有ExpressionEvaluator
             try
             {
                 CSharpCodeProvider cs = new CSharpCodeProvider();
@@ -467,14 +468,14 @@ namespace HDF.Framework.Text
             catch (Exception ex)
             {
                 throw ex;
-            }*/
+            }
 
             return "";
         }
 
+        */
 
-
-
+        /*
         /// <summary>
         /// 爬取xxx数据
         /// </summary>
@@ -559,6 +560,75 @@ namespace HDF.Framework.Text
             }
 
         }
+        */
+
+        #endregion
+
+        #region 
+            /*
+        public static async Task testvoid()
+        {
+            Console.WriteLine("*****************************************");
+            await test1();
+            Console.WriteLine("*****************************************");
+        }
+
+        public static async Task test1()
+        {
+            Console.WriteLine("*******************");
+            var a = await Task.Run(() =>
+              {
+                  Console.WriteLine();
+                  Console.WriteLine($"这是子线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                  Thread.Sleep(5000);
+                  Console.WriteLine();
+                  return "hhhh";
+              });
+            Console.WriteLine(a);
+            Console.WriteLine("*******************");
+        }
+
+        public static async Task<string> test()
+        {
+            Console.WriteLine("这是async方法---start");
+            Console.WriteLine($"这是async方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+
+
+            var t1 = await Task<string>.Run(() =>
+              {
+                  Console.WriteLine();
+                  Console.WriteLine($"这是子线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                  Thread.Sleep(5000);
+                  Console.WriteLine();
+                  return "hhhh";
+              });
+
+            Console.WriteLine($"这是async方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+
+            Console.WriteLine(t1);
+
+            //Task aa = Task.Run(() => { });
+
+            var t2 = await Task<string>.Run(() =>
+            {
+                Console.WriteLine($"这是task线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                return Task.Run(() =>
+                {
+                    Console.WriteLine($"这是task1111111111线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                    return "aaaaaa";
+                });
+            });
+
+
+            Console.WriteLine("这是async方法---end");
+            return t2;
+            //return "hhhh";
+        }
+        */
+        #endregion 
+
+
+
 
 
 
@@ -566,7 +636,7 @@ namespace HDF.Framework.Text
 
     }
 
-
+    /*
     public class Test : IComparer<Test>
     {
         public string ID;
@@ -587,6 +657,6 @@ namespace HDF.Framework.Text
             return t2;
         }
     }
-
+    */
 
 }
