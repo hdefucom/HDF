@@ -360,27 +360,25 @@ namespace HDF.Framework.Text
 
                 //async await
                 {
-                   // Console.WriteLine($"main方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                    // Console.WriteLine($"main方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
 
-                   // //Task<string> a = test();
+                    // //Task<string> a = test();
 
-                   // ////a.Wait();
+                    // ////a.Wait();
 
-                   // //Console.WriteLine(a.Result);
+                    // //Console.WriteLine(a.Result);
 
-                   //testvoid().Wait();
+                    //testvoid().Wait();
 
 
 
-                   // Console.WriteLine($"main方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                    // Console.WriteLine($"main方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
                 }
 
             }
 
             {
-
-
-                //
+               
             }
 
 
@@ -565,76 +563,71 @@ namespace HDF.Framework.Text
         #endregion
 
         #region 
-            /*
-        public static async Task testvoid()
+        /*
+    public static async Task testvoid()
+    {
+        Console.WriteLine("*****************************************");
+        await test1();
+        Console.WriteLine("*****************************************");
+    }
+
+    public static async Task test1()
+    {
+        Console.WriteLine("*******************");
+        var a = await Task.Run(() =>
+          {
+              Console.WriteLine();
+              Console.WriteLine($"这是子线程ID:{Thread.CurrentThread.ManagedThreadId}");
+              Thread.Sleep(5000);
+              Console.WriteLine();
+              return "hhhh";
+          });
+        Console.WriteLine(a);
+        Console.WriteLine("*******************");
+    }
+
+    public static async Task<string> test()
+    {
+        Console.WriteLine("这是async方法---start");
+        Console.WriteLine($"这是async方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+
+
+        var t1 = await Task<string>.Run(() =>
+          {
+              Console.WriteLine();
+              Console.WriteLine($"这是子线程ID:{Thread.CurrentThread.ManagedThreadId}");
+              Thread.Sleep(5000);
+              Console.WriteLine();
+              return "hhhh";
+          });
+
+        Console.WriteLine($"这是async方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
+
+        Console.WriteLine(t1);
+
+        //Task aa = Task.Run(() => { });
+
+        var t2 = await Task<string>.Run(() =>
         {
-            Console.WriteLine("*****************************************");
-            await test1();
-            Console.WriteLine("*****************************************");
-        }
-
-        public static async Task test1()
-        {
-            Console.WriteLine("*******************");
-            var a = await Task.Run(() =>
-              {
-                  Console.WriteLine();
-                  Console.WriteLine($"这是子线程ID:{Thread.CurrentThread.ManagedThreadId}");
-                  Thread.Sleep(5000);
-                  Console.WriteLine();
-                  return "hhhh";
-              });
-            Console.WriteLine(a);
-            Console.WriteLine("*******************");
-        }
-
-        public static async Task<string> test()
-        {
-            Console.WriteLine("这是async方法---start");
-            Console.WriteLine($"这是async方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
-
-
-            var t1 = await Task<string>.Run(() =>
-              {
-                  Console.WriteLine();
-                  Console.WriteLine($"这是子线程ID:{Thread.CurrentThread.ManagedThreadId}");
-                  Thread.Sleep(5000);
-                  Console.WriteLine();
-                  return "hhhh";
-              });
-
-            Console.WriteLine($"这是async方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
-
-            Console.WriteLine(t1);
-
-            //Task aa = Task.Run(() => { });
-
-            var t2 = await Task<string>.Run(() =>
+            Console.WriteLine($"这是task线程ID:{Thread.CurrentThread.ManagedThreadId}");
+            return Task.Run(() =>
             {
-                Console.WriteLine($"这是task线程ID:{Thread.CurrentThread.ManagedThreadId}");
-                return Task.Run(() =>
-                {
-                    Console.WriteLine($"这是task1111111111线程ID:{Thread.CurrentThread.ManagedThreadId}");
-                    return "aaaaaa";
-                });
+                Console.WriteLine($"这是task1111111111线程ID:{Thread.CurrentThread.ManagedThreadId}");
+                return "aaaaaa";
             });
+        });
 
 
-            Console.WriteLine("这是async方法---end");
-            return t2;
-            //return "hhhh";
-        }
-        */
-        #endregion 
-
-
-
-
-
-
+        Console.WriteLine("这是async方法---end");
+        return t2;
+        //return "hhhh";
+    }
+    */
+        #endregion
 
 
     }
+
 
     /*
     public class Test : IComparer<Test>
