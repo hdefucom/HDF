@@ -52,7 +52,7 @@ namespace HDF.Miniblink
                 wkeInitialize_x86();
             }
         }
-
+        //***************************  释放webview
         [DllImport(DLL_x86, EntryPoint = "wkeDestroyWebView", CallingConvention = CallingConvention.Cdecl)]
         private static extern void wkeDestroyWebView_x86(IntPtr webView);
 
@@ -71,6 +71,7 @@ namespace HDF.Miniblink
             }
         }
 
+        //***************************  触屏
         [DllImport(DLL_x86, EntryPoint = "wkeSetTouchEnabled", CallingConvention = CallingConvention.Cdecl)]
         private static extern void wkeSetTouchEnabled_x86(IntPtr webView, [MarshalAs(UnmanagedType.I1)] bool enable);
 
@@ -89,6 +90,7 @@ namespace HDF.Miniblink
             }
         }
 
+        //***************************  鼠标
         [DllImport(DLL_x86, EntryPoint = "wkeSetMouseEnabled", CallingConvention = CallingConvention.Cdecl)]
         private static extern void wkeSetMouseEnabled_x86(IntPtr webView, [MarshalAs(UnmanagedType.I1)] bool enable);
 
@@ -107,6 +109,7 @@ namespace HDF.Miniblink
             }
         }
 
+        //***************************  设置webView模拟硬件设备环境
         [DllImport(DLL_x86, EntryPoint = "wkeSetDeviceParameter", CallingConvention = CallingConvention.Cdecl,
             CharSet = CharSet.Ansi)]
         private static extern void wkeSetDeviceParameter_x86(IntPtr webView, string device, string s, int i, float f);
@@ -127,6 +130,7 @@ namespace HDF.Miniblink
             }
         }
 
+        //***************************  在内存里创建webview
         [DllImport(DLL_x86, EntryPoint = "wkeCreateWebView", CallingConvention = CallingConvention.Cdecl)]
         private static extern IntPtr wkeCreateWebView_x86();
 
@@ -143,6 +147,8 @@ namespace HDF.Miniblink
             return wkeCreateWebView_x86();
         }
 
+
+        //***************************  设置页面内链接点击后是否跳转新窗口
         [DllImport(DLL_x86, EntryPoint = "wkeSetNavigationToNewWindowEnable",
             CallingConvention = CallingConvention.Cdecl)]
         private static extern void wkeSetNavigationToNewWindowEnable_x86(IntPtr webView,
@@ -165,6 +171,7 @@ namespace HDF.Miniblink
             }
         }
 
+        //***************************  设置是否开启npapi插件，如flash等，默认关
         [DllImport(DLL_x86, EntryPoint = "wkeSetNpapiPluginsEnabled", CallingConvention = CallingConvention.Cdecl)]
         private static extern void wkeSetNpapiPluginsEnabled_x86(IntPtr webView, [MarshalAs(UnmanagedType.I1)] bool b);
 
@@ -183,6 +190,7 @@ namespace HDF.Miniblink
             }
         }
 
+        //***************************  开启无头模式，默认关。开启后页面不会被渲染上屏，直接内存运行，大幅提升性能。此功能方便用来实现一些爬虫等工具，不过目前很多网站对这种模式已经进行了识别和反制。
         [DllImport(DLL_x86, EntryPoint = "wkeSetHeadlessEnabled", CallingConvention = CallingConvention.Cdecl)]
         private static extern void wkeSetHeadlessEnabled_x86(IntPtr webView, [MarshalAs(UnmanagedType.I1)] bool b);
 
