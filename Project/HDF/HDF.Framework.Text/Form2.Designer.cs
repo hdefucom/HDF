@@ -28,32 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl11 = new HDF.Framework.Text.UserControl1();
             this.SuspendLayout();
-            // 
-            // userControl11
-            // 
-            this.userControl11.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.userControl11.Location = new System.Drawing.Point(171, 113);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(304, 244);
-            this.userControl11.TabIndex = 0;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 461);
-            this.Controls.Add(this.userControl11);
+            this.ClientSize = new System.Drawing.Size(741, 576);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form2_Paint);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private UserControl1 userControl11;
     }
 }

@@ -7,6 +7,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
 using System.IO;
+using System.Text;
+using HDF.Core.WebApi.Model;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.VisualBasic;
 
 namespace HDF.Core.WebApi
@@ -23,8 +27,8 @@ namespace HDF.Core.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
 
+            services.AddControllers();
 
             services.AddSwaggerGen(option =>
             {
@@ -42,7 +46,36 @@ namespace HDF.Core.WebApi
 
             });
 
-            //services.AddSwaggerGenNewtonsoftSupport();
+
+            services.Configure<TokenConfig>(Configuration.GetSection("TokenConfig"));
+            var token = Configuration.GetSection("TokenConfig").Get<TokenConfig>();
+            services.AddSingleton<TokenConfig>(token);
+
+
+            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme);
+
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(token.Secret)),
+                    ValidIssuer = token.Issuer,
+                    ValidAudience = token.Audience,
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
+
+
+
 
         }
 
@@ -66,12 +99,15 @@ namespace HDF.Core.WebApi
             });
 
 
-            app.UseHttpsRedirection();
+            app.UseHttpsRedirection();//Https重定向
 
-            app.UseRouting();
+            app.UseAuthentication();//身份验证
 
-            app.UseAuthorization();
+            app.UseRouting();//路由
 
+            app.UseAuthorization();//授权
+
+            app.UseStaticFiles();//静态文件
 
             app.UseEndpoints(endpoints =>
             {

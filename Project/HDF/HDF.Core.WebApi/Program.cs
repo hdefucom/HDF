@@ -13,6 +13,7 @@ namespace HDF.Core.WebApi
     {
         public static void Main(string[] args)
         {
+            
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -20,7 +21,7 @@ namespace HDF.Core.WebApi
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>().UseUrls("http://*:80");
                 });
     }
 }

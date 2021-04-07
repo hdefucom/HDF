@@ -11,6 +11,11 @@ namespace HDF.Framework.Common
     /// </summary>
     public static class DBHelper
     {
+        static DBHelper()
+        {
+            //DbProviderFactory = factory;
+            //ConnectionString = connectionString;
+        }
         #region Public Property
 
         /// <summary>

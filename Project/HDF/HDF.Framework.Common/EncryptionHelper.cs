@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Security.Cryptography;
+using System.Text.RegularExpressions;
 
 namespace HDF.Framework.Common
 {
@@ -22,6 +23,17 @@ namespace HDF.Framework.Common
                 byte[] encryptdata = md5.ComputeHash(bytes);//将字符串加密后也转换为字符数组
                 return Convert.ToBase64String(encryptdata);//将加密后的字节数组转换为加密字符串
             }
+        }
+
+
+
+
+
+
+        public static string ToSnakeCase(this string input)
+        {
+            if (string.IsNullOrEmpty(input)) { return input; }
+            return Regex.Replace(input, @"([a-z0-9])([A-Z])", "$1_$2").ToLower();
         }
     }
 }
