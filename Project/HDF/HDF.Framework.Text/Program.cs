@@ -39,6 +39,9 @@ using System.Windows.Interop;
 using System.Management;
 using Microsoft.Win32;
 using System.Drawing.Drawing2D;
+using HtmlDocument = HtmlAgilityPack.HtmlDocument;
+using System.Data.Common;
+using System.Drawing.Imaging;
 
 namespace HDF.Framework.Text
 {
@@ -488,17 +491,195 @@ namespace HDF.Framework.Text
                  */
             }
 
+
+
+
             //矩阵
             {
 
-                Matrix a = new Matrix();
+
+
+                var name = "".GetType().Name;
+
+               
+
+
+
+                var f = Control.DefaultFont;
+                var s = f.Size;
+                var h = f.Height;
+                var hh = f.GetHeight();
+                var hh2 = f.GetHeight(96);
+
+                Font ff = new Font("宋体", 24f, GraphicsUnit.Point);
+                var fs = ff.Size;
+                var fh = ff.Height;
+                var fhh = ff.GetHeight();
+                var fhh2 = ff.GetHeight(96);
+
+                var ls = ff.FontFamily.GetLineSpacing(ff.Style);
+                var lsa = ff.FontFamily.GetCellAscent(ff.Style);
+                var lsd = ff.FontFamily.GetCellDescent(ff.Style);
+
+                using (Graphics graphics = Graphics.FromHwnd(IntPtr.Zero))
+                {
+                    graphics.PageUnit = GraphicsUnit.Pixel;
+                    var ss1 = graphics.MeasureString("黄德富", ff);
+
+                    graphics.PageUnit = GraphicsUnit.Point;
+                    var ss11 = graphics.MeasureString("黄德富", ff);
+
+
+                    var ss2 = graphics.MeasureString("asfsdf", ff);
+                    var ss3 = graphics.MeasureString("12345", ff);
+                    var ss4 = graphics.MeasureString("工工工工工工工", ff);
+                    var hh3 = f.GetHeight(graphics);
+
+
+
+                    var tt1 = TextRenderer.MeasureText("黄德富", ff);
+                    var tt2 = TextRenderer.MeasureText("asfsdf", ff);
+                    var tt3 = TextRenderer.MeasureText("12345", ff);
+                    var tt4 = TextRenderer.MeasureText("工工工工工工工", ff);
+
+
+
+                    //Image img = new Bitmap((int)ss1.Width, (int)ss1.Height);
+                    Image img = new Bitmap(100, 700);
+                    using (Graphics g = Graphics.FromImage(img))
+                    {
+                        g.DrawString("黄德富范德萨发发送到发饭啊发生饭", ff, Brushes.Black, new RectangleF(0, 0, 100, 700));
+                        img.Save(@"C:\Users\12131\Desktop\text.png", ImageFormat.Png);
+                    }
 
 
 
 
-                //a.Scale();
+
+                }
 
 
+
+
+
+
+                //TextRenderer.DrawText()
+            }
+
+            //爬虫
+            {
+
+
+
+                //HtmlWeb web = new HtmlWeb();
+
+                //WebBrowser browser = new WebBrowser();
+
+                //browser.Navigated += (sender, e) =>
+                //{
+
+
+
+                //};
+                //
+                //browser.Navigate($"https://wws.lanzous.com{line}{src}");
+
+                //var lines = new List<string>();
+
+                //foreach (string line in lines)
+                //{
+                //    if (string.IsNullOrWhiteSpace(line))
+                //        continue;
+
+
+                //    var document = web.Load($"https://wws.lanzous.com{line}");
+
+                //    var iframe = document.DocumentNode.SelectSingleNode("//iframe");
+                //    var src = iframe.Attributes["src"].Value;
+
+
+
+                //    var down = web.LoadFromBrowser($"https://wws.lanzous.com{line}{src}", obj =>
+                //    {
+                //        var webBrowser = (WebBrowser)obj;
+
+
+                //        var a = webBrowser.Document.GetElementById("go")?.FirstChild;
+
+                //        var b = !string.IsNullOrEmpty(a?.GetAttribute("href"));
+                //        if (b)
+                //        {
+                //            //a.InvokeMember("onclick");
+
+                //        }
+                //        return b;
+                //    });
+
+
+                //    HtmlNode node = down.DocumentNode.SelectSingleNode("//div[@id=\"go\"]//a");
+                //    var href = node.Attributes["href"].Value;
+
+
+                //    HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(href);
+                //    req.Method = "GET";
+                //    req.MaximumAutomaticRedirections = 1;
+                //    req.AllowAutoRedirect = true;
+                //    using (WebResponse wr = req.GetResponse())
+                //    {
+
+                //        //StreamReader myStreamReader = new StreamReader(wr.GetResponseStream());
+
+                //        //resultString = myStreamReader.ReadToEnd();
+
+                //        //myStreamReader.Close();
+                //        //myResponseStream.Close();
+
+
+                //    }
+                //}
+
+
+
+
+
+
+
+
+
+            }
+
+            //正则操作
+            {
+
+
+                //XmlDocument doc = new XmlDocument();
+                //doc.Load(@"C:\Users\12131\Desktop\图灵丛书.xml");
+
+                //var list = doc.DocumentElement.ChildNodes.Cast<XmlElement>().Select(a => a.InnerText).ToList();
+
+
+                //DirectoryInfo directory = Directory.CreateDirectory(@"E:\德芙\QQ Download\图灵程序设计丛书171部");
+
+                //var files = directory.GetFiles().Select(f => f.Name).ToList();
+
+                //var nones = new List<string>();
+                //foreach (var b in list)
+                //{
+                //    if (!files.Contains(b))
+                //        nones.Add(b);
+                //}
+
+
+                //foreach (var file in directory.GetFiles())
+                //{
+                //    var name = file.FullName
+                //        .Replace("[图灵交互设计丛书].", "")
+                //        .Replace("[图灵程序设计丛书].", "")
+                //        .Replace("[图灵图书].", "")
+                //        .Replace("[图灵新知].", "")
+                //        .Replace("[图灵原创].", "");
+                //    file.MoveTo(name);
+                //}
 
 
 
@@ -507,18 +688,80 @@ namespace HDF.Framework.Text
 
 
 
-
-
-
-
-
-
             Console.ReadLine();
         }
+        [DllImport("gdi32.dll", CharSet = CharSet.Auto)]
+        public static extern int GetDeviceCaps(int hDC, int index);
 
+        /// <summary>
+        /// 从网站上下载pdf，转化为字节流
+        /// </summary>
+        /// <param name="srcPdfFile">文件地址：'https://******/group2/M00/00/04/wKj-mlpcoZ2IUbK5AACrpaV6k98AAAB6gAAAAAAAKu9562.pdf'</param>
 
+        /// <returns></returns>
+        public static Byte[] GetByteByRemoteURL(string srcPdfFile)
+        {
+            byte[] arraryByte;
+            HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(srcPdfFile);
+            req.Method = "GET";
+            using (WebResponse wr = req.GetResponse())
+            {
+                StreamReader responseStream = new StreamReader(wr.GetResponseStream(), Encoding.UTF8);
+                int length = (int)wr.ContentLength;
+                byte[] bs = new byte[length];
 
+                HttpWebResponse response = wr as HttpWebResponse;
+                Stream stream = response.GetResponseStream();
 
+                //读取到内存
+                MemoryStream stmMemory = new MemoryStream();
+                byte[] buffer1 = new byte[length];
+                int i;
+                //将字节逐个放入到Byte 中
+                while ((i = stream.Read(buffer1, 0, buffer1.Length)) > 0)
+                {
+                    stmMemory.Write(buffer1, 0, i);
+                }
+                arraryByte = stmMemory.ToArray();
+                stmMemory.Close();
+            }
+            return arraryByte;
+        }
+        /// <summary>
+        /// 从网站上下载文件，保存到其他路径
+        /// </summary>
+        /// <param name="pdfFile">文件地址</param>
+        /// <param name="saveLoadFile">保存文件路径：D:\12221.pdf</param>
+        /// <returns></returns>
+        public static string SaveRemoteFile(string saveLoadFile, string pdfFile)
+        {
+            //bool flag = false;
+            var f = saveLoadFile + Guid.NewGuid().ToString("D") + ".pdf";
+            Uri downUri = new Uri(pdfFile);
+            //建立一个ＷＥＢ请求，返回HttpWebRequest对象
+            HttpWebRequest hwr = (HttpWebRequest)WebRequest.Create(downUri);
+            //流对象使用完后自动关闭
+            using (Stream stream = hwr.GetResponse().GetResponseStream())
+            {
+                //文件流，流信息读到文件流中，读完关闭
+                using (FileStream fs = File.Create(f))
+                {
+                    //建立字节组，并设置它的大小是多少字节
+                    byte[] bytes = new byte[102400];
+                    int n = 1;
+                    while (n > 0)
+                    {
+                        //一次从流中读多少字节，并把值赋给Ｎ，当读完后，Ｎ为０,并退出循环
+                        n = stream.Read(bytes, 0, 10240);
+                        fs.Write(bytes, 0, n); //将指定字节的流信息写入文件流中
+                    }
+                }
+            }
+
+            //return flag;
+            //return _outPath + saveLoadFile;
+            return f;
+        }
 
 
         #region 获取系统缩放比例、分辨率
@@ -810,15 +1053,15 @@ namespace HDF.Framework.Text
 
         #region 
         /*
-    public static async Task testvoid()
-    {
+        public static async Task testvoid()
+        {
         Console.WriteLine("*****************************************");
         await test1();
         Console.WriteLine("*****************************************");
-    }
+        }
 
-    public static async Task test1()
-    {
+        public static async Task test1()
+        {
         Console.WriteLine("*******************");
         var a = await Task.Run(() =>
           {
@@ -830,10 +1073,10 @@ namespace HDF.Framework.Text
           });
         Console.WriteLine(a);
         Console.WriteLine("*******************");
-    }
+        }
 
-    public static async Task<string> test()
-    {
+        public static async Task<string> test()
+        {
         Console.WriteLine("这是async方法---start");
         Console.WriteLine($"这是async方法线程ID:{Thread.CurrentThread.ManagedThreadId}");
 
@@ -867,8 +1110,8 @@ namespace HDF.Framework.Text
         Console.WriteLine("这是async方法---end");
         return t2;
         //return "hhhh";
-    }
-    */
+        }
+        */
         #endregion
 
 

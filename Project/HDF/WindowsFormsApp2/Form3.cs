@@ -22,16 +22,14 @@ namespace WindowsFormsApp2
 
         }
 
-
-
         private void Form3_Paint(object sender, PaintEventArgs e)
         {
 
-            var p = panel1.Location;
-            p.Offset(-1, -1);
-            var s = new Size(panel1.Size.Width + 2, panel1.Size.Height + 2);
+            //var p = panel1.Location;
+            //p.Offset(-1, -1);
+            //var s = new Size(panel1.Size.Width + 2, panel1.Size.Height + 2);
 
-            ControlPaint.DrawBorder(e.Graphics, panel1.ClientRectangle, Color.Red, ButtonBorderStyle.Solid);
+            //ControlPaint.DrawBorder(e.Graphics, panel1.ClientRectangle, Color.Red, ButtonBorderStyle.Solid);
 
 
 
@@ -94,37 +92,37 @@ namespace WindowsFormsApp2
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            Image img = Image.FromFile(@"C:\Users\12131\Desktop\hdf.png");
+            //Image img = Image.FromFile(@"C:\Users\12131\Desktop\hdf.png");
 
-            Bitmap bmp = new Bitmap(img);
-
-
-            for (int x = 0; x < bmp.Width; x++)
-            {
-                for (int y = 0; y < bmp.Height; y++)
-                {
-                    var c = bmp.GetPixel(x, y);
+            //Bitmap bmp = new Bitmap(img);
 
 
-
-                    //if (c.A == 0)
-                    //    continue;
-
-                    //var newc = Color.FromArgb(200, c);
-
-                    //bmp.SetPixel(x, y, newc);
-
-                    c = Color.FromArgb(c.A, (int)(c.R * 0.6), (int)(c.G * 0.6), (int)(c.B * 0.6));
-
-
-                    bmp.SetPixel(x, y, c);
+            //for (int x = 0; x < bmp.Width; x++)
+            //{
+            //    for (int y = 0; y < bmp.Height; y++)
+            //    {
+            //        var c = bmp.GetPixel(x, y);
 
 
 
-                }
-            }
+            //        //if (c.A == 0)
+            //        //    continue;
 
-            bmp.Save(@"C:\Users\12131\Desktop\NewHDF.png");
+            //        //var newc = Color.FromArgb(200, c);
+
+            //        //bmp.SetPixel(x, y, newc);
+
+            //        c = Color.FromArgb(c.A, (int)(c.R * 0.6), (int)(c.G * 0.6), (int)(c.B * 0.6));
+
+
+            //        bmp.SetPixel(x, y, c);
+
+
+
+            //    }
+            //}
+
+            //bmp.Save(@"C:\Users\12131\Desktop\NewHDF.png");
         }
 
 
