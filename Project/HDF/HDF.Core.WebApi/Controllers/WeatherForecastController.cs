@@ -52,8 +52,12 @@ namespace HDF.Core.WebApi.Controllers
 
 
 
-
-
+        [HttpPost]
+        public string AAAAA([FromForm] string str)
+        {
+            var r = Request.Form["str"].ToString();
+            return str;
+        }
 
 
 

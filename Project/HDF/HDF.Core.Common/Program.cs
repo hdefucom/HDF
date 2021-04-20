@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -7,18 +8,9 @@ namespace HDF.Core.Common
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-
-
-
-            SizeF sf = new Size();
-
-
-            PointF pf = new Point();
-
-
-            RectangleF rf = new Rectangle();
 
 
 
