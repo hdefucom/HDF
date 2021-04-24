@@ -52,6 +52,7 @@
     <Compile Include="ImageUpdate.cs" />
     <Compile Include="ORMHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Socket\ScoketTest.cs" />
     <Compile Include="StringCodeHelper.cs" />
     <Compile Include="WindowsServiceOperation.cs" />
     <Compile Include="WinForm\FormPrintShadow.cs" />

@@ -1,36 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
-using System.Net.Sockets;
+using System.Linq;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace HDF.Test.Socket.Server
+namespace HDF.Framework.Common.Socket
 {
-    public partial class Form_Main : Form
+    class ScoketTest
     {
-        public Form_Main()
-        {
-            InitializeComponent();
 
-            TextBox.CheckForIllegalCrossThreadCalls = false;
-        }
+        private TextBox txt_Message;
+
+
+
+
+
 
         private System.Net.Sockets.Socket _listenSocket;
 
         private List<System.Net.Sockets.Socket> _clientSockets = new List<System.Net.Sockets.Socket>();
 
-        private void btn_Send_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void Form_Main_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void btn_Open_Click(object sender, EventArgs e)
         {
@@ -117,10 +113,6 @@ namespace HDF.Test.Socket.Server
             if (socket != null)
                 _clientSockets.Remove(socket);
         }
-
-
-
-
 
 
 

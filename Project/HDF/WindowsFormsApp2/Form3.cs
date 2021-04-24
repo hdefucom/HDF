@@ -20,7 +20,12 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
 
+            var a = this.CurrentAutoScaleDimensions;
+            this.AutoScaleMode = AutoScaleMode.Dpi;
+            this.Scale(new SizeF(0.5f, 0.5f));
+
         }
+
 
         private void Form3_Paint(object sender, PaintEventArgs e)
         {
@@ -48,6 +53,15 @@ namespace WindowsFormsApp2
             //myPath.AddBezier(50, 50, 50, 0, 100, 0, 100, 0);
 
             //e.Graphics.DrawPath(new Pen(Color.Red, 2), myPath);
+
+
+            //e.Graphics.FillRectangle(Brushes.Red, new Rectangle(0, 0, 96, 96));
+
+            //e.Graphics.PageUnit = GraphicsUnit.Document;
+            //e.Graphics.FillRectangle(Brushes.Black, new Rectangle(300, 300, 300, 300));
+
+
+            e.Graphics.Save();
         }
         public void DrawLineFlag(Graphics g, int x, int y, double rate)
         {

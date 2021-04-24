@@ -42,6 +42,7 @@ using System.Drawing.Drawing2D;
 using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 using System.Data.Common;
 using System.Drawing.Imaging;
+using System.ComponentModel;
 
 namespace HDF.Framework.Text
 {
@@ -56,9 +57,9 @@ namespace HDF.Framework.Text
         }
     }
 
+
     class Program
     {
-
         [STAThread]
         static void Main(string[] args)
         {
@@ -499,64 +500,62 @@ namespace HDF.Framework.Text
 
 
 
-                var name = "".GetType().Name;
-
-               
+                //var name = "".GetType().Name;
 
 
 
-                var f = Control.DefaultFont;
-                var s = f.Size;
-                var h = f.Height;
-                var hh = f.GetHeight();
-                var hh2 = f.GetHeight(96);
+                //var f = Control.DefaultFont;
+                //var s = f.Size;
+                //var h = f.Height;
+                //var hh = f.GetHeight();
+                //var hh2 = f.GetHeight(96);
 
-                Font ff = new Font("宋体", 24f, GraphicsUnit.Point);
-                var fs = ff.Size;
-                var fh = ff.Height;
-                var fhh = ff.GetHeight();
-                var fhh2 = ff.GetHeight(96);
+                //Font ff = new Font("宋体", 24f, GraphicsUnit.Point);
+                //var fs = ff.Size;
+                //var fh = ff.Height;
+                //var fhh = ff.GetHeight();
+                //var fhh2 = ff.GetHeight(96);
 
-                var ls = ff.FontFamily.GetLineSpacing(ff.Style);
-                var lsa = ff.FontFamily.GetCellAscent(ff.Style);
-                var lsd = ff.FontFamily.GetCellDescent(ff.Style);
+                //var ls = ff.FontFamily.GetLineSpacing(ff.Style);
+                //var lsa = ff.FontFamily.GetCellAscent(ff.Style);
+                //var lsd = ff.FontFamily.GetCellDescent(ff.Style);
 
-                using (Graphics graphics = Graphics.FromHwnd(IntPtr.Zero))
-                {
-                    graphics.PageUnit = GraphicsUnit.Pixel;
-                    var ss1 = graphics.MeasureString("黄德富", ff);
+                //using (Graphics graphics = Graphics.FromHwnd(IntPtr.Zero))
+                //{
+                //    graphics.PageUnit = GraphicsUnit.Pixel;
+                //    var ss1 = graphics.MeasureString("黄德富", ff);
 
-                    graphics.PageUnit = GraphicsUnit.Point;
-                    var ss11 = graphics.MeasureString("黄德富", ff);
-
-
-                    var ss2 = graphics.MeasureString("asfsdf", ff);
-                    var ss3 = graphics.MeasureString("12345", ff);
-                    var ss4 = graphics.MeasureString("工工工工工工工", ff);
-                    var hh3 = f.GetHeight(graphics);
+                //    graphics.PageUnit = GraphicsUnit.Point;
+                //    var ss11 = graphics.MeasureString("黄德富", ff);
 
 
-
-                    var tt1 = TextRenderer.MeasureText("黄德富", ff);
-                    var tt2 = TextRenderer.MeasureText("asfsdf", ff);
-                    var tt3 = TextRenderer.MeasureText("12345", ff);
-                    var tt4 = TextRenderer.MeasureText("工工工工工工工", ff);
+                //    var ss2 = graphics.MeasureString("asfsdf", ff);
+                //    var ss3 = graphics.MeasureString("12345", ff);
+                //    var ss4 = graphics.MeasureString("工工工工工工工", ff);
+                //    var hh3 = f.GetHeight(graphics);
 
 
 
-                    //Image img = new Bitmap((int)ss1.Width, (int)ss1.Height);
-                    Image img = new Bitmap(100, 700);
-                    using (Graphics g = Graphics.FromImage(img))
-                    {
-                        g.DrawString("黄德富范德萨发发送到发饭啊发生饭", ff, Brushes.Black, new RectangleF(0, 0, 100, 700));
-                        img.Save(@"C:\Users\12131\Desktop\text.png", ImageFormat.Png);
-                    }
+                //    var tt1 = TextRenderer.MeasureText("黄德富", ff);
+                //    var tt2 = TextRenderer.MeasureText("asfsdf", ff);
+                //    var tt3 = TextRenderer.MeasureText("12345", ff);
+                //    var tt4 = TextRenderer.MeasureText("工工工工工工工", ff);
+
+
+
+                //    //Image img = new Bitmap((int)ss1.Width, (int)ss1.Height);
+                //    Image img = new Bitmap(100, 700);
+                //    using (Graphics g = Graphics.FromImage(img))
+                //    {
+                //        g.DrawString("黄德富范德萨发发送到发饭啊发生饭", ff, Brushes.Black, new RectangleF(0, 0, 100, 700));
+                //        img.Save(@"C:\Users\12131\Desktop\text.png", ImageFormat.Png);
+                //    }
 
 
 
 
 
-                }
+                //}
 
 
 
@@ -685,11 +684,43 @@ namespace HDF.Framework.Text
 
             }
 
+            {
 
+
+
+
+
+
+
+            }
 
 
             Console.ReadLine();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+        [DllImport("kernel32.dll")]
+        static extern IntPtr GetConsoleWindow();
+
+
+
+
+
+
+
+
+
+
         [DllImport("gdi32.dll", CharSet = CharSet.Auto)]
         public static extern int GetDeviceCaps(int hDC, int index);
 

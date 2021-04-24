@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,6 +33,20 @@ namespace HDF.Framework.Common
             if (act == default)
                 throw new ArgumentNullException(nameof(act));
 
+            foreach (var item in soures)
+            {
+                act.Invoke(item);
+            }
+        }
+
+        public static void Foreach<T>(this IEnumerable<T> soures, Expression<Action<T>> expression)
+        {
+            if (soures == default)
+                throw new ArgumentNullException(nameof(soures));
+            if (expression == default)
+                throw new ArgumentNullException(nameof(expression));
+
+            var act = expression.Compile();
             foreach (var item in soures)
             {
                 act.Invoke(item);

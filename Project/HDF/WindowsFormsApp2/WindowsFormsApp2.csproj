@@ -122,11 +122,5 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Gocent.Library.Editor\Gocent.Library.Editor.csproj">
-      <Project>{1344f766-22f5-4fcf-853d-11169035cf5d}</Project>
-      <Name>Gocent.Library.Editor</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
