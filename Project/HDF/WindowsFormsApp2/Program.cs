@@ -100,10 +100,6 @@ namespace WindowsFormsApp2
 
 
 
-
-
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form3());
@@ -118,6 +114,12 @@ namespace WindowsFormsApp2
 
     }
 
+
+    public static class test
+    {
+
+        public static void ToInt32(this Convert c) { }
+    }
 
 
 
