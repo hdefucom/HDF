@@ -65,34 +65,6 @@ namespace WindowsFormsApp2
 
             var font = Control.DefaultFont;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            */
-
-
-            /*
-            [user]
-            email = 51500043 + h1213159982@users.noreply.github.com
-                email = 4953047 + h1213159982@user.noreply.gitee.com
             */
 
 
