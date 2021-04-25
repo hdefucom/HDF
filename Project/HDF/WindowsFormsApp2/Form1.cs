@@ -1,14 +1,8 @@
-﻿using Gocent.Library.Editor.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Windows.Controls;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp2
@@ -26,39 +20,6 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //label1.Scale(new SizeF(0.5f, 0.5f));
-
-            this.borderUserControl1.Scroll += (s, en) =>
-            {
-                label2.Text = DateTime.Now.Millisecond.ToString();
-            };
-
-
-            this.borderUserControl1.XScroll += (s, en) =>
-            {
-                label2.Text = DateTime.Now.Millisecond.ToString();
-            };
-
-            this.borderUserControl1.GotFocus += (s, en) =>
-            {
-                label2.Text = "aaaaaaaaaaaa";
-            };
-
-
-            borderUserControl1.VerticalScroll.Enabled = true;
-
-            documentViewControl1.Scale(new SizeF(0.5f, 0.5f));
-
-
-            this.documentViewControl1.Scroll += (s, en) =>
-            {
-                label2.Text = DateTime.Now.Millisecond.ToString();
-            };
-
-            this.documentViewControl1.MouseWheel += (s, en) =>
-            {
-                label2.Text = DateTime.Now.Millisecond.ToString();
-            };
 
             //this.Scale(new SizeF(0.5f, 0.5f)); 
 
@@ -211,8 +172,6 @@ namespace WindowsFormsApp2
             //["sdfsdfsd","sdfsd","sdfsdf"]
 
 
-
-            this.documentViewControl1.Focus();
         }
     }
 }

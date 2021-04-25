@@ -34,8 +34,6 @@ namespace WindowsFormsApp2
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.documentViewControl1 = new Gocent.Library.Editor.Controls.DocumentViewControl();
-            this.borderUserControl1 = new Gocent.Library.Editor.Controls.BorderUserControl();
             this.SuspendLayout();
             // 
             // label1
@@ -88,36 +86,14 @@ namespace WindowsFormsApp2
             this.panel2.TabIndex = 7;
             this.panel2.Click += new System.EventHandler(this.panel1_Click);
             // 
-            // documentViewControl1
-            // 
-            this.documentViewControl1.AutoScroll = true;
-
-            this.documentViewControl1.Location = new System.Drawing.Point(396, 248);
-            this.documentViewControl1.Name = "documentViewControl1";
-            this.documentViewControl1.Size = new System.Drawing.Size(200, 200);
-            this.documentViewControl1.TabIndex = 8;
-            // 
-            // borderUserControl1
-            // 
-            this.borderUserControl1.AutoScroll = true;
-            this.borderUserControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.borderUserControl1.DoubleBuffering = false;
-            this.borderUserControl1.Location = new System.Drawing.Point(283, 63);
-            this.borderUserControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.borderUserControl1.Name = "borderUserControl1";
-            this.borderUserControl1.Size = new System.Drawing.Size(150, 150);
-            this.borderUserControl1.TabIndex = 2;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(672, 493);
-            this.Controls.Add(this.documentViewControl1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.borderUserControl1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -133,11 +109,9 @@ namespace WindowsFormsApp2
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Gocent.Library.Editor.Controls.BorderUserControl borderUserControl1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private Gocent.Library.Editor.Controls.DocumentViewControl documentViewControl1;
     }
 }
 
