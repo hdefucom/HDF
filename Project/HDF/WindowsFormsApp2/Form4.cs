@@ -21,6 +21,8 @@ namespace WindowsFormsApp2
         private void Form4_Load(object sender, EventArgs e)
         {
 
+
+
         }
 
         private void Form4_Shown(object sender, EventArgs e)
@@ -261,6 +263,8 @@ namespace WindowsFormsApp2
 
         //protected override void OnPreviewKeyDown(PreviewKeyDownEventArgs e)
         //{
+
+
         //    base.OnPreviewKeyDown(e);
         //    Console.WriteLine();
         //    Console.WriteLine("引发OnPreviewKeyDown");
