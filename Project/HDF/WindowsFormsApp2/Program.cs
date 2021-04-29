@@ -65,11 +65,36 @@ namespace WindowsFormsApp2
 
             var font = Control.DefaultFont;
 
+
+
+
+            using (Graphics g = Graphics.FromHwnd(IntPtr.Zero))
+            {
+                var format = new StringFormat(StringFormat.GenericTypographic);
+                format.FormatFlags = StringFormatFlags.FitBlackBox | System.Drawing.StringFormatFlags.MeasureTrailingSpaces;
+                SizeF CharSize = g.MeasureString("__", Control.DefaultFont, 10000, format);
+
+                var h1 = Control.DefaultFont.GetHeight(g);
+                var h2 = Control.DefaultFont.Height;
+                var h3 = Control.DefaultFont.GetHeight();
+                var h4 = Control.DefaultFont.GetHeight(96);
+            }
+
+
+
             */
+
+
+
+
+
+
+
+
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form4());
+            Application.Run(new Form3());
         }
 
 

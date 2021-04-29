@@ -61,74 +61,12 @@ namespace WindowsFormsApp2.Properties {
         }
         
         /// <summary>
-        ///   查找类似 1 的本地化字符串。
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static string String1 {
+        internal static System.Drawing.Bitmap ParagraphFlag {
             get {
-                return ResourceManager.GetString("String1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 2 的本地化字符串。
-        /// </summary>
-        internal static string String11 {
-            get {
-                return ResourceManager.GetString("String11", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 4 的本地化字符串。
-        /// </summary>
-        internal static string String111 {
-            get {
-                return ResourceManager.GetString("String111", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 4 的本地化字符串。
-        /// </summary>
-        internal static string String1111 {
-            get {
-                return ResourceManager.GetString("String1111", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 2 的本地化字符串。
-        /// </summary>
-        internal static string String112 {
-            get {
-                return ResourceManager.GetString("String112", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 3 的本地化字符串。
-        /// </summary>
-        internal static string String12 {
-            get {
-                return ResourceManager.GetString("String12", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 3 的本地化字符串。
-        /// </summary>
-        internal static string String121 {
-            get {
-                return ResourceManager.GetString("String121", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 1 的本地化字符串。
-        /// </summary>
-        internal static string String13 {
-            get {
-                return ResourceManager.GetString("String13", resourceCulture);
+                object obj = ResourceManager.GetObject("ParagraphFlag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
