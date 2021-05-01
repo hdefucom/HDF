@@ -84,10 +84,10 @@ namespace WindowsFormsApp2
 
             */
 
+            Rectangle.Ceiling
 
 
-
-
+            var c = Color.FromArgb(140, Color.Red);
 
 
 

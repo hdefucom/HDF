@@ -192,95 +192,70 @@ namespace WindowsFormsApp2
 
             //bmp.Save(@"C:\Users\12131\Desktop\NewHDF.png");
 
-            //(int x, int y) = new aaa();
-            (int x, int y) = new bbb();
-
 
 
 
 
         }
 
-
     }
 
-    public class aaa
+
+
+
+
+
+    public class PanelEx : Panel
     {
-        public void Deconstruct(out int x, out int y)
+        protected override void WndProc(ref Message m)
         {
-            x = 10;
-            y = 10;
-        }
-    }
-
-    public class bbb
-    {
-
-    }
-    public static class ccc
-    {
-        public static void Deconstruct(this bbb b, out int x, out int y)
-        {
-            x = 10;
-            y = 10;
-            //return (0, 0);
+            base.WndProc(ref m);
+            //FormShiftPosition.WindowsApi.SetDrag(ref m);
         }
 
 
-
-
-
-        public class PanelEx : Panel
+        protected override void OnPaint(PaintEventArgs e)
         {
-            protected override void WndProc(ref Message m)
+
+            DrawPeiRect(e.Graphics, this.ClientRectangle, 10);
+            base.OnPaint(e);
+        }
+
+
+        private void DrawPeiRect(Graphics g, RectangleF rect, float len = 10f) => DrawPeiRect(g, rect, len, len, len, len);
+        private void DrawPeiRect(Graphics g, RectangleF rect, float top, float bottom, float left, float right)
+        {
+            float x = rect.X, y = rect.Y, w = rect.Width, h = rect.Height;
+
+            GraphicsPath path = new GraphicsPath();
+            //path.AddBezier(x, y + r1, x, y, x + r1, y, x + r1, y);
+            //path.AddLine(x + r1, y, x + w - r2, y);
+            //path.AddBezier(x + w - r2, y, x + w, y, x + w, y + r2, x + w, y + r2);
+            //path.AddLine(x + w, y + r2, x + w, y + h - r3);
+            //path.AddBezier(x + w, y + h - r3, x + w, y + h, x + w - r3, y + h, x + w - r3, y + h);
+            //path.AddLine(x + w - r3, y + h, x + r4, y + h);
+            //path.AddBezier(x + r4, y + h, x, y + h, x, y + h - r4, x, y + h - r4);
+            //path.AddLine(x, y + h - r4, x, y + r1);
+
+
+            path.AddBezier(rect.X, rect.Y + top, rect.X, rect.Y, rect.X + left, rect.Y, rect.X + left, rect.Y);
+            path.AddLine(rect.X + left, rect.Y, rect.Right - right, rect.Y);
+            path.AddBezier(rect.Right - right, rect.Y, rect.Right, rect.Y, rect.Right, rect.Y + top, rect.Right, rect.Y + top);
+            path.AddLine(rect.Right, rect.Y + top, rect.Right, rect.Bottom - bottom);
+            path.AddBezier(rect.Right, rect.Bottom - bottom, rect.Right, rect.Bottom, rect.Right - right, rect.Bottom, rect.Right - right, rect.Bottom);
+            path.AddLine(rect.Right - right, rect.Bottom, rect.X + left, rect.Bottom);
+            path.AddBezier(rect.X + left, rect.Bottom, rect.X, rect.Bottom, rect.X, rect.Bottom - bottom, rect.X, rect.Bottom - bottom);
+            path.AddLine(rect.X, rect.Bottom - bottom, rect.X, rect.Y + top);
+
+
+
+
+            //生成一个圆角矩形渐变画刷
+            PathGradientBrush pb = new PathGradientBrush(path);
+
+            //从外到内渐变颜色
+            Color[] colors =
             {
-                base.WndProc(ref m);
-                //FormShiftPosition.WindowsApi.SetDrag(ref m);
-            }
-
-
-            protected override void OnPaint(PaintEventArgs e)
-            {
-
-                DrawPeiRect(e.Graphics, this.ClientRectangle, 10);
-                base.OnPaint(e);
-            }
-
-
-            private void DrawPeiRect(Graphics g, RectangleF rect, float len = 10f) => DrawPeiRect(g, rect, len, len, len, len);
-            private void DrawPeiRect(Graphics g, RectangleF rect, float top, float bottom, float left, float right)
-            {
-                float x = rect.X, y = rect.Y, w = rect.Width, h = rect.Height;
-
-                GraphicsPath path = new GraphicsPath();
-                //path.AddBezier(x, y + r1, x, y, x + r1, y, x + r1, y);
-                //path.AddLine(x + r1, y, x + w - r2, y);
-                //path.AddBezier(x + w - r2, y, x + w, y, x + w, y + r2, x + w, y + r2);
-                //path.AddLine(x + w, y + r2, x + w, y + h - r3);
-                //path.AddBezier(x + w, y + h - r3, x + w, y + h, x + w - r3, y + h, x + w - r3, y + h);
-                //path.AddLine(x + w - r3, y + h, x + r4, y + h);
-                //path.AddBezier(x + r4, y + h, x, y + h, x, y + h - r4, x, y + h - r4);
-                //path.AddLine(x, y + h - r4, x, y + r1);
-
-
-                path.AddBezier(rect.X, rect.Y + top, rect.X, rect.Y, rect.X + left, rect.Y, rect.X + left, rect.Y);
-                path.AddLine(rect.X + left, rect.Y, rect.Right - right, rect.Y);
-                path.AddBezier(rect.Right - right, rect.Y, rect.Right, rect.Y, rect.Right, rect.Y + top, rect.Right, rect.Y + top);
-                path.AddLine(rect.Right, rect.Y + top, rect.Right, rect.Bottom - bottom);
-                path.AddBezier(rect.Right, rect.Bottom - bottom, rect.Right, rect.Bottom, rect.Right - right, rect.Bottom, rect.Right - right, rect.Bottom);
-                path.AddLine(rect.Right - right, rect.Bottom, rect.X + left, rect.Bottom);
-                path.AddBezier(rect.X + left, rect.Bottom, rect.X, rect.Bottom, rect.X, rect.Bottom - bottom, rect.X, rect.Bottom - bottom);
-                path.AddLine(rect.X, rect.Bottom - bottom, rect.X, rect.Y + top);
-
-
-
-
-                //生成一个圆角矩形渐变画刷
-                PathGradientBrush pb = new PathGradientBrush(path);
-
-                //从外到内渐变颜色
-                Color[] colors =
-                {
                Color.Transparent,
                //Color.Transparent,
                Color.WhiteSmoke,
@@ -292,13 +267,13 @@ namespace WindowsFormsApp2
             };
 
 
-                var rate = top / rect.Width * 2;
+            var rate = top / rect.Width * 2;
 
 
 
-                //从内到外渐变位置百分比
-                float[] relativePositions =
-                {
+            //从内到外渐变位置百分比
+            float[] relativePositions =
+            {
                0f,
                rate,
                1f,
@@ -307,115 +282,116 @@ namespace WindowsFormsApp2
                //1f,
             };
 
-                ColorBlend colorBlend = new ColorBlend();
-                colorBlend.Colors = colors;
-                colorBlend.Positions = relativePositions;
+            ColorBlend colorBlend = new ColorBlend();
+            colorBlend.Colors = colors;
+            colorBlend.Positions = relativePositions;
 
 
-                pb.InterpolationColors = colorBlend;
+            pb.InterpolationColors = colorBlend;
 
-                //去圆角毛刺
-                g.SmoothingMode = SmoothingMode.HighQuality;
-                g.FillPath(pb, path);
-                g.FillRectangle(new SolidBrush(this.BackColor), new RectangleF(rect.X + left, rect.Y + top, rect.Width - left - right, rect.Height - top - bottom));
-            }
-
-
-
-
-
-
-
+            //去圆角毛刺
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.FillPath(pb, path);
+            g.FillRectangle(new SolidBrush(this.BackColor), new RectangleF(rect.X + left, rect.Y + top, rect.Width - left - right, rect.Height - top - bottom));
         }
 
-        public class PanelEx2 : Panel
+
+
+
+
+
+
+    }
+
+    public class PanelEx2 : Panel
+    {
+        protected override void WndProc(ref Message m)
         {
-            protected override void WndProc(ref Message m)
+            base.WndProc(ref m);
+
+            switch (m.Msg)
             {
-                base.WndProc(ref m);
-
-                switch (m.Msg)
-                {
-                    case 0x86: //WM_NCACTIVATE
-                    case 0x85: //WM_NCPAINT
-                        var hDC = GetWindowDC(m.HWnd);
-                        if (hDC.ToInt32() == 0)
-                            break;
-
-                        //获取非客户区域Graphics 
-                        using (Graphics g = Graphics.FromHdc(hDC))
-                        {
-                            //到这里你就用 gs 进绘制
-                            // gs.DrawImage(img,new Point())
-                            // 如TextBox 绘制边框
-                            // g.DrawRectangle(pen, 0, 0, this.Width - 1, this.Height - 1); 
-                            DrawPeiRect(g, this.ClientRectangle, 10);
-                        }
-
-                        //释放GDI资源
-                        ReleaseDC(m.HWnd, hDC);
-
+                case 0x86: //WM_NCACTIVATE
+                case 0x85: //WM_NCPAINT
+                    var hDC = GetWindowDC(m.HWnd);
+                    if (hDC.ToInt32() == 0)
                         break;
-                }
+
+                    //获取非客户区域Graphics 
+                    using (Graphics g = Graphics.FromHdc(hDC))
+                    {
+                        //到这里你就用 gs 进绘制
+                        // gs.DrawImage(img,new Point())
+                        // 如TextBox 绘制边框
+                        // g.DrawRectangle(pen, 0, 0, this.Width - 1, this.Height - 1); 
+                        DrawPeiRect(g, this.ClientRectangle, 10);
+                    }
+
+                    //释放GDI资源
+                    ReleaseDC(m.HWnd, hDC);
+
+                    break;
             }
+        }
 
-            [DllImport("User32.dll ")]
-            public static extern IntPtr GetWindowDC(IntPtr hwnd);
+        [DllImport("User32.dll ")]
+        public static extern IntPtr GetWindowDC(IntPtr hwnd);
 
-            [DllImport("User32.dll ")]
-            public static extern int ReleaseDC(IntPtr hwnd, IntPtr hdc);
+        [DllImport("User32.dll ")]
+        public static extern int ReleaseDC(IntPtr hwnd, IntPtr hdc);
 
 
-            private void DrawPeiRect(Graphics g, RectangleF rect, float len = 10f) => DrawPeiRect(g, rect, len, len, len, len);
-            private void DrawPeiRect(Graphics g, RectangleF rect, float top, float bottom, float left, float right)
+        private void DrawPeiRect(Graphics g, RectangleF rect, float len = 10f) => DrawPeiRect(g, rect, len, len, len, len);
+        private void DrawPeiRect(Graphics g, RectangleF rect, float top, float bottom, float left, float right)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddBezier(rect.X - left, rect.Y, rect.X - left, rect.Y - top, rect.X, rect.Y - top, rect.X, rect.Y - top);
+            path.AddLine(rect.X, rect.Y - top, rect.Right, rect.Y - top);
+            path.AddBezier(rect.Right, rect.Y - top, rect.Right + right, rect.Y - top, rect.Right + right, rect.Y, rect.Right + right, rect.Y);
+            path.AddLine(rect.Right + right, rect.Y, rect.Right + right, rect.Bottom);
+            path.AddBezier(rect.Right + right, rect.Bottom, rect.Right + right, rect.Bottom + bottom, rect.Right, rect.Bottom + bottom, rect.Right, rect.Bottom + bottom);
+            path.AddLine(rect.Right, rect.Bottom + bottom, rect.X, rect.Bottom + bottom);
+            path.AddBezier(rect.X, rect.Bottom + bottom, rect.X - left, rect.Bottom + bottom, rect.X - left, rect.Bottom, rect.X - left, rect.Bottom);
+            path.AddLine(rect.X - left, rect.Bottom, rect.X - left, rect.Y);
+
+            //生成一个圆角矩形渐变画刷
+            PathGradientBrush pb = new PathGradientBrush(path);
+
+            //从外到内渐变颜色
+            Color[] colors =
             {
-                GraphicsPath path = new GraphicsPath();
-                path.AddBezier(rect.X - left, rect.Y, rect.X - left, rect.Y - top, rect.X, rect.Y - top, rect.X, rect.Y - top);
-                path.AddLine(rect.X, rect.Y - top, rect.Right, rect.Y - top);
-                path.AddBezier(rect.Right, rect.Y - top, rect.Right + right, rect.Y - top, rect.Right + right, rect.Y, rect.Right + right, rect.Y);
-                path.AddLine(rect.Right + right, rect.Y, rect.Right + right, rect.Bottom);
-                path.AddBezier(rect.Right + right, rect.Bottom, rect.Right + right, rect.Bottom + bottom, rect.Right, rect.Bottom + bottom, rect.Right, rect.Bottom + bottom);
-                path.AddLine(rect.Right, rect.Bottom + bottom, rect.X, rect.Bottom + bottom);
-                path.AddBezier(rect.X, rect.Bottom + bottom, rect.X - left, rect.Bottom + bottom, rect.X - left, rect.Bottom, rect.X - left, rect.Bottom);
-                path.AddLine(rect.X - left, rect.Bottom, rect.X - left, rect.Y);
-
-                //生成一个圆角矩形渐变画刷
-                PathGradientBrush pb = new PathGradientBrush(path);
-
-                //从外到内渐变颜色
-                Color[] colors =
-                {
                Color.Transparent,
                //Color.Gainsboro,
                Color.Silver,
                Color.Gray,
             };
 
-                //从内到外渐变位置百分比
-                float[] relativePositions =
-                {
+            //从内到外渐变位置百分比
+            float[] relativePositions =
+            {
                0f,
                //0.03f,
                0.15f,
                1f,
             };
 
-                ColorBlend colorBlend = new ColorBlend();
-                colorBlend.Colors = colors;
-                colorBlend.Positions = relativePositions;
+            ColorBlend colorBlend = new ColorBlend();
+            colorBlend.Colors = colors;
+            colorBlend.Positions = relativePositions;
 
-                pb.InterpolationColors = colorBlend;
+            pb.InterpolationColors = colorBlend;
 
-                //去圆角毛刺
-                g.SmoothingMode = SmoothingMode.HighQuality;
-                g.FillPath(pb, path);
-                g.FillRectangle(new SolidBrush(this.BackColor), rect);
-            }
-
-
+            //去圆角毛刺
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.FillPath(pb, path);
+            g.FillRectangle(new SolidBrush(this.BackColor), rect);
         }
 
 
-
-
     }
+
+
+
+
+
+}
