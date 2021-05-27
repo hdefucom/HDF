@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Net;
+using System.Security.AccessControl;
 using System.Text;
 
 namespace HDF.Miniblink
@@ -32,7 +33,7 @@ namespace HDF.Miniblink
                     {
                         _container = new CookieContainer();
                         _miniblink.RequestBefore += ClearCookie;
-                        MBApi.wkePerformCookieCommand(_miniblink.MiniblinkHandle, 
+                        MBApi.wkePerformCookieCommand(_miniblink.MiniblinkHandle,
                             wkeCookieCommand.FlushCookiesToFile);
                     }
                 }
@@ -49,7 +50,20 @@ namespace HDF.Miniblink
         {
             if (File.Exists(path) == false)
             {
-                File.Create(path).Close();
+                try
+                {
+                    File.Create(path).Close();
+                }
+                catch (Exception ex)
+                {
+
+                    FileSecurity fsec = new FileSecurity();
+                    fsec.AddAccessRule(new FileSystemAccessRule("Everyone", FileSystemRights.FullControl,
+                        InheritanceFlags.ContainerInherit | InheritanceFlags.ObjectInherit, PropagationFlags.None, AccessControlType.Allow));
+                    //System.IO.Directory.SetAccessControl(path, fsec);
+                    File.SetAccessControl(path, fsec);
+
+                }
             }
             _file = path;
             _miniblink = miniblink;
@@ -170,7 +184,7 @@ namespace HDF.Miniblink
             foreach (var cookie in GetCookies())
             {
                 cookie.Expires = DateTime.MinValue;
-                ck+= GetCurlCookie(cookie);
+                ck += GetCurlCookie(cookie);
             }
 
             MBApi.wkeSetCookie(_miniblink.MiniblinkHandle, ck);
@@ -181,7 +195,7 @@ namespace HDF.Miniblink
         public bool Contains(Cookie cookie)
         {
             if (cookie == null) return false;
-            
+
             if (string.IsNullOrEmpty(cookie.Path))
             {
                 cookie.Path = "/";

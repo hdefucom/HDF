@@ -7,88 +7,67 @@ using System.Drawing.Imaging;
 using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using System.Xml.Serialization;
+
 
 namespace WindowsFormsApp2
 {
+
     static class Program
     {
+
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
         [STAThread]
         static void Main()
         {
-            /*
-
-            float val = 1E+08f;
-
-            var font = Control.DefaultFont;
-
-            font = new Font(font.FontFamily, 42, FontStyle.Regular);
 
 
-            //font单位point就是word中的磅值
-            //
+            //var font = Control.DefaultFont;
+
+            //font = new Font(font.FontFamily, 9, FontStyle.Regular);
 
 
+            //using (Graphics g = Graphics.FromHwnd(IntPtr.Zero))
+            //{
+            //    //var format = new StringFormat(StringFormat.GenericTypographic);
 
-            var str = Environment.NewLine;
+            //    //SizeF s1 = g.MeasureString("士", font, 10000, format);
 
+            //    //format.FormatFlags = StringFormatFlags.FitBlackBox | StringFormatFlags.MeasureTrailingSpaces;
 
-            var lh = font.GetHeight();
+            //    //SizeF s2 = g.MeasureString("士", font, 10000, format);
 
+            //    g.PageUnit = GraphicsUnit.Point;
 
-            Bitmap bmp = new Bitmap(100, 100);
-
-            Graphics g = Graphics.FromImage(bmp);
-            var h = g.MeasureString(str, font);
-            h = g.MeasureString("黄", font);
-
-            var m = new StringFormat(StringFormat.GenericTypographic);
-            m.FormatFlags = StringFormatFlags.FitBlackBox | StringFormatFlags.MeasureTrailingSpaces;
-            //m.FormatFlags |= StringFormatFlags.DirectionVertical;
-
-
-            h = g.MeasureString("DGJFSDA ", font, 10000, m);
-
-            g.DrawString("sdafkjhas fa ", font, Brushes.Black, 0, 0, m);
-
-            bmp.Save(@"C:\Users\12131\Desktop\aaaa.png", ImageFormat.Png);
+            //    SizeF s2 = g.MeasureString("1", font, 10000, StringFormat.GenericTypographic);
+            //    SizeF s3 = g.MeasureString("士", font, 10000, StringFormat.GenericTypographic);
+            //    SizeF s4 = g.MeasureString("士", font);
 
 
 
-
-            double d = 0.01 / (1 / 300d);
-
-            var font = Control.DefaultFont;
-
-
-
-
-            using (Graphics g = Graphics.FromHwnd(IntPtr.Zero))
-            {
-                var format = new StringFormat(StringFormat.GenericTypographic);
-                format.FormatFlags = StringFormatFlags.FitBlackBox | System.Drawing.StringFormatFlags.MeasureTrailingSpaces;
-                SizeF CharSize = g.MeasureString("__", Control.DefaultFont, 10000, format);
-
-                var h1 = Control.DefaultFont.GetHeight(g);
-                var h2 = Control.DefaultFont.Height;
-                var h3 = Control.DefaultFont.GetHeight();
-                var h4 = Control.DefaultFont.GetHeight(96);
-            }
+            //    var h1 = font.GetHeight(g);
+            //    var h2 = font.Height;
+            //    var h3 = font.GetHeight();
+            //    var h4 = font.GetHeight(96);
+            //}
 
 
 
-            */
+            //Dictionary<string, int> dict = new Dictionary<string, int>();
 
-            Rectangle.Ceiling
+            //dict["1"] = 1;
 
-
-            var c = Color.FromArgb(140, Color.Red);
-
+            //var a = dict["1"];
 
 
 
@@ -106,9 +85,5 @@ namespace WindowsFormsApp2
 
     }
 
-
-
-
-
-
 }
+

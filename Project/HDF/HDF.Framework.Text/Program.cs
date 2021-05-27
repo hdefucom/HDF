@@ -43,6 +43,11 @@ using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 using System.Data.Common;
 using System.Drawing.Imaging;
 using System.ComponentModel;
+using HDF.Framework.Text.LeetCode;
+using static HDF.Framework.Text.LeetCode.Solution5;
+using MiniExcelLibs;
+using System.Net.Mail;
+using System.Net.Mime;
 
 namespace HDF.Framework.Text
 {
@@ -492,9 +497,6 @@ namespace HDF.Framework.Text
                  */
             }
 
-
-
-
             //矩阵
             {
 
@@ -686,14 +688,118 @@ namespace HDF.Framework.Text
 
             {
 
+                //ListNode node = new ListNode(1,
+                //    new ListNode(2,
+                //    new ListNode(3,
+                //    new ListNode(4,
+                //    new ListNode(5, null)))));
 
-
-
-
-
+                //var n = Solution5.ReverseBetween2(node, 2, 4);
 
             }
 
+            {
+                string server = "smtp.qq.com";
+
+                MailMessage message = new MailMessage(
+                    "1213159982@qq.com",
+                    "2389131181@qq.com",
+                    "HDF Test.",
+                    "The Body for HDF to CB Email.");
+
+                string pwd = "atxgjeyaaofyjcfd";
+
+
+
+                SmtpClient client = new SmtpClient(server);
+
+                client.Credentials = new NetworkCredential("1213159982@qq.com", pwd);//smtp用户名密码
+
+
+
+
+
+
+                //client.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+
+                try
+                {
+                    client.Send(message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Exception caught in CreateMessageWithAttachment(): {0}",
+                        ex.ToString());
+                }
+
+            }
+
+            {
+
+                //string server = "";
+
+
+                //// Specify the file to be attached and sent.
+                //// This example assumes that a file named Data.xls exists in the
+                //// current working directory.
+                ////string file = "data.xls";
+                //// Create a message and set up the recipients.
+                //MailMessage message = new MailMessage(
+                //    "1213159982@qq.com",
+                //    "2389131181@qq.com",
+                //    "HDF Test.",
+                //    "The Body for HDF to CB Email.");
+                //{
+
+                //    //// Create  the file attachment for this email message.
+                //    //Attachment data = new Attachment(file, MediaTypeNames.Application.Octet);
+                //    //// Add time stamp information for the file.
+                //    //ContentDisposition disposition = data.ContentDisposition;
+                //    //disposition.CreationDate = System.IO.File.GetCreationTime(file);
+                //    //disposition.ModificationDate = System.IO.File.GetLastWriteTime(file);
+                //    //disposition.ReadDate = System.IO.File.GetLastAccessTime(file);
+                //    //// Add the file attachment to this email message.
+                //    //message.Attachments.Add(data);
+                //}
+
+
+                ////Send the message.
+                //SmtpClient client = new SmtpClient(server);
+                //// Add credentials if the SMTP server requires them.
+                //client.Credentials = CredentialCache.DefaultNetworkCredentials;
+
+                //try
+                //{
+                //    client.Send(message);
+                //}
+                //catch (Exception ex)
+                //{
+                //    Console.WriteLine("Exception caught in CreateMessageWithAttachment(): {0}",
+                //        ex.ToString());
+                //}
+
+                //{
+                //    //// Display the values in the ContentDisposition for the attachment.
+                //    //ContentDisposition cd = data.ContentDisposition;
+                //    //Console.WriteLine("Content disposition");
+                //    //Console.WriteLine(cd.ToString());
+                //    //Console.WriteLine("File {0}", cd.FileName);
+                //    //Console.WriteLine("Size {0}", cd.Size);
+                //    //Console.WriteLine("Creation {0}", cd.CreationDate);
+                //    //Console.WriteLine("Modification {0}", cd.ModificationDate);
+                //    //Console.WriteLine("Read {0}", cd.ReadDate);
+                //    //Console.WriteLine("Inline {0}", cd.Inline);
+                //    //Console.WriteLine("Parameters: {0}", cd.Parameters.Count);
+                //    //foreach (DictionaryEntry d in cd.Parameters)
+                //    //{
+                //    //    Console.WriteLine("{0} = {1}", d.Key, d.Value);
+                //    //}
+                //    //data.Dispose();
+                //}
+
+
+            }
 
             Console.ReadLine();
         }
@@ -701,20 +807,24 @@ namespace HDF.Framework.Text
 
 
 
+        class Test : IAsyncStateMachine
+        {
+            public void MoveNext()
+            {
+                throw new NotImplementedException();
+            }
+
+
+            public AsyncTaskMethodBuilder<int> builder;
 
 
 
+            public void SetStateMachine(IAsyncStateMachine stateMachine)
+            {
 
-
-
-
-
-        [DllImport("kernel32.dll")]
-        static extern IntPtr GetConsoleWindow();
-
-
-
-
+                throw new NotImplementedException();
+            }
+        }
 
 
 
@@ -835,29 +945,6 @@ namespace HDF.Framework.Text
         #endregion
 
 
-        public interface IH
-        {
-
-            void M1();
-        }
-
-        public class H : IH
-        {
-            public virtual void M1()
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public class HH : H
-        {
-            public override void M1()
-            {
-
-            }
-
-        }
-
 
         static unsafe void DisplaySizeOf<T>() where T : unmanaged
         {
@@ -865,21 +952,6 @@ namespace HDF.Framework.Text
         }
 
 
-        [StructLayout(LayoutKind.Explicit)]
-        public struct AAA
-        {
-
-            [FieldOffset(0)]
-            public int FieldInt1;
-            [FieldOffset(4)]
-            public int FieldInt2;
-            [FieldOffset(8)]
-            public int FieldInt3;
-            [FieldOffset(12)]
-            public bool FieldBool1;
-
-
-        }
 
         public static void m1(string str, int i, bool a = false)
         {
@@ -899,16 +971,6 @@ namespace HDF.Framework.Text
         }
 
 
-
-
-        [Flags]
-        public enum Permissions
-        {
-            Insert = 1,
-            Delete = 2,
-            Update = 4,
-            Query = 8
-        }
 
 
 
@@ -1343,6 +1405,94 @@ namespace HDF.Framework.Text
             //    list[count / 2];
             //}
         }
+
+        public class Solution5
+        {
+            public class ListNode
+            {
+                public int val;
+                public ListNode next;
+                public ListNode(int val = 0, ListNode next = null)
+                {
+                    this.val = val;
+                    this.next = next;
+                }
+            }
+
+            public static ListNode ReverseBetween(ListNode head, int left, int right)
+            {
+                ListNode node = head;
+                int[] array = new int[right - left + 1];
+
+                for (int i = 1; i < left; i++)
+                    node = node.next;
+
+                var starnode = node;
+
+                for (int i = left; i <= right; i++)
+                {
+                    array[i - left] = node.val;
+                    node = node.next;
+                }
+                node = starnode;
+
+                for (int i = right - left; i >= 0; i--)
+                {
+                    node.val = array[i];
+                    node = node.next;
+                }
+
+
+
+
+                return head;
+            }
+            public static ListNode ReverseBetween2(ListNode head, int left, int right)
+            {
+                ListNode node = head;
+
+                for (int i = 1; i < left; i++)
+                    node = node.next;
+
+                var start = node;
+
+                for (int i = left; i < right; i++)
+                    node = node.next;
+
+                var end = node;
+
+                //start.next = end.next;
+
+
+
+
+                ListNode tmp = start.next;
+
+                for (int i = left; i < right; i++)
+                {
+
+                    start.next = tmp.next;
+
+                    tmp.next = start;
+
+                    start = tmp.next;
+                    tmp = start.next;
+                }
+
+
+
+
+                return head;
+            }
+
+        }
+
+
+
+
+
+
+
     }
 
     /*

@@ -63,21 +63,21 @@ namespace WindowsFormsApp2
 
 
 
-            e.Graphics.ScaleTransform(5, 5);
+            //e.Graphics.ScaleTransform(5, 5);
 
 
-            e.Graphics.DrawString("黄", Control.DefaultFont, Brushes.Black, 50, 50);
+            //e.Graphics.DrawString("黄", Control.DefaultFont, Brushes.Black, 50, 50);
 
-            e.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
+            //e.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 
-            DrawLineFlag(e.Graphics, 10, 10, 1);
-            DrawParagraphFlag2(e.Graphics, 10, 20, 1);
+            //DrawLineFlag(e.Graphics, 10, 10, 1);
+            //DrawParagraphFlag2(e.Graphics, 10, 20, 1);
 
 
 
-            Image img = Resources.ParagraphFlag;
+            //Image img = Resources.ParagraphFlag;
 
-            e.Graphics.DrawImage(img, 10, 30);
+            //e.Graphics.DrawImage(img, 10, 30);
 
 
         }
@@ -155,11 +155,60 @@ namespace WindowsFormsApp2
         }
 
 
+        public enum ShowCommands : int
+        {
 
+            SW_HIDE = 0,
+
+            SW_SHOWNORMAL = 1,
+
+            SW_NORMAL = 1,
+
+            SW_SHOWMINIMIZED = 2,
+
+            SW_SHOWMAXIMIZED = 3,
+
+            SW_MAXIMIZE = 3,
+
+            SW_SHOWNOACTIVATE = 4,
+
+            SW_SHOW = 5,
+
+            SW_MINIMIZE = 6,
+
+            SW_SHOWMINNOACTIVE = 7,
+
+            SW_SHOWNA = 8,
+
+            SW_RESTORE = 9,
+
+            SW_SHOWDEFAULT = 10,
+
+            SW_FORCEMINIMIZE = 11,
+
+            SW_MAX = 11
+
+        }
+
+        [DllImport("shell32.dll")]
+        static extern IntPtr ShellExecute(IntPtr hwnd, string lpOperation, string lpFile, string lpParameters, string lpDirectory, ShowCommands nShowCmd);
 
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            //webBrowser1.Navigate("http://192.168.0.54/HLYY/#/client/Instructions?code=1234");
+
+
+            //ShellExecute(IntPtr.Zero, "open", "rundll32.exe", " InetCpl.cpl,ClearMyTracksByProcess 255", "", ShowCommands.SW_HIDE);
+
+            //webBrowser1.Navigate("http://192.168.0.54/hlyy/#/client/Instructions?ishis=true&code=100000001215&date=" + DateTime.Now);
+
+
+            //webBrowser1.Navigate("http://localhost:8081/#/client/Instructions?ishis=true&code=100000001215");
+
+
+
+
             //Image img = Image.FromFile(@"C:\Users\12131\Desktop\hdf.png");
 
             //Bitmap bmp = new Bitmap(img);
@@ -193,6 +242,39 @@ namespace WindowsFormsApp2
             //bmp.Save(@"C:\Users\12131\Desktop\NewHDF.png");
 
 
+
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //ShellExecute(IntPtr.Zero, "open", "rundll32.exe", " InetCpl.cpl,ClearMyTracksByProcess 255", "", ShowCommands.SW_HIDE);
+
+            webBrowser1.Navigate("http://192.168.0.54/hlyy/#/client/Instructions?ishis=true&code=100000001215");
+
+
+
+
+
+            //webBrowser1.Navigate("http://localhost:8081/");
+
+
+            //webBrowser1.Navigate("http://192.168.0.54/hlyy/");
+
+
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            webBrowser1.Navigate("http://localhost:8081/#/client/Instructions?ishis=true&code=100000001215");
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://www.baidu.com");
 
 
 

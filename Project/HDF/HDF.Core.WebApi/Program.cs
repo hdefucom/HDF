@@ -11,9 +11,22 @@ namespace HDF.Core.WebApi
 {
     public class Program
     {
+        public int MyProperty1 { get; set; }
+        public bool MyProperty2 { get; set; }
+        public string MyProperty3 { get; set; }
         public static void Main(string[] args)
         {
-            
+
+            Program a = new aaa() { MyProperty1 = 1, MyProperty2 = true, MyProperty3 = "aaa", };
+            if (a is Program { MyProperty1: int i, MyProperty2: true, MyProperty3: var s, MyProperty3: "aaa" })
+            //if (a is Program p )
+            {
+
+            }
+
+
+
+
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -24,4 +37,20 @@ namespace HDF.Core.WebApi
                     webBuilder.UseStartup<Startup>();
                 });
     }
+
+
+
+
+    public class aaa : Program
+    {
+    }
+
+
+
+
+
+
+
+
+
 }

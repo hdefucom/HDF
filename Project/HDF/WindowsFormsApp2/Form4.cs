@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp2
@@ -18,15 +20,17 @@ namespace WindowsFormsApp2
             SetStyle(ControlStyles.Selectable, true);
         }
 
-        private void Form4_Load(object sender, EventArgs e)
+        private async void Form4_Load(object sender, EventArgs e)
         {
+           await Task.Factory.StartNew(() => Console.WriteLine($"load start当前线程ID:{Thread.CurrentThread.ManagedThreadId}"));
 
-
-
+            textBox1.Text = "afdsafasdfasdfasdf";
+            Console.WriteLine($"load end当前线程ID:{Thread.CurrentThread.ManagedThreadId}");
         }
 
         private void Form4_Shown(object sender, EventArgs e)
         {
+
 
         }
 
@@ -35,10 +39,33 @@ namespace WindowsFormsApp2
 
         }
 
+        private async void button1_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine($"click start当前线程ID:{Thread.CurrentThread.ManagedThreadId}");
+            await aaaa();
+
+            Console.WriteLine($"click center当前线程ID:{Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine("dfsdfsdfsdfsdfsdfsdf");
+
+            textBox1.Text = DateTime.Now.ToString();
+            Console.WriteLine($"click end当前线程ID:{Thread.CurrentThread.ManagedThreadId}");
+        }
+
+
+
+        private async Task aaaa()
+        {
+            Console.WriteLine($"aaaa start当前线程ID:{Thread.CurrentThread.ManagedThreadId}");
+            await Task.Factory.StartNew(() => Console.WriteLine("aaaa  outpub"));
+
+            Console.WriteLine($"aaaa end当前线程ID:{Thread.CurrentThread.ManagedThreadId}");
+        }
+
+
         /*
-         
+
         //鼠标事件触发链路
-         
+
         MouseDown(按住不放会在此处阻塞此鼠标按键事件，但是不影响其他鼠标按键事件)
         ↓
         Click
@@ -63,12 +90,12 @@ namespace WindowsFormsApp2
         ↓
         双击机鼠标到此结束
 
-         
+
         1.鼠标点击流程最后都会触发一次Move，哪怕鼠标并没有移动
         2.鼠标进入后首次悬浮不动才会触发Hover，后续移动再次悬浮也不会触发Hove，每次进入只会触发一次Hover
         3.双击事件触发的要求是，在不超出判定时间内点击的坐标一致才能触发双击，并且每点击两次第二次才会触发双击，例如点击三次都是同样坐标，触发是Click->DoubleClick->Click
-         
-         
+
+
          */
 
 
@@ -150,9 +177,9 @@ namespace WindowsFormsApp2
 
 
         /*
-         
+
         //键盘事件触发链路
-         
+
         OnPreviewKeyDown
         ↓
         OnKeyDown(类似MouseDown)
@@ -172,7 +199,7 @@ namespace WindowsFormsApp2
         例如
 
         1.按下A
-        
+
                 OnPreviewKeyDown-->AAAAA
                 ↓
                 OnKeyDown-->AAAAA
@@ -182,7 +209,7 @@ namespace WindowsFormsApp2
                 ......循环
 
         2.不松开A并按下S
-        
+
                 OnPreviewKeyDown-->SSSSS
                 ↓
                 OnKeyDown-->SSSSS
@@ -192,7 +219,7 @@ namespace WindowsFormsApp2
                 ......循环
 
         3.不松开A/S并按下D
-        
+
                 OnPreviewKeyDown-->DDDDD
                 ↓
                 OnKeyDown-->DDDDD
@@ -202,7 +229,7 @@ namespace WindowsFormsApp2
                 ......循环
 
        4. 不松开A/S/D并按下F
-        
+
                 OnPreviewKeyDown-->FFFFF
                 ↓
                 OnKeyDown-->FFFFF
@@ -210,9 +237,9 @@ namespace WindowsFormsApp2
                 OnKeyPress-->FFFFF
 
                 ......循环
-        
+
         5.不松开A/D/F但是松开S
-        
+
                 OnKeyUp-->SSSSS
                 ↓
                 OnPreviewKeyDown-->FFFFF
@@ -222,23 +249,23 @@ namespace WindowsFormsApp2
                 OnKeyPress-->FFFFF
 
                 ......循环
-        
+
         6.不松开A/D但是松开F
-        
+
                 OnKeyUp-->FFFFF
 
                 最后一次按下的按键松开，事件循环停止
-        
+
         7.不松开D但是松开A
-        
+
                 OnKeyUp-->AAAAA
 
         8.松开D
-        
+
                 OnKeyUp-->DDDDD
 
 
-         
+
          */
 
         //protected override void OnKeyDown(KeyEventArgs e)
@@ -269,7 +296,6 @@ namespace WindowsFormsApp2
         //    Console.WriteLine();
         //    Console.WriteLine("引发OnPreviewKeyDown");
         //}
-
 
 
 
