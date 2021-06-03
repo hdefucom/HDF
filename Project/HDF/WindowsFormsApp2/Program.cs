@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.Drawing.Printing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -12,6 +14,7 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
@@ -21,8 +24,12 @@ using System.Xml.Serialization;
 namespace WindowsFormsApp2
 {
 
+
     static class Program
     {
+        static int num = 0;
+        static readonly object lockobj = new object();
+
 
         /// <summary>
         /// 应用程序的主入口点。
@@ -30,6 +37,7 @@ namespace WindowsFormsApp2
         [STAThread]
         static void Main()
         {
+
 
 
             //var font = Control.DefaultFont;
@@ -70,16 +78,64 @@ namespace WindowsFormsApp2
             //var a = dict["1"];
 
 
+            ConsoleLogTextWriter logSW = new ConsoleLogTextWriter();
+            Console.SetOut(logSW);
+            var o = Console.Out;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());
+            Application.Run(new Form6());
+
+
+
+
+
+
+
+
+
+
+
         }
 
 
 
 
+        public class ConsoleLogTextWriter : TextWriter
+        {
+            public ConsoleLogTextWriter() : base() { }
 
+            public override Encoding Encoding { get { return Encoding.UTF8; } }
+
+            public override void Write(string value)
+            {
+                Log.WriteLog(value);
+            }
+            public override void WriteLine(string value)
+            {
+                Log.WriteLog(value);
+            }
+            public override void Close()
+            {
+                base.Close();
+            }
+
+        }
+
+        public static class Log
+        {
+
+            public static event Action<string> Push;
+
+            public static void WriteLog(string log)
+            {
+                Push?.Invoke(log);
+
+
+            }
+
+
+        }
 
 
 

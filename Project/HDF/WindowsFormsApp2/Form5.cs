@@ -15,10 +15,14 @@ namespace WindowsFormsApp2
         public Form5()
         {
             InitializeComponent();
+
             browser = new MiniblinkBrowser();
             browser.Dock = DockStyle.Fill;
 
             this.Controls.Add(browser);
+
+
+
         }
 
 
