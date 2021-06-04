@@ -78,13 +78,13 @@ namespace WindowsFormsApp2
             //var a = dict["1"];
 
 
-            ConsoleLogTextWriter logSW = new ConsoleLogTextWriter();
-            Console.SetOut(logSW);
-            var o = Console.Out;
+            //ConsoleLogTextWriter logSW = new ConsoleLogTextWriter();
+            //Console.SetOut(logSW);
+            //var o = Console.Out;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form6());
+            Application.Run(new Form7());
 
 
 
