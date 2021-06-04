@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -22,7 +23,7 @@ namespace WindowsFormsApp2
 
         private async void Form4_Load(object sender, EventArgs e)
         {
-           await Task.Factory.StartNew(() => Console.WriteLine($"load start当前线程ID:{Thread.CurrentThread.ManagedThreadId}"));
+            await Task.Factory.StartNew(() => Console.WriteLine($"load start当前线程ID:{Thread.CurrentThread.ManagedThreadId}"));
 
             textBox1.Text = "afdsafasdfasdfasdf";
             Console.WriteLine($"load end当前线程ID:{Thread.CurrentThread.ManagedThreadId}");
@@ -100,75 +101,75 @@ namespace WindowsFormsApp2
 
 
 
-        //protected override void OnClick(EventArgs e)
-        //{
-        //    base.OnClick(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发Click");
-        //}
-        //protected override void OnDoubleClick(EventArgs e)
-        //{
-        //    base.OnDoubleClick(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发DoucleClick");
-        //}
+        protected override void OnClick(EventArgs e)
+        {
+            base.OnClick(e);
+            Console.WriteLine();
+            Console.WriteLine("引发Click");
+        }
+        protected override void OnDoubleClick(EventArgs e)
+        {
+            base.OnDoubleClick(e);
+            Console.WriteLine();
+            Console.WriteLine("引发DoucleClick");
+        }
 
-        //protected override void OnMouseClick(MouseEventArgs e)
-        //{
-        //    base.OnMouseClick(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine($"引发MouseClick----->{e.Location}");
-        //}
+        protected override void OnMouseClick(MouseEventArgs e)
+        {
+            base.OnMouseClick(e);
+            Console.WriteLine();
+            Console.WriteLine($"引发MouseClick----->{e.Location}");
+        }
 
-        //protected override void OnMouseDoubleClick(MouseEventArgs e)
-        //{
-        //    base.OnMouseDoubleClick(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine($"引发MouseDoubleClick----->{e.Location}");
-        //}
+        protected override void OnMouseDoubleClick(MouseEventArgs e)
+        {
+            base.OnMouseDoubleClick(e);
+            Console.WriteLine();
+            Console.WriteLine($"引发MouseDoubleClick----->{e.Location}");
+        }
 
-        //protected override void OnMouseDown(MouseEventArgs e)
-        //{
-        //    base.OnMouseDown(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发MouseDown");
-        //}
-        //protected override void OnMouseUp(MouseEventArgs e)
-        //{
-        //    base.OnMouseUp(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发MouseUp");
-        //}
-        //protected override void OnMouseMove(MouseEventArgs e)
-        //{
-        //    base.OnMouseMove(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发MouseMove");
-        //}
-        //protected override void OnMouseEnter(EventArgs e)
-        //{
-        //    base.OnMouseEnter(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发MouseEnter");
-        //}
-        //protected override void OnMouseLeave(EventArgs e)
-        //{
-        //    base.OnMouseLeave(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发MouseLeave");
-        //}
-        //protected override void OnMouseHover(EventArgs e)
-        //{
-        //    base.OnMouseHover(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发MouseHover");
-        //}
-        //protected override void OnMouseWheel(MouseEventArgs e)
-        //{
-        //    base.OnMouseWheel(e);
-        //    Console.WriteLine();
-        //    Console.WriteLine("引发MouseWheel");
-        //}
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            base.OnMouseDown(e);
+            Console.WriteLine();
+            Console.WriteLine("引发MouseDown");
+        }
+        protected override void OnMouseUp(MouseEventArgs e)
+        {
+            base.OnMouseUp(e);
+            Console.WriteLine();
+            Console.WriteLine("引发MouseUp");
+        }
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            base.OnMouseMove(e);
+            Console.WriteLine();
+            Console.WriteLine($"引发MouseMove--{e.Location}");
+        }
+        protected override void OnMouseEnter(EventArgs e)
+        {
+            base.OnMouseEnter(e);
+            Console.WriteLine();
+            Console.WriteLine("引发MouseEnter");
+        }
+        protected override void OnMouseLeave(EventArgs e)
+        {
+            base.OnMouseLeave(e);
+            Console.WriteLine();
+            Console.WriteLine("引发MouseLeave");
+        }
+        protected override void OnMouseHover(EventArgs e)
+        {
+            base.OnMouseHover(e);
+            Console.WriteLine();
+            Console.WriteLine("引发MouseHover");
+        }
+        protected override void OnMouseWheel(MouseEventArgs e)
+        {
+            base.OnMouseWheel(e);
+            Console.WriteLine();
+            Console.WriteLine("引发MouseWheel");
+        }
 
 
 
@@ -301,15 +302,7 @@ namespace WindowsFormsApp2
 
 
 
-
-
-
-
-
-
-
-
-
-
     }
+
+
 }
