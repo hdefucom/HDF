@@ -6,12 +6,14 @@ using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
     public partial class Form7 : Form
     {
+
         public Form7()
         {
             InitializeComponent();
@@ -55,7 +57,9 @@ namespace WindowsFormsApp2
         {
             this.CaretSetPos(200, 100);
             label1.Text = "设置光标坐标位置【200,100】";
+
         }
+
     }
     public static class EditorCaretExtend
     {

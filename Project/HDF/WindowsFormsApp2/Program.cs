@@ -9,6 +9,7 @@ using System.Drawing.Printing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
@@ -37,6 +38,13 @@ namespace WindowsFormsApp2
         [STAThread]
         static void Main()
         {
+
+
+
+            var a = Convert.ToBoolean("false");
+
+
+
 
 
 
@@ -71,6 +79,7 @@ namespace WindowsFormsApp2
 
 
 
+
             //Dictionary<string, int> dict = new Dictionary<string, int>();
 
             //dict["1"] = 1;
@@ -85,11 +94,6 @@ namespace WindowsFormsApp2
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form7());
-
-
-
-
-
 
 
 

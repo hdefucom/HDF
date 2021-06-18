@@ -29,6 +29,7 @@ namespace WindowsFormsApp2
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -36,11 +37,14 @@ namespace WindowsFormsApp2
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(36, 35);
+            this.button1.Location = new System.Drawing.Point(16, 14);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -50,7 +54,7 @@ namespace WindowsFormsApp2
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(137, 35);
+            this.button2.Location = new System.Drawing.Point(117, 14);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 0;
@@ -60,7 +64,7 @@ namespace WindowsFormsApp2
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(245, 35);
+            this.button3.Location = new System.Drawing.Point(225, 14);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 0;
@@ -70,7 +74,7 @@ namespace WindowsFormsApp2
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(346, 35);
+            this.button4.Location = new System.Drawing.Point(326, 14);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 0;
@@ -81,7 +85,7 @@ namespace WindowsFormsApp2
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(464, 35);
+            this.label1.Location = new System.Drawing.Point(444, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 1;
@@ -89,7 +93,7 @@ namespace WindowsFormsApp2
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(137, 64);
+            this.button5.Location = new System.Drawing.Point(117, 43);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 0;
@@ -99,38 +103,55 @@ namespace WindowsFormsApp2
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(480, 64);
+            this.textBox1.Location = new System.Drawing.Point(460, 43);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 2;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(800, 78);
+            this.panel1.TabIndex = 4;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 10000;
             // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.Silver;
             this.Name = "Form7";
             this.Text = "Form7";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button2;
     }
 }
