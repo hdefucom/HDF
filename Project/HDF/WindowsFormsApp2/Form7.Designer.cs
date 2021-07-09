@@ -30,6 +30,7 @@ namespace WindowsFormsApp2
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -38,12 +39,19 @@ namespace WindowsFormsApp2
             this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.writerCommandControler1 = new DCSoft.Writer.Commands.WriterCommandControler(this.components);
+            this.button8 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.writerCommandControler1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
+            this.writerCommandControler1.SetCommandName(this.button1, "Font");
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(16, 14);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -74,6 +82,7 @@ namespace WindowsFormsApp2
             // 
             // button4
             // 
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.button4.Location = new System.Drawing.Point(326, 14);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
@@ -110,6 +119,9 @@ namespace WindowsFormsApp2
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox1);
@@ -123,9 +135,38 @@ namespace WindowsFormsApp2
             this.panel1.Size = new System.Drawing.Size(800, 78);
             this.panel1.TabIndex = 4;
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(644, 41);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "button6";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(644, 13);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // timer1
             // 
             this.timer1.Interval = 10000;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(248, 41);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 4;
+            this.button8.Text = "button8";
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // Form7
             // 
@@ -133,11 +174,12 @@ namespace WindowsFormsApp2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.ForeColor = System.Drawing.Color.Silver;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form7";
             this.Text = "Form7";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.writerCommandControler1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -153,5 +195,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private DCSoft.Writer.Commands.WriterCommandControler writerCommandControler1;
+        private System.Windows.Forms.Button button8;
     }
 }

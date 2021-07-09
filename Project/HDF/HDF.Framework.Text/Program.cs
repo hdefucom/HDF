@@ -716,7 +716,7 @@ namespace HDF.Framework.Text
                 client.Credentials = new NetworkCredential("1213159982@qq.com", pwd);//smtp用户名密码
 
 
-
+               
 
 
 
@@ -799,6 +799,14 @@ namespace HDF.Framework.Text
                 //}
 
 
+            }
+
+            {
+                List<int> list = new List<int>();
+
+                //var a = list[0..1];
+            
+            
             }
 
             Console.ReadLine();

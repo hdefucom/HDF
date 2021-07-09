@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Design;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -13,7 +14,6 @@ namespace WindowsFormsApp2
 {
     public partial class Form7 : Form
     {
-
         public Form7()
         {
             InitializeComponent();
@@ -60,6 +60,19 @@ namespace WindowsFormsApp2
 
         }
 
+
+        Form6 ffff = new Form6();
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ffff.Show();
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            ffff.Hide();
+        }
     }
     public static class EditorCaretExtend
     {
