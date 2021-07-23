@@ -1,37 +1,23 @@
-﻿using System;
+﻿using GHIS.Service.Common;
+using GHIS.Service.Common.Model;
+using GHIS.Service.Modules.System.Refer;
+using GHIS.Service.Modules.System.Refer.Gen;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
 using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Drawing.Imaging;
-using System.Drawing.Printing;
-using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Net;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Security.Cryptography;
-using System.Security.Permissions;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
-using System.Xml.Linq;
 using System.Xml.Schema;
 using System.Xml.Serialization;
-using WindowsFormsApp2.Properties;
 
 namespace WindowsFormsApp2
 {
     static class Program
     {
+
 
 
 
@@ -41,33 +27,46 @@ namespace WindowsFormsApp2
         [STAThread]
         static void Main()
         {
+            string key = "";
+
+            //IReferService referService = ServiceFactory.GetService<IReferService>();
+            ////根据配置加载需要显示的列   
+            //ReferColumnCriteria referColumnCriteria = new ReferColumnCriteria();
+            //referColumnCriteria.And().EqualTo("referCode", key, !string.IsNullOrEmpty(key));
+            //List<ReferColumnDto> referColumns = referService.SelectReferColumnList(referColumnCriteria);
 
 
 
-            //TextBox txt = new TextBox();
-
-            //TextBoxBase
 
 
-            //Dictionary<string, int> dict = new Dictionary<string, int>();
 
-            //dict["1"] = 1;
-
-            //var a = dict["1"];
+            //Pagination<Dictionary<string, object>> referMapPage = referService.SelectReferData(referQuery);
 
 
-            //ConsoleLogTextWriter logSW = new ConsoleLogTextWriter();
-            //Console.SetOut(logSW);
-            //var o = Console.Out;
 
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form7());
+
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form7());
 
+
+            var form = new Form9();
+
+            var file = "Location.txt";
+            if (File.Exists(file))
+            {
+                var data = File.ReadAllLines(file);
+                var location = data[0].Split(',').Select(s => Convert.ToInt32(s)).ToArray();
+                var size = data[1].Split(',').Select(s => Convert.ToInt32(s)).ToArray();
+                form.Location = new System.Drawing.Point(location[0], location[1]);
+                form.Size = new System.Drawing.Size(size[0], size[1]);
+            }
+            form.FormClosed += (sender, e) => File.WriteAllLines(file, new string[] { $"{form.Location.X},{form.Location.Y}", $"{form.Width},{form.Height}" });
+
+
+
+
+            Application.Run(form);
 
 
         }

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AppendTargetFrameworkToOutputPath>True</AppendTargetFrameworkToOutputPath>
+    <Deterministic>false</Deterministic>
+
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accord.Controls" Version="3.8.0" />
+    <PackageReference Include="Accord.Controls.Imaging" Version="3.8.0" />
+    <PackageReference Include="Accord.Imaging" Version="3.8.0" />
+    <PackageReference Include="Accord.Math" Version="3.8.0" />
+    <PackageReference Include="Accord.Statistics" Version="3.8.0" />
+    <PackageReference Include="Accord.Video.DirectShow" Version="3.8.0" />
+    <PackageReference Include="Accord.Video.FFMPEG.x64" Version="3.8.0" />
+  </ItemGroup>
+
+
+
+</Project>

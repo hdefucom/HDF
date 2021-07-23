@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <!--目标框架版本-->
+    <TargetFramework>net40</TargetFramework>
+
+    <!--使用Winformm-->
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <!--输出类型为可执行文件（exe）或类库（dll）-->
+    <!--<OutputType>Library</OutputType>-->
+    <OutputType>WinExe</OutputType>
+
+    <!--输出目录-->
+    <!--<OutputPath>..\..\GHISRun\</OutputPath>-->
+    <!--<OutputPath>..\GHISRun\</OutputPath>-->
+
+    <!--目标平台-->
+    <PlatformTarget>AnyCPU</PlatformTarget>
+
+    <!--默认生成路径会附加一层框架版本文件夹，如果不需要，可配置下面选项为false，默认为true-->
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <!--如果有资源文件并且名称不是默认名称，把下面两项改成资源文件的路径和名称就可以-->
+  
+  <!--下面是默认的资源文件，名称一样，不用修改-->
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\其他资源文件.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>其他资源文件.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\其他资源文件.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>其他资源文件.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+
+</Project>

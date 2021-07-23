@@ -14,6 +14,7 @@ namespace HDF.Core.WebApi
 {
     public class Program
     {
+
         public int MyProperty1 { get; set; }
         public bool MyProperty2 { get; set; }
         public string MyProperty3 { get; set; }

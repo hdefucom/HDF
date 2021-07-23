@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <!--目标框架版本-->
+    <TargetFramework>net40</TargetFramework>
+
+    <!--使用Winformm-->
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <!--输出类型为可执行文件（exe）或类库（dll）-->
+    <!--<OutputType>Library</OutputType>-->
+    <OutputType>WinExe</OutputType>
+
+    <!--输出目录-->
+    <!--<OutputPath>..\..\GHISRun\</OutputPath>-->
+    <!--<OutputPath>..\GHISRun\</OutputPath>-->
+
+    <!--目标平台-->
+    <PlatformTarget>AnyCPU</PlatformTarget>
+
+    <!--默认生成路径会附加一层框架版本文件夹，如果不需要，可配置下面选项为false，默认为true-->
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <!--如果有资源文件，把下面两项改成资源文件的路径和名称就可以-->
+  <ItemGroup>
+    <Compile Update="Properties\MyResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MyResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\MyResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MyResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+<!--完成！！！！！！！！-->
+
+</Project>

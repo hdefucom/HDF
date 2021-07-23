@@ -2,10 +2,27 @@
 
 namespace HDF.CLI
 {
+
+    class test
+    {
+        ~test()
+        {
+            Console.WriteLine("sssssssss");
+        }
+
+    }
     class Program
     {
         static void Main(string[] args)
         {
+
+            var t = new test();
+
+
+            t = null;
+
+            GC.Collect();
+
             if (args.Length == 0)
             {
                 Console.WriteLine("没有传递参数");
