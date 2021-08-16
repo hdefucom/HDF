@@ -7,20 +7,12 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <AppendTargetFrameworkToOutputPath>True</AppendTargetFrameworkToOutputPath>
     <Deterministic>false</Deterministic>
-
-
+    
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Accord.Controls" Version="3.8.0" />
-    <PackageReference Include="Accord.Controls.Imaging" Version="3.8.0" />
-    <PackageReference Include="Accord.Imaging" Version="3.8.0" />
-    <PackageReference Include="Accord.Math" Version="3.8.0" />
-    <PackageReference Include="Accord.Statistics" Version="3.8.0" />
-    <PackageReference Include="Accord.Video.DirectShow" Version="3.8.0" />
-    <PackageReference Include="Accord.Video.FFMPEG.x64" Version="3.8.0" />
+    <PackageReference Include="Test.Library.A" Version="0.0.3.1" />
+    <PackageReference Include="Test.Library.Base" Version="0.0.3.3" />
   </ItemGroup>
-
-
 
 </Project>

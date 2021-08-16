@@ -15,23 +15,46 @@ namespace HDF.Core.WebApi
     public class Program
     {
 
-        public int MyProperty1 { get; set; }
-        public bool MyProperty2 { get; set; }
-        public string MyProperty3 { get; set; }
+
+        public static async Task Test()
+        {
+            Console.WriteLine("start");
+            Thread.Sleep(2000);
+            Console.WriteLine("sleep");
+
+            await Task.Delay(2000);
+            Console.WriteLine("end");
+
+        }
+
+
+
+
+
+
         public static void Main(string[] args)
         {
+            Test();
 
-            aaaa().GetAwaiter().GetResult();
+            Console.WriteLine("ddddddddddd");
+
+            var a = "";
 
 
 
 
-            Program a = new aaa() { MyProperty1 = 1, MyProperty2 = true, MyProperty3 = "aaa", };
-            if (a is Program { MyProperty1: int i, MyProperty2: true, MyProperty3: var s, MyProperty3: "aaa" })
-            //if (a is Program p )
-            {
 
-            }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,62 +69,12 @@ namespace HDF.Core.WebApi
                 });
 
 
-        private async Task<int> aaa()
-        {
-
-
-
-
-
-
-
-
-            await Task.FromResult(1);
-
-            return 1;
-
-        }
-
-
-        public static async Task aaaa()
-        {
-            Console.WriteLine($"aaaa start");
-
-            async IAsyncEnumerable<int> GetAsyncList()
-            {
-                for (int i = 0; i < 5; i++)
-                {
-
-                    Console.WriteLine($"start:{i}");
-                    await Task.Delay(100);
-
-                    yield return 1;
-
-                    Console.WriteLine($"end:{i}");
-                }
-            }
-
-
-
-            await foreach (var item in GetAsyncList())
-            {
-                var a = item;
-            }
-
-            await Task.Delay(100);
-            Console.WriteLine($"aaaa end");
-        }
 
 
 
     }
 
 
-
-
-    public class aaa : Program
-    {
-    }
 
 
 

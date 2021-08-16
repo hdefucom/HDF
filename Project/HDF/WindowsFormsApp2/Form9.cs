@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Printing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -17,43 +21,57 @@ namespace WindowsFormsApp2
         }
 
 
+        public enum InputBoundaryType
+        {
+            Start,
+            End
+        }
+
+
 
 
         private void Form9_Load(object sender, EventArgs e)
         {
-            Button
+
+
+
         }
         private void Form9_Paint(object sender, PaintEventArgs e)
         {
 
-            var font = new Font("宋体", 48f);
-            
 
-            var str = "黄德富";
 
-            var size = e.Graphics.MeasureString(str, font);
 
-            e.Graphics.DrawRectangle(Pens.Black, 100, 10, size.Width, size.Height);
-
-            var fff = new StringFormat()
-            {
-                Alignment = StringAlignment.Center,
-                LineAlignment = StringAlignment.Near
-            };
-
-            e.Graphics.DrawString(str, font, Brushes.Black,
-                new RectangleF(100, 10, size.Width, size.Height), fff);
-
+            //ControlPaint.DrawGrid(
+            //    e.Graphics,
+            //    new Rectangle(100, 100, 200, 200),
+            //    new Size(10, 10),
+            //    Color.White
+            //    );
 
 
         }
 
-        public class tttt { }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (PrintDialog dialog = new PrintDialog())
+            {
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+
+
+                    PrintDocument doc = new PrintDocument();
+                    doc.PrinterSettings = dialog.PrinterSettings;
+                    doc.Print();
+
+                }
 
 
 
 
+            }
 
-
+        }
     }
 }

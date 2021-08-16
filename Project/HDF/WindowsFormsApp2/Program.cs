@@ -4,9 +4,11 @@ using GHIS.Service.Modules.System.Refer;
 using GHIS.Service.Modules.System.Refer.Gen;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml;
@@ -18,8 +20,41 @@ namespace WindowsFormsApp2
     static class Program
     {
 
+        [StructLayout(LayoutKind.Sequential)]
+        public class Person
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public string Sex { get; set; }
+        }
 
+        // 获取引用类型的内存地址方法
+        public static string getMemory(object obj)
+        {
+            GCHandle handle = GCHandle.Alloc(obj, GCHandleType.WeakTrackResurrection);
+            IntPtr addr = GCHandle.ToIntPtr(handle);
+            return $"0x{addr.ToString("X")}";
+        }
 
+        public static void Test()
+        {
+            try
+            {
+                int num = 100000000;
+                var addr1 = getMemory(num);
+                Console.WriteLine($"num: hash code = {num.GetHashCode()} memory addr = {num}");
+
+                Person person = new Person() { Id = 99, Name = "Mr.Tom", Sex = "Man" };
+                var addr2 = getMemory(person);
+                Console.WriteLine($"person: hash code = {person.GetHashCode()} memory addr = {addr2}");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
+        }
 
         /// <summary>
         /// 应用程序的主入口点。
@@ -27,22 +62,6 @@ namespace WindowsFormsApp2
         [STAThread]
         static void Main()
         {
-            string key = "";
-
-            //IReferService referService = ServiceFactory.GetService<IReferService>();
-            ////根据配置加载需要显示的列   
-            //ReferColumnCriteria referColumnCriteria = new ReferColumnCriteria();
-            //referColumnCriteria.And().EqualTo("referCode", key, !string.IsNullOrEmpty(key));
-            //List<ReferColumnDto> referColumns = referService.SelectReferColumnList(referColumnCriteria);
-
-
-
-
-
-
-            //Pagination<Dictionary<string, object>> referMapPage = referService.SelectReferData(referQuery);
-
-
 
 
 
@@ -50,7 +69,7 @@ namespace WindowsFormsApp2
             Application.SetCompatibleTextRenderingDefault(false);
 
 
-            var form = new Form9();
+            var form = new Form10();
 
             var file = "Location.txt";
             if (File.Exists(file))
