@@ -1,5 +1,5 @@
-﻿
-using System;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,5 +18,35 @@ namespace WinFormsApp2
             InitializeComponent();
         }
 
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+        }
+
+        private void label1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            label_Msg.Text = "lable key";
+        }
+
+        private void panel1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+
+            label_Msg.Text = "panel key";
+        }
     }
+
+
+
+
+
+
+
+
 }
