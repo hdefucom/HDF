@@ -29,12 +29,11 @@ namespace WindowsFormsApp2
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.gCardListControl1 = new GHIS.Ctrl.GCardListControl();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip();
             this.panel_info = new System.Windows.Forms.Panel();
+            this.gCardListControl1 = new GHIS.Ctrl.GCardListControl();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,13 +56,18 @@ namespace WindowsFormsApp2
             this.panel1.Size = new System.Drawing.Size(800, 47);
             this.panel1.TabIndex = 2;
             // 
+            // panel_info
+            // 
+            this.panel_info.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel_info.Location = new System.Drawing.Point(395, 58);
+            this.panel_info.Name = "panel_info";
+            this.panel_info.Size = new System.Drawing.Size(160, 158);
+            this.panel_info.TabIndex = 0;
+            this.panel_info.Visible = false;
+            // 
             // gCardListControl1
             // 
-            this.gCardListControl1.CardBackColor = System.Drawing.Color.White;
-            this.gCardListControl1.CardBorderColor = System.Drawing.Color.Black;
-            this.gCardListControl1.CardIsCustomPaintBack = false;
-            this.gCardListControl1.CardMinPadding = 10;
-            this.gCardListControl1.CardShowBorder = true;
+            this.gCardListControl1.CardSelectionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(130)))), ((int)(((byte)(180)))));
             this.gCardListControl1.CardSize = new System.Drawing.Size(200, 200);
             this.gCardListControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gCardListControl1.Location = new System.Drawing.Point(0, 47);
@@ -75,15 +79,6 @@ namespace WindowsFormsApp2
             this.gCardListControl1.CardMouseHover += new System.Action<GHIS.Ctrl.GCardListControl.Card, System.EventArgs>(this.gCardListControl1_CardMouseHover);
             this.gCardListControl1.CardPaint += new System.Action<GHIS.Ctrl.GCardListControl.Card, System.Windows.Forms.PaintEventArgs>(this.cardListControl2_CardPaint);
             // 
-            // panel_info
-            // 
-            this.panel_info.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel_info.Location = new System.Drawing.Point(395, 58);
-            this.panel_info.Name = "panel_info";
-            this.panel_info.Size = new System.Drawing.Size(160, 158);
-            this.panel_info.TabIndex = 0;
-            this.panel_info.Visible = false;
-            // 
             // Form10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -92,6 +87,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.panel_info);
             this.Controls.Add(this.gCardListControl1);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.SteelBlue;
             this.Name = "Form10";
             this.Text = "Form10";
             this.Load += new System.EventHandler(this.Form10_Load);

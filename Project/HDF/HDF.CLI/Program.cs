@@ -18,14 +18,6 @@ namespace HDF.CLI
         {
 
 
-
-
-
-
-
-
-
-
             var t = new test();
 
 

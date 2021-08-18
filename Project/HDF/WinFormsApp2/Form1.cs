@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -26,8 +27,6 @@ namespace WinFormsApp2
 
 
 
-
-
         }
 
         private void label1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
@@ -40,6 +39,21 @@ namespace WinFormsApp2
 
             label_Msg.Text = "panel key";
         }
+
+
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+        }
+
+
+
     }
 
 

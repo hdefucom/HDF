@@ -1,10 +1,13 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinFormsApp2
 {
@@ -27,6 +30,31 @@ namespace WinFormsApp2
         static void Main()
         {
 
+            Directory.CreateDirectory(@"E:\1");
+
+
+            Application.Idle += (sender, e) =>
+            {
+
+                var stream = File.Create($@"E:\1\{DateTime.Now.ToString("yyyyMMdd-HHmmss")}");
+
+                stream.Close();
+                stream.Dispose();
+
+                Thread.Sleep(1000);
+
+                //MessageBox.Show("s");
+            };
+
+
+
+
+            Application.Run();
+
+
+            //ApplicationContext context = new ApplicationContext();
+
+
 
 
             //PublicMethods.ServiceObject = new HDFService();
@@ -43,9 +71,14 @@ namespace WinFormsApp2
 
 
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
         }
+
+
+
+
+
     }
 }

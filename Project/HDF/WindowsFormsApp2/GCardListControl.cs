@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -100,6 +101,7 @@ namespace GHIS.Ctrl
         /// </summary>
         [Category("CardList属性")]
         [Description("卡片大小")]
+        [DefaultValue(typeof(Size), "100,100")]
         public Size CardSize { get; set; } = new Size(100, 100);
 
         /// <summary>
@@ -107,27 +109,39 @@ namespace GHIS.Ctrl
         /// </summary>
         [Category("CardList属性")]
         [Description("卡片背景色")]
+        [DefaultValue(typeof(Color), "White")]
         public Color CardBackColor { get; set; } = Color.White;
 
         /// <summary>
-        /// 卡片边框色
+        /// 卡片选中边框特效颜色
         /// </summary>
         [Category("CardList属性")]
-        [Description("卡片边框色")]
-        public Color CardBorderColor { get; set; } = Color.Black;
+        [Description("卡片选中边框特效颜色")]
+        [DefaultValue(typeof(Color), "Silver")]
+        public Color CardSelectionBorderColor { get; set; } = Color.Silver;
 
         /// <summary>
-        /// 卡片是否显示边框
+        /// 卡片选中边框特效宽度
         /// </summary>
         [Category("CardList属性")]
-        [Description("卡片是否显示边框")]
-        public bool CardShowBorder { get; set; } = true;
+        [Description("卡片选中边框特效宽度")]
+        [DefaultValue(10)]
+        public int CardSelectionBorderWidth { get; set; } = 10;
+
+        /// <summary>
+        /// 卡片是否显示选中边框特效
+        /// </summary>
+        [Category("CardList属性")]
+        [Description("卡片是否显示选中边框特效")]
+        [DefaultValue(true)]
+        public bool CardShowSelectionBorder { get; set; } = true;
 
         /// <summary>
         /// 卡片最小间距
         /// </summary>
         [Category("CardList属性")]
         [Description("卡片最小间距")]
+        [DefaultValue(10)]
         public int CardMinPadding { get; set; } = 10;
 
         /// <summary>
@@ -135,6 +149,7 @@ namespace GHIS.Ctrl
         /// </summary>
         [Category("CardList属性")]
         [Description("卡片是否自定义绘制背景")]
+        [DefaultValue(false)]
         public bool CardIsCustomPaintBack { get; set; }
 
         #endregion
@@ -247,6 +262,9 @@ namespace GHIS.Ctrl
                     //        e.Graphics.ResetTransform();
                     //    }
 
+                    if (CardShowSelectionBorder && card.Checked)
+                        DrawSelectionBorder(e.Graphics, card.Bound, CardSelectionBorderColor, CardSelectionBorderWidth);
+
                     var state = e.Graphics.Save();
                     //矩阵偏移坐标原点
                     e.Graphics.TranslateTransform(this.AutoScrollPosition.X + card.Bound.Location.X, this.AutoScrollPosition.Y + card.Bound.Location.Y);
@@ -254,8 +272,57 @@ namespace GHIS.Ctrl
                     card.OnPaint(e);
                     e.Graphics.Restore(state);
 
+
+
                 }
             }
+        }
+
+        private void DrawSelectionBorder(Graphics g, RectangleF rect, Color c, float len)
+        {
+            rect.Offset(this.AutoScrollPosition.X, this.AutoScrollPosition.Y);
+
+            GraphicsPath path = new GraphicsPath();
+            path.AddBezier(rect.X - len, rect.Y, rect.X - len, rect.Y - len, rect.X, rect.Y - len, rect.X, rect.Y - len);
+            path.AddLine(rect.X, rect.Y - len, rect.Right, rect.Y - len);
+            path.AddBezier(rect.Right, rect.Y - len, rect.Right + len, rect.Y - len, rect.Right + len, rect.Y, rect.Right + len, rect.Y);
+            path.AddLine(rect.Right + len, rect.Y, rect.Right + len, rect.Bottom);
+            path.AddBezier(rect.Right + len, rect.Bottom, rect.Right + len, rect.Bottom + len, rect.Right, rect.Bottom + len, rect.Right, rect.Bottom + len);
+            path.AddLine(rect.Right, rect.Bottom + len, rect.X, rect.Bottom + len);
+            path.AddBezier(rect.X, rect.Bottom + len, rect.X - len, rect.Bottom + len, rect.X - len, rect.Bottom, rect.X - len, rect.Bottom);
+            path.AddLine(rect.X - len, rect.Bottom, rect.X - len, rect.Y);
+
+            //生成一个圆角矩形渐变画刷
+            PathGradientBrush pb = new PathGradientBrush(path);
+
+            //从外到内渐变颜色
+            Color[] colors =
+            {
+               Color.Transparent,
+               c,
+              Color.Black,
+            };
+
+            var rate = 2 * len / (rect.Width + rect.Height);
+
+            //从内到外渐变位置百分比
+            float[] relativePositions =
+            {
+               0f,
+               rate,
+               1f,
+            };
+
+            ColorBlend colorBlend = new ColorBlend();
+            colorBlend.Colors = colors;
+            colorBlend.Positions = relativePositions;
+
+            pb.InterpolationColors = colorBlend;
+
+            //去圆角毛刺
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.FillPath(pb, path);
+            //g.FillRectangle(new SolidBrush(Host.CardBackColor), rect);
         }
 
         protected override void OnMouseClick(MouseEventArgs e)
@@ -263,6 +330,7 @@ namespace GHIS.Ctrl
             base.OnMouseClick(e);
 
             var p = e.Location;
+            p.Offset(-this.AutoScrollPosition.X, -this.AutoScrollPosition.Y);
 
             foreach (var card in Cards)
             {
@@ -279,6 +347,7 @@ namespace GHIS.Ctrl
             base.OnMouseDoubleClick(e);
 
             var p = e.Location;
+            p.Offset(-this.AutoScrollPosition.X, -this.AutoScrollPosition.Y);
 
             foreach (var card in Cards)
             {
@@ -296,7 +365,6 @@ namespace GHIS.Ctrl
             base.OnMouseMove(e);
 
             var p = e.Location;
-
             p.Offset(-this.AutoScrollPosition.X, -this.AutoScrollPosition.Y);
 
             foreach (var card in Cards)
@@ -382,12 +450,13 @@ namespace GHIS.Ctrl
                 if (!Host.CardIsCustomPaintBack)
                     e.Graphics.FillRectangle(new SolidBrush(Host.CardBackColor), rect);
 
-                if (Host.CardShowBorder && !Host.CardIsCustomPaintBack)
-                {
-                    rect.Width -= 1;
-                    rect.Height -= 1;
-                    e.Graphics.DrawRectangle(new Pen(Host.CardBorderColor), rect);
-                }
+                //去除普通边框，在外部添加选中特效边框
+                //if (Host.CardShowBorder && !Host.CardIsCustomPaintBack)
+                //{
+                //    rect.Width -= 1;
+                //    rect.Height -= 1;
+                //    e.Graphics.DrawRectangle(new Pen(Host.CardBorderColor), rect);
+                //}
 
                 this.Host.OnCardPaint(this, e);
             }
@@ -425,6 +494,8 @@ namespace GHIS.Ctrl
             public void Invalidate()
             {
                 var rect = this.Bound;
+                //边框特效区域必须包含在无效区域，否则无法绘制选中边框特效
+                rect.Inflate(Host.CardSelectionBorderWidth, Host.CardSelectionBorderWidth);
                 rect.Offset(Host.AutoScrollPosition.X, Host.AutoScrollPosition.Y);
                 Host.Invalidate(rect);
             }
