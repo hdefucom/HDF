@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.0.0">
+   <Attributes>
+      <Attribute>
+         <Name>IsShowGridLine</Name>
+         <Value>false</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <ID>a21f82c5-2290-4238-a6a4-ca8566</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>姓名his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <Visible>false</Visible>
+               <EventExpressions />
+               <Name>name</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>name</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>姓名his</ToolTip>
+               <BackgroundText>姓名</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <ID>5139966c-6284-414c-b539-d6a533</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>性别his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <Visible>false</Visible>
+               <EventExpressions />
+               <Name>gender</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>gender</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>性别his</ToolTip>
+               <BackgroundText>性别</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <ID>1be52e9c-252d-450c-95c9-93f6a7</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>年龄his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <Visible>false</Visible>
+               <EventExpressions />
+               <Name>Age</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>PA_Age</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>年龄his</ToolTip>
+               <BackgroundText>年龄</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <ID>386ee4b7-98d2-43ef-aa63-969e21</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>就诊病区his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <Visible>false</Visible>
+               <EventExpressions />
+               <Name>sickarea</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>PA_sickarea</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>就诊病区his</ToolTip>
+               <BackgroundText>病区</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="3">
+               <ID>c13bda48-0002-48fb-b994-487b0d</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>入院床号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <Visible>false</Visible>
+               <EventExpressions />
+               <Name>insickroom</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>insickroom</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>入院床号his</ToolTip>
+               <BackgroundText>床号</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <ID>00b897a2-44d9-47df-93d9-ca8eba</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>患者住院号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <Visible>false</Visible>
+               <EventExpressions />
+               <Name>Regno</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>Regno</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>患者住院号his</ToolTip>
+               <BackgroundText>住院号</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XTextTable" NumOfRows="4" NumOfColumns="2">
+               <Expressions />
+               <ScriptItems />
+               <Attributes />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>录入时间：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>00b65777-5364-4d70-9e82-78f615</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>录入时间</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>SJZDD00000004</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理（微量血糖2）</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>BloodSugar_InputDate</Name>
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>yyyy-MM-dd</Format>
+                                 </DisplayFormat>
+                                 <ValueBinding />
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <Required>true</Required>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <InnerValue />
+                                 <ToolTip>录入时间</ToolTip>
+                                 <BackgroundText>录入时间</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>Date</EditStyle>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XString">
+                                 <Text>  </Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <ID>44177b50-eb15-4e76-a8a2-da5d5f</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>时段</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>SJZDD00000004</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理（微量血糖2）</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>BloodSugar_Period</Name>
+                                 <ValueBinding />
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>时段</ToolTip>
+                                 <BackgroundText>时段</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>空腹</Text>
+                                             <Value>空腹</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>早餐后2H</Text>
+                                             <Value>早餐后2H</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>午餐后2H</Text>
+                                             <Value>午餐后2H</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>晚餐后2H</Text>
+                                             <Value>晚餐后2H</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>睡前</Text>
+                                             <Value>睡前</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>01：30</Text>
+                                             <Value>01：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>03：30</Text>
+                                             <Value>03：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>05：30</Text>
+                                             <Value>05：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>07：30</Text>
+                                             <Value>07：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>09：30</Text>
+                                             <Value>09：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>11：30</Text>
+                                             <Value>11：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>13：30</Text>
+                                             <Value>13：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>15：30</Text>
+                                             <Value>15：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>17：30</Text>
+                                             <Value>17：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>19：30</Text>
+                                             <Value>19：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>21：30</Text>
+                                             <Value>21：30</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>23：30</Text>
+                                             <Value>16</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>测量结果：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>5a14275f-a905-4e85-9b4e-c0d099</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>测量结果</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>SJZDD00000004</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理（微量血糖2）</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>BloodSugar_Capacity</Name>
+                                 <ValueBinding />
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <Required>true</Required>
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <InnerValue />
+                                 <ToolTip>测量结果</ToolTip>
+                                 <BackgroundText>测量结果</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>mmol/L</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>胰岛素量：</Text>
+                              </Element>
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>add45f65-bb13-473c-80a9-db15f1</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>胰岛素量</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>SJZDD00000004</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理（微量血糖2）</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>BloodSugar_Insulin</Name>
+                                 <ValueBinding />
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <Required>true</Required>
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <InnerValue />
+                                 <ToolTip>胰岛素量</ToolTip>
+                                 <BackgroundText>胰岛素量</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XString">
+                                 <Text>（单位）</Text>
+                              </Element>
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>签名：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>0a243b30-a9b6-4b08-9d7a-6903df</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>签名</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>SJZDD00000004</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理（微量血糖2）</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>BloodSugar_Signature</Name>
+                                 <ValueBinding />
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>签名</ToolTip>
+                                 <BackgroundText>签名</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>402.9167</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>1471.83325</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>某 人 民</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text> 医 院</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+            <Element xsi:type="XString" StyleIndex="6">
+               <Text>微量血糖录入</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="5">
+               <ID>8a518c88-8cbb-4ecd-b932-af9e23</ID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="11">
+               <Text>姓名</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="14">
+               <Text>:</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="12">
+               <ID>f3e30b18-77ad-4b5d-bedf-172c62</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>姓名his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <EventExpressions />
+               <Name>name</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>name</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>姓名his</ToolTip>
+               <BackgroundText>姓名</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="11">
+               <Text>性别</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="14">
+               <Text>:</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="12">
+               <ID>547384ad-57e1-49a5-b84a-ff4b1d</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>性别his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <EventExpressions />
+               <Name>gender</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>gender</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>性别his</ToolTip>
+               <BackgroundText>性别</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="11">
+               <Text>年龄</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="14">
+               <Text>:</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="12">
+               <ID>69351d80-27d3-4c57-8c9b-abb838</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>年龄his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <EventExpressions />
+               <Name>Age</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>PA_Age</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>年龄his</ToolTip>
+               <BackgroundText>年龄</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="13">
+               <Text>岁 </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="11">
+               <Text>病区</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="14">
+               <Text>:</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="12">
+               <ID>92eca56a-928a-483a-91f4-67aa95</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>就诊病区his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <EventExpressions />
+               <Name>sickarea</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>PA_sickarea</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>就诊病区his</ToolTip>
+               <BackgroundText>病区</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="11">
+               <Text>床号</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="14">
+               <Text>:</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="14">
+               <ID>aefd8ccc-413a-4d49-aa0e-5595b4</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>入院床号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <EventExpressions />
+               <Name>insickroom</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>insickroom</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>入院床号his</ToolTip>
+               <BackgroundText>床号</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="11">
+               <Text>住院号:</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="12">
+               <ID>af62dc64-6749-4b2b-9e96-22c31b</ID>
+               <Expressions />
+               <ScriptItems />
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>患者住院号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <XElements />
+               <EventExpressions />
+               <Name>Regno</Name>
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>Regno</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+                  <Readonly>false</Readonly>
+               </ValueBinding>
+               <ValidateStyle />
+               <InnerValue />
+               <ToolTip>患者住院号his</ToolTip>
+               <BackgroundText>住院号</BackgroundText>
+               <FieldSettings>
+                  <ListSource>
+                     <Items />
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>第</Text>
+            </Element>
+            <Element xsi:type="XPageInfo" />
+            <Element xsi:type="XString">
+               <Text>页</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+         </XElements>
+      </Element>
+   </XElements>
+   <Info>
+      <CreationTime>2013-06-06T22:31:34.3681087+08:00</CreationTime>
+      <LastModifiedTime>2013-06-06T22:31:34.3691087+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1413.31816</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>录入时间：录入时间  时段测量结果：测量结果mmol/L胰岛素量：胰岛素量（单位）签名：签名</BodyText>
+   <UserHistories />
+   <Comments />
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+         <PrintBackColor />
+         <GridLineColor />
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="1">
+            <FirstLineIndent>100</FirstLineIndent>
+            <DefaultValuePropertyNames>LeftIndent</DefaultValuePropertyNames>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="2">
+            <BackgroundColor />
+            <FontSize>10.5</FontSize>
+            <Underline>true</Underline>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="3">
+            <BackgroundColor />
+            <FontSize>10.5</FontSize>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="4">
+            <Align>Center</Align>
+            <DefaultValuePropertyNames>LeftIndent</DefaultValuePropertyNames>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="5">
+            <Align>Center</Align>
+            <PrintBackColor />
+            <ProtectType>Range</ProtectType>
+            <GridLineColor />
+         </Style>
+         <Style Index="6">
+            <FontSize>14.25</FontSize>
+            <Bold>true</Bold>
+            <PrintBackColor />
+            <ProtectType>Range</ProtectType>
+            <GridLineColor />
+         </Style>
+         <Style Index="7">
+            <PrintBackColor />
+            <ProtectType>Range</ProtectType>
+            <GridLineColor />
+         </Style>
+         <Style Index="8">
+            <Align>Center</Align>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="9">
+            <BackgroundColor />
+            <Color>13, 13, 13</Color>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="10">
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+            <FirstLineIndent>100</FirstLineIndent>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="11">
+            <BackgroundColor />
+            <FontSize>11</FontSize>
+            <PrintBackColor />
+            <ProtectType>Range</ProtectType>
+            <GridLineColor />
+         </Style>
+         <Style Index="12">
+            <BackgroundColor />
+            <FontSize>11</FontSize>
+            <Underline>true</Underline>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="13">
+            <FontSize>11</FontSize>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="14">
+            <BackgroundColor />
+            <FontSize>11</FontSize>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <LocalConfig />
+   <PageSettings />
+</XTextDocument>

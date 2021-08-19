@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ViewOptions_FieldHoverBackColor"><value>鼠标悬浮在文本输入域时文本输入域的高亮度背景颜色，默认为淡蓝色。</value></data>
+  <data name="WriteFileByURL_URL_Result"><value>以URL方式写文件"{0}",返回了{1}。</value></data>
+  <data name="BehaviorOptions_DefaultEditorActiveMode"><value>默认的数值编辑器激活模式，默认为None。</value></data>
+  <data name="TrackVisibleConfig_BackgroundColor"><value>背景色，默认为透明色。</value></data>
+  <data name="MustMarkSerializableAttribute_TypeName"><value>类型“{0}”必须标记为可二进制序列化。</value></data>
+  <data name="CtrlClickToLink"><value>按住Ctrl并鼠标单击可访问链接。</value></data>
+  <data name="ClickToLoadControl"><value>请点击加载控件。</value></data>
+  <data name="ElementNoBelongToDocument"><value>文档元素不属于任何一个文档。</value></data>
+  <data name="Enable"><value>有效</value></data>
+  <data name="ViewOptions_OldWhitespaceWidth"><value>是否启用旧的计算空格的算法，默认为false。</value></data>
+  <data name="PageLeftMargin"><value>左页边距</value></data>
+  <data name="Options_WriterControlOptions"><value>编辑器控件配置选项</value></data>
+  <data name="GridLinePreviewText"><value>DCWriter是南京都昌信息科技有限公司自主研发的专业的电子病历文档编辑器。</value></data>
+  <data name="ReadonlyCanNotDeleteLastParagraphFlag"><value>任何时候都不能删除最后一个段落符号。</value></data>
+  <data name="CurrentDocument"><value>本文档</value></data>
+  <data name="RequiredNET20SP2"><value>DCWriter电子病历编辑器提醒您：电脑中必须需要安装微软.NET框架2.0SP2或更高版本。
+DOTNET框架2.0SP2-32位安装文件下载地址：
+http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe
+DOTNET框架2.0SP2-64位安装文件下载地址：
+http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x64.exe</value></data>
+  <data name="ViewOptions_FieldInvalidateValueBackColor"><value>文本输入域数据异常时的高亮度背景色，默认为全透明。</value></data>
+  <data name="TrackVisibleConfig_UnderLineColorNum"><value>下划线个数，默认为1.</value></data>
+  <data name="ExecuteEventScript_Element_Event_Method"><value>元素“{0}”响应事件“{1}”，执行脚本方法“{2}”。</value></data>
+  <data name="TrackVisibleConfig_Enabled"><value>配置是否可用，默认为true。</value></data>
+  <data name="TipTitle"><value>系统提示</value></data>
+  <data name="ElementType_Document"><value>文档</value></data>
+  <data name="Delete"><value>删除</value></data>
+  <data name="ElementType_CheckBox"><value>复选框</value></data>
+  <data name="PromptInputText"><value>请输入文本</value></data>
+  <data name="ParagraphFirstLineIndent"><value>首行缩进</value></data>
+  <data name="SecurityOptions_ShowLogicDeletedContent"><value>显示被逻辑删除的元素。默认为false。</value></data>
+  <data name="BehaviorOptions_OutputBackgroundTextToRTF"><value>在导出RTF文档时是否导出文本输入域的背景文本。默认为true。</value></data>
+  <data name="ReadonlyLogicDeleted"><value>内容已经被逻辑删除了，无法再次删除。</value></data>
+  <data name="ElementType_RadioBox"><value>单选框</value></data>
+  <data name="ArgumentOutOfRange_Name_Value_Max_Min"><value>参数“{0}”值为“{1}”，超出范围，最大值“{2}”，最小值“{3}”。</value></data>
+  <data name="ViewOptions_GridLineColor"><value>文档网格线颜色，默认为灰色。</value></data>
+  <data name="HostedControlList"><value>承载的控件列表</value></data>
+  <data name="ElementType_TableRow"><value>表格行</value></data>
+  <data name="ViewOptions_BackgroundTextColor"><value>字段域的背景文本颜色，默认为灰色。</value></data>
+  <data name="InvalidateType_Name"><value>类型“{0}”无效。</value></data>
+  <data name="ViewOptions_PrintGridLine"><value>打印时是否打印网格线，默认为false。</value></data>
+  <data name="AlertControlNotLoaded"><value>控件尚未加载，请不要在窗口或控件的构造函数中调用本功能。</value></data>
+  <data name="EditOptions_ClearFieldValueWhenCopy"><value>在复制内容时清空输入域的内容，默认为false。</value></data>
+  <data name="PageRightMargin"><value>右页边距</value></data>
+  <data name="BehaviorOptions_EnableControlHostAtDesignTime"><value>编辑器在设计模式下仍然允许承载控件，默认为true。</value></data>
+  <data name="ElementType_ContentLink"><value>内容链接</value></data>
+  <data name="LoadLicenseFromDog"><value>已经根据加密狗进行了软件注册了。</value></data>
+  <data name="ElementType_LineBreak"><value>断行符</value></data>
+  <data name="AssemblyFileFilter"><value>.NET程序集文件(*.dll,*.exe)|*.dll;*.exe|所有文件|*.*</value></data>
+  <data name="PromptUpdateAssembly"><value>已成功启动后台更新程序，请关闭本软件等待１分钟后重新进入。</value></data>
+  <data name="ViewOptions_ReadonlyFieldBorderColor"><value>只读输入域的边界元素颜色，默认为灰色</value></data>
+  <data name="ImagePDFFilter"><value>图片格式的PDF文件(*.image.pdf)|*.image.pdf</value></data>
+  <data name="ViewOptions_SelectionHighlight"><value>选择区域高亮度显示方式，默认为MaskColor方式。</value></data>
+  <data name="InsertElements_Count"><value>插入{0}个元素</value></data>
+  <data name="HtmlFileFilter"><value>Html文件(*.htm,*.html)|*.htm;*.html</value></data>
+  <data name="UnRegisterTitle"><value>本软件未注册。</value></data>
+  <data name="ViewOptions_DropdownListFontSize"><value>下拉列表字体大小，默认为9.</value></data>
+  <data name="NotSupportSerialize_Format"><value>不支持以“{0}”格式进行存储。</value></data>
+  <data name="ElementType_Comment"><value>文档批注</value></data>
+  <data name="Header"><value>页眉</value></data>
+  <data name="BeginReadFile_Name"><value>开始读取文件“{0}”。</value></data>
+  <data name="NoDocument"><value>没有文档。</value></data>
+  <data name="CreatorTipFormatString"><value>{DisplaySavedTime:yyyy-MM-dd HH:mm:ss}由{Name}创建</value></data>
+  <data name="SecurityOptions_EnablePermission"><value>启用文档内容安全和权限控制。若为false则不启用，文档内容可任意编辑。默认为false。</value></data>
+  <data name="BehaviorOptions_WidelyRaiseFoBehaviorOptions_TableCellOperationDetectDistance"><value>表格单元格操作检测时使用的距离长度，单位为屏幕像素，默认为3。</value></data>
+  <data name="ViewOptions_NoneBorderColor"><value>绘制隐藏的边框线使用的颜色。默认淡灰色。</value></data>
+  <data name="NoImage"><value>没有图片</value></data>
+  <data name="ValueInvalidate_Source_Value_Result"><value>对象“{0}”内容为“{1}”，数据校验错误“{2}”。</value></data>
+  <data name="ViewOptions_CommentDateFormatString"><value>文档批注时间格式化字符串。</value></data>
+  <data name="BehaviorOptions_EnableExpression"><value>是否允许表达式。如果为false，则系统不执行表达式，级联模板功能也无法运行。默认为true。</value></data>
+  <data name="BehaviorOptions_EnableCopySource"><value>允许执行内容复制,默认true。</value></data>
+  <data name="ReadonlyContainerReadonly"><value>容器元素设置为内容只读。</value></data>
+  <data name="BehaviorOptions_DebugMode"><value>系统是否处于调试模式。若为true，则系统处于调试模式，系统会输出一些调试文本信息。默认为false。</value></data>
+  <data name="ViewOptions_LayoutDirection"><value>内容排版方向，默认为LeftToRight。</value></data>
+  <data name="ViewOptions_NormalFieldBorderColor"><value>常规的输入域的边界元素颜色，用户可以在常规的输入域中直接输入内容。该属性值默认为蓝色</value></data>
+  <data name="ViewOptions_FieldTextColor"><value>输入域文字颜色，和EnableFieldTextColor搭配使用，默认为黑色。</value></data>
+  <data name="UnRegisterFormTitlePrefix"><value>【DCWriter未注册】</value></data>
+  <data name="PromptRejectFormat_Format"><value>系统被设定为拒绝“{0}”格式的数据。</value></data>
+  <data name="ViewOptions_PrintImageAltText"><value>打印时，若图片没有数据，是否打印图片元素的Alt提示文本，默认为false。</value></data>
+  <data name="PageIndexText"><value>页码</value></data>
+  <data name="PDFFilter"><value>PDF文件(*.pdf)|*.pdf</value></data>
+  <data name="OwnerDocumentNUll"><value>文档元素尚未属于某个文档，无法执行操作。</value></data>
+  <data name="BehaviorOptions_EnableDataBinding"><value>是否启用数据源绑定，如果为false，则编辑器不执行数据源绑定。默认为true。</value></data>
+  <data name="ViewOptions_SpecifyExtenGridLineStep"><value>指定的扩展文档网格线步长,单位为1/300英寸，小于等于0表示无效值，默认为0。</value></data>
+  <data name="SecurityOptions_PowerfulSignDocument"><value>使用强权文档签名。若设置为false，则高权限的用户仍然可以修改低权限签名锁定的内容。默认为true。</value></data>
+  <data name="ReadonlyContentLocked"><value>内容被锁定。</value></data>
+  <data name="BehaviorOptions_EnableScript"><value>允许VBA宏脚本。默认为true。</value></data>
+  <data name="ViewOptions_IgnoreFieldBorderWhenPrint"><value>打印的时候忽略掉输入域边界元素,是其不占据位置，默认为false。</value></data>
+  <data name="TrackVisibleConfig_DeleteLineNum"><value>删除线的个数，默认为1。</value></data>
+  <data name="EditControlReadonly"><value>编辑器控件是只读的。</value></data>
+  <data name="DeleteElement_Content"><value>删除”{0}“</value></data>
+  <data name="RefreshingPage"><value>正在进行分页操作</value></data>
+  <data name="Loading_FileName"><value>正在加载文件“{0}”...</value></data>
+  <data name="TrackVisibleConfig_UnderLineColor"><value>下划线颜色，默认为蓝色。</value></data>
+  <data name="InvokeRequired"><value>不能跨越UI线程直接调用本方法，请调用控件的Invoke或者BeginInvok方法。</value></data>
+  <data name="BehaviorOptions_CustomPromptForbitCheckMRID"><value>自定义的检查病历编号不通过的禁止提示信息，可以设置为“警告：当前文档关联的编号为“{0}”，而要粘贴的内容关联的编号为“{1}”，根据规范，禁止执行本次操作。”</value></data>
+  <data name="InvalidateControlType_Type_ExpectType"><value>控件类型{0}无效，应该是{1}。</value></data>
+  <data name="ViewOptions_TextRenderStyle"><value>在绘制文字时的质量设置。默认为ClearTypeGridFit。</value></data>
+  <data name="Loading_FileName_Format"><value>正在以 {1} 格式加载文件“{0}”...</value></data>
+  <data name="PromptMaxTextLengthForPaste_Length"><value>系统设置为粘贴或插入内容时不能接收超过{0}个字符。</value></data>
+  <data name="MemberNotFound_Type_Member"><value>未找到类型“{0}”的成员“{1}”。</value></data>
+  <data name="ElementType_Header"><value>页眉</value></data>
+  <data name="ViewOptions_EnableFieldTextColor"><value>是否启用输入域文字颜色，默认为false。</value></data>
+  <data name="PageBottomMargin"><value>下页边距</value></data>
+  <data name="NumOfPagesText"><value>总页数</value></data>
+  <data name="BehaviorOptions_DesignMode"><value>编辑器是否处于设计模式。默认为false。</value></data>
+  <data name="ElementType_Footer"><value>页脚</value></data>
+  <data name="ViewOptions_FieldBackColor"><value>文本输入域的默认背景颜色，默认为浅蓝色。</value></data>
+  <data name="PropertyCannotHasParameter_Name"><value>属性“{0}”不能有参数。</value></data>
+  <data name="DCSoftTestVersion"><value>南京都昌科技内部测试版</value></data>
+  <data name="PromptDisableOSClipboardData"><value>程序禁止从外部获得数据。</value></data>
+  <data name="ElementType_PageBreak"><value>分页符</value></data>
+  <data name="ElementType_ControlHost"><value>控件宿主</value></data>
+  <data name="ElementType_InputField"><value>输入域</value></data>
+  <data name="PrintPage_PageIndex"><value>正在打印 {0} 页...</value></data>
+  <data name="ViewOptions_ShowHeaderBottomLine"><value>当页眉有内容时显示页眉下边框线。若为false，则页眉和正文之间就没有分隔横线。默认值为true。</value></data>
+  <data name="PromptRegister"><value>请注册本软件，以更好的支持软件开发商。</value></data>
+  <data name="PrintComplete"><value>打印完成。</value></data>
+  <data name="LocalPageIndexText"><value>页码</value></data>
+  <data name="ElementType_TableCell"><value>单元格</value></data>
+  <data name="ReadonlyInputFieldUserEditable_ID"><value>输入域"{0}"的内容设置为不能直接修改。</value></data>
+  <data name="ReadonlyUserEvent"><value>在用户事件处理中设置为内容只读了。</value></data>
+  <data name="ReadonlyFormViewMode"><value>由于控件处于表单模式而导致文档元素只读。</value></data>
+  <data name="ReadonlyCanNotDeleteBorderElement"><value>不能删除输入域边界元素。</value></data>
+  <data name="ViewOptions_MinTableColumnWidth"><value>表格列的最小宽度，单位为1/300英寸，默认为50。</value></data>
+  <data name="RefreshingDocumentSize"><value>正在计算文档元素大小...</value></data>
+  <data name="UserHandleWriteFileEvent_Result"><value>用户处理了写文件的事件，返回了{0}。</value></data>
+  <data name="RegisterTitle_UserName"><value>本软件已注册，授权给“{0}”。</value></data>
+  <data name="UnRegisterPageTitle"><value>DCWriter文本编辑器[未注册]第[%pageindex%]页共[%pagecount%]页</value></data>
+  <data name="Disable"><value>无效</value></data>
+  <data name="ViewOptions_SelectionHightlightMaskColor"><value>选择区域高亮度遮盖色，本选项和SelectionHighlight搭配使用。默认为半透明淡蓝色。</value></data>
+  <data name="PageBreak"><value>分页符</value></data>
+  <data name="PromptForbitPasteMRID_ID_SourceID"><value>警告：当前文档关联的编号为“{0}”，而要粘贴的内容关联的编号为“{1}”，根据规范，禁止执行本次操作。</value></data>
+  <data name="By"><value>由</value></data>
+  <data name="XMLFilter"><value>XML文件|*.xml</value></data>
+  <data name="OpenLocalFile"><value>打开本地文件</value></data>
+  <data name="ViewOptions_ShowFieldBorderElement"><value>是否显示输入域边框元素,默认为true。</value></data>
+  <data name="ReadonlyLowPermissionLevel_CurLevel_NeedLevel"><value>权限等级不够，当前等级为{0}，所需等级{1}。</value></data>
+  <data name="NotSupportWrite_Format"><value>不支持保存“{0}”格式的文件。</value></data>
+  <data name="Items_Count"><value>有{0}个项目。</value></data>
+  <data name="BehaviorOptions_OutputFormatedXMLSource"><value>是否输出格式化的XML文本，默认为true。格式化的XML文本带有缩进控制，阅读方便，但文档比较大。</value></data>
+  <data name="MissProperty_Name"><value>没能找到属性“{0}”。</value></data>
+  <data name="Options_ViewOptions"><value>文档视图方面的选项</value></data>
+  <data name="PropertyReadonly_Type_Name"><value>类型“{0}”的属性“{1}”是只读的。</value></data>
+  <data name="BehaviorOptions_SpecifyDebugMode"><value>特别的调试模式，内部使用，默认为false。</value></data>
+  <data name="RegiserFail"><value>注册失败。</value></data>
+  <data name="EditOptions_TabKeyToInsertTableRow"><value>是否允许在表格中最后一个单元格中使用Tab键来新增表格行，默认为true。</value></data>
+  <data name="Error"><value>错误</value></data>
+  <data name="Input"><value>输入</value></data>
+  <data name="ElementType_Table"><value>表格</value></data>
+  <data name="InsertElement_Content"><value>插入“{0}”</value></data>
+  <data name="ElementType_Label"><value>文本标签</value></data>
+  <data name="ElementType_Image"><value>图片</value></data>
+  <data name="ElementType_Block"><value>文件块 </value></data>
+  <data name="ElementType_Sign"><value>锁定符</value></data>
+  <data name="RefreshingDocumentLayout"><value>正在计算文档内容排版...</value></data>
+  <data name="ElementType_Char"><value>字符</value></data>
+  <data name="ElementType_Body"><value>文档正文</value></data>
+  <data name="TrackVisibleConfig_DeleteLineColor"><value>删除线的颜色，默认为红色。</value></data>
+  <data name="ViewOptions_FieldInvalidateValueForeColor"><value>文本输入域数据异常时的高亮度文本色，默认为淡红色。</value></data>
+  <data name="NeedSetOwnerDocument"><value>需要首先设置OwnerDocument属性值。</value></data>
+  <data name="DCLicenseTo_Name"><value>南京都昌信息科技有限公司授权给“{0}”。</value></data>
+  <data name="BehaviorOptions_Printable"><value>文档能否打印。若为false则文档不能打印。默认为true。</value></data>
+  <data name="WhereToCopy"><value>复制到何处？</value></data>
+  <data name="WhereToMove"><value>移动到何处？</value></data>
+  <data name="ViewOptions_ShowParagraphFlag"><value>显示段落标记。不影响打印，默认为true。</value></data>
+  <data name="PromptInvalidateKBEntryRangeMask_Name"><value>知识库节点“{0}”无法应用于当前文档。</value></data>
+  <data name="DocumentOutline"><value>文档大纲层次</value></data>
+  <data name="CoreVersion"><value>内部版本号</value></data>
+  <data name="BehaviorOptions_TableCellOperationDetectDistance"><value>表格单元格操作检测时使用的距离长度，单位为屏幕像素，默认为3。</value></data>
+  <data name="LoadListItemsFromBuffer_Name_URL"><value>从缓存区加载列表项目，名称“{0}”，来源“{1}”。</value></data>
+  <data name="ElementType_Barcode"><value>条码</value></data>
+  <data name="WriterControlDisposed"><value>编辑器控件已经被销毁了。</value></data>
+  <data name="ReadonlyCannotAcceptElementType_ParentType_ChildType"><value>{0}类型的元素不能接受{1}类型的子元素。</value></data>
+  <data name="DocumentComment"><value>批注</value></data>
+  <data name="UserHandleReadFileEvent_FileName_Result"><value>用户处理了读文件"{0}"的事件，返回了{1}。</value></data>
+  <data name="SystemAlert"><value>系统提示</value></data>
+  <data name="TXTFileFilter"><value>TXT文件(*.txt)|*.txt</value></data>
+  <data name="EditOptions_CloneWithoutLogicDeletedContent"><value>复制文档的时候不复制已经被逻辑删除的内容，默认为false。</value></data>
+  <data name="EditOptions_TabKeyToFirstLineIndent"><value>是否使用Tab键来设置段落首行缩进，默认为true。</value></data>
+  <data name="Options_SecurityOptions"><value>安全和权限方面的设置</value></data>
+  <data name="LocalNumOfPagesText"><value>页数</value></data>
+  <data name="NotSupportSerializeText_Format"><value>不支持以纯文本格式存储为“{0}”文件格式。</value></data>
+  <data name="BehaviorOptions_AutoCreateInstanceInProperty"><value>在属性中自动创建变量对象实例，默认为false。</value></data>
+  <data name="Version"><value>版本</value></data>
+  <data name="Options_BehaviorOptions"><value>编辑器行为方面的选项</value></data>
+  <data name="Options_EditOptions"><value>编辑方面的选项</value></data>
+  <data name="DCWriterSystemAlert"><value>系统提示</value></data>
+  <data name="SaveLocalFile"><value>保存本地文件</value></data>
+  <data name="RegisterOK"><value>注册成功。</value></data>
+  <data name="ParagraphLeftIndent"><value>左缩进</value></data>
+  <data name="ViewOptions_CommentFontSize"><value>文档批注字体大小，默认为10.</value></data>
+  <data name="ElementType_HL"><value>水平线</value></data>
+  <data name="LoadComplete_Size"><value>加载完成，共加载了{0}。</value></data>
+  <data name="ViewOptions_DefaultInputFieldTextColor"><value>文本输入域默认的文本颜色，默认为透明色，也就是该设置无效</value></data>
+  <data name="CheckRequired_Name"><value>单/复选框组“{0}”必须有勾选项。</value></data>
+  <data name="ViewOptions_ShowExpressionFlag"><value>当单元格设置了表达式，则在右下角显示表达式标记，默认为true。</value></data>
+  <data name="ReadonlyElementMarkUndeleteable_ID"><value>元素“{0}”被标记为不能删除。</value></data>
+  <data name="CoreSystemAlert"><value>南京都昌信息科技有限公司 提醒</value></data>
+  <data name="ElementType_TableColumn"><value>表格列</value></data>
+  <data name="PromptDevelopmentDog_Name"><value>本软件已授权给“{0}”，请插入授权加密狗。若要加密狗请联系南京都昌信息科技有限公司。请不要破解盗版国产软件，支持民族产业。</value></data>
+  <data name="ReadonlyForSameLevelContent"><value>同等级的用户内容是只读的。</value></data>
+  <data name="Downloading_URL"><value>正在下载“{0}”...</value></data>
+  <data name="ReadonlyPermission"><value>由于授权控制而导致内容只读。</value></data>
+  <data name="PromptNotFontProperty_TypeName_PropertyName"><value>类型“{0}”未找到属性“{1}”。</value></data>
+  <data name="HasCompilerErrors_Num"><value>有 {0} 个编译错误。</value></data>
+  <data name="SecurityOptions_ShowPermissionTip"><value>是否显示授权相关的提示信息，若为true，则在编辑器中当鼠标移动到文档内容时，会以提示文本的方式显示文档内容权限和痕迹信息。默认为true。</value></data>
+  <data name="ViewOptions_EnableEncryptView"><value>是否允许视图加密显示，默认为true。</value></data>
+  <data name="PropertyIsReadonly_Name"><value>属性“{0}”是只读的。</value></data>
+  <data name="FileName"><value>文件名</value></data>
+  <data name="ReadFileByFileSystem_SystemName_FileName_Result"><value>读取了虚拟文件系统“{0}”中的文件“{1}”，返回{2}。</value></data>
+  <data name="EditOptions_KeepTableWidthWhenInsertDeleteColumn"><value>在插入和删除表格列时是否保持表格的总宽度不变。默认true。</value></data>
+  <data name="ValueInvalidate"><value>数据校验错误</value></data>
+  <data name="BehaviorOptions_ForcePopupFormTopMost"><value>强制弹出式数据输入框为TopMost模式，默认为false。</value></data>
+  <data name="BeginWriteFile_Name_Bytes"><value>开始写文件“{0}”，数据字节长度{1}。</value></data>
+  <data name="ElementType_PageInfo"><value>页码</value></data>
+  <data name="PageTopMargin"><value>上页边距</value></data>
+  <data name="ViewOptions_FieldFocusedBackColor"><value>文本输入域获得输入焦点时的高亮度背景颜色,默认为淡蓝色。</value></data>
+  <data name="ViewOptions_ShowBackgroundCellID"><value>作为背景显示单元格编号，默认为false。</value></data>
+  <data name="EditOptions_FixWidthWhenInsertTable"><value>在插入表格时为容器元素修正表格的宽度，使得表格元素的宽度不会超过容器客户区宽度，默认true。</value></data>
+  <data name="EditOptions_FixWidthWhenInsertImage"><value>在插入图片时为容器元素修正图片的宽度，使得图片元素的宽度不会超过容器客户区宽度。默认为true。</value></data>
+  <data name="WarringPasteMRID_ID_SourceID"><value>警告：当前文档关联的编号为“{0}”，而要粘贴的内容关联的编号为“{1}”，根据规范，不建议执行本次操作，是否继续？</value></data>
+  <data name="ElementType_ParagraphFlag"><value>段落符号</value></data>
+  <data name="ViewOptions_ShowPageLine"><value>当编辑器处于普通视图模式（不分页），是否显示分页线。默认为true。</value></data>
+  <data name="LimitedFunction"><value>受限功能</value></data>
+  <data name="MissProperty_Type_Name"><value>类型“{0}”不存在属性“{1}”。</value></data>
+  <data name="RefreshDocumentComments"><value>正在刷新文档批注...</value></data>
+  <data name="BadParameterValueType_Name_Type_Value"><value>参数“{0}”数据类型错误，类型“{1}”，数据"{3}"。</value></data>
+  <data name="DeleterTipFormatString"><value>{DisplaySavedTime:yyyy-MM-dd HH:mm:ss}由{Name}删除</value></data>
+  <data name="ViewOptions_ShowGridLine"><value>是否显示文档网格线，默认为false。</value></data>
+  <data name="PromptProtectedContent"><value>有内容受到保护，操作受到限制或无法执行。</value></data>
+  <data name="MHTFileFilter"><value>WEB存档,单一文件(*.mht)|*.mht</value></data>
+  <data name="ExcludeKeyword_Keyword"><value>出现违禁关键字“{0}”。</value></data>
+  <data name="IDRepeat_ID"><value>发现重复的元素ID值“{0}”。</value></data>
+  <data name="ReadonlyContentProtect"><value>由于强制设置了内容保护而导致内容只读。</value></data>
+  <data name="AssemblyUnObfuscation"><value>[程序未加密]</value></data>
+  <data name="RTFFileFilter"><value>RTF文件(*.rtf)|*.rtf</value></data>
+  <data name="SecurityOptions_TrackVisibleLevel3"><value>等级大于等于3的用户痕迹可视化选项</value></data>
+  <data name="SecurityOptions_TrackVisibleLevel2"><value>等级2的用户痕迹可视化选项</value></data>
+  <data name="SecurityOptions_TrackVisibleLevel1"><value>等级1的用户痕迹可视化选项</value></data>
+  <data name="SecurityOptions_TrackVisibleLevel0"><value>等级0的用户痕迹可视化选项</value></data>
+  <data name="InvalidatePageSettings"><value>无效的页面设置，请仔细调整文档页面设置。</value></data>
+  <data name="ParagraphRightIndent"><value>右缩进</value></data>
+  <data name="ViewOptions_EnableRightToLeft"><value>允许执行从右到左排版,当允许从右到左排版时会影响一些性能。当确定不再使用从右到左的功能时，可以设置该选项为false来提高一些性能。默认为true。</value></data>
+  <data name="ViewOptions_PrintBackgroundText"><value>打印时是否显示输入域的背景文字，默认为false。</value></data>
+  <data name="HostControlTypeIsEmpty"><value>承载的控件类型名称为空。</value></data>
+  <data name="DocumentInDesignMode"><value>文档处于设计模式</value></data>
+  <data name="ViewOptions_UnEditableFieldBorderColor"><value>内容不能被用户直接录入修改的输入域的边界元素颜色，默认为红色</value></data>
+  <data name="BehaviorOptions_InsertDocumentWithCheckMRID"><value>插入文档内容时MRID值的检测模式。默认为None。</value></data>
+  <data name="ViewOptions_RichTextBoxCompatibility"><value>兼容RTF文本控件模式,若为true，则使得同一个RTF文档，在本编辑器中和标准RichTextBox控件中显示的结果误差比较小。默认为false。</value></data>
+  <data name="BehaviorOptions_CustomWarringCheckMRID"><value>自定义的检查病历编号不通过的警告提示信息，可以设置为“警告：当前文档关联的编号为“{0}”，而要粘贴的内容关联的编号为“{1}”，根据规范，不建议执行本次操作，是否继续？”。</value></data>
+  <data name="RowExistInTable"><value>表格行已经在表格中了。</value></data>
+  <data name="SecurityOptions_EnableLogicDelete"><value>执行逻辑删除。默认为false。</value></data>
+  <data name="LoadListItems_ProviderType_Name_Num"><value>使用“{0}”成功为“{1}”加载了{2}个列表项目。</value></data>
+  <data name="InvalidateOCXType_Name"><value>未找到OCX类型“{0}”，可能没有注册该类型。</value></data>
+  <data name="WriteFileByFileSystem_SystemName_FileName_Result"><value>输出到虚拟文件系统“{0}”中的文件“{1}”，返回{2}。</value></data>
+  <data name="LineInfo_PageIndex_LineIndex_ColumnIndex"><value>第{0}页 第{1}行 第{2}列。</value></data>
+  <data name="EditOptions_ValueValidateMode"><value>文档数据校验模式，默认为LostFocus。</value></data>
+  <data name="DeleteElements_Count"><value>删除{0}个元素</value></data>
+  <data name="ReadFileByURL_URL_Result"><value>以URL方式读取文件“{0}”，返回了{1}。</value></data>
+  <data name="SecurityOptions_ShowPermissionMark"><value>是否显示授权标记。若为true，则用蓝色下划线标记出高权限用户输入的内容，使用删除线标记出被逻辑删除的内容。默认为false。</value></data>
+  <data name="BehaviorOptions_PromptProtectedContent"><value>当视图删除无法删除的内容时的提示方式，默认为Details。</value></data>
+  <data name="AllFileFilter"><value>所有文件|*.*</value></data>
+  <data name="LoadingAutoSave_FileID"><value>正在恢复文档“{0}”...</value></data>
+  <data name="RepeatDataBinging_Element_DataSource"><value>元素{0}重复绑定了数据源{1}。</value></data>
+  <data name="SecurityOptions_RealDeleteOwnerContent"><value>用户能物理删除自己曾经输入的内容。默认为false。例如用户“张三”曾经输入一段文字保存后在被其他高权限的用户修改掉了，然后“张三”再次登录来打开文档修改此前由本人输入的内容。若RealDeleteOwnerContent选项值为true，则此时进行的是物理删除，不会留下任何痕迹；若RealDeleteOwnerContent选项值为false，则此时进行的是逻辑删除，会留下修改痕迹。</value></data>
+  <data name="ViewOptions_ShowCellNoneBorder"><value>是否显示表格单元格的隐藏的边框线默认为true。</value></data>
+  <data name="ScriptItems_Count"><value>{0}个脚本项目。</value></data>
+  <data name="ReadonlyCanNotDeleteBackgroundText"><value>不能删除输入域的背景文本。</value></data>
+  <data name="EditOptions_GridLinePreviewText"><value>预览内容网格线功能时使用的预览文字。</value></data>
+  <data name="BehaviorOptions_ExcludeKeywords"><value>全文违禁关键字列表，可包含多个违禁关键字，各个关键字之间用半角逗号分开。</value></data>
+  <data name="Fail"><value>失败。</value></data>
+  <data name="RegisterWithBitchFail"><value>自助注册失败！请插入正确的加密狗，或者联系南京都昌信息技术有限公司。</value></data>
+  <data name="PromptMD5Enabled"><value>系统错误：本计算机系统没能启用MD5加密功能，导致本软件功能不可用。请设置"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy"下的Enabled键值为0。</value></data>
+  </root>

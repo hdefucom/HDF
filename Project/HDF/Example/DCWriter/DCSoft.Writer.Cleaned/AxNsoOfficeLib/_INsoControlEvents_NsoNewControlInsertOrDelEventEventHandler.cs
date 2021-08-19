@@ -1,0 +1,7 @@
+using System.Runtime.InteropServices;
+
+namespace AxNsoOfficeLib
+{
+	[ComVisible(false)]
+	public delegate void _INsoControlEvents_NsoNewControlInsertOrDelEventEventHandler(object sender, _INsoControlEvents_NsoNewControlInsertOrDelEventEvent _INsoControlEvents_NsoNewControlInsertOrDelEventEvent_0);
+}

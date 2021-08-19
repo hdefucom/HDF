@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <EventTemplateName>测试</EventTemplateName>
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>您可以点击</Text>
+            </Element>
+            <Element xsi:type="XImage">
+               <PropertyExpressions />
+               <Width>240.625</Width>
+               <Height>96</Height>
+               <Image>
+                  <HorizontalResolution>96</HorizontalResolution>
+                  <VerticalResolution>96</VerticalResolution>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA AE0AAAAf CAYAAACi T0BMAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AAP5SURB VGhD7Ze7
+ jqMwFED9 B/MJ8wkp h1RTbply y0gBacuU U6ZcKSGi 3JJyS2Ca KSm3pEjC aKqUUzLv zEvcvdfm YcCwAW01 MtJRHGNf 7MO1AXZ3 dweafrCb mxvQ9IOB PnofWtqA Q0sbcGhp
+ Aw72+fkJ mn5oaQNg Hx8foOmH ljYALW0A 7P39HVQ4 v6MaIThu CItfiBPC /KcH84UH 0wuXM5kj P1xlrK9G p7Q0TVtJ DkiSwp64 TSHapzD6 tlDGer+0 YLyO1efi NYwZA4ZY
+ l9Vz8XoM zLqs1DWQ +nczhnVc 9ru0mtfr HKfEIGnJ dQTRdCT4 g2UU5l7t 4fQIaTTY ymTGa4jr 7SVIXOdE SFohNob1 WCGD1/9H aW9vb6Ci TRplGMlK b0NIwzlE k1MIr1Ga
+ J6RV48Rg G5Igw4ZY Oh9YBtix 3F4Fxeho F9tgWAEv B/UbwqG+ zRjU1gqk OERggWHH 1ToFHdJQ ikIYLUku jYQ55xCS tIikRXB6 XpeWUQwm AKsxKYma VEHWJxPT gEuzy5sj
+ xYhtI7uu Wlrj+nWU 4+mShpu+ ShjtYXxJ kizEQ1ne n5RnZrc0 G6whmYZ9 GZfS0lbK tOJ/Pumi /shMOxL2 +voKKugp mQvb7xN8 Urqc6Drh exgtScow EsaloWSS 1oy1y7LA
+ hKAoi7to mzgR2yzu rBmo+/L6 ANuZQe08 skNJZjXT dvk56sPr TDBJ2q7s F5iq6x1H uzR8rZCF 7W9RFgo7 n0z5UqRf Ud6DG6I0 lHx6VpdG kxZiDHuX /Sd54nxA 0rKJ7HAp
+ NSZBky4k ZLGkiXO4 tFymdFM4 +bWafUla 2U6mHF8b rdLoPUwW xqVFCXhX EUy+z8EL cVkidCH3 KsHM9OCk IS0DJ19K ywb3z0wL wKzXqbKt Iq3Gbtci vOUG8Poj pB0OB1BB
+ L64kLEkS sfmjQMoq D18taP8i cS5/4fX4 hBeOkKaK dfBR2mqL 5S2scFB+ Vu+jtNVW lLcrzDS/ 7ONjJog+ ZZ2yfrtC aT6WfS65 uAFSLHHd 8lq8j7GC bXE+pzq+ NtjLywuo
+ oLf8NH9a krBMluMS +EWAQkfn E/x1YH7h 8IGejBbK WC/+DIzl BssbWFaW T5WZT+2z NjO/GqNA nBfx8P9m WW78nRiw 3Cj6N2LP wG/UV+mU RllG+5gX lsLoASE+ ofCzabrg
+ 4ijraH87 Gc0bcfyZ GHQpRD2o zdLgbai9 ekIy0sRJ WqvgHGqf ScMbyIwl bFrbHSHt +fkZVNC3 pMgwIar8 3sRvzbkD 0x8Ol0ay RmcTDklT xfpqtEvD j2/6lqS3 fA6+ThTg
+ 3kX7FweX JMnKUcX6 arCnpyfQ 9IM9Pj6C ph9a2gDY w8MDaPrB 7u/vQdMP nWm9eYC/ 7lmr6eDO dYAAAAAA SUVORK5C YII=</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>按钮插入一张图片，点击</Text>
+            </Element>
+            <Element xsi:type="XImage">
+               <PropertyExpressions />
+               <Width>234.375</Width>
+               <Height>87</Height>
+               <Image>
+                  <HorizontalResolution>96</HorizontalResolution>
+                  <VerticalResolution>96</VerticalResolution>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA AEsAAAAc CAYAAAAp xUKlAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AATRSURB VGhD7Zf7
+ axxVFMfn H5HWR30V ESraWVuL FItWoeIP UlSEml2D j0CoFhqU oCXQ6ma2 pUVRRHSl gogEdhas 9YHP1pIo aXR3x9oq Eou0Kuom m8dmk/r1 fk/m7t7Z nY2zpiCE ufBl5t45
+ 5+w5n733 zh2rXC4j VjTFsDqQ tbCwgFjR FMPqQNb8 /DxiRVMM qwPVYS23 mUFXqqxa rQaKbe/h 7wPa8/p3 6Hu5iN6D 36A7PYr7 93yFu/tO YMvOY7jl sU+wofso Esm8+Oo4
+ /5vyKSQy Xvizi6QW WAsX/m6r au0CypUa fvurivHz 0zh9toJr bn9WfM2g TNyyLF8J ZDw15mWQ SOXrNl4m gVTe8Kl5 yCRSyNf7 7ZVP6dgR lMjA075h QJmrkddS igxr7ExZ
+ ZtTm3i+Q P3ZOQGWP jOPqLf3i awZtJNAA wAJNOJFg EXBT8UEf QxFmVj7l /3HmfSew 5ubmQLG1 g8UZRVAj 3p848PYZ WXqE90r+ J1x129Pi q+OIXCbg ytV2PMx5 DmwrBcex
+ A4WLbAdu 2Dj96aee e35cT9ml XP83JGaT T5Pqttq+ HstFSt/r XLXdEgrA 4h4VBopL jzOKoLbu Oo71O4Zw ovgHDr7z g4L1lPia QRcTcODY Kbhznroy ed43bAKF i1QB2oaF
+ RYFlFqn/ mDBbv1+H wvxC4FJm jGYFYHEz DwPFPYpL jzOKoLj8 Pjv5u8zE KzfvFl8z qP63JGGH RfngjOKX B4u24cWa ahTu2wss /nk2HG8x Zkczq1qt gmLjW0+D 4jK748nj
+ omG1/LhH cYwziqA+ GPkV/a96 WHPrE+Kr 44jcJKyk q+5dJFWx pWpJJZiE q565SQtJ t4qSKpzX hp+ytRZt 6G87JVRL i7BKvk2r jyHtE9Kn n51UfebE mJJbw24x V7+/hAKw
+ eDwgqFPj FYF0+P2f MfTpL1h7 1z7sV0uQ mzn1wtCP ePfLc9j1 YgFXbOoV XzNoAJYA aMDSz1oK N8HoQtvA IvCwmRQq 5e+o2V1q hqT1X2Hx HEVQ258Z EVAnT5fx xnvj2P1S
+ ETfcl5Xl 99ZHZyUJ Pn98/xgu 39gjvmZQ SUAnK4kY sHy1wDKT /hdYdR9T 2qddX8My cwuT8XvN smZnZ0Gx 8cD54MDX eFOB4JLj dSB7Cqnn R2WDv/6e Q9in9qmd h76VwMnn
+ RnHZhkfF V8cR5Vh4 zhgrYlDB yhk2xUFV eK7Rz3F5 6r7ytweL mC0OKliD KLb45NSM DSm0SRLD 95VYgZx8 teTaXtbM zAwoNh4P OJM0KILp OTCGbQri zQ8fEVir 1yexqedz
+ bHzkQ0no 0kS3+Oo4 olwXrK6c MVZA2u5C zrAppG10 5fw+7e00 CsYzO13A TCHdcjyo +zRLxRCf dn3GCuTk qyXX9grA 4ifM0eHz Aop7FPek e/uH1fjH WLf9NVy7 dUC9/fpk
+ 6V23zZEz FuGxmUHb w+JVF67h ccxGuuD7 yTO/zwKb IDbDynXp eEuApC4G rOnpaVBs /NbjsqO4 H3FZcoyg 1t65V0Dx qKCvl6x7 AKtuekh8 dZyVrAAs nqP4rcc3 HmcND5yE
+ wuMB33qc UdyjuPQ4 owhq1Y07 xNcMulJl TU1NgVpu 03FWsqxK pYJY0RTD 6kDW5OQk YkWTNTEx gVjRFM+s DmRls+qb L1YEZfEP Kxyrbgd/ 2f0AAAAA SUVORK5C YII=</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>按钮，然后双击您插入的图片，关闭图片后会触发您绑定的事件。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>奥克斯智慧医院系统:奥克斯智慧医院系统</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-04-14T13:58:56.5961183+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.12.23</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>您可以点击按钮插入一张图片，点击按钮，然后双击您插入的图片，关闭图片后会触发您绑定的事件。</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters />
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>C:\Users\songjianming\Desktop\图标\控件级事件和文档元素级事件.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>文件内容锁定</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>多个用户打开这个文件，那个用户先操作修改这个文件，这个用户将获得锁定这个文件！</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>奥克斯智慧医院系统:奥克斯智慧医院系统</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-04-12T10:19:32.0280931+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.12.23</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>文件内容锁定
+多个用户打开这个文件，那个用户先操作修改这个文件，这个用户将获得锁定这个文件！</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <Color>234, 22, 30</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>C:\Users\songjianming\Desktop\文件内容锁定.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

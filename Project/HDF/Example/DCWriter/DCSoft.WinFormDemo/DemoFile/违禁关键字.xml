@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>违禁关键字</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>您可以在</Text>
+            </Element>
+            <Element xsi:type="XImage">
+               <PropertyExpressions />
+               <Width>593.75</Width>
+               <Height>90</Height>
+               <Image>
+                  <HorizontalResolution>96</HorizontalResolution>
+                  <VerticalResolution>96</VerticalResolution>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA AL4AAAAd CAYAAAAU /NbdAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AAXqSURB VHhe7ZpL
+ buM4EIZ1 LNnHsQQD ucZsBrBl wPve5AiS F97MMRxr k2VfIO83 UMPiSyRV JCU5aThp FvAjElkk i6qPJRlI 9vHxAUlJ f5sS+Ceq LMukMxKV I0rZ+/s7 JE0XPuxk 52GYCypH
+ lBL4JyqB fz6WwP+D SuCfj40C /+3tDX6m WtjMZrBp qb7PUwL/ fAxzQeWI Ugd+u4HZ bAOt0cm1 KyErd3ab pR2UvXGs LSthZ7UJ 7coMZpuW bC93dlu7 mfXahBBq en5LGDu1
+ p0+UDf41 bOcZZJlP S9hLT2Ho P4fttbwd YdfbOTG/ o6W9mmn7 Zbg/bHtY ZqG4J+5r v2Rxu89o eKwx8Hes XzFjVXwE DaHEv+SD lOLgIlRu H4OxnDlt TC7oCLkJ JH0YDLjx
+ UPK52EEo 3dikDxWP R/RhmqY+ +L6EY5+T VEy0SihP ej/W+Wh6 5OGbb9mV NM/clGi+ EHTa35Ja 85R9XW9h zuDfRg42 jjcPP1q0 4hvFPXt9 fYVOLVR5 CY3Z1mDF bwwfWw1C
+ nOdQVq1u a6ucB5Mb bWJuO3ha cv22gly2 iXkaKPMK Wj0X+hnx sjjt9Whh bGVD903R dPCJg2Ca BMDbT5gA gVifwTfk AOF4F3ys tss9A988 SEH73H3x PUWrvejH XFA5MtVW
+ JVTtqwu+ EoPMgtGQ hk9CzxbD z5qKAYXg YVteVbot dGhCsLqA intPXG5M lA/TkIMx Vn3w6bWF uoR3kIkx Vm55lRwH fRzuSGw+ sHn1Xgrw PdVbCfcw fV/C39wD HjprTzg+
+ cACHgM+F xVzcdNW4 BwdZ8YW/ ALOrxAin GI+AdpXY BNNSAPwG 55IPlB8k aw6i4gck 3kBxP3GQ AweV0LSK b0Ook8ur IWtbbnW/ BU7IBoHv gy5W0d1+ ET/Gxr+/ dd/p+1Lf
+ 8+Lt1c1l yRjM/Vkb Wgh8XRBl frOXlxfQ agoGWaMP gU95ddT+ VL8p5Xvk 8NE+PRWN HlM05jqF eItY/gU0 Kn5CYt2w j1JTdGsP 1TTwpfFq yloUGAR8 CoTObLii 8kDZkxd8
+ +X2P/SpO jzTok/Y1 wtj8aijO o64xF1SO tI7s85nn 90iBL6E2 2iwYKJ9J OooD5gGN Q6geKqv2 R+6vAFbX 5l/DPyY+ X3/NKeqD T6ynZYAf eW2PtmjF n2LysCLA CnwNq32Q
+ sULz9U/d lzo0/FIW EbU3a31h 2ofZcPBf xoOvqvCo Ck6Axsfj vGx+XtWd fuWj1sLP nYJBXvQA z6E60uN7 h/YLZIOP 1dH3OWGC 4hwQBAUT bu3L6ONj IhYBP/jp IOUdr2CM
+ Vvz9yfuy fyN8EfjI xfPzM2jV DPz1VXcv 27Kihqu1 Ar2A2uw3 JX3JPlPo l6/hSt7X rLoXtePD hGsWdQ3r 9RoKtnYX 2xWs2SHw xqE0NB4p jGOMP8oC XwFCml0h Q2Ymc7AN
+ AD/UHxqP nxN98DwV P2DxfRmw m0WkB77q s2PAXFA5 0rpai9+N LMfZ09MT cB1WrJFV 1jyH1UG2 oeoFZIu6 u3dUL9hE ql/58rkY qKuD41/D Ahcm5uPz ZAuojbbD Cg8bxnOA
+ Fa/0Kja8 t31JRWJ3 Ze1loDrw MRmhxBJv A11B7XEk INzXGW/a APB7VdeR Hm+u1bum x6Ls8dg2 cl/GtfUb gAJfvU2M QoO5oHKk xXhQTGrw 64UCScIZ EoNDQJnB ohYTqj4T
+ dtOHArsv +2DUiw56 vo4vtnwF B2MesZaQ GPd10uB7 wLOAs6ol u1ev+yFA OUkWJueR fr1uw0ZV fGMtHNeF rcDjN6La oq9e/7R9 8WfFrns/ fHVsWDzk eO5nH6Qo +FyyiD4+
+ PkLSdHUV /2vNAvCL 7buuhbmg ckQpgX+i /hT4yeI2 CvyHhwdI mq4E/vkY 5oLKEaXs /v4ekqYr gX8+hrmg ckQpgX+i EvjnY6PA v7u7g6Tp SuCfj2Eu qBxRym5v byFpuvBh
+ J52PqBxR ShU/6a9U 9s+/W0gK 6+bmRuvy 8jLpB0j8 I3Myr1Hg X1xcJH1z JfAj5gP/ 13+/k76x EvgRS+D/ RP2G/wF4 UcZZc3mB +gAAAABJ RU5ErkJg gg==</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>处输入您想要设置的违禁关键字，（</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>系统现在默认的违禁关键字为（月经,子宫,痛经,流产）</Text>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>）然后点击设置</Text>
+            </Element>
+            <Element xsi:type="XImage">
+               <PropertyExpressions />
+               <Width>118.75</Width>
+               <Height>75</Height>
+               <Image>
+                  <HorizontalResolution>96</HorizontalResolution>
+                  <VerticalResolution>96</VerticalResolution>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA ACYAAAAY CAYAAACW TY9zAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AAFdSURB VEhL7ZJb
+ roMgEIZn WbgdZDUW 9wLdSisL sfdL8h+h lYIFa5M+ 8HBMvmRg YOZzlFDo Q/f7HSVS rtjtdkOJ /It9C12v V5RIVmwt BNZ+bdBW BKKQT/kE VQvj78yT n5hpUflC tnGF1oz5
+ NcSb2LgO 4/DcEH8j drlckMNI AWmGWAsQ kzA+p11D 7dcGkiUm NCWqMc+s mMNKRRKW QCTTzEgG od/3l5IU 0+LZVOi3 XAorEU1m joU16Xw+ I0knwWo9 xF32MzHZ BXc06mF6
+ XVgjQNeE WqdzKRaI TWLHQzZu NIgl5EN+ K6ZrV7Ab Ptc4Ifv2 8bQsP57Y 6XRCku0K zL5prfze dvX4l9hq G591qM8T U9M7eeh4 PCKJ4mDN xseP4gxN 84y5mtxR 4KzBJtp7
+ oTiBq3Qu RV7MsUHj fnwONc2N srx5nlnI jHwIHQ4H lEi5Yvv9 HiVCu90O JVKuWN/3 KI8ef3sW qtnlBf5y AAAAAElF TkSuQmCC</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>按钮，您在这个文档中输入你想要输入的内容后，</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes />
+               <ID>field1</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <XElements />
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <SpecifyWidth>708.661438</SpecifyWidth>
+               <BackgroundText>请您输入内容</BackgroundText>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>可以点击上方</Text>
+            </Element>
+            <Element xsi:type="XImage">
+               <PropertyExpressions />
+               <Width>306.25</Width>
+               <Height>78</Height>
+               <Image>
+                  <HorizontalResolution>96</HorizontalResolution>
+                  <VerticalResolution>96</VerticalResolution>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA AGIAAAAZ CAYAAADK QPsMAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AANrSURB VGhD7ZZr
+ cqswDIW9 LGc74NWA 2YvNVhLY R9J32hld ya/YxiG9 bTrkhzvz DWAk+UjH ZMqg/j3E H/v6+oLK 9lQjHgT2 +fkJle2p RjwI1YgH gZ3PZ6hs zzeMGEHs Bpiz9VEw 2A3zYo0x
+ j4AxvMMa uCbGS2yZ GYbdrbiy nvMoFnrO 8wDCrFFd q2cedrY+ xjMxpvEu Z+fW035S bvfyf/zY CDvcHQxz vu7eRTnW tPEbQybW 6hKX2slh iI2gIbsY O3hrxID3 PiYYQvEx
+ iRFlHbTv 3Y34+PiA dTQILmHG +1ny4ukw CB3F+usM kjPgcna1 4md7X6xV ggusma5R HaOJ9tYi fV7RKzTq y9dRr8y+ aLH2Reh8 Tr9j1Qid Cbm5+SyB 0xDMFRvD wZVyzICc
+ uf65WNsN N1mj2lFu oBTr0NKZ 6PLS/ckU AdrH+x4o T3CQ86XO X3L7i8AG GedBnHn2 wkk0i8Qm RsTxqaHF 4fr4iNIg zOEgPaSh UNtj97Bf ndB0tfFc ajz5ZEzU Q2xspCXZ
+ P4+7M+z9 /R2uM4GU LbQoYNKt bbLVyxg6 bbTuY8Iw piz2GlQD m56itck2 PiVxGtoW 9TCkxT0W 7x2og/bW ra9J9VvQ dG1tzoR9 mXcuNuTS vqQfa0va I+on4dre P2TViAk/
+ 4RZ/T40R fp2GHcwo DNBhc6MB mCu9y+p5 ksFjDH1p WV2Ng0n0 ZMbHXIZ7 RaPrw9b0 cS7f9Jfl FQ/G/Vg1 QkvaOB+c FUziadj5 qafGGA6x xdPoY+jq Gy7lBMJg S+bivuY0
+ XzEyxp1y qyUj5LrB 57Vo4MYI Ogz41aDe RY2ivt/B 3t7eYB2F jfdwiNcO vft84/UD 9GSQss+K Bk/3ik6e ctceY1pQ ISeDYlyz vs6Sgp4c rMP7g9Pp 90v1mTqL HhDKIb10
+ xXeqx4OU aVF4yPpD uvZb2Ovr K6yjoOEd 7ONnNyxD o6LYC6ph 0KhsXTXA u326hlBs XsuvLeO9 nj10/qek wCWvoBd1 0D3p23f0 H1TU374D jjG0P9Uw 7+N8A4du 7/Xch+8b
+ QQKNiAZU /N41ZYcY DQdzVLEJ R9OF2IVh EWEQYVj5 wSjgDLdm ZkMzegs9 YM0umN+F PWj/XJ9q /sCIl5cX qGxPNeJB YM/Pz1DZ Hvb09ASV 7alGPAjs dDpBZXvY 8XiEytYc
+ 4R9suBD7 W3z+bQAA AABJRU5E rkJggg==</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>按钮，假如您输入的文档中有您刚才设置的违禁关键字，系统将会给您提示，并且会帮您定位到当前错误的位置。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>奥克斯智慧医院系统:奥克斯智慧医院系统</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-04-12T13:51:52.6991446+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.12.23</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>违禁关键字
+您可以在处输入您想要设置的违禁关键字，（系统现在默认的违禁关键字为（月经,子宫,痛经,流产））然后点击设置按钮，您在这个文档中输入你想要输入的内容后，
+
+可以点击上方按钮，假如您输入的文档中有您刚才设置的违禁关键字，系统将会给您提示，并且会帮您定位到当前错误的位置。
+</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="2">
+            <Color>234, 22, 30</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>C:\Users\songjianming\Desktop\违禁关键字.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

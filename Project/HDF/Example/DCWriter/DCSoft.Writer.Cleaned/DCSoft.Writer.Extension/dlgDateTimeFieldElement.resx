@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="btnCancel.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD5AAAAZgEAAAs=</value></data><data name="&gt;&gt;chkUserEditable.Name"><value>chkUserEditable</value></data>
+  <data name="&gt;&gt;chkUserEditable.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>30</value></data>
+  <data name="&gt;&gt;chkDeleteable.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;chkDeleteable.Name"><value>chkDeleteable</value></data>
+  <data name="&gt;&gt;txtToolTip.ZOrder"><value>16</value></data>
+  <data name="panel1.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAcBAACFAAAACw==</value></data><data name="chkDeleteable.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAAAAfAAAAAs=</value></data><data name="cboInputStyle.Items12"><value>yyyy/M/d</value></data>
+  <data name="cboInputStyle.Items11"><value>HH时mm分</value></data>
+  <data name="cboInputStyle.Items10"><value>M月d日</value></data>
+  <data name="&gt;&gt;label3.ZOrder"><value>9</value></data>
+  <data name="&gt;&gt;label6.ZOrder"><value>13</value></data>
+  <data name="label12.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEcAAAAMAAAACw==</value></data><data name="label12.Text"><value>高亮度状态:</value></data>
+  <data name="&gt;&gt;label12.ZOrder"><value>11</value></data>
+  <data name="cboEnableHighlight.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABmAAAAPwEAAAs=</value></data><data name="&gt;&gt;label8.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;txtToolTip.Name"><value>txtToolTip</value></data>
+  <data name="&gt;&gt;txtToolTip.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="label16.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACMAAAAMAAAACw==</value></data><data name="label16.Text"><value>名称:</value></data>
+  <data name="txtBackgroundText.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABWAAAAMwAAAAs=</value></data><data name="cboEnableHighlight.Items2"><value>禁止</value></data>
+  <data name="cboEnableHighlight.Items1"><value>允许</value></data>
+  <data name="$this.Text"><value>时间和日期</value></data>
+  <data name="chkMustInput.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAAAAlAAAAAs=</value></data><data name="&gt;&gt;label6.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;label8.ZOrder"><value>17</value></data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>10</value></data>
+  <data name="chkUserEditable.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>90</value></data>
+  <data name="chkReadonly.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>80</value></data>
+  <data name="&gt;&gt;label12.Parent"><value>$this</value></data>
+  <data name="chkMustInput.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label15.Text"><value>加密显示:</value></data>
+  <data name="label15.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsAAAAMAAAACw==</value></data><data name="&gt;&gt;cboEncryptLevel.Parent"><value>$this</value></data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>120</value></data>
+  <data name="&gt;&gt;label15.ZOrder"><value>10</value></data>
+  <data name="&gt;&gt;label3.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;txtID.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;txtID.Name"><value>txtID</value></data>
+  <data name="&gt;&gt;chkMustInput.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;cboEncryptLevel.ZOrder"><value>1</value></data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGsBAACIAQAACw==</value></data><data name="&gt;&gt;chkMustInput.Name"><value>chkMustInput</value></data>
+  <data name="&gt;&gt;chkMustInput.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnCancel.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;chkMustInput.ZOrder"><value>6</value></data>
+  <data name="cboEncryptLevel.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFQAAAAUAAAACw==</value></data><data name="&gt;&gt;txtBackgroundText.Name"><value>txtBackgroundText</value></data>
+  <data name="&gt;&gt;txtBackgroundText.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="cboEnableHighlight.Items"><value>默认</value></data>
+  <data name="txtID.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABWAAAAFgAAAAs=</value></data><data name="label12.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>140</value></data>
+  <data name="&gt;&gt;label15.Parent"><value>$this</value></data>
+  <data name="label3.Text"><value>输入样式:</value></data>
+  <data name="label3.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsAAAAMAAAACw==</value></data><data name="label6.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACMAAAAMAAAACw==</value></data><data name="label6.Text"><value>编号:</value></data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>160</value></data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>190</value></data>
+  <data name="txtToolTip.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>70</value></data>
+  <data name="cboEncryptLevel.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAQAAPwEAAAs=</value></data><data name="btnCancel.Text"><value>取消(&amp;C)</value></data>
+  <data name="btnCancel.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAXAAAACw==</value></data><data name="label8.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC7AAAANwAAAAs=</value></data><data name="label12.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAKAAAAQwEAAAs=</value></data><data name="chkDeleteable.Text"><value>允许被删除</value></data>
+  <data name="chkDeleteable.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFQAAAAQAAAACw==</value></data><data name="label8.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label8.Text"><value>提示文本:</value></data>
+  <data name="label8.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsAAAAMAAAACw==</value></data><data name="cboInputStyle.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="btnOK.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACPAAAAZgEAAAs=</value></data><data name="label9.Text"><value>背景文本:</value></data>
+  <data name="label9.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsAAAAMAAAACw==</value></data><data name="&gt;&gt;btnOK.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnOK.Name"><value>btnOK</value></data>
+  <data name="&gt;&gt;panel1.ZOrder"><value>0</value></data>
+  <data name="&gt;&gt;btnCancel.ZOrder"><value>3</value></data>
+  <data name="chkMustInput.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIoAAAAQAAAACw==</value></data><data name="chkMustInput.Text"><value>必须输入项,不得为空</value></data>
+  <data name="&gt;&gt;panel1.Parent"><value>$this</value></data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;label9.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;label16.ZOrder"><value>19</value></data>
+  <data name="chkReadonly.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAAAAYgAAAAs=</value></data><data name="label15.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label9.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAJAAAANwAAAAs=</value></data><data name="&gt;&gt;cboEnableHighlight.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;cboEnableHighlight.Name"><value>cboEnableHighlight</value></data>
+  <data name="&gt;&gt;cboEnableHighlight.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;label16.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;txtBackgroundText.Parent"><value>$this</value></data>
+  <data name="txtBackgroundText.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFQAAAAVAAAACw==</value></data><data name="cboInputStyle.Items"><value>yyyy-MM-dd HH:mm:ss</value></data>
+  <data name="&gt;&gt;chkUserEditable.ZOrder"><value>5</value></data>
+  <data name="chkUserEditable.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;label9.ZOrder"><value>15</value></data>
+  <data name="&gt;&gt;chkUserEditable.Parent"><value>$this</value></data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="cboInputStyle.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>130</value></data>
+  <data name="cboInputStyle.IntegralHeight" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="cboInputStyle.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="&gt;&gt;chkReadonly.ZOrder"><value>8</value></data>
+  <data name="cboInputStyle.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAcBAACFAAAACw==</value></data><data name="chkMustInput.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>110</value></data>
+  <data name="&gt;&gt;label12.Name"><value>label12</value></data>
+  <data name="&gt;&gt;label12.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnOK.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;chkReadonly.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;cboEnableHighlight.ZOrder"><value>2</value></data>
+  <data name="&gt;&gt;txtName.Parent"><value>$this</value></data>
+  <data name="chkDeleteable.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtBackgroundText.ZOrder"><value>14</value></data>
+  <data name="&gt;&gt;btnOK.ZOrder"><value>4</value></data>
+  <data name="&gt;&gt;label16.Name"><value>label16</value></data>
+  <data name="&gt;&gt;label16.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="chkUserEditable.Text"><value>用户可以直接编辑修改内容</value></data>
+  <data name="chkUserEditable.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKgAAAAQAAAACw==</value></data><data name="label9.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;chkDeleteable.ZOrder"><value>7</value></data>
+  <data name="&gt;&gt;cboInputStyle.Name"><value>cboInputStyle</value></data>
+  <data name="&gt;&gt;cboInputStyle.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;chkDeleteable.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;txtName.ZOrder"><value>18</value></data>
+  <data name="&gt;&gt;label15.Name"><value>label15</value></data>
+  <data name="&gt;&gt;label15.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;panel1.Name"><value>panel1</value></data>
+  <data name="&gt;&gt;panel1.Type"><value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="txtID.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>20</value></data>
+  <data name="chkReadonly.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtID.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFQAAAAVAAAACw==</value></data><data name="&gt;&gt;cboInputStyle.Parent"><value>panel1</value></data>
+  <data name="txtBackgroundText.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>50</value></data>
+  <data name="cboEncryptLevel.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>170</value></data>
+  <data name="&gt;&gt;cboEncryptLevel.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;cboEncryptLevel.Name"><value>cboEncryptLevel</value></data>
+  <data name="txtName.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AAAAFgAAAAs=</value></data><data name="label16.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtName.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGMAAAAVAAAACw==</value></data><data name="label16.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC7AAAAGgAAAAs=</value></data><data name="cboEnableHighlight.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEQAAAAUAAAACw==</value></data><data name="label9.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>477</value></data>
+  <data name="cboEnableHighlight.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>150</value></data>
+  <data name="chkDeleteable.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="label15.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADAAAAAQwEAAAs=</value></data><data name="label3.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAJAAAAwAAAAAs=</value></data><data name="&gt;&gt;$this.Name"><value>dlgDateTimeFieldElement</value></data>
+  <data name="&gt;&gt;$this.Type"><value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>478</value></data>
+  <data name="&gt;&gt;btnCancel.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnCancel.Name"><value>btnCancel</value></data>
+  <data name="&gt;&gt;cboInputStyle.ZOrder"><value>0</value></data>
+  <data name="&gt;&gt;txtID.ZOrder"><value>12</value></data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>180</value></data>
+  <data name="&gt;&gt;label3.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label3.Name"><value>label3</value></data>
+  <data name="cboEncryptLevel.Items"><value>不加密</value></data>
+  <data name="&gt;&gt;label6.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label6.Name"><value>label6</value></data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAEAAAAL</value></data><data name="txtToolTip.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGMAAAAVAAAACw==</value></data><data name="chkReadonly.Text"><value>内容只读</value></data>
+  <data name="chkReadonly.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEgAAAAQAAAACw==</value></data><data name="&gt;&gt;txtID.Parent"><value>$this</value></data>
+  <data name="cboEncryptLevel.Items2"><value>全部加密</value></data>
+  <data name="cboEncryptLevel.Items1"><value>部分加密</value></data>
+  <data name="&gt;&gt;label8.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label8.Name"><value>label8</value></data>
+  <data name="&gt;&gt;label9.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label9.Name"><value>label9</value></data>
+  <data name="&gt;&gt;chkReadonly.Name"><value>chkReadonly</value></data>
+  <data name="&gt;&gt;chkReadonly.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtToolTip.Parent"><value>$this</value></data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABAQQs=</value></data><data name="cboInputStyle.Items2"><value>yyyy-MM-dd HH</value></data>
+  <data name="cboInputStyle.Items3"><value>yyyy-MM-dd </value></data>
+  <data name="cboInputStyle.Items1"><value>yyyy-MM-dd HH:mm</value></data>
+  <data name="cboInputStyle.Items6"><value>yyyy年MM月dd日 HH时mm分ss秒</value></data>
+  <data name="cboInputStyle.Items7"><value>yyyy年MM月dd日 HH时mm分</value></data>
+  <data name="cboInputStyle.Items4"><value>MM-dd </value></data>
+  <data name="cboInputStyle.Items5"><value>HH:mm</value></data>
+  <data name="cboInputStyle.Items8"><value>yyyy年MM月dd日 HH时</value></data>
+  <data name="cboInputStyle.Items9"><value>yyyy年MM月dd日</value></data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>60</value></data>
+  <data name="btnOK.Text"><value>确定(&amp;O)</value></data>
+  <data name="btnOK.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAXAAAACw==</value></data><data name="panel1.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABWAAAAtAAAAAs=</value></data><data name="txtToolTip.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AAAANAAAAAs=</value></data><data name="label6.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAJAAAAGQAAAAs=</value></data><data name="&gt;&gt;txtName.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;txtName.Name"><value>txtName</value></data>
+  <data name="chkUserEditable.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC1AAAAYgAAAAs=</value></data></root>

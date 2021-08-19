@@ -1,0 +1,94 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>请输入光定位值</title>
+	</head>
+	<body style="overflow:hidden">
+
+    <div unselectable="on">
+    <span>请输入光定位值：</span>
+    <hr />
+    <!--Table结构，cellspacing控制中间空行 -->
+    <table style="width:100%;" cellspacing="5">
+        <tr style="text-align: center">
+            <td><input type="text" id="value1" style="width:120px"/></td>
+            <td><input type="text" id="value2" style="width:120px"/></td>
+            <td><input type="text" id="value3" style="width:120px"/></td>
+        </tr>
+        <tr style="text-align: center">
+            <td><input type="text" id="value4" style="width:120px"/></td>
+            <td><input type="text" id="value5" style="width:120px"td>
+            <td><input type="text" id="value6" style="width:120px"/></td>
+        </tr>
+        <tr style="text-align: center">
+            <td><input type="text" id="value7" style="width:120px"/></td>
+            <td><input type="text" id="value8" style="width:120px"/></td>
+            <td><input type="text" id="value9" style="width:120px"/></td>
+        </tr>       
+    </table>
+    <hr />
+        <center>
+            <input type="button" value="确定" onclick= "OnOK();" />
+            <input type="button" value="取消" onclick= "OnCancel();" />
+        </center>
+    </div>
+        <script language=javascript>
+
+            var elementText = window.frameElement.elementText;
+            if (elementText != null) {
+                var items = elementText.split(',');
+                if (items.length > 0) {
+                    document.getElementById("value1").value = items[0];
+                }
+                if (items.length > 1) {
+                    document.getElementById("value2").value = items[1];
+                }
+                if (items.length > 2) {
+                    document.getElementById("value3").value = items[2];
+                }
+                if (items.length > 3) {
+                    document.getElementById("value4").value = items[3];
+                }
+                if (items.length > 4) {
+                    document.getElementById("value5").value = items[4];
+                }
+                if (items.length > 5) {
+                    document.getElementById("value6").value = items[5];
+                }
+                if (items.length > 6) {
+                    document.getElementById("value7").value = items[6];
+                }
+                if (items.length > 7) {
+                    document.getElementById("value8").value = items[7];
+                }
+                if (items.length > 8) {
+                    document.getElementById("value9").value = items[8];
+                } 
+            }
+
+            function OnOK() {
+                window.frameElement.elementText = document.getElementById("value1").value
+                + "," + document.getElementById("value2").value
+                + "," + document.getElementById("value3").value
+                + "," + document.getElementById("value4").value
+                + "," + document.getElementById("value5").value
+                + "," + document.getElementById("value6").value
+                + "," + document.getElementById("value7").value
+                + "," + document.getElementById("value8").value
+                + "," + document.getElementById("value9").value;
+                if (window.frameElement.okCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.okCallback();
+                }
+            }
+
+            function OnCancel() {
+                if (window.frameElement.cancelCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.cancelCallback();
+                }
+            }
+        
+        </script>
+	</body>
+</html>

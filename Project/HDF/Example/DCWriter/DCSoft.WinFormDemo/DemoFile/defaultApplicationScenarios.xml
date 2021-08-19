@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>未找到相应的应用场景，正在逐步完善，敬请期待。。。。。。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>大千健康医疗体系:大千健康医疗体系</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-05-12T14:25:47.5927659+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.12.23</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>未找到相应的应用场景，正在逐步完善，敬请期待。。。。。。</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>E:\DCSoftDemoCenter\08代码\Bin\DemoFile\defaultApplicationScenarios.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

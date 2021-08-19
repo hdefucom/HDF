@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>文档网格线，点击右上角</Text>
+            </Element>
+            <Element xsi:type="XImage">
+               <PropertyExpressions />
+               <Width>225</Width>
+               <Height>65</Height>
+               <Image>
+                  <HorizontalResolution>96</HorizontalResolution>
+                  <VerticalResolution>96</VerticalResolution>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA AEgAAAAV CAYAAADl /ahuAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AALJSURB VFhH7ZZb
+ lqsgEEUZ FpmOMJpE 5yKZSqID ycPE5KO6 CkGKh5r+ 92OvK9SD Uwey+orv 9ws7y+wG bbAbtIH4 fD6ws8yK QT00BwH6 XIp5zqAP DfTp/lnD oenjPcoV AsQmGs68 JupPmg7Q
+ 9H6dksf7 5mC10L/U P9e1zsYL oqHWBIUB zpodzg3C b2FzFsyM oAFXDKJe a4b2DRz0 2dVOeIP4 3n8Q4zjC OPZQy/Tg FaQGneTL Gm+pliC0 gdHoeG3P MFiDdbqG ntZ9DVK6
+ bwJrBMZq zDEFPbKu 3Quk+FQT 96eaKUb7 2oScUOt7 9a5mG2dQ gDePcENH e+mQnlKu NQhzmXka hUs3oMEX qE0Y0taw /kEX9vHD zuYg2HeO 4z7184Zw U/9LZpAV xQ92GC2h
+ 7tM9PFzi DZEAegGz oJjJLGeQ r3Oi5xu2 sdggikU9 SJtd00sM PWYtLhaZ QboK8/yK eL/fENOh SDSjY3vd dJNdlGdA KQVKIAqF ZXGHUThc N+X7HNwL +XQeGUA5 9K3A2H3X
+ 3+UZOgPP mmIezCFT lJnWXZdr oLOsTm8g y/+BgkFI ZAiJSAxD SLAyydBc BCM2iPop qPF1KOP7 Y54VHQzq bJz193kp W3FLrv9X ygYR88Cl 5jiIcsPO AhdIXlCN xqZrMsoo
+ OicYZPBn F/cnAwov yMXJ0PyF uRy/Txdf zFlGvF4v KNKGF6Ha QtzSosAT XIsxB/aR pyt+Y67t p6DNYvh9 PeGrpZ8U i0f9qZ7H 0jjbSzS3 9ueZnP0j YhgG4LSV a1a12Z48
+ XqLcYWih kke4DBc4 rvw3Yarz ubw+hfpU 0M5rXoPf hd5ijnsN vJ7rcvuX I17Elo6A Myg0qto8 yXM5ur8q XPTWYW21 bRDm5AMT qUF8+DhO lzhrJxNs PwnHi9tj Z+QXvYx4
+ Pp+ws8xu 0Abi8XjA zjLifr/D zjK7QRuI 2+0GO0vc 4A9f6mCL jnmpAQAA AABJRU5E rkJggg==</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>按钮设置文档网格线的样式和每页行数，以及线条的样式和颜色</Text>
+            </Element>
+            <Element xsi:type="XImage">
+               <PropertyExpressions />
+               <Width>893.75</Width>
+               <Height>987</Height>
+               <Image>
+                  <HorizontalResolution>96</HorizontalResolution>
+                  <VerticalResolution>96</VerticalResolution>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA AR4AAAE8 CAYAAAAW rd7rAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA ABbISURB VHhe7d1L
+ khTHk8fx 2ozNHGGO oD2XYM9W N+AEre2c o820H7Ga DSs2eoEh JF7iZQjo RoAJE3ps 2OaUV7d3 e3l7REZW V3llZX3d 7PPPDI+I BLIrf5bd YH/NPn36 1P3xxx/d f//PUwDY
+ qOPj4+7D hw/d7ONs 1r2bkyZF UdSmSjLm t3nWvH37 tpvJ246k EMFDUdQm SzLmxYsX 3dHRUTeT 1543b94Q PBRFbbQk Y54+fdq9 evWqm717 925xQvBQ FLXJkox5 /Phx9/Ll
+ y272+++/ d7/99hvB Q1HURksy 5uHDh4tv t2bygx5J IIKHoqhN lmTM/fv3 u2fPnnUz +UGPJNDF 4LnVHXzx RfdFr4P5 Sq35nmuH 3evTUTc/ O7x2rTs8 b7i6OP/6 8Fp3bd6Q
+ o1xfzrVu HdhfS/bW fi/RfGDp 90tR1KZK MuaXX37p njx50s3k B8vPnz+P g6f3oZSH uxI8tw6C h92sf33Y XTs43y2l wROWrD+7 vg8tCUof PDq253Zd y5+Rovaz ZrNZ99NP
+ P52OLpbM yZrWkoy5 d+9e9+uv v3az169f L1594uA5 6A4OTh/M pYd+XhIq 87mTB/ri 28W1w8PT N6bzMFi8 xZwFzXkY SF/bJ8Gj e/Va59Hw +vDgJGzk 118KjSh4 zq9RRPBQ
+ VFgSLP/x n/8Vhk9t rlSSMbL+ 0aNH3Uz+ Rkv+iqv4 xjN/wPVb n4N5IOgb yq2DL+Zh Yd8k5mXC 6TxMJBBO H3L7djO/ 7tn8/ESu dx4INkCC WrxJ+TUm aAphYgOO oqj+igJm
+ ldCRkoy5 e/fu4gfM M/kbLfme qxg8crYI hfO3k8Ub yWJuOXhk TsNj8ZYi QXQaJAfm GlLnQeMC ZPEmdTEd ztY3Jof9 vfQijSiq WDZoVg0d KcmYO3fu dA8ePDgJ HvmeqxY8
+ izA4e4s4 ebM4+fbH Bo+8ucwD Jgir8zp9 +9EHff5t 3sk1TS2C Z36dKBjO fiZk3m6c 5Z8PmT9D UPJ7JHMo qr80cFYN HSnJmNu3 by/+Zqsh eCQsDrpD /63TWQCc hMvJtzH2
+ QT9d5/XN LxT+Juws eNz5ok7C aDlIar/G ieX1FEVF ta7g+fHH Hxd/s9Ub PIfzt4KT t4jzsTys tw4kHM6D 59b8269F SC0FS/DG czp/8q2Q n5cy+xbf qpk1Gjan Px86+bbv
+ 9Fc7+33a sr+fi8Ub D0X1l4aO HO350GoP nsVbgXnw 5w/82cMt ITAPHfmb r/Nn1z7o JkDOKgqC k1/HBsDZ z3P8/kUQ zftmsf4s 52LoSOmf oYzgoahy RUGzavgM euMpvS2c
+ lP0Zj5Td U3joz+b1 5zR2v/ZM fxFwp3ts 8MnPghbr 5m9eh6fn F1Kk/mfg jYeiylUL mFXC5/LB c/bQzy2t 8cFTfuNZ euj1Tcb+ bMf8Gstv M1FgnZbu Wfz7opO9 Tea/J4qi
+ lmsT/4Cw IXgoiqLW VwQPRVHp RfBQFJVe BA9FUelF 8FAUlV4E D0VR6UXw UBSVXgQP RVHpVQye f/75BwA2 guABkI7g AZCO4AGQ juABkI7g AZBuOXhm M4IHwMYt gmeeN7zx
+ AEiz/MZD 8ABIQPAA SEfwAEhH 8ABIR/AA SNcUPFeu XBnM7vfk /42+pWfV 5nVOjq2i /aWxF81r r28vgAHB M6SGBk/t oW15oFvW WH5dNLbs nM7XetE8 gHPpweMf ypax59dF
+ vRq/LrpW 69j2rWgN gBNrC57j 4+Pu6tWr 3c2bN4vB Yx/I2gOq fb9ez0tz cqyt07Ff b9k9elR2 bNconQNQ t5bg0dC5 fv169/nz 52rw+IfU 9lrmLLtu laPy41pP RXO+ByB2
+ 6eDxoSNV Ch61ykPq 99ixnke9 aOzPlZ+3 PSvq6zWU nwdwrjl4 5FsoCRgJ Gq0odKRq wTP0ofQP tO7Xoz2P etHYn+vY nkfzOo7m fR9AWXPw SLBIwGj4 lEJHqhQ8 /iG1Y8/u
+ qR1b1rQe 9dwrzWlf 5+wRQFlz 8EjZ8CmF jlTtjSdS e1j9Ax09 4LZn+3bO jmtr+vaX RNcFEBsU PFIaPqXQ keoLniEP uo790arN Rfw6O67N 2d6QawBY Njh4WqoU PP6B1XHE
+ rvFrdS5a 4+cifp0d y7nn53Rs +9ERQCw1 eFrVHm7f U6U1ll9v +9F5NLZK 16rtATAg eIay+wHA agoeAFgn ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6
+ ggdAuuXg mc0IHgAb twieed7w xgMgzfIb D8EDIAHB AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg HcGDtbhx 4wZ2RPT1 y0bwYC3k A310dISR
+ I3gwKQTP biB4MCk2 eGazGRLY QPn66687 KduL7H3w RDeyxO+r jb1oXnul vbYv555d q2t8b9/4 4Jn/DzZI 7rENFIKn UevD6tdF Y8vO6Xyt 58+9aJ3l 11vR+qki eHLJPbaB
+ QvA0an0w /To7rs1F Y9u3/Jw9 +nOr1Be1 uSkieHLJ PbaBQvA0 khvnH85o rD09t+we PSo7tmuU zkX8Xs+v 8WpzU0Xw 5JJ7bAOF 4GnkH+C+ o/LjWk9F c76n/Yhf 07fesnvt
+ Ht/fdQRP LrnHNlAI nkb24fMP YmlOzpWf tz0r6us1 lO3789LR n7eMtRf1 dx3Bk0vu sQ0UGzz6 GbN0HcEz vxnReW1O znVsz6N5 HUfzvl+b 13N/9Oct 4ykjeHLJ Pdb7Lfwb
+ j8wru47g md+Qyxz1 3CvNaV/n 7NH37Xnp qOd9dO3U ETy55B7b QIm+1fJr BMFzevN8 z49ra/r2 l0TXtX07 p+f+6M9b yZ5V9o0d wZNL7rEN FH7G06j1 4fPr7Lg2 Z3ut12hd
+ V+t50TVb 9u0agieX 3GMbKARP o9aHz6+z Yzn3/JyO bT86tpzb XjSOtKyZ AoInl9xj GygET6O+ B1Lmle9H 59HYKl1L e/Zo19nz 0riPXT9V BE8uucc2 UAge7CWC J9e0gmf+
+ hyF4sAof PNg8Gyg7 GTzzPwNv PLgUGzwY r3G+8RA8 WBHBsxsI HkyKfKCx G6KvXzaC B0A6ggdA OoIHQDqC B0A6ggdA OoIHQDqC B0A6ggdA OoIHQDqC B0A6ggdA OoIHQDqC
+ B0A6ggdA OoIHQDqC B0A6ggdA uq0FT/R/ Xl3i99XG XjSvvdqc P4/GJbXr T9FXX32F HRN9HTNt NXiivtf3 8MvYsnM6 X+v5+dI4 uk5J7fpT JB9kaneK 4An6nl9X e6j7xrZv
+ +blojWXX R1rWTAnB s1u198Hj H9BorD09 t+wePSo7 tmuUztk1 pfmW9TV+ 79REwRPd h7HZ1+KN Z8BR+XGt p6I531ND 10f6rj/0 emNXCp4x 19h/f5ss gic4r83J ufLztmdF
+ fb2G8v3S OjtXU1s3 5Dq7guBZ Lv0aj7UI nuC8Nifn Orbn0byO o3nf75tv Wa+079dO 2VSCR7+G 6jJ12f2b LILnEkc9 90pz2tc5 eyz1/FyJ n+9bPzVT euOx/cv8 Gcb859/7
+ 4BG+58e1 NX37S6Lr 2jk9lpT2 9PW0X5rb VQTPxRrz n583nqDv +XV2XJuz vXVcw/es 2p7o+n3X 2zWl4Olj K5r3bEXz nq2+eS3b 92uifdrz c1FvU3Xn zp3Ts4sV zY0veOY3
+ adeCx/Nz Orb96Ojn +3qWzFu+ b9dO0T4E T8u5rZY1 66h///23 +/LLLxf/ TXRf0pM5 WWNrNMEz vy+je+OR eeX70Xk0 tkrXarlG qRft9/rm p2Df3nhK fVt27OfW XVH4lEJH
+ anxvPInB g+koBc+Y q/T7KwVG 6dzW0PXr LBs+tdCR IngwCVMJ HulZvqL5 vp4db7o0 fGqhI0Xw YBKm9Maz 6yWBUwsd KYIHk0Dw 7FYRPJgE gme3iuDB JBA8u1UE DyahFDxj
+ t69F8GAS ouChxlsE DyaB4Nmt IngwCfJB xm6Jvo6Z CB4A6Qge AOkIHgDp CB4A6Qge AOkIHgDp CB4A6Qge AOkIHgDp CB4A6Qge AOkIHgDp CB4A6Qge XNr/3vg/ 7Jjo65iJ
+ 4MGlyQeZ yqvoazAE wTMn/xeU Ud/z/7eV NdFe36vx 64fu3zcE T27JPf/m m28ufB36 6B6CZ07D oibaJ2pz yq6x11TR 2tIRMYIn t+SeS4j8 /fffgxA8 py7zQLfs XfX6fh/B
+ U2eDR+6V slXqU8NL 7rmEyKdP ny6Q+xv1 BcEzJzdI jzV+Tx+7 Njovsdew ojm/d99p 8Mi9saXj Up9areSe S4j8+eef S+S+Kj8n xhs889/w Nn/GY89b xl40rz05 lvj1tlc6
+ t72ov0/s G48tuS/2 qOXH1LCS ey4h8vHj xzP6ObTs vBhd8Mx/ j6P54bId 1+Yi0frS nqivPb/P 9rVn56L+ PvHBo/dE y55L+TE1 rOSeS4i8 f/9+kPG+ 8SR/q9XK 7vHXKI31
+ 3K9RQ/b6 I5bxxpNb cs8lRN69 ezcIwXPK PsjRQ+17 Q8el3tC+ 9kp79h3B k1tyzyVE VqFfL/v1 24bRBM8m xqVe1Jex 59fanp2L +vtEg0fu gy0dl/rU aiX3PAqV Fvr1sl+/
+ bdh68LQo 7dVjaY3o 21/q+fna dUpz+8K+ 8ej9ELZK fWp4yT3X EBmC4Gkk H9KoN7Tv e319P6fj 0p59Z4OH 2nzJPZcQ +euvv87o 59ay84Lg qbA3Lurb XiTa58fR tXxPz6N1
+ dgyCJ7vk nkuI+H8g qJ9h4ecE wYNJIXhy S+65hEj0 jwQldKK+ IHgwKQRP bsk9lxDx /0CwD8GD SSF4ckvu uYRI9G91 aggeTArB k1tyzyVE VqFfL/v1 2waCB5dG 8ORW9DUY
+ guDBJBA8 u1UEDyZB PsjYLdHX MRPBAyAd wQMgHcED IB3BAyAd wQMgHcED IB3BAyAd wQMgHcED IB3BAyAd wQMgHcED IB3BAyAd wQMgHcED IB3BAyDd cvDMZgQP gI1bBM88
+ b9LfeK5c uTJYdB1v lf/gXuue Va4d6bvO On4dvYYc W0X7S2Mv mtde317s n+U3nuTg GVKtwSOG ftBb1ts1 cu7ZtX1a 1pfW2F/T 8+vssU9p vx1bdk7n a71oHvtr 54NHH4QW
+ q6zXPXre x18j2mt7 fm1N6RpR 3x/71K5f m4vGtm9F a7CfRh08 x8fH3dWr V7ubN2/2 vvHUPvxR 36qtsXOr PDy6R45e tM6L+rW9 em6PtfU6 9ustu0eP yo7tGqVz gDXa4NHQ
+ uX79evf5 8+eNBU/r Q6Lzdr3n 9+j6ll7U L+0tsXtW PSo/rvVU NOd7gBhl 8PjQkeoL HuE/6H0f fJ33R0/6 tbkh41JP yZyK5i27 Rs9LR39e m5Nz5edt z4r6eg3l 57G/tho8
+ 8i2UBIwE jVYUOlLb Cp7aXKkf 7Smd257v Rz2rdJ3o 6M9rc3Ku Y3sezes4 mvd9QG01 eCRYJGA0 fEqhI9US PEI/7H0f ejtfOreG 9LXn56K+ nLes9+cR v2cdRz33 SnPa1zl7
+ BNRWg0fK hk8pdKRa g0f0fdBL D0hpXOoN 7WuvdU9p nWr5NeTo 10Xj2pq+ /SXRdQGx 9eCR0vAp hY7Uut54 7HyJXef3 eVG/dA3V 2i+tU7V5 neu7hqr9 2rU52xty Dey3UQRP
+ S/UFT+mD 3/KBv8ya qG97ffND e5bMW37O HvuU9uu5 5+d0bPvR ERA7Hzyl D77Vt6bl ofBr9JpR vzRu3VPr l65h2fna OqFr/To7 rs15pWvV 9mD/bDV4 hoquA2D3 bC14AOwv
+ ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6 ggdAuuXg mc0IHgAb twieed7w xgMgzfIb D8EDIAHB AyAdwQMg
+ 3daCJ/rP 1/SJrqNW +e82tfz3 nnRNC7+v Nvaiee31 7QV2zVaD Z0gNCR45 j/g5XV/a o327rsSv i8aWndP5 Wi+aB3bV JIOn1h+6 rrTeq/06 tblobPtW tAbYRaMO nuPj4+7q
+ 1avdzZs3 i8HjH07/ gPaNS30d y7HvGnaN nlt2jx6V Hds1SueA KRlt8Gjo XL9+vfv8 +fNa33i8 0rpVjsqP az0Vzfke MAWjDB4f OlLrDB47 LvV1bPu1 a/lz5edt z4r6eg3l
+ 54FdtdXg kW+hJGAk aLSi0JFq CZ7oAe0b l/o6tv3a tfy5ju15 NK/jaN73 ganYavBI sEjAaPiU QkeqFDx9 D6nvl8Z9 /VWPeu6V 5rSvc/YI TMVWg0fK hk8pdKRa 3nha+vZh
+ tnOt6+yc HdfW9O0v ia4LTMHW g0dKw6cU OlLrDJ5o rfZ03o7t uhK/zo5r c7Y35BrA LhtF8LTU uoKnZN37 7VjOPT+n Y9uPjsAU TCJ4oodX e60PbGld 3/7Sr2PH tTmvdK3a
+ HmDXbDV4 hoquA2D3 bC14AOwv ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0A6 ggdAOoIH QDqCB0C6 5eCZzQge ABu3CJ55 3vDGAyDN 8hsPwQMg AcEDIB3B
+ AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg HcEDIB3B AyAdwQMg 3U4Gz40b
+ N5As+jpY 0R5sVvR1 2BU7GzxH R0dI0vIh 52uSi+DZ Aj7kuQie 8SF4toAP eS6CZ3ym FTyzGcHT Yza/R1Hf a12nWtYP vea6TDF4 1nW/x/w1 GbNF8Mzv HW88jnyg rL5+pG9e
+ ta4TQ9au y1iCR++5 F61Vdr7l vNYrGbJ2 XSYRPHyr VVb7gPq5 VvYauteP W9dmGEvw CPvn13O9 V0rn/Tp7 7o+e78vY 8nN2nIHg 2YJtBU+t 3/rh69vX ct3WX2td xh489rz1
+ 3tTW+bm+ cam3SQTP FmzjQ67j iF0zlN/f Ny71Nmls wWPZvj36 cx2X+HW1 caRlzToR PFuwjQ+5 ju3R91rp Xru/dVzq bdLYgqd2 7u9Nab1V 2xONIy1r 1ong2YKM D7l8kPTD
+ ZI8Ru8+q zSm/pm9c 6m3S2ILH sn17jNh9 nl9XG0da 1qwTwbMF mR/y2tGf 981Favuj cam3SWML ntp57d6U 5ny/bxxp WbNOBM8W bDN4ItGe 0nq71q6L zlvGGcYc PH6s55b2
+ dX2ktMef t4wzEDxb kPkhVzq2 R3/eN1cS XUPZvs75 3qaNJXjs fVF+3o59 L5ov9aNr K9vXOd/b NIJnCzKD p3YsnUfr +rSsHXK9 dRpL8Hj2 fkT33N+v 0v0b2rda 1mwCwbMF
+ 2/6Q2572 /bzORew6 L1ovorVZ xh48/v6U 7lfUl15p vdI1XrQ2 C8GzBdv4 kO+zsQbP PiN4toAP eS6CZ3wI ni3gQ56L 4BkfgmcL +JDnInjG h+DZArnp yBV9Haxo DzYr+jrs
+ ip0MHgC7 jeABkI7g AZCO4AGQ 7kLwPH78 mOABsFFL wfPy5UuC B8DGScb8 8MMP3c8/ /0zwAMhB 8ABItxQ8 /IwHQAbJ GP5WC0Aq ggdAOsmY 27dvd/fv 3z8JnidP nhA8ADZK
+ MubOnTvd gwcPutmr V6+6p0+f EjwANkoy 5u7du93D hw+72Zs3 b7pnz54R PAA2SjLm p59+6h49 etTNjmaz 7sWLFwQP gI2SjJG/ Spcf7cze vn3byb/l IXgAbJJk jPx8R77D
+ mr1//76T b7ekCQCb JH+DLt9h zT58+NDJ W4/8kPn5 8+eL1yD5 Hkz+ykte i+R7MvmB kPw0Wv4q TP7l4fff f9999913 3bfffgsA C5IJkg2S EZIVkhmS Hffu3Vvk ifxDZckY
+ +Zv02ceP HzsNn9ev Xy++7ZJE kr/pknSS xfJTaNko //BHLiI0 kABASCZo PkhWSGZI dkiOSJ5I rkjoHB0d df8PedEo ZvCmukUA AAAASUVO RK5CYII=</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+         <GridLine>
+            <Visible>true</Visible>
+            <ColorValue>#FF0000</ColorValue>
+            <GridNumInOnePage>30</GridNumInOnePage>
+            <LineStyle>Dash</LineStyle>
+         </GridLine>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>奥克斯智慧医院系统:奥克斯智慧医院系统</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-04-14T13:46:25.2413973+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.12.23</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>文档网格线，点击右上角按钮设置文档网格线的样式和每页行数，以及线条的样式和颜色</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <DocumentGridLine>
+         <Visible>true</Visible>
+         <ColorValue>#FF0000</ColorValue>
+         <GridNumInOnePage>30</GridNumInOnePage>
+         <LineStyle>Dash</LineStyle>
+      </DocumentGridLine>
+   </PageSettings>
+   <UserHistories />
+   <Parameters />
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>C:\Users\songjianming\Desktop\图标\文档网格线.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

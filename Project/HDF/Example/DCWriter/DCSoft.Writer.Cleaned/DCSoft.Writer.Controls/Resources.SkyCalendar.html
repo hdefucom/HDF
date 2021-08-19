@@ -1,0 +1,633 @@
+﻿<HTML>
+<HEAD >
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>选择日期</title>
+<style>
+.binsideup{
+	border-left:solid #f5f5f5 1px;
+	border-top:solid #f5f5f5 1px;
+	border-right:solid #848284 1px;
+	border-bottom:solid #848284 1px;
+}
+body,input,td,textarea,select{font-size:9pt;}
+</style>
+<SCRIPT LANGUAGE=javascript type=text/javascript >
+
+//alert( navigator.userAgent );
+
+var __timerID=null;
+
+function Calendar(name,year,month,dd){
+	var currentDate=new Date();
+	var currentYear = currentDate.getFullYear();
+	if (typeof(name)!="string")
+	{
+		window.alert("请为该控件加一个名称。名称与控件的变量名相同，否则会出错。");
+		return;
+	}
+	if (typeof(year)!="number")
+	{
+		year=currentYear;
+	}
+	if (typeof(month)!="number")
+		month=currentDate.getMonth()+1;
+	delete currentDate;
+
+	if (typeof(year)=="number" && typeof(month)=="number")
+	{
+		month--;
+		if (month<0)
+		{
+			month=11;
+			year--;
+		}
+		if (month>11)
+		{
+			month=0;
+			year++
+		}
+	}
+
+	this.name=name;
+	this.year=year;
+	this.month=month;
+	this.dd = dd;
+	this.date=null;
+
+	this.defaultSelectObject=null;
+
+	this.defaultFunction=null;
+
+	this.previousMonth=__previousMonth;
+	this.nextMonth=__nextMonth;
+//	this.ClickpreviousMonth=__ClickpreviousMonth;
+//	this.ClicknextMonth=__ClicknextMonth;
+	
+	this.show=__show;
+	this.gotoToday=__gotoToday;
+	this.changeDate=__changeDate;
+
+	this.onclick=__onclick;
+	this.ondblclick=__ondblclick;
+    
+    //alert( this.year + " " + currentYear );
+    //alert( currentDate + " " +  currentYear );
+    
+	var strHTML='';
+	strHTML+='<DIV onselectstart="event.returnValue=false;" style="width:170;height:160px;">'+'\n'
+	strHTML+='<DIV style="text-Align:;height:25px">'
+	strHTML+='<SELECT id='+this.name+'_selYear onchange='+this.name+'.changeDate() style="font:9pt 宋体; width:80px">'
+	for (var i=currentYear-80;i<=currentYear+10;i++)
+	{
+		strHTML+='<OPTION value="'+(i)+'" '+(this.year==i?'selected="true"':'')+'>'+(i)+'年</OPTION>'
+	}
+	strHTML+='</SELECT><FONT style="width:10px"></FONT><SELECT id='+this.name+'_selMonth onchange='+this.name+'.changeDate() style="font:9pt 宋体; width:80px">'
+	for (var i=1;i<13;i++)
+	{
+		strHTML+='<OPTION value="'+(i -1 )+'" '+(this.month==i-1?'selected="true"':'')+'>'+(i)+'月</OPTION>'
+	}
+	strHTML+='</SELECT> '
+	strHTML+='</DIV>'
+	strHTML+='<DIV onselectstart="event.returnValue=false;" style="width:170;height:133px;BACKGROUND-COLOR: white;BORDER-BOTTOM: buttonhighlight 1px solid;BORDER-LEFT: buttonshadow 1px solid;BORDER-RIGHT: buttonhighlight 1px solid;BORDER-TOP: buttonshadow 1px solid">'+'\n';
+	strHTML+='<div style="height:17px;BACKGROUND-COLOR: threedlightshadow;BORDER-BOTTOM: buttonshadow 1px solid;BORDER-LEFT: buttonhighlight 1px solid;BORDER-RIGHT: buttonshadow 1px solid;BORDER-TOP: buttonhighlight 1px solid">'+'\n';
+	strHTML+='	<TABLE style="font:9pt 宋体;cursor:default" WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0>'+'\n';
+	strHTML+='		<TR>'+'\n';
+	strHTML+='			<TD width=15px align=left UNSELECTABLE="on" onmousedown="'+this.name+'.previousMonth();"><font   style="cursor:pointer" onmouseover="this.style.color=\'blue\';" onmouseout="this.style.color=\'#000000\';">&lt;&lt;</font></TD>'+'\n';
+	strHTML+='			<TD align=center> <input type="text" readonly="true" style="width:100%;border-style:none;text-align:center" id=schedule_'+this.name+'_Desc ondblclick="'+this.name+'.gotoToday();" /></TD>'+'\n';
+	strHTML+='			<TD width=15px align=right UNSELECTABLE="on"  onmousedown="'+this.name+'.nextMonth();"><font  style="cursor:pointer" onmouseover="this.style.color=\'blue\';" onmouseout="this.style.color=\'#000000\';">&gt;&gt;</font></TD>'+'\n';
+	strHTML+='		</TR>'+'\n';
+	strHTML+='	</TABLE>'+'\n';
+	strHTML+='</div>'+'\n';
+	strHTML+='<TABLE selectedCell style="font:9pt 宋体;cursor:default" id=schedule_'+this.name+' border="0" width="140" cellpadding="0" cellspacing="0" align=center>'+'\n';
+	strHTML+='	<TR valign="bottom" height=16>'+'\n';
+	strHTML+='	  <TD align="right" width="20">日</TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20">一</TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20">二</TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20">三</TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20">四</TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20">五</TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20">六</TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='	<TR>'+'\n';
+	strHTML+='	  <TD colspan="7" align="right" width="140" height=2 valign=top><TABLE width=100% cellpadding=0 cellspacing=0 border=0><TR><TD height=1 bgcolor=silver></TD><TR></TABLE></TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='	<TR height=16>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='	<TR height=16>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='	<TR height=16>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='	<TR height=16>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='	<TR height=16>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='	<TR height=16>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	  <TD align="right" width="20" oldBackgroundColor="" oldColor="" dateValue="" onclick="'+this.name+'.onclick(this);" ondblclick="'+this.name+'.ondblclick(this);"></TD>'+'\n';
+	strHTML+='	</TR>'+'\n';
+	strHTML+='</TABLE>'+'\n';
+	strHTML+='</DIV>'+'\n';
+	strHTML+='</DIV>'+'\n'
+
+	document.write(strHTML);
+
+	document.onmouseup=new Function("if (__timerID!=null){window.clearInterval(__timerID);__timerID=null;}");
+
+	this.show();
+}
+
+function RenderInnerHtml( element , strHtml  )
+        {
+            var isIE = navigator.userAgent.indexOf("MSIE") >= 0 ;
+            while( element.firstChild != null )
+            {
+                element.removeChild( element.firstChild );
+            }
+            if( strHtml != null )
+            {
+                if( isIE )
+                {
+                    element.innerHTML = strHtml ;
+                }
+                else
+                {
+                    var range = element.ownerDocument.createRange();
+                    range.selectNodeContents( element );
+                    range.collapse( true );
+                    var df = range.createContextualFragment( strHtml );
+                    element.appendChild( df );
+                }
+            }
+        }
+        
+function __show() {
+    var currentDate=new Date(this.year,this.month,1);
+	var nowDate=new Date();
+	var dayIndex;
+	var currentDay=currentDate.getDay();
+	var frist=true;
+
+	var rowIndex=1;
+	var cellIndex=0;
+	var curRowIndex = -1;
+	var curCellIndex = -1;
+    
+    
+   	document.getElementById("schedule_"+this.name+"_Desc").value =
+   	    (this.year).toString()+"年"+(((this.month+1)<10)?(""+(this.month+1)):(this.month+1))+"月";
+
+    document.getElementById( this.name + "_selYear").value = this.year.toString();
+    
+    document.getElementById( this.name + "_selMonth").value = this.month.toString();
+    
+	//alert( document.getElementById("schedule_"+this.name+"_Desc").outerHTML );
+	var tableObject = document.getElementById("schedule_"+this.name);
+    
+	for (var i=0;i<42;i++)
+	{
+		if (i % 7==0)
+		{
+			rowIndex++
+			cellIndex=0;
+		}
+
+		currentDate=new Date(this.year,this.month,i-currentDay+1);
+
+        //alert( tableObject.rows.item( rowIndex ) );
+	
+	    var currentCell = tableObject.rows.item(rowIndex).cells.item(cellIndex) ;
+		
+		
+		currentCell.setAttribute( "dateValue" , currentDate.getFullYear()+"-"+(currentDate.getMonth()+1)+"-"+currentDate.getDate() );
+        
+        //window.status = currentCell.getAttribute("dateValue") ;
+		if (nowDate.getFullYear()==currentDate.getFullYear()
+		     && nowDate.getMonth()==currentDate.getMonth() 
+		     && nowDate.getDate()==currentDate.getDate())
+		{
+		    currentCell.style.border = "red 1px solid";
+		    //currentCell.style.
+		    currentCell.title = "今天";
+			RenderInnerHtml( currentCell , '<span >'+currentDate.getDate()+'</span>');
+	    }
+		else
+		{
+		    currentCell.style.border = "";
+		    currentCell.title = "";
+		    RenderInnerHtml( currentCell , '<span style="padding:1px">'+currentDate.getDate()+'</span>' );
+		}
+		
+		if (currentDate.getDate() == this.dd 
+		    && currentDate.getMonth()==this.month 
+		    && curRowIndex == -1)
+		{
+			curRowIndex = rowIndex;
+			curCellIndex = cellIndex;
+		}
+
+		currentCell.style.backgroundColor="";
+		currentCell.setAttribute( "oldBackgroundColor" ,"");
+
+		if (currentDate.getMonth()==this.month)
+		{
+			currentCell.style.color="";
+			currentCell.setAttribute( "oldColor" , "");
+		}
+		else
+		{
+			currentCell.style.color="silver";
+			currentCell.setAttribute( "oldColor" , "silver" );
+		}
+
+		cellIndex++;
+	}
+	delete currentDate,nowDate;
+
+	if (curRowIndex >= 0 && curCellIndex >= 0)
+	{
+	    this.onclick( document.getElementById("schedule_" + this.name ).rows.item( curRowIndex ).cells.item( curCellIndex  ) );
+	}
+}
+
+ 
+
+function __previousMonth() {
+	this.month--;
+	if (this.month<0)
+	{
+		this.month=11;
+		this.year--;
+	}
+	this.show();
+}
+
+function __nextMonth() {
+	this.month++;
+	if (this.month>11)
+	{
+		this.month=0;
+		this.year++;
+	}
+	this.show();
+}
+
+function __gotoToday(){
+	var nowDate=new Date();
+	var year=nowDate.getFullYear();
+	var month=nowDate.getMonth();
+	delete nowDate;
+	if (this.year==year && this.month==month)
+		return;
+
+	this.year=year;
+	this.month=month;
+	
+	setSelectValue( document.getElementById(this.name+"_selYear") , year );
+	setSelectValue( document.getElementById(this.name+"_selMonth") , month );
+	
+	this.show();
+}
+
+function setSelectValue( selectObject , Value )
+{
+    var iCount ;
+    for( iCount = 0 ; iCount < selectObject.options.length ; iCount ++ )
+    {
+        var opt = selectObject.options.item( iCount );
+        if( opt.value == Value )
+        {
+            selectObject.selectedIndex = iCount ;
+            break;
+        }
+    }
+}
+function __changeDate(){
+	var year;
+	var month;
+
+	year=parseInt(document.getElementById(this.name+"_selYear").value);
+	month=parseInt(document.getElementById(this.name+"_selMonth").value);
+
+	if (isNaN(year) || isNaN(month)) return;
+
+	this.year=year;
+	this.month=month;
+
+	this.show();
+}
+
+function __onclick(object) {
+	if (typeof(object.offsetParent.selectedCell)=="object" && object.offsetParent.selectedCell!=null)
+	{
+		object.offsetParent.selectedCell.style.backgroundColor=object.offsetParent.selectedCell.getAttribute( "oldBackgroundColor" );
+		object.offsetParent.selectedCell.style.color=object.offsetParent.selectedCell.getAttribute("oldColor");
+	}
+
+	object.offsetParent.selectedCell=object;
+	this.date=object.getAttribute("dateValue");
+	object.style.backgroundColor="blue";
+	object.style.color="white";
+}
+
+function __ondblclick(object) {
+	if (this.defaultFunction==null)
+		return;
+	eval(this.defaultFunction);
+}
+
+
+</SCRIPT>
+
+</HEAD>
+<BODY style="margin:0" scroll=no bgcolor=#D6D3CE onkeyup="__submit_Esc( event );">
+<center>
+<TABLE   BORDER=0 CELLSPACING=0 CELLPADDING=0  >
+	<TR>
+		<TD align=center>
+			<div style="padding:5px;width:100%">
+			<script language="javascript" type="text/javascript">
+			var dtm = new Date();
+			if( window.dialogArguments )
+			{
+			    var arg = window.dialogArguments ;
+			    if( arg.Date != null )
+			    {
+			        dtm = arg.Date ;
+			    }
+			}
+			//dtm = new Date( 1988 , 3 , 23);
+			var calendarTB=new Calendar("calendarTB", dtm.getFullYear() , dtm.getMonth() + 1 , dtm.getDate() );
+			calendarTB.defaultFunction="insertTime()";
+			
+			</script>
+			</div>
+		</TD>
+	</TR>
+	<TR id="Tr_mm_hh" runat=server height=30 style="display:none">
+		<TD align=center valign=bottom>
+			<select id="ddlHH" style="width:50px;">
+				<option value="0" selected="true">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option> 
+			</select>时<select id="ddlMM" style="width:50px;" >
+				<option value="0" selected="true">0</option>
+				<option value="1" >1</option>
+				<option value="2" >2</option>
+				<option value="3" >3</option>
+				<option value="4" >4</option>
+				<option value="5" >5</option>
+				<option value="6" >6</option>
+				<option value="7" >7</option>
+				<option value="8" >8</option>
+				<option value="9" >9</option>
+				<option value="10" >10</option>
+				<option value="11" >11</option>
+				<option value="12" >12</option>
+				<option value="13" >13</option>
+				<option value="14" >14</option>
+				<option value="15" >15</option>
+				<option value="16" >16</option>
+				<option value="17" >17</option>
+				<option value="18" >18</option>
+				<option value="19" >19</option>
+				<option value="20" >20</option>
+				<option value="21" >21</option>
+				<option value="22" >22</option>
+				<option value="23" >23</option>
+				<option value="24" >24</option>
+				<option value="25" >25</option>
+				<option value="26" >26</option>
+				<option value="27" >27</option>
+				<option value="28" >28</option>
+				<option value="29" >29</option>
+				<option value="30" >30</option>
+				<option value="31" >31</option>
+				<option value="32" >32</option>
+				<option value="33" >33</option>
+				<option value="34" >34</option>
+				<option value="35" >35</option>
+				<option value="36" >36</option>
+				<option value="37" >37</option>
+				<option value="38" >38</option>
+				<option value="39" >39</option>
+				<option value="40" >40</option>
+				<option value="41" >41</option>
+				<option value="42" >42</option>
+				<option value="43" >43</option>
+				<option value="44" >44</option>
+				<option value="45" >45</option>
+				<option value="46" >46</option>
+				<option value="47" >47</option>
+				<option value="48" >48</option>
+				<option value="49" >49</option>
+				<option value="50" >50</option>
+				<option value="51" >51</option>
+				<option value="52" >52</option>
+				<option value="53" >53</option>
+				<option value="54" >54</option>
+				<option value="55" >55</option>
+				<option value="56" >56</option>
+				<option value="57" >57</option>
+				<option value="58" >58</option>
+				<option value="59" >59</option>
+			</select>分<select id="ddlSS" style="width:50px;" >
+				<option value="0" selected="true">0</option>
+				<option value="1" >1</option>
+				<option value="2" >2</option>
+				<option value="3" >3</option>
+				<option value="4" >4</option>
+				<option value="5" >5</option>
+				<option value="6" >6</option>
+				<option value="7" >7</option>
+				<option value="8" >8</option>
+				<option value="9" >9</option>
+				<option value="10" >10</option>
+				<option value="11" >11</option>
+				<option value="12" >12</option>
+				<option value="13" >13</option>
+				<option value="14" >14</option>
+				<option value="15" >15</option>
+				<option value="16" >16</option>
+				<option value="17" >17</option>
+				<option value="18" >18</option>
+				<option value="19" >19</option>
+				<option value="20" >20</option>
+				<option value="21" >21</option>
+				<option value="22" >22</option>
+				<option value="23" >23</option>
+				<option value="24" >24</option>
+				<option value="25" >25</option>
+				<option value="26" >26</option>
+				<option value="27" >27</option>
+				<option value="28" >28</option>
+				<option value="29" >29</option>
+				<option value="30" >30</option>
+				<option value="31" >31</option>
+				<option value="32" >32</option>
+				<option value="33" >33</option>
+				<option value="34" >34</option>
+				<option value="35" >35</option>
+				<option value="36" >36</option>
+				<option value="37" >37</option>
+				<option value="38" >38</option>
+				<option value="39" >39</option>
+				<option value="40" >40</option>
+				<option value="41" >41</option>
+				<option value="42" >42</option>
+				<option value="43" >43</option>
+				<option value="44" >44</option>
+				<option value="45" >45</option>
+				<option value="46" >46</option>
+				<option value="47" >47</option>
+				<option value="48" >48</option>
+				<option value="49" >49</option>
+				<option value="50" >50</option>
+				<option value="51" >51</option>
+				<option value="52" >52</option>
+				<option value="53" >53</option>
+				<option value="54" >54</option>
+				<option value="55" >55</option>
+				<option value="56" >56</option>
+				<option value="57" >57</option>
+				<option value="58" >58</option>
+				<option value="59" >59</option>
+			</select>秒
+			</TD>
+	</TR>
+	<TR>
+		<TD height=8></TD>
+	</TR>
+	<TR>
+		<TD  align=center>
+			<INPUT type="button" value="确定" style="height:20px;width:72px" ID=Button1 onclick="insertTime()">&nbsp;
+			<INPUT type="button" value="取消" style="height:20px;width:72px" ID=Button2 onclick="window.close();">
+		</TD>
+	</TR>
+</TABLE>
+</center>
+
+<script language=javascript type=text/javascript>
+function insertTime(){
+	var graduate=calendarTB.date;
+	if (graduate==null){
+		alert("请选择时间");
+		return;
+	}
+	//var re=new RegExp("/","g");
+	//graduate=graduate.replace(re,"-");
+	graduate=graduate.split("-");
+	try{
+	    //debugger ;
+	    var dtm = new Date(
+	        parseInt(graduate[0]),
+	        parseInt(graduate[1])-1,
+		    parseInt(graduate[2]),
+		    parseInt( document.getElementById("ddlHH").value ),
+		    parseInt( document.getElementById("ddlMM").value ),
+		    parseInt( document.getElementById("ddlSS").value ));
+	    window.returnValue = dtm.toString() ;
+		window.close();
+		//alert( window.returnValue );
+		return ;
+	}
+	catch(e){
+	    //alert( e );
+		graduate=null;
+	}
+	//alert( graduate );
+	window.returnValue=graduate;
+	window.close();
+}
+function __submit_Esc( e )
+{
+	if (e.keyCode==27)
+	{
+		window.close();
+		return;
+	}
+	if (e.keyCode==13)
+	{
+		document.getElementById("Button1").click();
+	}
+}
+</script>
+<script language="javascript" type="text/javascript">
+			if( window.dialogArguments )
+			{
+			    var arg = window.dialogArguments ;
+			    if( arg.Date != null )
+			    {
+			        dtm = arg.Date ;
+			    }
+		        if( arg.ShowTime == true )
+		        {
+		            document.getElementById("Tr_mm_hh").style.display = "";
+		            document.getElementById("ddlHH").value = dtm.getHours();
+		            document.getElementById("ddlMM").value = dtm.getMinutes();
+		            document.getElementById("ddlSS").value = dtm.getSeconds();
+		        }
+			}
+			</script>
+</BODY>
+</HTML>

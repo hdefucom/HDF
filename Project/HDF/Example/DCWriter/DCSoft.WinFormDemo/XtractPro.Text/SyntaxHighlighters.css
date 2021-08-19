@@ -1,0 +1,24 @@
+﻿/* All Syntax Highlighters */
+div.sh_result { font-size: 10pt; font-family: Courier New, Verdana, Helvetica, Arial, sans-serif;background-color:#fdf5e6;font-size:90%; }
+span.sh_error { color: #ff0000; }
+span.sh_line { color: #008284; margin-right: 10px; border-right: 1px solid #008284; }
+span.sh_collapsed { color: #848284;border:1px solid #848284; }
+span.sh_collapsed:hover { cursor:pointer; }
+span.sh_expanded { color: #848284;text-decoration:underline; }
+span.sh_expanded:hover { cursor:pointer; }
+
+/* C#/VB.NET Syntax Highlighters */
+span.net_key { color: #0000ff; }
+span.net_type { color: #008284; }
+span.net_directive { color: #6699cc; }
+span.net_string, span.net_string a { color: #a31515; }
+span.net_comment, span.net_comment a { color: #008200; }
+span.net_xml, span.net_xml a { color: #848284; }
+
+/* XML/HTML Syntax Highlighters */
+span.xml_elem { color: #a31515; }
+span.xml_delim { color: #0000ff; }
+span.xml_att { color: #ff0000; }
+span.xml_val { color: #0000ff; }
+span.xml_text { color: #6699cc; }
+span.xml_comment { color: #008200; }

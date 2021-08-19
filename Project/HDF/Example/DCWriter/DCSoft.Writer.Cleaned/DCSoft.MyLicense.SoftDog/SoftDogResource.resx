@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="YT88Code47"><value>进行读写字符串时，地址空间超出.</value></data>
+  <data name="YT88Code46"><value>使用控件时，输入的字符不能是空字符串。</value></data>
+  <data name="YT88Code94"><value>操作加密锁时错误。</value></data>
+  <data name="YT88Code92"><value>不存在指定的加密锁。</value></data>
+  <data name="YT88Code93"><value>操作加密锁时错误。</value></data>
+  <data name="YT88Code88"><value>输入的地址空间超出。</value></data>
+  <data name="YT88Code81"><value>输入的地址空间超出。</value></data>
+  <data name="YT88Code83"><value>从加密锁读取数据时错误，可能是读密码错误。</value></data>
+  <data name="YT88Code82"><value>写数据到加密锁储存器时错误，可能是写密码错误.</value></data>
+  <data name="NoValidateDog"><value>没能检测到正确的软件加密狗。</value></data>
+  </root>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="label3.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="btnCancelTask.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="&gt;&gt;label3.ZOrder"><value>1</value></data>
+  <data name="chkRecursion.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB4AAAANgAAAAs=</value></data><data name="$this.Text"><value>文件格式转换</value></data>
+  <data name="txtSourceDirectory.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsBAAAVAAAACw==</value></data><data name="&gt;&gt;lblProgress.Parent"><value>gbProgress</value></data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>4</value></data>
+  <data name="&gt;&gt;label3.Parent"><value>gbDest</value></data>
+  <data name="gbProgress.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="cboDestFormat.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB4AAAAOQAAAAs=</value></data><data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMCAAA0AQAACw==</value></data><data name="&gt;&gt;myProgressbar.Parent"><value>gbProgress</value></data>
+  <data name="&gt;&gt;myProgressbar.ZOrder"><value>0</value></data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label2.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEEAAAAMAAAACw==</value></data><data name="label2.Text"><value>文件格式：</value></data>
+  <data name="gbDest.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="label3.Text"><value>文件格式：</value></data>
+  <data name="label3.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEEAAAAMAAAACw==</value></data><data name="gbProgress.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA4CAABWAAAACw==</value></data><data name="gbProgress.Text"><value>进度</value></data>
+  <data name="label1.Text"><value>文件目录：</value></data>
+  <data name="label1.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEEAAAAMAAAACw==</value></data><data name="btnBrowseDestDirectory.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="gbProgress.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;lblProgress.ZOrder"><value>2</value></data>
+  <data name="myProgressbar.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="label4.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEEAAAAMAAAACw==</value></data><data name="label4.Text"><value>文件目录：</value></data>
+  <data name="myProgressbar.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJ4BAAAXAAAACw==</value></data><data name="txtDestDirectory.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="btnCancelTask.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACvAQAANwAAAAs=</value></data><data name="gbDest.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA4CAABYAAAACw==</value></data><data name="gbDest.Text"><value>文件输出:</value></data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>4</value></data>
+  <data name="&gt;&gt;txtDestDirectory.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;txtDestDirectory.Name"><value>txtDestDirectory</value></data>
+  <data name="&gt;&gt;btnBrowseDestDirectory.Parent"><value>gbDest</value></data>
+  <data name="btnRun.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALYAAAAfAAAACw==</value></data><data name="btnRun.Text"><value>执行批量转换</value></data>
+  <data name="&gt;&gt;gbDest.ZOrder"><value>1</value></data>
+  <data name="btnCancelTask.Text"><value>取消</value></data>
+  <data name="btnCancelTask.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFkAAAAXAAAACw==</value></data><data name="&gt;&gt;btnBrowseDestDirectory.ZOrder"><value>2</value></data>
+  <data name="gbSource.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA4CAABwAAAACw==</value></data><data name="gbSource.Text"><value>文件来源:</value></data>
+  <data name="&gt;&gt;gbDest.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;btnSourceDirectory.Name"><value>btnSourceDirectory</value></data>
+  <data name="&gt;&gt;btnSourceDirectory.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="myProgressbar.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAOQAAAAs=</value></data><data name="&gt;&gt;gbProgress.Parent"><value>$this</value></data>
+  <data name="btnBrowseDestDirectory.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAXAAAACw==</value></data><data name="btnBrowseDestDirectory.Text"><value>浏览(&amp;B)...</value></data>
+  <data name="cboDestFormat.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>5</value></data>
+  <data name="btnSourceDirectory.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAXAAAACw==</value></data><data name="btnSourceDirectory.Text"><value>浏览(&amp;B)...</value></data>
+  <data name="&gt;&gt;gbDest.Name"><value>gbDest</value></data>
+  <data name="&gt;&gt;gbDest.Type"><value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="chkRecursion.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>3</value></data>
+  <data name="lblProgress.Text"><value>文件：</value></data>
+  <data name="lblProgress.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKABAAAXAAAACw==</value></data><data name="&gt;&gt;cboSourceFormat.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;cboSourceFormat.Name"><value>cboSourceFormat</value></data>
+  <data name="cboSourceFormat.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB4AAAAUAAAAAs=</value></data><data name="&gt;&gt;myProgressbar.Type"><value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;myProgressbar.Name"><value>myProgressbar</value></data>
+  <data name="&gt;&gt;gbProgress.ZOrder"><value>3</value></data>
+  <data name="&gt;&gt;lblProgress.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;lblProgress.Name"><value>lblProgress</value></data>
+  <data name="&gt;&gt;txtDestDirectory.ZOrder"><value>3</value></data>
+  <data name="txtDestDirectory.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsBAAAVAAAACw==</value></data><data name="btnRun.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAKAAAA4QAAAAs=</value></data><data name="&gt;&gt;txtDestDirectory.Parent"><value>gbDest</value></data>
+  <data name="label2.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAUwAAAAs=</value></data><data name="label1.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAGwAAAAs=</value></data><data name="&gt;&gt;gbProgress.Type"><value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;gbProgress.Name"><value>gbProgress</value></data>
+  <data name="lblProgress.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="&gt;&gt;btnCancelTask.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnCancelTask.Name"><value>btnCancelTask</value></data>
+  <data name="&gt;&gt;txtSourceDirectory.Parent"><value>gbSource</value></data>
+  <data name="cboSourceFormat.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>5</value></data>
+  <data name="&gt;&gt;txtSourceDirectory.ZOrder"><value>4</value></data>
+  <data name="btnRun.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="gbSource.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="chkRecursion.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGwAAAAQAAAACw==</value></data><data name="chkRecursion.Text"><value>递归遍历子目录</value></data>
+  <data name="&gt;&gt;label4.ZOrder"><value>4</value></data>
+  <data name="&gt;&gt;btnCancelTask.ZOrder"><value>1</value></data>
+  <data name="cboDestFormat.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHsAAAAUAAAACw==</value></data><data name="gbDest.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAeQAAAAs=</value></data><data name="btnSourceDirectory.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="txtDestDirectory.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB4AAAAGAAAAAs=</value></data><data name="btnSourceDirectory.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC5AQAAGAAAAAs=</value></data><data name="label1.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;gbSource.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;cboSourceFormat.ZOrder"><value>0</value></data>
+  <data name="label3.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAPAAAAAs=</value></data><data name="&gt;&gt;cboDestFormat.Name"><value>cboDestFormat</value></data>
+  <data name="&gt;&gt;cboDestFormat.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label2.ZOrder"><value>1</value></data>
+  <data name="&gt;&gt;label1.ZOrder"><value>5</value></data>
+  <data name="&gt;&gt;cboDestFormat.Parent"><value>gbDest</value></data>
+  <data name="&gt;&gt;$this.Name"><value>dlgFileFormatConvert</value></data>
+  <data name="&gt;&gt;$this.Type"><value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label1.Parent"><value>gbSource</value></data>
+  <data name="&gt;&gt;gbSource.ZOrder"><value>2</value></data>
+  <data name="&gt;&gt;txtSourceDirectory.Name"><value>txtSourceDirectory</value></data>
+  <data name="&gt;&gt;txtSourceDirectory.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label4.Parent"><value>gbDest</value></data>
+  <data name="&gt;&gt;label2.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label2.Name"><value>label2</value></data>
+  <data name="&gt;&gt;btnCancelTask.Parent"><value>gbProgress</value></data>
+  <data name="&gt;&gt;label3.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label3.Name"><value>label3</value></data>
+  <data name="&gt;&gt;cboSourceFormat.Parent"><value>gbSource</value></data>
+  <data name="gbSource.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAwAAAAs=</value></data><data name="&gt;&gt;chkRecursion.Parent"><value>gbSource</value></data>
+  <data name="&gt;&gt;btnSourceDirectory.Parent"><value>gbSource</value></data>
+  <data name="&gt;&gt;label1.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label1.Name"><value>label1</value></data>
+  <data name="&gt;&gt;btnSourceDirectory.ZOrder"><value>3</value></data>
+  <data name="&gt;&gt;chkRecursion.Name"><value>chkRecursion</value></data>
+  <data name="&gt;&gt;chkRecursion.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label2.Parent"><value>gbSource</value></data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAEAAAAL</value></data><data name="&gt;&gt;chkRecursion.ZOrder"><value>2</value></data>
+  <data name="&gt;&gt;label4.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label4.Name"><value>label4</value></data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="&gt;&gt;btnBrowseDestDirectory.Name"><value>btnBrowseDestDirectory</value></data>
+  <data name="&gt;&gt;btnBrowseDestDirectory.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="btnBrowseDestDirectory.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC5AQAAGAAAAAs=</value></data><data name="&gt;&gt;cboDestFormat.ZOrder"><value>0</value></data>
+  <data name="label4.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAGwAAAAs=</value></data><data name="label4.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="chkRecursion.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtSourceDirectory.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="cboSourceFormat.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHsAAAAUAAAACw==</value></data><data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABAQQs=</value></data><data name="&gt;&gt;btnRun.ZOrder"><value>0</value></data>
+  <data name="txtSourceDirectory.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB4AAAAGAAAAAs=</value></data><data name="lblProgress.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAGwAAAAs=</value></data><data name="gbProgress.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAA1wAAAAs=</value></data><data name="&gt;&gt;btnRun.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnRun.Name"><value>btnRun</value></data>
+  <data name="&gt;&gt;btnRun.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;gbSource.Type"><value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;gbSource.Name"><value>gbSource</value></data>
+  </root>

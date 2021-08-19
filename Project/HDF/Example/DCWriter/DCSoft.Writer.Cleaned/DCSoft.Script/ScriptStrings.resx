@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="AnalyseVBMethod_Name"><value>分析出VB脚本方法“{0}”。</value></data>
+  <data name="StartDynamicCompile"><value>开始动态编译</value></data>
+  <data name="Method"><value>方法</value></data>
+  <data name="AssemblyFileFilter"><value>.NET程序集文件(*.exe,*.dll)|*.dll;*.exe</value></data>
+  <data name="DymamicCompilerResult"><value>动态编译结果</value></data>
+  <data name="Reference"><value>引用</value></data>
+  <data name="VBAOptionString_RefCount_NSCount"><value>引用{0}个程序集，包含{1}个名称空间。</value></data>
+  <data name="Script"><value>脚本</value></data>
+  <data name="ClearVBAEngine"><value>清空VB脚本引擎。</value></data>
+  <data name="ScriptAsmResolveWarring_Msg"><value>警告：显式加载程序集”{0}“。</value></data>
+  <data name="VBARuntimeError_Method_Message"><value>运行VB脚本方法“{0}”时发生错误“{1}”！</value></data>
+  <data name="NotSupportLanguage_Language"><value>不支持的“{0}”语言</value></data>
+  <data name="ReturnType"><value>返回类型</value></data>
+  <data name="Error"><value>错误</value></data>
+  <data name="CloseVBAEngine"><value>关闭VB脚本引擎。</value></data>
+  <data name="CompileError_Message"><value>编译错误“{0}”。</value></data>
+  <data name="NoScriptError"><value>没有发生任何脚本错误。</value></data>
+  <data name="Warring"><value>警告</value></data>
+  <data name="Time"><value>时间</value></data>
+  <data name="RuntimeError_Message"><value>运行时错误“{0}”。</value></data>
+  </root>

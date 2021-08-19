@@ -1,0 +1,44 @@
+package dcsoft_writer;
+
+{$R *.res}
+{$R 'DCSoft_Writer_TLB.dcr'}
+{$R 'Accessibility_TLB.dcr'}
+{$R 'mscorlib_TLB.dcr'}
+{$R 'System_Drawing_TLB.dcr'}
+{$R 'System_TLB.dcr'}
+{$R 'System_Windows_Forms_TLB.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  DCSoft_Writer_TLB in 'DCSoft_Writer_TLB.pas',
+  Accessibility_TLB in 'Accessibility_TLB.pas',
+  mscorlib_TLB in 'mscorlib_TLB.pas',
+  System_Drawing_TLB in 'System_Drawing_TLB.pas',
+  System_TLB in 'System_TLB.pas',
+  System_Windows_Forms_TLB in 'System_Windows_Forms_TLB.pas';
+end.

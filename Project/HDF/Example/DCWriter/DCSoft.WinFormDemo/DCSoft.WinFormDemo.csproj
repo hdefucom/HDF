@@ -1,0 +1,3074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4219BC56-BBD5-4958-AC62-7B629C6D642B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>logon.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>DCSoft.WinFormDemo</AssemblyName>
+    <AssemblyOriginatorKeyFile>yyf.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DCSoft.Writer.WinFormDemo</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <PublishUrl>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer\WebDemo\EXE\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://192.168.1.102/webdemo/EXE/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DCSoft.ORM, Version=0.1.0.2, Culture=neutral, PublicKeyToken=2e40e961ea876340, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DCSoft.ORM.dll</HintPath>
+    </Reference>
+    <Reference Include="DCSoft.Writer, Version=1.2015.12.23, Culture=neutral, PublicKeyToken=2e40e961ea876340, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DCSoft.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.ConnectionUI, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Microsoft.Data.ConnectionUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.ConnectionUI.Dialog, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Microsoft.Data.ConnectionUI.Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Open_ICSharpCode_SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=2e40e961ea876340, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Open_ICSharpCode_SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASPNETDemoLauncherTest\ASPNETDemoLauncher.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ASPNETDemoLauncherTest\ASPNETDemoLauncher.Designer.cs">
+      <DependentUpon>ASPNETDemoLauncher.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ASPNETDemoLauncherTest\BsnameId.cs" />
+    <Compile Include="ASPNETDemoLauncherTest\PortInUse.cs" />
+    <Compile Include="ASPNETDemoLauncherTest\XMLOperation.cs" />
+    <Compile Include="dlgBrowseDOCEXTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgBrowseDOCEXTable.Designer.cs">
+      <DependentUpon>dlgBrowseDOCEXTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dlgBrowseImageLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgBrowseImageLibrary.Designer.cs">
+      <DependentUpon>dlgBrowseImageLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dlgBrowseWebServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgBrowseWebServices.Designer.cs">
+      <DependentUpon>dlgBrowseWebServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FriedmanCurveTest\ctlFriedmanCurve.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FriedmanCurveTest\ctlFriedmanCurve.Designer.cs">
+      <DependentUpon>ctlFriedmanCurve.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FriedmanCurveTest\dlgRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FriedmanCurveTest\dlgRegister.Designer.cs">
+      <DependentUpon>dlgRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIChild.Designer.cs">
+      <DependentUpon>frmMDIChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIParent.Designer.cs">
+      <DependentUpon>frmMDIParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowImage.Designer.cs">
+      <DependentUpon>frmShowImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest1.Designer.cs">
+      <DependentUpon>frmTest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceStrings.ar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceStrings.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceStrings.zh-TW.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceStrings.zh-TW.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse6.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse6.Designer.cs">
+      <DependentUpon>ctlTestMulCourse6.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\frmInsertSubDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\CourseRecord\frmInsertSubDocument.designer.cs">
+      <DependentUpon>frmInsertSubDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\frmSelectTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\CourseRecord\frmSelectTemplate.Designer.cs">
+      <DependentUpon>frmSelectTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\ctlCustomEditorControlEditorControl.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\ctlCustomEditorControlEditorControl.Designer.cs">
+      <DependentUpon>ctlCustomEditorControlEditorControl.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="CardListViewTest\ctlTestPatientListView.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="CardListViewTest\ctlTestPatientListView.Designer.cs">
+      <DependentUpon>ctlTestPatientListView.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlInsertImages.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlInsertImages.Designer.cs">
+      <DependentUpon>ctlInsertImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlAutoSaveLocal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlAutoSaveLocal.Designer.cs">
+      <DependentUpon>ctlAutoSaveLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlPageSettings.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlPageSettings.Designer.cs">
+      <DependentUpon>ctlPageSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlPrint.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlPrint.Designer.cs">
+      <DependentUpon>ctlPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestDateTimeService.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestDateTimeService.Designer.cs">
+      <DependentUpon>ctlTestDateTimeService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileNew.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileNew.Designer.cs">
+      <DependentUpon>ctlTestFileNew.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileOpen.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileOpen.Designer.cs">
+      <DependentUpon>ctlTestFileOpen.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileSave.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileSave.Designer.cs">
+      <DependentUpon>ctlTestFileSave.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileSaveAs.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileSaveAs.Designer.cs">
+      <DependentUpon>ctlTestFileSaveAs.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestFriedmanCurveChartElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestFriedmanCurveChartElement.designer.cs">
+      <DependentUpon>ctlTestFriedmanCurveChartElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestSetCells.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestSetCells.Designer.cs">
+      <DependentUpon>ctlTestSetCells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\UI\ctlTestStatusStrip.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\UI\ctlTestStatusStrip.Designer.cs">
+      <DependentUpon>ctlTestStatusStrip.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DCDataSourceDescriptor.cs" />
+    <Compile Include="Test\dlgDataBindingDescriptorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\dlgDataBindingDescriptorList.Designer.cs">
+      <DependentUpon>dlgDataBindingDescriptorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\dlgDataTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\dlgDataTable.Designer.cs">
+      <DependentUpon>dlgDataTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\dlgRTF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\dlgRTF.Designer.cs">
+      <DependentUpon>dlgRTF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmEditOneDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmEditOneDocument.Designer.cs">
+      <DependentUpon>frmEditOneDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\dlgMyInputFieldEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\dlgMyInputFieldEditor.Designer.cs">
+      <DependentUpon>dlgMyInputFieldEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestCascade.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestCascade.Designer.cs">
+      <DependentUpon>ctlTestCascade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestChangeTable.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestChangeTable.Designer.cs">
+      <DependentUpon>ctlTestChangeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestControlHost.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestControlHost.Designer.cs">
+      <DependentUpon>ctlTestControlHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestCustomElementValueEditor.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestCustomElementValueEditor.Designer.cs">
+      <DependentUpon>ctlTestCustomElementValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestDataFormats.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestDataFormats.Designer.cs">
+      <DependentUpon>ctlTestDataFormats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OLEDargAndDrop\ctlTestDrag.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OLEDargAndDrop\ctlTestDrag.Designer.cs">
+      <DependentUpon>ctlTestDrag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestEvent.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestEvent.Designer.cs">
+      <DependentUpon>ctlTestEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlFilterValue.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlFilterValue.Designer.cs">
+      <DependentUpon>ctlFilterValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestDocumentGridLine.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestDocumentGridLine.Designer.cs">
+      <DependentUpon>ctlTestDocumentGridLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestEventVBScript.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestEventVBScript.Designer.cs">
+      <DependentUpon>ctlTestEventVBScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestExcludeKeywords.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestExcludeKeywords.Designer.cs">
+      <DependentUpon>ctlTestExcludeKeywords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestFileBlock.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestFileBlock.Designer.cs">
+      <DependentUpon>ctlTestFileBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileFormat.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileFormat.Designer.cs">
+      <DependentUpon>ctlTestFileFormat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestCheckMRID.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestCheckMRID.Designer.cs">
+      <DependentUpon>ctlTestCheckMRID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestGlobalEventTemplate.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestGlobalEventTemplate.Designer.cs">
+      <DependentUpon>ctlTestGlobalEventTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestInjectCommand.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestInjectCommand.Designer.cs">
+      <DependentUpon>ctlTestInjectCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dlgFlash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgLogin.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="dlgLogin.Designer.cs">
+      <DependentUpon>dlgLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dlgPermissionConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgPermissionConfig.Designer.cs">
+      <DependentUpon>dlgPermissionConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dlgProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgProperty.Designer.cs">
+      <DependentUpon>dlgProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMRAdviceListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EMRAdviceListControl.Designer.cs">
+      <DependentUpon>EMRAdviceListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMR\DataHelper.cs" />
+    <Compile Include="DesignerUtils.cs" />
+    <Compile Include="EMR\Designer\dlgFieldOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMR\Designer\dlgFieldOptions.Designer.cs">
+      <DependentUpon>dlgFieldOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMR\dlgTemplateBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMR\dlgTemplateBrowse.Designer.cs">
+      <DependentUpon>dlgTemplateBrowse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMR\EMRFileSystem.cs" />
+    <Compile Include="EMR\EMRPropertyDescriptionAttribute.cs" />
+    <Compile Include="EMR\frmPatients.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="EMR\frmPatients.Designer.cs">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="EMR\ctlPatientsList.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="EMR\ctlPatientsList.Designer.cs">
+      <DependentUpon>ctlPatientsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMR\Model\EMR_Patients.cs" />
+    <Compile Include="ExtWriterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExtWriterControl.Designer.cs">
+      <DependentUpon>ExtWriterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemp.Designer.cs">
+      <DependentUpon>frmTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestListItems.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestListItems.Designer.cs">
+      <DependentUpon>ctlTestListItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\KnowledgeBase\ctlTestLoadKBLibrary.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\KnowledgeBase\ctlTestLoadKBLibrary.Designer.cs">
+      <DependentUpon>ctlTestLoadKBLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse.Designer.cs">
+      <DependentUpon>ctlTestMulCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestSearchReplace.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestSearchReplace.Designer.cs">
+      <DependentUpon>ctlTestSearchReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestSetInputField.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestSetInputField.Designer.cs">
+      <DependentUpon>ctlTestSetInputField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestSetVisible.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestSetVisible.Designer.cs">
+      <DependentUpon>ctlTestSetVisible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DataSourceOperation\ctlTestValueBinding.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DataSourceOperation\ctlTestValueBinding.Designer.cs">
+      <DependentUpon>ctlTestValueBinding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestWriterControlExt.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestWriterControlExt.Designer.cs">
+      <DependentUpon>ctlTestWriterControlExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlTextUseCommand.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ctlTextUseCommand.Designer.cs">
+      <DependentUpon>ctlTextUseCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListElementValueEditor.cs" />
+    <Compile Include="MyCommandNames.cs" />
+    <Compile Include="EMR\EMRDataProvider.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceStrings.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceStrings.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StartApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileCommand.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileCommand.Designer.cs">
+      <DependentUpon>ctlTestFileCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OLEDargAndDrop\ctlTestInsertObject.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OLEDargAndDrop\ctlTestInsertObject.Designer.cs">
+      <DependentUpon>ctlTestInsertObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestPrintPreview.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestPrintPreview.Designer.cs">
+      <DependentUpon>ctlTestPrintPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse2.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse2.Designer.cs">
+      <DependentUpon>ctlTestMulCourse2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestNavigate.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestNavigate.Designer.cs">
+      <DependentUpon>ctlTestNavigate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestUserTrackList.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestUserTrackList.Designer.cs">
+      <DependentUpon>ctlTestUserTrackList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmText.Designer.cs">
+      <DependentUpon>frmText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\MyTestUserControl.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\MyTestUserControl.Designer.cs">
+      <DependentUpon>MyTestUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestSetSize.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestSetSize.Designer.cs">
+      <DependentUpon>ctlTestSetSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlBuildDom.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlBuildDom.Designer.cs">
+      <DependentUpon>ctlBuildDom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestOther.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestOther.Designer.cs">
+      <DependentUpon>ctlTestOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\dlgSelectPatients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\dlgSelectPatients.Designer.cs">
+      <DependentUpon>dlgSelectPatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmShowData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmShowData.Designer.cs">
+      <DependentUpon>frmShowData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestCreateContentDocument.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestCreateContentDocument.Designer.cs">
+      <DependentUpon>ctlTestCreateContentDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\KnowledgeBase\ctlQueryKBEntries.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\KnowledgeBase\ctlQueryKBEntries.Designer.cs">
+      <DependentUpon>ctlQueryKBEntries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestTable.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestTable.Designer.cs">
+      <DependentUpon>ctlTestTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlRigthToLeft.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlRigthToLeft.Designer.cs">
+      <DependentUpon>ctlRigthToLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlFormatListItems.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlFormatListItems.Designer.cs">
+      <DependentUpon>ctlFormatListItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\KnowledgeBase\ctlDBKBLibrary.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\KnowledgeBase\ctlDBKBLibrary.Designer.cs">
+      <DependentUpon>ctlDBKBLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlDomTree.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlDomTree.Designer.cs">
+      <DependentUpon>ctlDomTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlGarde.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlGarde.Designer.cs">
+      <DependentUpon>ctlGarde.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestCopySource.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestCopySource.Designer.cs">
+      <DependentUpon>ctlTestCopySource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse3.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse3.Designer.cs">
+      <DependentUpon>ctlTestMulCourse3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlDymaticListItems.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlDymaticListItems.Designer.cs">
+      <DependentUpon>ctlDymaticListItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlQueryHistoryDisplayText.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlQueryHistoryDisplayText.Designer.cs">
+      <DependentUpon>ctlQueryHistoryDisplayText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlZoom.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlZoom.Designer.cs">
+      <DependentUpon>ctlZoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\ctlTestUG.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\ctlTestUG.Designer.cs">
+      <DependentUpon>ctlTestUG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlFileFormatConvert.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlFileFormatConvert.Designer.cs">
+      <DependentUpon>ctlFileFormatConvert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestMove.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestMove.Designer.cs">
+      <DependentUpon>ctlTestMove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse4.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse4.Designer.cs">
+      <DependentUpon>ctlTestMulCourse4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestAssistInsert.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestAssistInsert.Designer.cs">
+      <DependentUpon>ctlTestAssistInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestLinkList.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestLinkList.Designer.cs">
+      <DependentUpon>ctlTestLinkList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestTemperatureChartElement.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestTemperatureChartElement.Designer.cs">
+      <DependentUpon>ctlTestTemperatureChartElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlCustomEditorControl.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlCustomEditorControl.Designer.cs">
+      <DependentUpon>ctlCustomEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileSystemEvent.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlTestFileSystemEvent.Designer.cs">
+      <DependentUpon>ctlTestFileSystemEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestEventEditElementValue.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestEventEditElementValue.Designer.cs">
+      <DependentUpon>ctlTestEventEditElementValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherOperation\ctlTestAxWriterControl.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherOperation\ctlTestAxWriterControl.Designer.cs">
+      <DependentUpon>ctlTestAxWriterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlExpressionFunction.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlExpressionFunction.Designer.cs">
+      <DependentUpon>ctlExpressionFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlCustomHandleError.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlCustomHandleError.Designer.cs">
+      <DependentUpon>ctlCustomHandleError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlContextMenu.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlContextMenu.Designer.cs">
+      <DependentUpon>ctlContextMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlCustomShapeElement.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlCustomShapeElement.Designer.cs">
+      <DependentUpon>ctlCustomShapeElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestButtonElement.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlTestButtonElement.Designer.cs">
+      <DependentUpon>ctlTestButtonElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTableRowHeightChangedEvent.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTableRowHeightChangedEvent.Designer.cs">
+      <DependentUpon>ctlTableRowHeightChangedEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OLEDargAndDrop\ctlTestDragDataSource.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OLEDargAndDrop\ctlTestDragDataSource.Designer.cs">
+      <DependentUpon>ctlTestDragDataSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestInputField.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlTestInputField.Designer.cs">
+      <DependentUpon>ctlTestInputField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse5.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestMulCourse5.Designer.cs">
+      <DependentUpon>ctlTestMulCourse5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestAutoTranslate.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlTestAutoTranslate.Designer.cs">
+      <DependentUpon>ctlTestAutoTranslate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\ctlTestCommandStateNeedRefrehFlag.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\ctlTestCommandStateNeedRefrehFlag.Designer.cs">
+      <DependentUpon>ctlTestCommandStateNeedRefrehFlag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlOutlineTree.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlOutlineTree.Designer.cs">
+      <DependentUpon>ctlOutlineTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlMediaElement.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlMediaElement.Designer.cs">
+      <DependentUpon>ctlMediaElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlControlEventMessage.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlControlEventMessage.Designer.cs">
+      <DependentUpon>ctlControlEventMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestFileLock.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTestFileLock.Designer.cs">
+      <DependentUpon>ctlTestFileLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlCustomDrawContent.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlCustomDrawContent.Designer.cs">
+      <DependentUpon>ctlCustomDrawContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestSubDocument.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\CourseRecord\ctlTestSubDocument.Designer.cs">
+      <DependentUpon>ctlTestSubDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlContentLock.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlContentLock.Designer.cs">
+      <DependentUpon>ctlContentLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlAutoSave.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\FileOperations\ctlAutoSave.Designer.cs">
+      <DependentUpon>ctlAutoSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestTable2.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestTable2.Designer.cs">
+      <DependentUpon>ctlTestTable2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestTableData.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\TableOperation\ctlTestTableData.Designer.cs">
+      <DependentUpon>ctlTestTableData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlFieldContentEditEvent.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\InputOperation\ctlFieldContentEditEvent.Designer.cs">
+      <DependentUpon>ctlFieldContentEditEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlCheckBoxImage.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\OtherElementsOperation\ctlCheckBoxImage.Designer.cs">
+      <DependentUpon>ctlCheckBoxImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlResourceString.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\DOMAuxiliaryOperation\ctlResourceString.Designer.cs">
+      <DependentUpon>ctlResourceString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\SectionElement\SubDocumentDelayLoadWhenExpand.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\SectionElement\SubDocumentDelayLoadWhenExpand.Designer.cs">
+      <DependentUpon>SubDocumentDelayLoadWhenExpand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\UI\ctlCustomMessageBox.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\UI\ctlCustomMessageBox.Designer.cs">
+      <DependentUpon>ctlCustomMessageBox.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\UI\dlgCustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\UI\dlgCustomMessageBox.Designer.cs">
+      <DependentUpon>dlgCustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\UserControls\ApplicationScenes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\UserControls\ApplicationScenes.Designer.cs">
+      <DependentUpon>ApplicationScenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Version\Tibetan.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\Version\Tibetan.Designer.cs">
+      <DependentUpon>Tibetan.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\ViewMode\ctlTestViewMode.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Test\ViewMode\ctlTestViewMode.Designer.cs">
+      <DependentUpon>ctlTestViewMode.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlFillDynamic.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlFillDynamic.designer.cs">
+      <DependentUpon>ctlFillDynamic.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLine2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLine2.designer.cs">
+      <DependentUpon>ctlTimeLine2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLineNormal.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLineNormal.designer.cs">
+      <DependentUpon>ctlTimeLineNormal.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLineOperRoomFlow.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLineOperRoomFlow.designer.cs">
+      <DependentUpon>ctlTimeLineOperRoomFlow.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLineTimeZone.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\ctlTimeLineTimeZone.designer.cs">
+      <DependentUpon>ctlTimeLineTimeZone.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeLineTest\dlgRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLineTest\dlgRegister.designer.cs">
+      <DependentUpon>dlgRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLineTest\frmCustomDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLineTest\frmCustomDesigner.designer.cs">
+      <DependentUpon>frmCustomDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLineTest\frmViewDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLineTest\frmViewDocument.Designer.cs" />
+    <Compile Include="TimeLineTest\frmViewImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLineTest\frmViewImage.Designer.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="WriterCommandNames.cs" />
+    <Compile Include="XtractPro.Text\CSharpSyntaxHighlighter.cs" />
+    <Compile Include="XtractPro.Text\SyntaxHighlighter.cs" />
+    <Compile Include="Test\AccessControl\ctlTextUsePowerCommand.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test\AccessControl\ctlTextUsePowerCommand.Designer.cs">
+      <DependentUpon>ctlTextUsePowerCommand.cs</DependentUpon>
+    </Compile>
+    <Content Include="About.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationScenariosVideo\ctlTextUseCommand.wmv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationScenariosVideo\demo2.wmv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG10.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG11.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG12.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG13.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG14.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG3.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG4.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG5.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BigImages\PACS_JPG6.Jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="DemoFile2\多语言--UgDemo.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="DemoFile2\临时医嘱单--某医院临时医嘱单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\住院志--福建孟超肝胆医院住院志.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\住院病历--三门县人民医院住院病历.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\住院病历--佛山市南海区中医院住院病历.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\住院病历--沈阳军区总医院急诊医学部急诊病历.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录--中铁一局咸阳中心医院入院记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录--南京市市级机关医院妇科入院记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录--南京市市级机关医院脑血管病入院记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录--天津人民医院病程记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录--广州医科大学附属第一医院入院记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录--某医院入院记录（冠心病）.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录--陕西省第二人民医院全院通用入院记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\入院记录单--天津人民医院入院记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\分娩记录单--江西省泰和县人民医院分娩进行记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\化验申请单--某某医院临床检查化验申请单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\医嘱单--南京机关医院医嘱单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\影像申请单--某医院影像申请单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\待产记录表--某医院待产记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\手术同意书--陕西省第二人民医院手术知情同意书.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\手术安排表--某医院手术安排表.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--三门县人民医院住院病历护理记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--中铁一局咸阳中心医院护理记录单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--南京市市级机关医院非手术科室护理记录单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--常州市第一人民医院护理记录单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--成都中医药大学附属医院入院护理记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--某医院中医首次护理记录单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--福建孟超肝胆医院护理记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--福建孟超肝胆医院护理记录录入.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\护理记录--麻醉护理记录单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--444 中华人民共和国传染病报告卡.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--太钢集团总医院胃镜检查报告单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--温州医科大学附属眼视光医院眼部B超检查报告单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--温州医科大学附属眼视光医院眼部彩超检查报告单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--珠海市妇幼保健院电子胃镜诊疗报告.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--药品不良反映报告单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--血生化报告单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--贵阳市白云区第一人民医院胃镜检查报告单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\检查报告--陕西省肿瘤医院CT检查报告单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\病案首页--广东省惠亚-病案首页西医.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\病案首页--扬州市XX中医院中医院住院病案首页.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\病案首页--某医院病案首页.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\病案首页--病案首页.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\病程记录--病程记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\多语言--藏文演示文档.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\血液记录单--某医院血液净化记录单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\血糖录入单--福建孟超肝胆医院血糖录入.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\评估文书--南京市市级机关医院病人入院护理评估单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\评估文书--天津人民医院病患者入院评估表.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\评估文书--陕西省第二人民医院深静脉穿刺留置拔管指征评估表.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\資料同意書--中山醫學大學附設醫院-初診基本資料暨個人資料同意書.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\超声诊断书--常州市中医医院超声检查诊断书.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\跨行业应用--昆明市五华区国家税务局标准新办增值税一般纳税人资格认定管理.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\跨行业应用--税收优惠政策管理.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\跨行业应用--限速器校验报告（委托检验）.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\量表--南京都昌科技量表_PDQ39评分量表.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile2\量表--南京都昌科技量表_帕金森病非运动症状评定量表.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\blue96.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="ASPNETDemoLauncherTest\ASPNETDemoLauncher.resx">
+      <DependentUpon>ASPNETDemoLauncher.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoFile\defaultApplicationScenarios.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="DemoFile\SaveSpecifyFile.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\CascadeTemplate.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\TestElementIDForEditableDependent.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\元素可见性.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\南京都昌科技ST_会诊记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DemoFile\延迟加载内容.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\控件级事件和文档元素级事件.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\插入点模板.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\文件内容锁定.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\文档DOM树.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\文档元素属性值表达式.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\文档网格线.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\无网格护理记录单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\模板-病程记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2015年10月05日 10时56分38秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2015年10月05日 10时59分42秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2015年10月05日 11时00分00秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\省市县联动.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\Test.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\luoli.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\luoliA.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\luoliB.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\CascadeTemplate.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\CopySource.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\demo.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\DemoEventListener.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\DOCEX.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\header.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\hostdemo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\Steward苏醒评分.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\surrdings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\中医处方.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\体温单.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="ctlTextUseCommand.ar.resx">
+      <DependentUpon>ctlTextUseCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlTextUseCommand.zh-TW.resx">
+      <DependentUpon>ctlTextUseCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriedmanCurveTest\ctlFriedmanCurve.resx">
+      <DependentUpon>ctlFriedmanCurve.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriedmanCurveTest\dlgRegister.resx">
+      <DependentUpon>dlgRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowImage.resx">
+      <DependentUpon>frmShowImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTextUsePowerCommand.ar.resx">
+      <DependentUpon>ctlTextUsePowerCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTextUsePowerCommand.zh-TW.resx">
+      <DependentUpon>ctlTextUsePowerCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgBrowseDOCEXTable.ar.resx">
+      <DependentUpon>dlgBrowseDOCEXTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgBrowseDOCEXTable.zh-TW.resx">
+      <DependentUpon>dlgBrowseDOCEXTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgBrowseImageLibrary.ar.resx">
+      <DependentUpon>dlgBrowseImageLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgBrowseImageLibrary.zh-TW.resx">
+      <DependentUpon>dlgBrowseImageLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgBrowseWebServices.resx">
+      <DependentUpon>dlgBrowseWebServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFlash.zh-TW.resx">
+      <DependentUpon>dlgFlash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLogin.ar.resx">
+      <DependentUpon>dlgLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLogin.zh-TW.resx">
+      <DependentUpon>dlgLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgPermissionConfig.ar.resx">
+      <DependentUpon>dlgPermissionConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgPermissionConfig.zh-TW.resx">
+      <DependentUpon>dlgPermissionConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgProperty.ar.resx">
+      <DependentUpon>dlgProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgProperty.zh-TW.resx">
+      <DependentUpon>dlgProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMRAdviceListControl.ar.resx">
+      <DependentUpon>EMRAdviceListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMRAdviceListControl.zh-TW.resx">
+      <DependentUpon>EMRAdviceListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\ctlPatientsList.ar.resx">
+      <DependentUpon>ctlPatientsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\ctlPatientsList.zh-TW.resx">
+      <DependentUpon>ctlPatientsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\dlgTemplateBrowse.ar.resx">
+      <DependentUpon>dlgTemplateBrowse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\dlgTemplateBrowse.zh-TW.resx">
+      <DependentUpon>dlgTemplateBrowse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\frmPatients.ar.resx">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\frmPatients.zh-TW.resx">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtWriterControl.ar.resx">
+      <DependentUpon>ExtWriterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtWriterControl.zh-TW.resx">
+      <DependentUpon>ExtWriterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.ar.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.zh-TW.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIChild.resx">
+      <DependentUpon>frmMDIChild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIChild.zh-TW.resx">
+      <DependentUpon>frmMDIChild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIParent.resx">
+      <DependentUpon>frmMDIParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemp.ar.resx">
+      <DependentUpon>frmTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemp.zh-TW.resx">
+      <DependentUpon>frmTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceStrings.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceStrings.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceStrings.zh-TW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceStrings.zh-TW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse6.resx">
+      <DependentUpon>ctlTestMulCourse6.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\frmInsertSubDocument.resx">
+      <DependentUpon>frmInsertSubDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\frmSelectTemplate.resx">
+      <DependentUpon>frmSelectTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardListViewTest\ctlTestPatientListView.resx">
+      <DependentUpon>ctlTestPatientListView.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlBuildDom.ar.resx">
+      <DependentUpon>ctlBuildDom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlBuildDom.zh-TW.resx">
+      <DependentUpon>ctlBuildDom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ctlCustomEditorControlEditorControl.resx">
+      <DependentUpon>ctlCustomEditorControlEditorControl.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlInsertImages.ar.resx">
+      <DependentUpon>ctlInsertImages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlInsertImages.resx">
+      <DependentUpon>ctlInsertImages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlInsertImages.zh-TW.resx">
+      <DependentUpon>ctlInsertImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlAutoSaveLocal.ar.resx">
+      <DependentUpon>ctlAutoSaveLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlAutoSaveLocal.resx">
+      <DependentUpon>ctlAutoSaveLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlAutoSaveLocal.zh-TW.resx">
+      <DependentUpon>ctlAutoSaveLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlPageSettings.ar.resx">
+      <DependentUpon>ctlPageSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlPageSettings.resx">
+      <DependentUpon>ctlPageSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlPageSettings.zh-TW.resx">
+      <DependentUpon>ctlPageSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlPrint.ar.resx">
+      <DependentUpon>ctlPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlPrint.resx">
+      <DependentUpon>ctlPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlPrint.zh-TW.resx">
+      <DependentUpon>ctlPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlDBKBLibrary.resx">
+      <DependentUpon>ctlDBKBLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlDBKBLibrary.ar.resx">
+      <DependentUpon>ctlDBKBLibrary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlDBKBLibrary.zh-TW.resx">
+      <DependentUpon>ctlDBKBLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlDomTree.resx">
+      <DependentUpon>ctlDomTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlDomTree.ar.resx">
+      <DependentUpon>ctlDomTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlDomTree.zh-TW.resx">
+      <DependentUpon>ctlDomTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlDymaticListItems.ar.resx">
+      <DependentUpon>ctlDymaticListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlDymaticListItems.zh-TW.resx">
+      <DependentUpon>ctlDymaticListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlFilterValue.ar.resx">
+      <DependentUpon>ctlFilterValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlFilterValue.zh-TW.resx">
+      <DependentUpon>ctlFilterValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlFormatListItems.ar.resx">
+      <DependentUpon>ctlFormatListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlFormatListItems.zh-TW.resx">
+      <DependentUpon>ctlFormatListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestFriedmanCurveChartElement.resx">
+      <DependentUpon>ctlTestFriedmanCurveChartElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlGarde.resx">
+      <DependentUpon>ctlGarde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlGarde.ar.resx">
+      <DependentUpon>ctlGarde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlGarde.zh-TW.resx">
+      <DependentUpon>ctlGarde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlQueryHistoryDisplayText.ar.resx">
+      <DependentUpon>ctlQueryHistoryDisplayText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlQueryHistoryDisplayText.zh-TW.resx">
+      <DependentUpon>ctlQueryHistoryDisplayText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlQueryKBEntries.ar.resx">
+      <DependentUpon>ctlQueryKBEntries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlQueryKBEntries.zh-TW.resx">
+      <DependentUpon>ctlQueryKBEntries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlRigthToLeft.ar.resx">
+      <DependentUpon>ctlRigthToLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlRigthToLeft.zh-TW.resx">
+      <DependentUpon>ctlRigthToLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCascade.ar.resx">
+      <DependentUpon>ctlTestCascade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCascade.zh-TW.resx">
+      <DependentUpon>ctlTestCascade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestChangeTable.ar.resx">
+      <DependentUpon>ctlTestChangeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestChangeTable.zh-TW.resx">
+      <DependentUpon>ctlTestChangeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestCheckMRID.ar.resx">
+      <DependentUpon>ctlTestCheckMRID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestCheckMRID.zh-TW.resx">
+      <DependentUpon>ctlTestCheckMRID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestControlHost.ar.resx">
+      <DependentUpon>ctlTestControlHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestControlHost.zh-TW.resx">
+      <DependentUpon>ctlTestControlHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCopySource.resx">
+      <DependentUpon>ctlTestCopySource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCopySource.ar.resx">
+      <DependentUpon>ctlTestCopySource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCopySource.zh-TW.resx">
+      <DependentUpon>ctlTestCopySource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestCreateContentDocument.ar.resx">
+      <DependentUpon>ctlTestCreateContentDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestCreateContentDocument.zh-TW.resx">
+      <DependentUpon>ctlTestCreateContentDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCustomElementValueEditor.ar.resx">
+      <DependentUpon>ctlTestCustomElementValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCustomElementValueEditor.zh-TW.resx">
+      <DependentUpon>ctlTestCustomElementValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestDataFormats.ar.resx">
+      <DependentUpon>ctlTestDataFormats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestDataFormats.zh-TW.resx">
+      <DependentUpon>ctlTestDataFormats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestDateTimeService.ar.resx">
+      <DependentUpon>ctlTestDateTimeService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestDateTimeService.zh-TW.resx">
+      <DependentUpon>ctlTestDateTimeService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestDocumentGridLine.ar.resx">
+      <DependentUpon>ctlTestDocumentGridLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestDocumentGridLine.zh-TW.resx">
+      <DependentUpon>ctlTestDocumentGridLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestDrag.ar.resx">
+      <DependentUpon>ctlTestDrag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestDrag.zh-TW.resx">
+      <DependentUpon>ctlTestDrag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEvent.ar.resx">
+      <DependentUpon>ctlTestEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEvent.zh-TW.resx">
+      <DependentUpon>ctlTestEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEventVBScript.ar.resx">
+      <DependentUpon>ctlTestEventVBScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEventVBScript.zh-TW.resx">
+      <DependentUpon>ctlTestEventVBScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestExcludeKeywords.ar.resx">
+      <DependentUpon>ctlTestExcludeKeywords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestExcludeKeywords.zh-TW.resx">
+      <DependentUpon>ctlTestExcludeKeywords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestFileBlock.ar.resx">
+      <DependentUpon>ctlTestFileBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestFileBlock.zh-TW.resx">
+      <DependentUpon>ctlTestFileBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileCommand.ar.resx">
+      <DependentUpon>ctlTestFileCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileCommand.zh-TW.resx">
+      <DependentUpon>ctlTestFileCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileFormat.ar.resx">
+      <DependentUpon>ctlTestFileFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileFormat.zh-TW.resx">
+      <DependentUpon>ctlTestFileFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileNew.resx">
+      <DependentUpon>ctlTestFileNew.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileOpen.resx">
+      <DependentUpon>ctlTestFileOpen.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileSave.resx">
+      <DependentUpon>ctlTestFileSave.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileSaveAs.resx">
+      <DependentUpon>ctlTestFileSaveAs.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestGlobalEventTemplate.ar.resx">
+      <DependentUpon>ctlTestGlobalEventTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestGlobalEventTemplate.zh-TW.resx">
+      <DependentUpon>ctlTestGlobalEventTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestInjectCommand.ar.resx">
+      <DependentUpon>ctlTestInjectCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestInjectCommand.zh-TW.resx">
+      <DependentUpon>ctlTestInjectCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestInsertObject.ar.resx">
+      <DependentUpon>ctlTestInsertObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestInsertObject.zh-TW.resx">
+      <DependentUpon>ctlTestInsertObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestListItems.zh-TW.resx">
+      <DependentUpon>ctlTestListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlTestLoadKBLibrary.ar.resx">
+      <DependentUpon>ctlTestLoadKBLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlTestLoadKBLibrary.zh-TW.resx">
+      <DependentUpon>ctlTestLoadKBLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse.ar.resx">
+      <DependentUpon>ctlTestMulCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse.zh-TW.resx">
+      <DependentUpon>ctlTestMulCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse2.ar.resx">
+      <DependentUpon>ctlTestMulCourse2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse2.zh-TW.resx">
+      <DependentUpon>ctlTestMulCourse2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse3.resx">
+      <DependentUpon>ctlTestMulCourse3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlDymaticListItems.resx">
+      <DependentUpon>ctlDymaticListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlQueryHistoryDisplayText.resx">
+      <DependentUpon>ctlQueryHistoryDisplayText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse3.ar.resx">
+      <DependentUpon>ctlTestMulCourse3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse3.zh-TW.resx">
+      <DependentUpon>ctlTestMulCourse3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestNavigate.ar.resx">
+      <DependentUpon>ctlTestNavigate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestNavigate.zh-TW.resx">
+      <DependentUpon>ctlTestNavigate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestOther.ar.resx">
+      <DependentUpon>ctlTestOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestOther.zh-TW.resx">
+      <DependentUpon>ctlTestOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestPrintPreview.ar.resx">
+      <DependentUpon>ctlTestPrintPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestPrintPreview.zh-TW.resx">
+      <DependentUpon>ctlTestPrintPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestSearchReplace.ar.resx">
+      <DependentUpon>ctlTestSearchReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestSearchReplace.zh-TW.resx">
+      <DependentUpon>ctlTestSearchReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestSetCells.ar.resx">
+      <DependentUpon>ctlTestSetCells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestSetCells.zh-TW.resx">
+      <DependentUpon>ctlTestSetCells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetInputField.ar.resx">
+      <DependentUpon>ctlTestSetInputField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetInputField.zh-TW.resx">
+      <DependentUpon>ctlTestSetInputField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetSize.zh-TW.resx">
+      <DependentUpon>ctlTestSetSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetVisible.ar.resx">
+      <DependentUpon>ctlTestSetVisible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetVisible.zh-TW.resx">
+      <DependentUpon>ctlTestSetVisible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\UI\ctlTestStatusStrip.resx">
+      <DependentUpon>ctlTestStatusStrip.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTable.ar.resx">
+      <DependentUpon>ctlTestTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTable.zh-TW.resx">
+      <DependentUpon>ctlTestTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestTemperatureChartElement.ar.resx">
+      <DependentUpon>ctlTestTemperatureChartElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestUserTrackList.ar.resx">
+      <DependentUpon>ctlTestUserTrackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestUserTrackList.zh-TW.resx">
+      <DependentUpon>ctlTestUserTrackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DataSourceOperation\ctlTestValueBinding.zh-TW.resx">
+      <DependentUpon>ctlTestValueBinding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestWriterControlExt.ar.resx">
+      <DependentUpon>ctlTestWriterControlExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestWriterControlExt.zh-TW.resx">
+      <DependentUpon>ctlTestWriterControlExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlZoom.resx">
+      <DependentUpon>ctlZoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ctlTestUG.resx">
+      <DependentUpon>ctlTestUG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ctlTestUG.zh-TW.resx">
+      <DependentUpon>ctlTestUG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlFileFormatConvert.resx">
+      <DependentUpon>ctlFileFormatConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlFileFormatConvert.zh-TW.resx">
+      <DependentUpon>ctlFileFormatConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestMove.resx">
+      <DependentUpon>ctlTestMove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestMove.zh-TW.resx">
+      <DependentUpon>ctlTestMove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse4.resx">
+      <DependentUpon>ctlTestMulCourse4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse4.zh-TW.resx">
+      <DependentUpon>ctlTestMulCourse4.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="DemoFile\康复医学科评分表.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年06月04日 10时17分28秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\票据套打.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\自定义知识库节点.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\获取区域内容.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\藏文演示文档.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\试验正文.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\试验页眉.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\试验页脚.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\辅助快速录入项目.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="DemoTreeView.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="DemoFile\输入域边界元素.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\违禁关键字.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EMR.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\buttonhover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\buttondown.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\button.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lib\DCSoft.ORM.dll" />
+    <Content Include="Lib\DCSoft.Writer.dll" />
+    <Content Include="Lib\DCSoft.Writer.pdb" />
+    <Content Include="Lib\DCSoft.Writer.xml" />
+    <Content Include="Lib\Microsoft.Data.ConnectionUI.Dialog.dll" />
+    <Content Include="Lib\Microsoft.Data.ConnectionUI.dll" />
+    <Content Include="Lib\Open_ICSharpCode_SharpZipLib.dll" />
+    <Content Include="Lib\Open_ICSharpCode_SharpZipLib.pdb" />
+    <Content Include="Logon.bmp" />
+    <EmbeddedResource Include="Test\AccessControl\ctlTextUsePowerCommand.en.resx">
+      <DependentUpon>ctlTextUsePowerCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTextUsePowerCommand.resx">
+      <DependentUpon>ctlTextUsePowerCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlQueryKBEntries.resx">
+      <DependentUpon>ctlQueryKBEntries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTable.resx">
+      <DependentUpon>ctlTestTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlRigthToLeft.resx">
+      <DependentUpon>ctlRigthToLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlFormatListItems.resx">
+      <DependentUpon>ctlFormatListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestAssistInsert.resx">
+      <DependentUpon>ctlTestAssistInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestAssistInsert.ar.resx">
+      <DependentUpon>ctlTestAssistInsert.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestAssistInsert.zh-TW.resx">
+      <DependentUpon>ctlTestAssistInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestLinkList.ar.resx">
+      <DependentUpon>ctlTestLinkList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestLinkList.resx">
+      <DependentUpon>ctlTestLinkList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestLinkList.zh-TW.resx">
+      <DependentUpon>ctlTestLinkList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestTemperatureChartElement.resx">
+      <DependentUpon>ctlTestTemperatureChartElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestTemperatureChartElement.zh-TW.resx">
+      <DependentUpon>ctlTestTemperatureChartElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlCustomEditorControl.ar.resx">
+      <DependentUpon>ctlCustomEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlCustomEditorControl.resx">
+      <DependentUpon>ctlCustomEditorControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlCustomEditorControl.zh-TW.resx">
+      <DependentUpon>ctlCustomEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileSystemEvent.ar.resx">
+      <DependentUpon>ctlTestFileSystemEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileSystemEvent.resx">
+      <DependentUpon>ctlTestFileSystemEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileSystemEvent.zh-TW.resx">
+      <DependentUpon>ctlTestFileSystemEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEventEditElementValue.ar.resx">
+      <DependentUpon>ctlTestEventEditElementValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEventEditElementValue.resx">
+      <DependentUpon>ctlTestEventEditElementValue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEventEditElementValue.zh-TW.resx">
+      <DependentUpon>ctlTestEventEditElementValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherOperation\ctlTestAxWriterControl.ar.resx">
+      <DependentUpon>ctlTestAxWriterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherOperation\ctlTestAxWriterControl.resx">
+      <DependentUpon>ctlTestAxWriterControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherOperation\ctlTestAxWriterControl.zh-TW.resx">
+      <DependentUpon>ctlTestAxWriterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlExpressionFunction.ar.resx">
+      <DependentUpon>ctlExpressionFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlExpressionFunction.resx">
+      <DependentUpon>ctlExpressionFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlExpressionFunction.zh-TW.resx">
+      <DependentUpon>ctlExpressionFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlCustomHandleError.ar.resx">
+      <DependentUpon>ctlCustomHandleError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlCustomHandleError.resx">
+      <DependentUpon>ctlCustomHandleError.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlCustomHandleError.zh-TW.resx">
+      <DependentUpon>ctlCustomHandleError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlContextMenu.ar.resx">
+      <DependentUpon>ctlContextMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlContextMenu.resx">
+      <DependentUpon>ctlContextMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlContextMenu.zh-TW.resx">
+      <DependentUpon>ctlContextMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlCustomShapeElement.ar.resx">
+      <DependentUpon>ctlCustomShapeElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlCustomShapeElement.resx">
+      <DependentUpon>ctlCustomShapeElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlCustomShapeElement.zh-TW.resx">
+      <DependentUpon>ctlCustomShapeElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestButtonElement.ar.resx">
+      <DependentUpon>ctlTestButtonElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestButtonElement.resx">
+      <DependentUpon>ctlTestButtonElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestButtonElement.zh-TW.resx">
+      <DependentUpon>ctlTestButtonElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTableRowHeightChangedEvent.ar.resx">
+      <DependentUpon>ctlTableRowHeightChangedEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTableRowHeightChangedEvent.resx">
+      <DependentUpon>ctlTableRowHeightChangedEvent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTableRowHeightChangedEvent.zh-TW.resx">
+      <DependentUpon>ctlTableRowHeightChangedEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestDragDataSource.ar.resx">
+      <DependentUpon>ctlTestDragDataSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestDragDataSource.resx">
+      <DependentUpon>ctlTestDragDataSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestDragDataSource.zh-TW.resx">
+      <DependentUpon>ctlTestDragDataSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestInputField.ar.resx">
+      <DependentUpon>ctlTestInputField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestInputField.resx">
+      <DependentUpon>ctlTestInputField.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestInputField.zh-TW.resx">
+      <DependentUpon>ctlTestInputField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse5.resx">
+      <DependentUpon>ctlTestMulCourse5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse5.zh-TW.resx">
+      <DependentUpon>ctlTestMulCourse5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestAutoTranslate.ar.resx">
+      <DependentUpon>ctlTestAutoTranslate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestAutoTranslate.resx">
+      <DependentUpon>ctlTestAutoTranslate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestAutoTranslate.zh-TW.resx">
+      <DependentUpon>ctlTestAutoTranslate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ctlTestCommandStateNeedRefrehFlag.ar.resx">
+      <DependentUpon>ctlTestCommandStateNeedRefrehFlag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ctlTestCommandStateNeedRefrehFlag.resx">
+      <DependentUpon>ctlTestCommandStateNeedRefrehFlag.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ctlTestCommandStateNeedRefrehFlag.zh-TW.resx">
+      <DependentUpon>ctlTestCommandStateNeedRefrehFlag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlOutlineTree.ar.resx">
+      <DependentUpon>ctlOutlineTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlOutlineTree.resx">
+      <DependentUpon>ctlOutlineTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlOutlineTree.zh-TW.resx">
+      <DependentUpon>ctlOutlineTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlMediaElement.ar.resx">
+      <DependentUpon>ctlMediaElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlMediaElement.resx">
+      <DependentUpon>ctlMediaElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlMediaElement.zh-TW.resx">
+      <DependentUpon>ctlMediaElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlControlEventMessage.ar.resx">
+      <DependentUpon>ctlControlEventMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlControlEventMessage.resx">
+      <DependentUpon>ctlControlEventMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlControlEventMessage.zh-TW.resx">
+      <DependentUpon>ctlControlEventMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestFileLock.ar.resx">
+      <DependentUpon>ctlTestFileLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestFileLock.resx">
+      <DependentUpon>ctlTestFileLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestFileLock.zh-TW.resx">
+      <DependentUpon>ctlTestFileLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlCustomDrawContent.ar.resx">
+      <DependentUpon>ctlCustomDrawContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlCustomDrawContent.resx">
+      <DependentUpon>ctlCustomDrawContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlCustomDrawContent.zh-TW.resx">
+      <DependentUpon>ctlCustomDrawContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestSubDocument.resx">
+      <DependentUpon>ctlTestSubDocument.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestSubDocument.zh-TW.resx">
+      <DependentUpon>ctlTestSubDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlContentLock.ar.resx">
+      <DependentUpon>ctlContentLock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlContentLock.resx">
+      <DependentUpon>ctlContentLock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlContentLock.zh-TW.resx">
+      <DependentUpon>ctlContentLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlAutoSave.ar.resx">
+      <DependentUpon>ctlAutoSave.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlAutoSave.resx">
+      <DependentUpon>ctlAutoSave.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlAutoSave.zh-TW.resx">
+      <DependentUpon>ctlAutoSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTable2.ar.resx">
+      <DependentUpon>ctlTestTable2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTable2.resx">
+      <DependentUpon>ctlTestTable2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTable2.zh-TW.resx">
+      <DependentUpon>ctlTestTable2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTableData.ar.resx">
+      <DependentUpon>ctlTestTableData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTableData.resx">
+      <DependentUpon>ctlTestTableData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestTableData.zh-TW.resx">
+      <DependentUpon>ctlTestTableData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlFieldContentEditEvent.ar.resx">
+      <DependentUpon>ctlFieldContentEditEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlFieldContentEditEvent.resx">
+      <DependentUpon>ctlFieldContentEditEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlFieldContentEditEvent.zh-TW.resx">
+      <DependentUpon>ctlFieldContentEditEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlCheckBoxImage.ar.resx">
+      <DependentUpon>ctlCheckBoxImage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlCheckBoxImage.resx">
+      <DependentUpon>ctlCheckBoxImage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlCheckBoxImage.zh-TW.resx">
+      <DependentUpon>ctlCheckBoxImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmText.resx">
+      <DependentUpon>frmText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlResourceString.ar.resx">
+      <DependentUpon>ctlResourceString.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlResourceString.resx">
+      <DependentUpon>ctlResourceString.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlResourceString.zh-TW.resx">
+      <DependentUpon>ctlResourceString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\SectionElement\SubDocumentDelayLoadWhenExpand.ar.resx">
+      <DependentUpon>SubDocumentDelayLoadWhenExpand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\SectionElement\SubDocumentDelayLoadWhenExpand.resx">
+      <DependentUpon>SubDocumentDelayLoadWhenExpand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\SectionElement\SubDocumentDelayLoadWhenExpand.zh-TW.resx">
+      <DependentUpon>SubDocumentDelayLoadWhenExpand.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="ApplicationScenarios\ctlTextUseCommand.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\FormViewModeDemo.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Test\Version\Tibetan.resx">
+      <DependentUpon>Tibetan.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\ctlFillDynamic.resx">
+      <DependentUpon>ctlFillDynamic.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\ctlTimeLine2.resx">
+      <DependentUpon>ctlTimeLine2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\ctlTimeLineNormal.resx">
+      <DependentUpon>ctlTimeLineNormal.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\ctlTimeLineOperRoomFlow.resx">
+      <DependentUpon>ctlTimeLineOperRoomFlow.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\ctlTimeLineTimeZone.resx">
+      <DependentUpon>ctlTimeLineTimeZone.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\dlgRegister.resx">
+      <DependentUpon>dlgRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\frmCustomDesigner.resx">
+      <DependentUpon>frmCustomDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineTest\frmViewDocument.resx" />
+    <EmbeddedResource Include="TimeLineTest\frmViewImage.resx" />
+    <None Include="DemoResources\10.0.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DemoResources\DCSoft.ASPNETDemo.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Mark_li.bmp" />
+    <None Include="Resources\Mark_wang.bmp" />
+    <EmbeddedResource Include="Test\datatable2.xml" />
+    <None Include="Resources\dclogon64.bmp" />
+    <Content Include="Resources\Mark_zhang1.bmp" />
+    <Content Include="Resources\Mark_zhang11.bmp" />
+    <EmbeddedResource Include="Test\DOCEX.xml" />
+    <EmbeddedResource Include="Test\DCDataSourceDescriptor.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Resources\png-0460.png" />
+    <Content Include="Test\DOMAuxiliaryOperation\检查报告单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\OtherOperation\documentbase64.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\iconchecked.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\SectionElement\IconCollapse.bmp" />
+    <Content Include="Test\SectionElement\IconExpand.bmp" />
+    <Content Include="Test\TestSetCells.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\iconunchecked.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Test\基于用户角色的内容锁定.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Test\表达式调用VB脚本函数.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\Windows Balloon.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\Windows Critical Stop.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\Windows Error.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\Windows Logon Sound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Test\Windows Shutdown.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Test\UI\ctlCustomMessageBox.resx">
+      <DependentUpon>ctlCustomMessageBox.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\UI\dlgCustomMessageBox.resx">
+      <DependentUpon>dlgCustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\UserControls\ApplicationScenes.resx">
+      <DependentUpon>ApplicationScenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\ViewMode\ctlTestViewMode.resx">
+      <DependentUpon>ctlTestViewMode.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\医嘱单模板.xml" />
+    <EmbeddedResource Include="Test\医嘱数据表.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Test\iconradiochecked.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TextFile1.txt" />
+    <Content Include="TimeLineTest\Files\CT.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\TPRDemo.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\入院记录.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\割掉老肾.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\手术记录.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\护理记录单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\术前讨论.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\病理分析.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\血生化报告单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\血透记录1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\血透记录2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\超声诊断书.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\门诊病历.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\首次病程.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TimeLineTest\Files\麻醉护理记录单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XtractPro.Text\SyntaxHighlighters.css" />
+    <Content Include="DemoFile\NursingRecord.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\模板-病程记录.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月11日 .xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月13日 12时01分03秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月14日 12时01分54秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月15日 12时02分30秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月16日 12时03分12秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月17日 12时03分32秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月18日 12时04分21秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月19日 12时05分22秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\病程记录内容\病程记录2013年02月20日 20时49分41秒.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Markzhang.bmp" />
+    <Content Include="kbdemo.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\add_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\black_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\data_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\desable_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\download_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\email_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\enable_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\firewall_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\lock_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\off_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\print_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\proxy_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\remove_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\search_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\unlock_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\upload_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoFile\ImageLibrary\web_server.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="temp.txt" />
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestDateTimeService.resx">
+      <DependentUpon>ctlTestDateTimeService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestSetCells.resx">
+      <DependentUpon>ctlTestSetCells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlZoom.ar.resx">
+      <DependentUpon>ctlZoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlZoom.zh-TW.resx">
+      <DependentUpon>ctlZoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgDataBindingDescriptorList.resx">
+      <DependentUpon>dlgDataBindingDescriptorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgDataTable.resx">
+      <DependentUpon>dlgDataTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgMyInputFieldEditor.ar.resx">
+      <DependentUpon>dlgMyInputFieldEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgMyInputFieldEditor.zh-TW.resx">
+      <DependentUpon>dlgMyInputFieldEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgRTF.resx">
+      <DependentUpon>dlgRTF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgSelectPatients.ar.resx">
+      <DependentUpon>dlgSelectPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgSelectPatients.zh-TW.resx">
+      <DependentUpon>dlgSelectPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmEditOneDocument.resx">
+      <DependentUpon>frmEditOneDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgMyInputFieldEditor.resx">
+      <DependentUpon>dlgMyInputFieldEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCascade.resx">
+      <DependentUpon>ctlTestCascade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TableOperation\ctlTestChangeTable.resx">
+      <DependentUpon>ctlTestChangeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestControlHost.resx">
+      <DependentUpon>ctlTestControlHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestCustomElementValueEditor.resx">
+      <DependentUpon>ctlTestCustomElementValueEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestDataFormats.resx">
+      <DependentUpon>ctlTestDataFormats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestDocumentGridLine.resx">
+      <DependentUpon>ctlTestDocumentGridLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestDrag.resx">
+      <DependentUpon>ctlTestDrag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEventVBScript.resx">
+      <DependentUpon>ctlTestEventVBScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestExcludeKeywords.resx">
+      <DependentUpon>ctlTestExcludeKeywords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OtherElementsOperation\ctlTestFileBlock.resx">
+      <DependentUpon>ctlTestFileBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestGlobalEventTemplate.resx">
+      <DependentUpon>ctlTestGlobalEventTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestListItems.resx">
+      <DependentUpon>ctlTestListItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\KnowledgeBase\ctlTestLoadKBLibrary.resx">
+      <DependentUpon>ctlTestLoadKBLibrary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse.resx">
+      <DependentUpon>ctlTestMulCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestPrintPreview.resx">
+      <DependentUpon>ctlTestPrintPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestSearchReplace.resx">
+      <DependentUpon>ctlTestSearchReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetInputField.resx">
+      <DependentUpon>ctlTestSetInputField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetVisible.resx">
+      <DependentUpon>ctlTestSetVisible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DataSourceOperation\ctlTestValueBinding.resx">
+      <DependentUpon>ctlTestValueBinding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmEditOneDocument.ar.resx">
+      <DependentUpon>frmEditOneDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmEditOneDocument.zh-TW.resx">
+      <DependentUpon>frmEditOneDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmShowData.ar.resx">
+      <DependentUpon>frmShowData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmShowData.zh-TW.resx">
+      <DependentUpon>frmShowData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\MyTestUserControl.resx">
+      <DependentUpon>MyTestUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OldXML.xml" />
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlFilterValue.resx">
+      <DependentUpon>ctlFilterValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileFormat.resx">
+      <DependentUpon>ctlTestFileFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestCheckMRID.resx">
+      <DependentUpon>ctlTestCheckMRID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestFileCommand.resx">
+      <DependentUpon>ctlTestFileCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OLEDargAndDrop\ctlTestInsertObject.resx">
+      <DependentUpon>ctlTestInsertObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\CourseRecord\ctlTestMulCourse2.resx">
+      <DependentUpon>ctlTestMulCourse2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FileOperations\ctlTestNavigate.resx">
+      <DependentUpon>ctlTestNavigate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\AccessControl\ctlTestUserTrackList.resx">
+      <DependentUpon>ctlTestUserTrackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestSetSize.resx">
+      <DependentUpon>ctlTestSetSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlBuildDom.resx">
+      <DependentUpon>ctlBuildDom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestOther.resx">
+      <DependentUpon>ctlTestOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\dlgSelectPatients.resx">
+      <DependentUpon>dlgSelectPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmShowData.resx">
+      <DependentUpon>frmShowData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestCreateContentDocument.resx">
+      <DependentUpon>ctlTestCreateContentDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\Mark_zhang.bmp" />
+    <EmbeddedResource Include="DemoFile\FormViewModeDemo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgBrowseDOCEXTable.resx">
+      <DependentUpon>dlgBrowseDOCEXTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgBrowseImageLibrary.resx">
+      <DependentUpon>dlgBrowseImageLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMRAdviceListControl.resx">
+      <DependentUpon>EMRAdviceListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\Designer\dlgFieldOptions.resx">
+      <DependentUpon>dlgFieldOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\dlgTemplateBrowse.resx">
+      <DependentUpon>dlgTemplateBrowse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\TemplateDocument\InpatientHomePage.xml" />
+    <Content Include="DataSourceDescriptor.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DemoFile\link.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EMR\TemplateDocument\InpatientInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kblibrary.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Readme.txt" />
+    <EmbeddedResource Include="DemoFile\demo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="images\about.bmp" />
+    <Content Include="images\backcolor.bmp" />
+    <Content Include="images\bold.bmp" />
+    <Content Include="images\bookmark.bmp" />
+    <Content Include="images\bordercolor.bmp" />
+    <Content Include="images\center.bmp" />
+    <Content Include="images\copy.bmp" />
+    <Content Include="images\cut.bmp" />
+    <Content Include="images\delete.bmp" />
+    <Content Include="images\dotlist.bmp" />
+    <Content Include="images\dragmove.bmp" />
+    <Content Include="images\FIND.BMP" />
+    <Content Include="images\font.bmp" />
+    <Content Include="images\headindent.bmp" />
+    <Content Include="images\hyperlink.bmp" />
+    <Content Include="images\image.bmp" />
+    <Content Include="images\italic.bmp" />
+    <Content Include="images\justify.bmp" />
+    <Content Include="images\left.bmp" />
+    <Content Include="images\new.bmp" />
+    <Content Include="images\numberlist.bmp" />
+    <Content Include="images\open.bmp" />
+    <Content Include="images\pagesetting.bmp" />
+    <Content Include="images\paste.bmp" />
+    <Content Include="images\print.bmp" />
+    <Content Include="images\redo.bmp" />
+    <Content Include="images\right.bmp" />
+    <Content Include="images\save.bmp" />
+    <Content Include="images\settings.bmp" />
+    <Content Include="images\sub.bmp" />
+    <Content Include="images\sup.bmp" />
+    <Content Include="images\textcolor.bmp" />
+    <Content Include="images\txt.bmp" />
+    <Content Include="images\underline.bmp" />
+    <Content Include="images\undo.bmp" />
+    <Content Include="logon.ico" />
+    <EmbeddedResource Include="dlgFlash.en.resx">
+      <DependentUpon>dlgFlash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFlash.resx">
+      <DependentUpon>dlgFlash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLogin.en.resx">
+      <DependentUpon>dlgLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLogin.resx">
+      <DependentUpon>dlgLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgPermissionConfig.en.resx">
+      <DependentUpon>dlgPermissionConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgPermissionConfig.resx">
+      <DependentUpon>dlgPermissionConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgProperty.resx">
+      <DependentUpon>dlgProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\frmPatients.resx">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMR\ctlPatientsList.resx">
+      <DependentUpon>ctlPatientsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtWriterControl.resx">
+      <DependentUpon>ExtWriterControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemp.en.resx">
+      <DependentUpon>frmTemp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemp.resx">
+      <DependentUpon>frmTemp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest1.resx">
+      <DependentUpon>frmTest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\InputOperation\ctlTestEvent.resx">
+      <DependentUpon>ctlTestEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestInjectCommand.resx">
+      <DependentUpon>ctlTestInjectCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DOMAuxiliaryOperation\ctlTestWriterControlExt.resx">
+      <DependentUpon>ctlTestWriterControlExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlTextUseCommand.en.resx">
+      <DependentUpon>ctlTextUseCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlTextUseCommand.resx">
+      <DependentUpon>ctlTextUseCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceStrings.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceStrings.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceStrings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="yyf.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DemoFile\demo.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="copydll.bat" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GridTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

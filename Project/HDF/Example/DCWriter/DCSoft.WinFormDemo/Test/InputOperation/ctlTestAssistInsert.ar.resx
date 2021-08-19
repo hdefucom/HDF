@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC9SURBVDhPrZOtDsMwDIT7SHuMPcYeqWQ8cGyBg4aFhoGG
+        hYFjnq9atijNzyb1pKgl951zdafpKHkS3R9W/2B1nvV6D9rNgrkldyM9nS99iCduAmYD0MJ9CEZtaXZ+
+        M6dTvYrrAAAGJIHqACuqpfhUjTGOAFT3v82yjgBWVE1Ih1lkAEDTpdLoAHAYAaykHSB+0zlIvwM0nOuT
+        bqMjnfgfQFYcA2BmWn4EpO/demKZqntQblu+eeX7UT/wxnkBA/Pz98CfeAcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>يېڭدىن قۇرۇش</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGTSURBVDhPvZMvT8NQFMX7ESqR7yNUIitHMMUhEBWIiYmO
+        ICYgecnCqHwJiAk2XhBkWRAlQUyWBLGZ5QWFoxL5vsHhvj+ULttCZmhykpf2nt+59740CP7juZq8gwsJ
+        npOGBfrjV+yUm/YEzm7erGkw/XSwhyXM++D2aYFiItY0nr5sTeGjJZK2sAqMuVISWhdW0BL4kiikwN30
+        eSPkx+wAVKjJ1DQbAD4ySPomh9xJcAijPFuFWoAx+GRn5qR0o9YAJsUCvMpCwKjei+Q0ju/Cd2K7yX03
+        pj1dCQuo5lRMO0FFHWwTjWbGU5MEvctrBDWAIMZczghgixojKDqrBJgn0LMYlYzQPT1A/35OAGpH08wr
+        6coDrJFkjGVszbqIwNsM3fOOW6YFKNe6Kn16w4jSpRqjnkRQeYi0xXAxWjiAWYYqG7P7xDrVGyvJoERo
+        0w+PTn6v0lyLuUpV0GJEUKukc0lpBXeSPQaRMZveGTyuAgRPwXukLEGWJkiPYyStGPF+hChiiBgD2wsR
+        hiEYaacf6a/ibxE59sPB9YUQAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton2.Text" xml:space="preserve">
+    <value>ھۆججەت ئېچىش</value>
+  </data>
+  <data name="toolStripButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADGSURBVDhPpVLLEcUgCLQla0orluH1teIx7XhMWAgTIeTz
+        EmY4KLK7LKZEUUpZ/kn0mEBz7/1RttaY7BPAQmFA7hSgAQoRxOxTPNARfrOMwo8hlTJPfOR7UxewHQDF
+        lCo/RCMiIyuY5Yy6gmxqBECblYmZ0TwDAEyicgQxACoPDMxMssEszQ8UhB4QK5hV/ugBj+k9UJDRdbFv
+        34KOcQqQp0ryr9Ot1K5xZDhjVlXhCHfsqL9W4D0KFXjZkbEHBcH/jv58eLcClOnAEBzKNpsAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton8.Text" xml:space="preserve">
+    <value>XML نى كۆرۈش </value>
+  </data>
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFWSURBVDhPtZE9S8NQFIb7j/oDOmR3yaZ0CnaxW8aOKQh1
+        M5N0kXawKGSJpVBCUQMZigSxHxQHFVv8KBqKN21jqFp4zbkVQRKpEQzc6Z7ned97kkj859e7m0GzJtBM
+        F/XzCTqXL/D8OX6VSaCqM+waLrari0OimsWiJeoBw2j6zu3Gmcfh7A6DILcgbOhIZWtYUQaoNBiMphtu
+        oQSCQ3uMk67PYUntB7AZwCYyBQureQOCVIa4xaBFCeRiH3KRQS5/Jkt6AOjYM6542uOzh9R6hbcoHU3C
+        DShRVCh5IZHzVdgXzrdBavOjQFT6SMoLCTUh4c3wLSRIFwbYt6bhBkKO3kwLM5EMqifXgiOqX4P3jsfv
+        aAdmO2KJy/5ts30LCqEnLpuNvM9s2jy92nyKJ3DcOeqnIw6nlU48mKp0r30Oi7kWju2H+AKrN0OpMcTY
+        e40P/2lZcaEPHuQWrpkx5yEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>ئەمەلدىن قالدۇرۇش</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVDhPtZJBSwJBGIb9J/0E73nYY+HFm7GHkCTI20IE
+        e1wh2G7aRbpEe1A6eDERbIlA2IOJB3NDPFjgEh1SpJnWisTgbWZks9gOrtTAnOZ7n++ZbyYU+stl915R
+        bbko1ig6zjsCsSsWEcFMeb71AkGrtwDIrFMULgiimoNIqgJpp4SoaiGVI1AZxHYmwmY0nkJSrv1mRQaI
+        HRCENwzE0yaSuiVA4UQJiSzBbp6iwUzOms8MXvMDTi5d0X118xiPTy+iIG/eIrJVQDhmYDtHoRgEyhFr
+        wqC+2XiA+F7xx2GzO4SSLoswN4lpM0sf4NQaQ9YJ1pnB98MBnSJ7PusswkqfGWX9gFrbm0EJ1H37KuAD
+        43fm2rwzD6+s/QLgXbmipPZRb98He39PuVwfiJdI7jeXA3CQrNkCUm2MMKQfy4GUwwfIGYKbu/ksAn1p
+        XnzVncDqLPCFA5P/I/AJYYMA3+PVfVAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>قايتىدىن قىلىش</value>
+  </data>
+  <data name="toolStripButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFXSURBVDhPrZKxS8NAGMX7BxW62yGDS+lyc6YgFBpwuLHg
+        EpfUMUGQLoUiLYKlEkOldCgUDtQiaqmLUCg9AsYqYkBxcnjmO6HoYJqCB7cc7/2+9+4uk/nvNZlM0fb7
+        +MmVUuKo4/86+3Pu00sEp9bAa/S2NHjeEGJ0mw5AZKfmoS+ulUE+RjC4BUqRum23K+A4DYRhiOHlGMzg
+        6wEG4k7VaJ/2wC0Hum6mn04xgyBURopO03d27fUABDErVWVmZQsDscYFysUn3M47mDWHfTgDq4yhWxO4
+        xxJi/JychMzmQQS9KlHcaqFQqqNYEQqilYfYb42SAXZnAbY3j8UecswBt31lpkq9c6nOEp+SzCSYBtFS
+        TIDZwwfaZzfIaXwFIO5N4p6gaZYSc/cKmhEn0gxks/lkAHfvv8Vx1A1WWkbPb5rIxrvpXyQDqGdhuw4y
+        NE9WiFP/6xXCL5Wl8IsZayn6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>كىسىپ ئېلىش</value>
+  </data>
+  <data name="toolStripButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFCSURBVDhPpVOhTsRAFLxP6SfcJ1RWViIrkSuRlciVlSsr
+        V1aubHJmDaEkEJaQEBIE68ANb3bheq2gl9wkY5p9M/Nmt7vdpbAuINNnDh7Gejw+v+EsbQ6vYaxD0xpM
+        Ty/bInRdQ/cObvRolN4WYWTCTYAkhw8R2ljYMcpKmWaQbzbz/vVrmYpxj/gGYgTCuwyKwBptH7G/djg8
+        fM4iRuISZgS0OLU2QJkAI85rqC4L768sDncfWYT7EjG5x+TONcyQy9U2008RjQ5pmCxq8ysg+3L4z5nu
+        qvPQ/fJ2eIbizou4lLUUkLR09VOQA8IxoBUhgnurLiT3uvWJSaA6SbCvGqyp9Hy9LJYGdE+3IsUXlf7/
+        jTS3WeDU+ZhAetsUqG9c6oZxZzrw1lh8UW4kKJVbNM7S6Joow0XZbj/zs36mSw/9ADjY5x6aTMbGAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton6.Text" xml:space="preserve">
+    <value>كۆچۈرۈش</value>
+  </data>
+  <data name="toolStripButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGWSURBVDhPtZMhcxsxFITvH/gn+CcYFgoGChoKBgoWCgR4
+        igQPChoKGgoe6gjeTDqpMikwFCy7zT4plzhpkoJOb+YbHfDuvrc6D8P/eFJ0EGJw+HV/h08zfszfEY/+
+        meAN6jk0yuxhrxX8wRLXzof729eGIq41YiG1BoTRtvPbjUWeHJzVcGaHmmh82sIa/aeBiAV/MBTR8OyZ
+        7lAmgzhqmL1CcFtkP8Du3xoE38QLU70zTBQ0R3+CiZYG3nYDc6VeTxBWA9m7MD1z9LB5YeQ7hSvqy+6N
+        weh6aYXnzP2zRo0b+MCVxgjnySHAugDz1cNY/46BJM8saaI4sTAxoHhZls7vhcVWlHOFvnbQxr2YBC/J
+        ZFJdfNqghKElizjE1Dkm5EIDitOUobTpJnK/svcqrsehG3Dsy+Q8V6RcoPe2idWVhlIsVD6OOhEmy+iF
+        BnnkdXFnGftyAuklptz7IWq3pYETcb+iS6Qw2XlNTlNp4njqPBs8/Lxt9y9fmNEKWu2as7QtO69p751t
+        go8eaVt+8Df++c/8CPoU/B17fgTiAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton7.Text" xml:space="preserve">
+    <value>چاپلاش</value>
+  </data>
+  <data name="btnFillHeader.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnFillHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="btnFillHeader.Text" xml:space="preserve">
+    <value>بەت ئۈستىنى تولدۇرۇش</value>
+  </data>
+  <data name="btnFillHeader2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnFillBody.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnFillBody.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="btnFillBody.Text" xml:space="preserve">
+    <value>تېكىستنى تولدۇرۇش</value>
+  </data>
+  <data name="btnFillFooter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnFillFooter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="btnFillFooter.Text" xml:space="preserve">
+    <value>بەت ئاستىنى تولدۇرۇش</value>
+  </data>
+  <data name="btnBuildContent.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnBuildContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="btnBuildContent.Text" xml:space="preserve">
+    <value>ئارخىپ مەزمۇنى قۇرۇش</value>
+  </data>
+  <data name="btnBuildValueBindingField.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnBuildValueBindingField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="btnBuildValueBindingField.Text" xml:space="preserve">
+    <value>سانلىق مەلۇمات مەنبەسى بىلەن بالاش</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>877, 25</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="myWriterControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="myWriterControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>877, 521</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ALKATIP Tor Tom,9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>877, 546</value>
+  </data>
+  <data name="btnLoadAssistItems.Text" xml:space="preserve">
+    <value>قوشۇمچە تۈرنى يۈكلەش</value>
+  </data>
+  <data name="btnLoadFile.Text" xml:space="preserve">
+    <value>ھۆججەت يۈكلەش</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>ھۆججەت يۈكلىنىپ بولغاندىن كىيىن ،F3نى بېسىپ قوشۇمچە كىرگۈزۈش ئىقتىدارىنى ئىشلىتىڭ</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft,System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean,mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+</root>

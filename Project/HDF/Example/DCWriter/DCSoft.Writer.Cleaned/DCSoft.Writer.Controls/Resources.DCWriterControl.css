@@ -1,0 +1,17 @@
+﻿
+.dcSelectedListItem
+{
+    background-color :Blue ;
+}
+
+.dcHoverListItem
+{
+    border-color:Blue;
+    border-width:1px;
+    border-style:solid;
+}
+
+.dcListItem
+{
+    border-color:transparent ;
+}

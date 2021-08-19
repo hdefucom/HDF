@@ -1,0 +1,1365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1111.19834">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextBody">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XString" StyleIndex="4">
+          <Text>级联模板</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>DCWriter支持级联模板。、，能根据当前输入域中的值来动态的修改后续输入域是否可见,而且这种操作是可以套嵌的。例如：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>患者</Text>
+        </Element>
+        <Element xsi:type="XInputField" StyleIndex="2">
+          <ID>吸烟</ID>
+          <Expressions />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XString" StyleIndex="2">
+              <Text>吸烟</Text>
+            </Element>
+          </XElements>
+          <TextValue>吸烟</TextValue>
+          <DefaultEventExpression>value='吸烟'</DefaultEventExpression>
+          <EventExpressions />
+          <RuntimeEventExpressions>
+            <EventExpressionInfo>
+              <Expression>value='吸烟'</Expression>
+            </EventExpressionInfo>
+          </RuntimeEventExpressions>
+          <UserEditable>false</UserEditable>
+          <InnerValue>吸烟</InnerValue>
+          <BackgroundText>是否吸烟</BackgroundText>
+          <FieldSettings>
+            <EditStyle>DropdownList</EditStyle>
+            <ListSource>
+              <Items>
+                <Item>
+                  <Text />
+                  <Value />
+                  <Tag />
+                </Item>
+                <Item>
+                  <Text>吸烟</Text>
+                  <Value>吸烟</Value>
+                  <Tag />
+                </Item>
+                <Item>
+                  <Text>不吸烟</Text>
+                  <Value>不吸烟</Value>
+                  <Tag />
+                </Item>
+              </Items>
+            </ListSource>
+          </FieldSettings>
+        </Element>
+        <Element xsi:type="XInputField" StyleIndex="2">
+          <ID />
+          <Expressions />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XString" StyleIndex="2">
+              <Text>,烟龄</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+              <ID />
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XString" StyleIndex="2">
+                  <Text>3</Text>
+                </Element>
+              </XElements>
+              <TextValue>3</TextValue>
+              <EventExpressions />
+              <RuntimeEventExpressions />
+              <Name>烟龄</Name>
+              <ValidateStyle>
+                <ValueName />
+                <ValueType>Numeric</ValueType>
+                <MaxValue>NaN</MaxValue>
+                <MinValue>NaN</MinValue>
+                <CustomMessage />
+              </ValidateStyle>
+              <InnerValue>3</InnerValue>
+              <ToolTip />
+              <BackgroundText>烟龄</BackgroundText>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+              <Text>年，每天</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+              <ID />
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XString" StyleIndex="2">
+                  <Text>5</Text>
+                </Element>
+              </XElements>
+              <TextValue>5</TextValue>
+              <EventExpressions />
+              <RuntimeEventExpressions />
+              <Name>每天吸烟根数</Name>
+              <ValidateStyle>
+                <ValueName />
+                <ValueType>Numeric</ValueType>
+                <MaxValue>NaN</MaxValue>
+                <MinValue>NaN</MinValue>
+                <CustomMessage />
+              </ValidateStyle>
+              <InnerValue>5</InnerValue>
+              <ToolTip />
+              <BackgroundText>每天吸烟根数</BackgroundText>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+              <Text>根，</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XString" StyleIndex="2">
+                  <Text>有</Text>
+                </Element>
+              </XElements>
+              <TextValue>有</TextValue>
+              <DefaultEventExpression>value='有'</DefaultEventExpression>
+              <EventExpressions />
+              <RuntimeEventExpressions>
+                <EventExpressionInfo>
+                  <Expression>value='有'</Expression>
+                </EventExpressionInfo>
+              </RuntimeEventExpressions>
+              <UserEditable>false</UserEditable>
+              <Name>戒烟治疗</Name>
+              <InnerValue>有</InnerValue>
+              <BackgroundText>戒烟治疗</BackgroundText>
+              <FieldSettings>
+                <EditStyle>DropdownList</EditStyle>
+                <ListSource>
+                  <Items>
+                    <Item>
+                      <Text>有</Text>
+                      <Value>有</Value>
+                      <Tag />
+                    </Item>
+                    <Item>
+                      <Text>无</Text>
+                      <Value>无</Value>
+                      <Tag />
+                    </Item>
+                    <Item>
+                      <Text />
+                      <Value />
+                      <Tag />
+                    </Item>
+                  </Items>
+                </ListSource>
+              </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+              <Text>戒烟治疗</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+              <ID />
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XString" StyleIndex="2">
+                  <Text>，曾使用戒烟药</Text>
+                </Element>
+                <Element xsi:type="XInputField" StyleIndex="2">
+                  <ID />
+                  <Expressions />
+                  <Attributes>
+                    <Attribute>
+                      <Name>插入时间</Name>
+                      <Value>2012年5月14日</Value>
+                    </Attribute>
+                  </Attributes>
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="2">
+                      <Text>乳香</Text>
+                    </Element>
+                  </XElements>
+                  <TextValue>乳香</TextValue>
+                  <EventExpressions />
+                  <RuntimeEventExpressions />
+                  <UserEditable>false</UserEditable>
+                  <Name>药品</Name>
+                  <InnerValue>乳香</InnerValue>
+                  <ToolTip />
+                  <BackgroundText>药品</BackgroundText>
+                  <FieldSettings>
+                    <EditStyle>DropdownList</EditStyle>
+                    <ListSource>
+                      <Name />
+                      <SourceName>DOCEX</SourceName>
+                      <DisplayPath>Name</DisplayPath>
+                      <ValuePath>Name</ValuePath>
+                      <Items />
+                    </ListSource>
+                  </FieldSettings>
+                </Element>
+              </XElements>
+              <TextValue>，曾使用戒烟药乳香</TextValue>
+              <AcceptChildElementTypes2>Text Field InputField</AcceptChildElementTypes2>
+              <EventExpressions />
+              <RuntimeEventExpressions />
+              <Name />
+              <InnerValue>，曾使用戒烟药乳香</InnerValue>
+              <ToolTip />
+              <BackgroundText />
+            </Element>
+          </XElements>
+          <TextValue>,烟龄3年，每天5根，有戒烟治疗，曾使用戒烟药乳香</TextValue>
+          <EventExpressions />
+          <RuntimeEventExpressions />
+          <Name>吸烟情况</Name>
+          <InnerValue>,烟龄3年，每天5根，有戒烟治疗，曾使用戒烟药乳香</InnerValue>
+          <ToolTip />
+          <BackgroundText>吸烟情况</BackgroundText>
+          <EnableHighlight>Default</EnableHighlight>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>。</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>在这里，当用户选择了“吸烟”，则后面的详细描述吸烟的文本片段将显示出来。如下图所示：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XImage" StyleIndex="3">
+          <Attributes />
+          <Width>1874.75</Width>
+          <Height>383.335449</Height>
+          <Image>
+            <ImageDataBase64String> /9j/4AAQ SkZJRgAB AQEAYABg AAD/2wBD AAgGBgcG BQgHBwcJ CQgKDBQN DAsLDBkS Ew8UHRof Hh0aHBwg JC4nICIs IxwcKDcp LDAxNDQ0 Hyc5PTgy PC4zNDL/ 2wBDAQkJ
+ CQwLDBgN DRgyIRwh MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjL/wAAR CAB7AlkD ASIAAhEB AxEB/8QA HwAAAQUB AQEBAQEA
+ AAAAAAAA AAECAwQF BgcICQoL /8QAtRAA AgEDAwIE AwUFBAQA AAF9AQID AAQRBRIh MUEGE1Fh ByJxFDKB kaEII0Kx wRVS0fAk M2JyggkK FhcYGRol JicoKSo0 NTY3ODk6
+ Q0RFRkdI SUpTVFVW V1hZWmNk ZWZnaGlq c3R1dnd4 eXqDhIWG h4iJipKT lJWWl5iZ mqKjpKWm p6ipqrKz tLW2t7i5 usLDxMXG x8jJytLT 1NXW19jZ 2uHi4+Tl 5ufo6erx
+ 8vP09fb3 +Pn6/8QA HwEAAwEB AQEBAQEB AQAAAAAA AAECAwQF BgcICQoL /8QAtREA AgECBAQD BAcFBAQA AQJ3AAEC AxEEBSEx BhJBUQdh cRMiMoEI FEKRobHB CSMzUvAV
+ YnLRChYk NOEl8RcY GRomJygp KjU2Nzg5 OkNERUZH SElKU1RV VldYWVpj ZGVmZ2hp anN0dXZ3 eHl6goOE hYaHiImK kpOUlZaX mJmaoqOk paanqKmq srO0tba3 uLm6wsPE
+ xcbHyMnK 0tPU1dbX 2Nna4uPk 5ebn6Onq 8vP09fb3 +Pn6/9oA DAMBAAIR AxEAPwD3 +iiigAoo ooAKr3V7 DawXMjNu NvEZnRSN 20Anp74N WKyR4fs/ 7Uub5vMc 3AXfGZG2
+ 5Ge2eQc9 DxQBrDkU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU
+ UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFebf ETxXqOjT anBZ6kbV ItLMkRii jkbz/wB5 kMWYFeBG
+ RgHrXpNe WeIbC31+ HxVNpd3c GSe1M0sR sopN6YaD dExBZsiB mABGeMEZ yADoPBni K61fUdRh uL4XMEUE Lws8UcT7 iZBJ8qs2 QAI+fVqy vE3jm6h2 SaZf2SWq 3UJLPb3A
+ cR7137/l xtxnOO1a dpY2Xh/x LFdXepvc XSQLa+Wl pFEsa3Eg CM2wDO54 Ng64J5wD msPxbd31 xr2nx6rO lrZXFtLN HZSamLII ySR7S74O 9/mPy9B7 4JIB0Xh3 xiuq3Spe
+ TJE7kxRw JbSje2fv 5ZeB6A/W obq5u21V oY7lkQAs R1z82Kb4 D1Ca81LW omvPtEEI gMYGo/bV UsHziTA9 BxUd1LHF rb+ZIqbk IG44yd1a 0znr30sc tqfirXt1 6tvNDbxx
+ C7aKQBnc +QBwwPGD nt6Vf0nW NSbxAbG6 1yO4VbdW eMosbeYw 3ALg5OFG T/vD0NYe paPqsepr Cz2rQXtx cxxomfM2 Sspct7bF YZA4JHrW lpSrqOq2 AuPIMlgj Os6rg3TA
+ GMOhx90K WyMnlh2A J06mDehX 1XxhqC6r eJYXUqW4 +yQtPLjy 7cm7mglY gnknaAPY Z7U5PE1+ LvbH4khu fL1GG0aI IgMquY8s uGzwHP4q aztdkitE u76KxB0p LqxssqVA
+ HkXW5iQx A2lpHTnu meQ2Qxvs MVxatDe6 RNLd6hBN JHbyxs8c nnxhVTHJ HljBPqmc cmkUtj0F 7m7jvYR9 pcxyEjb6 YGetbzS3 Ul/DbxXH loIBI2U3 FjnFc3NL G2oWsayK
+ XVmyoPI+ U9q3/tEM GsQ+dLHH utAF3sBk 7hwM0plU bmvk+prz zXvGV7Dq 97HpsrrD GltC80qj y7ZjdvDI 5z14wB9M 9q7DTdat 9UvNRtYY p45bCfyZ fNj2hjgE FfUYPWuB
+ 8TvDaRaj f2+nhtJh ns7FyhUD MV0ruSGI GNzshyeq 56HIhnQi 6fE97HdS LF4otLpr fVLSzMIh jHnpK8IY rhs8LKR9 VNLpfxAe 68SXwZ7e SyRVTC3a jy9txcxl lXq5ZUQ4
+ Ht6ism5b TY2hlhv9 Dmnv9Ts5 5IbaaNpI pBeW4RY9 vJHlAhj6 pnHzGqNj qButB8Py peWj3V// AGfBMtk2 Zbf50y5k UEI77mBB 2npjJU5Q HfaFrl22 p3dtqjeW 08oaBSf9
+ USOIj6Ha FYepZhni tpJbqbVp 4xOEhhCH ZsyWyD3/ AArldB0o P4qa6STU UaCEC9jv Loyl5ORG uD1UZdg3 HOPcDpYL iGPXLyJ5 Y1kdYtqM wBbg9B3p gU7fxLNL eWyS6ZND
+ a3chjgma QFmIzyY+ qjg89uPW tG2luk1O a2mnEqCJ ZFOzaRlm GP0rAjn/ ALR1+0ur OxntdSjk K3/mxsFW EAjbuI2s SdpG3Pet hJ1uNWuz ZTQvILRQ rZ3KG3Pj ODQBymo+
+ LdU0211r VY73S/s8 YkuLeyvZ ik+xIwAF A7PsLjPP z102h6lq F/PL595p FxCi8/YJ WdlYnjOe AMA1x3in w/rdv4b8 W6hcyaJM bq0mnkP2 R96BbcJh CWOOEyPc 11+lWOsW
+ d0DMNGS2 b/WLaWrx u3BxyWI6 +1IDdyfU 1DdXSWlt JcSl9kYy QoJJ+gFZ +haxJrMV 68lk9r9m vJLZdzhx KEx84I4w c9OxBHUV oXUAuraS AySxhxjf E5Rh9COh piPP7fX9
+ cmnuALvU 0kM7qYI9 OSZYyOqK xYE4BHbj NdH4e1Oa bT7i/v8A VWeBJGiY XNstsYXV trbuT3rh 4tKubCC1 e+07xK8i XTyXMwvl QbmJAdD5 g5PAwRzm t3wDZJcR 6jLNDq/k
+ vdTFVv5h JDKrOSCB uILccn8i aSGGpa3e Wt5psUPj XTnS7ujD IfJiPlL5 Uj7vveqK OfWuo0S+ SVHgfXbX VLgEvmHY pVOB91Se /f3rndQ0 SPxDPJd6 XbWqQ2Me 6xfy1VLm
+ 4DZOeOY8 Ls3DqJJM Z4NdLpDa dcQm4srS K3lUmKZP KCSRMMEo wHQ9D6EY IyCDTAqz 6vcadomo axcOZ4rc TMIEUKcI 5AG76CrN leatdmVL rTf7P+X5 JftCy5P0 FZ1x9mvf
+ C2p2RjN2 5+0B7WGU LIwMjcA9 j71HoBhi vpptPM8W jCHMrXSu hafI+YBw D0zuPAJI 60AaP9qz WWn3M9yk 90YJ2jP2 eMbto74z 0FcRpniv XdRg05IJ b8B7ATu0 diszuxkd
+ cnLDAwox XYfZTrGm X1tb3KpD PdMJJE+b dHxuAPTn p9Ca820n w5pdyltY qAt1NpMb 2cRdtvmL NISAB91T tAY+/qRS A9K8Iane 6pojT3zO 06XU8JLx CNsJIyjK gnBwBmt7
+ J9TXI+Hp rXRfDN/9 n8try1SS 5uLAOIvJ fBOzDE7F JBwxODy2 T1rodJvn 1PR7K/kt pLZ7mBJW gk+9GWUH afcZxTEW pHZYnYHk KSKyEfXJ dLt57Sez lmlVXYXC MqqCucDb
+ 15rWm/1E n+6f5VjW 6f2pollb W18iRCJF ufKbL7dv 3QQflJ/P GaAOQs/G +q/bNSnu NQ0tIUlM SI8NwUUI MMykL0Jz +VdxYPq1 1YeZc3Fm juQ0Ulqr MpQjuGrz KDTtRg8F
+ 3DRRXCWh W5SLGtNE pG58AR7M dvu55r0/ S54rfw/p 7zSpGn2a IbnYKPuj 1pIbKdzr d9ZaDBqI s1ulELS3 LmcRCNVG S3Off8qw 7/xTrkmq 6VBbaTtI 1AwTxreo d5NrLKEP
+ HHGx8+w9 asa/Al78 OfsgmnSa 7gFvbiCQ qZJHBVQc dV+bLD+6 Ce1Yv9my 6Lc6pJb/ AG+81OHV YbiwgkkM jXGy1jWX G7AwUkkQ ueFO3qQA QDV1bxBf aT4FuWun li1ApcRW
+ siyrKxaO N3BLLxkB GB9196oS +LNQe5vH uNbg0vbq MdnHZyRx tIiMsZDs S3+2SfTp 2piNZan4 UuNJtglz qEtxJpq3 OMb5p41n uJAp+4AZ JCUPI2Fe vFZ4ubHU 9X1iDUpN
+ O0qeHUvt D/bZod7O IY9irk5K 7huyeCOM cnAB02le ItQu4J7W O+gvL1L1 47aYIFju EQKWXIJA OGJ49Kbd +N7ZdSmm WW5W3st6 fZxBJuuW 4yR8vQYO PU1h2Ek9 zZAW8mn/
+ AGC61wQ3 H2X5uWVM +U4OAuQR 61Nf6jY/ ZfEk934p ntdQtp7k QW41Lytu 1fkATP8A +ugDpdV8 XwQ6TBc6 aVmmu0ie 0MoISRXl SMnI5+Xe CR7isCbx hqMF493J q+kx26Ql
+ ZYngudgw c787eMDO fXj0rQ1+ 0mv7HQbZ JwrSyW7x wxrgsUdZ HZz/AHAq dhjcVz2x p6nLHf8A irTdJeRJ LXyLi4nh DZzJG0Gw OPTEpbB6 /KewoAti +vn0G1uG lgFxO8Q3
+ wqxTa7gA gNg/dI69 604RIkSr LL5jjq2M Z/CqWsus dlG7sFRb mAlmOAB5 q1X1TXfs D6WLa1N7 HfXa25eK Qfuwc5fH 8QGOcdOv amI2cn1N cn448QXW j29rBbXF vbG5EhNx
+ OxHl7ADw B169PQGu rrkPiI6x 6NYl2jVW vo0dnnEA 2kNkeYQd vQc0MEc5 b+P9Tk1C KRtR0eZU lFsbaCRs yAzLH5n4 5yB7Guo8 T6/LaavZ 6fZX0Fvc wQS6ndfa C3l/ZkBQ
+ hsc8s+4Y /wCeZrjt PNnH4l0N LaS0YyXm 11j1lbsl fLc/c2ju Ac9sV2Gs 6RZX3jC1 t5oRsv8A S76K5KnD OpNuuM/S kM5xPHmp Jr9+JdS0 pbaOzt3G +G4EakvN uP3cg4C5
+ J4wBjvW/ 4h1y+0/V 9MspdVj0 9ZrOWaZ4 7UzhpFaM YA6gfO36 VgaRollr GsX0Opar elLyyito 1+3yAXoR 597R55eP awwMnGW6 ghm6TVLW 71DxvbLp +oPZtaad IJ5EiR8e
+ ZImwEMCO fLc8f3aA Oe0nxjqF z/Zkja8t xLcagLZ7 b+zygKea yZD9jgA1 1Wq+ItQ0 y7aI6Srx EO0cjXip vVBljjHG BXIafbXk Ok6J52tt Mv8AbOfs jRRrkC5c FsgbuvPp
+ zWn4y0j+ 2NZYW9zf +Za6fcPK kM7BRuQq igD+InqO 4oASDX/E V7qGpFLF kihmt3j/ ANOjCqrR qdvI5DZz 9SKd4t8Y XmmX08em JLJPaafe PLFgbFkW OGRWYnqF Vz9Scd6y
+ b2SLSbUH dNJpqW0M uovJyPPg TcsRc8hj tQegK4PJ xVnxewms tYu9Psd0 VppF0t2U YA+Zcxq5 PPUqEQn2 fj7uCAJq niq+srbV zB4uspp7 HThexjyI tszES4jG GznMfP8A
+ vCtzWLzx VJqsem6d LpqyeYty OZMiBZVB DnoCQSMd 8NjpXGa7 caRNoGs6 pFe6Esl5 YTQ/Y/Oh MkUKwOYt u08y+aST jtJjnYpr Q8oSeOrm PzJJra6u CkiW2qST FJN2A7qq
+ ERlQBtUl QDnk44AN bQfEGu3l xdB9T0Fj JeukcLzM JFC4Qqq9 fvKxGeea 62eW6fVE t4rgRRiL zG+TcW+b GPauXv7C K1+xWhhs vtMWr25g 8hFEvkbg QWAGRgBv wXJ710k1
+ xDBryedN HHutsLvY DJ3dBmgD mtQ1XXrq 2nH2z7Bs VniFras8 kjK2PLO/ gE8D/gVb miXt1c6r rUVxI5WC aFURv4Mw RsR+ZJri LrTJ7vxd Y2ttomna dMk00peS 5abzCm0q
+ SqlSoO7I BPPpW+dc ttA1vWze SRC5ur60 SGBpAjSh 0hjLIDyw BJ6f3SKA KHi/xlqW n2c9zZLq dlIlrK8U M2nK6yNG jOWLbshc AZPb6kVq +Hdc8yaR RFr91JJN 5UslzAFj
+ hkBIbAB+ QZOcc8Y7 VyviPTrK z8W39jPc lobnS4RL 9r1o2plD yTqwJIO8 bQo9gBWh 4OtYdR8W 6rc/a5He CC0cPBqp ugxLTZVn AGQdq5U/ 3RQB3Mct 1Hq/kSXA kieJpFGz
+ BXDAYz36 0Qy3UerN byziSNoj Io2bSvzY x71GtxDN 4gRYpo5C ls4cKwO0 714PpSR3 EM+v4ilj kKWxDbGB 2ncODimI ltpbpNWe 3mnEsZiE i/JtI+Yj HvWvWJBc Qz+IH8mW
+ OTbbgNsY HB3ng4pl hrOo3PiS 6sJrAx20 e7D7GBQA gKSx+Vg4 JIC8rjmp kUjeoooq Sgoopruq KWY4ABJ+ lADqKZFK k8KSxnKO oZTjqDyK fQAVnajo Ok6uIhqO m2t0IgRH
+ 5sQbaD6f lWjRQBna boGkaOZT pum2tqZt vmeTEF37 c7c464yc fWrUtjaz 3CXEttFJ MiFFd0BI UkEgH0JA /Kp6KAK8 dnbWrzTQ W8UUsoG9 kQAtjOM+ uMn86xpo LU3Lp9ju
+ JnXBZlZc AnnuRXQP 9xvpWRF/ x/3X0T/0 Gmm1sJxT 3Rn3WnWV 7A0F1pFx NE4wyO0Z BH/fXtTZ tK0+4SFZ tGndYHDx BjGdjDoR 83BFbdFH M+4uSPYx DpWnm0jt Dos5t4yp
+ SLMe1SpB XA3diAfw ofS9Pk27 9FmOxg65 8rhgcg9e oIrboo5n 3Dkj2Mv7 PBnP9m3e fXfH/wDF Va+0NhQb C6O0YGTE cfrVqijm bBRitkZ9 msOnxNFZ 6TNBGzFy sYiUFj1P
+ XrSGK3Nk tkdHlNqp UiErFtBU hhxnsQD9 RWjRRdjs jOkit5lU SaPIwV1k XKQ8MrBl PXqCAR7i nOsMiBG0 mYqHWQDb Fjcpyp69 QQCKv0UX Y7FNZAlx JcLptws0 qqruPKyw
+ XOATntk/ nTzdOW3G wut3rmLP 86s0UXYr Ir/bJf8A nyu/zj/+ KpFunXO2 wuhnrgxf 41Zoouws incSC7tp ba4024lg mQxyRv5R V1IwQRnk EVJ9sl/5 8rv84/8A 4qrFFF2F
+ kVxdyKMC xugPYxf4 0fbJf+fK 7/OP/wCK qxRRdhZF SeY3FpcR zWcvl+Ux YTbCrDHQ gE0mlW1t rHhS0jvr aGaGeFd8 RQbD7Y6Y 4FWLn/jy uf8Ark38 qj8L/wDI sad/1wWi
+ 7CyNNIIo 0VEQKqjA A4AFQjTL Iagb8WsQ vDH5Rn2/ OUznbn0z Vqii7CyI xBEpJCAE 9SKUxIRg rkHsafRR dhZDFhjU YVQB6Cq1 vpOn2kiv b2cMTpH5 SsiAEJkn aPbJJx71
+ coouwsiI 28JLHy1y 4wxx1HvT /LX0p1FF 2FkN8tfS mrBGn3UA +nFSUUXY WRTOlWBs /sZtIfs2 c+VtG3Oc 9PrzVgwR ldpQEDsa koouwsiP yY+PkHy9 PaoYtMso b2e8jtYk
+ uZwollC4 ZwowMnvi rVFF2FkU 49J0+G7e 7js4UuHL M0qoAxLB QST6kIo/ 4CKVdLsF klkFpCHl ffI2wZZs AZPqcAD8 Kt0UXY7F aDT7O2Di C2jiDuZG CKBlv731 4FRNo2mu
+ k6NY25Wc sZQYwd5b qT65q9RR dhYrpYWs cwmSCNZB GIg4HIQd F+nNC2Nq t090sCC4 dAjSAfMV GSAT6cmr FFF2KyGG GNhhlBHo aQQRDGEH y9PapKKL sLIb5a+l Q3Fha3YQ
+ XFvHKI3D oHXO1h0I z35NWKKL sLIqNpdg 8kUjWcJe J98bbBlW wRkehwSP xpl9o2m6 mu2+sobk bCmJUDfK SpI57Eop /wCAir1F F2OxSvNI 0/UbT7Le WcM9vgDy 5EBXjBHH
+ 4D8qfaab ZWKFLS2j hU4yI1xn ChR+QAH4 VaoouwsV 3sLSSWKV 7eNpISTG xXlCeuPS nvbQyo6P GrLINrgj 7w6YNS0U XYrIpppO nx6cdOSz hFkUMZgC DZtPUY6Y oGk2As5r
+ QWkP2acM JYto2uG+ 9kd85Oau UUXY7FKb SNOuLeS3 msbeSGRC jo0YIZSM EEemKlgs LS2knkgt 443nfzJW RcF2wBk+ pwAPwqxR RdhYrmxt TdC6MCG4 VCgkx8wU 84z6VI0E
+ TEFkBI6Z qSii7FZF cWNqLo3X kJ9oKbDJ j5tvXGfS nvawO4d4 kZl6EjJF S0UXYWRV fTbKS5a5 e1iadkWN pGQFioJI GfQFm/M0 sOnWdvPJ PDbRRyyK qO6KAWC5 Kg/Tc35m
+ rNFF2FkR iCJSSEAJ 6kUCCJSS EAJ6kVJR RdhZEawR ocqgBPpU lFFIYUUU UAFZE+iy za096b+d Ynh8rylI 45HTIPB7 9616KAGx xpDEkUY2 oihVHoB0 p1FFABRR RQAUUUUA
+ I/3G+lZE X/H/AHX0 T/0Gtd/u N9K5me9v V1ye0sLC OeTykkdn m2cdBQBs UVl+d4h/ 6A9t/wCB X/1qPO8Q /wDQHtv/ AAK/+tQB qUVl+d4h /wCgPbf+ BX/1qPO8 Q/8AQHtv
+ /Ar/AOtQ BqUVl+d4 h/6A9t/4 Ff8A1qPO 8Q/9Ae2/ 8Cv/AK1A GpRWX53i H/oD23/g V/8AWo87 xD/0B7b/ AMCv/rUA alFZfneI f+gPbf8A gV/9ajzv EP8A0B7b /wACv/rU
+ AalFZfne If8AoD23 /gV/9ajz vEP/AEB7 b/wK/wDr UAalFZfn eIf+gPbf +BX/ANaj zvEP/QHt v/Ar/wCt QBqUVl+d 4h/6A9t/ 4Ff/AFqP O8Q/9Ae2 /wDAr/61 AGpRWX53
+ iH/oD23/ AIFf/Wo8 7xD/ANAe 2/8AAr/6 1AGhc/8A Hlc/9cm/ lUfhf/kW NO/64LVY Sao1vdC+ sYbdPJbB SbeScVZ8 L/8AIsad /wBcFoA1 6KKKACii igAooooA KKKKACii
+ igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACsS 61+Np9Qs LVJTeQRY
+ jPlkhpCD gdOmQOTx zW3TBFGs rShFEjAK zY5IGcD9 TQA8dKKK KAEf7jfS uesf+R0v f+vOP+dd C/3G+lc9 Y/8AI6Xv /XnH/OgD oqKztV1m HSTAssFx M87FUSBN zEgZ6Zqi
+ niuKQEpp OrsASDi1 zgjgjrW0 cPVlHmS0 MpV6cXyt 6m/RXO2v jKwvdxgt rtgpwxYI oB2s3JLD sjH8KW48 YWFtB50k M5j3BN0b xSYJBIB2 ucdDVfVK 1+Xl1J+t UbX5tDoa
+ K5P/AIWF o/8AzxvP +/a//FUf 8LC0f/nj ef8Aftf/ AIqr+o4n +Rk/XcP/ ADo6yiuT /wCFhaP/ AM8bz/v2 v/xVH/Cw tH/543n/ AH7X/wCK o+o4n+Rh 9dw/86Os ork/+Fha
+ P/zxvP8A v2v/AMVR /wALC0f/ AJ43n/ft f/iqPqOJ /kYfXcP/ ADo6yiuT /wCFhaP/ AM8bz/v2 v/xVH/Cw tH/543n/ AH7X/wCK o+o4n+Rh 9dw/86Os ork/+Fha P/zxvP8A
+ v2v/AMVR /wALC0f/ AJ43n/ft f/iqPqOJ /kYfXcP/ ADo6yiuT /wCFhaP/ AM8bz/v2 v/xVH/Cw tH/543n/ AH7X/wCK o+o4n+Rh 9dw/86Os ork/+Fha P/zxvP8A v2v/AMVR
+ /wALC0f/ AJ43n/ft f/iqPqOJ /kYfXcP/ ADo39T/4 85v+uT/y qr4X/wCR Y07/AK4L VGDxLZa7 Bdx2qTq0 UDM3mKB1 HsTV7wv/ AMixp3/X Ba56lOVO XLNWZtCc Zx5ou6Ne
+ iiioLCii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA KKKKACii igAooooA
+ KKKKACo5 547a3lnl bbHEhdzj OFAyT+lS VinQXk1S 9uJr6d7e 6RUMORja M5U8fd57 YPJ+tAG1 RRRQAj/c b6Vz1j/y Ol7/ANec f866F/uN 9K56x/5H S9/684/5 0AQ+LRuu
+ tMUEAkTg Fjgf6s9z 0rnJ1ZL3 zAqySR30 0qReaELD CgOCQRhW GeeOD1AN dV4t0q01 Gwjnvb4W cFqSzSFc jnA55rjx /wAI2m2N fGkKHaAo VApwpzxg 56kH64J5 r2MLiKMK
+ UVKVmr6W fd9jysRQ qyqScY3W nVdkW9La 3a3uorGF ZIQJELTK AJQFuDuL cEcSRAng jcBwDVDW JobjR3lg igRPPhTM ZfJKxsvI Y5A4445B 55zi2YtD t5pJP+Ey ghktoTO+
+ 1FTy45Au XwDxkSpz 6MvtVi20 iw161uEg 8VvfRW22 SVdu8pw2 DycjIDfl W8cXh1U5 +f8AP/L0 MXhq7p8v L+X+ZxFF bK2mhSxt LBearPEq hjJDpkjL ygfqP9lg T6V0Vr4A
+ tby0huod UkMU0ayI TBjKkZHf 3rt/tTC/ zfg/8jj/ ALOxP8v4 o4SivQP+ Fbxf9BN/ +/I/xo/4 VvF/0E3/ AO/I/wAa P7Uwv834 P/IP7OxP 8v4o8/or 0D/hW8X/ AEE3/wC/
+ I/xo/wCF bxf9BN/+ /I/xo/tT C/zfg/8A IP7OxP8A L+KPP6K9 A/4VvF/0 E3/78j/G j/hW8X/Q Tf8A78j/ ABo/tTC/ zfg/8g/s 7E/y/ijz +ivQP+Fb xf8AQTf/ AL8j/Gj/
+ AIVvF/0E 3/78j/Gj +1ML/N+D /wAg/s7E /wAv4o8/ or0D/hW8 X/QTf/vy P8aP+Fbx f9BN/wDv yP8AGj+1 ML/N+D/y D+zsT/L+ KPP6K9A/ 4VvF/wBB N/8AvyP8 aP8AhW8X
+ /QTf/vyP 8aP7Uwv8 34P/ACD+ zsT/AC/i jI8F/e1T /r2P9a7n wv8A8ixp 3/XBayrH wunh+G8k W6abzYGX BTbjA+ta vhf/AJFj Tv8Argtf P4+tCtXc 4O60PcwV KVKioTWp
+ r0UUVxnW FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR
+ RQAUUUUA FFFYl1r8 bT6hYWqy G8gjxGfL JDSEHA6e oHJ45oA2 6KB0ooAR /uN9K56x /wCR0vf+ vOP+ddC/ 3G+lc9Y/ 8jpe/wDX nH/OgDbv Ln7HaST+ TNNsGfLh Tc7fQd64
+ +NtbuPGN zcOsH2i2 sIZrezb+ BJJJA8e/ +83lRnPT KgdMmu3q EWsC3j3Y iUXDxrE0 mOSqkkD6 As350AeR 6489zr3i r/QrqI3e nXcUHmxF Q8s9vp0c cYPTeXG3 HrWvdm71
+ DUtX1BL7 7NaIkMt8 sq4a3aGR SIQyn51I E56Yy/4D 0We1gujC Z4lkMMnm R7h91sEZ +vJqr/YW lhIk+ww7 YkEajb/C GDAH15AP P9TQB4dp VrHb6ZOB f3lr/ZjN 58AukQ7z
+ aojBFfkk Nuz2wMDt Xt3hz/kW NJ/68of/ AEAU6TQd Ile4eXTL SR7hi0rP EGLkgDJJ 9gBV6GGO 3gjghQJF GoRFHRQB gCgB9FFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAUtT/
+ AOPOb/rk /wDKqvhf /kWNO/64 LVrU/wDj zm/65P8A yqr4X/5F jTv+uC0A a9FFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR
+ RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABT BFGszShF EjAKzY5I GcD9TT6K ACiiigBs mfLbAJOD gDvXMrda lHdyXKeG LnznUIX+
+ 0xglR0H3 q6iigDnP 7V1r/oXL r/wKj/8A iqP7V1r/ AKFy6/8A AqP/AOKr o6KAOc/t XWv+hcuv /AqP/wCK o/tXWv8A oXLr/wAC o/8A4quj ooA5z+1d a/6Fy6/8 Co//AIqj
+ +1da/wCh cuv/AAKj /wDiq6Oi gDnP7V1r /oXLr/wK j/8AiqP7 V1r/AKFy 6/8AAqP/ AOKro6KA Oc/tXWv+ hcuv/AqP /wCKo/tX Wv8AoXLr /wACo/8A 4qujooA5 z+1da/6F
+ y6/8Co// AIqj+1da /wChcuv/ AAKj/wDi q6OigDnP 7V1r/oXL r/wKj/8A iqP7V1r/ AKFy6/8A AqP/AOKr o6KAOc/t XWv+hcuv /AqP/wCK o/tXWv8A oXLr/wAC o/8A4quj
+ ooA5z+1d a/6Fy6/8 Co//AIqj +1da/wCh cuv/AAKj /wDiq6Oi gDmJ9Q1m aCSP/hHL kF0K5NzG cZH+9Wro FtNZ6BY2 9whjmjiC upIOD+Fa VFABRRRQ AUUUUAFF FFABRRRQ
+ AUUUUAFF FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAf/ 2Q==</ImageDataBase64String>
+          </Image>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>当用户选择了“不吸烟”或者为空时，后面的详细描述吸烟的文本片段将自动隐藏掉。如下图所示：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XImage" StyleIndex="3">
+          <Attributes />
+          <Width>906</Width>
+          <Height>412</Height>
+          <Image>
+            <ImageDataBase64String> /9j/4AAQ SkZJRgAB AQEAYABg AAD/2wBD AAgGBgcG BQgHBwcJ CQgKDBQN DAsLDBkS Ew8UHRof Hh0aHBwg JC4nICIs IxwcKDcp LDAxNDQ0 Hyc5PTgy PC4zNDL/ 2wBDAQkJ
+ CQwLDBgN DRgyIRwh MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjIyMjIy MjL/wAAR CACEASID ASIAAhEB AxEB/8QA HwAAAQUB AQEBAQEA
+ AAAAAAAA AAECAwQF BgcICQoL /8QAtRAA AgEDAwIE AwUFBAQA AAF9AQID AAQRBRIh MUEGE1Fh ByJxFDKB kaEII0Kx wRVS0fAk M2JyggkK FhcYGRol JicoKSo0 NTY3ODk6
+ Q0RFRkdI SUpTVFVW V1hZWmNk ZWZnaGlq c3R1dnd4 eXqDhIWG h4iJipKT lJWWl5iZ mqKjpKWm p6ipqrKz tLW2t7i5 usLDxMXG x8jJytLT 1NXW19jZ 2uHi4+Tl 5ufo6erx
+ 8vP09fb3 +Pn6/8QA HwEAAwEB AQEBAQEB AQAAAAAA AAECAwQF BgcICQoL /8QAtREA AgECBAQD BAcFBAQA AQJ3AAEC AxEEBSEx BhJBUQdh cRMiMoEI FEKRobHB CSMzUvAV
+ YnLRChYk NOEl8RcY GRomJygp KjU2Nzg5 OkNERUZH SElKU1RV VldYWVpj ZGVmZ2hp anN0dXZ3 eHl6goOE hYaHiImK kpOUlZaX mJmaoqOk paanqKmq srO0tba3 uLm6wsPE
+ xcbHyMnK 0tPU1dbX 2Nna4uPk 5ebn6Onq 8vP09fb3 +Pn6/9oA DAMBAAIR AxEAPwD3 +iiigAor N13ULjTN JmurW1a4 lQfdHRR/ ePfA9v06 iSz+0y3c 9xNFJBGy IiQyOCQQ
+ WJb5SRzu HfPH0oAv UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQB Fc3MFnay 3VzKkMEK
+ GSSSRsKi gZJJ7ACs BfiD4Ra5 kg/4SHTw 8aK7EzgL hiQMN0J+ U5Hbj1FH j24S38F6 gkiI0VyE tJC8vlqi TOsTMW2t gKHJzg9K 8plvbi+1 nWbe68WW MkNxYQRT E6ogEybp
+ vk3C25xk 9AMbupzw Ae8u6opZ 2CqO5OBV O21ewu5L uOG5RmtJ PKmycbW2 K/4jawOR WDfyza94 PsdSnn06 xsp7NLq7 gv7P7Sgy quByyj5T nqPTpXml nZW8b3eq 7I7bTGkW
+ 8juV8KSB JUMQB5Df LDgKcZ+Y 7sjacEA9 om1W2ihh mVvNimTf G8ZBBXAI OfTms6+8 YaRpsKzX 0628bNtV 5XVQT1xy az9ehvod GdNRu4bu YpIQ8VuY V24HG0s3 vzmqsj2u
+ n2ryt5cE CDcxACgV tGCaOWpV lGVkW/8A hZfhTOP7 YtM+nnp/ jWnB4q02 6tY7mCTz IJPuSKyl W+hzXndv qN4/iS+v ZrBvLt7e EImT5scL lyzbcckl FJXqAPXI p/igWOoP
+ orTLb3Fr I8zL5gDI 37hyDzxT 5Ii9rO9j sJPiR4Wi leN9WtVd DhlM6ZU+ /NX5/Fum 22nNqEhc 2qoJPMUB gVPQjHWv J9LE17p9 xbWNxAk0 mmWKsZJC nyqp8wBg CQQHXnBx
+ uFW9bn1D UfBSTRwp ZW32aUzJ EwKleVQJ kZx91gcA YpciG6sr 2PQrn4he G7O5kt7n UreKaM4e N5UDKfQj NW7LxdpW o2/2iymF xDuK74nV hkdRkGvI 5JtS0prq Cze3MA1l
+ T5lxdusj 4VGfdhT8 uOTzwO2K 6HQEe4tN ZN7Dbmb7 dISEO9Ad idCQP5U+ RA6srHp9 nex3qs0a sApx81Wa wfDLqml7 nYKoRMkn AHFbwIIB ByD0IrKS s9Dem243 YUUEgDJO
+ BUaTxyTy wqcvFjcM dM8ipLJK KKKACiii gAooooAK KKKACiii gAooooAK KKKACiii gAooooAK KKKACiii gDH1+z1i 9tvL0i/S ykWKYiQj JaQxlYwR g/KGbeT1 ygGCCawZ
+ Z/EkF1q1 9p3hu4W7 vIEWIT3E DIkqBwGJ EmSp3L8o 4G0kcsa7 aigDF/sa e4llfULg 3SRTvJZx k8AEKVLj Ayytv29g Cp5YZrz8 +Ade/wCE LTTv7Ps/ tQsFhP8A xOboneEA
+ +4f3fXt9 38K9aooA 57xVE81p 5cY3O0bg D34rDazF 5NBPcxSK YCSkTMCu 7jDEDqR2 9OvXBrrN TkeJcxFQ 7PGgLLnG Wx0qDyrz /n6i/wC/ A/xrSNSy sYTo8zvc 5O1sp4vE
+ Oo3jJiGe CBEOepUy Z4/4EKLj w/plzax2 82nwzRRO 8kcco3KH bOTg+u4/ nXWeVef8 /UX/AH4H +NHlXn/P 1F/34H+N P2vkT9X8 zza28L3I txZrEtr5 W4m5DZMx IACAA5CA
+ BVOcE7Qc Z5GlLZ3u qRWdpc2A tLON8zor qQ4UfKq7 f4SexA4H Y12/lXn/ AD9Rf9+B /jR5V5/z 9Rf9+B/j R7TyH7Dz PM7Hw7rG n3+ovHBa 3UMszGBr 26fcqMqg 4CoeuMZJ
+ zgfno6Fp 1/pmm3kM 1lGry3DF I4JNyqmx VGC2D/D3 5ru/KvP+ fqL/AL8D /Gjyrz/n 6i/78D/G j2nkP2Hm ZVvo/wDa nh97GSUR Mpjb503o So6OuRvX 1Gea6DSr FNL0yCyW
+ ZpREuN7n k85/Ac8D sMCqnlXn /P1F/wB+ B/jR5V5/ z9Rf9+B/ jWcnd3NY x5VYl1vT n1WxEEV2 0DBw2VPD YPQ1atbW O13t5ryy SEb5JCMn HToAKoeV ef8AP1F/ 34H+NHlX
+ n/P1F/34 H+NIo19w 9R+dG4eo /Osjyrz/ AJ+ov+/A /wAaPKvP +fqL/vwP 8aANfcPU fnRuHqPz rI8q8/5+ ov8AvwP8 aPKvP+fq L/vwP8aA NfcPUfnR uHqPzrI8 q8/5+ov+
+ /A/xo8q8 /wCfqL/v wP8AGgDX 3D1H50bh 6j86yPKv P+fqL/vw P8aPKvP+ fqL/AL8D /GgDXLqO rAfjS1yu vrLHptr5 kquxvoRl U28bhxXV UAFFFFAB RRRQAUUU UAFFFFAB
+ RRRQAUUU UAUtW1S3 0ewe7uc7 F4CqOWJ6 Cks737Zd zmIh7VUT Y4GMvltw /Lb+dWp7 eK6geCeN ZInGGVhw RUlABRRR QBmar91P +u0P/odS VHqv3U/6 7Q/+h1JQ AUUUUAFF
+ FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAFF FFABRRRQ BkeJf+Qd Z/8AX9D/ AOhCumrm fEv/ACDr P/r+h/8A QhXTUAFF FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAFI GUsVBG4D
+ JGeR/nFZ 2ujUTpMw 0sqLrHGe uO+PeprO 1nS5murl 4zLKiJiM EKApYjr3 +Y0AXKKK KAMDxXcz Wmi3U9u+ yVNhVsZw c0f2DqX/ AEMN1/36 SovGf/Iv Xn0T/wBC rpKAMD+w
+ dS/6GG6/ 79JR/YOp f9DDdf8A fpK36KAM D+wdS/6G G6/79JR/ YOpf9DDd f9+krfoo AwP7B1L/ AKGG6/79 JR/YOpf9 DDdf9+kr fooAwP7B 1L/oYbr/ AL9JR/YO pf8AQw3X
+ /fpK36KA MD+wdS/6 GG6/79JR /YOpf9DD df8AfpK3 6KAMD+wd S/6GG6/7 9JR/YOpf 9DDdf9+k rfooAwP7 B1L/AKGG 6/79JR/Y Opf9DDdf 9+krfooA wP7B1L/o Ybr/AL9J
+ R/YOpf8A Qw3X/fpK 36KAMD+w dS/6GG6/ 79JR/YOp f9DDdf8A fpK36KAO S1y2mtNL tYp7uS6c X8J8xwAf vDsK62ub 8V/8ett/ 1/Qf+hCu koAKKKKA CiiigAoo ooAKKKKA
+ CiiigAoo ooAKKiuL mG0t3nuJ FjiQZZmP ApqXIe/m tdpBijST dnruLDH/ AI7+tAE9 FFFAHN+M /wDkXrz6 J/6FXSVz fjP/AJF6 8+if+hV0 lAHL33jz TLC71O2e 1v5H05C8
+ xjiBBC7N 235uceah P1q5aeKL a6+3JJa3 VlNZqjPF dqqFt+7b jBIOSpFc Jrml6qmv eIQ9mI4N TjmtrKYy AiSSUWwG VHIUeWxJ 9FJ4xzLP Fb38+o6l cXM8C7I7 h7aKRnW8
+ mWRdkkKt /CdgXAyT v+hYA2LL 4hT6pbLc 6fo8M0Dn bGzXwUuw hErAAKeg JHXsa7DT L0alpVnf qhRbmBJg hOSoZQcf rXhdrpdh BFfx6hps a3mmSbPL a2lfz2Ft GhBZFKqO
+ rA8nJBIH SvaPC3/I oaL/ANeE H/otaANa iiigAooo oAKKKKAC iiigAooo oAKKKKAC iiigDm/F f/Hrbf8A X9B/6EK6 Sub8V/8A Hrbf9f0H /oQrpKAC iiigAooo oAKKKKAC
+ iiigAooo oAKKKKAK Wq6XbaxY PaXSko3I I6qexFT2 1pb2aFLe FIlJyQox k1NRQAUU UUAc34z/ AORevPon /oVdFI2y NmHUAmud 8Z/8i9ef RP8A0Kuh m/1En+6f 5U1uJ7HC
+ w+NLy5SN mOlI5PCS eZuB6dga m/4SXUDd i2VNHaWL cCB5n7sL ye3t2rld De2i1Gz2 gyzySANv QbYxntzy fft+tLpl 3ZC5Etwx gfynjdlT IbKkA49f 5/z+lngq KcrQ2Pn4
+ Yuq0ry3O tXxJquQm zSlkkkeM ITJlmU4I 6fSm6f4r 1K5s5Lhr W3hghGSR Exwu0nI+ YcfLishm UTB0cK4m ll3OqlGS Q8IQ2PmI Gfp+Ym06 4eWN0JFk 5WQxRqdr Kih/XABy
+ 3fA4PpWE sPSUG+Vf 1/wDaNeo 5Jcz/r/g mhfeM7y1 tjNHHA5W RUZXiZCM ruB++e1Z v/CxdR/5 87X/AMe/ xqprs09x owlnkJY3 CgJ5yyBc IRwVJ6/z rma6sPgs POF5RVzm
+ r4yvGVoy Z2P/AAsX Uf8Anztf /Hv8aP8A hYuo/wDP na/+Pf41 x1Fb/wBn 4b+RGP17 EfzHY/8A CxdR/wCf O1/8e/xo /wCFi6j/ AM+dr/49 /jXHUUf2 fhv5EH17 EfzHY/8A
+ CxdR/wCf O1/8e/xo /wCFi6j/ AM+dr/49 /jXHUUf2 fhv5EH17 EfzHY/8A CxdR/wCf O1/8e/xo /wCFi6j/ AM+dr/49 /jXHUUf2 fhv5EH17 EfzHY/8A CxdR/wCf O1/8e/xo
+ /wCFi6j/ AM+dr/49 /jXHUUf2 fhv5EH17 EfzHY/8A CxdR/wCf O1/8e/xo /wCFi6j/ AM+dr/49 /jXHUUf2 fhv5EH17 EfzHoNzq kuseHbK9 mREd9QiB VM44cDvX cV5zY/8A
+ Imaf/wBh GP8A9GV6 NXy2JioV pxjsmz6T DycqUZPd pBRRRWBs FFFFABRR RQAUUUUA FFFFABRR RQBm67qU 2laTNdwW zXDoPujo v+0e+B7f p1Elm1zN dzzyxSww siIkUrAk
+ MCxY4Ukc 5Xv2q91o oAKKKKAO b8Z/8i9e fRP/AEKu jZQylT0I waydVi1e SdRYW+ny Q4Bb7VIw O4HsApFU vL8U/wDP tov/AH8k /wDiKAJB 4K0EHIs2 /wC/z/40 f8IToH/P
+ m3/f5/8A Go/L8U/8 +2i/9/JP /iKPL8U/ 8+2i/wDf yT/4iuj6 3iP5397M PqtD+Rfc iT/hCtB/ 59G/7/P/ AI0f8IVo R/5dH/7/ AD/41H5f in/n20X/ AL+Sf/EU eX4p/wCf
+ bRf+/kn/ AMRR9br/ AM7+9h9W ofyL7kSf 8IToOMfY 2x/12f8A xo/4QnQP +fNv+/z/ AONR+X4p /wCfbRf+ /kn/AMRR 5fin/n20 X/v5J/8A EUfW8R/O /vYfVaH8 i+5En/CE
+ 6B/z5t/3 +f8Axo/4 QnQP+fNv +/z/AONR +X4p/wCf bRf+/kn/ AMRR5fin /n20X/v5 J/8AEUfW 8R/O/vYf VaH8i+5E n/CE6B/z 5t/3+f8A xo/4QnQP +fNv+/z/ AONR+X4p
+ /wCfbRf+ /kn/AMRR 5fin/n20 X/v5J/8A EUfW8R/O /vYfVaH8 i+5En/CE 6B/z5t/3 +f8Axo/4 QnQP+fNv +/z/AONR +X4p/wCf bRf+/kn/ AMRR5fin /n20X/v5 J/8AEUfW
+ 8R/O/vYf VaH8i+5E n/CE6B/z 5t/3+f8A xo/4QnQP +fNv+/z/ AONR+X4p /wCfbRf+ /kn/AMRR 5fin/n20 X/v5J/8A EUfW8R/O /vYfVaH8 i+5En/CE 6B/z5t/3 +f8Axo/4
+ QnQP+fNv +/z/AONR +X4p/wCf bRf+/kn/ AMRR5fin /n20X/v5 J/8AEUfW 8R/O/vYf VaH8i+5E n/CE6B/z 5t/3+f8A xo/4QnQP +fNv+/z/ AONR+X4p /wCfbRf+ /kn/AMRR
+ 5fin/n20 X/v5J/8A EUfW8R/O /vYfVaH8 i+5FbXLC 20zSrS1t EKQrfwkK WJ6sD1Nd bXKXemeI 9RFvFcx6 VHDHPHKx ilfPysD/ AHa6usJS cnd7mySi rLYKKKKQ wooooAKK
+ KKACiiig AooooAKK KKACiiig AooooAKK KKACiiig AooooAKK KKACiiig AooooAKK KKACiiig AooooAKK KKACiiig AooooAKK KKACiiig AooooAKK KKAP/9k=</ImageDataBase64String>
+          </Image>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XString">
+          <Text>这个过程是可逆的，也就是说，当后面文本片段隐藏后，若用户再次设置“吸烟”值，则后面的那段文本又显示出来了。</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>级联模板时可以套嵌的，如下图所示：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XImage" StyleIndex="3">
+          <Attributes />
+          <Width>1793</Width>
+          <Height>387</Height>
+          <Image>
+            <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA Aj4AAAB8 CAYAAABp PbriAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AEFXSURB VHhe7X0H
+ nB/Fdb+c 2AQ7DsT4 b7ANiUlc SVwCxNjE JC6xYzsu xMZgG9uA MdgIsMF0 ECAhIZCE aKKrW71L J+nUUUNd p3KnUz31 Ll1v6vD+ 7zt7cyzL 7s7M/vZX dPf0Yfn9 dnfKm+97
+ 89533szd dSD5JwgI AoKAICAI CAKCQDtB oEM7GacM UxAQBAQB QUAQEAQE ARLiI0Yg CAgCgoAg IAgIAu0G gdSIT5cu XdoNaDJQ QUAQEAQE AUFAEDg9 ERDic3rq TaQWBAQB
+ QUAQEAQE gQQIJCY+ wQyPZHwS oC9VBAFB QBAQBAQB QSCnCCQi PiA5Qnxy qifpTBAQ BAQBQUAQ EARSQMCZ +GjSE/xM QRZpQhAQ BAQBQUAQ EAQEgawi 4Ex8IE1Y xierUkrj
+ goAgIAgI AoKAICAI pIBAIuKj yU8K/UsT goAgIAgI AoKAICAI 5AyBxMQn ZxJKR4KA ICAICAKC gCAgCKSE gBCflICU ZgQBQUAQ EAQEAUGg 8BEQ4lP4 OhIJBQFB QBAQBAQB
+ QSAlBIT4 pASkNCMI CAKCgCAg CAgChY+A EJ/C15FI KAgIAoKA ICAICAIp IXDaEZ+6 Y0Sn+zV+ 0346na9s 4386Y5OG 7O0Z359+ 9mOEKw0c pY1wP5Nt +5L2T/8Y Vcg6NM1r
+ G24kxCcP RMqkuEJ/ n+1JUejj z7Z87Rlf IT7ZXxRl 276kfSE+ 2bQBk//N KfHp0CE5 h3Kpm01A g21Drmz0 Z1Kcy3vI 6FI+WDau ftS7bGDi b9MvY6bj ywQb1M1H /+0J36B+
+ 4ohPLnXh 7yvJHMmn 3ZlwyrZ9 2fpRG/8a VcambjbH 6e8/Tpa0 5Ay2k1a7 fozS7ANt 6SttPZjm VlaJj39g Ud9tBECZ KOIT9twP YvDPZkQB bJI1rp5+ Z2ojaDRx svkVFyxn
+ UmoccbGR MW3iY6uD IMa2+Jic uCteruVt MNVlwrC1 re+vm8TG 08A3TlZX 3GzLB+0g LeKT5ryK I8BBgmTS ty2pz9Tu 4+qnYV+u wSxpUM2E +Jh0kUlw th1PkCCZ ZLKJRShj
+ S3xs/HNQ Jn/MM+k5 ajymeia5 TPEhbn7b 8I7EaZog KTHd+4Ux KT+ODAUn bRjALoqM M6Cg0cYp M64dKCkq o4F3tkEi rFzQ8ca1 FVY2ykHq 52HvbXRg Mvy4NoLB wWQvUcQj
+ E1yzle2x CWi5xlfj ZLKFTPEM qx+0fxAf Pf9t9e4v Z9OHzThs 9BS0EVOd sPe2z6Jk dsUI7aRt X0kXnDbE w3V8cRmM KMJgSyJM bUfFIlsi oeVwHXMc jsHYozGw xd7Fj7sQ
+ MhcbjIuf sOegDylY 4hMUzIU0 2QAWRViC Bm4y+KAh xhl+volP WPAPOtUo 4hMWONIg PsEJHDWJ ogw7H4HY dkVuEzxN RDWqDVsb D3OQYRjH OY4wm3DJ CibFQdcL Iz5hh5tN
+ pCJOjmAf mQSWKGxc 518U2Yyb s0ntKVjP xr5cA54p 6McF/yjf GedTTb7b heSExYWk NhLEIa0Y 4hq7tBxh xMd2AW+D cdR4XezH JGPBER+T cdgwr2B2 J0iCgm3Y TNpMiU+Y
+ sZoML9fE x09MokiK LfExBbpg O646MK14 CpH4BPGN s3WX4G8T wJPia0ss w8aisxdR 43QZo0vZ fBAfG/lM espk/rkS ept5bDMm XcbGvlwC V1zGJ0hA wnxzoREf m7GbSEFa
+ MSSsH1Pf Jv1Gxcc4 XQUX/abY H/XeZmEW LFNQxMeU tQkjPUnB 8pMhk1Jt JlrUaiAY oG0NxNRe Nra6wshO nIOMSsvb OlV/OVcd JCE+cYHH FJRcgoBp FW3qy/Te RCrD+k+K
+ ry3xicpq uQbkTHEO S1OHnfEx +Q2THHHb yf4xR32P s5G4OrZz y0Q69fjD 9BYkYHFY 5Yv4+P2j nxCYskBB /2uyg7Ds g6mOfm8i b7akIO0Y kg3iEzWW YF8uBCuo V5e6p03G
+ x9aY/ITF lP2xLesa FKLIS3AM QUYbZhym cScJPEnP +Pgdnj9t bpLR5GTj ArXu00YH YU4oCT6m 8YQFBVMg dHlvCoZh ZMFW5rBy kM0G30wc S9BeorZd TM9dcIwq a5PxCcPY
+ RbY0iE8U iQnah0n3 LnJHEVT/ IiYOm6i+ bOzLJuth KmPCwv8+ irREkSOb IG1LGuLm Ulz8CIsZ JuJjwiSu TX/bYe2E 6cNEKuJ0 aOtjbDGy 9f/BcgWT 8QkjKbbP ojJBJmKk
+ 39tMWldF 2JQ3TbQ4 I0k74xMV jKOcc1Jn G8wSJVkx 6gkaN8Fs z6BkMo6k QTptTG0C lYuNZ4Kv 33m6EuKk eAbrmYiP ljGqPxs8 0yY+ac4/ G/njsDbV D3tvY18m UpPN99qX
+ Rvnl4KI0 7D7TZ2GE y1Yem3hi GkNUvImK M1HPbQ43 +/2ADfEK EjATATQR KBM5a3PE x8R+w8iQ zaS1Nbyo 1YTJ6E1G 68JYk2Z8 wkiAbZCO c9xxOklC fEwY432h ER+TXdpg
+ ZLs9ElbO 1sbjHHFc G2EZgyDB MNlSLoiP lsGkD5Ms YXPMpEPb 8UfNpbBF QxgJCdaP kivKnuKI T9Q7G/tK i9iYdBcX FIP2bWor KHNY2y7P ovpz8f9x czQoi74P 6zeKyJn8
+ q4lUxNWP 0o2WT8tk oxd/HVN8 NL03LZ5s kiiJfpzd NFD/+ygh dJm492kS H79R2bLa KKMNaytu Aqed8YlK gYc5Ydtn UdmdMIKV 1HFGYVRo xMclsxQX eIITVJc1 1ckFvmGy
+ hNmKyS5M pMP0Pirj EyVLFKZx /STJ+Nhu J5kwixtH 0A6i7CLs ucmW4mws qX0lIUNx fjFpMDfV C2YkbOJV 1NiiYoBf hrgxZhpD wtq2fRa2 qAwbZ5T8 Jt3Z6MGm DRM5K5iM
+ T6bbVQAj 7nf1ZOP3 +GSD+Nga fz6JT9Tq Pu65Kbgk dZy2xMfG UUWVMQVa l/c2gclE YqJIVDYC kwu+thlD 2/G54Oov G0Z8MP+j yL3JNsPk yCfxicuu 2diXKXPk QpY0Nknn
+ b76JTxwJ sQ3oLqQh GNiDdaNi StTC2oUE mUhFlCym bEkUTn5/ asoi2SYO TGPQ7WST +OhxveuH sWzSQqYy msiYyoX9 6HpckMtG xseWrASN 2kSc4pht toiPdnpR n8Hg5i8X
+ 5nSD7UQF bRvH6eJg TIw+SbDT ASOTwB1W 1zZYmWTO lPikha9f Dtex6bmb lPSgnumM j1+PUb7C 1H9S4hMk HVH4uM4/ VzIcZyvZ JD4a7ySE xyXrYpNt CQbjOH8b F7hd5o2J
+ +JjeJ40h UXYeRzii 8LA942ND HKOwi4vh NnrKFvFB 3/qf/7vi ITZkxV9G N/CuhiL+ Vlds5zF/ 3yvYvsvh 5qASXY09 zKBNTiBO wUmIj01Q CQYtU52g g44LznFl kxCfpPiE
+ BbW4QBDM FNiWjerH NKn976MC sGtwyiW+ QRsyEbY0 8XUhPq7Y xmWVbIlH cD4F9Zh0 /tn2H1XO 9DwsS+TH w8a+tA+0 CVxxxMhU P+591DtT m2kRn2A/ Yff+Z3Hl /X7ChejZ
+ ks4oTKJI RZzcUfhl GkejxtKm iI+fuPi/ h5Eol60z 20lrw45d JpZpsiUN 7FGrUVsS EwxEcavf KDITFbyj AratDmwm O9rKVsbH FABMmQKb 9yZileR9 LvENIz5x Ad6FGNng
+ Z5vxyTXx MeESpldX XdviHNVu XH9x72zt y3arIpfE R/vZpP7Y JXibiExc FsqlHxNR 0340Cc4m UhGn47jx x8kcF3vD xmCS0RQf gj4kyDHC +IdTxseG zISlluKI jz84Br/b
+ bHVh0PpK kq6zNdA4 OcMM0y+X KePjL2tL ZKIcr0nO sK2DuBVk WD9Bx2nS QZSxR9Uz BUxTgLFZ EZv6SEIg k5KC4Hhy iW8wwMcF WdtA7YJt cJ5E/QLD KGyj5A22 66KbuLll
+ mis28y8u 4xNV31Z+ LbsL8Yma hyZyYZON MOER14cp 8MYRgqh2 /c/1d9sY YENQbMrE YeLPtJnw j5NfyxEX h2zqB2UN 6jypfuPk 0ovhuPgQ N79tdrGc iM+7Dgj5 /vR8GAAm
+ AVAnk5/q spl4fkOM mwwmI7A1 QhuZTIFB Y+m6yjUR giTvw+rY jDGTMjb4 mMpk+30c lib9hcnm r5MJdjZ1 o8i1yT6y jSnatyU+ 2cjmmfRm IhUm/JK+ D9ZL2o7W n42NpFUm
+ E7/p98lx 7fhjj2uW yiRfMHth ksMlgxJG ImwzKa7l ovTpMn6b xELcmNKy KZMfMvGO RGd8bBrN Zpm0wMtn OybFFfr7 bGNX6OPP tnxtGd89 e/aQXIJB odhAx44d 3/Gb0rM9
+ 96R9yhhv k/+14R8Z ZXxsOpAy goAgIAho BBDw5J8g UAgIDB48 mEB85F/7 Q0CIT/vT uYxYEMgb Apr41NXV kVyCQT5t QIhP3txA 3jsW4pN3 FYgAgkD7 QcBPfBB4 5BIMcm0D
+ mG0gXEJ8 2o/fCY5U iE/71b2M XBDIOQJB 4pPPFb/0 3T4zTkJ8 cj7tC65D IT4FpxIR SBBouwgI 8WmfZKOQ SKYQn7br X2xHJsTH FikpJwgI AhkjIMRH iE++SZAQ n4yn8Wnf
+ gBCf016F MgBB4PRB QIiPEB8h PqfPfG2r kgrxaaua lXEJAgWI gBAfIT5C fApwYrYz kYT4tDOF y3AFgXwi IMRHiI8Q n3zOQOkb CAjxETsQ BASBnCEg xEeIjxCf nE036SgC
+ ASE+YhqC gCCQMwSE +AjxEeKT s+kmHQnx ERsQBASB fCMgxEeI jxCffM9C 6V8yPmID goAgkDME hPgI8RHi k7PpJh1J xkdsQBAQ BPKNgBAf IT5CfPI9 C6V/yfiI DQgCgkDO
+ EBDiI8RH iE/Oppt0 JBkfsQFB QBDINwJC fIT4CPHJ 9yyU/iXj IzYgCAgC OUNAiI8Q HyE+OZtu 0pFkfMQG BAFBIN8I CPER4iPE J9+zUPqX jI/YgCAg COQMASE+ QnyE+ORs
+ uklHkvER GxAEBIF8 IyDER4iP EJ98z0Lp XzI+YgOC gCCQMwSE +AjxEeKT s+kmHUnG R2xAEBAE 8o2AEB8h PkJ88j0L pX/J+IgN CAKCQM4Q EOIjxEeI T86mm3Qk GR+xAUFA
+ EMg3AkJ8 hPgI8cn3 LJT+U8n4 dOiQSjNK G2m2lU/1 FsI40pbB tj3bcvnU T677bm+Y RI3XT3xy rQPpTxDQ CIB8DR48 mDp27GgF SlrzN1/t oN+kfQfr JW3HCugs F9Kyp8JY
+ kgARV8e2 Pa1Mm89s 4hkmr+0z LZfNGJIY ry2Wfjn8 WPnr27YV rBM3tjC9 uGBhK1PU mFzItkmu OBtzwSTK dsLayKZd BzGLGn+U DsOeBzM+ CD5yCQa5 tAHYpSvx cfETtn7A
+ Zu5G+Tcb v+efr6a5 7CJzmB+I qm/ymSYe YFPfBotg fMuY+Lh0 GgQnE6VG GaIr4bAx PpsywX5d 5bAt74q3 a/kgrpkS nziHkUS2 OAKTlp6i yGgUObRx ii44Firx cSE4UboN
+ Eh+suOUS DHJlA2H2 Z+M3bOa4 TTuuPi+T GGlb1yST yXeZyIsL qbLB0LZM XEx1Ij62 7MuWEWrB bNq1dbq2 BMIWPJdy cQbiYlyZ BtikeIb1 G9dWHMs3 kVwTHibc k9S3IadR
+ xCoT3fqd psYzjsCl 5bBMGLq8 t5HJ5CDR X5LAc+lr RHIJBmnY gMn+bHxn VBmb+eTq t2zmnYsf DiNwppjp j9Mmv572 extMXcbf Opa0G86k vSSg2Rpq mnLZAG0T BOKCX5iB
+ Rj0zteOK axTxMk3a oC6i+jW1 Y9JV0vpB 0hFGQtIm PkFyb+N4 TI7Ixg5M GLq+j7Jn m+f+vkyB J0yuqICH smkEQ2mj /eDoYn8m PxP33jYu +cuF2X6+ iI/fx0Qt GE346DZM
+ WLj6Itvy cX7UKeNj E0BtwLBV sKktmwCR jyCRpE+T cZgmSBRZ scXaxphM +rCRwbaN KLnTrJ8G 8THJ4yc+ toQyytHY 4GujxyRl bAhOVBkh Pu2HWBQ6 icwV8Ynz XyafEVx8
+ 2caGsPgc Fjei4qYL wbEdg6mc 6X0SXxXn J1v9cdKG kzLRoBKD SnZx7oVA fGyN0iXI 2iguSm82 hhRn+H45 bcZmS6zC 2nW1PZux ubYZV942 2MeR0iji Y8I2zXGk 0ZYtFqb5
+ 6xJ4dFs6 mLqMo9AD sMiXHzLo an9J41wY CfEviG19 mW05Fz/s Mo/8MofN bZN8Sd6b fGPce2vS 6AqCBiIN g4gjLibA /HLYAJVk nGnXiRtT WiTOFjfb gB80fNf2 g4QvGEBN
+ hDCKGKet G5PjiAr8 cfLZkAWT Y8nFOG36 sBmLDUau gQeyhZGE qOdCKPJD KE4X3F3t L404F0Z4 bPxomG+w maumxYdL G0HZg3Kb xpF2bDb1 Zxpb60LU VNCGuZoG F9VHWkaV
+ z+Dogl+u iI9JHybj iTNuU900 iXGU7blg nklZm2Bv a3txpMDV mWQypqR1 bbDIFfEx jeF0CcIi Z+5Jmivx SWNhYjN3 XGOkaQ74 /bB/cRkX G6IWf65x K6odW18Z Nzab+GNT
+ 3+mMj41j cxEsrGwr I0v4SxFd +rcxnjTL mAzIhrCY xmd6b7OK SEp8/PIH jTxqbC74 2ozNpT1T 2TB7j7JP k2wm52cz t0zyZvO9 Sf6gXUXh kSTw+AmC HqMceM49 aWgLRC2J
+ /flt2zTP TYs110WO KSbYBHmT TFExIejr TLLE+TDT uKNwTVrP RCSdiI8N Y3MxjEwH ZaMIXSbb QcFWFpNC TBib8DW9 t8HB1oBt jdU0JhuZ bAibbTu2 5YI6jXOA JtxdiIOp
+ LVv50yzn In+crpIE Hv8ZH3w3 /WsLAVrG kB1il8T+ tL25zsuw 8rbPbPo0 yWPrn8Pi sO1CLE4G 2zgS5y9M HMFE2qJI X8EQH1sl mZyeyRjC gHCtY5LB hdzEGbjr JEmLHNga
+ bBKdZYJ1 JnWT6CwM B9OzsH50 najPoA1k Y5yaxCXB IYy4mmwz agxJAk+Q BEAeyfhk hxi0dcKV xP7iFjw2 vj64gPLf mwiOLbEw +Z0oAmHj a2zjgUmG MD/iQnpc yppiU0EQ
+ n0yUG8Xo bB18WgHB pj/XcZqC S5yh2chj mrRxxhOH W3CixE18 m4lncg6Z jNWlbhJ9 BCdrmNPL 1IZtxpCW ncc5wSjH 5n+eJPCE EZ+4Mbf1 4C3jS076 kthfFGkw +U9X/+zq
+ X2z8s2vM sZHZ1gfE EcbgItDW B9qOp2CJ j2ngNs7c Rkk27bgE X5v2XCeE SUk2ASWO DbvInIZe bI3TRa60 xufaZxz2 Nli5OrNs jjNTO3cZ S1TZJIFH Mj7JA72Q pHdi52p/
+ Lr7Zxre4 zEFT2Uze 2/gumwWn SYaoNpLG CNt6Jr1l lPHxr15N 300BxFQ/ yDJtyoeV sWWWNkas g5SLLC5k LYxZ2yre Vv609WIK 3LYTJUyu JHWT4GCj o6AspokW HI/JZtKS
+ 28Z52fRl a3dRDlU/ dw08kE2I jxCftAic rf3p+Rk3 N2zKZBJv TP4u6Xtb 3xXnO+KI k8m3xb03 JQ1MY/bL HCuHjdOz CQRJ22lP 9cKUZqvI bBCKbGBv Go/pvcnw syGzS5tx
+ zi74zoUM xRFQF/my UdakMxdH aht4/OOw JT66TlpB Utppe4TL ZH9JyYxp jrguQGza M5UJm5dx PsnVX5n6 T9sXpdlf 4oxP2oOS 9gQBQaDt I2AKPGEI CAFpewQk XzpNYn9t
+ f1a2vxEK 8Wl/OpcR CwJ5QyBJ 4MlXkJR+ 2x7hSmJ/ eZss0nHW EBDikzVo pWFBQBAI IiCBR2wi nwiI/eUT /cLpW4hP 4ehCJBEE 2jwCEnja vIoLeoBi fwWtnpwJ J8QnZ1BL
+ R4KAICCB R2wgnwiI /eUT/cLp W4hP4ehC JBEE2jwC mQYemx+V bfMgygAT I5Cp/SXu WCoWFAKJ iU+aP1qW b0Rcf4wv 3/JK/4LA 6YpA2oGn Lfmh01Wn p5Pcadvf 6TR2kfVt
+ BHJKfGxW a1FltMhJ 2ohTuL89 f7mo5yjj IoMYmyAg CLyNQNqB R4iPWJcL Amnbn0vf UrZwEMgp 8Ykatovz cv0lgFHl w35RVRzZ KRyViSSC wOmLQNqB x8V3nL6o ieRpIZC2
+ /aUll7ST WwRSJz5h 2RDTkFyc V1rEJ0wm FzlMY5L3 goAg8G4E Mgk8kmkV i8oUgUzs L9O+pX7h IOBEfOIc jx5S2K/J Ng3XhXBE /RruoGxR 8uC5nOkx aUTeCwLZ QSDNwKPn
+ sYv/yM6o pNXTBYE0 7e90GbPI +W4EnIiP DbnJJfGJ 2q7yD9O0 1eVvQxyo TBFBILsI pBl4hPhk V1dtsfU0 7a8t4tNe xlRwxMdE PsKcXZwD tNka89eP ymrpTJFL ul3ODLWX
+ aSTjtEUg rcDjn9cm n2Erm5Rr +wikZX9t H6m2PcKC Iz5xW1FJ tqlciY8p WxRlDvl2 vl26dGnb liqjaxMI pBF4TFnl fM/FNqGo NjqINOyv jULTrobl THxMRMLk lMLQNbUZ
+ R0aCW1U2 /UeVsakr xKddzQ8Z bMoIZBp4 bHyFEJ+U ldaGmsvU /toQFO16 KM7EJ5h1 MZEFGycU VcbmfE4U kYrbZgrb rgrLJsXJ nsm4/WQt qfUFMzyS 8UmKpNTL JQKZBB7T
+ fJSt5Vxq 8vTsKxP7 Oz1HLFKH coSksESd qzERAtuM TxgRiXvm Sp5s5DA5 2rhMVJSs +rkNIYzS DUiOEJ+k liv18omA BJ58oi99 i/2JDbTE 4ERJH4Ve WmlnFxLg QkZsZdSm
+ YEvabMYd 1WamZqdJ T/Az03al viCQCwQk 8OQCZekj CgGxP7GN jIhPLjI+ tlkZFzKU aWbIpX4c oXIhe0Ec wjI+Ys6C wOmAgASe 00FLbVdG sb+2q1uX kSVK98Rl RqLOz8QJ
+ 5UIC4oiH TSbGhbjY ZoCiMkvZ Ij5oV870 uJi5lC0U BCTwFIom 2qccYn/t U+/BUTsT HxO5cCEL UcTARJLC yFXcM1M/ LmToXQB2 8CB0IW9i eoJAe0VA Ak971Xxh jFvsrzD0
+ kG8pnIhP toK7S7su ZW0Iics2 WZSyXGXK t9Klf0Eg XwhI4MkX 8tIvEBD7 EztQvEBg EAQEAUEg VwhI4MkV 0tJPGAJi f2IXQnzE BgQBQSCn CEjgySnc 0lkAAbE/ MQkhPmID
+ goAgkFME JPDkFG7p TIiP2EAI ArLVJWYh CAgCOUNA iE/OoJaO QhAQ+xOz kIyP2IAg IAjkFAEJ PDmFWzqT jI/YQC4y PkePHlXd vPnmm+rz rbfeolOn Tqkr6h/K 4JJ/goAg
+ 0LYREOLT tvVb6KMT +yt0DeVG vlS3uk6e PNlKek6c OKG+41lT U1MrCQob lhCf3Chb ehEE8o2A BJ58a6B9 9y/21771 r0efKvE5 cuSIavf4 8eOtGR5k eurq6lqJ T1RmRzI+
+ YpCCQNtH QAJP29dx IY9Q7K+Q tZM72VIl PsjugMDo bA9Ij97q QtYH219C cHKnXOlJ ECg0BCTw FJpG2pc8 Yn/tS99R o02V+KAT kB5NeI4d O6a2uvBv 8eLFQnzE 5gSBdo6A
+ BJ52bgB5 Hr7YX54V UCDdp0p8 /NkebHuB 9OhDzb17 91bfJetT IJoXMQSB PCAggScP oEuXrQiI /YkxAIFU iY8mOdjW KikpIZAf /dNdjz32 mBAfsTlB oJ0jIIGn nRtAnocv
+ 9pdnBRRI 96kSH2R8 6uvraeXK ldSnTx/a vn07NTY2 qgv3Otsj 53wKRPsi hiCQYwQk 8OQYcOnu HQiI/YlB pJ7xAbEB 6Xn11Vfp wQcfpCVL ltCKFStU 9mfu3LmC uCAgCLRz
+ BCTwtHMD yPPwxf7y rIAC6T7V jA8ONq9e vVpld+67 7z5auHAh TZs2jZYu XUr6FxsW yLhFDEFA EMgDAhJ4 8gC6dNmK gNifGEPq GR/9Y+yr Vq1SWZ+D Bw+q7S3/ IWeBXRAQ
+ BNovAhJ4 2q/uC2Hk Yn+FoIX8 y5BqxgeH mnF+B2d6 1q9fT83N zeqXGeKf JkX5H7JI IAgIAvlC QAJPvpCX foGA2J/Y QeoZH//f 5MJ3bG+B BIEMaQIk sAsCgkD7 RUACT/vV
+ fSGMXOyv ELSQfxlS zfiA7CCz o39bM8gO trpwgQDJ P0FAEGjf CAQDD+7l EgxyaQOY gfgzSoMH D6aOHTu2 7wnZTkef FeIDAqR/ YzOIEH6D cy7+4e+7 48Lfhfdf Uc9RRr+L
+ KxNsL6r9 YFthsoS1 FayXC6yk D0EgHwj4 iU8++pc+ BQEhPmID qRIf/9/o AtnRv9BQ kyDArX+h oYZel/H/ hXb9e378 9U7itz4z TTn1FqgD t8P3+t/R Y/xHUfkG 9Kr22Amq
+ Pn6Cak++ SXUn3vKu Y29SzdGT VH3sFCHv VH3sJNUc P0VVR49T w8m31IV6 DVwHdWuO n1T1q1Du xJtUyWVr Tr1F1fys nrs/dOSY +mxgxlJ1 9AQ18vdq fqba4fs6 Lo/26k6c
+ onquhzIo j3aq+C94 VHO5Sm67 GuW4/Rou 28jPjnIZ /E3741yH //PIG//v FO7xyc+4 WOuF+3dc XAZ1Tr75 lrp4h1F9 nmA58Pw4 y4/PE/xM t4/v6hl3 oNpvudfv /Z8n+MYr
+ 68mjvrNA 3Lz6rsui H/2ev7bK iLKa+Ok6 KHuEx6/q t5T1ZMUY IM8724a8 WkY1Nq70 dptvf9fP /ON5F14B /FgVCls/ OdV1PJk8 HL3vJ9Xn sRPep8bx KNuPlhmf GKfCoFU3
+ Pj20jBF4 Ahv0hXHr PlAH96qu eueND+0d 44Z1m3jX WkfpsKXP wFi0rCgL OYM61lii nB839b2l LbStZcTn sRaZTNjq 937ig1W3 XIJBvmxA Z3z0vGqd yy2+0Jtr Pl/ccq/n
+ GuZQsAzm EOpoX+Gf U3reKX/R Us7vy/R3 3abyiS0+ yu/P0LZu F3W03P6y QbnD5qff p6EN7Q/8 7QV9hY4d Wn5/G6jv 9zG41xj5 fapXh30e /GKLP8Un fC+e6XHr eOP513di
+ cZRjtGrT 58NxH/5P pxbefpsq 8QGp0X+n C134Mz34 ZYYgRiAz uPQvM9Q/ 5u7/g6aa DOEdfvvz 1q1bGVCQ mzfp6Klj qu4JNrq3 GKnjIBj1 zYr0HGIy Ubq3ktYc qKbSw/W0
+ Zn8drT1Q T2v38LW7 jlbvraNN dc20dPtB Wr2vlt/x tb+Gyrj8 2n1VVHaQ vx+q5Xpc v7KeVh/k elVNtHhP NS0/WEsl h7m96gZa uucQTVpR Suuq+Pv2 fbSj8SQt 27aP1u2v
+ 5f6radXu w9wmt7Ov mturo5I9 h2ntoXpa yvKsONzM 7TTRkt3V VMLlyw41 cPlK2lzZ QLvrPUIF otbMlnCM x9fYfJKa jnDWjAkT f2WC9PaF e//VePQU HWNrO3L8 LdpUsUvV
+ q204Qs1M 8JqOHqO6 pqPK0Oqa jtFx7ucI G3tt41E6 yhOpkYkh d0tNTA6P clAt27CF mDNSTeMR 1WYzV2hi ZtbEJG79 5l1U38Tl WT48bzyC PvkdN+C1 f5Lv2bi5 vfpmJjb8
+ nZtVZZt5 II0sVx0P pJFfNLHM tQ1H1XN+ zM9OMfFj AtvojZm7 U3WPsDBN PI4jLNu6 TRWqn/pm Jq5cCX8N rpntAe8w pia2Cch+ FFjwjDkO 5xDAKoid uudK+DzC 42piIXA1
+ 8JgaoQ9u u5H737P/ AO07XMl9 e7jVNDS3 jPmoGm9V bbPCQeHL 424+Bowg P8YC/Jho s3IxyTHG ZjbcJi4D bFkFfI8x sH3z+3oW xtMp2kIZ 6AZY4x3j w8+BQzP3 B/w9fbDN
+ sD4aGHf0 DSxxoe+6 JuDHemNc 6pqOqHFi DM1c4Bg7 4q279tJ+ jI07OMqE Bjji3RF8 Z0V4mHDf LAe+NwIf FppVpq5Q TH24H+Hv ID4IOHIJ BoVgA9jq gg/BvMD8 hi+B/Tey
+ w1BzgG0c cwDv4APw bPuuPVRd 10DVPPd3 7t3Hc6aG n/O8Yx/b xAFZ+Uqe O5u2blf+ FYsD1Nfz Dn3Usi9G Ww3cF3xX E/fXzHO0 mevBX+E7 Pg/V1NPG rTuUP4B/ q6pvos3b
+ d3Ed+Etv LsMXoQ34 O11PzVuu pOvBp3hj 8nwi6kGu ytoG2n+o kvYdqqI6 dkbos3TD ZvbPza2+ s6quSfka jA8y4Dtw gfyIFRhr Iy/84fMW L19FGyu2 UfmmzUqW OpYN70Bc
+ cI967KLY bzCm7J+w 2IfvQOyB /6jjG37M Poe/s5/k Yl5cYv/Z hBjAlfHj UodqmpWu MBb4J4xH k6h377wg ZfJOWpQq 8cGZHlwg Nlu2bKGN GzdSeXm5 +rztttsI P+ZeUVFB
+ paVMGtat U+VAjvTh Z/3pzwKh bufOndWW lCI+Jzl4 c7anprqG 9u06QE1s WCrYMvhb mDzM27SN Zm/aSZPW bKThb6ym MUvX0aRl m2hm6U6a tWEvTVu3 iyav3kLz KvbToh2H
+ 6ZXJs+nl idOof/Ec /j6TBs9e SC9PmU0v 8dV/zlKa XL6ditbv ovFlFTRt 0y6atG4z zd2xny77 2a+oaPUG mlq6mYbO XkyvFc2m vpNm07BZ i+mFscU0 bM4SemHC dNX+yEUl
+ NGn1Jq+d dTtpZMkm GrqkjEYv L2dZNtO0 NRU0f+MO KmFCdhiB hQe0jxW7 nQlWBfe1 e99hDqiN VHcUGa23 L9z7r3qe wJV1TFTY Ijp37cnk Zycdqqqn 9Zu20IJF y6mkdD2t
+ Ld9AS0vW 0tr1G2kR G+mSlWto 2apSjySw AdUwnvt4 It96x918 f4r2V1Z7 Qa6FmKwt 30adOveg 6vqjPKlh 9Cd54nE2 rJ4zZQ0n 1UQ7WNVM u/axfphE bt15iA5V H1HBHZOu
+ qu44X0fU Z6UiCd5k xP3BqkZ2 FvtoN5NR 1FNGzQbf gEDOM6SS SSsM/Le/ v1UFbsiK q4knfRXI L787zDh5 30HamIyo SXaSLyZb AbyC983I /nGF6qZT VNnAbTIx qeYZh6uG
+ 2QsczcCh I+jVAYMZ wzW0fHUp rVy7TmEK LEtKN9Kq sk38vJyd x1Z2iPUs O5wgiMZJ WrdxJ61Y vZFK1m6g lWvK1feV bKdlXHb5 qjJaxfXL 2OksK1nP 9U7R4Rp2 miAtLFdd
+ E7B4izZs 2cP4VDG2 NYxrnXLK wA5ECHpA XyBL6M/r m1Q7W3mu 7Gcyv6Fi Bx2oqlNO o4k9VTUT Y9gNPl/p P5gmTp2h nM4OdugY E2ylfHOF +r64pJyW sbyVDcfo QA3bGRwP
+ +xPgxd0Z 8W1g20ag kUswKCQb 2L7ngOdH EMB59wDz oZYnDq5G 7BKwj4JP 0f7kyd7P 0dw3liq/ MnTUOJo6 83U1p0Ai QI5QH77o rvs7MUnZ rcgQfMSK NesUISgp LaOFS1fy
+ AnILvbGs RPnfNeWb 1HxEP16f 3qICzzt1 ebzl/jj7 m3Lq3usZ RTogj0d4 3lR+D/4b MqOdSiYr uw9U0s59 h3ju72Oi 0NBC6Dz5 IFPFzr1K DrQ3YuxE nvMHVZ9d uvdU/dax
+ z0NZPEOb B6vrld9o ZJzwvqR0 Hfs7+LJS WrxitRrj I12foK5P PkVPPPWs wg14HK6t V3IdqjtG W3Ydoh37 K2n3oWra x/6+nv1V DS/S4D/g Z/X7XZyE 2FuJ9+y/ 2W+wK+by
+ TVTBSYU9 h6tp4/b9 nk9ntgQZ IRd4AK68 EB9kepCl gWH37NmT 8De6evXq RWeccYYi MD169KAn n3ySbrzx RkWS9E+C 4fAzMjn4 kXiQorKy MnUNGzaM Lr/8clrH BKq0vIx2
+ 7NpONTU1 NGPadJo6 eboaJQZ7 kB33Zs7G zNlQQVPX baFXZy+g J0ZOpj5F c+i1qQtp 5IK1NHvj Puo3Ywm9 MmUeDZq9 hJ4fN51u 6dabrn+g M/3HVdfS j265g665 60H68W13
+ 0w9vv5v+ 45c30YB5 y2nalv00 hUlPMQeu iRzYpq7f Sh0+/HEm URU0Y/02 +rdv/ZBu eKArXXdP Z7r2zk50 7V0Pq/sr b72bfnbH A3Rdp240 kYNc0YZd NHzlJuoz cxH1mjib
+ eo+fTq9O m08TV6yn eRu204pt B6gS2Q6+ lnE/RTPn 0sx5i5lF s1Gtr+DA gi05P/Hh gMjP9IUg v5fJBrIk l13+DZq3 cKkiQb/v +Cd6pEt3 ZeD3PPiI MmwY6EOd u1G3Hr3p
+ Z7/4NRvP UWXoIEKY EP/4yc9y APUmiFop 8ESuqmuk foNG0Q+u /AVt4VUH yE4VsweQ E3xHkEV2 YzWTxKkz FtC8N0ro 9QUraPO2 /YoUoQze I5CDNIEk IWjjOc9h WrNuK02f
+ vYjmLlxJ RcVzac8B 3gbggI8L TB8ZGRj5 2f/vozTj 9QUqKGPC 4RMXnML8 xcvVpFxT vl45lWYm KxgXnIQf q7DvVZyF wnOQH0y4 OiZbuBqx 0mAct+3e Tw880oWu vf5GdmoP
+ 0WNPAMfu dO9Dj6rJ /lBnYPwc 3f9wV+r1 7EtMZjYo QgIyUl1/ nF7pN4y6 PvEsPdr1 Kbr3wa7U vWcfxv63 9Fj3Z+jO ex6hBx95 gh55rJe6 B1lp5L6R wcH4gRsw 6z94NM2e
+ t0xh9MbS tardel4Z gRQhu4as EQhjA7MX 6AU6qdhx kF5fuIyd 3CoaOW6S crQgi8AF jhbl4Siv +90f6OV+ g5Sj6/lM H/rT3fcr G8HYHn6s Oz3a/Wm6 5jc302q2 +YO17HSh
+ RyZotdwX HJMJX2AK klTLRBak Ew4PTg33 2/ZW0aiJ 02nm/GU0 ofh1Kq/Y Q3B+C5eX 0orSTUy6 mGSuXsdO tow6/vFO +v2tf6QF i5ep+5JS JpEcVJaz /hcsW01v rFhLB5gU
+ 1jMmJTxX Zy9aSVNf X8ikbhYv Jg6ooIHV LewazvMY r3Lr1T0T XsYBq0x8 wtmf8bdn twY9YPPc S68pW1KB hp06vq9e t5G+9O9f VXV27T9M P/35r9Rc wxzD/Lqv U2c15/D5
+ 4KNdFcZ1 zUcUKS+a NksFT9gW VsTQBUjo xq076Y93 3af05QUz L2BhDqBP BJ+9HDwg 68at25St Y2GjcFhd pnR2za+u p9nzF1Ep L3IwP0pY TuCJ1TP0 ALuGHkdP mkGzFiyn
+ 6XOXcJkK 2l/NCxJk lrkcdAT9 8BRVvqfG d9WyXb/j Yls4xBiA DNdyJgNY wJ+8OuAv dOMfbqO+ g4Yq2RYs WUGPdntS jW/MxCnK Hg/X1im7 AyYYJ3QB PM674EKa PH02B1hv
+ XJjvq8rK 6T1//TcK d7TvLTrW t9g1ZwxY n2vXb6ar 2K91fryH Ig6P93xa 4X/t9b9r 9YOPPdGL bvnjn5V8 0HUNZzlA ENAv+tck AjYCnL37 k0q/Q0aO VfeTimdS n1f6KZ+D
+ 4AtygOcY wxcuuUzJ Bzu5/qZb 2Hc8puwA Phh2AHKg fccNN3dU fQIL+DGM B6QEhOTz F39Z6W/F mrVK1k// yxcV4cD4 UQY6X79l eythg42U b95GxbPm 0pQZc2jW vDdoy449
+ TIIOqHrA EfUGDRul sLjsa19X 8uk2vv39 H6k6GIci Vy1+F/4C +oF9YhzA FnZ29wMP 0/U3/l75 imGjx9NL fQcquUHE MCeAC3CF rc1fuoYm z1ygrgXL 1qoFJmwR vmEn75LA
+ DqfMWkhT Z7+hbBHE yPPFpHzC jHlLlZ2O nTyL49R+ HrNHEHFE JG/ER21B tWxnnX/+ +TRw4EAa NWoUjRw5 kj7wgQ/Q kCFDaMCA ATRixAg6 ++yzW8si 66O3vnbv 3k2PP/44
+ denShbp2 7Up33XUX nXfeedS9 e3fq0rUz DR4yiKZO nUoD+w+g hfMX0ykG FwG0ia+K +iM0k7do JpdX0LPF s6nbiEn0 GmdjBsxe TuOWb6S5 FYeYhPSk /7r293TV HQ/R5T+7
+ nm7lIPPg C33prM99 ia760730 52depPtf 7E9X3dOJ /uGK7yri M3HdDiYt O7jdbTSD t5AmrNlA HT74YVrE 7LX7kDH0 12d/jO57 5lXq9Hx/ urnTE/Sb ezvTwy8O pNuffI5+
+ 88Bj9JFL /oOmMWma vHkPjSnb Tv3eWEWv vL6Mek+Y Qc/yNXnV Jpq3eSdv t9VQLSuw mrU4df4S GjZ+Mjuq NbSWx7R5 +17PADhQ 6Av377g4 AFXzahwG cNHnL6WF i1dQ+cYK
+ +tgF/0S9 n32R/jJi DAfkF5Qj 6Dd4GA0f M4EzGCPp Pe89U2UP 9lfW0u9v u0OtEN5/ 1jk8scpp 3qJlaqKA uS9ZsY5u YyL3eI/n VYDGVgwC bTWnX5EB wncEZxCe ISMmMmEr
+ U8EfGRwE ZxCcnXsP 06JlpbR0 JWcPOJgd qGxi8sNB hw0b2S30 gevV/sPZ YTPJZcKE jA8mH7ac 4BC+9d0f KCd2+5/v VQ4UweXK q36uAg2e YzLDyeC5 CuzYMmNQ 3oVXAL8a
+ lhEOH9uM IDwgQtX8 wAvob6pJ /Wi3J1TG p9/goTRq /ET1+eJr bNM80fsO Gk6Dh4/l iT+YsR7H 2au9yjZB ILGtNXr8 NIXLqHFT qe/AkTR4 2Hj627M/ Ss+9OIAG DhlNg4aO
+ ZmI5kr+P VRkfZHtA DDF+kMVK jjxPPvWi wrRkLa8c +QK5Ochb rho3ZItA iIDxlu0H mDSd4OwQ //08zjIt LSlTOp85 d6G3soRc 7NwaVIr+ TRUoXxs4 RDm7HzOe d9zzgLIT
+ PIOdDBg2 ji787JeU w6rHuTkO inBmDA/j 4zkv0wVM dTDVKz08 28Bbxb1f 6MfkZZMK zriHk3zk 8d7U+Yln 6M8PPEoP dOrC5LAL fenSy+gn V/+CCSST Mb5gz+rq 2oPufqgL
+ PdytpyJA NSzYFt5m Xl62mRZx Ru3ZF/uq gIgxw4HD luYsWKxI A2wddu4R 5w3qGYLN e9//dyqw 4h7vELBQ DgEQq3w4 3TKeY5+6 6AvqHlhh 0QBbQUBE ENABAdlC EIBfXnej
+ IgWwSwQi kEoEUrVN wkQdQWv0 hMnU4+nn VdsIcPt4 lYutSQRH 6ArZ2IPV vMjhBcmd 9z5If74P RLyXsnsE VATXz33+ 31TbkBky PNilh7pA WBFsYO+7 DtYxbr1o BdsHMnrr
+ 2WahU5Ae LABAehRR BQEHSfVd fl+E7zXY fkUmkdvf zQuwwcNH K2IBGb7/ 458q34Kx w67+98qr FAnBnAUm CMTQC0gH giXIBrZ4 LvnK19T4 oF8EWgRZ fP+rMz7Q SmYwZowP
+ eMF20Q50 e8E/fVrZ O3TS/y/D FUYgI/CD 0MWQkaPp F7/5rQr6 wBWECYs+ kA/oGp+4 Xl+4RGV3 YQe4vvej n6i+VBaU iRh86rTZ 83iu1ivi g7YgBwgL CCzKnX/h p+j5l/sq
+ WQYMGaHG DeKhZQPB BrGA/8I7 6BJjQnb7 7845V40d OCATf+75 n1DvQT7u f7iLejdq fJHqF4QL 7cCu4ZNA MkGMkP1B Nhf+EmQF 2ahnXniF xk6aSi/3 HaB8JggX /ORX//Ob
+ ajyePjxi obNg+A6b g+zjiooV iQeef8Ux BBhjmxAk HeQI2Whs B9bjTCzL hXm+qnyr mtfjeEdl 5IRpKnMM +/IyOo20 lHdR4F9G jC+m4jmL FDHSWR8s jpasWq/q 9/3LaMZ1
+ DeOM/pgD 5JP4INvT 0NCgsjif +tSnqLi4 WP3tLvy9 rnPOOUd9 YpsLW15n nnkmiqs/ aoqzPPrc T21tLRUV FdHYsWMV YUK26KKL LlLP+vZ/ jR7v3o16 P9WbytaW 8vkebJXx
+ yoAdCM7G bGJnPrls PU3k7MjT xbOo56SZ NIGBHstb WzM276fi 8l309V/f Sv/5y5vp nuf60ce/ /A16+JXB NH7ZGvr0 N75LPYeN pYkcHBbu OEBfv+EP dCeX6Td3 Kc3cfpim
+ 8hbDDL6e 51XjrIrd 1OGsj9Az Y6fQ927+ I73vgs9Q 8Spm35v2 0Ki5y+l/ rruF5m7g 7BAH8Nem vk7v//QX aCmfFxrH 22YTNu+l cRzQizbu pldmLaKn xhXT5DVb aCaTNZw5
+ OszjqGQt TmbiUzxv kVpB1fPq XK2ofaQH 34NBporJ B7ZYauob 6ZIvX0H9 Bw2jHk89 Rx8+93xa wlkjtbLn dCwm+p6D Va2rRziR Jk7xYlXw D//8GT5D s5XO+vB5 auLBgWKV
+ W1XfoLIN N3e8S2Ub fnrN9bzt sk1tq2Dr BVtWbOsq UC9csoYm TpnTsh2G 8yLeOZYt nJ5EG/c9 xFkEznzc w6QQ5fYc qFGZCewR 17IhYysM mSUQn0YO XiBFSGli lX7bnfeo
+ yYZA8XK/ gezYxqsJ B/KGCQhH gmcI2JiY cKC4lFMw BGZgjICO oIBJiu8g QVUs01be dsTq7KHO XdkpLmOH V8JbVcg4 eatNOO5l q5i0rSxl 59fIToMd EJMmZGz2 H+btNx4T
+ yEwttwss QOjwee7H P6kICjAC 0UHWBlkc YAE8kfkB ucHzvWxD Tz/fVxFO ZICwpQhi tWDxarrh pj8qMvrQ o08qXJE1 msDbrMia KUKqVqGn lEME8cE9 Mh8IrMgK IJj/39W/
+ VEESThLE 56nnXmx1 7gj885as ps9f+jXl nGr4jALw BE5eZsBz UHGXzvKo zGVLQPXw 5W3ALbvp uVcGKcz1 tX7rLuXg Rk0spoFM KAewTpHp +db/fJ9J 40gaOXYC DR89TpEM
+ BLhhY4to 6JiJqmwJ b0kzB6cq 7uAwC1jP ThikFDau yTDsCPbt 6bWbuhAY EHjwHAG1 A9sVAoxe mSNog1hg KwNbAyAl CI4Xfvoi mj5nvgrm 3/jO9xWp xFwDeQIB 97ZkT6rg
+ h/mHxQWC LOwS8+vZ F19V5yEQ KEGWEBxh V5AVWQVk fg5WVbdm E0CYapu8 bZGLvngJ YfsF9g+y AdIEojpk BGPHARF9 jp5QRP2H jqW/jByv iPxhtjGQ fGwf9Hr+ NSY5vJ3D
+ dl7DtqV1 05rtYb0C SxPxUfOF SQ/aqOLx YmECYgFi ABmgo0u/ eoXK9CD7 gwCM+Qoy guwEArba XmLsEHBR H1hgXAji mPOjx09S 9x3e8z6l 93FFUxRW IDLefPey mNAJsnCe
+ rj3CCFx+ +JOrlS5A 9rF1jf5/ dcNNqm8E dcwN6BsE S9sCyAXs AQQOJOMz //olReRg HxgDbALz BlkfzGHo Df4V4wKx QDmQF9gL dAxSADsB SfKyWyfo fWd+UMk6 bPRY5c9w
+ wc56P/8S /ff3fqiy gtiKhu1A XuAHHQ/i eYB3WKBi nGgP4wOe yIp755WQ uX9TER8Q NmTZkAHD WFUWkeML xgWCBwy+ +T//q+pC HmRr8In6 GB98xdKV 3qIA230g fiB2WCAg
+ u7VwyVL1 Dv5wFW/p LVnpbZcr 3fKcx3YW zggimzN0 zGR1nEAT Gy8j7L1H 5geZX2yP 4bnnm+Fn sHDiRSRn KZHFxkJf k9a8ZXxA ZEBiQHyu vPJKuuWW W+ihhx6i Z555ht77
+ 3vfSvffe q7a+kMm5 5JJLWokP ymPbC8QI RAnECBfu +/fvT1/5 ylfU9+Ej h9FNN91I zz/7HK1Z tZqWLeXV GZ+xKOcs DIjPFlZ4 0br1VMQr pp7FrOSp s6mYswjj y5CpOUBF
+ pdvpimtv odt7vkSv MwH53Lev pAdfGkjT eUUI4tNr xHias3kH 9WaFfOa7 P6ZhS9bS UF45z+Sz QJNbtrq+ 8IOf0PRN O6jD355D V95+D93R +0XqcN4/ KaIzu3Qr jZ63gs68
+ 8F9oDpOc Yl6RD+At nw/yKnkq B/EJG/mM 0NYDNJ7b msbnefrw u67DJ/DW HJ9L2riN VnNmZC8H yoMc1Io4 mzWLVx2N vH8L4oOf FvNvc+H7 u8/4nOLJ +SQt5YPX ID7Y4uo3
+ cCh99PwL acu23RxI mcGzg8OK ASl/bw/7 BJ35gbNU KhKT9e8/ 8jHatG0X fejcjysC AYcDx4uJ hEzPOCaT 2I56nnFD EF65ZpMi VDozgawO Mg7ji2a1 HErGwTMv E/TagBEq
+ KI8cO5kD 1mTOfBRz ILtbbYuB IIA84ZA1 gj7KljNO CNogPgja b/AqHqst BBtMUIwF wRuy/80H /741Pe0d AmxWKxOQ HryHMzWd 8dGBHCte TFIcsmtg mbBKQVBF gPrzfVh1
+ 3cXbQPfx aquzIkII lHBuDzzS jVe0N6kt JRwC9rar TnHGpaHl 8KO3HYgM DsYEmTTx wXN9Hkdv UXlnqFCW bYCJz24+ DI/sELI/ uHB2CmUn T5tHF3/5 v2jEmCIO dpzF44zR
+ yLFTOQtU xjJ4552w ksYntg2g TxyuBIYT pkxvzQp8 8dKv0A/+ 72dqhfj1 b3+Pfv7r G9S4NBG4 /9En6EMf vVClmvdW 1rVsbzFR 51UZAp4J Xx1Q9fYW CKY+I4Q0 9isDR6hs
+ QR1+ChJb UOwhEJiR UcK5ot37 Dqptrutu vFltc817 Ywnb2oqW 7ZPlvO+/ VwVzBF1s waHtSn6A q4ltYSBn 1JDxwQFR YIFtJgTP 8ZOnKdID 0oB7jBdB ZhL7EKxk NbEaOGS4
+ Cq4IoJg7 yNogowEn jzmlt7YQ cJGRgR0i 8P3op9e0 BiRkgX79 25tVwEAf mGuQCcGy Yidnuzkg ISgiyINs ItAg0GN7 BQEefaLv F17tr4IT gufnvnCx Kgvyik8E JNRbwuQc
+ K358R0BC RgcH0r3s HNs347t5 50GVaatk pTTwxPNI pxdkoCdc irCyDb57 q+udZw69 s3DIkHoH VG++9U+K 0IF8wY+A 7CGriICN s2YgNSBw X/vGt5WM +owLzqwg WJ7FZAEk
+ HHMYGCMw L1mxUgXa Dn91hsrK LF+1RmUn 1nDGDnMe mTzMe5QH IURwB9Yg Bpi/yCAh QIOk4hky J1dfe53q G74QetA6 BmED+ccc AbFEZhek ARkRZKnG F01VuoH9 wEZAqkGI
+ kZmBLj7L Gbff3XK7 IiYgPiC6 +jwOMurI EIIQ4Lzi GUx8kOmC /LX8AyXA Ctke+GQv +3JU2Qls B9tQeqtW ZbJbsjz6 PA5sG+PG BRvU55Yw 72FXkAN2 iQtnkLD4 gV6AB2QA
+ cQc+Hmn0 tl6BD0gY CCG2wDUp /AFn7kD6 3vO+96tP 1AWJAlFE 9goXbB6+ xiMvSFS8 RWv4aAcy yHimt1RB tEFqsBia vXAFFc2Y 35J51Fuu 2CZnH8r1 xxTNZNsu URkqyIb2
+ 8058kNXB 1hQIDs7z 4BNbXTjj 88gjfMaE t7Hw19vX rl2rDjZj qwuZHjwH UerUqZOq g/t77rmH Lr74Yrr6 6qvpdzff SD/60Q/o kU4PU4/H u9M9d91P 3ZDm4xVh NY8axGcS
+ E58pvGrq PrmYuhVN pym8Dziq tIKKN++j KXy4+NKr bqBbe7xA xUw2/vW7 P6V7+/RV xOej//41 enLYGFqw Yx9d8avf 0Xf+8Cfq MmQcPYmM DGdyJvFW 1xQ+gNzh 3AtoMp8h
+ 6nD2ufQY O+risi30 nnMuoKeH T6Snh06g h/sMoA9+ 8gvUZ8xU dbj5rqdf pgsu/6Yi PhM5YzSR ic8oPstS zOcunp8+ nzqz8qdz gJ/FxGct /wQYiM9h HssEPpMw hQ28ihV6
+ iPeeK+HM fed7oojP f3/vxzR1 +ly6GOPp 9Swfbq6l T/zzZ2nI 8DFqwuD6 yMf/UQU/ OBs4ybM5 u4NVAibY B87+sFoZ YGKC2eM9 yuLMB86W 4PAxsglz 5i9XWzUg PzjTgwwE
+ AjcO2GLb BcQG9/rs D7Ifz/Tp x2nVoYrY 4DmIDTJI IEk4x4Js j85wvPjq X/inA/a2 nm3h+cCO q5+auJig GAdkwyec 3JmcKoYj hHPEpSe9 d3jXO5hs CszeXrK3 DaDTrzjv
+ gHMnvV94 TQUVkJ1f XvdbDn6T 2Km/wsFr kHJsekV6 8WVXMGGc xM7GO8cE goIMGLb/ ZnH2EKRw weKVNH/R KoXneZzx QWYG799g woQyi5fz aoonPp5p rJApQuao z8uDWrf/
+ KrElwUEJ GbivXvEd xts7C4Qs GYgSMkZ4 hntkoJAO BvEBZthS QUAp5W1U OHasXHF2 4A+336mc LlbGyHJg lY73cO5I P3/2i5fR 3MWrFBlp ZDIFnKoa +SwA92fC F7iiDByd
+ V4/JK9s6 6mJrC9kd PDvIh94P gLAhCDB7 QZlqZpJj J0yhSy67 nLc1r+ED 9l3p/k68 /cX6wEoc 5zlGjJ+i CBICOogP J9WY9HAG gI2nhj3k 0FETVGAD DiDNOMSv CSDOWCAI
+ IDUP4oEz NwhSWMni PI8KKnwO DjamtzIQ vD/xqc8p oohtFQQL bBd88nOf V7aC7BoC 6xXf/I6q hwuB4Dd8 HmI9Z0sR IBD89ZkW 4Hzlz35B P7nmWrWd g0CC7RmM D0QUK3/Y
+ Npw9+kJg BHEA0ULb CEwoi6CD +joTgQzG 5f/1LbXN hawOLpAT BJDt/JOn T7EPhE68 g/ye7Xtn K0CCvOwc Mmcm4oM2 0Qa2yHB+ qOOfsEC4 X5EfZH6Q 9cEYQBBh WyAFyGSB
+ cGM8mvgg iGFL7G8Y e2y/I8hD vxiXDqh/ zURBB1Zk gVG+dRuQ bRsZH/g5 fbYKOCJb ggUdyCX6 R33YObKb 2EoH6QCR RNYI2zXQ DUgaiCZk xxzHO4wF mSLYEHSH hZgmpLjH
+ mRn4JhAv kCeQG5xV AmnCc5DR sz70EeV/ QV6xqAQx QkYQfhiL OfSFRR76 Uz9Yws9w iPorV3xD ndtBxhlt wc4whz3S 421z4Sez MMdRHr5P nzuaywsF kG0/EYQv BWnDeECI
+ UB/yw39C Ho/08Lzl 53oBDJ2N 4GwrbO2L //bvHC+m KyIKmWFn sD34aWSv ICviiTqw zTaGrS3Y x0qOm95C x/O5+qwg 3jfy+2mv L6ZJ0+fx eTTvnCVs C9kh+GNk hHAecD77
+ USy6vawV /3oPh8PN /x+QdgYv 4/UOdgAA AABJRU5E rkJggg==</ImageDataBase64String>
+          </Image>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>当用户选择“有戒烟治疗”时，后面的详细描述戒烟治疗的文本片段会显示出来，当用户选择“无戒烟治疗”时，后面的文本就会隐藏掉，如下图所示：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XImage" StyleIndex="3">
+          <Attributes />
+          <Width>1387</Width>
+          <Height>356</Height>
+          <Image>
+            <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA AbwAAABy CAYAAAAo JWSvAAAA AXNSR0IA rs4c6QAA AARnQU1B AACxjwv8 YQUAAAAJ cEhZcwAA DsMAAA7D AcdvqGQA AA7ySURB VHhe7Z3L
+ keQ2EkDb DVmwBsiT 9aK9GDd0 KwfWn71P hM593FtJ UAQ2MNkA MhMASXze RFSMugmC wGNmPoBV o/p48wcC EIAABCBw AIGPA+bI FCEAAQhA AAJvhEcQ QAACEIDA EQSmEd7X
+ /97vlV// +e+f75Vf V7Nfmc2I scN37fwY EQNP9nGE zQyTRHiD RPtkMI+4 NgX52oJ8 Mt9//+u3 d3iNiFP6 aItTgwuO aGIS3seH qVkWmPXc qwtC2n8Y 0+jrjUzE ML6e/mrn
+ l46N5iH7 S+fTO78e NuHcJ65/ El95f2YR XnrfW3Lk ybjrjdkj bGaYZNZk Aa72MvT9 T5OS8OTv 04Lw48eP d/oqFQtt jLXz4jGt j1SOtXGl ySDbeRNF JqY2Rtl/ SzK38Jd8
+ rXx6k9fL M8dHYxqP jzr3Kb61 efZyLJ0v 4yAVXiv3 cK2ReVVb +PTkX0vu We+Dljc1 PtZ6vXu7 ovDSiUs5 1XZtWkCX JCgLQk5W su9UWrJ9 bReXHqu1 C32Wjofg Sq8phWcN
+ 4lw760pU Jm08r5QY teMW/p5d So2PFiPp 8R6OGttR fWuFKFzn br5xblos jGJQi//a Ds/CLjfG EF/esVuv 1Zp/NebW a8ec7s0R yWd3kVnn N1x48sJW WVoKQklU UkpWicWg
+ qj3ufFJ4 cXy1x4G5 5JTJIhMx l3wW/nEB kPZfkmBJ eE8U4Bo/ b9FslaiF b6nI5Rhr C4rThOcR RCk/cnki 41X7Obdz tJwzOkYR Xl6Btz7S lPJLh2Qt CLldnVV4 sV0qOu3c
+ O4UXEyMV nZYsJeHl HsXVksrL v7a7Dsdm FJ7kWyuS HhFaVu+t fK0Litxc tN2CZ46e trLYrrLD 68k/70Ku lteWeNLu B8JzCE/b peW66llh hf68BSEV Uem/S485 a+01AcY+
+ r3ikmSZc aYVuSRRL G7kS9fJv EV4tkUck ea0I5BYG pfbesVja t/K1Cq+0 mPEWYq2Q Wo4/LbzS vdbu06j8 S3NXq4u5 +zZiYYbw jMLTblB6 3Pzc1PAp T29BqAkv HWPucaU8
+ V5uz95FS y/sLqYBk wmrj867k cwXBwt/z Pqn2yE2b k1acLIXX IrTcdUq/ s4w51yaM w8JXLrZq 75nWdtAW uV/JtyS8 Fn6le1jL MavwSgvD lvzLPcrU YtRyfUsM 59ogPIfw
+ LDu8cLMs f6ztvAWh JLzS+3E1 Qc7wHl5v kmrJpb1H YOGf7uq0 4qwJT3vk 6pmPt22p 0JR21Vr/ FnlY+Eam UQw9wotj qklGm1fr cesOzyLm u4Q3Mv8s 8WB9GpFr Z+n/TuGF
+ a63y55u1 coKy/k5+ srOWbBKQ pyCEtl7h WUQo+839 fOUjzVzB tRbnWsJa ip6F/8gd 3t3Ca9ld xHMsxUkr Qha+UnS1 RUVuQZFK Lt31l0Su jXk14Wlx ruVST/6V FpTamHJ5
+ ULsv1nuG 8Bw7PGtx KFk9nl87 Pkp46aq4 tlOzCC/X V6noXPEe npZwsqDV HoNaditp 8lgKcm7H 0cInl7TW RG4twhYe njayrTb+ O/jW4kM+ ctPG28N5 1h1eKV9q i6/cQrK0
+ uJSMcz/X Yix3/0oi 1e7PlcKT O7qld3il D6RYt6zh ppX+rV3s I7Zp+ZRm KuN0ByYL b211nB7T /ruloLe+ h2cVXi5x c6t7T8Jd XZCti6hc Oy25Pcct q3yrDCx9 xbHdwVeL
+ n9yuz8PO 2tYiPA+7 3HVb3sMb JbxS/sXY tUiqNv9S /FnjMly/ Jrw4TmtN T9uFfrcW Xk5Olp2b VuBG7/Bq 8qt9cCUK rSTMu4Vn FVeuXS6J SqtG2dZS kHMsWvjk Cpg1mXNF
+ xVqISwuA 1uLrOe9O vum4PGMc JcSZhaft dFvzr7Rz a5FXyzky B0rCS+u5 p7aHeh1l J/9uEedT 5/zyHl4E IEGUwNTg 1WDmjlkK guU9pFIB Tj9wIT98 UTunpaCX Vp+WYi2L
+ lXZOSWi1 1X4uoSz8 JYsat9oj 36eFF5la /i7J1FuU 7uRbE15t 13+X8HLs rL+L96OW Y7Udlsyn 2oIgjQ9r HFgXGN74 0e7bHcJL pfeUsHqv 2yQ8yyrh CeHFAlwq xLnfewRZ
+ K1ppwLUK z5v0tUc0 pWQtJZql IMdddOy7 5VOE1sJR 27WV5uDZ 6fX0r12/ dUExim9O eNZC7C2s lseN8v+l aV3w1Di3 CE/j0pN/ o3Z4tTlr cVerQbkP FLbKY6X3 7L79i4Pc
+ +2o1Wcn3 50pttdWz 9kgz3TZb PiwhxWWV mzbOtB+5 lU/HJYMt bWt5pl97 3KaNMV2Z x7alBCxd RwpP45+7 J1Y+1oLX 084rv1hM tKKiHS9x v5OvLOyl MctYGSG7 0IeMgyg8
+ jV0uzq15 pY29JLOc BGW+WvKv JrzS+TJG a/dJm1+O e9p/q9x2 O6/4j+m0 m6yBqEkz d6y2W6gd i+MsSTEK KyfA9H2/ 0jVK58n2 WoHNFReL CC1Fwrtb yfXZyt96 noWP1ubq
+ 4zXW2v0r yTn2aeXU 2q4US1r8 XM009B+E F/7cca2c RLT7WpOJ xq/1uDyv tR8rU61e n3Lc9q/H b6DRmuiz nGcNvFnb Xc1x1nnf Na6T+c7y fXh33esZ r3NDCV/i EtMIbwla
+ DBICEPhG 4OfPn29e MJglBj4/ P4tZivAo YBCAQBeB UOj4A4EZ CLxerzfC m+FOMAYI bEogCu/r 6+vNCwZP xgDC27TI MC0IzEIg FV4oOLxg cHcMhFwI okV4s1QF xgGBTQlI
+ 4T25wufa Z+4wEd6m xYVpQWA2 AgjvTMnM tLhAeLNV BcYDgU0J IDyE97T8 EN6mxYVp QWA2AggP 4SG82bKS 8UAAApcQ QHgID+Fd klp0CgEI zEYA4SE8 hDdbVjIe CEDgEgII
+ D+FtJbyV vw7ikgyn UwhA4P8E EB7CQ3gU BAhA4AgC CA/hLS08 uaNjh3dE 3WKSEGgi gPAQ3rLC i1/emEY+ wmuqA5wE gSMIIDyE t6Tw5DcV 5+R3RAYz SQhAwEwA 4SG8JYUX
+ IhzJmfOc hhCAwN8E EB7CW1Z4 UXpkMgQg AAELAYSH 8JYWniXI aQMBCEAg EEB4CA/h UQsgAIEj CCA8hIfw jkh1JgkB CCA8hIfw qAMQgMAR BBAewkN4 R6Q6k4QA BBAewkN4
+ 1AEIQOAI AggP4SG8 I1KdSUIA AggP4SE8 6gAEIHAE gVR4R0yY SU5JIEj3 9Xq9Pz8/ i+P7mHLk DAoCEFiG gNzhhaLD CwZ3xkBI FoS3TMlg oBBYl4AU Xlhh84LB XTGQi79S
+ NrHDW7fO MHIITEHA U3CmGDCD 2IqAJ/4Q 3la3nslA 4H4CnoKj je7jg5Kk MeL4rwQ8 8Ud0ET0Q gEAXAU/B 0S6E8DRC HJcEPPGH 8IgfCECg i4Cn4MgL BcFZX12D 5ORtCXji
+ zyQ8vvF8 21hhYhDo JuApOLWL sbvrvhVH duCJP4R3 ZIgwaQiM I+ApOKWr aru8caOl p90IeOIv Kzy5o2OH t1uIMB8I jCPgKTi5 q0bZ1WQ4 brT0tBsB T/x9E16Q G8LbLSSY
+ DwSuI+Ap OLn38MLv 2OFdd392 79kTf78I L8pO/r07 MOYHAQi0 E/AUnJZd HO/ttd+b E870xJ9p h3cCNOYI AQi0EfAU nJrwaru8 tpFx1gkE PPFneg/v BGjMEQIQ aCPgKTjs
+ 8NoYc1aZ gCf+TJ/S BDYEIACB EgFPwUF4 xNFoAp74 Q3ij6dMf BA4j4Ck4 XuFpn+A8 DDXTzRDw xB/CI4Qg AIEuAp6C 03UhToYA wiMGIACB JwkgvCfp c21P/LHD I14gAIEu
+ Ap6C03Uh ToYAOzxi AAIQeJJA i/DCtwDx gkFvDPz+ x/vtiT92 eE9WCq4N gQ0IeApO nG4odKFY 8YJBawzE GPLEH8Lb oOAwBQg8 ScBTcHLC s4y9tShy 3r5CRXiW zKENBCAw
+ lECv8KSU wuAQFQy0 GEB4Q9OY ziAAAQsB hIecNDld cRzhWbKT NhCAwFAC CA/hXSE0 rU+ENzSN 6QwCELAQ 6BGepf/Y RiuAHD9L vAjPkz20 hQAEhhDo EV7p/Tve xztLXi2L
+ FYQ3JH3p BAIQ8BBA eMipRVi9 51wmPPkN 6J5koC0E ILA3gVHC S3d17PCQ qCZEhLd3 XWF2EJiS wAjhScFp P2vFkOP7 C3OY8OSO jh3elHWG QUFgCgK9 wsvt5hDe /sLqXZQM
+ EV6QG8Kb oo4wCAgs QaBHeLVH l3LyvQWS 8/eSaLfw ouzk30tk HYOEAAQe IdAjPCS0 l4TuvJ/d wgvZktvh PZJFXBQC EFiCAMJD WneKLl5r iPCi9JbI NAYJAQg8 TqBVeL1f
+ DcP5fL1Q CH5P/PFt CY+XCwYA gbUJeArO 2jNl9DMS 8MQfwpvx DjImCCxE wFNwFpoW Q12EgCf+ EN4iN5Vh QmBWAp6C M+scGNe6 BDzxh/DW vc+MHAJT EPAUnCkG zCC2IuCJ
+ P4S31a1n MhC4n4Cn 4Nw/Oq64 OwFP/CG8 3aOB+UHg YgKegnPx UOj+QAKe +EN4BwYI U4bASAKe gjPyuvQF gUDAE38I j5iBAAS6 CHgKTteF OBkCGQKe +EN4hBAE INBFwFNw
+ ui7EyRBA eMQABCDw JAGE9yR9 ru2JP3Z4 xAsEINBF wFNwui7E yRBgh0cM QAACTxJA eE/S59qe +GOHR7xA AAJdBDwF p+tCnAwB dnjEAAQg 8CQBhPck fa7tiT/T Dk9+AzqI
+ IQABCEQC noIDNQiM JuCJP4Q3 mj79QeAw Ap6Ccxga pnsDAU/8 ZYUnd3Ts 8G64a1wC AosS8BSc RafIsCcm 4Im/b8IL ckN4E99d hgaByQh4 Cs5kQ2c4 GxDwxN8v wouyk39v
+ wIQpQAAC FxHwFJyL hkC3BxPw xJ9ph3cw S6YOAQgo BDwFB5gQ GE3AE3+m 9/BGD5D+ IACBfQh4 Cs4+s2Ym sxDwxJ/p U5qzTIxx QAAC8xGQ BSf8zAsG d8ZAyIqv r6/36/V6
+ f35+FpME 4c1XPxgR BJYikApv qYEz2K0I ILytbieT gcCcBFLh haLDCwZP xQA7vDlr BKOCwDYE gvBCoeEF gxligEea 25QWJgKB +QiEAsML BjPFQClL eA9vvvrB iCAAAQhA
+ 4AICCO8C qHQJAQhA AALzEUB4 890TRgQB CEAAAhcQ QHgXQKVL CEAAAhCY jwDCm++e MCIIQAAC ELiAAMK7 ACpdQgAC EIDAfAT+ AvD7eLkB zKAyAAAA AElFTkSu QmCC</ImageDataBase64String>
+          </Image>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>DCWriter支持更复杂的级联模板功能，如下所示：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>体温：</Text>
+        </Element>
+        <Element xsi:type="XInputField" StyleIndex="1">
+          <ID />
+          <Expressions />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XString" StyleIndex="1">
+              <Text>399</Text>
+            </Element>
+          </XElements>
+          <TextValue>399</TextValue>
+          <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+          <EventExpressions>
+            <Expression>
+              <Expression>value&gt;40</Expression>
+              <Target>Custom</Target>
+              <CustomTargetName>体温过高原因</CustomTargetName>
+            </Expression>
+            <Expression>
+              <Expression>value&lt;36</Expression>
+              <Target>Custom</Target>
+              <CustomTargetName>体温过低原因</CustomTargetName>
+            </Expression>
+            <Expression>
+              <Expression>value&gt;=36 and value&lt;=40</Expression>
+              <Target>Custom</Target>
+              <CustomTargetName>体温正常</CustomTargetName>
+            </Expression>
+          </EventExpressions>
+          <RuntimeEventExpressions>
+            <EventExpressionInfo>
+              <Expression>value&gt;40</Expression>
+              <Target>Custom</Target>
+              <CustomTargetName>体温过高原因</CustomTargetName>
+            </EventExpressionInfo>
+            <EventExpressionInfo>
+              <Expression>value&lt;36</Expression>
+              <Target>Custom</Target>
+              <CustomTargetName>体温过低原因</CustomTargetName>
+            </EventExpressionInfo>
+            <EventExpressionInfo>
+              <Expression>value&gt;=36 and value&lt;=40</Expression>
+              <Target>Custom</Target>
+              <CustomTargetName>体温正常</CustomTargetName>
+            </EventExpressionInfo>
+          </RuntimeEventExpressions>
+          <Name />
+          <ValidateStyle>
+            <ValueName />
+            <ValueType>Numeric</ValueType>
+            <MaxValue>NaN</MaxValue>
+            <MinValue>NaN</MinValue>
+            <CustomMessage />
+          </ValidateStyle>
+          <InnerValue>399</InnerValue>
+          <ToolTip />
+          <BackgroundText>体温值</BackgroundText>
+        </Element>
+        <Element xsi:type="XInputField" StyleIndex="1">
+          <ID />
+          <Expressions />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XString" StyleIndex="1">
+              <Text>，体温过高原因：        </Text>
+            </Element>
+          </XElements>
+          <TextValue>，体温过高原因：        </TextValue>
+          <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+          <EventExpressions />
+          <RuntimeEventExpressions />
+          <Name>体温过高原因</Name>
+          <InnerValue>，体温过高原因：        </InnerValue>
+          <ToolTip />
+          <BackgroundText />
+        </Element>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>。</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>在这段文档中，当用户输入的体温值高于40时，就只显示后面的“体温过高原因”输入域而会隐藏“体温过低原因”，当输入值小于36时就显示后面的“体温过低原因”输入域，当体温值介于36到40之间时只显示“体温正常”输入域。</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>DCWriter支持单选框或复选框的级联模板的功能，如下所示：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XTextTable" NumOfRows="8" NumOfColumns="2">
+          <Expressions />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>选项1</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName />
+                      <Checked>true</Checked>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>选项1输入值</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>■</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>选项1输入的数据.....</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>选项1输入的数据.....</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>选项1输入值</Name>
+                      <InnerValue>选项1输入的数据.....</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>选项2</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName />
+                      <Checked>true</Checked>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>选项2输入值</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>■</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>选项2输入的数据.....</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>选项2输入的数据.....</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>选项2输入值</Name>
+                      <InnerValue>选项2输入的数据.....</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>选项3</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName />
+                      <Checked>true</Checked>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>选项3输入值</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>■</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>选项3输入的数据.....</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>选项3输入的数据.....</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>选项3输入值</Name>
+                      <InnerValue>选项3输入的数据.....</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>选项4</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName />
+                      <Checked>true</Checked>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>选项4输入值</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>■</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>选项4输入的数据.....</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>选项4输入的数据.....</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>选项4输入值</Name>
+                      <InnerValue>选项4输入的数据.....</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>单选项1</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName>单选框级联模板测试组</GroupName>
+                      <ControlStyle>RadioBox</ControlStyle>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>单选项1输入的数据</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>○</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>单选项1输入的数据......</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>单选项1输入的数据......</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>单选项1输入的数据</Name>
+                      <InnerValue>单选项1输入的数据......</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>单选项2</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName>单选框级联模板测试组</GroupName>
+                      <ControlStyle>RadioBox</ControlStyle>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>单选项2输入的数据</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>○</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>单选项2输入的数据......</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>单选项2输入的数据......</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>单选项2输入的数据</Name>
+                      <InnerValue>单选项2输入的数据......</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>单选项3</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName>单选框级联模板测试组</GroupName>
+                      <ControlStyle>RadioBox</ControlStyle>
+                      <Checked>true</Checked>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>单选项3输入的数据</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>●</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>单选项3输入的数据......</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>单选项3输入的数据......</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>单选项3输入的数据</Name>
+                      <InnerValue>单选项3输入的数据......</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString">
+                      <Text>单选项4</Text>
+                    </Element>
+                    <Element xsi:type="XTextCheckBox">
+                      <Attributes />
+                      <Name />
+                      <Tag />
+                      <ToolTip />
+                      <GroupName>单选框级联模板测试组</GroupName>
+                      <ControlStyle>RadioBox</ControlStyle>
+                      <CheckedValue />
+                      <EventExpressions>
+                        <Expression>
+                          <Expression>this.Checked=true</Expression>
+                          <Target>Custom</Target>
+                          <CustomTargetName>单选项4输入的数据</CustomTargetName>
+                        </Expression>
+                      </EventExpressions>
+                      <Text>○</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="5">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID />
+                      <Expressions />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString">
+                          <Text>单选项4输入的数据......</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>单选项4输入的数据......</TextValue>
+                      <AcceptChildElementTypes2>All</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <Name>单选项4输入的数据</Name>
+                      <InnerValue>单选项4输入的数据......</InnerValue>
+                      <ToolTip />
+                      <BackgroundText />
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+          </XElements>
+          <Columns>
+            <Element xsi:type="XTextTableColumn">
+              <Width>477.375</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>1397.375</Width>
+            </Element>
+          </Columns>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>	在这段模板中，当用户勾选了前面的复选框，则后面的输入域就会设置了可见，否则不可见。而且对于单选框组会更新所有的勾选状态发生改变的单选框的级联状态。</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+      <Sections />
+    </Element>
+    <Element xsi:type="XTextHeader">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2013-02-01T15:18:42.7738088+08:00</CreationTime>
+    <LastModifiedTime>2013-02-01T15:18:42.7738088+08:00</LastModifiedTime>
+    <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1111.26037</Operator>
+    <NumOfPage>2</NumOfPage>
+  </Info>
+  <BodyText>级联模板
+DCWriter支持级联模板。、，能根据当前输入域中的值来动态的修改后续输入域是否可见,而且这种操作是可以套嵌的。例如：
+
+患者吸烟,烟龄3年，每天5根，有戒烟治疗，曾使用戒烟药乳香。
+
+在这里，当用户选择了“吸烟”，则后面的详细描述吸烟的文本片段将显示出来。如下图所示：
+
+当用户选择了“不吸烟”或者为空时，后面的详细描述吸烟的文本片段将自动隐藏掉。如下图所示：
+
+这个过程是可逆的，也就是说，当后面文本片段隐藏后，若用户再次设置“吸烟”值，则后面的那段文本又显示出来了。
+
+级联模板时可以套嵌的，如下图所示：
+
+当用户选择“有戒烟治疗”时，后面的详细描述戒烟治疗的文本片段会显示出来，当用户选择“无戒烟治疗”时，后面的文本就会隐藏掉，如下图所示：
+
+
+DCWriter支持更复杂的级联模板功能，如下所示：
+
+体温：399，体温过高原因：        。
+
+在这段文档中，当用户输入的体温值高于40时，就只显示后面的“体温过高原因”输入域而会隐藏“体温过低原因”，当输入值小于36时就显示后面的“体温过低原因”输入域，当体温值介于36到40之间时只显示“体温正常”输入域。
+
+
+DCWriter支持单选框或复选框的级联模板的功能，如下所示：
+
+选项1■
+选项1输入的数据.....
+选项2■
+选项2输入的数据.....
+选项3■
+选项3输入的数据.....
+选项4■
+选项4输入的数据.....
+单选项1○
+
+单选项2○
+
+单选项3●
+单选项3输入的数据......
+单选项4○
+
+	在这段模板中，当用户勾选了前面的复选框，则后面的输入域就会设置了可见，否则不可见。而且对于单选框组会更新所有的勾选状态发生改变的单选框的级联状态。
+
+</BodyText>
+  <UserHistories />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+      <FontSize>12</FontSize>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Align>Center</Align>
+      </Style>
+      <Style Index="1">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+      </Style>
+      <Style Index="2">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <FirstLineIndent>100</FirstLineIndent>
+      </Style>
+      <Style Index="3">
+        <BorderWidth>1</BorderWidth>
+        <BorderLeft>true</BorderLeft>
+        <BorderBottom>true</BorderBottom>
+        <BorderTop>true</BorderTop>
+        <BorderRight>true</BorderRight>
+      </Style>
+      <Style Index="4">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>21.75</FontSize>
+        <Bold>true</Bold>
+        <FirstLineIndent>100</FirstLineIndent>
+      </Style>
+      <Style Index="5">
+        <VerticalAlign>Middle</VerticalAlign>
+        <BorderWidth>1</BorderWidth>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <PageSettings>
+    <ViewLeftMargin>300</ViewLeftMargin>
+    <ViewTopMargin>300</ViewTopMargin>
+    <ViewRightMargin>300</ViewRightMargin>
+    <ViewBottomMargin>300</ViewBottomMargin>
+    <ViewPaperWidth>2481</ViewPaperWidth>
+    <ViewPaperHeight>3507</ViewPaperHeight>
+  </PageSettings>
+</XTextDocument>

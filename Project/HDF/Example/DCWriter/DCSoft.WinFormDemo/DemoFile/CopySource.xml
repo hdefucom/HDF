@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>测试内容同步复制操作</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes />
+               <ID>ICDText</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>兔热病</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <SpecifyWidth>826.771667</SpecifyWidth>
+               <EventExpressions />
+               <LabelText>ICD诊断：</LabelText>
+               <InnerValue>A21.901</InnerValue>
+               <BackgroundText>ICD诊断</BackgroundText>
+               <SelectedIndex>18</SelectedIndex>
+               <LastSelectedListItems>
+                  <Item>
+                     <TextInList />
+                     <Text>兔热病</Text>
+                     <Value>A21.901</Value>
+                     <Group />
+                  </Item>
+               </LastSelectedListItems>
+               <FieldSettings>
+                  <EditStyle>DropdownList</EditStyle>
+                  <ListSource>
+                     <SourceName />
+                     <Items>
+                        <Item>
+                           <TextInList />
+                           <Text>蜂窝织皮下型鼠疫</Text>
+                           <Value>A20.151</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>肺炎型鼠疫</Text>
+                           <Value>A20.251</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>继发性肺炎型鼠疫</Text>
+                           <Value>A20.252</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>原发性肺炎型鼠疫</Text>
+                           <Value>A20.253</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>鼠疫型脑膜炎</Text>
+                           <Value>A20.351</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>败血症性鼠疫</Text>
+                           <Value>A20.751</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>顿挫性鼠疫</Text>
+                           <Value>A20.851</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>无症状性鼠疫</Text>
+                           <Value>A20.852</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>轻鼠疫</Text>
+                           <Value>A20.853</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>鼠疫 NOS</Text>
+                           <Value>A20.901</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>溃疡淋巴腺型土拉菌病</Text>
+                           <Value>A21.051</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>眼土拉菌病</Text>
+                           <Value>A21.151</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>眼腺型土拉菌病</Text>
+                           <Value>A21.152</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>肺土拉菌病</Text>
+                           <Value>A21.251</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>腹部土拉菌病</Text>
+                           <Value>A21.351</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>胃肠土拉菌病</Text>
+                           <Value>A21.352</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>全身性土拉菌病</Text>
+                           <Value>A21.751</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>其他形式的土拉菌病</Text>
+                           <Value>A21.851</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>兔热病</Text>
+                           <Value>A21.901</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>土拉菌热</Text>
+                           <Value>A21.951</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>皮肤炭疽</Text>
+                           <Value>A22.051</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>恶性脓疱</Text>
+                           <Value>A22.052</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>恶性痈</Text>
+                           <Value>A22.053</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>肺炭疽</Text>
+                           <Value>A22.101</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>炭疽肺炎</Text>
+                           <Value>A22.102+</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>恶性炭疽(栋毛工病))</Text>
+                           <Value>A22.151</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>捡破烂人病</Text>
+                           <Value>A22.152</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>吸入性炭疽</Text>
+                           <Value>A22.153</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>胃肠炭疽</Text>
+                           <Value>A22.251</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>肠炭疽</Text>
+                           <Value>A22.252</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>炭疽性败血症</Text>
+                           <Value>A22.751</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>炭疽脑膜炎</Text>
+                           <Value>A22.851+</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>炭疽 NOS</Text>
+                           <Value>A22.901</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>直布罗陀热(西班牙)</Text>
+                           <Value>A23.051</Value>
+                           <Group />
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>地中海热</Text>
+                           <Value>A23.052</Value>
+                           <Group />
+                        </Item>
+                     </Items>
+                  </ListSource>
+                  <ListValueFormatString />
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" WhiteSpaceLength="2">
+               <Text>  </Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <Attributes />
+               <ID>ICDCode</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <Expressions />
+               <ScriptItems />
+               <CopySource>
+                  <SourceID>ICDText</SourceID>
+                  <SourcePropertyName>InnerValue</SourcePropertyName>
+                  <DescPropertyName />
+                  <IgnoreChildElements>false</IgnoreChildElements>
+               </CopySource>
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>A21.901</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <LabelText>ICD编码：</LabelText>
+               <InnerValue>A21.901</InnerValue>
+               <BackgroundText>ICD编码</BackgroundText>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>复制的目的：</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <CopySource>
+                  <SourceID>InputSource</SourceID>
+                  <SourcePropertyName />
+                  <DescPropertyName />
+                  <IgnoreChildElements>false</IgnoreChildElements>
+               </CopySource>
+               <XElements />
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <UserEditable>false</UserEditable>
+               <InnerValue />
+               <BackgroundText>目的1</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>请输入内容：</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>InputSource</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue />
+               <BackgroundText>请输入内容</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>,当光标离开这个输入域就执行内容同步复制。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>复制的目的：</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <CopySource>
+                  <SourceID>InputSource</SourceID>
+                  <SourcePropertyName />
+                  <DescPropertyName />
+                  <IgnoreChildElements>false</IgnoreChildElements>
+               </CopySource>
+               <XElements />
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue />
+               <BackgroundText>目的2</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>-----------同组复制：------------------</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>输入域1：</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field1</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <CopySource>
+                  <SourceID>field1,field2,field3</SourceID>
+                  <SourcePropertyName />
+                  <DescPropertyName />
+                  <IgnoreChildElements>false</IgnoreChildElements>
+               </CopySource>
+               <XElements />
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue />
+               <BackgroundText>输入域1</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>输入域2：</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field2</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <CopySource>
+                  <SourceID>field1,field2,field3</SourceID>
+                  <SourcePropertyName />
+                  <DescPropertyName />
+                  <IgnoreChildElements>false</IgnoreChildElements>
+               </CopySource>
+               <XElements />
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue />
+               <BackgroundText>输入域2</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>输入域3：</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field3</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <CopySource>
+                  <SourceID>field1,field2,field3</SourceID>
+                  <SourcePropertyName />
+                  <DescPropertyName />
+                  <IgnoreChildElements>false</IgnoreChildElements>
+               </CopySource>
+               <XElements />
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue />
+               <BackgroundText>输入域3</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>其他测试：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XInputField" StyleIndex="3">
+               <Attributes />
+               <ID>field9</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>AAAAAAA</Text>
+                  </Element>
+                  <Element xsi:type="XInputField" StyleIndex="3">
+                     <Attributes />
+                     <ID>field10</ID>
+                     <EnableValueValidate>true</EnableValueValidate>
+                     <CopySource>
+                        <SourceID>field9</SourceID>
+                        <SourcePropertyName />
+                        <DescPropertyName />
+                     </CopySource>
+                     <XElements />
+                     <BorderElementColor />
+                     <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                     <InnerValue />
+                     <BackgroundText>内嵌的输入域</BackgroundText>
+                  </Element>
+                  <Element xsi:type="XString">
+                     <Text>AAAAAA</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <InnerValue>AAAAAAAAAAAAA</InnerValue>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>南京都昌信息科技有限公司2016年度测试版:南京都昌信息科技有限公司2016年度测试版</LicenseText>
+      <CreationTime>2013-07-22T11:36:33.343628+08:00</CreationTime>
+      <LastModifiedTime>2016-03-18T15:47:25.6315172+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.0.0</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>测试内容同步复制操作
+
+ICD诊断：兔热病  ICD编码：A21.901
+
+
+复制的目的：
+
+
+
+请输入内容：,当光标离开这个输入域就执行内容同步复制。
+
+
+
+复制的目的：
+
+-----------同组复制：------------------
+输入域1：
+输入域2：
+输入域3：
+
+其他测试：
+AAAAAAAAAAAAA</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="2">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer.Demo\WinFormDemo\DemoFile\CopySource.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

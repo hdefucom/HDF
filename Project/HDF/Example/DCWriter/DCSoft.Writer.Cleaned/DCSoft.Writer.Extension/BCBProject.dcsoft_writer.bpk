@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="dcsoft_writer.bpl"/>
+    <OBJFILES value="dcsoft_writer.obj DCSoft_Writer_OCX.obj DCSoft_Writer_TLB.obj 
+      Accessibility_OCX.obj mscorlib_OCX.obj System_Drawing_OCX.obj 
+      System_OCX.obj System_Windows_Forms_OCX.obj "/>
+    <RESFILES value="dcsoft_writer.res DCSoft_Writer_OCX.dcr Accessibility_OCX.dcr 
+      mscorlib_OCX.dcr System_Drawing_OCX.dcr System_OCX.dcr 
+      System_Windows_Forms_OCX.dcr "/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value=""/>
+    <PACKAGES value="rtl.bpi vcl.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="dcsoft_writer.cpp"/>
+    <INCLUDEPATH value="BCB6Imports;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="BCB6Imports;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IBCB6Imports -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpp -x -Gn -Gl -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+    <FILE FILENAME="dcsoft_writer.res" FORMNAME="" UNITNAME="dcsoft_writer.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="dcsoft_writer.cpp" FORMNAME="" UNITNAME="dcsoft_writer.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="DCSoft_Writer_OCX.cpp" FORMNAME="" UNITNAME="DCSoft_Writer_OCX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="DCSoft_Writer_OCX.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="DCSoft_Writer_TLB.cpp" FORMNAME="" UNITNAME="DCSoft_Writer_TLB" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="Accessibility_OCX.cpp" FORMNAME="" UNITNAME="Accessibility_OCX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="Accessibility_OCX.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="mscorlib_OCX.cpp" FORMNAME="" UNITNAME="mscorlib_OCX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="mscorlib_OCX.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="System_Drawing_OCX.cpp" FORMNAME="" UNITNAME="System_Drawing_OCX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="System_Drawing_OCX.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="System_OCX.cpp" FORMNAME="" UNITNAME="System_OCX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="System_OCX.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="System_Windows_Forms_OCX.cpp" FORMNAME="" UNITNAME="System_Windows_Forms_OCX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+    <FILE FILENAME="System_Windows_Forms_OCX.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+    [Version Info]
+    IncludeVerInfo=1
+    AutoIncBuild=0
+    MajorVer=1
+    MinorVer=0
+    Release=0
+    Build=0
+    Debug=0
+    PreRelease=0
+    Special=0
+    Private=0
+    DLL=0
+    Locale=2052
+    CodePage=936
+
+    [Version Info Keys]
+    CompanyName=南京都昌信息科技有限公司
+    FileDescription=
+    FileVersion=1.0.0.0
+    InternalName=
+    LegalCopyright=
+    LegalTrademarks=
+    OriginalFilename=
+    ProductName=DCWriter
+    ProductVersion=1.0.0.0
+    Comments=
+
+    [Debugging]
+    DebugSourceDirs=$(BCB)\source\vcl
+
+    [Parameters]
+    RunParams=
+    Launcher=
+    UseLauncher=0
+    DebugCWD=
+    HostApplication=
+    RemoteHost=
+    RemotePath=
+    RemoteLauncher=
+    RemoteCWD=
+    RemoteDebug=0
+
+    [Compiler]
+    ShowInfoMsgs=0
+    LinkDebugVcl=0
+    LinkCGLIB=0
+
+    [CORBA]
+    AddServerUnit=1
+    AddClientUnit=1
+    PrecompiledHeaders=1
+
+    [Language]
+    ActiveLang=
+    ProjectLang=
+    RootDir=
+
+    [Linker]
+    LibPrefix=
+    LibSuffix=
+    LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

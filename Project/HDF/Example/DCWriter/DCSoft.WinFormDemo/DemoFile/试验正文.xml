@@ -1,0 +1,2086 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.16">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="7" NumOfColumns="5">
+               <Attributes />
+               <ID>table1</ID>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                              <Element xsi:type="XString" StyleIndex="11">
+                                 <Text>XX大学附属XX医院消化内镜中心</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>293</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>设备型号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>EqMode</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>仪器型号</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>128</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.EqMode</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>EqMode</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>仪器型号</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>病 人 号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>PatientID1</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>病人号</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>32</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>field23</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>PatientID1</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>病人号</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>住 院 号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>InPatNo</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>住院号</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>64</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>field22</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>InPatNo</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>住院号</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>姓    名：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>Name1</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>姓名</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>nvarchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>64</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.Name1</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>Name1</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>姓名</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>性  别：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>Sex1</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>性别</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>4</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.Sex1</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>Sex1</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>130.412369</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>性别</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>检查年龄：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>Age1</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>年龄</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>smallint</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>2</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.Age1</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>Age1</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>99.58763</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>年龄</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XString">
+                                 <Text>岁</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>检查类别：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>Eq</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>仪器</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>128</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.Eq</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>Eq</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>20</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>仪器</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="2">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>BSCode</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>BSCode</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>16</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.BSCode</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>BSCode</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>20</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>BSCode</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>科    别：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>ApplyDept</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>送检科室</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>64</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>field26</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>ApplyDept</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>送检科室</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>床    号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>BedNo</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>病床号</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>32</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.BedNo</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>BedNo</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>132.783508</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>病床号</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>申请医生：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>ApplyDr</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>申请医师</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>32</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.ApplyDr</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>ApplyDr</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>申请医师</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="6">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>受检原因：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>ClinicDiagnose</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>临床诊断</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>-1</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.ClinicDiagnose</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>ClinicDiagnose</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>临床诊断</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="6">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="6">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="6">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="6">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="5">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XTextTable" NumOfRows="2" NumOfColumns="4">
+                                 <Attributes />
+                                 <ID>table3</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XTextTableRow">
+                                       <Attributes />
+                                       <ID />
+                                       <Expressions />
+                                       <ScriptItems />
+                                       <EventTemplateName />
+                                       <XElements>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                                             <AutoFixFontSize>true</AutoFixFontSize>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XInputField">
+                                                   <Attributes>
+                                                      <Attribute>
+                                                         <Name>Type</Name>
+                                                         <Value>Image</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Name</Name>
+                                                         <Value>[Image.Thumbnail]</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>DataSource</Name>
+                                                         <Value />
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>AutoSize</Name>
+                                                         <Value>T</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>SelfSize</Name>
+                                                         <Value>F</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Width</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Height</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                   </Attributes>
+                                                   <ID>[Image.Thumbnail]</ID>
+                                                   <EnableValueValidate>true</EnableValueValidate>
+                                                   <Expressions />
+                                                   <ScriptItems />
+                                                   <XElements />
+                                                   <AcceptChildElementTypes2>Image</AcceptChildElementTypes2>
+                                                   <BorderElementColor />
+                                                   <RuntimeBackgroundTextColor />
+                                                   <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                                   <Alignment>Center</Alignment>
+                                                   <EventExpressions />
+                                                   <Name>[Image.Thumbnail]</Name>
+                                                   <BackgroundText>缩略图</BackgroundText>
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XInputField" StyleIndex="0">
+                                                   <Attributes>
+                                                      <Attribute>
+                                                         <Name>Type</Name>
+                                                         <Value>Image</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Name</Name>
+                                                         <Value>[Image.Thumbnail]</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>DataSource</Name>
+                                                         <Value />
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>AutoSize</Name>
+                                                         <Value>T</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>SelfSize</Name>
+                                                         <Value>F</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Width</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Height</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                   </Attributes>
+                                                   <ID>[Image.Thumbnail]</ID>
+                                                   <EnableValueValidate>true</EnableValueValidate>
+                                                   <Expressions />
+                                                   <ScriptItems />
+                                                   <XElements />
+                                                   <AcceptChildElementTypes2>Image</AcceptChildElementTypes2>
+                                                   <BorderElementColor />
+                                                   <RuntimeBackgroundTextColor />
+                                                   <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                                   <Alignment>Center</Alignment>
+                                                   <EventExpressions />
+                                                   <Name>[Image.Thumbnail]</Name>
+                                                   <BackgroundText>缩略图</BackgroundText>
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                                             <AutoFixFontSize>true</AutoFixFontSize>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                       </XElements>
+                                       <SpecifyHeight>661.4173</SpecifyHeight>
+                                    </Element>
+                                    <Element xsi:type="XTextTableRow">
+                                       <Attributes />
+                                       <ID />
+                                       <Expressions />
+                                       <ScriptItems />
+                                       <EventTemplateName />
+                                       <XElements>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                                             <AutoFixFontSize>true</AutoFixFontSize>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XInputField" StyleIndex="0">
+                                                   <Attributes>
+                                                      <Attribute>
+                                                         <Name>Type</Name>
+                                                         <Value>Image</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Name</Name>
+                                                         <Value>[Image.Thumbnail]</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>DataSource</Name>
+                                                         <Value />
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>AutoSize</Name>
+                                                         <Value>T</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>SelfSize</Name>
+                                                         <Value>F</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Width</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Height</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                   </Attributes>
+                                                   <ID>field24</ID>
+                                                   <EnableValueValidate>true</EnableValueValidate>
+                                                   <Expressions />
+                                                   <ScriptItems />
+                                                   <XElements />
+                                                   <AcceptChildElementTypes2>Image</AcceptChildElementTypes2>
+                                                   <BorderElementColor />
+                                                   <RuntimeBackgroundTextColor />
+                                                   <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                                   <Alignment>Center</Alignment>
+                                                   <EventExpressions />
+                                                   <Name>[Image.Thumbnail]</Name>
+                                                   <BackgroundText>缩略图</BackgroundText>
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XInputField" StyleIndex="0">
+                                                   <Attributes>
+                                                      <Attribute>
+                                                         <Name>Type</Name>
+                                                         <Value>Image</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Name</Name>
+                                                         <Value>[Image.Thumbnail]</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>DataSource</Name>
+                                                         <Value />
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>AutoSize</Name>
+                                                         <Value>T</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>SelfSize</Name>
+                                                         <Value>F</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Width</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Height</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                   </Attributes>
+                                                   <ID>field25</ID>
+                                                   <EnableValueValidate>true</EnableValueValidate>
+                                                   <Expressions />
+                                                   <ScriptItems />
+                                                   <XElements />
+                                                   <AcceptChildElementTypes2>Image</AcceptChildElementTypes2>
+                                                   <BorderElementColor />
+                                                   <RuntimeBackgroundTextColor />
+                                                   <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                                   <Alignment>Center</Alignment>
+                                                   <EventExpressions />
+                                                   <Name>[Image.Thumbnail]</Name>
+                                                   <BackgroundText>缩略图</BackgroundText>
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="9">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                                             </XElements>
+                                             <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                                             <AutoFixFontSize>true</AutoFixFontSize>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                       </XElements>
+                                       <SpecifyHeight>661.4173</SpecifyHeight>
+                                    </Element>
+                                 </XElements>
+                                 <CompressOwnerLineSpacing>true</CompressOwnerLineSpacing>
+                                 <Columns>
+                                    <Element xsi:type="XTextTableColumn">
+                                       <Attributes />
+                                       <Width>71.9165344</Width>
+                                    </Element>
+                                    <Element xsi:type="XTextTableColumn">
+                                       <Attributes />
+                                       <Width>977.0931</Width>
+                                    </Element>
+                                    <Element xsi:type="XTextTableColumn">
+                                       <Attributes />
+                                       <Width>978.745056</Width>
+                                    </Element>
+                                    <Element xsi:type="XTextTableColumn">
+                                       <Attributes />
+                                       <Width>147.745178</Width>
+                                    </Element>
+                                 </Columns>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="7">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="6">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>内镜所见：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>OPSDesc</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>镜下所见</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>nvarchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>-1</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.OPSDesc</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>OPSDesc</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>sdfsdfsdfsdfsdfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</Text>
+                                    </Element>
+                                 </XElements>
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue>sdfsdfsdfsdfsdfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</InnerValue>
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>镜下所见</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="12" />
+                           </XElements>
+                           <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                           <AutoFixFontSize>true</AutoFixFontSize>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="8">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XTextTable" NumOfRows="2" NumOfColumns="1">
+                                 <Attributes />
+                                 <ID>table2</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XTextTableRow">
+                                       <Attributes />
+                                       <ID />
+                                       <Expressions />
+                                       <ScriptItems />
+                                       <EventTemplateName />
+                                       <XElements>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="3">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XInputField" StyleIndex="4">
+                                                   <Attributes>
+                                                      <Attribute>
+                                                         <Name>Type</Name>
+                                                         <Value>Image</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Name</Name>
+                                                         <Value>[Image.SketchMap]</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>DataSource</Name>
+                                                         <Value />
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>AutoSize</Name>
+                                                         <Value>T</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>SelfSize</Name>
+                                                         <Value>F</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Width</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>Height</Name>
+                                                         <Value>0</Value>
+                                                      </Attribute>
+                                                   </Attributes>
+                                                   <ID>[Image.SketchMap]</ID>
+                                                   <EnableValueValidate>true</EnableValueValidate>
+                                                   <Expressions />
+                                                   <ScriptItems />
+                                                   <XElements />
+                                                   <AcceptChildElementTypes2>Image</AcceptChildElementTypes2>
+                                                   <BorderElementColor />
+                                                   <RuntimeBackgroundTextColor />
+                                                   <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                                   <Alignment>Center</Alignment>
+                                                   <EventExpressions />
+                                                   <Name>[Image.SketchMap]</Name>
+                                                   <BackgroundText>示意图</BackgroundText>
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" />
+                                             </XElements>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                       </XElements>
+                                       <SpecifyHeight>-413.385834</SpecifyHeight>
+                                    </Element>
+                                    <Element xsi:type="XTextTableRow">
+                                       <Attributes />
+                                       <ID />
+                                       <Expressions />
+                                       <ScriptItems />
+                                       <EventTemplateName />
+                                       <XElements>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="3">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XTextLabelElement" StyleIndex="2">
+                                                   <Attributes>
+                                                      <Attribute>
+                                                         <Name>LabelFieldID</Name>
+                                                         <Value>BHosCheckES.PsItems</Value>
+                                                      </Attribute>
+                                                   </Attributes>
+                                                   <ID>活检部位:</ID>
+                                                   <ScriptItems />
+                                                   <Width>246.610321</Width>
+                                                   <Height>57.0312424</Height>
+                                                   <Text>活检部位:</Text>
+                                                   <PageTexts />
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" />
+                                                <Element xsi:type="XInputField">
+                                                   <Attributes>
+                                                      <Attribute>
+                                                         <Name>TableName</Name>
+                                                         <Value>BHosCheckES</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>FieldName</Name>
+                                                         <Value>PsItems</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>FieldChsName</Name>
+                                                         <Value>活检部位</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>FieldType</Name>
+                                                         <Value>varchar</Value>
+                                                      </Attribute>
+                                                      <Attribute>
+                                                         <Name>FieldLength</Name>
+                                                         <Value>-1</Value>
+                                                      </Attribute>
+                                                   </Attributes>
+                                                   <ID>BHosCheckES.PsItems</ID>
+                                                   <EnableValueValidate>true</EnableValueValidate>
+                                                   <ValueBinding>
+                                                      <DataSource>BHosCheckES</DataSource>
+                                                      <BindingPath>PsItems</BindingPath>
+                                                      <AutoUpdate>true</AutoUpdate>
+                                                   </ValueBinding>
+                                                   <Expressions />
+                                                   <ScriptItems />
+                                                   <XElements />
+                                                   <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                                   <BorderElementColor />
+                                                   <RuntimeBackgroundTextColor />
+                                                   <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                                   <SpecifyWidth>230</SpecifyWidth>
+                                                   <EventExpressions />
+                                                   <InnerValue />
+                                                   <AdornTextType>Custom</AdornTextType>
+                                                   <CustomAdornText>活检部位</CustomAdornText>
+                                                   <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" />
+                                             </XElements>
+                                             <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                                             <AutoFixFontSize>true</AutoFixFontSize>
+                                             <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                          </Element>
+                                       </XElements>
+                                       <SpecifyHeight>-411.8189</SpecifyHeight>
+                                    </Element>
+                                 </XElements>
+                                 <CompressOwnerLineSpacing>true</CompressOwnerLineSpacing>
+                                 <Columns>
+                                    <Element xsi:type="XTextTableColumn">
+                                       <Attributes />
+                                       <Width>609.5834</Width>
+                                    </Element>
+                                 </Columns>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-842.4488</SpecifyHeight>
+                  </Element>
+               </XElements>
+               <CompressOwnerLineSpacing>true</CompressOwnerLineSpacing>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>564.9167</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>423.458435</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>570.4584</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>50</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>589.916748</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XTextTable" NumOfRows="2" NumOfColumns="3">
+               <Attributes />
+               <ID>table4</ID>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>诊断：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>OPSDiagnose</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>镜下诊断</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>nvarchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>-1</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.OPSDiagnose</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>OPSDiagnose</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>镜下诊断</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                           <AutoFixFontSize>true</AutoFixFontSize>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>报告医师：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>ReportDr</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>报告医师</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>32</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.ReportDr</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>ReportDr</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>报告医师</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>护    士：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>Assistant</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>助手</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>32</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.Assistant</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>Assistant</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>助手</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>报告日期：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="2">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>ExamDate</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>报告时间</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>datetime</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>8</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.ExamDate</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>ExamDate</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>yyyy-MM-dd</Format>
+                                 </DisplayFormat>
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>报告时间</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                                 <FieldSettings>
+                                    <EditStyle>DateTime</EditStyle>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                           <AutoFixFontSize>true</AutoFixFontSize>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>262</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XTextLabelElement" StyleIndex="2">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>LabelFieldID</Name>
+                                       <Value>BHosCheckES.CheckDesc</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>建议:</ID>
+                                 <ScriptItems />
+                                 <Width>146.3662</Width>
+                                 <Height>57.0312424</Height>
+                                 <Text>建议:</Text>
+                                 <PageTexts />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>TableName</Name>
+                                       <Value>BHosCheckES</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldName</Name>
+                                       <Value>CheckDesc</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldChsName</Name>
+                                       <Value>建议</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldType</Name>
+                                       <Value>varchar</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>FieldLength</Name>
+                                       <Value>-1</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>BHosCheckES.CheckDesc</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValueBinding>
+                                    <DataSource>BHosCheckES</DataSource>
+                                    <BindingPath>CheckDesc</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <RuntimeBackgroundTextColor />
+                                 <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                                 <SpecifyWidth>230</SpecifyWidth>
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <AdornTextType>Custom</AdornTextType>
+                                 <CustomAdornText>建议</CustomAdornText>
+                                 <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                           <AutoFixFontSize>true</AutoFixFontSize>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="3">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <AutoFixFontSizeMode>MultiLine</AutoFixFontSizeMode>
+                           <AutoFixFontSize>true</AutoFixFontSize>
+                           <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-112</SpecifyHeight>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>223.916687</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>1241.91675</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>732.916748</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>本软件未注册。</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-04-14T14:47:17.9279452+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.11.10</Operator>
+      <NumOfPage>2</NumOfPage>
+   </Info>
+   <BodyText>
+XX大学附属XX医院消化内镜中心 
+设备型号： 病 人 号： 住 院 号： 
+姓    名： 性  别： 检查年龄：岁 检查类别： 
+科    别： 床    号： 申请医生： 
+受检原因： 
+        
+         
+内镜所见：sdfsdfsdfsdfsdfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd   
+活检部位:
+  
+诊断：   报告医师：
+护    士：
+报告日期： 
+建议:   </BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <PageIndexsForHideHeaderFooter />
+      <PrinterName />
+      <PaperSource />
+      <HeaderDistance>0</HeaderDistance>
+      <FooterDistance>0</FooterDistance>
+      <LeftMargin>46</LeftMargin>
+      <TopMargin>31</TopMargin>
+      <RightMargin>46</RightMargin>
+      <BottomMargin>31</BottomMargin>
+   </PageSettings>
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+         <Spacing>1</Spacing>
+         <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+         <LineSpacing>4</LineSpacing>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="2">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Bold>true</Bold>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+         </Style>
+         <Style Index="3">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <BorderWidth>1</BorderWidth>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="4">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+         </Style>
+         <Style Index="5">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <BorderWidth>1</BorderWidth>
+            <BorderTop>true</BorderTop>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="6">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <BorderWidth>1</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="7">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderTop>true</BorderTop>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="8">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <VerticalAlign>Bottom</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="9">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="10">
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="11">
+            <FontName>宋体</FontName>
+            <FontSize>26.25</FontSize>
+            <Bold>true</Bold>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>9</SpacingBeforeParagraph>
+            <LineSpacing>4</LineSpacing>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="12">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Spacing>1</Spacing>
+            <SpacingBeforeParagraph>2.29166675</SpacingBeforeParagraph>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>C:\Users\DCSOFT\Desktop\002.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

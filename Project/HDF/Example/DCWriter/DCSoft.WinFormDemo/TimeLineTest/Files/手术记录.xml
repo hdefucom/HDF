@@ -1,0 +1,3410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="29" NumOfColumns="10">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XTextTable" NumOfRows="1" NumOfColumns="1">
+                                 <Attributes />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XTextTableRow">
+                                       <Attributes />
+                                       <Expressions />
+                                       <ScriptItems />
+                                       <XElements>
+                                          <Element xsi:type="XTextTableCell" StyleIndex="23">
+                                             <Attributes />
+                                             <Expressions />
+                                             <ScriptItems />
+                                             <XElements>
+                                                <Element xsi:type="XString" StyleIndex="24">
+                                                   <Text>手</Text>
+                                                </Element>
+                                                <Element xsi:type="XString" StyleIndex="25" WhiteSpaceLength="2">
+                                                   <Text>  </Text>
+                                                </Element>
+                                                <Element xsi:type="XString" StyleIndex="24">
+                                                   <Text>术</Text>
+                                                </Element>
+                                                <Element xsi:type="XString" StyleIndex="25" WhiteSpaceLength="2">
+                                                   <Text>  </Text>
+                                                </Element>
+                                                <Element xsi:type="XString" StyleIndex="24">
+                                                   <Text>记</Text>
+                                                </Element>
+                                                <Element xsi:type="XString" StyleIndex="25" WhiteSpaceLength="2">
+                                                   <Text>  </Text>
+                                                </Element>
+                                                <Element xsi:type="XString" StyleIndex="24">
+                                                   <Text>录</Text>
+                                                </Element>
+                                                <Element xsi:type="XParagraphFlag" StyleIndex="26" />
+                                             </XElements>
+                                          </Element>
+                                       </XElements>
+                                    </Element>
+                                 </XElements>
+                                 <Columns>
+                                    <Element xsi:type="XTextTableColumn">
+                                       <Attributes />
+                                       <Width>2043.75</Width>
+                                    </Element>
+                                 </Columns>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="195">
+                                 <Text>                                                                                                                                                                                                   </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="1">
+                                 <Text> </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>病案号</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="7" WhiteSpaceLength="14">
+                                 <Text>              </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>姓名</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>性别</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>年龄</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>病床号</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术间号</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>术前临床诊断</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>术后临床诊断</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术适应症</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术名称</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="14">
+                                 <Text>              </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>腹腔镜胆囊切除术（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>LC</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术医师</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="9">
+                                 <Text>         </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>术者：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="17">
+                                 <Text>                 </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>一助：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="26">
+                                 <Text>                          </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>二助：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术时间</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="8">
+                                 <Text>        </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>年</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>月</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>日</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>时</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>分开始</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>时</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>分完毕，共用</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>小时</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>分</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>麻醉方法</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="38">
+                                 <Text>                                      </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>麻醉效果：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="3">
+                                 <Text>   </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>□   </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>1. </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>满意</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>     2. </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>不满意</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>护</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>士</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="13">
+                                 <Text>             </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>刷手：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="14">
+                                 <Text>              </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>巡回：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术经过：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>仰卧位（头高脚低、左倾</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>30º</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>），按常规消毒腹部皮肤，铺无菌巾，于脐孔（上/下）缘，切开皮肤</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>10mm</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>，（气腹针</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>切开腹膜）充</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>CO</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="15">
+                                 <Text>2</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>气，使腹腔内进气达</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>       L</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>，置入</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>10mm   trocar </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>插入腹腔镜。在腔镜引导下于剑突下置入</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>10mm   trocar</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>，右肋缘下置入两个</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>5mm   trocar</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>。探查见肝脏质地（软</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>硬），颜色（正常/红白相间/灰暗），边缘（锐利</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>园钝），其他（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="26">
+                                 <Text>                          </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）；腹腔内（有</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>无）粘连，（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="9">
+                                 <Text>         </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）与（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="13">
+                                 <Text>             </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）相粘连。胆囊形态（正常/悬垂/肝内），与邻近组织（大网膜、十二指肠、胃、结肠）粘连（是/否/紧密/疏松），胆囊萎缩（是/否），大小约</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>      cm</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>×     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>cm</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>×     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>cm</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>，胆囊壁（厚/薄/充血/水肿），颈部结石嵌顿（是/否），胆囊三角区（清楚/不清楚），胆囊管（长</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>       mm</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>，直径</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>       mm</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>），与周围粘连（有/无/轻/中/重）。三角区内脂肪堆积（有/无/薄层/块状/伴慢性炎症反应）。胆囊动脉位于胆囊管（前/后/上/下），（有/无）异常（迷走/缺如/较细小/较粗大），胆囊动脉后支（有/无），胆总管增粗（有/无），其他（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="15">
+                                 <Text>               </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）。手术方式采用（顺切/逆切/顺切</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>+</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>逆切），胆囊减压（是/否）近端以（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）枚（钛夹</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>可吸收夹）夹闭胆囊管后以剪刀剪断，胆囊动脉（钛夹加电凝</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>电凝）处理，将胆囊自胆床剥离（容易</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>困难），胆囊分破（有/无），结石落入腹腔（有/无），结石取出（是/否），胆床止血（有/无/电凝棒/氩气刀），生物蛋白胶喷涂（有/无），其他处理（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="12">
+                                 <Text>            </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）。切下的胆囊经腹壁取出（剑突下/脐下/直接取出/</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>endobag</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>/使用扩张器/延长切口）。气术顺利（是/否），术中出血</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>       ml</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>，术中腹腔冲洗（是/否），术中置腹腔引流（是/否）。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="16" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>备注：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="17" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术结果</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="2">
+                                 <Text>  </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>标本肉眼所见：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>（急性/亚急性/慢性）胆囊炎、胆囊息肉，胆汁颜色质地（</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="29">
+                                 <Text>                             </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>）</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>胆囊内（结石/息肉/胆固醇结晶）</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="6">
+                                 <Text>      </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>枚，直径</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>  cm--  cm</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术中标本送病理</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>□    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>1. </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>是</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>    2. </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>否</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="18">
+                                 <Text>                  </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>标本件数：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="20">
+                                 <Text>                    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>件</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="58">
+                                 <Text>                                                          </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术医师签字：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="18">
+                                 <Text>                  </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="69">
+                                 <Text>                                                                     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>病案号</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="7" WhiteSpaceLength="13">
+                                 <Text>             </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="20" WhiteSpaceLength="6">
+                                 <Text>      </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>姓名</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>性别</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>年龄</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>病床号</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术间号</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>术前临床诊断</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>术后临床诊断</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术适应症</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="9">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术名称</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术医师</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="8">
+                                 <Text>        </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>术者：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="15">
+                                 <Text>               </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>一助：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="14">
+                                 <Text>              </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>二助：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术时间</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="7">
+                                 <Text>       </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>年</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>月</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>日</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>时</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>分开始</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="6">
+                                 <Text>      </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>时</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>分完毕，共用</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>小时</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="4">
+                                 <Text>    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>分钟</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>护士</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="11">
+                                 <Text>           </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>刷手：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="13">
+                                 <Text>             </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>巡回：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="13">
+                                 <Text>             </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>输血量：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>            ml</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术经过：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="16" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术结果</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="2">
+                                 <Text>  </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>标本肉眼所见：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术中标本送病理</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="2">
+                                 <Text>  </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>□   </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>1.</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>是</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>    2.</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>否</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="19">
+                                 <Text>                   </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>标本件数：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="9">
+                                 <Text>         </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>件</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>对</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="1">
+                                 <Text> </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>麻</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="1">
+                                 <Text> </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>醉</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="1">
+                                 <Text> </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>效</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="1">
+                                 <Text> </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>果</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="3">
+                                 <Text>   </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>□   </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>1.</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>满意</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4">
+                                 <Text>  2.</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>不满意</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>注：手术记录由手术者书写</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="4" WhiteSpaceLength="36">
+                                 <Text>                                    </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术医师签字：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="1">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                              <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="74">
+                                 <Text>                                                                          </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                           </XElements>
+                           <ColSpan>10</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="19">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>557</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>33</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>266</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>14</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>102</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>182</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>82</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>326</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>51</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>437</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements />
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements />
+      </Element>
+   </XElements>
+   <Info>
+      <Title> 首都医科大学附属</Title>
+      <LicenseText>南京都昌信息科技有限公司演示版:南京都昌信息科技有限公司演示版</LicenseText>
+      <CreationTime>2013-04-15T10:29:00</CreationTime>
+      <LastModifiedTime>2014-11-17T15:34:12.5471789+08:00</LastModifiedTime>
+      <LastPrintTime>2002-09-03T13:12:00</LastPrintTime>
+      <Author>dlj</Author>
+      <Operator>DCSoft.Writer Version:1.1.1111.29765</Operator>
+      <NumOfPage>2</NumOfPage>
+   </Info>
+   <BodyText>手  术  记  录                                                                                                                                                                                                     病案号               
+姓名 性别 年龄 病床号 手术间号 
+术前临床诊断 
+术后临床诊断 
+手术适应症 
+手术名称              腹腔镜胆囊切除术（LC） 
+手术医师         术者：                 一助：                          二助： 
+手术时间        年     月     日     时     分开始     时     分完毕，共用     小时     分 
+麻醉方法                                      麻醉效果：   □   1. 满意     2. 不满意 
+护    士             刷手：              巡回： 
+手术经过：
+仰卧位（头高脚低、左倾30º），按常规消毒腹部皮肤，铺无菌巾，于脐孔（上/下）缘，切开皮肤10mm，（气腹针/切开腹膜）充CO2气，使腹腔内进气达       L，置入10mm   trocar 插入腹腔镜。在腔镜引导下于剑突下置入10mm   trocar，右肋缘下置入两个5mm   trocar。探查见肝脏质地（软/硬），颜色（正常/红白相间/灰暗），边缘（锐利/园钝），其他（                          ）；腹腔内（有/无）粘连，（         ）与（             ）相粘连。胆囊形态（正常/悬垂/肝内），与邻近组织（大网膜、十二指肠、胃、结肠）粘连（是/否/紧密/疏松），胆囊萎缩（是/否），大小约      cm×     cm×     cm，胆囊壁（厚/薄/充血/水肿），颈部结石嵌顿（是/否），胆囊三角区（清楚/不清楚），胆囊管（长       mm，直径       mm），与周围粘连（有/无/轻/中/重）。三角区内脂肪堆积（有/无/薄层/块状/伴慢性炎症反应）。胆囊动脉位于胆囊管（前/后/上/下），（有/无）异常（迷走/缺如/较细小/较粗大），胆囊动脉后支（有/无），胆总管增粗（有/无），其他（               ）。手术方式采用（顺切/逆切/顺切+逆切），胆囊减压（是/否）近端以（    ）枚（钛夹/可吸收夹）夹闭胆囊管后以剪刀剪断，胆囊动脉（钛夹加电凝/电凝）处理，将胆囊自胆床剥离（容易/困难），胆囊分破（有/无），结石落入腹腔（有/无），结石取出（是/否），胆床止血（有/无/电凝棒/氩气刀），生物蛋白胶喷涂（有/无），其他处理（            ）。切下的胆囊经腹壁取出（剑突下/脐下/直接取出/endobag/使用扩张器/延长切口）。气术顺利（是/否），术中出血       ml，术中腹腔冲洗（是/否），术中置腹腔引流（是/否）。
+备注： 
+手术结果  标本肉眼所见：
+    （急性/亚急性/慢性）胆囊炎、胆囊息肉，胆汁颜色质地（                             ）
+    胆囊内（结石/息肉/胆固醇结晶）      枚，直径  cm--  cm。 
+手术中标本送病理     □    1. 是    2. 否                  标本件数：                    件 
+                                                          手术医师签字：                   
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                     病案号                    
+姓名 性别 年龄 病床号 手术间号 
+术前临床诊断 
+术后临床诊断 
+手术适应症 手术名称   
+手术医师        术者：               一助：              二助： 
+手术时间       年    月    日    时    分开始      时    分完毕，共用     小时    分钟 
+护士           刷手：             巡回：             输血量：            ml 
+手术经过：
+ 
+手术结果  
+标本肉眼所见： 
+手术中标本送病理  □   1.是    2.否                   标本件数：         件 
+对 麻 醉 效 果   □   1.满意  2.不满意 
+注：手术记录由手术者书写                                    手术医师签字： 
+
+                                                                           </BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <LeftMargin>104</LeftMargin>
+      <TopMargin>14</TopMargin>
+      <RightMargin>29</RightMargin>
+      <BottomMargin>16</BottomMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="2">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <BorderWidth>30</BorderWidth>
+         </Style>
+         <Style Index="4">
+            <Color>ControlText</Color>
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="5">
+            <Color>ControlText</Color>
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="6">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="7">
+            <Color>ControlText</Color>
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+            <Bold>true</Bold>
+            <Underline>true</Underline>
+         </Style>
+         <Style Index="8">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+         </Style>
+         <Style Index="9">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+         </Style>
+         <Style Index="10">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <LeftIndent>23</LeftIndent>
+            <BorderWidth>15</BorderWidth>
+         </Style>
+         <Style Index="11">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>15</BorderWidth>
+         </Style>
+         <Style Index="12">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+         </Style>
+         <Style Index="13">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+         </Style>
+         <Style Index="14">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <LeftIndent>17</LeftIndent>
+            <BorderWidth>15</BorderWidth>
+         </Style>
+         <Style Index="15">
+            <Color>ControlText</Color>
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+            <Subscript>true</Subscript>
+         </Style>
+         <Style Index="16">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <FirstLineIndent>87</FirstLineIndent>
+            <LeftIndent>17</LeftIndent>
+            <BorderWidth>15</BorderWidth>
+         </Style>
+         <Style Index="17">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <LeftIndent>21</LeftIndent>
+            <BorderWidth>15</BorderWidth>
+         </Style>
+         <Style Index="18">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <LeftIndent>17</LeftIndent>
+            <BorderWidth>30</BorderWidth>
+         </Style>
+         <Style Index="19">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderTop>true</BorderTop>
+         </Style>
+         <Style Index="20">
+            <Color>ControlText</Color>
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+            <Underline>true</Underline>
+         </Style>
+         <Style Index="21">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>15</BorderWidth>
+         </Style>
+         <Style Index="22">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <BorderWidth>15</BorderWidth>
+         </Style>
+         <Style Index="23">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingBottom>15</PaddingBottom>
+         </Style>
+         <Style Index="24">
+            <Color>ControlText</Color>
+            <FontName>华文中宋</FontName>
+            <FontSize>22</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="25">
+            <Color>ControlText</Color>
+            <FontName>Times New Roman</FontName>
+            <FontSize>22</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="26">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>30</BorderWidth>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

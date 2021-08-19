@@ -1,0 +1,1804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.11.13">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>WHGS</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>昆明市五华区国家税务局标准</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text>WHGS</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text> ZGRD01</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text>—</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>2014</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XTextTable" NumOfRows="1" NumOfColumns="1">
+               <Attributes />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="2">
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="8">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <CompressOwnerLineSpacing>true</CompressOwnerLineSpacing>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>1881</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text>新办增值税一般纳税人资格认定管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="11" />
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>2014</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text> - </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>08</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text> - </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>12发布</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>2015</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text> - </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>01</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text> - </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>01实施</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="12" />
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>昆明市五华区国家税务局发布</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XPageBreak" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="13">
+               <Text>目次</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>前言</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>2</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>1　范围</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>3</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>2　职责</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>3</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>2.1　办税服务厅</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>3</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>2.2　税务分局</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>3</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>2.3　货物和劳务税科</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>3</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>3　新办增值税一般纳税人资格认定管理流程</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>3</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>4　受理申请</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>3</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>5　传递、审批信息</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>4</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>6　资料归档</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>4</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>7　相关记录</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>4</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>8　纳入绩效考评的行为</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>4</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="15">
+               <Text>附录A（规范性附录）　新办增值税一般纳税人资格认定管理流程</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16">
+               <Text>	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17">
+               <Text>5</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XPageBreak" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="13">
+               <Text>前言</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准按照GB/T 1.1—2009《标准化工作导则 第1部分：标准的结构和编写》编制。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准由五华区国家税务局货物和劳务税科提出并归口。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准主要起草单位：五华区国家税务局货物和劳务税科。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准主要起草人：杨兰、张榕、胡跃红、肖雁、张雁、杨迎胜、佘玫、季恒、何佳。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XPageBreak" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="13">
+               <Text>新办增值税一般纳税人资格认定管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>1　	范围</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准规定了五华区国家税务局办理新办增值税一般纳税人资格认定工作的受理申请、录入信息、传递审批信息、资料整理、归档、移交等内容。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准适用于五华区国家税务局实施新办增值税一般纳税人资格认定的事项。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>2　	职责</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>2.1　	办税服务厅</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="23" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>负责文书登记、录入、销号。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>2.2　	税务分局</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="23" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>2.2.1　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>负责受理、传递纳税人提交的认定申请及资料。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>2.2.2　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>负责安排两名以上税收管理员对纳税人进行实地调查和查验，并提出初审原因及意见。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>2.2.3　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>负责填写、审核、传递《增值税一般纳税人资格认定实地查验表》提出初审意见。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>2.3　	货物和劳务税科 </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="23" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>对认定资料、审核意见进行复审并完成文书审批。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>3　	新办增值税一般纳税人资格认定管理流程</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>新办增值税一般纳税人资格认定管理流程见附录A.1。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>4　	受理申请</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>4.1　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>新办纳税人申请增值税一般纳税人资格应符合如下条件：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	有固定的生产经营场所；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	能够按照国家统一的会计制度规定设置账簿，根据合法、有效凭证核算，能够提供准确税务资。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>4.2　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>下列纳税人不办理一般纳税人资格认定：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	个体工商户以外的其他个人；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	不经常提供应税服务的非企业性单位；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	选择按照小规模纳税人纳税的不经常发生应税行为的企业。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>4.3　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>申请办理增值税一般纳税人资格时应由纳税人提交如下资料：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	《增值税一般纳税人认定申请审批表》，一式三份；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	《税务登记证》副本及其复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	财务负责人和办税人员的身份证明及其复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	会计人员的从业资格证明或者与中介机构签订的代理记账协议及其复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	经营场所产权证明或者租赁协议，或者其他可使用场地证明及其复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	国家税务总局规定的其他有关资料。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>4.4　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>新办纳税人办理增值税一般纳税人认定的办理时限：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>自受理申请之日起20日内办结，并由税务分局制作、送达《税务事项通知书》，告知纳税人。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>4.5　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>税务分局应当场核对纳税人的申请资料，经核对一致且申请资料齐全、符合填列要求的，当场受理，并将有关资料的原件退还纳税人，对申请资料不齐全或者不符合填列要求的，应当场告知纳税人需要补正的全部内容。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>4.6　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>税务分局受理纳税人申请，应有两名以上工作人员进行实地查验，制作查验报告，查验报告由纳税人法定代表人（负责人或者业主）、税务查验人员共同签字（签章）确认。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>5　	传递、审批信息</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>5.1　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>办税服务厅在《中国税收征管信息系统》中录入《增值税一般纳税人认定申请审批表》。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>5.2　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>税务分局将《增值税一般纳税人认定申请审批表》连同纳税人报送的资料转货物和劳务税科。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>5.3　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>货物和劳务税科核准审批后转分管局长进行审批，税务分局根据审批结果打印《税务事项通知书》。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>6　	资料归档</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>6.1　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>新办增值税一般纳税人归档的征管资料应包括：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	《增值税一般纳税人认定申请审批表》；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	《税务登记证》副本复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	 财务负责人和办税人员的身份证明及其复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	 会计人员的从业资格证明或者与中介机构签订的代理记账协议及其复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	经营场所产权证明或者租赁协议，或者其他可使用场地证明及其复印件；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>——	国家税务总局规定的其他有关资料。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="24" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>7　	相关记录</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>增值税一般纳税人税务事项通知书(WHGS ZGRD 01 BD01)</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>增值税一般纳税人申请认定表(WHGS ZGRD 01 BD02)</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>8　	纳入绩效考评的行为</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="22" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>8.1　	</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>未按规定做好新办一般纳税人认定。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="25">
+               <Text>A	</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="26" />
+            <Element xsi:type="XPageBreak" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="25">
+               <Text>A	</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27" />
+            <Element xsi:type="XString" StyleIndex="25">
+               <Text>B	</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="26" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>附　录　A	</Text>
+            </Element>
+            <Element xsi:type="XLineBreak" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>（规范性附录）</Text>
+            </Element>
+            <Element xsi:type="XLineBreak" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>新办增值税一般纳税人资格认定管理流程</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="28" />
+            <Element xsi:type="XImage" StyleIndex="29">
+               <Width>1849</Width>
+               <Height>1969</Height>
+               <Image>
+                  <ImageDataBase64String> AQAJAAAD ZKUAAAgA FhAAAAAA FhAAACYG DwAiIFdN RkMBAAAA AAABACTx AAAAAAkA AAAAIAAA 9OYAAPQG AQABAAAA bAAAAAIA AAAAAAAA 2gIAABoE AAAAAAAA AAAAADFZ
+ AAA+gAAA IEVNRgAA AQD0BgEA EwgAAAQA AAAAAAAA AAAAAAAA AAAABAAA AAMAAEAB AADwAAAA AAAAAAAA AAAAAAAA AOIEAICp AwBGAAAA LAAAACAA AABFTUYr AUABABwA
+ AAAQAAAA AhDA2wEA AABgAAAA YAAAAEYA AABwAAAA ZAAAAEVN RiswQAIA EAAAAAQA AAAAAIA/ H0AEAAwA AAAAAAAA HkAFAAwA AAAAAAAA HUAAABQA AAAIAAAA AgAAABkE
+ AAAKQACA JAAAABgA AAD37uj/ AQAAAPYo jEALdh5C Wy4XQo9I fEQhAAAA CAAAAGIA AAAMAAAA AQAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA
+ AAAYAAAA AQAAAAAA AADo7vcA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAwAAAA BAAAACcA AAArAAAA GQQAAAUA AABHAHoC RwCMQaMC jEGjAnoC RwB6AiUA
+ AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A
+ AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA 9iiMQPkX g0R7syhC +ReDRHuz KEILdh5C 9iiMQAt2
+ HkL2KIxA +ReDRAAB AQGBAAAM FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AgAAADgA AAAAAAAA OAAAAAAA
+ AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAACAAAA JQAAAAwA AAAFAACA VgAAADAA AAADAAAA JgAAACwA AAAaBAAA BQAAAEcA jEGjAoxB owJ6AkcA
+ egJHAIxB JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA
+ AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AAD2KIxA +ReDRESR
+ NUT5F4NE RJE1RMP1 6D/2KIxA w/XoP/Yo jED5F4NE AAEBAYEA AAwVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA
+ AAACAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAIA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAAMA AAAAAAAA 2AIAABoE
+ AAAFAAAA RwCMQWUt jEFlLR4A RwAeAEcA jEElAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAIA
+ AABGAAAA NAAAACgA AABFTUYr CkAAgCQA AAAYAAAA 9+7o/wEA AAD2KIxA w/XoP/F4 NERRVxNC JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA
+ AAABAAAA JQAAAAwA AAAIAACA VgAAADAA AAAEAAAA AQAAANcC AAAnAAAA BQAAAEcA HgBHAGsC ZS1rAmUt HgBHAB4A JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA
+ AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA
+ AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AAD2KIxA AZ8aQkSR NUQBnxpC RJE1RMP1 6D/2KIxA w/XoP/Yo jEABnxpC AAEBAYEA AAwVQAEA EAAAAAQA
+ AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAACAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ AAAlAAAA DAAAAAIA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAAMA AAAAAAAA 2AIAACgA AAAFAAAA RwBrAmUt awJlLR4A RwAeAEcA awIlAAAA DAAAAAcA AIAlAAAA DAAAAAAA
+ AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAIA AABGAAAA IAIAABQC AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQvYo
+ jEDD9eg/ CEACBkQA AAA4AAAA AhDA2wAc Rz4AAAAA AAAAAAAA AAAPAAAA VABJAE0A RQBTACAA TgBFAFcA IABSAE8A TQBBAE4A AAA2QAKA qAEAAJwB AAAAAAD/ AQAAAAEA
+ AAAlAAAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAAkOM8 gIuFPgBy nD2Ai4U+
+ AAAAPoCL hT4AxzE+ gIuFPgCO Yz6Ai4U+ gKqKPoCL hT4AjqM+ gIuFPoBx vD6Ai4U+ AFXVPoCL hT6AOO4+ gIuFPgCO Az+Ai4U+ wP8PP4CL hT6AcRw/ gIuFPkDj KD+Ai4U+
+ AFU1P4CL hT7AxkE/ gIuFPoA4 Tj+Ai4U+ QKpaP4CL hT4AHGc/ gIuFPsCN cz+Ai4U+ gP9/P4CL hT6gOIY/ gIuFPoBx jD+Ai4U+ YKqSP4CL hT5A45g/ gIuFPiAc nz+Ai4U+
+ AFWlP4CL hT7gjas/ gIuFPsDG sT+Ai4U+ oP+3P4CL hT6AOL4/ gIuFPmBx xD+Ai4U+ QKrKP4CL hT4g49A/ gIuFPgAc 1z+Ai4U+ 4FTdP4CL hT7AjeM/ gIuFPgAA gD8AAAAA
+ AAAAAAAA gD8AAAAA AAAAAAAA RgAAAFwB AABQAQAA RU1GKytA AAAMAAAA AAAAACpA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEL2KIxA w/XoPwhA AgYoAAAA HAAAAAIQ
+ wNsAHEc+ AAAAAAAA AAAAAAAA AgAAAItb U082QAKA 9AAAAOgA AAAAAAD/ AQAAAAEA AAATAAAA sGWeUp5Y PFAOegBO LIKzfg56 uk5EjTxo pIuaW6F7 BnRBbQt6 /lagxuk/
+ gIuFPhBV AUCAi4U+ 0MYNQICL hT6QOBpA gIuFPlCq JkCAi4U+ EBwzQICL hT7QjT9A gIuFPpD/ S0CAi4U+ UHFYQICL hT4Q42RA gIuFPtBU cUCAi4U+ kMZ9QICL hT4oHIVA
+ gIuFPghV i0CAi4U+ 6I2RQICL hT7IxpdA gIuFPqj/ nUCAi4U+ iDikQICL hT5ocapA gIuFPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA
+ AAAAAAAA FgAAAAwA AAAYAAAA UgAAAHAB AAACAAAA 7f///wAA AAAAAAAA AAAAAJAB AAAAAACG BwAEAItb U08AAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAABAC CgAAAPz/ //9GAAAA JOqeAj4s jDkk6p4C RgAAAPz/ //8c/J4C JOqeAiD8 ngLM5RIA 5lWCOQAA AAAc/J4C IPyeAkUA
+ AABwzJwC AQAAAOzq ngIk6p4C /OueApT2 ngI7AAAA vPSeAoD3 ngIk/J4C COYSAFMg gjk7AAAA cMycAgAA AADw5RIA AAAAALgA k3xIy5wC vOYSAEEA k3w4GjwB XQCTfHzF
+ nAIoLp8C 5OYSAGE+ gjmQzpwC cMycAkjw ngIAAAAA AgAAAPn/ //8BAAAA WNKeAqDP ngJ4zp4C CgAAAFjS ngLEZII5 nK+TAiAA AABwzJwC IAIAAAAA AAAgAgAA ZHYACAAA
+ AAAlAAAA DAAAAAIA AABUAAAA wAAAALQA AAALAAAA CQIAAB0A AAABAAAA AAD6QQAA +kG0AAAA GwAAABMA AABMAAAA AAAAAAAA AAAAAAAA //////// //90AAAA sGWeUp5Y
+ PFAOegBO LIKzfg56 uk5EjTxo pIuaW6F7 BnRBbQt6 /lYgABMA AAATAAAA EwAAABMA AAATAAAA EwAAABMA AAATAAAA EwAAABMA AAATAAAA EwAAABMA AAATAAAA EwAAABMA
+ AAATAAAA EwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA pAAAAJgA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkwA AABAAAAA AhDA2wAA AADOAQAA AAAAAOxR OEACAAAA AgAAAAIA
+ AAACAAAA AAAAAAIA AAAAAABA AACAPwIQ wNsAAAAA AAAA/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAHuz KEJCKd5D RJE1REIp 3kMAAQEB FUABABAA AAAEAAAA AAAAACgA
+ AAAMAAAA AQAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAEgEA EAAAAAAA AAAAAAAA AAAAAAAA
+ AAAAAAAA JQAAAAwA AAABAAAA JwAAABgA AAADAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAADAAAA EwAAAAwA AAACAAAA OwAAAAgA AAAbAAAA EAAAAKMC AACvGwAA NgAAABAA
+ AADRAgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADeAq8b 6AK5G+gC xhvoAtIb 3gLdG9EC 3Rs2AAAA EAAAAKMC AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAAJcC 3RuMAtIb jALGG4wC uRuXAq8b owKvGz0A AAAIAAAA GwAAABAA AAAuAwAA rxsAADYA AAAQAAAA XAMAAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA aAOvG3MD uRtzA8Yb cwPSG2gD 3RtcA90b NgAAABAA AAAuAwAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAhA90b FgPSGxYD xhsWA7kb IQOvGy4D
+ rxs9AAAA CAAAABsA AAAQAAAA uAMAAK8b AAA2AAAA EAAAAOYD AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAPMD rxv9A7kb /QPGG/0D 0hvzA90b 5gPdGzYA
+ AAAQAAAA uAMAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA qwPdG6ED 0huhA8Yb oQO5G6sD rxu4A68b PQAAAAgA AAAbAAAA EAAAAEIE AACvGwAA NgAAABAA
+ AABwBAAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB9BK8b hwS5G4cE xhuHBNIb fQTdG3AE 3Rs2AAAA EAAAAEIE AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAADUE 3RsrBNIb KwTGGysE uRs1BK8b QgSvGz0A AAAIAAAA GwAAABAA AADMBAAA rxsAADYA AAAQAAAA +gQAAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA BwWvGxEF uRsRBcYb EQXSGwcF 3Rv6BN0b NgAAABAA AADMBAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADABN0b tQTSG7UE xhu1BLkb wASvG8wE
+ rxs9AAAA CAAAABsA AAAQAAAA VgUAAK8b AAA2AAAA EAAAAIUF AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJEF rxucBbkb nAXGG5wF 0huRBd0b hQXdGzYA
+ AAAQAAAA VgUAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA SgXdGz8F 0hs/BcYb PwW5G0oF rxtWBa8b PQAAAAgA AAAbAAAA EAAAAOEF AACvGwAA NgAAABAA
+ AAAPBgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAcBq8b Jga5GyYG xhsmBtIb HAbdGw8G 3Rs2AAAA EAAAAOEF AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAANQF 3RvKBdIb ygXGG8oF uRvUBa8b 4QWvGz0A AAAIAAAA GwAAABAA AABrBgAA rxsAADYA AAAQAAAA mQYAAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA pgavG7AG uRuwBsYb sAbSG6YG 3RuZBt0b NgAAABAA AABrBgAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABeBt0b VAbSG1QG xhtUBrkb XgavG2sG
+ rxs9AAAA CAAAABsA AAAQAAAA 9QYAAK8b AAA2AAAA EAAAACMH AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADAH rxs6B7kb OgfGGzoH 0hswB90b IwfdGzYA
+ AAAQAAAA 9QYAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 6AbdG94G 0hveBsYb 3ga5G+gG rxv1Bq8b PQAAAAgA AAAbAAAA EAAAAH8H AACvGwAA NgAAABAA
+ AACuBwAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC6B68b xQe5G8UH xhvFB9Ib ugfdG64H 3Rs2AAAA EAAAAH8H AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAAHMH 3RtoB9Ib aAfGG2gH uRtzB68b fwevGz0A AAAIAAAA GwAAABAA AAAKCAAA rxsAADYA AAAQAAAA OAgAAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA RAivG08I uRtPCMYb TwjSG0QI 3Rs4CN0b NgAAABAA AAAKCAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD9B90b 8wfSG/MH xhvzB7kb /QevGwoI
+ rxs9AAAA CAAAABsA AAAQAAAA lAgAAK8b AAA2AAAA EAAAAMII AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAM8I rxvZCLkb 2QjGG9kI 0hvPCN0b wgjdGzYA
+ AAAQAAAA lAgAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA hwjdG30I 0ht9CMYb fQi5G4cI rxuUCK8b PQAAAAgA AAAbAAAA EAAAAB4J AACvGwAA NgAAABAA
+ AABMCQAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABZCa8b Ywm5G2MJ xhtjCdIb WQndG0wJ 3Rs2AAAA EAAAAB4J AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAABEJ 3RsHCdIb BwnGGwcJ uRsRCa8b HgmvGz0A AAAIAAAA GwAAABAA AACoCQAA rxsAADYA AAAQAAAA 1gkAAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA 4wmvG+4J uRvuCcYb 7gnSG+MJ 3RvWCd0b NgAAABAA AACoCQAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACcCd0b kQnSG5EJ xhuRCbkb nAmvG6gJ
+ rxs9AAAA CAAAABsA AAAQAAAA MwoAAK8b AAA2AAAA EAAAAGEK AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAG0K rxt4Crkb eArGG3gK 0httCt0b YQrdGzYA
+ AAAQAAAA MwoAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA JgrdGxwK 0hscCsYb HAq5GyYK rxszCq8b PQAAAAgA AAAbAAAA EAAAAL0K AACvGwAA NgAAABAA
+ AADrCgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD4Cq8b Agu5GwIL xhsCC9Ib +ArdG+sK 3Rs2AAAA EAAAAL0K AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAALAK 3RumCtIb pgrGG6YK uRuwCq8b vQqvGz0A AAAIAAAA GwAAABAA AABHCwAA rxsAADYA AAAQAAAA dQsAAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA gguvG4wL uRuMC8Yb jAvSG4IL 3Rt1C90b NgAAABAA AABHCwAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA6C90b MAvSGzAL xhswC7kb OguvG0cL
+ rxs9AAAA CAAAABsA AAAQAAAA 0QsAAK8b AAA2AAAA EAAAAP8L AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAwM rxsWDLkb FgzGGxYM 0hsMDN0b /wvdGzYA
+ AAAQAAAA 0QsAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA xQvdG7oL 0hu6C8Yb ugu5G8UL rxvRC68b PQAAAAgA AAAbAAAA EAAAAFwM AACvGwAA NgAAABAA
+ AACKDAAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACWDK8b oQy5G6EM xhuhDNIb lgzdG4oM 3Rs2AAAA EAAAAFwM AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAAE8M 3RtFDNIb RQzGG0UM uRtPDK8b XAyvGz0A AAAIAAAA GwAAABAA AADmDAAA rxsAADYA AAAQAAAA FA0AAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA IQ2vGysN uRsrDcYb Kw3SGyEN 3RsUDd0b NgAAABAA AADmDAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADZDN0b zwzSG88M xhvPDLkb 2QyvG+YM
+ rxs9AAAA CAAAABsA AAAQAAAA cA0AAK8b AAA2AAAA EAAAAJ4N AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKsN rxu1Dbkb tQ3GG7UN 0hurDd0b ng3dGzYA
+ AAAQAAAA cA0AAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA Yw3dG1kN 0htZDcYb WQ25G2MN rxtwDa8b PQAAAAgA AAAbAAAA EAAAAPoN AACvGwAA NgAAABAA
+ AAAoDgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA1Dq8b Pw65Gz8O xhs/DtIb NQ7dGygO 3Rs2AAAA EAAAAPoN AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAAO4N 3RvjDdIb 4w3GG+MN uRvuDa8b +g2vGz0A AAAIAAAA GwAAABAA AACFDgAA rxsAADYA AAAQAAAA sw4AAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA vw6vG8oO uRvKDsYb yg7SG78O 3RuzDt0b NgAAABAA AACFDgAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB4Dt0b bg7SG24O xhtuDrkb eA6vG4UO
+ rxs9AAAA CAAAABsA AAAQAAAA Dw8AAK8b AAA2AAAA EAAAAD0P AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEoP rxtUD7kb VA/GG1QP 0htKD90b PQ/dGzYA
+ AAAQAAAA Dw8AAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA Ag/dG/gO 0hv4DsYb +A65GwIP rxsPD68b PQAAAAgA AAAbAAAA EAAAAJkP AACvGwAA NgAAABAA
+ AADHDwAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADUD68b 3g+5G94P xhveD9Ib 1A/dG8cP 3Rs2AAAA EAAAAJkP AADdGwAA WAAAADQA AAAAAAAA AAAAAP//
+ //////// BgAAAIwP 3RuCD9Ib gg/GG4IP uRuMD68b mQ+vGz0A AAAIAAAA GwAAABAA AAAjEAAA rxsAADYA AAAQAAAA URAAAK8b AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA XhCvG2gQ uRtoEMYb aBDSG14Q 3RtREN0b NgAAABAA AAAjEAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAXEN0b DBDSGwwQ xhsMELkb FxCvGyMQ
+ rxs9AAAA CAAAABsA AAAQAAAA rhAAAK8b AAA2AAAA EAAAANwQ AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAOgQ rxvzELkb 8xDGG/MQ 0hvoEN0b 3BDdGzYA
+ AAAQAAAA rhAAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA oRDdG5YQ 0huWEMYb lhC5G6EQ rxuuEK8b PQAAAAgA AAAbAAAA EAAAADgR AACvGwAA NgAAABAA
+ AABmEQAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABzEa8b fRG5G30R xht9EdIb cxHdG2YR 3Rs2AAAA EAAAADgR AADdGwAA WAAAADQA AAAAAAAA AAAAABYQ
+ AAAmBg8A IiBXTUZD AQAAAAAA AQAAAAAA AAAJAAAA ACAAAPTG AAD0BgEA //////// //8GAAAA KxHdGyER 0hshEcYb IRG5GysR rxs4Ea8b PQAAAAgA AAAbAAAA EAAAAMIR
+ AACvGwAA NgAAABAA AADwEQAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD9Ea8b BxK5GwcS xhsHEtIb /RHdG/AR 3Rs2AAAA EAAAAMIR AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAALUR 3RurEdIb qxHGG6sR uRu1Ea8b whGvGz0A AAAIAAAA GwAAABAA AABMEgAA rxsAADYA AAAQAAAA ehIAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA hxKvG5ES uRuREsYb kRLSG4cS 3Rt6Et0b NgAAABAA AABMEgAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABAEt0b NRLSGzUS
+ xhs1Erkb QBKvG0wS rxs9AAAA CAAAABsA AAAQAAAA 1hIAAK8b AAA2AAAA EAAAAAUT AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAABET rxscE7kb HBPGGxwT
+ 0hsRE90b BRPdGzYA AAAQAAAA 1hIAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA yhLdG78S 0hu/EsYb vxK5G8oS rxvWEq8b PQAAAAgA AAAbAAAA EAAAAGET
+ AACvGwAA NgAAABAA AACPEwAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACcE68b phO5G6YT xhumE9Ib nBPdG48T 3Rs2AAAA EAAAAGET AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAFQT 3RtKE9Ib ShPGG0oT uRtUE68b YROvGz0A AAAIAAAA GwAAABAA AADrEwAA rxsAADYA AAAQAAAA GRQAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA JhSvGzAU uRswFMYb MBTSGyYU 3RsZFN0b NgAAABAA AADrEwAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADeE90b 1BPSG9QT
+ xhvUE7kb 3hOvG+sT rxs9AAAA CAAAABsA AAAQAAAA dRQAAK8b AAA2AAAA EAAAAKMU AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAALAU rxu6FLkb uhTGG7oU
+ 0huwFN0b oxTdGzYA AAAQAAAA dRQAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA aBTdG14U 0hteFMYb XhS5G2gU rxt1FK8b PQAAAAgA AAAbAAAA EAAAAP8U
+ AACvGwAA NgAAABAA AAAuFQAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA6Fa8b RRW5G0UV xhtFFdIb OhXdGy4V 3Rs2AAAA EAAAAP8U AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAPMU 3RvoFNIb 6BTGG+gU uRvzFK8b /xSvGz0A AAAIAAAA GwAAABAA AACKFQAA rxsAADYA AAAQAAAA uBUAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA xBWvG88V uRvPFcYb zxXSG8QV 3Ru4Fd0b NgAAABAA AACKFQAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB9Fd0b cxXSG3MV
+ xhtzFbkb fRWvG4oV rxs9AAAA CAAAABsA AAAQAAAA FBYAAK8b AAA2AAAA EAAAAEIW AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAE8W rxtZFrkb WRbGG1kW
+ 0htPFt0b QhbdGzYA AAAQAAAA FBYAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA BxbdG/0V 0hv9FcYb /RW5GwcW rxsUFq8b PQAAAAgA AAAbAAAA EAAAAJ4W
+ AACvGwAA NgAAABAA AADMFgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADZFq8b 4xa5G+MW xhvjFtIb 2RbdG8wW 3Rs2AAAA EAAAAJ4W AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAJEW 3RuHFtIb hxbGG4cW uRuRFq8b nhavGz0A AAAIAAAA GwAAABAA AAAoFwAA rxsAADYA AAAQAAAA VhcAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA YxevG24X uRtuF8Yb bhfSG2MX 3RtWF90b NgAAABAA AAAoFwAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAcF90b ERfSGxEX
+ xhsRF7kb HBevGygX rxs9AAAA CAAAABsA AAAQAAAA sxcAAK8b AAA2AAAA EAAAAOEX AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAO0X rxv4F7kb +BfGG/gX
+ 0hvtF90b 4RfdGzYA AAAQAAAA sxcAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA phfdG5wX 0hucF8Yb nBe5G6YX rxuzF68b PQAAAAgA AAAbAAAA EAAAAD0Y
+ AACvGwAA NgAAABAA AABrGAAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB4GK8b ghi5G4IY xhuCGNIb eBjdG2sY 3Rs2AAAA EAAAAD0Y AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAADAY 3RsmGNIb JhjGGyYY uRswGK8b PRivGz0A AAAIAAAA GwAAABAA AADHGAAA rxsAADYA AAAQAAAA 9RgAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA AhmvGwwZ uRsMGcYb DBnSGwIZ 3Rv1GN0b NgAAABAA AADHGAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC6GN0b sBjSG7AY
+ xhuwGLkb uhivG8cY rxs9AAAA CAAAABsA AAAQAAAA URkAAK8b AAA2AAAA EAAAAH8Z AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIwZ rxuWGbkb lhnGG5YZ
+ 0huMGd0b fxndGzYA AAAQAAAA URkAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA RRndGzoZ 0hs6GcYb Ohm5G0UZ rxtRGa8b PQAAAAgA AAAbAAAA EAAAANwZ
+ AACvGwAA NgAAABAA AAAKGgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAWGq8b IRq5GyEa xhshGtIb FhrdGwoa 3Rs2AAAA EAAAANwZ AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAM8Z 3RvFGdIb xRnGG8UZ uRvPGa8b 3BmvGz0A AAAIAAAA GwAAABAA AABmGgAA rxsAADYA AAAQAAAA lBoAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA oRqvG6sa uRurGsYb qxrSG6Ea 3RuUGt0b NgAAABAA AABmGgAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABZGt0b TxrSG08a
+ xhtPGrkb WRqvG2Ya rxs9AAAA CAAAABsA AAAQAAAA 8BoAAK8b AAA2AAAA EAAAAB4b AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACsb rxs1G7kb NRvGGzUb
+ 0hsrG90b HhvdGzYA AAAQAAAA 8BoAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 4xrdG9ka 0hvZGsYb 2Rq5G+Ma rxvwGq8b PQAAAAgA AAAbAAAA EAAAAHob
+ AACvGwAA NgAAABAA AACoGwAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC1G68b vxu5G78b xhu/G9Ib tRvdG6gb 3Rs2AAAA EAAAAHob AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAG4b 3RtjG9Ib YxvGG2Mb uRtuG68b ehuvGz0A AAAIAAAA GwAAABAA AAAFHAAA rxsAADYA AAAQAAAA MxwAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA PxyvG0oc uRtKHMYb ShzSGz8c 3RszHN0b NgAAABAA AAAFHAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD4G90b 7hvSG+4b
+ xhvuG7kb +BuvGwUc rxs9AAAA CAAAABsA AAAQAAAA jxwAAK8b AAA2AAAA EAAAAL0c AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMoc rxvUHLkb 1BzGG9Qc
+ 0hvKHN0b vRzdGzYA AAAQAAAA jxwAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA ghzdG3gc 0ht4HMYb eBy5G4Ic rxuPHK8b PQAAAAgA AAAbAAAA EAAAABkd
+ AACvGwAA NgAAABAA AABHHQAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABUHa8b Xh25G14d xhteHdIb VB3dG0cd 3Rs2AAAA EAAAABkd AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAAwd 3RsCHdIb Ah3GGwId uRsMHa8b GR2vGz0A AAAIAAAA GwAAABAA AACjHQAA rxsAADYA AAAQAAAA 0R0AAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA 3h2vG+gd uRvoHcYb 6B3SG94d 3RvRHd0b NgAAABAA AACjHQAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACXHd0b jB3SG4wd
+ xhuMHbkb lx2vG6Md rxs9AAAA CAAAABsA AAAQAAAA Lh4AAK8b AAA2AAAA EAAAAFwe AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGge rxtzHrkb cx7GG3Me
+ 0htoHt0b XB7dGzYA AAAQAAAA Lh4AAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA IR7dGxYe 0hsWHsYb Fh65GyEe rxsuHq8b PQAAAAgA AAAbAAAA EAAAALge
+ AACvGwAA NgAAABAA AADmHgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADzHq8b /R65G/0e xhv9HtIb 8x7dG+Ye 3Rs2AAAA EAAAALge AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAKse 3RuhHtIb oR7GG6Ee uRurHq8b uB6vGz0A AAAIAAAA GwAAABAA AABCHwAA rxsAADYA AAAQAAAA cB8AAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA fR+vG4cf uRuHH8Yb hx/SG30f 3RtwH90b NgAAABAA AABCHwAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA1H90b Kx/SGysf
+ xhsrH7kb NR+vG0If rxs9AAAA CAAAABsA AAAQAAAA zB8AAK8b AAA2AAAA EAAAAPof AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAcg rxsRILkb ESDGGxEg
+ 0hsHIN0b +h/dGzYA AAAQAAAA zB8AAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA wB/dG7Uf 0hu1H8Yb tR+5G8Af rxvMH68b PQAAAAgA AAAbAAAA EAAAAFYg
+ AACvGwAA NgAAABAA AACFIAAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACRIK8b nCC5G5wg xhucINIb kSDdG4Ug 3Rs2AAAA EAAAAFYg AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAEog 3Rs/INIb PyDGGz8g uRtKIK8b ViCvGz0A AAAIAAAA GwAAABAA AADhIAAA rxsAADYA AAAQAAAA DyEAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA HCGvGyYh uRsmIcYb JiHSGxwh 3RsPId0b NgAAABAA AADhIAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADUIN0b yiDSG8og
+ xhvKILkb 1CCvG+Eg rxs9AAAA CAAAABsA AAAQAAAA ayEAAK8b AAA2AAAA EAAAAJkh AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKYh rxuwIbkb sCHGG7Ah
+ 0humId0b mSHdGzYA AAAQAAAA ayEAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA XiHdG1Qh 0htUIcYb VCG5G14h rxtrIa8b PQAAAAgA AAAbAAAA EAAAAPUh
+ AACvGwAA NgAAABAA AAAjIgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAwIq8b OiK5Gzoi xhs6ItIb MCLdGyMi 3Rs2AAAA EAAAAPUh AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAOgh 3RveIdIb 3iHGG94h uRvoIa8b 9SGvGz0A AAAIAAAA GwAAABAA AAB/IgAA rxsAADYA AAAQAAAA riIAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA uiKvG8Ui uRvFIsYb xSLSG7oi 3RuuIt0b NgAAABAA AAB/IgAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABzIt0b aCLSG2gi
+ xhtoIrkb cyKvG38i rxs9AAAA CAAAABsA AAAQAAAA CiMAAK8b AAA2AAAA EAAAADgj AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEQj rxtPI7kb TyPGG08j
+ 0htEI90b OCPdGzYA AAAQAAAA CiMAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA /SLdG/Mi 0hvzIsYb 8yK5G/0i rxsKI68b PQAAAAgA AAAbAAAA EAAAAJQj
+ AACvGwAA NgAAABAA AADCIwAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADPI68b 2SO5G9kj xhvZI9Ib zyPdG8Ij 3Rs2AAAA EAAAAJQj AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAIcj 3Rt9I9Ib fSPGG30j uRuHI68b lCOvGz0A AAAIAAAA GwAAABAA AAAeJAAA rxsAADYA AAAQAAAA TCQAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA WSSvG2Mk uRtjJMYb YyTSG1kk 3RtMJN0b NgAAABAA AAAeJAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAARJN0b ByTSGwck
+ xhsHJLkb ESSvGx4k rxs9AAAA CAAAABsA AAAQAAAA qCQAAK8b AAA2AAAA EAAAANYk AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAOMk rxvuJLkb 7iTGG+4k
+ 0hvjJN0b 1iTdGzYA AAAQAAAA qCQAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA nCTdG5Ek 0huRJMYb kSS5G5wk rxuoJK8b PQAAAAgA AAAbAAAA EAAAADMl
+ AACvGwAA NgAAABAA AABhJQAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABtJa8b eCW5G3gl xht4JdIb bSXdG2El 3Rs2AAAA EAAAADMl AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAACYl 3RscJdIb HCXGGxwl uRsmJa8b MyWvGz0A AAAIAAAA GwAAABAA AAC9JQAA rxsAADYA AAAQAAAA 6yUAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA +CWvGwIm uRsCJsYb AibSG/gl 3RvrJd0b NgAAABAA AAC9JQAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACwJd0b piXSG6Yl
+ xhumJbkb sCWvG70l rxs9AAAA CAAAABsA AAAQAAAA RyYAAK8b AAA2AAAA EAAAAHUm AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIIm rxuMJrkb jCbGG4wm
+ 0huCJt0b dSbdGzYA AAAQAAAA RyYAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA OibdGzAm 0hswJsYb MCa5Gzom rxtHJq8b PQAAAAgA AAAbAAAA EAAAANEm
+ AACvGwAA NgAAABAA AAD/JgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAMJ68b Fie5GxYn xhsWJ9Ib DCfdG/8m 3Rs2AAAA EAAAANEm AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAMUm 3Ru6JtIb uibGG7om uRvFJq8b 0SavGz0A AAAIAAAA GwAAABAA AABcJwAA rxsAADYA AAAQAAAA iicAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA lievG6En uRuhJ8Yb oSfSG5Yn 3RuKJ90b NgAAABAA AABcJwAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABPJ90b RSfSG0Un
+ xhtFJ7kb TyevG1wn rxs9AAAA CAAAABsA AAAQAAAA 5icAAK8b AAA2AAAA EAAAABQo AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACEo rxsrKLkb KyjGGyso
+ 0hshKN0b FCjdGzYA AAAQAAAA 5icAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 2SfdG88n 0hvPJ8Yb zye5G9kn rxvmJ68b PQAAAAgA AAAbAAAA EAAAAHAo
+ AACvGwAA NgAAABAA AACeKAAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACrKK8b tSi5G7Uo xhu1KNIb qyjdG54o 3Rs2AAAA EAAAAHAo AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAGMo 3RtZKNIb WSjGG1ko uRtjKK8b cCivGz0A AAAIAAAA GwAAABAA AAD6KAAA rxsAADYA AAAQAAAA KCkAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA NSmvGz8p uRs/KcYb PynSGzUp 3RsoKd0b NgAAABAA AAD6KAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADuKN0b 4yjSG+Mo
+ xhvjKLkb 7iivG/oo rxs9AAAA CAAAABsA AAAQAAAA hSkAAK8b AAA2AAAA EAAAALMp AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAL8p rxvKKbkb yinGG8op
+ 0hu/Kd0b syndGzYA AAAQAAAA hSkAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA eCndG24p 0htuKcYb bim5G3gp rxuFKa8b PQAAAAgA AAAbAAAA EAAAAA8q
+ AACvGwAA NgAAABAA AAA9KgAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABKKq8b VCq5G1Qq xhtUKtIb SirdGz0q 3Rs2AAAA EAAAAA8q AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAAIq 3Rv4KdIb +CnGG/gp uRsCKq8b DyqvGz0A AAAIAAAA GwAAABAA AACZKgAA rxsAADYA AAAQAAAA xyoAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA 1CqvG94q uRveKsYb 3irSG9Qq 3RvHKt0b NgAAABAA AACZKgAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACMKt0b girSG4Iq
+ xhuCKrkb jCqvG5kq rxs9AAAA CAAAABsA AAAQAAAA IysAAK8b AAA2AAAA EAAAAFEr AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAF4r rxtoK7kb aCvGG2gr
+ 0hteK90b USvdGzYA AAAQAAAA IysAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA FyvdGwwr 0hsMK8Yb DCu5Gxcr rxsjK68b PQAAAAgA AAAbAAAA EAAAAK4r
+ AACvGwAA NgAAABAA AADcKwAA rxsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADoK68b 8yu5G/Mr xhvzK9Ib 6CvdG9wr 3Rs2AAAA EAAAAK4r AADdGwAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAKEr 3RuWK9Ib livGG5Yr uRuhK68b riuvGz0A AAAIAAAA GwAAABAA AAA4LAAA rxsAADYA AAAQAAAA ZiwAAK8b AABYAAAA NAAAAAAA
+ AAAAAAAA //////// //8GAAAA cyyvG30s uRt9LMYb fSzSG3Ms 3RtmLN0b NgAAABAA AAA4LAAA 3RsAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAArLN0b ISzSGyEs
+ xhshLLkb KyyvGzgs rxs9AAAA CAAAABsA AAAQAAAA wiwAAK8b AAA2AAAA EAAAAPAs AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAP0s rxsHLbkb By3GGwct
+ 0hv9LN0b 8CzdGzYA AAAQAAAA wiwAAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA tSzdG6ss 0hurLMYb qyy5G7Us rxsWEAAA JgYPACIg V01GQwEA AAAAAAEA
+ AAAAAAAA CQAAAAAg AAD0pgAA 9AYBAMIs rxs9AAAA CAAAABsA AAAQAAAA TC0AAK8b AAA2AAAA EAAAAGUt AACvGwAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAHIt
+ rxt8Lbkb fC3GG3wt 0htyLd0b ZS3dGzYA AAAQAAAA TC0AAN0b AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA QC3dGzUt 0hs1LcYb NS25G0At rxtMLa8b PQAAAAgA
+ AAA8AAAA CAAAAD8A AAAYAAAA JwAAALkB AADaAgAA wAEAABMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCUA AAAMAAAA BwAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA
+ AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACUAAAA iAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA 7FE4QAIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA
+ AAAAAAD/ CEABAzQA AAAoAAAA AhDA2wMA AAAAAAAA 9iiMQEIp 3kOaOLpB EHbnQ3uz KEJCKd5D AAEBARVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA
+ gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAC4A AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA
+ AAAoAAAA AgAAALkB AAAtAAAA 0gEAAAMA AABHAMYb dQHvHKMC xhslAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA
+ AAAoAAAA DAAAAAEA AABGAAAA uAAAAKwA AABFTUYr KkAAACQA AAAYAAAA AAAAAAAA wMIAAMBC AAAAAFSk X0Gpz+JD CEACBigA AAAcAAAA AhDA2wCr Kj4AAAAA AAAAAAAA
+ AAACAAAA i1tTTzZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA AABIaDRZ oVt5YgBw /D0AWxs+ gHGUPgBb Gz4Ax+k+ AFsbPkCO Hz8AWxs+ AACAPwAA AAAAAAAA AACAPwAA
+ AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA KAAAAAwA AAACAAAA UgAAAHAB AAACAAAA 8P///wAA AACEAwAA hAMAAJAB AAAAAACG BwAEAItb
+ U08AAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAII5 T0mCOQsA AAAIAAAA lPKeAj4s jDmU8p4C CAAAAAsA
+ AACM8p4C lPKeAiAA AADM5RIA 5lWCOQAA AACM8p4C jvKeAgcA AAAw/Z0C AQAAAFzz ngIAABUA TPSeAlTt ngI8AAAA dOueAkTu ngKM8gEA BAAAACzl EgA8AAAA IOYSAAAA
+ knxgAJN8 /////10A k3z6mYB8 AAAVAAAA AAANmoB8 OxAKG5Br HAAgQPN3 5OYSAGE+ gjkQ/50C MP2dAvzl EgAAAAAA lO8SAEib g3wQmoB8 /////w2a gHzl++93 kGscAAIA
+ AAAAAAEA 1QohOAEA AABk5hIA yyvwdyBA 83c7EAob ZHYACAAA AAAlAAAA DAAAAAIA AABUAAAA VAAAAA8A AAC5AQAA HwAAALoB AAABAAAA AAD6QQAA +kEdAAAA ugEAAAEA
+ AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA SGgAAAAA AABUAAAA VAAAAA8A AACpAQAA HwAAAKoB AAABAAAA AAD6QQAA +kEdAAAA qgEAAAEA AABMAAAA AAAAAAAA
+ AAAAAAAA //////// //9QAAAA NFkAAAAA AABUAAAA VAAAAA8A AACZAQAA HwAAAJoB AAABAAAA AAD6QQAA +kEdAAAA mgEAAAEA AABMAAAA AAAAAAAA AAAAAAAA ////////
+ //9QAAAA oVsAAAAA AABUAAAA VAAAAA8A AACJAQAA HwAAAIoB AAABAAAA AAD6QQAA +kEdAAAA igEAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA eWIAAAAA
+ AAAlAAAA DAAAAA0A AIBGAAAA pAAAAJgA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkwA AABAAAAA AhDA2wAA AADOAQAA AAAAAOxR OEACAAAA AgAAAAIA AAACAAAA AAAAAAIA
+ AAAAAABA AACAPwIQ wNsAAAAA AAAA/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAHuz KEIcxUhE RJE1RBzF SEQAAQEB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA
+ AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAEgEA EAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA
+ AAADAAAA EwAAAAwA AAACAAAA OwAAAAgA AAAbAAAA EAAAAKMC AAAbMgAA NgAAABAA AADRAgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADeAhsy 6AIlMugC
+ MjLoAj4y 3gJJMtEC STI2AAAA EAAAAKMC AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJcC STKMAj4y jAIyMowC JTKXAhsy owIbMj0A AAAIAAAA GwAAABAA
+ AAAuAwAA GzIAADYA AAAQAAAA XAMAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA aAMbMnMD JTJzAzIy cwM+MmgD STJcA0ky NgAAABAA AAAuAwAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AAAhA0ky FgM+MhYD MjIWAyUy IQMbMi4D GzI9AAAA CAAAABsA AAAQAAAA uAMAABsy AAA2AAAA EAAAAOYD AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAPMD GzL9AyUy /QMyMv0D PjLzA0ky 5gNJMjYA AAAQAAAA uAMAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA qwNJMqED
+ PjKhAzIy oQMlMqsD GzK4Axsy PQAAAAgA AAAbAAAA EAAAAEIE AAAbMgAA NgAAABAA AABwBAAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB9BBsy hwQlMocE
+ MjKHBD4y fQRJMnAE STI2AAAA EAAAAEIE AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADUE STIrBD4y KwQyMisE JTI1BBsy QgQbMj0A AAAIAAAA GwAAABAA
+ AADMBAAA GzIAADYA AAAQAAAA +gQAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA BwUbMhEF JTIRBTIy EQU+MgcF STL6BEky NgAAABAA AADMBAAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AADABEky tQQ+MrUE MjK1BCUy wAQbMswE GzI9AAAA CAAAABsA AAAQAAAA VgUAABsy AAA2AAAA EAAAAIUF AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAJEF GzKcBSUy nAUyMpwF PjKRBUky hQVJMjYA AAAQAAAA VgUAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA SgVJMj8F
+ PjI/BTIy PwUlMkoF GzJWBRsy PQAAAAgA AAAbAAAA EAAAAOEF AAAbMgAA NgAAABAA AAAPBgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAcBhsy JgYlMiYG
+ MjImBj4y HAZJMg8G STI2AAAA EAAAAOEF AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAANQF STLKBT4y ygUyMsoF JTLUBRsy 4QUbMj0A AAAIAAAA GwAAABAA
+ AABrBgAA GzIAADYA AAAQAAAA mQYAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA pgYbMrAG JTKwBjIy sAY+MqYG STKZBkky NgAAABAA AABrBgAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AABeBkky VAY+MlQG MjJUBiUy XgYbMmsG GzI9AAAA CAAAABsA AAAQAAAA 9QYAABsy AAA2AAAA EAAAACMH AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAADAH GzI6ByUy OgcyMjoH PjIwB0ky IwdJMjYA AAAQAAAA 9QYAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 6AZJMt4G
+ PjLeBjIy 3gYlMugG GzL1Bhsy PQAAAAgA AAAbAAAA EAAAAH8H AAAbMgAA NgAAABAA AACuBwAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC6Bxsy xQclMsUH
+ MjLFBz4y ugdJMq4H STI2AAAA EAAAAH8H AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAHMH STJoBz4y aAcyMmgH JTJzBxsy fwcbMj0A AAAIAAAA GwAAABAA
+ AAAKCAAA GzIAADYA AAAQAAAA OAgAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA RAgbMk8I JTJPCDIy Twg+MkQI STI4CEky NgAAABAA AAAKCAAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AAD9B0ky 8wc+MvMH MjLzByUy /QcbMgoI GzI9AAAA CAAAABsA AAAQAAAA lAgAABsy AAA2AAAA EAAAAMII AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAM8I GzLZCCUy 2QgyMtkI PjLPCEky wghJMjYA AAAQAAAA lAgAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA hwhJMn0I
+ PjJ9CDIy fQglMocI GzKUCBsy PQAAAAgA AAAbAAAA EAAAAB4J AAAbMgAA NgAAABAA AABMCQAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABZCRsy YwklMmMJ
+ MjJjCT4y WQlJMkwJ STI2AAAA EAAAAB4J AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAABEJ STIHCT4y BwkyMgcJ JTIRCRsy HgkbMj0A AAAIAAAA GwAAABAA
+ AACoCQAA GzIAADYA AAAQAAAA 1gkAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 4wkbMu4J JTLuCTIy 7gk+MuMJ STLWCUky NgAAABAA AACoCQAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AACcCUky kQk+MpEJ MjKRCSUy nAkbMqgJ GzI9AAAA CAAAABsA AAAQAAAA MwoAABsy AAA2AAAA EAAAAGEK AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAG0K GzJ4CiUy eAoyMngK PjJtCkky YQpJMjYA AAAQAAAA MwoAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA JgpJMhwK
+ PjIcCjIy HAolMiYK GzIzChsy PQAAAAgA AAAbAAAA EAAAAL0K AAAbMgAA NgAAABAA AADrCgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD4Chsy AgslMgIL
+ MjICCz4y +ApJMusK STI2AAAA EAAAAL0K AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAALAK STKmCj4y pgoyMqYK JTKwChsy vQobMj0A AAAIAAAA GwAAABAA
+ AABHCwAA GzIAADYA AAAQAAAA dQsAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA ggsbMowL JTKMCzIy jAs+MoIL STJ1C0ky NgAAABAA AABHCwAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AAA6C0ky MAs+MjAL MjIwCyUy OgsbMkcL GzI9AAAA CAAAABsA AAAQAAAA 0QsAABsy AAA2AAAA EAAAAP8L AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAAwM GzIWDCUy FgwyMhYM PjIMDEky /wtJMjYA AAAQAAAA 0QsAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA xQtJMroL
+ PjK6CzIy ugslMsUL GzLRCxsy PQAAAAgA AAAbAAAA EAAAAFwM AAAbMgAA NgAAABAA AACKDAAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACWDBsy oQwlMqEM
+ MjKhDD4y lgxJMooM STI2AAAA EAAAAFwM AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAE8M STJFDD4y RQwyMkUM JTJPDBsy XAwbMj0A AAAIAAAA GwAAABAA
+ AADmDAAA GzIAADYA AAAQAAAA FA0AABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA IQ0bMisN JTIrDTIy Kw0+MiEN STIUDUky NgAAABAA AADmDAAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AADZDEky zww+Ms8M MjLPDCUy 2QwbMuYM GzI9AAAA CAAAABsA AAAQAAAA cA0AABsy AAA2AAAA EAAAAJ4N AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAKsN GzK1DSUy tQ0yMrUN PjKrDUky ng1JMjYA AAAQAAAA cA0AAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA Yw1JMlkN
+ PjJZDTIy WQ0lMmMN GzJwDRsy PQAAAAgA AAAbAAAA EAAAAPoN AAAbMgAA NgAAABAA AAAoDgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA1Dhsy Pw4lMj8O
+ MjI/Dj4y NQ5JMigO STI2AAAA EAAAAPoN AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAO4N STLjDT4y 4w0yMuMN JTLuDRsy +g0bMj0A AAAIAAAA GwAAABAA
+ AACFDgAA GzIAADYA AAAQAAAA sw4AABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA vw4bMsoO JTLKDjIy yg4+Mr8O STKzDkky NgAAABAA AACFDgAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AAB4Dkky bg4+Mm4O MjJuDiUy eA4bMoUO GzI9AAAA CAAAABsA AAAQAAAA Dw8AABsy AAA2AAAA EAAAAD0P AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAEoP GzJUDyUy VA8yMlQP PjJKD0ky PQ9JMjYA AAAQAAAA Dw8AAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA Ag9JMvgO
+ PjL4DjIy +A4lMgIP GzIPDxsy PQAAAAgA AAAbAAAA EAAAAJkP AAAbMgAA NgAAABAA AADHDwAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADUDxsy 3g8lMt4P
+ MjLeDz4y 1A9JMscP STI2AAAA EAAAAJkP AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIwP STKCDz4y gg8yMoIP JTKMDxsy mQ8bMj0A AAAIAAAA GwAAABAA
+ AAAjEAAA GzIAADYA AAAQAAAA URAAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA XhAbMmgQ JTJoEDIy aBA+Ml4Q STJREEky NgAAABAA AAAjEAAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AAAXEEky DBA+MgwQ MjIMECUy FxAbMiMQ GzI9AAAA CAAAABsA AAAQAAAA rhAAABsy AAA2AAAA EAAAANwQ AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAOgQ GzLzECUy 8xAyMvMQ PjLoEEky 3BBJMjYA AAAQAAAA rhAAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA oRBJMpYQ
+ PjKWEDIy lhAlMqEQ GzKuEBsy PQAAAAgA AAAbAAAA EAAAADgR AAAbMgAA NgAAABAA AABmEQAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABzERsy fRElMn0R
+ MjJ9ET4y cxFJMmYR STI2AAAA EAAAADgR AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACsR STIhET4y IREyMiER JTIrERsy OBEbMj0A AAAIAAAA GwAAABAA
+ AADCEQAA GzIAADYA AAAQAAAA 8BEAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA /REbMgcS JTIHEjIy BxI+Mv0R STLwEUky NgAAABAA AADCEQAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AAC1EUky qxE+MqsR MjKrESUy tREbMsIR GzI9AAAA CAAAABsA AAAQAAAA TBIAABsy AAA2AAAA EAAAAHoS AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAIcS GzKREiUy kRIyMpES PjKHEkky ehJJMjYA AAAQAAAA TBIAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA QBJJMjUS
+ PjI1EjIy NRIlMkAS GzJMEhsy PQAAAAgA AAAbAAAA EAAAANYS AAAbMgAA NgAAABAA AAAFEwAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAARExsy HBMlMhwT
+ MjIcEz4y ERNJMgUT STI2AAAA EAAAANYS AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMoS STK/Ej4y vxIyMr8S JTLKEhsy 1hIbMj0A AAAIAAAA GwAAABAA
+ AABhEwAA GzIAADYA AAAQAAAA jxMAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA nBMbMqYT JTKmEzIy phM+MpwT STKPE0ky NgAAABAA AABhEwAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AABUE0ky ShM+MkoT MjJKEyUy VBMbMmET GzI9AAAA CAAAABsA AAAQAAAA 6xMAABsy AAA2AAAA EAAAABkU AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAACYU GzIwFCUy MBQyMjAU PjImFEky GRRJMjYA AAAQAAAA 6xMAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 3hNJMtQT
+ PjLUEzIy 1BMlMt4T GzLrExsy PQAAAAgA AAAbAAAA EAAAAHUU AAAbMgAA NgAAABAA AACjFAAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACwFBsy uhQlMroU
+ MjK6FD4y sBRJMqMU STI2AAAA EAAAAHUU AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGgU STJeFD4y XhQyMl4U JTJoFBsy dRQbMj0A AAAIAAAA GwAAABAA
+ AAD/FAAA GzIAADYA AAAQAAAA LhUAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA OhUbMkUV JTJFFTIy RRU+MjoV STIuFUky NgAAABAA AAD/FAAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AADzFEky 6BQ+MugU MjLoFCUy 8xQbMv8U GzI9AAAA CAAAABsA AAAQAAAA ihUAABsy AAA2AAAA EAAAALgV AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAMQV GzLPFSUy zxUyMs8V PjLEFUky uBVJMjYA AAAQAAAA ihUAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA fRVJMnMV
+ PjJzFTIy cxUlMn0V GzKKFRsy PQAAAAgA AAAbAAAA EAAAABQW AAAbMgAA NgAAABAA AABCFgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABPFhsy WRYlMlkW
+ MjJZFj4y TxZJMkIW STI2AAAA EAAAABQW AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAcW STL9FT4y /RUyMv0V JTIHFhsy FBYbMj0A AAAIAAAA GwAAABAA
+ AACeFgAA GzIAADYA AAAQAAAA zBYAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 2RYbMuMW JTLjFjIy 4xY+MtkW STLMFkky NgAAABAA AACeFgAA STIAAFgA
+ AAA0AAAA AAAAAAAA AAD///// /////wYA AACRFkky hxY+MocW MjKHFiUy kRYbMp4W GzI9AAAA CAAAABsA AAAQAAAA KBcAABsy AAA2AAAA EAAAAFYX AAAbMgAA WAAAADQA
+ AAAAAAAA AAAAAP// //////// BgAAAGMX GzJuFyUy bhcyMm4X PjJjF0ky VhdJMjYA AAAQAAAA KBcAAEky AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA HBdJMhEX
+ PjIRFzIy ERclMhwX GzIoFxsy PQAAAAgA AAAbAAAA EAAAALMX AAAbMgAA NgAAABAA AADhFwAA FhAAACYG DwAiIFdN RkMBAAAA AAABAAAA AAAAAAkA AAAAIAAA 9IYAAPQG
+ AQAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAO0X GzL4FyUy +BcyMvgX PjLtF0ky 4RdJMjYA AAAQAAAA sxcAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA phdJMpwX PjKcFzIy nBclMqYX GzKzFxsy PQAAAAgA AAAbAAAA EAAAAD0Y AAAbMgAA NgAAABAA AABrGAAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AAB4GBsy ghglMoIY MjKCGD4y eBhJMmsY STI2AAAA EAAAAD0Y AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADAY STImGD4y JhgyMiYY JTIwGBsy PRgbMj0A
+ AAAIAAAA GwAAABAA AADHGAAA GzIAADYA AAAQAAAA 9RgAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA AhkbMgwZ JTIMGTIy DBk+MgIZ STL1GEky NgAAABAA
+ AADHGAAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC6GEky sBg+MrAY MjKwGCUy uhgbMscY GzI9AAAA CAAAABsA AAAQAAAA URkAABsy AAA2AAAA EAAAAH8Z
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIwZ GzKWGSUy lhkyMpYZ PjKMGUky fxlJMjYA AAAQAAAA URkAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA RRlJMjoZ PjI6GTIy OhklMkUZ GzJRGRsy PQAAAAgA AAAbAAAA EAAAANwZ AAAbMgAA NgAAABAA AAAKGgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AAAWGhsy IRolMiEa MjIhGj4y FhpJMgoa STI2AAAA EAAAANwZ AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAM8Z STLFGT4y xRkyMsUZ JTLPGRsy 3BkbMj0A
+ AAAIAAAA GwAAABAA AABmGgAA GzIAADYA AAAQAAAA lBoAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA oRobMqsa JTKrGjIy qxo+MqEa STKUGkky NgAAABAA
+ AABmGgAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABZGkky Txo+Mk8a MjJPGiUy WRobMmYa GzI9AAAA CAAAABsA AAAQAAAA 8BoAABsy AAA2AAAA EAAAAB4b
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACsb GzI1GyUy NRsyMjUb PjIrG0ky HhtJMjYA AAAQAAAA 8BoAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA 4xpJMtka PjLZGjIy 2RolMuMa GzLwGhsy PQAAAAgA AAAbAAAA EAAAAHob AAAbMgAA NgAAABAA AACoGwAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AAC1Gxsy vxslMr8b MjK/Gz4y tRtJMqgb STI2AAAA EAAAAHob AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAG4b STJjGz4y YxsyMmMb JTJuGxsy ehsbMj0A
+ AAAIAAAA GwAAABAA AAAFHAAA GzIAADYA AAAQAAAA MxwAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA PxwbMkoc JTJKHDIy Shw+Mj8c STIzHEky NgAAABAA
+ AAAFHAAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD4G0ky 7hs+Mu4b MjLuGyUy +BsbMgUc GzI9AAAA CAAAABsA AAAQAAAA jxwAABsy AAA2AAAA EAAAAL0c
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMoc GzLUHCUy 1BwyMtQc PjLKHEky vRxJMjYA AAAQAAAA jxwAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA ghxJMngc PjJ4HDIy eBwlMoIc GzKPHBsy PQAAAAgA AAAbAAAA EAAAABkd AAAbMgAA NgAAABAA AABHHQAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AABUHRsy Xh0lMl4d MjJeHT4y VB1JMkcd STI2AAAA EAAAABkd AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAwd STICHT4y Ah0yMgId JTIMHRsy GR0bMj0A
+ AAAIAAAA GwAAABAA AACjHQAA GzIAADYA AAAQAAAA 0R0AABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 3h0bMugd JTLoHTIy 6B0+Mt4d STLRHUky NgAAABAA
+ AACjHQAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACXHUky jB0+Mowd MjKMHSUy lx0bMqMd GzI9AAAA CAAAABsA AAAQAAAA Lh4AABsy AAA2AAAA EAAAAFwe
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGge GzJzHiUy cx4yMnMe PjJoHkky XB5JMjYA AAAQAAAA Lh4AAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA IR5JMhYe PjIWHjIy Fh4lMiEe GzIuHhsy PQAAAAgA AAAbAAAA EAAAALge AAAbMgAA NgAAABAA AADmHgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AADzHhsy /R4lMv0e MjL9Hj4y 8x5JMuYe STI2AAAA EAAAALge AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKse STKhHj4y oR4yMqEe JTKrHhsy uB4bMj0A
+ AAAIAAAA GwAAABAA AABCHwAA GzIAADYA AAAQAAAA cB8AABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA fR8bMocf JTKHHzIy hx8+Mn0f STJwH0ky NgAAABAA
+ AABCHwAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA1H0ky Kx8+Misf MjIrHyUy NR8bMkIf GzI9AAAA CAAAABsA AAAQAAAA zB8AABsy AAA2AAAA EAAAAPof
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAcg GzIRICUy ESAyMhEg PjIHIEky +h9JMjYA AAAQAAAA zB8AAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA wB9JMrUf PjK1HzIy tR8lMsAf GzLMHxsy PQAAAAgA AAAbAAAA EAAAAFYg AAAbMgAA NgAAABAA AACFIAAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AACRIBsy nCAlMpwg MjKcID4y kSBJMoUg STI2AAAA EAAAAFYg AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEog STI/ID4y PyAyMj8g JTJKIBsy ViAbMj0A
+ AAAIAAAA GwAAABAA AADhIAAA GzIAADYA AAAQAAAA DyEAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA HCEbMiYh JTImITIy JiE+Mhwh STIPIUky NgAAABAA
+ AADhIAAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADUIEky yiA+Msog MjLKICUy 1CAbMuEg GzI9AAAA CAAAABsA AAAQAAAA ayEAABsy AAA2AAAA EAAAAJkh
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKYh GzKwISUy sCEyMrAh PjKmIUky mSFJMjYA AAAQAAAA ayEAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA XiFJMlQh PjJUITIy VCElMl4h GzJrIRsy PQAAAAgA AAAbAAAA EAAAAPUh AAAbMgAA NgAAABAA AAAjIgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AAAwIhsy OiIlMjoi MjI6Ij4y MCJJMiMi STI2AAAA EAAAAPUh AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAOgh STLeIT4y 3iEyMt4h JTLoIRsy 9SEbMj0A
+ AAAIAAAA GwAAABAA AAB/IgAA GzIAADYA AAAQAAAA riIAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA uiIbMsUi JTLFIjIy xSI+Mroi STKuIkky NgAAABAA
+ AAB/IgAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABzIkky aCI+Mmgi MjJoIiUy cyIbMn8i GzI9AAAA CAAAABsA AAAQAAAA CiMAABsy AAA2AAAA EAAAADgj
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEQj GzJPIyUy TyMyMk8j PjJEI0ky OCNJMjYA AAAQAAAA CiMAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA /SJJMvMi PjLzIjIy 8yIlMv0i GzIKIxsy PQAAAAgA AAAbAAAA EAAAAJQj AAAbMgAA NgAAABAA AADCIwAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AADPIxsy 2SMlMtkj MjLZIz4y zyNJMsIj STI2AAAA EAAAAJQj AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIcj STJ9Iz4y fSMyMn0j JTKHIxsy lCMbMj0A
+ AAAIAAAA GwAAABAA AAAeJAAA GzIAADYA AAAQAAAA TCQAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA WSQbMmMk JTJjJDIy YyQ+Mlkk STJMJEky NgAAABAA
+ AAAeJAAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAARJEky ByQ+Mgck MjIHJCUy ESQbMh4k GzI9AAAA CAAAABsA AAAQAAAA qCQAABsy AAA2AAAA EAAAANYk
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAOMk GzLuJCUy 7iQyMu4k PjLjJEky 1iRJMjYA AAAQAAAA qCQAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA nCRJMpEk PjKRJDIy kSQlMpwk GzKoJBsy PQAAAAgA AAAbAAAA EAAAADMl AAAbMgAA NgAAABAA AABhJQAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AABtJRsy eCUlMngl MjJ4JT4y bSVJMmEl STI2AAAA EAAAADMl AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACYl STIcJT4y HCUyMhwl JTImJRsy MyUbMj0A
+ AAAIAAAA GwAAABAA AAC9JQAA GzIAADYA AAAQAAAA 6yUAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA +CUbMgIm JTICJjIy AiY+Mvgl STLrJUky NgAAABAA
+ AAC9JQAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACwJUky piU+MqYl MjKmJSUy sCUbMr0l GzI9AAAA CAAAABsA AAAQAAAA RyYAABsy AAA2AAAA EAAAAHUm
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIIm GzKMJiUy jCYyMowm PjKCJkky dSZJMjYA AAAQAAAA RyYAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA OiZJMjAm PjIwJjIy MCYlMjom GzJHJhsy PQAAAAgA AAAbAAAA EAAAANEm AAAbMgAA NgAAABAA AAD/JgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AAAMJxsy FiclMhYn MjIWJz4y DCdJMv8m STI2AAAA EAAAANEm AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMUm STK6Jj4y uiYyMrom JTLFJhsy 0SYbMj0A
+ AAAIAAAA GwAAABAA AABcJwAA GzIAADYA AAAQAAAA iicAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA licbMqEn JTKhJzIy oSc+MpYn STKKJ0ky NgAAABAA
+ AABcJwAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABPJ0ky RSc+MkUn MjJFJyUy TycbMlwn GzI9AAAA CAAAABsA AAAQAAAA 5icAABsy AAA2AAAA EAAAABQo
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACEo GzIrKCUy KygyMiso PjIhKEky FChJMjYA AAAQAAAA 5icAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA 2SdJMs8n PjLPJzIy zyclMtkn GzLmJxsy PQAAAAgA AAAbAAAA EAAAAHAo AAAbMgAA NgAAABAA AACeKAAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AACrKBsy tSglMrUo MjK1KD4y qyhJMp4o STI2AAAA EAAAAHAo AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGMo STJZKD4y WSgyMlko JTJjKBsy cCgbMj0A
+ AAAIAAAA GwAAABAA AAD6KAAA GzIAADYA AAAQAAAA KCkAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA NSkbMj8p JTI/KTIy Pyk+MjUp STIoKUky NgAAABAA
+ AAD6KAAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADuKEky 4yg+MuMo MjLjKCUy 7igbMvoo GzI9AAAA CAAAABsA AAAQAAAA hSkAABsy AAA2AAAA EAAAALMp
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAL8p GzLKKSUy yikyMsop PjK/KUky sylJMjYA AAAQAAAA hSkAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA eClJMm4p PjJuKTIy biklMngp GzKFKRsy PQAAAAgA AAAbAAAA EAAAAA8q AAAbMgAA NgAAABAA AAA9KgAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AABKKhsy VColMlQq MjJUKj4y SipJMj0q STI2AAAA EAAAAA8q AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAIq STL4KT4y +CkyMvgp JTICKhsy DyobMj0A
+ AAAIAAAA GwAAABAA AACZKgAA GzIAADYA AAAQAAAA xyoAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 1CobMt4q JTLeKjIy 3io+MtQq STLHKkky NgAAABAA
+ AACZKgAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACMKkky gio+MoIq MjKCKiUy jCobMpkq GzI9AAAA CAAAABsA AAAQAAAA IysAABsy AAA2AAAA EAAAAFEr
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAF4r GzJoKyUy aCsyMmgr PjJeK0ky UStJMjYA AAAQAAAA IysAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA FytJMgwr PjIMKzIy DCslMhcr GzIjKxsy PQAAAAgA AAAbAAAA EAAAAK4r AAAbMgAA NgAAABAA AADcKwAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AADoKxsy 8yslMvMr MjLzKz4y 6CtJMtwr STI2AAAA EAAAAK4r AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKEr STKWKz4y lisyMpYr JTKhKxsy risbMj0A
+ AAAIAAAA GwAAABAA AAA4LAAA GzIAADYA AAAQAAAA ZiwAABsy AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA cywbMn0s JTJ9LDIy fSw+MnMs STJmLEky NgAAABAA
+ AAA4LAAA STIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAArLEky ISw+MiEs MjIhLCUy KywbMjgs GzI9AAAA CAAAABsA AAAQAAAA wiwAABsy AAA2AAAA EAAAAPAs
+ AAAbMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAP0s GzIHLSUy By0yMgct PjL9LEky 8CxJMjYA AAAQAAAA wiwAAEky AABYAAAA NAAAAAAA AAAAAAAA ////////
+ //8GAAAA tSxJMqss PjKrLDIy qywlMrUs GzLCLBsy PQAAAAgA AAAbAAAA EAAAAEwt AAAbMgAA NgAAABAA AABlLQAA GzIAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA
+ AAByLRsy fC0lMnwt MjJ8LT4y ci1JMmUt STI2AAAA EAAAAEwt AABJMgAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEAt STI1LT4y NS0yMjUt JTJALRsy TC0bMj0A
+ AAAIAAAA PAAAAAgA AAA/AAAA GAAAACcA AAAgAwAA 2gIAACcD AAATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAlAAAA DAAAAAcA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA
+ gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA lAAAAIgA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAOxR OEACAAAA AgAAAAIA AAACAAAA AAAAAAIQ
+ wNsAAAAA AAAA/whA AQM0AAAA KAAAAAIQ wNsDAAAA AAAAAPYo jEAcxUhE mji6QYNr TUR7syhC HMVIRAAB AQEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA
+ AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAuAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA
+ AIBXAAAA KAAAAAIA AAAgAwAA LQAAADkD AAADAAAA RwAyMnUB WzOjAjIy JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA
+ AAACAAAA KAAAAAwA AAABAAAA RgAAAJAA AACEAAAA RU1GKypA AAAkAAAA GAAAAAAA AAAAAMDC AADAQgAA AABUpF9B UBhLRDZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA
+ AAD7fN9+ oVt5YgBw /D0AWxs+ gHGUPgBb Gz4Ax+k+ AFsbPkCO Hz8AWxs+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA
+ AAAYAAAA JQAAAAwA AAACAAAA VAAAAFQA AAAPAAAA IAMAAB8A AAAhAwAA AQAAAAAA +kEAAPpB HQAAACED AAABAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAPt8
+ AAAAAAAA VAAAAFQA AAAPAAAA EAMAAB8A AAARAwAA AQAAAAAA +kEAAPpB HQAAABED AAABAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAN9+ AAAAAAAA VAAAAFQA
+ AAAPAAAA AAMAAB8A AAABAwAA AQAAAAAA +kEAAPpB HQAAAAED AAABAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAKFb AAAAAAAA VAAAAFQA AAAPAAAA 8AIAAB8A
+ AADxAgAA AQAAAAAA +kEAAPpB HQAAAPEC AAABAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAHli AAAAAAAA JQAAAAwA AAANAACA RgAAALQA AACoAAAA RU1GKytA
+ AAAMAAAA AAAAAAhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA
+ AADhrSpD +ReDRAVh qkP5F4NE BWGqQwt2 HkLhrSpD C3YeQuGt KkP5F4NE AAEBAYEA AAwVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA
+ AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAKkA
+ AAAmAAAA VgEAABoE AAAFAAAA qwqMQU0V jEFNFXoC qwp6AqsK jEElAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA
+ AAAoAAAA DAAAAAEA AABGAAAA NAAAACgA AABFTUYr CkAAgCQA AAAYAAAA 9+7o/wEA AADhrSpD C3YeQikU KkPz+TxC KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA
+ AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA AAAAAOju 9wAAAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AACqAAAA JwAAAFUB AABXAAAA BQAAAKsK
+ egKrCm4F TRVuBU0V egKrCnoC JQAAAAwA AAAHAACA JQAAABYQ AAAmBg8A IiBXTUZD AQAAAAAA AQAAAAAA AAAJAAAA ACAAAPRm AAD0BgEA DAAAAAAA AIAkAAAA JAAAAAAA
+ gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ
+ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAOGt KkP/t61C BWGqQ/+3 rUIFYapD C3YeQuGt KkMLdh5C 4a0qQ/+3 rUIAAQEB gQAADBVA AQAQAAAA BAAAAAAA
+ AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA
+ AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA qQAAACYA AABWAQAA WAAAAAUA AACrCm4F TRVuBU0V egKrCnoC qwpuBSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA
+ AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA hAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC 4a0qQwt2
+ HkI2QAKA XAAAAFAA AAAAAAD/ AQAAAAEA AAAEAAAA DnqhUgZS QFwAbA0/ gA+aPsAW OD+AD5o+ gMFiP4AP mj4gtoY/ gA+aPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA
+ AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACgA AAAMAAAA AgAAAFIA AABwAQAA AgAAAPD/ //8AAAAA AAAAAAAA AACQAQAA AAAAhgcA BACLW1NP AAAAAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAA8AAEA AAAvAAAA OgAAAITx ngI+LIw5 hPGeAjoA AAAvAAAA QvGeAoTx
+ ngIgAAAA zOUSAOZV gjkAAAAA QvGeAkbx ngI5AAAA YB2eAgEA AABM8p4C AAAVACzz ngK87J4C OgAAAOzq ngKk7Z4C VPEBAAQA AAAs5RIA OgAAACDm EgAAAJJ8 YACTfP//
+ //9dAJN8 +pmAfAAA FQAAAAAA DZqAfDsQ ChyQaxwA IEDzd+Tm EgBhPoI5 IB+eAmAd ngL85RIA AAAAAJTv EgBIm4N8 EJqAfP// //8NmoB8 5fvvd5Br HAACAAAA AAABANUK
+ ITgBAAAA ZOYSAMsr 8HcgQPN3 OxAKHGR2 AAgAAAAA JQAAAAwA AAACAAAA VAAAAGQA AADgAAAA NwAAAA8B AABGAAAA AQAAAAAA +kEAAPpB 4AAAAEUA AAAEAAAA TAAAAAAA
+ AAAAAAAA AAAAAP// //////// VAAAAA56 oVIGUkBc EAAAABAA AAAQAAAA AAAAACUA AAAMAAAA DQAAgEYA AAC0AAAA qAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC QAAAADQA
+ AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA BWGqQ/kX g0SGoepD +ReDRIah
+ 6kMLdh5C BWGqQwt2 HkIFYapD +ReDRAAB AQGBAAAM FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA
+ AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AABTAQAA JgAAANcB AAAaBAAA BQAAAE0V
+ jEFVHYxB VR16Ak0V egJNFYxB JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAADQA
+ AAAoAAAA RU1GKwpA AIAkAAAA GAAAAPfu 6P8BAAAA BWGqQwt2 HkICgQBD 8/k8QiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA
+ AAAMAAAA CAAAgFYA AAAwAAAA VAEAACcA AADWAQAA VwAAAAUA AABNFXoC TRVuBVUd bgVVHXoC TRV6AiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA
+ AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA
+ AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA BWGqQ/+3 rUKGoepD /7etQoah 6kMLdh5C BWGqQwt2 HkIFYapD /7etQgAB AQGBAAAM FUABABAA AAAEAAAA AAAAACQA
+ AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA
+ AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AABTAQAA JgAAANcB AABYAAAA BQAAAE0V bgVVHW4F VR16Ak0V egJNFW4F JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA
+ AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAALAA AACkAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEIFYapD C3YeQjZA
+ AoB8AAAA cAAAAAAA AP8BAAAA AQAAAAcA AAAnjWly jFSzUqFS DnrReQBY sD2AD5o+ gGuBPoAP mj4AwdY+ gA+aPkAL Fj+AD5o+ ALZAP4AP mj7AYGs/ gA+aPsAF iz+AD5o+
+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA eAAAAF0B AAA3AAAA vAEAAEYA
+ AAABAAAA AAD6QQAA +kFdAQAA RQAAAAcA AABMAAAA AAAAAAAA AAAAAAAA //////// //9cAAAA J41pcoxU s1KhUg56 0XkAABAA AAAQAAAA EAAAABAA AAAQAAAA EAAAAAAA
+ AAAlAAAA DAAAAA0A AIBGAAAA tAAAAKgA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ
+ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAIah 6kP5F4NE A3EVRPkX g0QDcRVE C3YeQoah 6kMLdh5C hqHqQ/kX g0QAAQEB gQAADBVA AQAQAAAA BAAAAAAA
+ AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA
+ AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA 1AEAACYA AABXAgAA GgQAAAUA AABVHYxB XSWMQV0l egJVHXoC VR2MQSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA
+ AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AAA0AAAA KAAAAEVN RisKQACA JAAAABgA AAD37uj/ AQAAAIah 6kMLdh5C AIEAQ/P5
+ PEIkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAANUB AAAnAAAA VgIAAFcA AAAFAAAA VR16AlUd
+ bgVdJW4F XSV6AlUd egIlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA
+ AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAIah 6kP/t61C A3EVRP+3
+ rUIDcRVE C3YeQoah 6kMLdh5C hqHqQ/+3 rUIAAQEB gQAADBVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA
+ AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA 1AEAACYA AABXAgAA WAAAAAUA
+ AABVHW4F XSVuBV0l egJVHXoC VR1uBSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA
+ AACcAAAA kAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC hqHqQwt2 HkI2QAKA aAAAAFwA AAAAAAD/ AQAAAAEA AAAFAAAA BlKhe0Bc hpj8W4Br gT6AD5o+
+ AMHWPoAP mj5ACxY/ gA+aPgC2 QD+AD5o+ wGBrP4AP mj4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA
+ AAAMAAAA AgAAAFQA AABsAAAA 7gEAADcA AAAtAgAA RgAAAAEA AAAAAPpB AAD6Qe4B AABFAAAA BQAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1gA AAAGUqF7 QFyGmPxb
+ AAAQAAAA EAAAABAA AAAQAAAA AAAAACUA AAAMAAAA DQAAgEYA AAC0AAAA qAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA
+ AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA A3EVRPkX g0REkTVE +ReDRESR NUQLdh5C A3EVRAt2 HkIDcRVE +ReDRAAB
+ AQGBAAAM FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AABUAgAA JgAAANgC AAAaBAAA BQAAAF0l jEFlLYxB ZS16Al0l egJdJYxB JQAAAAwA
+ AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAADQA AAAoAAAA RU1GKwpA AIAkAAAA GAAAAPfu
+ 6P8BAAAA A3EVRAt2 HkIEgQBD 8/k8QiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA VQIAACcA
+ AADXAgAA VwAAAAUA AABdJXoC XSVuBWUt bgVlLXoC XSV6AiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA
+ AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA
+ AAAAAAAA A3EVRP+3 rUJEkTVE /7etQkSR NUQLdh5C A3EVRAt2 HkIDcRVE /7etQgAB AQGBAAAM FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA
+ AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA
+ AABUAgAA JgAAANgC AABYAAAA BQAAAF0l bgVlLW4F ZS16Al0l egJdJW4F JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA
+ AAACAAAA KAAAAAwA AAABAAAA RgAAAJwA AACQAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEIDcRVE C3YeQjZA AoBoAAAA XAAAAAAA AP8BAAAA AQAAAAUA
+ AACeUg56 DWehUoVT gGuBPoAP mj4AwdY+ gA+aPkAL Fj+AD5o+ ALZAP4AP mj7AYGs/ gA+aPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA
+ AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGwA AABuAgAA NwAAAK0C AABGAAAA AQAAAAAA +kEAAPpB bgIAAEUA AAAFAAAA TAAAAAAA AAAAAAAA AAAAAP//
+ //////// WAAAAJ5S DnoNZ6FS hVMAABAA AAAQAAAA EAAAABAA AAAAAAAA JQAAAAwA AAANAACA RgAAALQA AACoAAAA RU1GKytA AAAMAAAA AAAAAAhA AAJAAAAA NAAAAAIQ
+ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AAB7syhC +ReDROGt KkP5F4NE 4a0qQwt2
+ HkJ7syhC C3YeQnuz KEL5F4NE AAEBAYEA AAwVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA
+ AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAACkA AAAmAAAA rAAAABoE AAAFAAAA owKMQasK
+ jEGrCnoC owJ6AqMC jEElAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA NAAAACgA
+ AABFTUYr CkAAgCQA AAAYAAAA 9+7o/wEA AAB7syhC C3YeQgGB AEPz+TxC JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA JQAAAAwA
+ AAAIAACA VgAAADAA AAAqAAAA JwAAAKsA AABXAAAA BQAAAKMC egKjAm4F qwpuBasK egKjAnoC JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA
+ AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA
+ AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AAB7syhC /7etQuGt KkP/t61C 4a0qQwt2 HkJ7syhC C3YeQnuz KEL/t61C AAEBAYEA AAwVQAEA EAAAAAQA AAAAAAAA JAAAACQA
+ AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA
+ AAAlAAAA DAAAAAUA AIBWAAAA MAAAACkA AAAmAAAA rAAAAFgA AAAFAAAA owJuBasK bgWrCnoC owJ6AqMC bgUlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA
+ gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA iAAAAHwA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQnuz KEILdh5C NkACgFQA
+ AABIAAAA AAAA/wEA AAABAAAA AwAAALN+ Dnq6TgDB 1j6AD5o+ QAsWP4AP mj4AtkA/ gA+aPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA
+ AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGAA AABSAAAA NwAAAHEA AABGAAAA AQAAAAAA +kEAAPpB UgAAAEUA AAADAAAA TAAAAAAA AAAAAAAA AAAAAP//
+ //////// VAAAALN+ Dnq6TgAA EAAAABAA AAAAAAAA JQAAAAwA AAANAACA RgAAANQA AADIAAAA RU1GKytA AAAMAAAA AAAAAAhA AQOoAAAA nAAAAAIQ wNsQAAAA AAAAAKpK
+ dEKCHBdD p0p0QtM8 AkMk/ZtC 1KHiQoC8 xULUoeJC 3HvvQtGh 4kLYqQhD 0TwCQ9mp CEOBHBdD 2akIQ4Ec F0PZqQhD gRwXQ9mp CEOBHBdD 2akIQy/8 K0Pge+9C GOg8Q4S8
+ xUIY6DxD KP2bQhjo PEOtSnRC MPwrQ6pK dEKCHBdD AAMDAwMD AwMDAwMD AwMDgxRA AYAQAAAA BAAAAPfu 6P8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA
+ AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAA7AAAA CAAAAFUA AABcAAAA AAAAAAAA AAD///// /////xAA AADSA3IJ 0gMkCOAE FgcuBhYH fAcWB4sI JAiLCHIJ iwhyCYsI
+ cgmLCHIJ iwjACnwH zwsuBs8L 4ATPC9ID wArSA3IJ PAAAAAgA AAA+AAAA GAAAAD0A AABxAAAA iQAAAL0A AAATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA
+ gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA CAEAAPwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ
+ wNsAAAAA AAAA/whA AQOoAAAA nAAAAAIQ wNsQAAAA AAAAAKpK dEKCHBdD p0p0QtM8 AkMk/ZtC 1KHiQoC8 xULUoeJC 3HvvQtGh 4kLYqQhD 0TwCQ9mp CEOBHBdD 2akIQ4Ec
+ F0PZqQhD gRwXQ9mp CEOBHBdD 2akIQy/8 K0Pge+9C GOg8Q4S8 xUIY6DxD KP2bQhjo PEOtSnRC MPwrQ6pK dEKCHBdD AAMDAwMD AwMDAwMD AwMDgxVA AQAQAAAA BAAAAAAA
+ AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA
+ AAAMAAAA AQAAACUA AAAMAAAA BQAAgFUA AABcAAAA PAAAAHAA AACKAAAA vwAAABAA AADSA3IJ 0gMkCOAE FgcuBhYH fAcWB4sI JAiLCHIJ iwhyCYsI cgmLCHIJ iwjACnwH
+ zwsuBs8L 4ATPC9ID wArSA3IJ JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAIwA
+ AACAAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED LAAAACAA AAACEMDb AgAAAAAA
+ AACDvMVC GOg8Q9mp CEMY6DxD AAEDAxVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA
+ AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA YQAAALsA AACKAAAA vwAAAAIA AAAuBs8L iwjPCyUA
+ AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACkAAAA mAAAAEVN RisqQAAA JAAAABgA
+ AAAAAMBC AAAAAAAA AAAAAMBC IAuNQp+H 9UIIQAIG KAAAABwA AAACEMDb AI7jPQAA AAAAAAAA AAAAAAIA AACLW1NP NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAADN1
+ 94sAcjw+ gOapPoAc lz6A5qk+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA KAAAAAwA AAACAAAA UgAAAHAB
+ AAACAAAA 9f///wAA AAAWEAAA JgYPACIg V01GQwEA AAAAAAEA AAAAAAAA CQAAAAAg AAD0RgAA 9AYBAAAA AAAAAAAA kAEAAAAA AIYHAAQA i1tTTwAA AAAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA gjlPSYI5 GgAAACoA AAAk654C PiyMOSTr ngIqAAAA GgAAAGL2 ngIk654C IAAAAMzl
+ EgDmVYI5 AAAAAGL2 ngJo9p4C KQAAAMQs cQMBAAAA 7OueAgAA FQCQ7J4C 7PKeAikA AACk8Z4C kPOeAnz2 AQAEAAAA LOUSACkA AAAg5hIA AACSfGAA k3z///// XQCTfPqZ
+ gHwAABUA AAAAAA2a gHw7EAod kGscACBA 83fk5hIA YT6COQwu cQPELHED /OUSAAAA AACU7xIA SJuDfBCa gHz///// DZqAfOX7 73eQaxwA AgAAAAAA AQDVCiE4 AQAAAGTm
+ EgDLK/B3 IEDzdzsQ Ch1kdgAI AAAAACUA AAAMAAAA AgAAAFQA AABYAAAA WAAAAJIA AABiAAAA nAAAAAEA AAAAAPpB AAD6QVgA AACbAAAA AgAAAEwA AAAAAAAA AAAAAAAA
+ AAD///// /////1AA AAAzdfeL CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA QAAAADQA AABFTUYr K0AAAAwA AAAAAAAA CkAAgCQA AAAYAAAA 9+7o/wEA AACWCFhD r7MCQyAQ
+ iEKMRiNC JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AADYAAAA ggAAAB0B AACsAAAA BQAAAIEN
+ LAiBDbkK whG5CsIR LAiBDSwI JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA
+ AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AACWCFhD UoUrQ1MI
+ jkNShStD UwiOQ6+z AkOWCFhD r7MCQ5YI WENShStD AAEBAYED AwMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA
+ AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAANYA AACBAAAA HgEAAK0A
+ AAAFAAAA gQ25CsIR uQrCESwI gQ0sCIEN uQolAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA
+ AABGAAAA fAAAAHAA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQpYI WEOvswJD NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAANdT BnQA5Hg+ ACR/PoBV
+ tT4AJH8+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AADvAAAA kgAAAPkA
+ AACcAAAA AQAAAAAA +kEAAPpB 7wAAAJsA AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAANdT BnQLAAAA AAAAACUA AAAMAAAA DQAAgEYA AAB0AAAA aAAAAEVN
+ RisrQAAA DAAAAAAA AAAIQAED SAAAADwA AAACEMDb BQAAAAAA AAAjT1ND lSZsQ54M ekMY6FRD DWWQQ5Um bEOeDHpD ibKBQyNP U0OVJmxD AAEBAYED AwMUQAGA EAAAAAQA
+ AAD37uj/ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAADAA AADTAAAA 1AAAACEB
+ AAAEAQAA BQAAADUN ww6hD08N DRLDDqEP NxA1DcMO JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA
+ AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA
+ AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAANIA AADTAAAA IgEAAAUB AAAFAAAA NQ3DDqEP Tw0NEsMO oQ83EDUN ww4lAAAA DAAAAAcA AIAlAAAA DAAAAAAA
+ AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQg3E
+ WUO3t1pD NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAAESN mWUkUppb APbpPQBk Xz4AwmY+ AGRfPoBE rD4AZF8+ ACjlPgBk Xz4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA
+ AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA ZAAAAOUA AADnAAAA BQEAAPEA AAABAAAA AAD6QQAA +kHlAAAA 8AAAAAQA
+ AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA RI2ZZSRS mlsLAAAA CwAAAAsA AAAAAAAA JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA RU1GKytA AAAMAAAA AAAAAApA
+ AIAkAAAA GAAAAPfu 6P8BAAAA lghYQ3mq kUMgEIhC iEYjQiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA
+ AAAwAAAA 2AAAACMB AAAdAQAA TQEAAAUA AACBDTYS gQ3DFMIR wxTCETYS gQ02EiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA
+ AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA
+ AAA8AAAA AhDA2wUA AAAAAAAA lghYQ0oT pkNTCI5D ShOmQ1MI jkN5qpFD lghYQ3mq kUOWCFhD ShOmQwAB AQGBAwMD FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA
+ AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA
+ AAAFAACA VgAAADAA AADWAAAA IgEAAB4B AABOAQAA BQAAAIEN wxTCEcMU whE2EoEN NhKBDcMU JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA
+ AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAHwA AABwAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEKWCFhD eaqRQzZA AoBIAAAA PAAAAAAA
+ AP8BAAAA AQAAAAIA AAAdUqFb AOR4PgAk fz6AVbU+ ACR/PgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA
+ AAAMAAAA AgAAAFQA AABYAAAA 7wAAADIB AAD5AAAA PAEAAAEA AAAAAPpB AAD6Qe8A AAA7AQAA AgAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1AA AAAdUqFb CwAAAAAA
+ AAAlAAAA DAAAAA0A AIBGAAAA QAAAADQA AABFTUYr K0AAAAwA AAAAAAAA CkAAgCQA AAAYAAAA 9+7o/wEA AACWCFhD kze4QyAQ iEKQRiNC JAAAACQA AAAAAIA9 AAAAAAAA
+ AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AADYAAAA cAEAAB0B AACaAQAA BQAAAIEN BxeBDZUZ whGVGcIR BxeBDQcX JQAAAAwA
+ AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA
+ AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AACWCFhD ZaDMQ1MI jkNloMxD UwiOQ5M3 uEOWCFhD kze4Q5YI
+ WENloMxD AAEBAYED AwMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA
+ AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAANYA AABvAQAA HgEAAJsB AAAFAAAA gQ2VGcIR lRnCEQcX gQ0HF4EN
+ lRklAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA fAAAAHAA AABFTUYr KkAAACQA
+ AAAYAAAA AADAQgAA AAAAAAAA AADAQpYI WEOTN7hD NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAAOM 5WcA5Hg+ ACR/PoBV tT4AJH8+ AACAPwAA AAAAAAAA AACAPwAA
+ AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AADvAAAA fwEAAPkA AACJAQAA AQAAAAAA +kEAAPpB 7wAAAIgB
+ AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAAOM 5WcLAAAA AAAAACUA AAAMAAAA DQAAgEYA AAB0AAAA aAAAAEVN RisrQAAA DAAAAAAA AAAIQAED SAAAADwA
+ AAACEMDb BQAAAAAA AACyt7VD /GvCQ28W yUO9zLZD LXXcQ/xr wkNvFslD OgvOQ7K3 tUP8a8JD AAEBAYED AwMUQAGA EAAAAAQA AAD37uj/ JAAAACQA AAAAAIA9 AAAAAAAA
+ AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAADAA AABrAQAA bQEAALkB AACdAQAA BQAAALcW ThgjGdoW jxtOGCMZ
+ whm3Fk4Y JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA
+ AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA
+ AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA
+ AIBWAAAA MAAAAGoB AABsAQAA uwEAAJ4B AAAFAAAA txZOGCMZ 2haPG04Y IxnCGbcW ThglAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA
+ gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA fAAAAHAA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQify uEONtLlD NkACgEgA AAA8AAAA AAAA/wEA
+ AAABAAAA AgAAAKFb eWIAwmY+ AGRfPoBE rD4AZF8+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA
+ AAACAAAA VAAAAFgA AACIAQAA fwEAAJIB AACJAQAA AQAAAAAA +kEAAPpB iAEAAIgB AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAKFb eWILAAAA AAAAACUA
+ AAAMAAAA DQAAgEYA AAB0AAAA aAAAAEVN RisrQAAA DAAAAAAA AAAIQAED SAAAADwA AAACEMDb BQAAAAAA AAD72/dD /GvCQ1yd BUS9zLZD u0wPRPxr wkNcnQVE OgvOQ/vb
+ 90P8a8JD AAEBAYED AwMUQAGA EAAAAAQA AAD37uj/ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA
+ AAAIAACA VgAAADAA AADvAQAA bQEAAD4C AACdAQAA BQAAAPwe ThhoIdoW 1CNOGGgh whn8Hk4Y JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA
+ AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA
+ AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA
+ AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAO4B AABsAQAA PwIAAJ4B AAAFAAAA /B5OGGgh 2hbUI04Y aCHCGfwe
+ ThglAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA fAAAAHAA AABFTUYr KkAAACQA
+ AAAYAAAA AADAQgAA AAAAAAAA AADAQm8W +0ONtLlD NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAKFb eWIAwmY+ AGRfPoBE rD4AZF8+ AACAPwAA AAAAAAAA AACAPwAA
+ AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AAAMAgAA fwEAABYC AACJAQAA AQAAAAAA +kEAAPpB DAIAAIgB
+ AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAKFb eWILAAAA AAAAACUA AAAMAAAA DQAAgEYA AABAAAAA NAAAAEVN RisrQAAA DAAAAAAA AAAKQACA JAAAABgA
+ AAD37uj/ AQAAAH4u HkQQdudD IBCIQpBG I0IkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAHgC
+ AADOAQAA vQIAAPgB AAAFAAAA jCfvHIwn fB/NK3wf zSvvHIwn 7xwlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA
+ AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ
+ wNsFAAAA AAAAAH4u HkTi3vtD gjAvROLe +0OCMC9E EHbnQ34u HkQQdudD fi4eROLe +0MAAQEB gQMDAxVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA
+ gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA
+ AAAwAAAA dwIAAM0B AAC+AgAA +QEAAAUA AACMJ3wf zSt8H80r 7xyMJ+8c jCd8HyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA
+ AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA hAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC fi4eRBB2 50M2QAKA XAAAAFAA AAAAAAD/ AQAAAAEA
+ AAAEAAAA h2VmTlVf ZVEAHQc+ ACR/PgDk eD4AJH8+ gFW1PgAk fz4AOe4+ ACR/PgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA
+ AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABkAAAA hQIAAN4B AAClAgAA 6AEAAAEA AAAAAPpB AAD6QYUC AADnAQAA BAAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1QA
+ AACHZWZO VV9lUQsA AAALAAAA CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA QAAAADQA AABFTUYr K0AAAAwA AAAAAAAA CkAAgCQA AAAYAAAA 9+7o/wEA AACgLv9D EkAGRCAQ
+ iEKQRiNC JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AAD+AQAA GQIAAEMC AABCAgAA BQAAAOYf
+ kCHmHx4k JyQeJCck kCHmH5Ah JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA
+ AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AACgLv9D e3QQRFSZ
+ EER7dBBE VJkQRBJA BkSgLv9D EkAGRKAu /0N7dBBE AAEBAYED AwMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA
+ AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAP0B AAAXAgAA RAIAAEMC
+ AAAFAAAA 5h8eJCck HiQnJJAh 5h+QIeYf HiQlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA
+ AABGAAAA kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQqAu /0MSQAZE NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAAIdl Zk6hW3li AB0HPgAk
+ fz4A5Hg+ ACR/PoBV tT4AJH8+ ADnuPgAk fz4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA
+ AABUAAAA ZAAAAAsC AAAoAgAA KwIAADIC AAABAAAA AAD6QQAA +kELAgAA MQIAAAQA AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA h2VmTqFb eWILAAAA CwAAAAsA
+ AAAAAAAA JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA RU1GKytA AAAMAAAA AAAAAApA AIAkAAAA GAAAAPfu 6P8BAAAA Vwq9QxJA BkQgEIhC kEYjQiQA AAAkAAAA AACAPQAA
+ AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA egEAABkC AAC/AQAA QgIAAAUA AACiF5Ah ohceJOIb HiTiG5Ah oheQISUA
+ AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A
+ AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA Vwq9Q3t0 EERfDt9D e3QQRF8O 30MSQAZE FhAAACYG
+ DwAiIFdN RkMBAAAA AAABAAAA AAAAAAkA AAAAIAAA 9CYAAPQG AQBXCr1D EkAGRFcK vUN7dBBE AAEBAYED AwMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA
+ AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA
+ AIBWAAAA MAAAAHkB AAAXAgAA wAEAAEMC AAAFAAAA ohceJOIb HiTiG5Ah oheQIaIX HiQlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA
+ gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQlcK vUMSQAZE NkACgFwA AABQAAAA AAAA/wEA
+ AAABAAAA BAAAAIdl Zk6hW3li AB0HPgAk fz4A5Hg+ ACR/PoBV tT4AJH8+ ADnuPgAk fz4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA
+ AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA ZAAAAIcB AAAoAgAA pwEAADIC AAABAAAA AAD6QQAA +kGHAQAA MQIAAAQA AABMAAAA AAAAAAAA AAAAAAAA ////////
+ //9UAAAA h2VmTqFb eWILAAAA CwAAAAsA AAAAAAAA JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA RU1GKytA AAAMAAAA AAAAAApA AIAkAAAA GAAAAPfu 6P8BAAAA bvRhQxJA
+ BkQgEIhC kEYjQiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA 4gAAABkC AAAmAQAA QgIAAAUA
+ AAAgDpAh IA4eJGAS HiRgEpAh IA6QISUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN
+ RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA bvRhQ3t0
+ EEQ//pJD e3QQRD/+ kkMSQAZE bvRhQxJA BkRu9GFD e3QQRAAB AQGBAwMD FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A
+ AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AADgAAAA FwIAACgB
+ AABDAgAA BQAAACAO HiRgEh4k YBKQISAO kCEgDh4k JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA
+ AAABAAAA RgAAAJAA AACEAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEJu9GFD EkAGRDZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA AACHZWZO oVt5YgAd
+ Bz4AJH8+ AOR4PgAk fz6AVbU+ ACR/PgA5 7j4AJH8+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA
+ AAACAAAA VAAAAGQA AADvAAAA KAIAAA8B AAAyAgAA AQAAAAAA +kEAAPpB 7wAAADEC AAAEAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// VAAAAIdl Zk6hW3li CwAAAAsA
+ AAALAAAA AAAAACUA AAAMAAAA DQAAgEYA AABAAAAA NAAAAEVN RisrQAAA DAAAAAAA AAAKQACA JAAAABgA AAD37uj/ AQAAAH4u HkQSQAZE IBCIQpBG I0IkAAAA JAAAAAAA
+ gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAHgC AAAZAgAA vQIAAEIC AAAFAAAA jCeQIYwn HiTNKx4k zSuQIYwn
+ kCElAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA
+ AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAH4u HkR7dBBE gjAvRHt0 EESCMC9E EkAGRH4u
+ HkQSQAZE fi4eRHt0 EEQAAQEB gQMDAxVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA
+ AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA dwIAABcC AAC+AgAA QwIAAAUA AACMJx4k zSseJM0r
+ kCGMJ5Ah jCceJCUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA hAAAAEVN
+ RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC fi4eRBJA BkQ2QAKA XAAAAFAA AAAAAAD/ AQAAAAEA AAAEAAAA h2VmTiBP EpAAHQc+ ACR/PgDk eD4AJH8+ gFW1PgAk
+ fz4AOe4+ ACR/PgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABkAAAA hQIAACgC
+ AAClAgAA MgIAAAEA AAAAAPpB AAD6QYUC AAAxAgAA BAAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1QA AACHZWZO IE8SkAsA AAALAAAA CwAAAAAA AAAlAAAA DAAAAA0A
+ AIBGAAAA QAAAADQA AABFTUYr K0AAAAwA AAAAAAAA CkAAgCQA AAAYAAAA 9+7o/wEA AAB+Lh5E HMUYRCAQ iEKQRiNC JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA
+ AAACAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AAB4AgAA YwIAAL0C AACMAgAA BQAAAIwn MiaMJ78o zSu/KM0r MiaMJzIm JQAAAAwA AAAHAACA JQAAAAwA
+ AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA
+ AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AAB+Lh5E hfkiRIIw L0SF+SJE gjAvRBzF GER+Lh5E HMUYRH4u HkSF+SJE AAEBAYED
+ AwMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAHcC AABiAgAA vgIAAI4C AAAFAAAA jCe/KM0r vyjNKzIm jCcyJown vyglAAAA DAAAAAcA
+ AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA
+ AAAAAAAA AADAQn4u HkQcxRhE NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAAIdl Zk4AlfdT AB0HPgAk fz4A5Hg+ ACR/PoBV tT4AJH8+ ADnuPgAk fz4AAIA/ AAAAAAAA
+ AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA ZAAAAIUC AAByAgAA pQIAAHwC AAABAAAA AAD6QQAA
+ +kGFAgAA ewIAAAQA AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA h2VmTgCV 91MLAAAA CwAAAAsA AAAAAAAA JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA RU1GKytA
+ AAAMAAAA AAAAAApA AIAkAAAA GAAAAPfu 6P8BAAAA 7PCfQhzF GEQgEIhC kEYjQiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA
+ AAAMAAAA CAAAgFYA AAAwAAAA UAAAAGMC AACVAAAA jAIAAAUA AAAABTIm AAW/KEEJ vyhBCTIm AAUyJiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA
+ AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA
+ AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA 7PCfQoX5 IkSGABRD hfkiRIYA FEMcxRhE 7PCfQhzF GETs8J9C hfkiRAAB AQGBAwMD FUABABAA AAAEAAAA AAAAACQA
+ AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA
+ AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AABOAAAA YgIAAJYA AACOAgAA BQAAAAAF vyhBCb8o QQkyJgAF MiYABb8o JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA
+ AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAHwA AABwAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wELs8J9C HMUYRDZA
+ AoBIAAAA PAAAAAAA AP8BAAAA AQAAAAIA AABnYkyI AOR4PgAk fz6AVbU+ ACR/PgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA
+ AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABYAAAA ZwAAAHIC AABxAAAA fAIAAAEA AAAAAPpB AAD6QWcA AAB7AgAA AgAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1AA
+ AABnYkyI CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA 8AAAAOQA AABFTUYr K0AAAAwA AAAAAAAA CEABA8QA AAC4AAAA AhDA2xMA AAAAAAAA xZ9nQwI4 OkSUKJBD Ajg6RH9g
+ lUMCODpE epuZQ4Ua OER6m5lD j341RHqb mUOa4jJE gGCVQxzF MESVKJBD HMUwRJUo kEMcxTBE lSiQQxzF MESVKJBD HMUwRJQo kEMcxTBE xZ9nQxzF METuL11D HMUwRPq5
+ VEOZ4jJE +blUQ49+ NUT5uVRD hRo4RO0v XUMCODpE xJ9nQwI4 OkQAAQMD AwMDAwMD AwEBAwMD AwODAxRA AYAQAAAA BAAAAPfu 6P8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA
+ gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAA7AAAA CAAAABsA AAAQAAAA eg4AAI4u AAA2AAAA EAAAAAYS AACOLgAA WAAAAEAA AAAAAAAA AAAAAP//
+ //////// CQAAAK0S ji40Ewcu NBNgLTQT uSytEjIs BhIyLAYS MiwGEjIs BhIyLFkA AAAkAAAA AAAAAAAA AAD///// /////wIA AAAGEjIs eg4yLFgA AAA0AAAA AAAAAAAA
+ AAD///// /////wYA AADTDTIs TA25LEwN YC1MDQcu 0w2OLnoO ji49AAAA CAAAADwA AAAIAAAA PgAAABgA AADUAAAA wwIAADQB AADpAgAA EwAAAAwA AAABAAAA JQAAAAwA
+ AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA
+ AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA
+ AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIA7AAAA CAAAABsA AAAQAAAA eg4AAI4u AAA2AAAA EAAAAAYS
+ AACOLgAA WAAAAEAA AAAAAAAA AAAAAP// //////// CQAAAK0S ji40Ewcu NBNgLTQT uSytEjIs BhIyLAYS MiwGEjIs BhIyLFkA AAAkAAAA AAAAAAAA AAD///// /////wIA
+ AAAGEjIs eg4yLFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADTDTIs TA25LEwN YC1MDQcu 0w2OLnoO ji49AAAA CAAAADwA AAAIAAAA QAAAABgA AADTAAAA wgIAADUB
+ AADqAgAA JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAJAA AACEAAAA RU1GKypA
+ AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEL5uVRD HMUwRDZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA AABEjZll Ul9jaAAi ij4AA28+ gAXDPgAD bz4A6fs+ AANvPkBm
+ Gj8AA28+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGQA AADvAAAA 0AIAAA8B
+ AADaAgAA AQAAAAAA +kEAAPpB 7wAAANkC AAAEAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// VAAAAESN mWVSX2No CwAAAAsA AAALAAAA AAAAACUA AAAMAAAA DQAAgEYA
+ AACYAAAA jAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAywA
+ AAAgAAAA AhDA2wIA AAAAAAAA 2akIQ4Ec F0Pyl1FD gRwXQwAB AwMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA
+ AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA JAAAAIcA AACWAAAA 0wAAAJkA
+ AAACAAAA iwhyCRoN cgklAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA
+ AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA baxQQ2xu E0OWCFhD gRwXQ22s UEOVyhpD baxQQ2xu E0MAAQGB FEABgBAA AAAEAAAA v3dG/ygA AAAMAAAA AwAAACQA
+ AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AABGd78A AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA
+ AAAsAAAA 0AAAAJMA AADZAAAA mwAAAAQA AAALDTcJ gQ1yCQsN rQkLDTcJ JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA
+ AAAAAIBB AAAAAAAA AAACAAAA RgAAAIwA AACAAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93
+ Rv8IQAED LAAAACAA AAACEMDb AgAAAAAA AACeDHpD UoUrQ54M ekN0d05D AAEBgRVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA
+ AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA +AAAAKoA
+ AAD8AAAA 0AAAAAIA AAChD7kK oQ/oDCUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA
+ AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AACzun1D 74tNQ54M ekMY6FRD il52Q++L TUOzun1D 74tNQwAB AYEUQAGA EAAAAAQA AAC/d0b/ JAAAACQA
+ AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAACwA AAD2AAAA zQAAAP4A AADVAAAA BAAAANwP
+ 2QyhD08N Zg/ZDNwP 2QwlAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA jAAAAIAA
+ AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAJ4M
+ ekOJsoFD ngx6Qydy jkMAAQGB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA
+ AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACQA AAD4AAAA AgEAAPwA AAAfAQAA AgAAAKEP NxChD88R JQAAAAwA
+ AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ
+ wNsEAAAA AAAAALO6 fUNk/I1D ngx6Q3mq kUOKXnZD ZPyNQ7O6 fUNk/I1D AAEBgRRA AYAQAAAA BAAAAL93 Rv8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA
+ AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAPYA AAAcAQAA /gAAACQB AAAEAAAA 3A/AEaEP NhJmD8AR 3A/AESUA AAAMAAAA BwAAgBMA
+ AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACUAAAA iAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A
+ AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAzQA AAAoAAAA AhDA2wMA AAAAAAAA I09TQ5Um bEODvMVC lSZsQ4O8 xUK8WEND AAEBgRVA
+ AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA
+ AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAoAAAA YQAAAMIA AADVAAAA 7gAAAAMA AAA1DcMO LgbDDi4G NgwlAAAA DAAAAAcA AIAlAAAA DAAAAAAA
+ AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA WmC+QkFE
+ REODvMVC GOg8Q6wY zUJBRERD WmC+QkFE REMAAQGB FEABgBAA AAAEAAAA v3dG/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPRYQ AAAmBg8A IiBXTUZD AQAAAAAA AQAAAAAA
+ AAAJAAAA ACAAAPQG AAD0BgEA AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAACwA AABfAAAA vAAAAGcA AADFAAAA BAAAAPMF
+ RQwuBs8L aQZFDPMF RQwlAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA NAAAACgA
+ AABFTUYr CkAAgCQA AAAYAAAA /////wEA AACzmfBC wiFlQ3yq qkGAnmBB KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA
+ AAADAAAA AAAAAP// /wAAAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AAB4AAAA 5QAAAI4A AAD0AAAA BQAAAIUH Uw6FBzMP 2wgzD9sI Uw6FB1MO JQAAAAwA
+ AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAHwA AABwAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA
+ wEKTmdFC ustfQzZA AoBIAAAA PAAAAAAA AP8BAAAA AQAAAAIA AAANTiZ7 AKsqPgA6 KT4AOY4+ ADopPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA
+ AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABYAAAA eQAAAOcA AACDAAAA 8QAAAAEA AAAAAPpB AAD6QXkA AADwAAAA AgAAAEwA AAAAAAAA AAAAAAAA
+ AAD///// /////1AA AAANTiZ7 CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA mAAAAIwA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX
+ oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAJ4M ekNKE6ZD ngx6Q0H/ tEMAAQEB FUABABAA AAAEAAAA AAAAACQA
+ AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA
+ AAABAAAA JQAAAAwA AAAFAACA VwAAACQA AAD4AAAA SwEAAPwA AABsAQAA AgAAAKEP wxShD6AW JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA
+ AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAALO6 fUN/ibRD ngx6Q5M3 uEOKXnZD f4m0Q7O6
+ fUN/ibRD AAEBgRRA AYAQAAAA BAAAAL93 Rv8oAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA Rne/AAAA
+ AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAPYA AABpAQAA /gAAAHEB AAAEAAAA 3A+SFqEP BxdmD5IW 3A+SFiUA AAAMAAAA BwAAgBMA
+ AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACMAAAA gAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A
+ AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAywA AAAgAAAA AhDA2wIA AAAAAAAA UwiOQ/xr wkNgf7JD /GvCQwAB AYEVQAEA EAAAAAQA
+ AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA
+ AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA JAAAABsB AACDAQAA ZwEAAIYB AAACAAAA whFOGFAW ThglAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA
+ gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA nQmyQ/KU wEOyt7VD /GvCQ50J
+ skMGQ8RD nQmyQ/KU wEMAAQGB FEABgBAA AAAEAAAA v3dG/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA
+ AAAMAAAA CAAAgFYA AAAsAAAA ZAEAAIEB AABsAQAA iQEAAAQA AABCFhMY txZOGEIW iRhCFhMY JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA
+ AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAIwA AACAAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA
+ AAACEMDb AAAAAL93 Rv8IQAED LAAAACAA AAACEMDb AgAAAAAA AAAtddxD /GvCQ6mj 9EP8a8JD AAEBgRVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA
+ gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA
+ AAAkAAAA twEAAIMB AADrAQAA hgEAAAIA AACPG04Y lR5OGCUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA
+ AAAMAAAA AQAAAEYA AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AADmLfRD 8pTAQ/vb 90P8a8JD 5i30QwZD xEPmLfRD 8pTAQwAB AYEUQAGA EAAAAAQA
+ AAC/d0b/ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAACwA AADoAQAA gQEAAPAB
+ AACJAQAA BAAAAIYe Exj8Hk4Y hh6JGIYe ExglAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA
+ AABGAAAA lAAAAIgA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQM0AAAA KAAAAAIQ
+ wNsDAAAA AAAAALtM D0T8a8JD gK8mRPxr wkOAryZE vj3kQwAB AYEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA
+ AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA KAAAADwC AACDAQAA nAIAAMoB
+ AAADAAAA 1CNOGKwp ThisKYgc JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA
+ AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAAWb J0T7x+ND gK8mRBB2 50P7wyVE +8fjQwWb J0T7x+ND AAEBgRRA AYAQAAAA BAAAAL93 Rv8kAAAA JAAAAAAA
+ gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAJcC AADHAQAA nwIAAM8B AAAEAAAA 5yl5HKwp
+ 7xxxKXkc 5yl5HCUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACMAAAA gAAAAEVN
+ RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAywA AAAgAAAA AhDA2wIA AAAAAAAA gK8mROLe
+ +0OAryZE 6aMERAAB AYEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA
+ AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA JAAAAJkC AAD2AQAA nAIAABQC AAACAAAA rCl8H6wp KSElAAAA DAAAAAcA
+ AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA
+ AAAAAAAA BZsnRAhp BESAryZE EkAGRPvD JUQIaQRE BZsnRAhp BEQAAQGB FEABgBAA AAAEAAAA v3dG/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA
+ AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA lwIAABEC AACfAgAA GQIAAAQA AADnKRsh rCmQIXEp GyHnKRsh JQAAAAwA AAAHAACA EwAAAAwA
+ AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA
+ AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED SAAAADwA AAACEMDb BQAAAAAA AAB+Lh5E RloLRGij GkRGWgtE aKMaRPy0 AkQ7/IFD /LQCRDv8
+ gUPpowRE AAEBAQED AwMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA
+ AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA MAAAAAIB AAAJAgAA egIAAC8C AAAFAAAA jCfXIqkm 1yKpJq4g QBCuIEAQ
+ KSElAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA
+ AAAwAAAA AhDA2wQA AAAAAAAA RdODQwhp BEQ7/IFD EkAGRDEl gEMIaQRE RdODQwhp BEQAAQGB FEABgBAA AAAEAAAA v3dG/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA
+ AAAAAAAA AgAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA AAEAABEC AAAIAQAA GQIAAAQA AAB7EBsh QBCQIQUQ GyF7EBsh JQAAAAwA
+ AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAIwA AACAAAAA RU1GKwhA AAJAAAAA NAAAAAIQ
+ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED LAAAACAA AAACEMDb AgAAAAAA AAA//pJD RloLRAXS uUNGWgtE AAEBgRVA
+ AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA
+ AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA JAEAACwC AAB1AQAA LwIAAAIA AABgEtci OxfXIiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA
+ AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AABDXLlD wW4KRFcK
+ vUNGWgtE Q1y5Q8xF DERDXLlD wW4KRAAB AYEUQAGA EAAAAAQA AAC/d0b/ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA
+ AAABAAAA JQAAAAwA AAAIAACA VgAAACwA AAByAQAA KQIAAHsB AAAyAgAA BAAAACwX nCKiF9ci LBcSIywX nCIlAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA
+ AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA jAAAAIAA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA
+ AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAF8O 30NGWgtE Tvb7Q0Za C0QAAQGB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA
+ AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA
+ AAAFAACA VwAAACQA AAC9AQAA LAIAAPoB AAAvAgAA AgAAAOIb 1yJ/H9ci JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA
+ AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAIuA +0PBbgpE oC7/Q0Za C0SLgPtD zEUMRIuA +0PBbgpE AAEBgRRA
+ AYAQAAAA BAAAAL93 Rv8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAPcB
+ AAApAgAA /wEAADIC AAAEAAAA cR+cIuYf 1yJxHxIj cR+cIiUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA
+ AAAAAAAA AgAAAEYA AACcAAAA kAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAzwA
+ AAAwAAAA AhDA2wQA AAAAAAAA UhgIRHt0 EERSGAhE kf8TRICv JkSR/xNE gK8mRPMo F0QAAQEB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA
+ AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACwA
+ AAAfAgAA QAIAAJwC AABeAgAA BAAAAAci HiQHIgAl rCkAJawp yyUlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA
+ AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA BZsnRBLu FkSAryZE HMUYRPvD JUQS7hZE BZsnRBLu FkQAAQGB FEABgBAA
+ AAAEAAAA v3dG/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA lwIAAFsC
+ AACfAgAA ZAIAAAQA AADnKbwl rCkyJnEp vCXnKbwl JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA
+ AAACAAAA RgAAAIwA AACAAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED LAAAACAA
+ AAACEMDb AgAAAAAA AAB+Lh5E Ud8dRCpx GkNR3x1E AAEBgRVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA
+ AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA mQAAAHYC AAB6AgAA eQIAAAIA
+ AACMJ3gn qAl4JyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AABcAAAA UAAAAEVN
+ RisIQAED PAAAADAA AAACEMDb BAAAAAAA AACvXBtD 1soeRIYA FENR3x1E r1wbQ8vz HESvXBtD 1soeRAAB AYEUQAGA EAAAAAQA AAC/d0b/ JAAAACQA AAAAAIA9 AAAAAAAA
+ AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAACwA AACUAAAA cwIAAJwA AAB8AgAA BAAAALYJ sydBCXgn tgk9J7YJ
+ syclAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA NAAAACgA AABFTUYr CkAAgCQA
+ AAAYAAAA /////wEA AABSmb1D HB4cRICq qkGAnmBB KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA AAAAAP//
+ /wAAAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AAB7AQAA cAIAAJEB AAB/AgAA BQAAALQX CCe0F+kn CRnpJwkZ CCe0Fwgn JQAAAAwA AAAHAACA JQAAAAwA
+ AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAHwA AABwAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEJK2bVD msgaRDZA
+ AoBIAAAA PAAAAAAA AP8BAAAA AQAAAAIA AAABkL6P AKsqPgA6 KT4AOY4+ ADopPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA
+ AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABYAAAA fAEAAHIC AACGAQAA fAIAAAEA AAAAAPpB AAD6QXwB AAB7AgAA AgAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1AA
+ AAABkL6P CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA oAAAAJQA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA
+ AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQM0AAAA KAAAAAIQ wNsDAAAA AAAAAICv JkSF+SJE gK8mRI9+ NUTL05xD j341RAAB AQEVQAEA EAAAAAQA AAAAAAAA JAAAACQA
+ AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA
+ AAAlAAAA DAAAAAUA AIBXAAAA KAAAADgB AACKAgAA nAIAANgC AAADAAAA rCm/KKwp YC2bE2At JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA
+ AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQOQAwAA JgYPABYH V01GQwEA AAAAAAEA AAAAAAAA CQAAAPQG AAAAAAAA 9AYBADwA
+ AAAwAAAA AhDA2wQA AAAAAAAA jkmdQxRq NkR6m5lD j341RI5J nUMKkzRE jkmdQxRq NkQAAQGB FEABgBAA AAAEAAAA v3dG/ygA AAAMAAAA AwAAACQA AAAkAAAA AACAPQAA
+ AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AABGd78A AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA MwEAANIC
+ AAA7AQAA 2gIAAAQA AACqE5st NBNgLaoT JS2qE5st JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA
+ AAACAAAA RgAAAJQA AACIAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED NAAAACgA
+ AAACEMDb AwAAAAAA AABvFslD vcy2Q28W yUOBHBdD pUCRQ4Ec F0MAAQGB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A
+ AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACgA AAAhAQAA lgAAAJQB
+ AABvAQAA AwAAACMZ 2hYjGXIJ KRJyCSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA
+ AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AABotpFD lcoaQ1MI jkOBHBdD aLaRQ2xu E0NotpFD lcoaQwAB AYEUQAGA EAAAAAQA AAC/d0b/ JAAAACQA
+ AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAACwA AAAcAQAA kwAAACQB AACbAAAA BAAAADcS
+ rQnCEXIJ NxI3CTcS rQklAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA nAAAAJAA
+ AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAFyd
+ BUQ6C85D XJ0FRP7s 1kNvFslD /uzWQ28W yUOMQ9FD AAEBARVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA
+ AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAsAAAA kQEAAJsB AAAYAgAA rwEAAAQA
+ AABoIcIZ aCHeGiMZ 3hojGSka JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA
+ AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAGU/ x0NPudFD bxbJQzoL zkN67cpD T7nRQ2U/ x0NPudFD AAEBgRRA AYAQAAAA BAAAAL93 Rv8kAAAA JAAAAAAA
+ gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAI4B AACcAQAA lgEAAKQB AAAEAAAA 6Bg4GiMZ
+ whleGTga 6Bg4GiUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEwA AABkAAAA AgAAAAEA
+ AADZAgAA GgQAAAIA AAABAAAA 2AIAABoE AAApAKoA AAAAAAAA AAAAAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAiAAAA DAAAAP//
+ //9GAAAA HAAAABAA AABFTUYr AkAAAAwA AAAAAAAA DgAAABQA AAAAAAAA EAAAABQA AAAEAAAA AwEIAAUA AAALAgAA AAAFAAAA DAKiA4cC AwAAAB4A BwAAAPwC AADo7vcA
+ AAAEAAAA LQEAAAgA AAD6AgUA AAAAAP// /wAEAAAA LQEBAA4A AAAkAwUA BAAjAAQA oQMlAKED JQAjAAQA IwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B AgAHAAAA /AIAAP//
+ /wAAAAQA AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQQA BwAAAPwC AQAAAAAA AAAEAAAA LQEFAA4A AAAkAwUA BAChAyUA oQMlACMA BAAjAAQA oQMEAAAA LQECAAQA
+ AAAtAQMA BAAAAPAB BAAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BAAEAAAA LQEFAA4A AAAkAwUA BAChA4MC oQODAgIA BAACAAQA oQMEAAAA LQECAAQA AAAtAQMA BAAAAPAB
+ BAAEAAAA LQEAAAQA AAAtAQEA DgAAACQD BQAEAAIA BAAiAIMC IgCDAgIA BAACAAQA AAAtAQIA BAAAAC0B AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BAAEAAAA LQEFAA4A
+ AAAkAwUA BAAiAIMC IgCDAgIA BAACAAQA IgAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BAAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYABwA AAD7Au// AAAAAAAA kAEAAACG
+ BwAEAMvO zOUAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA BAAAAC0B BABAAAAA MgoYAJ8A JgAAANDC sOzU9ta1 y7DSu7Dj xMnLsMjL 18q48cjP tqi53MDt wfezzM28
+ EQAAABEA AAARAAAA EQAAABEA AAAQAAAA EQAAABEA AAARAAAA EQAAABEA AAAQAAAA EQAAABEA AAARAAAA EQAAABAA AAARAAAA AAAAABwA AAD7Ag4A BgAAAAAA vAIAAACG
+ AQICIlN5 c3RlbQAA AAA3AD8/ Pz8/PwAA AAAAAAAA Pz8/P+xT BAAAAC0B BgAEAAAA 8AEAAAgA AAD6AgAA AQAAAAAA AAAEAAAA LQEAAAcA AAD8AgAA AAAAAAAA BAAAAC0B
+ BwAEAAAA BgECAPwG AAA4BVAA CwAMAAoA CgALAAwA CgAKAAoA DAALAAoA CgAMAAsA CgAKAAsA CwAKAAoA CwALAAoA CgALAAwA CgAKAAsA DAAKAAoA CgAMAAsA CgAKAAwA
+ CwAKAAoA CwALAAoA CgALAAsA CgAKAAsA DAAKAAoA CwAMAAoA CgAKAAwA CwAKAAoA DAALAAoA CgALAAsA CgAKAAsA CwAKAAoA CwAMAAoA CgALACUA iAEoAIgB KQCKASkA
+ igEoAIsB JQCLASQA igEkAIoB JACJASUA iAElAIgB LQCIATAA iAEwAIkB MQCKATAA igEwAIsB LQCLASwA igEsAIoB LACJAS0A iAEtAIgB NQCIATcA iAE5AIoB OACKATcA
+ iwE1AIsB NACKATMA igE1AIgB NQCIATwA iAE/AIgB QACKAUAA igE/AIsB PACLATsA igE7AIoB PACIATwA iAFEAIgB RwCIAUgA igFHAIoB RwCLAUQA iwFDAIoB QwCKAUMA
+ iQFEAIgB RACIAUwA iAFOAIgB TwCJAU8A igFPAIoB TgCLAUwA iwFLAIoB SgCKAUsA iQFMAIgB TACIAVMA iAFWAIgB VwCKAVcA igFWAIsB UwCLAVIA igFSAIoB UwCIAVMA
+ iAFbAIgB XQCIAV8A igFeAIoB XQCLAVsA iwFaAIoB WgCKAVsA iAFbAIgB YwCIAWUA iAFmAIoB ZgCKAWUA iwFjAIsB YgCKAWEA igFjAIgB YwCIAWoA iAFtAIgB bgCJAW4A
+ igFuAIoB bQCLAWoA iwFpAIoB aQCKAWkA iQFqAIgB agCIAXIA iAF0AIgB dQCJAXYA igF1AIoB dACLAXIA iwFxAIoB cQCKAXIA iAFyAIgB egCIAXwA iAF9AIoB fQCKAXwA
+ iwF6AIsB eQCKAXgA igF6AIgB egCIAYEA iAGEAIgB hQCKAYUA igGEAIsB gQCLAYAA igGAAIoB gQCIAYEA iAGJAIgB iwCIAYwA iQGNAIoB jACKAYsA iwGJAIsB iACKAYgA
+ igGIAIkB iQCIAYkA iAGRAIgB kwCIAZQA iQGUAIoB lACKAZMA iwGRAIsB kACKAY8A igGRAIgB kQCIAZgA iAGbAIgB nACKAZwA igGbAIsB mACLAZcA igGXAIoB mACIAZgA
+ iAGgAIgB ogCIAaQA igGjAIoB ogCLAaAA iwGfAIoB nwCKAaAA iAGgAIgB pwCIAaoA iAGrAIoB qwCKAaoA iwGnAIsB pwCKAaYA igGnAIkB pwCIAacA iAGvAIgB sgCIAbMA
+ iQGzAIoB swCKAbIA iwGvAIsB rgCKAa4A igGvAIgB rwCIAbcA iAG5AIgB uwCKAboA igG5AIsB twCLAbYA igG1AIoB twCIAbcA iAG+AIgB wQCIAcIA igHCAIoB wQCLAb4A
+ iwG+AIoB vQCKAb4A iAG+AIgB xgCIAckA iAHKAIoB yQCKAckA iwHGAIsB xQCKAcUA igHFAIkB xgCIAcYA iAHOAIgB 0ACIAdEA iQHSAIoB 0QCKAdAA iwHOAIsB zQCKAcwA
+ igHOAIgB zgCIAdUA iAHYAIgB 2QCKAdkA igHYAIsB 1QCLAdQA igHUAIoB 1QCIAdUA iAHdAIgB 4ACIAeEA igHgAIoB 4ACLAd0A iwHcAIoB 3ACKAd0A iAHdAIgB 5QCIAecA
+ iAHoAIoB 6ACKAecA iwHlAIsB 5ACKAeMA igHkAIkB 5QCIAeUA iAHsAIgB 7wCIAfAA iQHwAIoB 8ACKAe8A iwHsAIsB 6wCKAesA igHrAIkB 7ACIAewA iAH0AIgB 9wCIAfgA
+ igH3AIoB 9wCLAfQA iwHzAIoB 8wCKAfQA iAH0AIgB /ACIAf4A iAH/AIoB /wCKAf4A iwH8AIsB +wCKAfoA igH8AIgB /ACIAQMB iAEGAYgB BwGKAQcB igEGAYsB AwGLAQIB
+ igECAYoB AgGJAQMB iAEDAYgB CwGIAQ4B iAEOAYkB DwGKAQ4B igEOAYsB CwGLAQoB igEKAYoB CgGJAQsB iAELAYgB EwGIARUB iAEWAYoB FgGKARUB iwETAYsB EgGKAREB
+ igETAYgB EwGIARoB iAEdAYgB HgGKAR4B igEdAYsB GgGLARkB igEZAYoB GgGIARoB iAEiAYgB JAGIASYB igElAYoB JAGLASIB iwEhAYoB IQGKASIB iAEiAYgB KgGIASwB
+ iAEtAYkB LQGKAS0B igEsAYsB KgGLASkB igEoAYoB KQGJASoB iAEqAYgB MQGIATQB iAE1AYkB NQGKATUB igE0AYsB MQGLATAB igEwAYoB MQGIATEB iAE5AYgB OwGIAT0B
+ igE8AYoB OwGLATkB iwE4AYoB OAGKATkB iAE5AYgB QAGIAUMB iAFEAYoB RAGKAUMB iwFAAYsB QAGKAT8B igFAAYgB QAGIAUgB iAFLAYgB TAGJAUwB igFMAYoB SwGLAUgB
+ iwFHAYoB RwGKAUcB iQFIAYgB SAGIAVAB iAFSAYgB UwGJAVQB igFTAYoB UgGLAVAB iwFPAYoB TwGKAVAB iAFQAYgB VwGIAVoB iAFbAYoB WwGKAVoB iwFXAYsB VwGKAVYB
+ igFXAYgB VwGIAV8B iAFiAYgB YwGKAWMB igFiAYsB XwGLAV4B igFeAYoB XwGIAV8B iAFnAYgB aQGIAWsB igFqAYoB aQGLAWcB iwFmAYoB ZQGKAWYB iQFnAYgB ZwGIAW4B
+ iAFxAYgB cgGJAXIB igFyAYoB cQGLAW4B iwFuAYoB bQGKAW4B iAFuAYgB dgGIAXkB iAF6AYoB egGKAXkB iwF2AYsB dQGKAXUB igF2AYgB dgGIAX4B iAGAAYgB ggGKAYEB
+ igGAAYsB fgGLAX0B igF8AYoB fgGIAX4B iAGFAYgB iAGIAYkB igGJAYoB iAGLAYUB iwGEAYoB hAGKAYQB iQGFAYgB hQGIAY0B iAGQAYgB kAGJAZEB igGQAYoB kAGLAY0B
+ iwGMAYoB jAGKAY0B iAGNAYgB lQGIAZcB iAGYAYoB mAGKAZcB iwGVAYsB lAGKAZMB igGVAYgB lQGIAZwB iAGfAYgB oAGKAaAB igGfAYsB nAGLAZsB igGbAYoB nAGIAZwB
+ iAGkAYgB pwGIAagB igGnAYoB pwGLAaQB iwGjAYoB owGKAaMB iQGkAYgB pAGIAawB iAGuAYgB rwGJAa8B igGvAYoB rgGLAawB iwGrAYoB qgGKAasB iQGsAYgB rAGIAbMB
+ iAG2AYgB twGKAbcB igG2AYsB swGLAbIB igGyAYoB swGIAbMB iAG7AYgB vQGIAb8B igG+AYoB vQGLAbsB iwG6AYoB ugGKAbsB iAG7AYgB wwGIAcUB iAHGAYoB xgGKAcUB
+ iwHDAYsB wgGKAcEB igHCAYkB wwGIAcMB iAHKAYgB zQGIAc4B iQHOAYoB zgGKAc0B iwHKAYsB yQGKAckB igHJAYkB ygGIAcoB iAHSAYgB 1AGIAdYB igHVAYoB 1AGLAdIB
+ iwHRAYoB 0QGKAdIB iAHSAYgB 2gGIAdwB iAHdAYoB 3QGKAdwB iwHaAYsB 2QGKAdgB igHaAYgB 2gGIAeEB iAHkAYgB 5QGKAeUB igHkAYsB 4QGLAeAB igHgAYoB 4QGIAeEB
+ iAHpAYgB 6wGIAewB iQHtAYoB 7AGKAesB iwHpAYsB 6AGKAegB igHoAYkB 6QGIAekB iAHxAYgB 8wGIAfQB iQH0AYoB 9AGKAfMB iwHxAYsB 8AGKAe8B igHxAYgB 8QGIAfgB
+ iAH7AYgB /AGKAfwB igH7AYsB +AGLAfcB igH3AYoB +AGIAfgB iAEAAogB AgKIAQQC igEDAooB AgKLAQAC iwH/AYoB /wGKAQAC iAEAAogB BwKIAQoC iAELAokB CwKKAQsC
+ igEKAosB BwKLAQcC igEGAooB BwKJAQcC iAEHAogB DwKIARIC iAETAokB EwKKARMC igESAosB DwKLAQ4C igEOAooB DwKIAQ8C iAEXAogB GQKIARsC igEaAooB GQKLARcC
+ iwEWAooB FQKKARcC iAEXAogB HgKIASEC iAEiAooB IgKKASEC iwEeAosB HgKKAR0C igEeAogB HgKIASYC iAEpAogB KgKKASkC igEpAosB JgKLASUC igElAooB JQKJASYC
+ iAEmAogB LgKIATAC iAExAokB MgKKATEC igEwAosB LgKLAS0C igEsAooB LgKIAS4C iAE1AogB OAKIATkC igE5AooB OAKLATUC iwE0AooB NAKKATUC iAE1AogB PQKIAUAC
+ iAFBAooB QAKKAUAC iwE9AosB PAKKATwC igE9AogB PQKIAUUC iAFHAogB SAKKAUgC igFHAosB RQKLAUQC igFDAooB RAKJAUUC iAFFAogB TAKIAU8C iAFQAokB UAKKAVAC
+ igFPAosB TAKLAUsC igFLAooB TAKIAUwC iAFUAogB VwKIAVgC igFXAooB VwKLAVQC iwFTAooB UwKKAVQC iAFUAogB XAKIAV4C iAFfAooB XwKKAV4C iwFcAosB WwKKAVoC
+ igFcAogB XAKIAWMC iAFmAogB ZwKKAWcC igFmAosB YwKLAWIC igFiAooB YgKJAWMC iAFjAogB awKIAW0C iAFuAokB bwKKAW4C igFtAosB awKLAWoC igFqAooB agKJAWsC
+ iAFrAogB cwKIAXUC iAF2AooB dgKKAXUC iwFzAosB cgKKAXEC igFzAogB cwKIAXoC iAF9AogB fgKKAX4C igF9AosB egKLAXkC igF5AooB egKIAXoC iAGCAogB gwKIAYUC
+ igGEAooB gwKLAYIC iwGBAooB gQKKAYEC iQGCAogB ggKIAQQA AAAGAQEA BAAAAC0B AwAEAAAA LQECAAQA AADwAQAA CAAAAPoC AAADAAAA AAAAAAQA AAAtAQAA BAAAAC0B
+ BQAKAAAA JQMDAAQA igEVAJoB JQCKAQQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEAAAQA AAACAQEA BQAAAAkC AAAAAAQA AAAuARgA BAAAAPAB BAAcAAAA +wLy/wAA hAOEA5AB
+ AAAAhgcA BADLzszl AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAQA AAAtAQAA CgAAADIK hwEaAAIA AACwuAAA AAAKAAAA Mgp5ARoA AgAAAM23 AAAAAAoA AAAyCmsB
+ GgACAAAA yfMAAAAA CgAAADIK XQEaAAIA AADF+gAA AAAEAAAA LQEGAAgA AAD6AgAA AQAAAAAA AAAEAAAA LQEEAAQA AAAtAQcA BAAAAAYB AgD8BgAA OAVQAAsA DAAKAAoA
+ CwAMAAoA CgAKAAwA CwAKAAoA DAALAAoA CgALAAsA CgAKAAsA CwAKAAoA CwAMAAoA CgALAAwA CgAKAAoA DAALAAoA CgAMAAsA CgAKAAsA CwAKAAoA CwALAAoA CgALAAwA
+ CgAKAAsA DAAKAAoA CgAMAAsA CgAKAAwA CwAKAAoA CwALAAoA CgALAAsA CgAKAAsA DAAKAAoA CwAlAMYC KADGAikA xwIpAMgC KADJAiUA yQIkAMgC JADHAiQA xgIlAMYC
+ JQDGAi0A xgIwAMYC MADGAjEA xwIwAMgC MADJAi0A yQIsAMgC LADHAiwA xgItAMYC LQDGAjUA xgI3AMYC OQDHAjgA yAI3AMkC NQDJAjQA yAIzAMcC NQDGAjUA xgI8AMYC
+ PwDGAkAA xwJAAMgC PwDJAjwA yQI7AMgC OwDHAjwA xgI8AMYC RADGAkcA xgJIAMcC RwDIAkcA yQJEAMkC QwDIAkMA xwJDAMYC RADGAkQA xgJMAMYC TgDGAk8A xgJPAMcC
+ TwDIAk4A yQJMAMkC SwDIAkoA xwJLAMYC TADGAkwA xgJTAMYC VgDGAlcA xwJXAMgC VgDJAlMA yQJSAMgC UgDHAlMA xgJTAMYC WwDGAl0A xgJfAMcC XgDIAl0A yQJbAMkC
+ WgDIAloA xwJbAMYC WwDGAmMA xgJlAMYC ZgDHAmYA yAJlAMkC YwDJAmIA yAJhAMcC YwDGAmMA xgJqAMYC bQDGAm4A xgJuAMcC bgDIAm0A yQJqAMkC aQDIAmkA xwJpAMYC
+ agDGAmoA xgJyAMYC dADGAnUA xgJ2AMcC dQDIAnQA yQJyAMkC cQDIAnEA xwJyAMYC cgDGAnoA xgJ8AMYC fQDHAn0A yAJ8AMkC egDJAnkA yAJ4AMcC egDGAnoA xgKBAMYC
+ hADGAoUA xwKFAMgC hADJAoEA yQKAAMgC gADHAoEA xgKBAMYC iQDGAosA xgKMAMYC jQDHAowA yAKLAMkC iQDJAogA yAKIAMcC iADGAokA xgKJAMYC kQDGApMA xgKUAMYC
+ lADHApQA yAKTAMkC kQDJApAA yAKPAMcC kQDGApEA xgKYAMYC mwDGApwA xwKcAMgC mwDJApgA yQKXAMgC lwDHApgA xgKYAMYC oADGAqIA xgKkAMcC owDIAqIA yQKgAMkC
+ nwDIAp8A xwKgAMYC oADGAqcA xgKqAMYC qwDHAqsA yAKqAMkC pwDJAqcA yAKmAMcC pwDGAqcA xgKnAMYC rwDGArIA xgKzAMYC swDHArMA yAKyAMkC rwDJAq4A yAKuAMcC
+ rwDGAq8A xgK3AMYC uQDGArsA xwK6AMgC uQDJArcA yQK2AMgC tQDHArcA xgK3AMYC vgDGAsEA xgLCAMcC wgDIAsEA yQK+AMkC vgDIAr0A xwK+AMYC vgDGAsYA xgLJAMYC
+ ygDHAskA yALJAMkC xgDJAsUA yALFAMcC xQDGAsYA xgLGAMYC zgDGAtAA xgLRAMYC 0gDHAtEA yALQAMkC zgDJAs0A yALMAMcC zgDGAs4A xgLVAMYC 2ADGAtkA xwLZAMgC
+ 2ADJAtUA yQLUAMgC 1ADHAtUA xgLVAMYC 3QDGAuAA xgLhAMcC 4ADIAuAA yQLdAMkC 3ADIAtwA xwLdAMYC 3QDGAuUA xgLnAMYC 6ADHAugA yALnAMkC 5QDJAuQA yALjAMcC
+ 5ADGAuUA xgLlAMYC 7ADGAu8A xgLwAMYC 8ADHAvAA yALvAMkC 7ADJAusA yALrAMcC 6wDGAuwA xgLsAMYC 9ADGAvcA xgL4AMcC 9wDIAvcA yQL0AMkC 8wDIAvMA xwL0AMYC
+ 9ADGAvwA xgL+AMYC /wDHAv8A yAL+AMkC /ADJAvsA yAL6AMcC /ADGAvwA xgIDAcYC BgHGAgcB xwIHAcgC BgHJAgMB yQICAcgC AgHHAgIB xgIDAcYC AwHGAgsB xgIOAcYC
+ DgHGAg8B xwIOAcgC DgHJAgsB yQIKAcgC CgHHAgoB xgILAcYC CwHGAhMB xgIVAcYC FgHHAhYB yAIVAckC EwHJAhIB yAIRAccC EwHGAhMB xgIaAcYC HQHGAh4B xwIeAcgC
+ HQHJAhoB yQIZAcgC GQHHAhoB xgIaAcYC IgHGAiQB xgImAccC JQHIAiQB yQIiAckC IQHIAiEB xwIiAcYC IgHGAioB xgIsAcYC LQHGAi0B xwItAcgC LAHJAioB yQIpAcgC
+ KAHHAikB xgIqAcYC KgHGAjEB xgI0AcYC NQHGAjUB xwI1AcgC NAHJAjEB yQIwAcgC MAHHAjEB xgIxAcYC OQHGAjsB xgI9AccC PAHIAjsB yQI5AckC OAHIAjgB xwI5AcYC
+ OQHGAkAB xgJDAcYC RAHHAkQB yAJDAckC QAHJAkAB yAI/AccC QAHGAkAB xgJIAcYC SwHGAkwB xgJMAccC TAHIAksB yQJIAckC RwHIAkcB xwJHAcYC SAHGAkgB xgJQAcYC
+ UgHGAlMB xgJUAccC UwHIAlIB yQJQAckC TwHIAk8B xwJQAcYC UAHGAlcB xgJaAcYC WwHHAlsB yAJaAckC VwHJAlcB yAJWAccC VwHGAlcB xgJfAcYC YgHGAmMB xwJjAcgC
+ YgHJAl8B yQJeAcgC XgHHAl8B xgJfAcYC ZwHGAmkB xgJrAccC agHIAmkB yQJnAckC ZgHIAmUB xwJmAcYC ZwHGAmcB xgJuAcYC cQHGAnIB xgJyAccC cgHIAnEB yQJuAckC
+ bgHIAm0B xwJuAcYC bgHGAnYB xgJ5AcYC egHHAnoB yAJ5AckC dgHJAnUB yAJ1AccC dgHGAnYB xgJ+AcYC gAHGAoIB xwKBAcgC gAHJAn4B yQJ9AcgC fAHHAn4B xgJ+AcYC
+ hQHGAogB xgKJAccC iQHIAogB yQKFAckC hAHIAoQB xwKEAcYC hQHGAoUB xgKNAcYC kAHGApAB xgKRAccC kAHIApAB yQKNAckC jAHIAowB xwKNAcYC jQHGApUB xgKXAcYC
+ mAHHApgB yAKXAckC lQHJApQB yAKTAccC lQHGApUB xgKcAcYC nwHGAqAB xwKgAcgC nwHJApwB yQKbAcgC mwHHApwB xgKcAcYC pAHGAqcB xgKoAccC pwHIAqcB yQKkAckC
+ owHIAqMB xwKjAcYC pAHGAqQB xgKsAcYC rgHGAq8B xgKvAccC rwHIAq4B yQKsAckC qwHIAqoB xwKrAcYC rAHGAqwB xgKzAcYC tgHGArcB xwK3AcgC tgHJArMB yQKyAcgC
+ sgHHArMB xgKzAcYC uwHGAr0B xgK/AccC vgHIAr0B yQK7AckC ugHIAroB xwK7AcYC uwHGAsMB xgLFAcYC xgHHAsYB yALFAckC wwHJAsIB yALBAccC wgHGAsMB xgLDAcYC
+ ygHGAs0B xgLOAcYC zgHHAs4B yALNAckC ygHJAskB yALJAccC yQHGAsoB xgLKAcYC 0gHGAtQB xgLWAccC 1QHIAtQB yQLSAckC 0QHIAtEB xwLSAcYC 0gHGAtoB xgLcAcYC
+ 3QHHAt0B yALcAckC 2gHJAtkB yALYAccC 2gHGAtoB xgLhAcYC 5AHGAuUB xwLlAcgC 5AHJAuEB yQLgAcgC 4AHHAuEB xgLhAcYC 6QHGAusB xgLsAcYC 7QHHAuwB yALrAckC
+ 6QHJAugB yALoAccC 6AHGAukB xgLpAcYC 8QHGAvMB xgL0AcYC 9AHHAvQB yALzAckC 8QHJAvAB yALvAccC 8QHGAvEB xgL4AcYC +wHGAvwB xwL8AcgC +wHJAvgB yQL3AcgC
+ 9wHHAvgB xgL4AcYC AALGAgIC xgIEAscC AwLIAgIC yQIAAskC /wHIAv8B xwIAAsYC AALGAgcC xgIKAsYC CwLGAgsC xwILAsgC CgLJAgcC yQIHAsgC BgLHAgcC xgIHAsYC
+ BwLGAg8C xgISAsYC EwLGAhMC xwITAsgC EgLJAg8C yQIOAsgC DgLHAg8C xgIPAsYC FwLGAhkC xgIbAscC GgLIAhkC yQIXAskC FgLIAhUC xwIXAsYC FwLGAh4C xgIhAsYC
+ IgLHAiIC yAIhAskC HgLJAh4C yAIdAscC HgLGAh4C xgImAsYC KQLGAioC xwIpAsgC KQLJAiYC yQIlAsgC JQLHAiUC xgImAsYC JgLGAi4C xgIwAsYC MQLGAjIC xwIxAsgC
+ MALJAi4C yQItAsgC LALHAi4C xgIuAsYC NQLGAjgC xgI5AscC OQLIAjgC yQI1AskC NALIAjQC xwI1AsYC NQLGAj0C xgJAAsYC QQLHAkAC yAJAAskC PQLJAjwC yAI8AscC
+ PQLGAj0C xgJFAsYC RwLGAkgC xwJIAsgC RwLJAkUC yQJEAsgC QwLHAkQC xgJFAsYC RQLGAkwC xgJPAsYC UALGAlAC xwJQAsgC TwLJAkwC yQJLAsgC SwLHAkwC xgJMAsYC
+ VALGAlcC xgJYAscC VwLIAlcC yQJUAskC UwLIAlMC xwJUAsYC VALGAlwC xgJeAsYC XwLHAl8C yAJeAskC XALJAlsC yAJaAscC XALGAlwC xgJjAsYC ZgLGAmcC xwJnAsgC
+ ZgLJAmMC yQJiAsgC YgLHAmIC xgJjAsYC YwLGAmsC xgJtAsYC bgLGAm8C xwJuAsgC bQLJAmsC yQJqAsgC agLHAmoC xgJrAsYC awLGAnMC xgJ1AsYC dgLHAnYC yAJ1AskC
+ cwLJAnIC yAJxAscC cwLGAnMC xgJ6AsYC fQLGAn4C xwJ+AsgC fQLJAnoC yQJ5AsgC eQLHAnoC xgJ6AsYC ggLGAoMC xgKFAscC hALIAoMC yQKCAskC gQLIAoEC xwKBAsYC
+ ggLGAoIC xgIEAAAA BgEBAAQA AAAtAQMA BAAAAC0B AgAEAAAA 8AEEAAgA AAD6AgAA AwAAAAAA AAAEAAAA LQEEAAQA AAAtAQUA CgAAACUD AwAEAMcC FQDYAiUA xwIEAAAA
+ LQECAAQA AAAtAQMA BAAAAPAB BAAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA CgAAADIK xQIaAAIA AADPtQAA AAAKAAAA Mgq3AhoA AgAAAM2z AAAAAAoA
+ AAAyCqkC GgACAAAA yfMAAAAA CgAAADIK mwIaAAIA AADF+gAA AAAEAAAA LQEGAAgA AAD6AgAA AAAAAAAA AAAEAAAA LQEEAAQA AAAtAQUA DgAAACQD BQCXAKED LgGhAy4B
+ IwCXACMA lwChAwQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEEAAQA AADwAQcA BwAAAPwC AADo7vcA AAAEAAAA LQEEAAQA AAAtAQEA DgAAACQD BQCXACMA lwBNAC4B TQAuASMA
+ lwAjAAQA AAAtAQIA BAAAAC0B AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA lwBNAC4B TQAuASMA lwAjAJcA TQAEAAAA LQECAAQA AAAtAQMA
+ BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AADwAQAA HAAAAPsC 8v8AAAAA AACQAQAA AIYHAAQA y87M5QAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ AAAEAAAA LQEAABMA AAAyCj0A xgAIAAAA y7DO8bfW vtYPAAAA DgAAAA4A AAAAAAAA BAAAAC0B BgAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA
+ LgGhA6AB oQOgASMA LgEjAC4B oQMEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA AAAtAQEA DgAAACQD BQAuASMA LgFNAKAB TQCgASMA LgEjAAQA AAAtAQIA
+ BAAAAC0B AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA LgFNAKAB TQCgASMA LgEjAC4B TQAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA
+ AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA HAAAADIK PQA1AQ4A AAC79c7v us3Azc7x y7C/xg4A AAAOAAAA DwAAAA4A AAAOAAAA DgAAAAAA AAAEAAAA LQEGAAgA
+ AAD6AgAA AAAAAAAA AAAEAAAA LQEHAAQA AAAtAQUA DgAAACQD BQCgAaED EQKhAxEC IwCgASMA oAGhAwQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAAtAQQA BAAAAC0B
+ AQAOAAAA JAMFAKAB IwCgAU0A EQJNABEC IwCgASMA BAAAAC0B AgAEAAAA LQEDAAgA AAD6AgAA AAAAAAAA AAAEAAAA LQEHAAQA AAAtAQUA DgAAACQD BQCgAU0A EQJNABEC
+ IwCgASMA oAFNAAQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAACAQEA BQAAAAkC AAAAAAQA AAAuARgA BAAAAC0B AAAWAAAA Mgo9ALYB CgAAALfW udy+1sHs tbwOAAAA
+ DgAAAA4A AAAOAAAA AAAAAAQA AAAtAQYA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA BAAAAC0B BQAOAAAA JAMFABEC oQODAqED gwIjABEC IwARAqED BAAAAC0B AgAEAAAA
+ LQEDAAQA AADwAQcA BAAAAC0B BAAEAAAA LQEBAA4A AAAkAwUA EQIjABEC TQCDAk0A gwIjABEC IwAEAAAA LQECAAQA AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA
+ BAAAAC0B BQAOAAAA JAMFABEC TQCDAk0A gwIjABEC IwARAk0A BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAAIB AQAFAAAA CQIAAAAA BAAAAC4B GAAEAAAA LQEAABYA
+ AAAyCj0A JwIKAAAA sOzLsLf+ zvHM/A4A AAAOAAAA DgAAAA8A AAAAAAAA BAAAAC0B BgAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA JQChA5cA
+ oQOXACMA JQAjACUA oQMEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA AAAtAQEA DgAAACQD BQAlACMA JQBNAJcA TQCXACMA JQAjAAQA AAAtAQIA BAAAAC0B
+ AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA JQBNAJcA TQCXACMA JQAjACUA TQAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA AgEBAAUA
+ AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA EAAAADIK PQBJAAYA AADEycuw yMsOAAAA DgAAAAAA AAAEAAAA LQEGAAQA AAAtAQQA BAAAAAYB AQAEAAAA LQEBAEkA AAA4BQEA
+ IgA2AIYA NwB/ADkA eQA8AHMA QABuAEUA agBLAGcA UQBlAFgA ZABeAGUA ZQBnAGoA agBvAG4A cwBzAHYA eQB4AH8A eQCGAHkA hgB4AI0A dgCTAHMA mQBvAJ4A agCiAGUA
+ pQBeAKcA WACnAFEA pwBLAKUA RQCiAEAA ngA8AJkA OQCTADcA jQA2AIYA BAAAAC0B AgAEAAAA BgEBAAQA AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA BAAAAC0B
+ BQBIAAAA JQMiADYA hgA3AH8A OQB5ADwA cwBAAG4A RQBqAEsA ZwBRAGUA WABkAF4A ZQBlAGcA agBqAG8A bgBzAHMA dgB5AHgA fwB5AIYA eQCGAHgA jQB2AJMA cwCZAG8A
+ ngBqAKIA ZQClAF4A pwBYAKcA UQCnAEsA pQBFAKIA QACeADwA mQA5AJMA NwCNADYA hgAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B
+ BwAEAAAA LQEFAAgA AAAlAwIA WACnAHkA pwAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AADwAQAA HAAAAPsC 9v8AAAAA
+ AACQAQAA AIYHAAQA y87M5QAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAEAAAA LQEAAA0A AAAyCokA TgAEAAAA yerH6woA AAAAAAAA BAAAAC0B BgAEAAAA LQEEAAQA
+ AAAtAQEA DgAAACQD BQC/AHQA vwCYAPwA mAD8AHQA vwB0AAQA AAAtAQIA BAAAAC0B AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA vwCYAPwA
+ mAD8AHQA vwB0AL8A mAAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA DQAAADIK iQDUAAQA AADK3MDt CQAAAAAA
+ AAAEAAAA LQEGAAQA AAAtAQQA BAAAAAYB AQAEAAAA LQEBAA4A AAAkAwUA uwDRAN0A vQAAAdEA 3QDmALsA 0QAEAAAA LQECAAQA AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA
+ AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA uwDRAN0A vQAAAdEA 3QDmALsA 0QAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA
+ LgEYAAQA AAAtAQAA EwAAADIK 1QDLAAgA AADXysHP xdC2qAoA AAAJAAAA CgAAAAAA AAAEAAAA LQEGAAQA AAAtAQQA BAAAAC0B AQAOAAAA JAMFAL8A AgG/ACYB /AAmAfwA
+ AgG/AAIB BAAAAC0B AgAEAAAA LQEDAAgA AAD6AgAA AAAAAAAA AAAEAAAA LQEHAAQA AAAtAQUA DgAAACQD BQC/ACYB /AAmAfwA AgG/AAIB vwAmAQQA AAAtAQIA BAAAAC0B
+ AwAEAAAA 8AEHAAQA AAACAQEA BQAAAAkC AAAAAAQA AAAuARgA BAAAAC0B AAANAAAA MgoXAdQA BAAAALP1 yfMJAAAA AAAAAAQA AAAtAQYA BAAAAC0B BAAEAAAA LQEBAA4A
+ AAAkAwUA vwBGAb8A agH8AGoB /ABGAb8A RgEEAAAA LQECAAQA AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA BAAAAC0B BQAOAAAA JAMFAL8A agH8AGoB /ABGAb8A
+ RgG/AGoB BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAAIB AQAFAAAA CQIAAAAA BAAAAC4B GAAEAAAA LQEAAA0A AAAyClsB 1AAEAAAA tfey6QkA AAAAAAAA BAAAAC0B
+ BgAEAAAA LQEEAAQA AAAGAQEA BAAAAC0B AQAOAAAA JAMFAEIB WAFkAUQB hwFYAWQB bQFCAVgB BAAAAC0B AgAEAAAA BgEBAAQA AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA
+ AAAtAQcA BAAAAC0B BQAOAAAA JAMFAEIB WAFkAUQB hwFYAWQB bQFCAVgB BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAAIB AQAFAAAA CQIAAAAA BAAAAC4B GAAEAAAA
+ LQEAAA0A AAAyClsB WwEEAAAA yfPF+goA AAAAAAAA BAAAAC0B BgAEAAAA LQEEAAQA AAAGAQEA BAAAAC0B AQAOAAAA JAMFALcB WAHZAUQB /AFYAdkB bQG3AVgB BAAAAC0B
+ AgAEAAAA BgEBAAQA AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA BAAAAC0B BQAOAAAA JAMFALcB WAHZAUQB /AFYAdkB bQG3AVgB BAAAAC0B AgAEAAAA LQEDAAQA
+ AADwAQcA BAAAAAIB AQAFAAAA CQIAAAAA BAAAAC4B GAAEAAAA LQEAAA0A AAAyClsB 0AEEAAAA yfPF+goA AAAAAAAA BAAAAC0B BgAEAAAA LQEEAAQA AAAtAQEA DgAAACQD
+ BQAwApoB MAK+AW0C vgFtApoB MAKaAQQA AAAtAQIA BAAAAC0B AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA MAK+AW0C vgFtApoB MAKaATAC
+ vgEEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA EwAAADIK rwE7AggA AADOxMrp wrzI6woA AAAKAAAA CQAAAAAA
+ AAAEAAAA LQEGAAQA AAAtAQQA BAAAAC0B AQAOAAAA JAMFAMQB 3AHEAQAC AAIAAgAC 3AHEAdwB BAAAAC0B AgAEAAAA LQEDAAgA AAD6AgAA AAAAAAAA AAAEAAAA LQEHAAQA
+ AAAtAQUA DgAAACQD BQDEAQAC AAIAAgAC 3AHEAdwB xAEAAgQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAACAQEA BQAAAAkC AAAAAAQA AAAuARgA BAAAAC0B AAATAAAA
+ MgrxAc8B CAAAAM7E yunJ88X6 CgAAAAoA AAAJAAAA AAAAAAQA AAAtAQYA BAAAAC0B BAAEAAAA LQEBAA4A AAAkAwUA TwHcAU8B AAKLAQAC iwHcAU8B 3AEEAAAA LQECAAQA
+ AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA BAAAAC0B BQAOAAAA JAMFAE8B AAKLAQAC iwHcAU8B 3AFPAQAC BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAAIB
+ AQAFAAAA CQIAAAAA BAAAAC4B GAAEAAAA LQEAABMA AAAyCvEB WgEIAAAA zsTK6cnz xfoKAAAA CgAAAAoA AAAAAAAA BAAAAC0B BgAEAAAA LQEEAAQA AAAtAQEA DgAAACQD
+ BQDIANwB yAAAAgQB AAIEAdwB yADcAQQA AAAtAQIA BAAAAC0B AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA yAAAAgQB AAIEAdwB yADcAcgA
+ AAIEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA EwAAADIK 8QHUAAgA AADOxMrp yfPF+gkA AAAKAAAA CgAAAAAA
+ AAAEAAAA LQEGAAQA AAAtAQQA BAAAAC0B AQAOAAAA JAMFADAC 3AEwAgAC bQIAAm0C 3AEwAtwB BAAAAC0B AgAEAAAA LQEDAAgA AAD6AgAA AAAAAAAA AAAEAAAA LQEHAAQA
+ AAAtAQUA DgAAACQD BQAwAgAC bQIAAm0C 3AEwAtwB MAIAAgQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAACAQEA BQAAAAkC AAAAAAQA AAAuARgA BAAAAC0B AAATAAAA
+ MgrxATsC CAAAAM7E yum0q7Xd CgAAAAoA AAAJAAAA AAAAAAQA AAAtAQYA BAAAAC0B BAAEAAAA LQEBAA4A AAAkAwUA MAIdAjAC QQJtAkEC bQIdAjAC HQIEAAAA LQECAAQA
+ AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA BAAAAC0B BQAOAAAA JAMFADAC QQJtAkEC bQIdAjAC HQIwAkEC BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAAIB
+ AQAFAAAA CQIAAAAA BAAAAC4B GAAEAAAA LQEAABMA AAAyCjIC OwIIAAAA zsTK6c/6 usUKAAAA CgAAAAkA AAAAAAAA BAAAAC0B BgAEAAAA LQEEAAQA AAAtAQEA DgAAACQD
+ BQBHAB0C RwBBAoMA QQKDAB0C RwAdAgQA AAAtAQIA BAAAAC0B AwAIAAAA +gIAAAAA AAAAAAAA BAAAAC0B BwAEAAAA LQEFAA4A AAAkAwUA RwBBAoMA QQKDAB0C RwAdAkcA
+ QQIEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA DQAAADIK MgJbAAQA AADWtNDQ CgAAAAAA AAAEAAAA LQEGAAQA
+ AAAtAQQA BAAAAAYB AQAEAAAA LQEBADEA AAA4BQEA FgDNAJQC /wCUAgYB kgILAY8C DwGJAhAB gwIPAXwC CwF3AgYB dAL/AHIC /wByAv8A cgLNAHIC xwB0AsEA dwK+AHwC
+ vACDAr4A iQLBAI8C xwCSAs0A lALNAJQC BAAAAC0B AgAEAAAA BgEBAAQA AAAtAQMA CAAAAPoC AAAAAAAA AAAAAAQA AAAtAQcA BAAAAC0B BQAwAAAA JQMWAM0A lAL/AJQC
+ BgGSAgsB jwIPAYkC EAGDAg8B fAILAXcC BgF0Av8A cgL/AHIC /wByAs0A cgLHAHQC wQB3Ar4A fAK8AIMC vgCJAsEA jwLHAJIC zQCUAs0A lAIEAAAA LQECAAQA AAAtAQMA
+ BAAAAPAB BwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA EwAAADIK hgLUAAgA AADXysHP uem1tQkA AAAKAAAA CgAAAAAA AAAEAAAA LQEGAAgA AAD6AgAA
+ AAAAAEZ3 vwAEAAAA LQEHAAQA AAAtAQUA CAAAACUD AgB5AIYA ugCGAAQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AADwAQQA BwAAAPwC AABGd78A AAAEAAAA LQEEAAQA
+ AAAGAQEA BAAAAC0B AQAMAAAA JAMEALkA gwC/AIYA uQCJALkA gwAEAAAA LQECAAQA AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAAgA
+ AAAlAwIA 3QCYAN0A twAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA AAAGAQEA BAAAAC0B AQAMAAAA JAMEAOEA tgDdAL0A 2gC2AOEA tgAEAAAA LQECAAQA
+ AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAAgA AAAlAwIA 3QDmAN0A /AAEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA
+ AAAGAQEA BAAAAC0B AQAMAAAA JAMEAOEA /ADdAAIB 2gD8AOEA /AAEAAAA LQECAAQA AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAAoA
+ AAAlAwMA uwDRAFgA 0QBYAK0A BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAC0B BAAEAAAA BgEBAAQA AAAtAQEA DAAAACQD BABUAK4A WACnAFsA rgBUAK4A BAAAAC0B
+ AgAEAAAA BgEBAAQA AAAtAQMA BAAAAPAB BAAHAAAA /AIAAP// /wAAAAQA AAAtAQQA BAAAAC0B AQAOAAAA JAMFAGsA ywBrANcA fQDXAH0A ywBrAMsA BAAAAC0B AgAEAAAA
+ LQEDAAQA AAACAQEA BQAAAAkC AAAAAAQA AAAuARgA BAAAAC0B AAANAAAA MgrVAGsA BAAAALK7 t/sKAAAA AAAAAAQA AAAtAQYA CAAAAPoC AAAAAAAA Rne/AAQA AAAtAQcA
+ BAAAAC0B BQAIAAAA JQMCAN0A JgHdAEEB BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAPAB BAAHAAAA /AIAAEZ3 vwAAAAQA AAAtAQQA BAAAAAYB AQAEAAAA LQEBAAwA
+ AAAkAwQA 4QBAAd0A RgHaAEAB 4QBAAQQA AAAtAQIA BAAAAAYB AQAEAAAA LQEDAAgA AAD6AgAA AAAAAEZ3 vwAEAAAA LQEHAAQA AAAtAQUA CAAAACUD AgD8AFgB PAFYAQQA
+ AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAAtAQQA BAAAAAYB AQAEAAAA LQEBAAwA AAAkAwQA OwFVAUIB WAE7AVwB OwFVAQQA AAAtAQIA BAAAAAYB AQAEAAAA LQEDAAgA
+ AAD6AgAA AAAAAEZ3 vwAEAAAA LQEHAAQA AAAtAQUA CAAAACUD AgCHAVgB sQFYAQQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAAtAQQA BAAAAAYB AQAEAAAA LQEBAAwA
+ AAAkAwQA sQFVAbcB WAGxAVwB sQFVAQQA AAAtAQIA BAAAAAYB AQAEAAAA LQEDAAgA AAD6AgAA AAAAAEZ3 vwAEAAAA LQEHAAQA AAAtAQUA CgAAACUD AwD8AVgB TgJYAU4C
+ lAEEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA AAAGAQEA BAAAAC0B AQAMAAAA JAMEAFIC kwFOApoB SwKTAVIC kwEEAAAA LQECAAQA AAAGAQEA BAAAAC0B
+ AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAAgA AAAlAwIA TgK+AU4C 1gEEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA AAAGAQEA BAAAAC0B
+ AQAMAAAA JAMEAFIC 1QFOAtwB SwLVAVIC 1QEEAAAA LQECAAQA AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAA4A AAAlAwUA MALuASQC
+ 7gEkAs8B 5gDPAeYA 1gEEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA AAAGAQEA BAAAAC0B AQAMAAAA JAMEAOoA 1QHmANwB 4wDVAeoA 1QEEAAAA LQECAAQA
+ AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAAgA AAAlAwIA BAHuAUkB 7gEEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA
+ AAAGAQEA BAAAAC0B AQAMAAAA JAMEAEgB 6gFPAe4B SAHxAUgB 6gEEAAAA LQECAAQA AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAAgA
+ AAAlAwIA iwHuAb4B 7gEEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA LQEEAAQA AAAGAQEA BAAAAC0B AQAMAAAA JAMEAL4B 6gHEAe4B vgHxAb4B 6gEEAAAA LQECAAQA
+ AAAGAQEA BAAAAC0B AwAIAAAA +gIAAAAA AABGd78A BAAAAC0B BwAEAAAA LQEFAAwA AAAlAwQA 4gEAAuIB DAJOAgwC TgIYAgQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA
+ AAAtAQQA BAAAAAYB AQAEAAAA LQEBAAwA AAAkAwQA UgIXAk4C HQJLAhcC UgIXAgQA AAAtAQIA BAAAAAYB AQAEAAAA LQEDAAgA AAD6AgAA AAAAAEZ3 vwAEAAAA LQEHAAQA
+ AAAtAQUA CAAAACUD AgAwAi8C iQAvAgQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAAtAQQA BAAAAAYB AQAEAAAA LQEBAAwA AAAkAwQA igAzAoMA LwKKACwC igAzAgQA
+ AAAtAQIA BAAAAAYB AQAEAAAA LQEDAAQA AADwAQQA BwAAAPwC AAD///8A AAAEAAAA LQEEAAQA AAAtAQEA DgAAACQD BQBQASkC UAE2AmMB NgJjASkC UAEpAgQA AAAtAQIA
+ BAAAAC0B AwAEAAAA AgEBAAUA AAAJAgAA AAAEAAAA LgEYAAQA AAAtAQAA DQAAADIK MgJRAQQA AADLzbTv CQAAAAAA AAAEAAAA LQEGAAgA AAD6AgAA AAAAAEZ3 vwAEAAAA
+ LQEHAAQA AAAtAQUA CgAAACUD AwBOAkEC TgKDAhYB gwIEAAAA LQECAAQA AAAtAQMA BAAAAPAB BwAEAAAA 8AEEAAcA AAD8AgAA Rne/AAAA BAAAAC0B BAAEAAAA BgEBAAQA
+ AAAtAQEA DAAAACQD BAAXAYYC EAGDAhcB gAIXAYYC BAAAAC0B AgAEAAAA BgEBAAQA AAAtAQMA CAAAAPoC AAAAAAAA Rne/AAQA AAAtAQcA BAAAAC0B BQAKAAAA JQMDAGQB
+ RAFkAYYA AQGGAAQA AAAtAQIA BAAAAC0B AwAEAAAA 8AEHAAQA AAAtAQQA BAAAAAYB AQAEAAAA LQEBAAwA AAAkAwQA AgGJAPwA hgACAYMA AgGJAAQA AAAtAQIA BAAAAAYB
+ AQAEAAAA LQEDAAgA AAD6AgAA AAAAAEZ3 vwAEAAAA LQEHAAQA AAAtAQUA DAAAACUD BADZAW0B 2QF9AWQB fQFkAXMB BAAAAC0B AgAEAAAA LQEDAAQA AADwAQcA BAAAAC0B
+ BAAEAAAA BgEBAAQA AAAtAQEA DAAAACQD BABhAXQB ZAFtAWcB dAFhAXQB BAAAAC0B AgAEAAAA BgEBAAQA AAAtAQMA DAAAAEAJ KQCqAAAA AAAAAKID hQIBAAIA BAAAACcB
+ //8DAAAA AAA=</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="30" />
+            <Element xsi:type="XString" StyleIndex="21">
+               <Text>图A.1　	新办增值税一般纳税人资格认定管理流程</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="32">
+               <Text>_________________________________</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="33" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="34" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements />
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements />
+      </Element>
+   </XElements>
+   <Info>
+      <LicenseText>云南达远软件有限公司:昆明市五华区国家税务局</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2014-12-18T10:36:17.696594+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2014.11.13</Operator>
+      <NumOfPage>7</NumOfPage>
+   </Info>
+   <BodyText>WHGS
+昆明市五华区国家税务局标准
+WHGS ZGRD01—2014
+
+  
+
+新办增值税一般纳税人资格认定管理
+2014 - 08 - 12发布
+2015 - 01 - 01实施
+昆明市五华区国家税务局发布
+
+目次
+前言	2
+1　范围	3
+2　职责	3
+2.1　办税服务厅	3
+2.2　税务分局	3
+2.3　货物和劳务税科	3
+3　新办增值税一般纳税人资格认定管理流程	3
+4　受理申请	3
+5　传递、审批信息	4
+6　资料归档	4
+7　相关记录	4
+8　纳入绩效考评的行为	4
+附录A（规范性附录）　新办增值税一般纳税人资格认定管理流程	5
+
+
+前言
+本标准按照GB/T 1.1—2009《标准化工作导则 第1部分：标准的结构和编写》编制。
+本标准由五华区国家税务局货物和劳务税科提出并归口。
+本标准主要起草单位：五华区国家税务局货物和劳务税科。
+本标准主要起草人：杨兰、张榕、胡跃红、肖雁、张雁、杨迎胜、佘玫、季恒、何佳。
+
+新办增值税一般纳税人资格认定管理
+1　	范围
+本标准规定了五华区国家税务局办理新办增值税一般纳税人资格认定工作的受理申请、录入信息、传递审批信息、资料整理、归档、移交等内容。
+本标准适用于五华区国家税务局实施新办增值税一般纳税人资格认定的事项。
+2　	职责
+2.1　	办税服务厅
+负责文书登记、录入、销号。
+2.2　	税务分局
+2.2.1　	负责受理、传递纳税人提交的认定申请及资料。
+2.2.2　	负责安排两名以上税收管理员对纳税人进行实地调查和查验，并提出初审原因及意见。
+2.2.3　	负责填写、审核、传递《增值税一般纳税人资格认定实地查验表》提出初审意见。
+2.3　	货物和劳务税科 
+对认定资料、审核意见进行复审并完成文书审批。
+3　	新办增值税一般纳税人资格认定管理流程
+新办增值税一般纳税人资格认定管理流程见附录A.1。
+4　	受理申请
+4.1　	新办纳税人申请增值税一般纳税人资格应符合如下条件：
+——	有固定的生产经营场所；
+——	能够按照国家统一的会计制度规定设置账簿，根据合法、有效凭证核算，能够提供准确税务资。
+4.2　	下列纳税人不办理一般纳税人资格认定：
+——	个体工商户以外的其他个人；
+——	不经常提供应税服务的非企业性单位；
+——	选择按照小规模纳税人纳税的不经常发生应税行为的企业。
+4.3　	申请办理增值税一般纳税人资格时应由纳税人提交如下资料：
+——	《增值税一般纳税人认定申请审批表》，一式三份；
+——	《税务登记证》副本及其复印件；
+——	财务负责人和办税人员的身份证明及其复印件；
+——	会计人员的从业资格证明或者与中介机构签订的代理记账协议及其复印件；
+——	经营场所产权证明或者租赁协议，或者其他可使用场地证明及其复印件；
+——	国家税务总局规定的其他有关资料。
+4.4　	新办纳税人办理增值税一般纳税人认定的办理时限：
+自受理申请之日起20日内办结，并由税务分局制作、送达《税务事项通知书》，告知纳税人。
+4.5　	税务分局应当场核对纳税人的申请资料，经核对一致且申请资料齐全、符合填列要求的，当场受理，并将有关资料的原件退还纳税人，对申请资料不齐全或者不符合填列要求的，应当场告知纳税人需要补正的全部内容。
+4.6　	税务分局受理纳税人申请，应有两名以上工作人员进行实地查验，制作查验报告，查验报告由纳税人法定代表人（负责人或者业主）、税务查验人员共同签字（签章）确认。
+5　	传递、审批信息
+5.1　	办税服务厅在《中国税收征管信息系统》中录入《增值税一般纳税人认定申请审批表》。
+5.2　	税务分局将《增值税一般纳税人认定申请审批表》连同纳税人报送的资料转货物和劳务税科。
+5.3　	货物和劳务税科核准审批后转分管局长进行审批，税务分局根据审批结果打印《税务事项通知书》。
+6　	资料归档
+6.1　	新办增值税一般纳税人归档的征管资料应包括：
+——	《增值税一般纳税人认定申请审批表》；
+——	《税务登记证》副本复印件；
+——	 财务负责人和办税人员的身份证明及其复印件；
+——	 会计人员的从业资格证明或者与中介机构签订的代理记账协议及其复印件；
+——	经营场所产权证明或者租赁协议，或者其他可使用场地证明及其复印件；
+——	国家税务总局规定的其他有关资料。
+7　	相关记录
+增值税一般纳税人税务事项通知书(WHGS ZGRD 01 BD01)
+增值税一般纳税人申请认定表(WHGS ZGRD 01 BD02)
+8　	纳入绩效考评的行为
+8.1　	未按规定做好新办一般纳税人认定。
+A	
+
+A	
+B	
+附　录　A	
+（规范性附录）
+新办增值税一般纳税人资格认定管理流程
+
+图A.1　	新办增值税一般纳税人资格认定管理流程
+_________________________________
+
+</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>79</HeaderDistance>
+      <FooterDistance>79</FooterDistance>
+      <LeftMargin>98</LeftMargin>
+      <TopMargin>39</TopMargin>
+      <RightMargin>79</RightMargin>
+      <BottomMargin>79</BottomMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <BackgroundColor />
+            <FontName>Times New Roman</FontName>
+            <FontSize>48</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="2">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="3">
+            <BackgroundColor />
+            <FontName>黑体</FontName>
+            <FontSize>24</FontSize>
+         </Style>
+         <Style Index="4">
+            <BackgroundColor />
+            <FontName>Times New Roman</FontName>
+            <FontSize>14</FontSize>
+         </Style>
+         <Style Index="5">
+            <BackgroundColor />
+            <FontName>黑体</FontName>
+            <FontSize>14</FontSize>
+         </Style>
+         <Style Index="6">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingBeforeParagraph>74</SpacingBeforeParagraph>
+            <Align>Right</Align>
+         </Style>
+         <Style Index="7">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="8">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+            <PaddingLeft>22</PaddingLeft>
+            <PaddingRight>22</PaddingRight>
+         </Style>
+         <Style Index="9">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingBeforeParagraph>74</SpacingBeforeParagraph>
+            <Align>Right</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="10">
+            <BackgroundColor />
+            <FontName>黑体</FontName>
+            <FontSize>26</FontSize>
+         </Style>
+         <Style Index="11">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingBeforeParagraph>91</SpacingBeforeParagraph>
+            <Align>Center</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="12">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Right</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="13">
+            <BackgroundColor />
+            <FontName>黑体</FontName>
+            <FontSize>16</FontSize>
+         </Style>
+         <Style Index="14">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>116</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>133</SpacingBeforeParagraph>
+            <Align>Center</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="15">
+            <BackgroundColor />
+            <Color>0, 0, 255</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Underline>true</Underline>
+         </Style>
+         <Style Index="16">
+            <BackgroundColor />
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+            <Underline>true</Underline>
+         </Style>
+         <Style Index="17">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Underline>true</Underline>
+         </Style>
+         <Style Index="18">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <FirstLineIndent>43</FirstLineIndent>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="19">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="20">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <FirstLineIndent>87</FirstLineIndent>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="21">
+            <BackgroundColor />
+            <FontName>黑体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="22">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>64</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>64</SpacingBeforeParagraph>
+            <Align>Justify</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="23">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>32</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>32</SpacingBeforeParagraph>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="24">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <FirstLineIndent>-84</FirstLineIndent>
+            <LeftIndent>173</LeftIndent>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="25">
+            <BackgroundColor />
+            <Color>255, 255, 255</Color>
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="26">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <FirstLineIndent>-93</FirstLineIndent>
+            <LeftIndent>168</LeftIndent>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="27">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <FirstLineIndent>75</FirstLineIndent>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="28">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>58</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>133</SpacingBeforeParagraph>
+            <Align>Center</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="29">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>11</FontSize>
+         </Style>
+         <Style Index="30">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <FirstLineIndent>87</FirstLineIndent>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="31">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>32</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>32</SpacingBeforeParagraph>
+            <Align>Center</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="32">
+            <BackgroundColor />
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="33">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="34">
+            <BackgroundColor />
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>41</SpacingAfterParagraph>
+            <LineSpacingStyle>SpaceMultiple</LineSpacingStyle>
+            <LineSpacing>1.15</LineSpacing>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

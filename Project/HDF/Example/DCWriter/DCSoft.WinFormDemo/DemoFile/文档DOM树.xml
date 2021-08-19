@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>文档DOM树</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>再次文档的左边会显示，这个文档的DOM树结构</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XImage">
+               <ID>image1</ID>
+               <PropertyExpressions />
+               <Width>687.5</Width>
+               <Height>187</Height>
+               <CompressSaveMode>false</CompressSaveMode>
+               <Image>
+                  <ImageDataBase64String> iVBORw0K GgoAAAAN SUhEUgAA ANwAAAA8 CAYAAAAN HtQDAAAA CXBIWXMA ABcRAAAX EQHKJvM/ AAAKTWlD Q1BQaG90 b3Nob3Ag SUNDIHBy b2ZpbGUA AHjanVN3 WJP3Fj7f
+ 92UPVkLY 8LGXbIEA IiOsCMgQ WaIQkgBh hBASQMWF iApWFBUR nEhVxILV CkidiOKg KLhnQYqI WotVXDju H9yntX16 7+3t+9f7 vOec5/zO ec8PgBES JpHmomoA OVKFPDrY
+ H49PSMTJ vYACFUjg BCAQ5svC ZwXFAADw A3l4fnSw P/wBr28A AgBw1S4k Esfh/4O6 UCZXACCR AOAiEucL AZBSAMgu VMgUAMgY ALBTs2QK AJQAAGx5 fEIiAKoN AOz0ST4F
+ ANipk9wX ANiiHKkI AI0BAJko RyQCQLsA YFWBUiwC wMIAoKxA Ii4EwK4B gFm2MkcC gL0FAHaO WJAPQGAA gJlCLMwA IDgCAEMe E80DIEwD oDDSv+Cp X3CFuEgB AMDLlc2X
+ S9IzFLiV 0Bp38vDg 4iHiwmyx QmEXKRBm CeQinJeb IxNI5wNM zgwAABr5 0cH+OD+Q 5+bk4eZm 52zv9MWi /mvwbyI+ IfHf/ryM AgQAEE7P 79pf5eXW A3DHAbB1 v2upWwDa
+ VgBo3/ld M9sJoFoK 0Hr5i3k4 /EAenqFQ yDwdHAoL C+0lYqG9 MOOLPv8z 4W/gi372 /EAe/tt6 8ABxmkCZ rcCjg/1x YW52rlKO 58sEQjFu 9+cj/seF f/2OKdHi NLFcLBWK
+ 8ViJuFAi Tcd5uVKR RCHJleIS 6X8y8R+W /QmTdw0A rIZPwE62 B7XLbMB+ 7gECiw5Y 0nYAQH7z LYwaC5EA EGc0Mnn3 AACTv/mP QCsBAM2X pOMAALzo GFyolBdM xggAAESg
+ gSqwQQcM wRSswA6c wR28wBcC YQZEQAwk wDwQQgbk gBwKoRiW QRlUwDrY BLWwAxqg EZrhELTB MTgN5+AS XIHrcBcG YBiewhi8 hgkEQcgI E2EhOogR Yo7YIs4I F5mOBCJh
+ SDSSgKQg 6YgUUSLF yHKkAqlC apFdSCPy LXIUOY1c QPqQ28gg Mor8irxH MZSBslED 1AJ1QLmo HxqKxqBz 0XQ0D12A lqJr0Rq0 Hj2AtqKn 0UvodXQA fYqOY4DR MQ5mjNlh
+ XIyHRWCJ WBomxxZj 5Vg1Vo81 Yx1YN3YV G8CeYe8I JAKLgBPs CF6EEMJs gpCQR1hM WEOoJewj tBK6CFcJ g4Qxwici k6hPtCV6 EvnEeGI6 sZBYRqwm 7iEeIZ4l XicOE1+T
+ SCQOyZLk TgohJZAy SQtJa0jb SC2kU6Q+ 0hBpnEwm 65Btyd7k CLKArCCX kbeQD5BP kvvJw+S3 FDrFiOJM CaIkUqSU Eko1ZT/l BKWfMkKZ oKpRzame 1AiqiDqf WkltoHZQ
+ L1OHqRM0 dZolzZsW Q8ukLaPV 0JppZ2n3 aC/pdLoJ 3YMeRZfQ l9Jr6Afp 5+mD9HcM DYYNg8dI YigZaxl7 GacYtxkv mUymBdOX mchUMNcy G5lnmA+Y b1VYKvYq fBWRyhKV
+ OpVWlX6V 56pUVXNV P9V5qgtU q1UPq15W faZGVbNQ 46kJ1Bar 1akdVbup Nq7OUndS j1DPUV+j vl/9gvpj DbKGhUag hkijVGO3 xhmNIRbG MmXxWELW clYD6yxr mE1iW7L5
+ 7Ex2Bfsb di97TFND c6pmrGaR Zp3mcc0B Dsax4PA5 2ZxKziHO Dc57LQMt Py2x1mqt Zq1+rTfa etq+2mLt cu0W7eva 73VwnUCd LJ31Om06 93UJuja6 UbqFutt1 z+o+02Pr
+ eekJ9cr1 Dund0Uf1 bfSj9Rfq 79bv0R83 MDQINpAZ bDE4Y/DM kGPoa5hp uNHwhOGo EctoupHE aKPRSaMn uCbuh2fj NXgXPmas bxxirDTe ZdxrPGFi aTLbpMSk xeS+Kc2U
+ a5pmutG0 03TMzMgs 3KzYrMns jjnVnGue Yb7ZvNv8 jYWlRZzF Sos2i8eW 2pZ8ywWW TZb3rJhW PlZ5VvVW 16xJ1lzr LOtt1lds UBtXmwyb OpvLtqit m63Edptt 3xTiFI8p
+ 0in1U27a Mez87Ars muwG7Tn2 YfYl9m32 zx3MHBId 1jt0O3xy dHXMdmxw vOuk4TTD qcSpw+lX ZxtnoXOd 8zUXpkuQ yxKXdpcX U22niqdu n3rLleUa 7rrStdP1 o5u7m9yt
+ 2W3U3cw9 xX2r+00u mxvJXcM9 70H08PdY 4nHM452n m6fC85Dn L152Xlle +70eT7Oc Jp7WMG3I 28Rb4L3L e2A6Pj1l +s7pAz7G PgKfep+H vqa+It89 viN+1n6Z fgf8nvs7
+ +sv9j/i/ 4XnyFvFO BWABwQHl Ab2BGoGz A2sDHwSZ BKUHNQWN BbsGLww+ FUIMCQ1Z H3KTb8AX 8hv5YzPc Zyya0RXK CJ0VWhv6 MMwmTB7W EY6Gzwjf EH5vpvlM 6cy2CIjg
+ R2yIuB9p GZkX+X0U KSoyqi7q UbRTdHF0 9yzWrORZ +2e9jvGP qYy5O9tq tnJ2Z6xq bFJsY+yb uIC4qriB eIf4RfGX EnQTJAnt ieTE2MQ9 ieNzAuds mjOc5JpU lnRjruXc
+ orkX5unO y553PFk1 WZB8OIWY EpeyP+WD IEJQLxhP 5aduTR0T 8oSbhU9F vqKNolGx t7hKPJLm nVaV9jjd O31D+miG T0Z1xjMJ T1IreZEZ krkj801W RNberM/Z cdktOZSc
+ lJyjUg1p lrQr1zC3 KLdPZisr kw3keeZt yhuTh8r3 5CP5c/Pb FWyFTNGj tFKuUA4W TC+oK3hb GFt4uEi9 SFrUM99m /ur5IwuC Fny9kLBQ uLCz2Lh4 WfHgIr9F uxYji1MX
+ dy4xXVK6 ZHhp8NJ9 y2jLspb9 UOJYUlXy annc8o5S g9KlpUMr glc0lamU ycturvRa uWMVYZVk Ve9ql9Vb Vn8qF5Vf rHCsqK74 sEa45uJX Tl/VfPV5 bdra3kq3 yu3rSOuk
+ 626s91m/ r0q9akHV 0IbwDa0b 8Y3lG19t St50oXpq 9Y7NtM3K zQM1YTXt W8y2rNvy oTaj9nqd f13LVv2t q7e+2Sba 1r/dd3vz DoMdFTve 75TsvLUr eFdrvUV9 9W7S7oLd
+ jxpiG7q/ 5n7duEd3 T8Wej3ul ewf2Re/r anRvbNyv v7+yCW1S No0eSDpw 5ZuAb9qb 7Zp3tXBa Kg7CQeXB J9+mfHvj UOihzsPc w83fmX+3 9QjrSHkr 0jq/dawt o22gPaG9
+ 7+iMo50d Xh1Hvrf/ fu8x42N1 xzWPV56g nSg98fnk gpPjp2Sn np1OPz3U mdx590z8 mWtdUV29 Z0PPnj8X dO5Mt1/3 yfPe549d 8Lxw9CL3 Ytslt0ut Pa49R35w /eFIr1tv
+ 62X3y+1X PK509E3r O9Hv03/6 asDVc9f4 1y5dn3m9 78bsG7du Jt0cuCW6 9fh29u0X dwruTNxd eo94r/y+ 2v3qB/oP 6n+0/rFl wG3g+GDA YM/DWQ/v DgmHnv6U /9OH4dJH
+ zEfVI0Yj jY+dHx8b DRq98mTO k+GnsqcT z8p+Vv95 63Or59/9 4vtLz1j8 2PAL+YvP v655qfNy 76uprzrH I8cfvM55 PfGm/K3O 233vuO+6 38e9H5ko /ED+UPPR +mPHp9BP
+ 9z7nfP78 L/eE8/sl 0p8zAAAA IGNIUk0A AHolAACA gwAA+f8A AIDpAAB1 MAAA6mAA ADqYAAAX b5JfxUYA AB3OSURB VHja7J15 fFvVlce/ Wr3Ei7KS 5CXYDSET SIJFIBAg
+ EIWlM1DS GEqZYWsc 1pYpTSjT AQZozNaW thBnptAC HXA6dGM1 WyFAiUIy BIYAcihL CBBnUVbH llftevOH 7pOun59k S5ZMQnU+ n/ex9aT3 7nn3nt89 v3Pu8kyq qlKQghRk
+ eMRcqIKC FKQAuIIU pAC4ghSk IAXAFaQg BcAVpCAF 6S9Wo5N2 xTsPmCc+ RgEViBmA 1QRYxG96 gTbgc2An sCtHOjqA U4Q+s4EJ QJn4bj+w GVgHvAq0 SM91qtBv HRBOdfOQ
+ VzE8v3De zEz0c4r/ WyQdCvJ3 JM+v/1t2 gLMr3ueA hTnQ4VVh 7H8B3s3i +vnA1cDF aX7zNeAE 4DLx+Tlg rwDnUeLc J8Ax6UA3 RHECa8T/ twP1BfMr yKAAZ1e8 k4GFygQL
+ l3yrNO7e oiqxGOiH 60wmMJvB YjERjar0 9Kq0+WJs 3RZl564o u/dFzwLO Au4AXgJ+ G/IqTw+k kF3xjgZ+ A1wAUFlu 5uQ5dk4+ wc6xs2xM OMxC+Qgz qqrS2h5j 82cRXnsj
+ yOvrguzZ F/1mAq0n FWEygfvN 4HTg3JBX eWYY6rPg 3Q5daRDt 1zCclHIS wKQJFm65 vhyzGYrs prQ3CEfi gLRZTZhF RNjeEWOj J8zLrwd4 brWfbTui ZwNn2xXv i8B3Q15l
+ ZwqwnQr8 CZg4drSZ Ky8ZwaXf LuXIKdZE Wbt2x+jp jVFaYmbm dBtznHYu vaCU3Xuj bPSE2bs/ yrgxFs44 rYiHH+vB /WYQQS/z BThPiv8L kl34sOxL YAnVwFLp /2X5Ksgk
+ zzSxK95i wF9kNzFu bBw906ZY ue8OB0dN S2JTVeF3 j/fyP0/0 smNXFFVV KSs1M3G8 hdnH2Dj7 jGJOOt4O QGtbjN8/ 1ct/PtzN Dm8UoB34 55BXeVUH tjOA1wAW /mMxP7u1
+ MgG0t98L 8d+/7+GN DSH27o8S jYLVCiMd Zo532vn2 whIuWFjS 7+Feej3A ossOALwU 8irnZFIx GcRwTuB9 rT4PEsOt FodTGLFL Muhq0TG0 AE3iGA5p AnwCTC0p wOYGakSo
+ MJxsoQlY JH1eIHTJ eQxn0k/t sive/wYu l89dd2UZ 995emfj8 5jshXLX7 U9/UBGee VsTNSyuY d2IceDu8 UW6+u4PH n/VrPzs3 5FVe1IPt xuvKWf5v FVitEInA 7b/sZOVD
+ 3QSC6aeg nT6viBV3 9u0YWrZH OfGf9tHe EQMYHfIq bXkAnEuK 4UzCoL8M aukSxjw/ w+u2iR49 38BrAarE /0uARt33 dcCjX0Is XA8slz53 ALX5Aly/ YYGQV7kC KBGVcwVA
+ Z1ffBKV3 d1T793Fg KjBFJCbO Bn6jqvDq 2iDfuLiV FQ92AzBZ sfA/94/i x/9WoV37 gl3xfsOu eKcBLwLc 9sNy7rwp CbZrb2zn nv/q0sD2 KPAPQDlQ ClQIHX8A fPr6+iAL
+ L2vl/Q+S uZEJ481U H26REyz5 FjewlWTW ciD65JK8 z1ClMQXY OoBVwPXC 0Ffqvq8S dNuVx3px SmAjBZhk GrdcdFz5 ljod2JpF PbjzVaDh sEDIqwSA 7XbFawIS sVkCpcnP
+ 5pBX+Vz6 6gPgZbvi vQG43x9Q 6268o4NQ SOXG68ox meDW68ux 2+DWn3Zq WcW3gaK6 fynlthsS YOSXD3TR +KdegCBw VsirrDNQ tQv4L7vi fQh4evvO 6DmLr2tj 9eNjmDDO
+ QpHdxMzp Ng2Es8gu WzoQaGTj mS+dTyW1 oqEX6Rra OURdqgyA Vp8iCeAS 1E1PQ/Ml yww8iFEs XKMDZV2e kyRLpc/P Cj2rRdnV EltxG3jk rCQvA98h r9Ib8ipL gPMAlv+8
+ k+deDiS+ //fvl3PV pSO08k+q mWHjF/VJ yrrRE+Kn K7u0j+el AJtcXjDk Vb4BuD/Z EuHmuzoT 39XMsGn/ zs3R42l0 o0XEo/PT JFM8EpBc 4ppndGDL VbJlrYGe DWliFllW
+ 5cqgUsST i3Vle1J4 m5UCkPnu ABp1YNPK 2yrCg+VC 5/ni76O5 An9eZ5qE vEoT8GAs Bjfd1cH+ A0lq+pNb K5h+ZNzB /uy2SirL 46rEYnB3 Qxf+gArQ GPIqL2VQ 5BKAPz7d
+ y+o1cYDP PMqmeeRr 7IrXkiN6 NN/Ao2i9 97GicWrE 4RQ95po0 1+QiXvEZ AE4zblWA vVZ6Bgag eLn0JPKz LhvAEzpE R92YR7At TlF/14uE yQLBOvTh wsENOAG6 7wKvfbY1
+ wmNP9ibO V5ab+ffv l3PR+aWc cWpR4vyG jaEEWIAf ZlhWixZD rvhNN6oK Rx1pZZQj 8ZijhiFx IffoS0RD LZdoy0jN 80sGmYsk i95rLBWe tEainB4D wDXnMclT K3nzDlE/
+ vkFmDRtT JIWGSm0X p+ioXaIt 3OKoz0cd DddcyvsB Hnuil15/ Mtt44aIS 7rujsi+3 +XMPkQgA D4e8Srv+ Rv5gkM7u Xrp6ekmx eHYZwNoN QTZsDDHh MAtTv5YI VafmKDEi
+ 99gdEqWr lgxllWgk lw4UPsno tuXQu6Sj pdtE5q9F 6Fil6/Hz IQ7p3hrY PANQT5cU d7ol76xK VC/bWLcO WCHpowfT Ml3M60tD wXObNMmD PA/w4eYw 720KJ4YK 7DYTo0cm
+ h6727Iuy ek0wkTfR 3yQcibDp k8/pDYRA jTFl8kSq lPH94jm7 4n0oGuXq Pz7dy8lz 7BxztI23 3g1pPfuG HABOM94m ccyXDk0W i6PDAKyu XNKUFIDb JoynSdc7 1w0Qz+WS
+ ulVKz+uj 73igU0pM ZDKUUZtF zOsiOeTQ LIClTYSo ITmsYxQL 51SGBXAh rxK1K94H YzGuWbM+ kACcXv73 /0Ls3hsF eDbkVT7V f9/Z7ccf CGI2mVEx sae1jfFj R2O1JkMz
+ czxg+xVw 9fOvBCgv 6+Cv6xIg XtfW00mX v4vOnl5i 0VJqpijZ PFK9ZDgD GUtlmu9y SeVaBMiq JKrqFoZd J4zUrQNc vuikTCVv F2XX0zcF PxTang34 NdZRl+Ie HeJ3DYc8
+ 4CQvd827 zannEK99 MwGM142+ 7w0EiKkq VjOYTGYC wRDvf/Qp JpMZE6CW huj2FwHl HcBzu/ZE v/nLB7q1 y18FTh8/ rcv2+LMf vd/e0UM0 PD4bwDmE QclGpc8W uiXv5SB/
+ 08qMYh8t +7YihW5V uU4EDEAl G6Sylqfw Ij6JQnoM 4jyHoHzL BhkDpqKr 7hR10jgA tfYcioDb DPDJZxE6 umKJrGTC C4ZV3vEk wGhI+8LR GCZTkoKa TCaCoTAq YMLEWeeM
+ GS0a+FKD y7XJ1Fy4 6Ojngbt/ u2rX2xno 7xQNXpvC a6WaoeBK QUvzMbjb QP90t6Zb pYE3zgfg 6qX6aZQA 4mZwU6Yc JCcENEkA 1OIrX5Z6 udN4Y61t HToGg0E8 d8gArhXg
+ QFuMffv7 A27P3hgt 2yPax636 i1UgEov1 m6xoMpkw AWfWjjmG +KqEicXF KtNmtzCx 6hM27/VT WtFFZWUx 7Ttmsbt5 Kr4D9oXA wisXT1z8 HS+/GwBk WmPoB4qb RQNVycka
+ knMFmwwa qkVq/A4R 4zXksAdt IT6WtZRk Cl7TQ/YS lYJ+5jp+ q9UBXou3 miQvJsdw DikJUi3+ r9HVf20+ DF+SdgOP 95WglJ3x OCzG7r3R xMRkTb7Y HuFAewzA HfIqrfqL
+ /cEwoXB8 onQs1neq 2dfPH3eM AAAzjvVR Pu1F5sz4 K4vnfA7m GJ93d7J+ LzxbVUnw iNnM+uQq Plg3A2CV XfGeFPIq 30tBQ97X eQktSeKW DEgD3KMG 3qY2TczW KIyzgdxO
+ q6oXujXq ytO8RGMe 4kcNHHpa ViXqpVrn NRy6REUu 47VsReuA GiUdcy7D tsVCyKvE gD+pKuze G+v3vVhJ ALDd6Ppo TMVqtVJe Xk5ZWVni +Pr544qA JwBqTtlJ 5T8u4dpF
+ v2PuDAW/ 5Vv0xmYR CY/FYZ3E mWPDjBj/ Me9NuIXp rtUIdvpd sSzIyFus lQL/ahFw N0nGO18H SH2yxGFA l/QUZz65 n8LkEffU 4iJVOraK Qz6nJTWy NTKHLiu5 bQA612JQ
+ XzJzWCvF Vo5hANoS kstyPFIH ckh7uIRR dnT1B5w0 IdprdGFM jREzm6kc NQoVefwt +AAw7eiZ ET4xPUt4 x6XsGqlQ d8REpo4c wzOfvs0p Ix6kxroP W0eUOZUB VleV8sGe
+ RzjplJls XK9AfIB9 XQqKVG1A +ep0Gbcl UoZrqS6J 4dJ5AbeB EdaS/XiY U4p5nBjP ZhlItFkx yxh4vCxV FlCjgisF eN3iXHOK +MklgOeT GIUGxmop hvPl2Sbr DPRzflUA
+ 1w7Q7usP uH2tiXN7 jS7sCXcS M3cSxoS2 7Mx5fFEx cLndDt1z H2HW5Cc5 a9IsHKMu 5rQJE7Go IU6r2IRi 20NnuIMd NhsTisIc Vu5nh1Wh eduTGj5O TaGvLwXY HtVxfgf9
+ l+WsNQCW RlmadHQz 28ZtxHjm hOwtPCQn 4MoeR6N5 i3VeuTFD fRqIZ2u3 6YzXN0Dc 5ZGAVy0Z uVPylA7y nKYXOmsJ E4dBrH5I A64XwO/v P0NErFmD +EZE/VIm ESLYiyyY
+ TX3SJqcD HHF0N5tK XuJrJWFm lG3ilFEj aN4fZErZ Fl7eGeax 1l+xqOJp nJXP0Nnl YHSJn53F ZvwdqlYB 1iEYuDbg 7Rhk1m+p QSaxiszX 0TkNdNHG ktwS0NIl WOoN7qHN
+ //RkoMf1 aYBhdB/N 81cOIobL B+DkTmDx cAJguAEX jcdjBjFe KAHCkP67 QDDMU0+9 S09PALNF DjvnngoQ NW8GTARi VnyhML7A e0T9rbzT OZLVgW+y NzaDNw7s Zr/3M159
+ 5zgmTH8L 004HFlti zmZsAL2r hZHUkJxs vMLAiByD uI+cKdTT 10yMy2Pg zVw6Y5Iz gU6JHi9L kzhZmyGl dGVg3PoY N5VX9uU5 aeLRlSd3 UtWiLeoN dNTqsyXb pNNwAy6l
+ SInHfu6v NxDmnkde YX9rFxar POF/7gSA zVt2Yime RptjE7sC bWzr9jGl chdv7ZtM S+eVmHxf sGVvEa3+ Ewh3W+j4 4Cgslhi2 ca2Edg+o Wq2UEOgg OR1J9ioN orFcaYyo
+ hr7jSXrg ZdObyzNL tHhHo4up Yrn54jdN aShWvkWj 1W4pZqsm jws/DWSl pIPe82vt oAddPX0n Y3ukMGFQ seZBsxGs NA+5n7cx oWKKhTER xCwdSb8Z JbZlHAf2 ONjit7K5
+ U+XNvXbu 3vQduvda Me3bTbSt k9bdI4n0 xOjpjWAp 8xHpLhpI rXris0Qq pXhFH9fV inMNGfTy PikruEBq /EylKYUX HShxUp0i dlxF7oYL qtN4Uc1I W6TfuEWn U0dy8Wku
+ M5QOybO7 BK336YDm E7rVi7rx Ed8pwCN1 Rs2Sh54v mM6gY97h 9nDxFeQG W+1IoVm/ TsBut7Fo wWx8nT1Y JEr5xBPs BBg/SmFn 6wd07BnJ 36buokgF c8yOr9WG 3fchoa4Y
+ pt4e6O0l FozR01GG NWKGaHm6 XX+W0Xcq UkMKA19j YGT6/2X6 pe9R3UPo 2Rvpu9uU dm655Fmb JLrk08Vn LoMOJldS lQJwTsmY nVLSxKiT eJRk1nMo 2Uqn1HYN us7SI+k5
+ X3iwRRK1 rZPqxScl hiqzUWS4 AWcHsBls vWezmVLq VFJk58Rj p7PvQCdW ax/ArQcw x6ZhCj9O aKeJLT0V WKMddHw6 DUdwIz27 J4G/FCJB CIYhGIJg mEgPlFS1 EWlN6ekb
+ BvBaa+k/ VWqRgcHl UzySHrUk t3zwkByc Txe/1OXJ u+kpmr5e M1kdsFQ8 mytL/ZwS QFam+Z2s lxYP1wrQ y97YI86v yaYyhptS lgGMKO0P uLIRpj6/ 6aOk2cTE wxx0+QME
+ I1GC4QjB cATEJOd9 exxMmuzE ujFMqHk0 H0VLafl4 Ars+GE1o fwxTVxf0 BFB7A6i9 vVg6fZhj YWLF9pSJ mgwC7w7i A+MjhdEy gJfLtdRJ FKeF5Epv zXvUS0kB ObHjom8K
+ vDFP+rUM QK9XER/H XCDo2/Up 6GA2YHPo vFFTmvZp Ir5af5WU fHKnqBu3 Ts9BM5Th 9nCjAHkF drJmKhKA G2l04bzj p7F52072 t3VSXGRH VVV+fNtb oTvunPvb aMx0ZSxw
+ LvbSd7C+ 0UuXZTTR bVGiERWs vagxFaIR TMEAJX4f 9nAAX9VR sCPBqNZl 8SzLSI4T yRy/Sfqu ZYBMXa4M +nZBIysZ eGWC1uPX 6ZI6uUxY OKT7GsVv i9IkaRro nwF2ZqlH
+ k476uXWd pdOgE63T 1W0zydlA jTo9nZm2 7XB7uJEA Iyv7Fztu bCL7eJjR hSNKijlr 7kzeef9j /vLXt1iz /j1eX/8e 8xY8cBXw wb49I7GV Xk00UM6o p8KM2rWV svbPKD2w
+ nRFtO6ho a2GMbwvl gb34J0zG Gj2B2IHj tNv/dAje xWPQyC5d Y3ry7PEa SD1VKlVC Y7Hu+lyK M01H0zQA mPRx5e1Z erdaHXVt 1nnZbcLD D+TZ3Wni 2zoy3KV5 2ABnV7w2
+ YJHVGt8v Ui/jxybO jU91j6Om Hs7tyy5B NZnZ39FD lz9EV28I 4NuAv7t9 JhH1BnpG nUys1EZR yMeInj2M 6N1NUbST UMVI2qvn Ewufj2lX YnLJBSGv snGYqiFf gPMZGMRa
+ Yazn0Xdj nHqd0XeQ v1XfjhS6 6lfBN4i/ qkFslG1n 0CRoX0cK 8GvPvJjk FgvOFPpq MblzqBUy nJQy4d0O G9N/86xJ E62YTKCq XGRXvJeK yc795MSa aay89Uqu /8kjdPf4
+ KbLbOPak lZvf37B0 NvB8JHDE VIL/StD+ Gdap7xIb s51oyI5J Lcey5wTU Pf8A0RKI Dz9cGPIq T/HVkAbJ QJpSeBej DFtDHilv TRpdl0ux 59IUv3t2 iLo1CA9m xEQaxPlK
+ AaYVuk7I iJVk7NG+ TEp5mEYd x47pX2z1 ZAujRybO j053ozmz prLiPy6n fEQJnd1+ egNBps/+ hfZaqkdQ rZiD04lt vQTeuRlL 8w2YN12N us+pge0J 4BjTpJu+ KmDTG5gv
+ TaLHJfX6 HeRn6pRT eNglQ6TA uYgrfZIH 1ce+tfRf 2aB1AtqU vSodTT1k PNwsgJnT rZQU989S jh1j5vBJ FlrbYgCH E3/ZYlrQ NdxyBY1P v47FYsZk MnHq7Bf8 40aVXXH3
+ z10/BnZO HG/h3LOK eeYvfm1P zCuBdbYp t33aGwhB T2C4AeE6 CEDpEYBo YOjjW+mA 3zAACJZJ hu/+kurC TXIql5P0 Y4IyrfQc CoA7E2CO 03gDoSK7 ieOOsfPe pjDEX7I4
+ 4Lbkx808 guNmHtHv /N0/954F cMJsO7/6 mYNIFB75 Qw/Et2b/ dNOWet7d vI1Ab4C/ U2nJRW89 RGk8iOqj SRfHVpMc oNeD0HXQ A86ueEuA JcVFJk47 KfV0qlPn 2nn4sR6I
+ rwL49RCK rAU4+/Ri VBX+773E MNtbAMcc eTjHHHn4 cDaoT6Ja 6WgYfDXe MecQz9PC ofmSSk3v plwnvYYr hrsE4Hin jVlH2dIA roixo80A F9gVb3WW 4J4DLBo7 2sw3/6mY
+ DRtDfLwl sTnRx0Og SG6Sg8f1 GdLDRuIZ M+cQaNiX IVqSxZlh XbUTzzbW HUTP4jR4 jroM6eyQ O5DhAtz3 AJZcNAKL lKB8+71Q n/e+KRMs nOUq1j7e nGVZNwNc fH4po0ea
+ afxTD9H4 YvKHQl4l MtibPL/+ b4lD11gO EX+syaCx tMD9UOzt M5Fq4hnH lcSHIQ4m 2nhQdGh5 B5xd8f4e mH3CsXa+ dW7yLaXb d0b5zvfb Wf9231lV l19UqoHy arvinZhh
+ WVcB540f Z+GH15bx xbYIz7yY iNPuzUGy wSVx+lXE s1iNWRqm Kw1Fcab4 zkHf7RQy 6c319xiM 12pME7MY 6a95/XqS S2/0ejuy rKuBypZ/ 6xok/Ws0 uPdgdc3m WfILOLvi
+ /R1wcWW5 mYa7Kikt iWcnVRVu vLODrdsi 3PfrLu1d Aglaed45 CWA+mEFZ C4CHAH5y SwUTxlm4 494ubf+U Pxjt5DzE mKyO+DjR YqlxVfoP QKu6Rm0k +VqkrTqv Vy2M+33x
+ nVvXwBpV WyN+I8cY 9aIst/ju fZILKmUK 1S5d7xvA S2v31MQt 0SpN/wZJ P23riXbp uZ3S79cY JGxUknM9 Nf1dJDc3 0upKq3Oj sjVdt0rl bJXaop5k ml+VdNM/ n5GuLp2u
+ bqHLGvGc 9V864OyK d4Zd8a4G LisbYeLh +xwcL2Un 71rRxVMv +AFaX3sj yP2PJnZH xmSCu26u YNJEC8C5 dsXbZFe8 lQOU9xvE ROabflDO pReU8vzq AH9uSryt 55Y8ZrfI
+ IJ6rFwBd S3wGyBJd L1klGvk8 Qcvm03ea lEbVFggP uyhFD71E xIw10vfV AhDaLlXn ZZmgqRJG d57QYanU UWiTtzUd PVIdLRGH j/67cWmd 1u26TsQh 6Vop9Pfo ynZI8ZX8
+ uqlniQ+u O0R5zeKQ dTNqT59O 1yadrhqr WSDacVkm lWdNYcBW IJHd0L+k RlqdHRMZ SBvxVwEf DVwmDqZU WfnVzxyc eVoyM/nT /+ziznsT L0y8Bnhq +T2dTDvC ytmnx+O3
+ KVVWHntg FBdd08bu vdFFwCa7 4n0UWE98 z5OoaIBj gX8B5prN cPMPyln+ owo+/TzC df/hk2O3 fMVOLRlm r+qEwbsM QItowFrp vLY0xUNy awQtA9go DNWp81JO XXm1JGdb
+ QN81YE4y HxtcK93L I3Rw0XcJ i1vqiKoE QJqkjkN7 xbF27lmd 13MZJDXW Svrry26S qH01ydXj i6T68el0 M6KIg9H1 dp3nXEMG ryk2G4Dt QSBMfMOf 30L8LTey lJclPl8o
+ ftcB7ARe 0bzaVZeO 4LUnxyTA tq81xtU3 tLP8ngTY zg55laeB Vb1+lct/ 0M5LryfH xU6eY+cv fxjNOWcU Q3wgfDnx 9wO8S3Id WAMw1znT xp8fGsXy H1Wwa0+U S69tY9ee
+ KMBzIa9y zTDEwp4M vYOeng5G HOJamVYy QBzhk76v pu+UpeHo cKoN6qfJ oGPwDKFs p/RXpqAr sshiDkbX IYlVB7Zp wNUWC9is cVCNP8zM hYtK+lx0 6twirrhk BE+/4Mcf
+ ULHZoGyE mSOnWHGd UsQF55Yk 3m7a3aPy 1At+fnF/ F59+HoH4 O7trQ17l ZYCQV6mz K96SA+2x Cy+6uo07 b6rg2iVl WCwwY7qN Z1aNZs3/ Bnn5rwE2 fRSmzRcj GoXKChPT
+ j7Rx5mlF nHNmMcVF Jpo/DHPF snY2fRSG +JjbBXkG Wu0QDCab LNt8QZua hMGpGSYf KvlypHoY MrSNohzt JZjVZLdI NK+66inl qQCXfbuU G68rJxaL p+q1ZIcm I0pN/Prn
+ Dup/VEFn V4ySYhOj RpoTvwtH VN7xhHjF HeTJ5/18 +EliHOx1 4Hv6BEbI q/yzXfH6 e/3q4huW d7B6TZAf fq8M18lF mM1w+rwi Tp9X1IfS miXfHAiq PPBoD3fd 16lNDXsT
+ ODfkVcJ5 bGAnyT0u tAZqHoBe NpP99C6X 5NWzEbcU E3oypMJD 9YAy5cpX J1UjYtzG FM/WMoCn 8gyHrnrA 7QdobYvx 0eYI0ajK po/ChMNq vzjObDZh E1Fed49K Z1eMHd4o
+ n7VE2PxZ hC+2ReTs 4zri7+t+ JJUiwtO9 ANzzijsw 5bU3Asw7 sYizzyjm xNl2Jk+0 UFQEFksc 1JGIyq49 UdZuCPHH p3tp/jCB rSdCXuXC PBiPQ5dy 1l62WKsz ai1uchgE
+ 1E2CGjdK PXL9IA3f TfI1WZD5 rHW3KNst pcNryO/L K9wkXyrS IsU9HeR+ /mQzfd9e VG+gy2KS mz61pNC1 Lp+66gG3 HvC+8EpA eeGVnMwz fBh4UsR2 2BXvQL9/ kvgbcO6N
+ xbjmjQ1B 3tgQHGxZ G0QP9+dB lCMDPZMe VKYoq+g/ mN0kGvQZ KRlQo6OF TpJvRwXj 2eqpKJN8 7+YsjH+B MKKlDH3p Syae2U1y yEADYK7L bhBHqvpx i7p+Rsqk GoUITfnU
+ 1aR/T7Zd 8Y4CLhf0 MiqOsEG8 YJYymd3E 346zHfiM +BSqL8R1 2YoF+AYw DzgJmAwU i/OIe+8S 3tMtDChj GQzgFs6b mY2R+dJQ kWrJq7lz fO9Mkz0+ 8r+KwSHR uZY8xkha
+ Oenqx0n6 XbIdugTK oMAmZiRl DrhMJRNv cjBKngB3 sIqb5OC1 S3jZ6zn4 5nAecjJY wFkLVfV3 JdX0fevP ygLYhleG DLgMYqCC HByA02iV p1Adwy9D ppQFKUhB Bi/mQhUU
+ pCAFwBWk IF9J+f8B AEjBmQdP 1irMAAAA AElFTkSu QmCC</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XTextTable" NumOfRows="3" NumOfColumns="3">
+               <Attributes />
+               <ID>table1</ID>
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>624.9167</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>624.9167</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>624.9167</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>奥克斯智慧医院系统:奥克斯智慧医院系统</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-04-12T11:06:35.1331761+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.12.23</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>文档DOM树
+再次文档的左边会显示，这个文档的DOM树结构
+
+      
+      
+      </BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingRight>15</PaddingRight>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="2">
+            <Color>234, 22, 30</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>C:\Users\songjianming\Desktop\文档DOM树.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

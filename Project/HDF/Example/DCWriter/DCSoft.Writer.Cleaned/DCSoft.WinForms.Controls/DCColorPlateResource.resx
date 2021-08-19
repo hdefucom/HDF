@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="palette" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAANgMAAAJCTTYDAAAAAAAANgAAACgAAAAQAAAAEAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vpop8RCmcZCkrlCmbmp0+H6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vpTp8pAwPBQwOBQyPBKwuBAoMBCkrnC2+T6+vr6+vr6+vr6+vr6+vr6+vr6+vo+wO9SuuJg0PBg2PBg2PBg2PBQ0PA7s9FCi7m11uP6+vr6+vr6+vr6+vr6+vr6+vpCuuE4otNQyPBg2PAQsGAAcAAAiCBQ0PA7pNFCkrn6+vr6+vr6+vr6+vr6+vr6+vrg6+oQgLBQyPBg2PAg2HAAkDAAYABg2PBZwuAlirbL3+X6+vr6+vr6+vr6+vpCpsZcuNZAwPBg2PBg2PBA2JAAuFAAqGBg2PBZyu8giMCp0OH6+vr6+vr6+vpKu+Cs4+6k6O+Q6PCQ6PCQ4PCA4PBw4PBw4PBw2PBo2e8rjcKby9/6+vr6+vqH1e2g4u+w8P+w8P+g6PCQ6PCQ6PCwWCCwEACwKABw4PBo2e8giLC12OP6+vr6+vqr4u2p7++w8P8wWPAAAIAAIOCQ6PCwkGCwOABgAAB34O9wxeFTm776+vr6+vr6+vqr4u2z7++w8P9QkP8AIOAAAGCw8P+wuJCwkGCwqJCG0e87nNHN4uf6+vr6+vr6+vq75Oyp6O+w8P9wsP9QkP9wsP+w8P+g8PCg8PCk6O9Zs+DH3+f6+vr6+vr6+vr6+vr6+vqr4u2k6O+z7++w8P+w8P+w8P+g8PCk6O9+0++H1e36+vr6+vr6+vr6+vr6+vr6+vr6+vqa3O2p6O+w8P+w8P+w8P+b6O+r4u2k3uz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vrA5Oyr4u2r4u2r4u2k3uz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+voL</value></data><data name="StandardColors"><value>标准颜色</value></data>
+  <data name="TransparentColor"><value>透明色</value></data>
+  <data name="MoreColors"><value>更多颜色...</value></data>
+  <data name="AutoColor"><value>自动颜色</value></data>
+  <data name="ThemeColors"><value>主题颜色</value></data>
+  </root>

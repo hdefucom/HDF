@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="InvalidateDog"><value>系统授权错误：没有正确的加密狗。</value></data>
+  <data name="Lan_AR"><value>维文（阿拉伯语言）</value></data>
+  <data name="Lan_BO"><value>藏文</value></data>
+  <data name="Lan_ZH_TW"><value>繁体中文版</value></data>
+  <data name="Lan_ZH_CN"><value>简体中文版</value></data>
+  <data name="InvalidateDesignerEndDate"><value>系统授权错误：已超过设计器授权截止日期。</value></data>
+  <data name="InvalidateCheckFlag"><value>系统授权错误：错误的校验码。</value></data>
+  <data name="InvalidateLicense"><value>错误的授权信息。</value></data>
+  <data name="UnknowUser"><value>未知用户</value></data>
+  <data name="LicnseTo_UserName"><value>本软件授权给“{0}”。</value></data>
+  <data name="UnRegister"><value>未注册</value></data>
+  <data name="InvalidateFlagID"><value>系统授权错误：未定义的功能号。</value></data>
+  <data name="InvalidatePassword"><value>系统授权错误：错误的密码。</value></data>
+  <data name="InvalidateLanguage"><value>不支持的语言授权。</value></data>
+  <data name="InvalidateApplicationID"><value>系统授权错误：错误的应用程序编号。</value></data>
+  <data name="InvalidateEndDate"><value>系统授权错误：已超过授权截止日期。</value></data>
+  <data name="InvalidateSystemID"><value>系统授权错误：错误的系统编号。</value></data>
+  </root>

@@ -1,0 +1,7 @@
+using System.Runtime.InteropServices;
+
+namespace AxNsoOfficeLib
+{
+	[ComVisible(false)]
+	public delegate void _INsoControlEvents_NsoTableAddNewRowWhenPressTabKeyEventHandler(object sender, _INsoControlEvents_NsoTableAddNewRowWhenPressTabKeyEvent _INsoControlEvents_NsoTableAddNewRowWhenPressTabKeyEvent_0);
+}

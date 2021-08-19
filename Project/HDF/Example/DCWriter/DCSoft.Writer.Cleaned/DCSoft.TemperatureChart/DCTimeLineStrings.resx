@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="HeaderLabel"><value>页眉标签</value></data>
+  <data name="HeaderTitleLine"><value>页眉数据行</value></data>
+  <data name="OutofRange_Max_Min"><value>超出最大值为“{0}”最小值为“{1}”的取值范围。</value></data>
+  <data name="DefaultLanternValueTitle"><value>灯笼数据</value></data>
+  <data name="CancelEditValuePoint"><value>取消数据编辑</value></data>
+  <data name="UnRegisterTitle"><value>[未注册，请注册本软件]</value></data>
+  <data name="PromptExpandedCollapseZone"><value>点击展开或收缩时间区域。</value></data>
+  <data name="RequiredValue"><value>必须输入数据。</value></data>
+  <data name="DocumentLabel"><value>文本标签</value></data>
+  <data name="DocumentImage"><value>贴图</value></data>
+  <data name="FooterLine"><value>页脚数据行</value></data>
+  <data name="DragValuePoint_Name"><value>拖拽“{0}”的数据点。</value></data>
+  <data name="EditValuePoint_Title"><value>修改“{0}”的数据点</value></data>
+  <data name="InputValueOutofRange_Title__MinValue_MaxValue"><value>输入的{0}超出范围（最小值{1}，最大值{2}）。</value></data>
+  <data name="PromptExpandedCollapseTitleLine"><value>点击展开或收缩数据行。</value></data>
+  <data name="TimeLineZone"><value>时间区域</value></data>
+  <data name="NewValuePoint_Name"><value>新增“{0}”的数据点</value></data>
+  <data name="DragValuePointFixedTime"><value>拖拽数据点，不修改时间。</value></data>
+  <data name="WarringSmallTickStep"><value>时间刻度太小，是否继续操作？</value></data>
+  <data name="Value"><value>数值</value></data>
+  <data name="YAxis"><value>数据标尺</value></data>
+  <data name="CannotMoveForward"><value>已经是第一个位置了，不能向前移动位置。</value></data>
+  <data name="CannotMoveNext"><value>已经是最后的位置，不能向后移动位置了。</value></data>
+  <data name="SystemAlert"><value>系统提示</value></data>
+  <data name="ImageFilter"><value>图片文件(*.png,*.bmp,*.jpg,*.jpeg,*.gif)|*.png;*.bmp;*.jpg;*.jpeg;*.gif</value></data>
+  <data name="PromptDeleteValuePoint_Title_Time_Value"><value>请确认是否删除数据“{0}”，时间为“{1}”，数值为“{2}”？</value></data>
+  <data name="InputTitle_Name_Min_Max"><value>请输入{0} 最小值{1}，最大值{2}。</value></data>
+  <data name="PromptExistTimeZone"><value>存在特定时间区域，无法以分页方式显示。</value></data>
+  <data name="DocumentConfig"><value>文档全局配置</value></data>
+  <data name="DocumentParameter"><value>文档参数</value></data>
+  <data name="InputTitle_Name"><value>请输入{0}</value></data>
+  <data name="DeleteValuePoint"><value>删除数据点</value></data>
+  <data name="Watting"><value>正在处理，请稍候...</value></data>
+  <data name="Time"><value>时间</value></data>
+  </root>

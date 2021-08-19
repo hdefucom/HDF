@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes>
+      <Attribute>
+         <Name>UserName</Name>
+         <Value />
+      </Attribute>
+      <Attribute>
+         <Name>病区</Name>
+         <Value>儿科</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>fasdfsdaf</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer\DCSoft.Writer.Demo\Bin\DemoFile\病程记录内容\病程记录2013年06月04日 10时17分28秒.xml</FileName>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>兰州新昊源电子科技有限公司:兰州新昊源电子科技有限公司</LicenseText>
+      <CreationTime>2013-01-11T16:19:02.7134633+08:00</CreationTime>
+      <LastModifiedTime>2015-10-05T10:41:06.0425881+08:00</LastModifiedTime>
+      <LastPrintTime>2013-01-11T16:19:02.7134633+08:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1111.29168</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>fasdfsdaf</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>59</LeftMargin>
+      <TopMargin>167</TopMargin>
+      <RightMargin>59</RightMargin>
+      <BottomMargin>79</BottomMargin>
+   </PageSettings>
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles />
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

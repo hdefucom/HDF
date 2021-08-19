@@ -1,0 +1,58 @@
+using System.Runtime.InteropServices;
+
+namespace DCSoft.RTF
+{
+	[ComVisible(false)]
+	public enum LevelNumberType
+	{
+		None = -10,
+		Arabic = 0,
+		Uppercase_Roman_numeral = 1,
+		Lowercase_Roman_numeral = 2,
+		Uppercase_letter = 3,
+		Lowercase_letter = 4,
+		Ordinal_number = 5,
+		Cardinal_text_number = 6,
+		Ordinal_text_number = 7,
+		Kanji_numbering_without_the_digit_character = 10,
+		Kanji_numbering_with_the_digit_characte = 11,
+		_46_phonetic_katakana_characters_in_aiueo_order = 12,
+		_46_phonetic_katakana_characters_in_iroha_order = 13,
+		Double_byte_character = 14,
+		Single_byte_character = 0xF,
+		Kanji_numbering_3 = 0x10,
+		Kanji_numbering_4 = 17,
+		Circle_numbering = 18,
+		Double_byte_Arabic_numbering = 19,
+		_46_phonetic_double_byte_katakana_characters_aiueo_dbchar = 20,
+		_46_phonetic_double_byte_katakana_characters_iroha_dbchar = 21,
+		Arabic_with_leading_zero = 22,
+		Bullet = 23,
+		Korean_numbering_2 = 24,
+		Korean_numbering_1 = 25,
+		Chinese_numbering_1 = 26,
+		Chinese_numbering_2 = 27,
+		Chinese_numbering_3 = 28,
+		Chinese_numbering_4 = 29,
+		Chinese_Zodiac_numbering_1 = 30,
+		Chinese_Zodiac_numbering_2 = 0x1F,
+		Chinese_Zodiac_numbering_3 = 0x20,
+		Taiwanese_double_byte_numbering_1 = 33,
+		Taiwanese_double_byte_numbering_2 = 34,
+		Taiwanese_double_byte_numbering_3 = 35,
+		Taiwanese_double_byte_numbering_4 = 36,
+		Chinese_double_byte_numbering_1 = 37,
+		Chinese_double_byte_numbering_2 = 38,
+		Chinese_double_byte_numbering_3 = 39,
+		Chinese_double_byte_numbering_4 = 40,
+		Korean_double_byte_numbering_1 = 41,
+		Korean_double_byte_numbering_2 = 42,
+		Korean_double_byte_numbering_3 = 43,
+		Korean_double_byte_numbering_4 = 44,
+		Hebrew_non_standard_decimal_ = 45,
+		Arabic_Alif_Ba_Tah = 46,
+		Hebrew_Biblical_standard = 47,
+		Arabic_Abjad_style = 48,
+		No_number = 0xFF
+	}
+}

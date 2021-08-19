@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes>
+      <Attribute>
+         <Name>UserName</Name>
+         <Value />
+      </Attribute>
+      <Attribute>
+         <Name>科室</Name>
+         <Value>呼吸科</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>患者入院两天，病情稳定，仍有低热（37.5℃ -38t)，关节肿痛未加重。今日上午王某某主任医师查房，听取病史汇报及查体后，认为根据病人表现为大关节游走性肿痛、皮下小结、血沉增快、心电图有ST - T改变，结合以上其他鉴别性化验检查均为阴性，可以排除结缔组织病，如类风湿性关节炎和系统性红斑狼疮。同意原诊断及处理意见。指示开始使用抗风湿药物，先口服阿司匹林0. 9g，每日3次，注意消化道反应。若有高热时可合并使用强的松10mg，每日3次。鉴于病人出现多个皮下小结，嘱查24小时尿液尿酸定量及关节摄片，以排除痛风。已开始抗风湿治疗，要密切观察病情变化。以上遵嘱执行。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+   </XElements>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer\DCSoft.Writer.Demo\Bin\DemoFile\病程记录内容\病程记录2013年02月20日 20时49分41秒.xml</FileName>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>兰州新昊源电子科技有限公司:兰州新昊源电子科技有限公司</LicenseText>
+      <CreationTime>2013-01-11T16:19:02.7134633+08:00</CreationTime>
+      <LastModifiedTime>2015-10-05T10:41:06.0425881+08:00</LastModifiedTime>
+      <LastPrintTime>2013-01-11T16:19:02.7134633+08:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1111.29168</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>患者入院两天，病情稳定，仍有低热（37.5℃ -38t)，关节肿痛未加重。今日上午王某某主任医师查房，听取病史汇报及查体后，认为根据病人表现为大关节游走性肿痛、皮下小结、血沉增快、心电图有ST - T改变，结合以上其他鉴别性化验检查均为阴性，可以排除结缔组织病，如类风湿性关节炎和系统性红斑狼疮。同意原诊断及处理意见。指示开始使用抗风湿药物，先口服阿司匹林0. 9g，每日3次，注意消化道反应。若有高热时可合并使用强的松10mg，每日3次。鉴于病人出现多个皮下小结，嘱查24小时尿液尿酸定量及关节摄片，以排除痛风。已开始抗风湿治疗，要密切观察病情变化。以上遵嘱执行。</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>59</LeftMargin>
+      <TopMargin>167</TopMargin>
+      <RightMargin>59</RightMargin>
+      <BottomMargin>79</BottomMargin>
+   </PageSettings>
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

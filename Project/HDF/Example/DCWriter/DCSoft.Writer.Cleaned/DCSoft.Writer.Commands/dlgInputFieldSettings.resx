@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="&gt;&gt;txtListSource.Name"><value>txtListSource</value></data>
+  <data name="&gt;&gt;txtListSource.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="chkRepulsionForGroup.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="btnCancel.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAgAQAARgEAAAs=</value></data><data name="&gt;&gt;chkMultiSelect.ZOrder"><value>11</value></data>
+  <data name="rdoDropdownList.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAIgAAAAs=</value></data><data name="rdoDateTime.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAA0wAAAAs=</value></data><data name="rdoNumeric.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAGwEAAAs=</value></data><data name="&gt;&gt;grbDropdownList.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;rdoTime.Name"><value>rdoTime</value></data>
+  <data name="&gt;&gt;rdoTime.Type"><value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="rdoDropdownList.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAF8AAAAQAAAACw==</value></data><data name="rdoDropdownList.Text"><value>下拉列表方式</value></data>
+  <data name="rdoText.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="rdoNumeric.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>170</value></data>
+  <data name="chkMultiSelect.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEgAAAAQAAAACw==</value></data><data name="chkMultiSelect.Text"><value>允许多选</value></data>
+  <data name="$this.Text"><value>输入域设置</value></data>
+  <data name="&gt;&gt;rdoDropdownList.ZOrder"><value>7</value></data>
+  <data name="label19.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADZAAAANQAAAAs=</value></data><data name="&gt;&gt;txtListValueFormatString.ZOrder"><value>6</value></data>
+  <data name="rdoDate.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>130</value></data>
+  <data name="&gt;&gt;chkMultiSelect.Parent"><value>grbDropdownList</value></data>
+  <data name="chkGetValuesByTime.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB6AAAAUAAAAAs=</value></data><data name="&gt;&gt;rdoDropdownList.Parent"><value>$this</value></data>
+  <data name="chkRepulsionForGroup.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEgAAAAQAAAACw==</value></data><data name="chkRepulsionForGroup.Text"><value>分组互斥</value></data>
+  <data name="label19.Text"><value>列表格式化:</value></data>
+  <data name="label19.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEcAAAAMAAAACw==</value></data><data name="chkMultiSelect.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="rdoTime.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAAwEAAAs=</value></data><data name="&gt;&gt;txtListValueFormatString.Parent"><value>grbDropdownList</value></data>
+  <data name="rdoDate.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAuwAAAAs=</value></data><data name="chkMultiSelect.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAJAAAAFQAAAAs=</value></data><data name="cboListValueSeparatorChar.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACEAAAAMgAAAAs=</value></data><data name="txtListSource.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABtAAAAbwAAAAs=</value></data><data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOcBAAB1AQAACw==</value></data><data name="&gt;&gt;rdoDateTime.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;grbDropdownList.ZOrder"><value>9</value></data>
+  <data name="rdoDateTime.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>140</value></data>
+  <data name="&gt;&gt;btnCancel.Parent"><value>$this</value></data>
+  <data name="rdoDateTimeWithoutSecond.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;btnBrowseListSource.Parent"><value>grbDropdownList</value></data>
+  <data name="&gt;&gt;rdoDate.Name"><value>rdoDate</value></data>
+  <data name="&gt;&gt;rdoDate.Type"><value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="label2.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGsAAAAMAAAACw==</value></data><data name="label2.Text"><value>列表项目分隔字符:</value></data>
+  <data name="txtListValueFormatString.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAwAQAAMgAAAAs=</value></data><data name="&gt;&gt;btnBrowseListSource.ZOrder"><value>8</value></data>
+  <data name="rdoDateTimeWithoutSecond.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMBAAAQAAAACw==</value></data><data name="rdoDateTimeWithoutSecond.Text"><value>日期时间格式，不含秒，例如 2012-5-15 16:35</value></data>
+  <data name="label1.Text"><value>列表内容:</value></data>
+  <data name="label1.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsAAAAMAAAACw==</value></data><data name="btnCancel.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>190</value></data>
+  <data name="&gt;&gt;rdoDateTimeWithoutSecond.Name"><value>rdoDateTimeWithoutSecond</value></data>
+  <data name="&gt;&gt;rdoDateTimeWithoutSecond.Type"><value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;rdoDateTime.ZOrder"><value>3</value></data>
+  <data name="&gt;&gt;chkMultiColumn.Parent"><value>grbDropdownList</value></data>
+  <data name="btnCancel.Text"><value>取消(&amp;C)</value></data>
+  <data name="btnCancel.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGwAAAAXAAAACw==</value></data><data name="rdoDate.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALMAAAAQAAAACw==</value></data><data name="rdoDate.Text"><value>日期格式，例如 2012-5-15。</value></data>
+  <data name="&gt;&gt;rdoNumeric.ZOrder"><value>0</value></data>
+  <data name="&gt;&gt;chkMultiColumn.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;chkMultiColumn.Name"><value>chkMultiColumn</value></data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>50</value></data>
+  <data name="btnOK.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACSAAAARgEAAAs=</value></data><data name="txtListSource.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>110</value></data>
+  <data name="&gt;&gt;btnOK.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnOK.Name"><value>btnOK</value></data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>70</value></data>
+  <data name="&gt;&gt;cboListValueSeparatorChar.ZOrder"><value>4</value></data>
+  <data name="&gt;&gt;btnCancel.ZOrder"><value>4</value></data>
+  <data name="&gt;&gt;chkMultiColumn.ZOrder"><value>1</value></data>
+  <data name="&gt;&gt;cboListValueSeparatorChar.Name"><value>cboListValueSeparatorChar</value></data>
+  <data name="&gt;&gt;cboListValueSeparatorChar.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;chkRepulsionForGroup.Name"><value>chkRepulsionForGroup</value></data>
+  <data name="&gt;&gt;chkRepulsionForGroup.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="txtListValueFormatString.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>80</value></data>
+  <data name="&gt;&gt;btnBrowseListSource.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnBrowseListSource.Name"><value>btnBrowseListSource</value></data>
+  <data name="cboListValueSeparatorChar.Items"><value>,</value></data>
+  <data name="&gt;&gt;rdoNumeric.Parent"><value>$this</value></data>
+  <data name="rdoNumeric.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="btnBrowseListSource.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACKAQAAbQAAAAs=</value></data><data name="&gt;&gt;rdoDropdownList.Name"><value>rdoDropdownList</value></data>
+  <data name="&gt;&gt;rdoDropdownList.Type"><value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;cboListValueSeparatorChar.Parent"><value>grbDropdownList</value></data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="grbDropdownList.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>30</value></data>
+  <data name="chkDynamicListItems.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="rdoTime.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>160</value></data>
+  <data name="cboListValueSeparatorChar.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADIAAAAUAAAACw==</value></data><data name="&gt;&gt;txtListValueFormatString.Name"><value>txtListValueFormatString</value></data>
+  <data name="&gt;&gt;txtListValueFormatString.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnOK.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;rdoNumeric.Type"><value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;rdoNumeric.Name"><value>rdoNumeric</value></data>
+  <data name="btnBrowseListSource.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAXAAAACw==</value></data><data name="btnBrowseListSource.Text"><value>浏览</value></data>
+  <data name="&gt;&gt;label19.Parent"><value>grbDropdownList</value></data>
+  <data name="&gt;&gt;chkGetValuesByTime.ZOrder"><value>2</value></data>
+  <data name="&gt;&gt;btnOK.ZOrder"><value>5</value></data>
+  <data name="&gt;&gt;rdoText.Name"><value>rdoText</value></data>
+  <data name="&gt;&gt;rdoText.Type"><value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;rdoText.ZOrder"><value>8</value></data>
+  <data name="chkGetValuesByTime.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJAAAAAQAAAACw==</value></data><data name="chkGetValuesByTime.Text"><value>数值按照勾选时间排序</value></data>
+  <data name="chkMultiColumn.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAdAQAAUAAAAAs=</value></data><data name="&gt;&gt;rdoDate.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;chkGetValuesByTime.Parent"><value>grbDropdownList</value></data>
+  <data name="label2.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAJAAAANgAAAAs=</value></data><data name="txtListSource.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcBAAAVAAAACw==</value></data><data name="&gt;&gt;rdoDateTime.Type"><value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;rdoDateTime.Name"><value>rdoDateTime</value></data>
+  <data name="label1.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAOAAAAcgAAAAs=</value></data><data name="&gt;&gt;label19.ZOrder"><value>7</value></data>
+  <data name="&gt;&gt;rdoText.Parent"><value>$this</value></data>
+  <data name="cboListValueSeparatorChar.Items4"><value>*</value></data>
+  <data name="cboListValueSeparatorChar.Items3"><value>#</value></data>
+  <data name="cboListValueSeparatorChar.Items2"><value>|</value></data>
+  <data name="cboListValueSeparatorChar.Items1"><value>、</value></data>
+  <data name="rdoDateTime.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="rdoText.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHcAAAAQAAAACw==</value></data><data name="rdoText.Text"><value>直接输入文本数据</value></data>
+  <data name="chkDynamicListItems.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>90</value></data>
+  <data name="&gt;&gt;label19.Name"><value>label19</value></data>
+  <data name="&gt;&gt;label19.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;chkMultiSelect.Name"><value>chkMultiSelect</value></data>
+  <data name="&gt;&gt;chkMultiSelect.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="rdoText.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAADAAAAAs=</value></data><data name="&gt;&gt;rdoDate.ZOrder"><value>6</value></data>
+  <data name="&gt;&gt;rdoTime.Parent"><value>$this</value></data>
+  <data name="btnBrowseListSource.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>120</value></data>
+  <data name="chkMultiColumn.Text"><value>多栏列表</value></data>
+  <data name="chkMultiColumn.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEgAAAAQAAAACw==</value></data><data name="rdoDateTime.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAEBAAAQAAAACw==</value></data><data name="rdoDateTime.Text"><value>日期时间格式，例如 2012-5-15 16:35:19。</value></data>
+  <data name="chkRepulsionForGroup.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>122</value></data>
+  <data name="grbDropdownList.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAIwAAAAs=</value></data><data name="&gt;&gt;chkRepulsionForGroup.ZOrder"><value>0</value></data>
+  <data name="&gt;&gt;chkDynamicListItems.ZOrder"><value>3</value></data>
+  <data name="rdoDropdownList.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>20</value></data>
+  <data name="chkDynamicListItems.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGAAAAAQAAAACw==</value></data><data name="chkDynamicListItems.Text"><value>动态加载列表</value></data>
+  <data name="rdoTime.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;chkRepulsionForGroup.Parent"><value>grbDropdownList</value></data>
+  <data name="&gt;&gt;rdoTime.ZOrder"><value>1</value></data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="cboListValueSeparatorChar.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>60</value></data>
+  <data name="txtListValueFormatString.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJIAAAAUAAAACw==</value></data><data name="&gt;&gt;chkDynamicListItems.Parent"><value>grbDropdownList</value></data>
+  <data name="chkMultiColumn.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="rdoDateTimeWithoutSecond.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="rdoDateTimeWithoutSecond.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAA6wAAAAs=</value></data><data name="&gt;&gt;label2.ZOrder"><value>5</value></data>
+  <data name="&gt;&gt;label1.ZOrder"><value>10</value></data>
+  <data name="&gt;&gt;$this.Name"><value>dlgInputFieldSettings</value></data>
+  <data name="&gt;&gt;$this.Type"><value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label1.Parent"><value>grbDropdownList</value></data>
+  <data name="chkGetValuesByTime.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>121</value></data>
+  <data name="&gt;&gt;btnCancel.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnCancel.Name"><value>btnCancel</value></data>
+  <data name="&gt;&gt;label2.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label2.Name"><value>label2</value></data>
+  <data name="&gt;&gt;chkGetValuesByTime.Name"><value>chkGetValuesByTime</value></data>
+  <data name="&gt;&gt;chkGetValuesByTime.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>180</value></data>
+  <data name="&gt;&gt;label1.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label1.Name"><value>label1</value></data>
+  <data name="rdoTime.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAK0AAAAQAAAACw==</value></data><data name="rdoTime.Text"><value>时间格式，例如 16:35:19。</value></data>
+  <data name="rdoNumeric.Text"><value>数值格式，例如 123.45。</value></data>
+  <data name="rdoNumeric.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKEAAAAQAAAACw==</value></data><data name="&gt;&gt;label2.Parent"><value>grbDropdownList</value></data>
+  <data name="chkDynamicListItems.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAAAAUAAAAAs=</value></data><data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAEAAAAL</value></data><data name="&gt;&gt;txtListSource.ZOrder"><value>9</value></data>
+  <data name="&gt;&gt;rdoDateTimeWithoutSecond.ZOrder"><value>2</value></data>
+  <data name="&gt;&gt;chkDynamicListItems.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;chkDynamicListItems.Name"><value>chkDynamicListItems</value></data>
+  <data name="rdoText.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>10</value></data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="rdoDate.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;grbDropdownList.Name"><value>grbDropdownList</value></data>
+  <data name="&gt;&gt;grbDropdownList.Type"><value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="rdoDropdownList.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;rdoDateTimeWithoutSecond.Parent"><value>$this</value></data>
+  <data name="grbDropdownList.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAN4BAACKAAAACw==</value></data><data name="chkMultiSelect.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;txtListSource.Parent"><value>grbDropdownList</value></data>
+  <data name="chkMultiColumn.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>122</value></data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABAQQs=</value></data><data name="btnOK.Text"><value>确定(&amp;O)</value></data>
+  <data name="chkGetValuesByTime.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="btnOK.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGwAAAAXAAAACw==</value></data><data name="rdoDateTimeWithoutSecond.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>150</value></data>
+  <data name="chkRepulsionForGroup.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="chkRepulsionForGroup.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB6AQAAUAAAAAs=</value></data></root>

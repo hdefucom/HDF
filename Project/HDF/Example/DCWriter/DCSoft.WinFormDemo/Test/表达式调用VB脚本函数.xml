@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>    DCWriter可以在文档中嵌入VB.NET脚本，然后在表达式中调用VB.NET脚本中定义的方法。比如在下面的输入域中，第二个输入域的ValueExpression属性值为“ToBigChinese([field1])”，而在文档脚本中恰好定义了一个名为ToBigChinese的函数。则用户在输入数字金额的同时，会在第二个输入域自动生成金额的大写汉字形式。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>金额：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes />
+               <ID>field1</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <ValueType>Numeric</ValueType>
+                  <MaxValue>NaN</MaxValue>
+                  <MinValue>NaN</MinValue>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <VisibleExpression />
+               <ValueExpression />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>2313.4</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue>2313.4</InnerValue>
+               <BackgroundText>数字金额</BackgroundText>
+               <FieldSettings>
+                  <EditStyle>Numeric</EditStyle>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>大写金额：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes />
+               <ID>field2</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <VisibleExpression />
+               <ValueExpression>ToBigChinese([field1])</ValueExpression>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>人民币 贰仟叁佰壹拾叁元肆角整</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue>人民币 贰仟叁佰壹拾叁元肆角整</InnerValue>
+               <BackgroundText>大写金额</BackgroundText>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <ScriptText>Function ToBigChinese(ByVal number) As String
+
+        '小写转大写
+        '编写者：deepfuture@vip.qq.com
+        '时间：2012-04-11
+        'blog:deepfuture.iteye.com
+        Dim numstr As String
+        Dim radixpointlocation As Integer
+        '小写转大写的映射数组
+        Dim numberarray(9) As String
+        '数位数组
+        Dim digitplace(13) As String
+        '币值
+        Dim valuta(2) As String
+        '小数点前
+        Dim strbeforeradix As String
+        '小数点后
+        Dim strafterradix As String
+        '整
+        Dim zheng As String
+        '需要用到的模式匹配
+        Dim strpattern As String
+
+        '临时用变量
+        Dim tempstr1 As String
+        Dim tempstr2 As String
+        Dim i As Integer
+        '结果字符串
+        Dim transresult As String
+        '转换用相关数组
+        numberarray(0) = "零"
+        numberarray(1) = "壹"
+        numberarray(2) = "贰"
+        numberarray(3) = "叁"
+        numberarray(4) = "肆"
+        numberarray(5) = "伍"
+        numberarray(6) = "陆"
+        numberarray(7) = "柒"
+        numberarray(8) = "捌"
+        numberarray(9) = "玖"
+        digitplace(0) = "元"
+        digitplace(1) = "拾"
+        digitplace(2) = "佰"
+        digitplace(3) = "仟"
+        digitplace(4) = "万"
+        digitplace(5) = "拾"
+        digitplace(6) = "佰"
+        digitplace(7) = "仟"
+        digitplace(8) = "亿"
+        digitplace(9) = "拾"
+        digitplace(10) = "佰"
+        digitplace(12) = "仟"
+        digitplace(13) = "万"
+        valuta(0) = "元"
+        valuta(1) = "角"
+        valuta(2) = "分"
+        zheng = "整"
+        strbeforeradix = "人民币 "
+        strafterradix = ""
+        '从控件中取得数字值，同时删除千位符","
+        numstr = number.Replace(",", "")
+        '找到小数点位置
+        radixpointlocation = (numstr.IndexOf("."))
+        '开始转换
+        '先转换小数点后的小数
+        If radixpointlocation = -1 Then
+            '数为整数
+            strafterradix = valuta(0) + zheng
+        Else
+            '不是整数，先读取小数部分
+            tempstr1 = Trim(numstr.Substring(radixpointlocation + 1))
+            i = 1
+            For Each tempstr2 In tempstr1
+                strafterradix += numberarray(tempstr2) + valuta(i)
+                i = i + 1
+            Next
+            '处理小数的各种特殊情况
+            strafterradix = strafterradix.Replace("零分", "整")
+            strafterradix = strafterradix.Replace("零角", "零")
+            strafterradix = strafterradix.Replace("零零", "")
+            strafterradix = strafterradix.Replace("零整", "整")
+            If strafterradix.Length = 0 Or strafterradix.Length = 2 Then
+                strafterradix &amp;= "整"
+            End If
+
+        End If
+        tempstr1 = Trim(numstr).Substring(0, IIf(radixpointlocation = -1, numstr.Length, radixpointlocation))
+        If tempstr1.Length &gt; 13 Then
+            Return "数字太大，本程序无法转换" &amp; numstr
+        End If
+        i = tempstr1.Length - 1
+        For Each tempstr2 In tempstr1
+            strbeforeradix &amp;= numberarray(tempstr2) + digitplace(i)
+            i -= 1
+        Next
+          strbeforeradix = strbeforeradix.Replace("零拾", "零")
+        strbeforeradix = strbeforeradix.Replace("零佰", "零")
+        strbeforeradix = strbeforeradix.Replace("零仟", "零")
+        transresult = strbeforeradix + strafterradix
+        '处理多个0的情况
+        Dim findzero As Boolean = False
+        Dim mystr As String = ""
+        tempstr2 = ""
+        For Each tempstr1 In transresult
+            If tempstr1 = "零" Then
+                findzero = True
+                mystr = ""
+            Else
+                If findzero Then
+                    mystr = "零" &amp; tempstr1
+                    findzero = False
+                Else
+                    mystr = tempstr1
+                End If
+            End If
+
+            tempstr2 += mystr
+        Next
+        tempstr2 = tempstr2.Replace("零万", "万")
+        tempstr2 = tempstr2.Replace("零亿", "亿")
+        tempstr2 = tempstr2.Replace("零元", "元")
+        transresult = tempstr2
+        Return transresult
+    End Function</ScriptText>
+   <Info>
+      <LicenseText>北京中科美仑2015年度测试版:北京中科美仑2015年度测试版</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2015-12-10T17:54:05.5845372+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2014.4.30</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>    DCWriter可以在文档中嵌入VB.NET脚本，然后在表达式中调用VB.NET脚本中定义的方法。比如在下面的输入域中，第二个输入域的ValueExpression属性值为“ToBigChinese([field1])”，而在文档脚本中恰好定义了一个名为ToBigChinese的函数。则用户在输入数字金额的同时，会在第二个输入域自动生成金额的大写汉字形式。
+
+金额：2313.4
+大写金额：人民币 贰仟叁佰壹拾叁元肆角整</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer.Demo\WinFormDemo\Test\表达式调用VB脚本函数.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

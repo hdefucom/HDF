@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_BOOKMARKEXIST" xml:space="preserve">
+    <value>يۇقارقى ئىسىمدىكى خەتكۈچ مەۋجۇت ،بۇ مەشخۇلاتنى ئېلىپ بارالمايدۇ .</value>
+  </data>
+  <data name="_ERROR" xml:space="preserve">
+    <value>خاتالىق :</value>
+  </data>
+  <data name="_EXEERR" xml:space="preserve">
+    <value>بۇيرۇق ئىجرا قىلىش خاتالىقى:</value>
+  </data>
+  <data name="_IMGFILTER" xml:space="preserve">
+    <value>BMP,PNG,JPG,GIFرەسىم ھۆججىتى|*.bmp;*.png;*.jpg;*.jpeg;*.gif|بارلىق ھۆججەت|*.*</value>
+  </data>
+  <data name="_LINE" xml:space="preserve">
+    <value>{0} چى بەت {1}چى قۇر {2}چى سىتون</value>
+  </data>
+  <data name="_OPENED" xml:space="preserve">
+    <value>ھۆججەت مۇۋاپىقىيەتلىك ئېچىلدى </value>
+  </data>
+  <data name="_OPENERR" xml:space="preserve">
+    <value>ھۆججەت {0} نى ئېچىش  خاتالىق</value>
+  </data>
+  <data name="_OPENING" xml:space="preserve">
+    <value>ھۆججەت ئېچىلۋاتىدۇ </value>
+  </data>
+  <data name="_QUERYHTMLINDENT" xml:space="preserve">
+    <value>是否使用HTML代碼縮進處理? \r\n使用縮進處理的HTML代碼便於閱讀和修改,但可能導致HTML頁面顯示和文字編輯器中的顯示樣式有所差別.</value>
+  </data>
+  <data name="_QUERYSAVE" xml:space="preserve">
+    <value>ھۆججەت ئۆزگەرتىلدى ،ساقلامسىز ؟</value>
+  </data>
+  <data name="_SAVED" xml:space="preserve">
+    <value>ھۆججەت مۇۋاپىقىيەتلىك ساقلاندى </value>
+  </data>
+  <data name="_SAVEERR" xml:space="preserve">
+    <value>{1} ھۆججەت ساقلاش  {0} خاتالىق</value>
+  </data>
+  <data name="_SAVEFILTER" xml:space="preserve">
+    <value>RTF ھۆججەت,TXTھۆججەت,XMLھۆججەت|*.rtf;*.xml;*.txt|بارىلىق ھۆججەت|*.*</value>
+  </data>
+  <data name="_SAVING" xml:space="preserve">
+    <value>ھۆججەت ساقلىنىۋاتىدۇ </value>
+  </data>
+  <data name="_SELECTELEMENTS" xml:space="preserve">
+    <value>ئېلىمىنت ساقلاندى  {0} </value>
+  </data>
+  <data name="_TEXTDEMO" xml:space="preserve">
+    <value>XWriterLibكۆرسىتىش </value>
+  </data>
+  <data name="_WORDCOUNT" xml:space="preserve">
+    <value>سىتاستىكا ئۇچۇرى
+{0}     بەت سانى                
+            {1}     خەت سانى     
+{2}   (بوشلۇقنى ھېسابلىماي) ھەرىپ سانى        
+{3}     (بوشلۇقنى قوشقاندا)ھەرىپ سانى   
+{4}        ئابزاس سانى 
+{5}        قۇر سانى </value>
+  </data>
+  <data name="DocumentValidate" xml:space="preserve">
+    <value>ھۆججەت مەزمۇنى تەكشۈرۈشتىن ئۆتتى </value>
+  </data>
+  <data name="PromptXML2RTF" xml:space="preserve">
+    <value>بۇ ئورۇندا ئارقا سۇپىدىكى XDesigner.Writer فورماتىدىكى XML ھۆججتى RTF ھۆججىتىگە ئايلاندۇرۇش كۆرسىتىلىدۇ، كۆرۈنمەيۈز كۆرسىتىلمەيدۇ، ASP.NET ياكى Service پروگراممىسىدا ئىشلىتىلگەن. </value>
+  </data>
+  <data name="SOURCEXMLDLGTITLE" xml:space="preserve">
+    <value>XDesigner.Writer ساقلىغان بىر XML ھۆججەتنى تاللاڭ</value>
+  </data>
+  <data name="SUCCESSXML2RTF_SOURCE_DESC" xml:space="preserve">
+    <value>{0}مۇۋاپىقىيەتلىك ھالدا {1} گە ئالماشتۇرۇلدى </value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ALKATIP Tor Tom,9pt</value>
+  </data>
+  <data name="PromptDeleteRecord" xml:space="preserve">
+    <value>خاتىرىنى ئۆچۈرەمسىز؟</value>
+  </data>
+  <data name="SystemAlert" xml:space="preserve">
+    <value>سېستىما ئەسكەرتىشى</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft,System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean,mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+</root>

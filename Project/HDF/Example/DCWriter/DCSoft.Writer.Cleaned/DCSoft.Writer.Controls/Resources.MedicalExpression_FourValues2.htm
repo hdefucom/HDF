@@ -1,0 +1,91 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>请输入月经史值</title>
+	</head>
+	<body style="overflow:hidden;background-repeat:no-repeat">
+    <script>
+        function OnLoad() {
+            var url = document.location.href;
+            /**
+            var index = url.indexOf('=');
+            if (index > 0) {
+                var baseUrl = url.substr(0, index + 1);
+                url = baseUrl + "DCSoft.Writer.Controls.Resources.MedicalExpreesion_BackImageForFourValue2.png";
+                document.body.style.backgroundImage = "url(" + url + ")";
+            }
+            */
+            var strHtml = "MedicalExpression_FourValues2.htm";
+            var pic = "MedicalExpreesion_BackImageForFourValue2.png";
+            url = url.replace(strHtml, pic);
+            document.body.style.backgroundImage = "url(" + url + ")";
+        }
+        OnLoad();
+    </script>
+	    <div>
+        <span>请输入月经史值：</span>
+        <hr />
+        <!--Table结构，线采用背景图片 -->
+        <table style="width:100%;">
+        <tr>
+            <td></td>
+            <td align="center" style="padding-bottom: 5px">
+                <input id="value2" type="text" style="width:100px;"/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td align="center" style="padding-bottom: 5px">
+                <input id="value1" type="text" style="width:100px;"/></td>
+            <td></td>
+            <td align="center" style="padding-bottom: 5px">
+                <input id="value3" type="text" style="width:100px;" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center" style="padding-bottom: 5px">
+                <input id="value4" type="text" style="width:100px;"/></td>
+            <td></td>
+        </tr>
+        </table>
+        <hr />
+        <center>
+            <input type="button" value="确定" onclick= "OnOK();" />
+            <input type="button" value="取消" onclick= "OnCancel();" />
+        </center>
+        </div>
+        <script language=javascript>
+            var elementText = window.frameElement.elementText;
+            if (elementText != null) {
+                var items = elementText.split(',');
+                if (items.length > 0) {
+                    document.getElementById("value1").value = items[0];
+                }
+                if (items.length > 1) {
+                    document.getElementById("value2").value = items[1];
+                }
+                if (items.length > 2) {
+                    document.getElementById("value3").value = items[2];
+                } 
+                if (items.length > 3) {
+                    document.getElementById("value4").value = items[3];
+                }
+            }
+
+            function OnOK() {
+                window.frameElement.elementText = document.getElementById("value1").value + "," + document.getElementById("value2").value + "," + document.getElementById("value3").value + "," + document.getElementById("value4").value;
+                if (window.frameElement.okCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.okCallback();
+                }
+            }
+
+            function OnCancel() {
+                if (window.frameElement.cancelCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.cancelCallback();
+                }
+            }
+        </script>
+	</body>
+   
+</html>

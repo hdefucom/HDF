@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="btnCancel.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAQAA9wAAAAs=</value></data><data name="lstSpecifyCharacter.ColumnWidth" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>50</value></data>
+  <data name="lstSpecifyCharacter.Items8"><value>Ⅸ</value></data>
+  <data name="lstSpecifyCharacter.Items9"><value>Ⅹ</value></data>
+  <data name="lstSpecifyCharacter.Items4"><value>Ⅴ</value></data>
+  <data name="lstSpecifyCharacter.Items5"><value>Ⅵ</value></data>
+  <data name="lstSpecifyCharacter.Items6"><value>Ⅶ</value></data>
+  <data name="lstSpecifyCharacter.Items7"><value>Ⅷ</value></data>
+  <data name="lstSpecifyCharacter.Items1"><value>Ⅱ</value></data>
+  <data name="lstSpecifyCharacter.Items2"><value>Ⅲ</value></data>
+  <data name="lstSpecifyCharacter.Items3"><value>Ⅳ</value></data>
+  <data name="$this.Text"><value>特殊字符</value></data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJcBAAAYAQAACw==</value></data><data name="lstSpecifyCharacter.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="&gt;&gt;btnCancel.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;lstSpecifyCharacter.Name"><value>lstSpecifyCharacter</value></data>
+  <data name="&gt;&gt;lstSpecifyCharacter.Type"><value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="btnCancel.Text"><value>取消(&amp;C)</value></data>
+  <data name="btnCancel.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGcAAAAXAAAACw==</value></data><data name="btnOK.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACZAAAA9wAAAAs=</value></data><data name="&gt;&gt;btnOK.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnOK.Name"><value>btnOK</value></data>
+  <data name="&gt;&gt;btnCancel.ZOrder"><value>0</value></data>
+  <data name="lstSpecifyCharacter.Items"><value>Ⅰ</value></data>
+  <data name="&gt;&gt;lstSpecifyCharacter.ZOrder"><value>2</value></data>
+  <data name="lstSpecifyCharacter.Font" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAblrovkvZMAAK5BBfz///8YU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAX7////G1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAEAAAAHdmFsdWVfXwAIAgAAAAMAAAAL</value></data><data name="lstSpecifyCharacter.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value></data><data name="lstSpecifyCharacter.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJcBAADsAAAACw==</value></data><data name="&gt;&gt;btnOK.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;lstSpecifyCharacter.Parent"><value>$this</value></data>
+  <data name="&gt;&gt;btnOK.ZOrder"><value>1</value></data>
+  <data name="lstSpecifyCharacter.Items51"><value>〗</value></data>
+  <data name="lstSpecifyCharacter.Items50"><value>】</value></data>
+  <data name="lstSpecifyCharacter.Items52"><value>｝</value></data>
+  <data name="lstSpecifyCharacter.Items48"><value>§</value></data>
+  <data name="lstSpecifyCharacter.Items49"><value>～</value></data>
+  <data name="lstSpecifyCharacter.Items40"><value>○</value></data>
+  <data name="lstSpecifyCharacter.Items41"><value>◎</value></data>
+  <data name="lstSpecifyCharacter.Items42"><value>□</value></data>
+  <data name="lstSpecifyCharacter.Items43"><value>×</value></data>
+  <data name="lstSpecifyCharacter.Items44"><value>÷</value></data>
+  <data name="lstSpecifyCharacter.Items45"><value>№</value></data>
+  <data name="lstSpecifyCharacter.Items46"><value>＄</value></data>
+  <data name="lstSpecifyCharacter.Items47"><value>￥</value></data>
+  <data name="lstSpecifyCharacter.Items19"><value>％</value></data>
+  <data name="lstSpecifyCharacter.Items18"><value>㎞</value></data>
+  <data name="lstSpecifyCharacter.Items15"><value>㎜</value></data>
+  <data name="lstSpecifyCharacter.Items14"><value>㎏</value></data>
+  <data name="lstSpecifyCharacter.Items17"><value>㎡</value></data>
+  <data name="lstSpecifyCharacter.Items16"><value>㎝</value></data>
+  <data name="lstSpecifyCharacter.Items11"><value>β</value></data>
+  <data name="lstSpecifyCharacter.Items10"><value>α</value></data>
+  <data name="lstSpecifyCharacter.Items13"><value>㎎</value></data>
+  <data name="lstSpecifyCharacter.Items12"><value>℃</value></data>
+  <data name="lstSpecifyCharacter.Items39"><value>※</value></data>
+  <data name="lstSpecifyCharacter.Items38"><value>＃</value></data>
+  <data name="lstSpecifyCharacter.Items37"><value>【</value></data>
+  <data name="lstSpecifyCharacter.Items36"><value>〖</value></data>
+  <data name="lstSpecifyCharacter.Items35"><value>｛</value></data>
+  <data name="lstSpecifyCharacter.Items34"><value>￥</value></data>
+  <data name="lstSpecifyCharacter.Items33"><value>∑</value></data>
+  <data name="lstSpecifyCharacter.Items32"><value>√</value></data>
+  <data name="lstSpecifyCharacter.Items31"><value>∨</value></data>
+  <data name="lstSpecifyCharacter.Items30"><value>∧</value></data>
+  <data name="lstSpecifyCharacter.Items28"><value>×</value></data>
+  <data name="lstSpecifyCharacter.Items29"><value>÷</value></data>
+  <data name="lstSpecifyCharacter.Items26"><value>＋</value></data>
+  <data name="lstSpecifyCharacter.Items27"><value>－</value></data>
+  <data name="lstSpecifyCharacter.Items24"><value>≤</value></data>
+  <data name="lstSpecifyCharacter.Items25"><value>≥</value></data>
+  <data name="lstSpecifyCharacter.Items22"><value>≈</value></data>
+  <data name="lstSpecifyCharacter.Items23"><value>≠</value></data>
+  <data name="lstSpecifyCharacter.Items20"><value>‰</value></data>
+  <data name="lstSpecifyCharacter.Items21"><value>±</value></data>
+  <data name="lstSpecifyCharacter.ItemHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>29</value></data>
+  <data name="&gt;&gt;$this.Name"><value>dlgSpecifyCharacter</value></data>
+  <data name="&gt;&gt;$this.Type"><value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnCancel.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;btnCancel.Name"><value>btnCancel</value></data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAEAAAAL</value></data><data name="lstSpecifyCharacter.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABAQQs=</value></data><data name="btnOK.Text"><value>确定(&amp;O)</value></data>
+  <data name="btnOK.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGcAAAAXAAAACw==</value></data></root>

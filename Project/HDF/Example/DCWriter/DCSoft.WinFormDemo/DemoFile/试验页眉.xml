@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>         自定义的页眉内容      </Text>
+            </Element>
+            <Element xsi:type="XTDBarcodeField" StyleIndex="2">
+               <Attributes />
+               <ID>tdbarcode1</ID>
+               <PropertyExpressions />
+               <ScriptItems />
+               <Width>272</Width>
+               <Height>287</Height>
+               <Text>25799322</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>本软件未注册。</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-04-14T16:16:27.3206171+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2015.12.23</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>         自定义的页眉内容      25799322</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters />
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>24</FontSize>
+            <Bold>true</Bold>
+            <Align>Justify</Align>
+         </Style>
+         <Style Index="2">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>C:\Users\DCSOFT\Desktop\试验页眉.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

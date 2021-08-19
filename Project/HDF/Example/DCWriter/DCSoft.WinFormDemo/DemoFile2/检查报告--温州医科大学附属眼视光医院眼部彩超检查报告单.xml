@@ -1,0 +1,1458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1404.30.50000">
+   <Attributes>
+      <Attribute>
+         <Name>DC:KeyDataNames</Name>
+         <Value />
+      </Attribute>
+      <Attribute>
+         <Name>DC_Department</Name>
+      </Attribute>
+      <Attribute>
+         <Name>DC_DepartmentName</Name>
+      </Attribute>
+      <Attribute>
+         <Name>DC_RecordID</Name>
+         <Value>8e297397-11a1-4924-a20c-96cffe39f32e</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DC_TemplateFlags</Name>
+         <Value>None</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DC_TemplateType</Name>
+      </Attribute>
+      <Attribute>
+         <Name>DC_UseLanguage2</Name>
+         <Value>False</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DC_OwnerID</Name>
+      </Attribute>
+      <Attribute>
+         <Name>DC_OwnerLevel</Name>
+         <Value>Global</Value>
+      </Attribute>
+      <Attribute>
+         <Name>Title</Name>
+         <Value>彩超图文报告</Value>
+      </Attribute>
+      <Attribute>
+         <Name>RecordID</Name>
+         <Value>8e297397-11a1-4924-a20c-96cffe39f32e</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DepartmentID</Name>
+      </Attribute>
+      <Attribute>
+         <Name>DepartmentName</Name>
+      </Attribute>
+      <Attribute>
+         <Name>TemplateType</Name>
+      </Attribute>
+      <Attribute>
+         <Name>FileName</Name>
+         <Value>彩超图文报告</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>温州医科大学附属眼视光医院</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>The Eye Hospital of Wenzhou Medical University</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text>眼部彩超检查报告单</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+            <Element xsi:type="XString" StyleIndex="6">
+               <Text>                                                                检查号：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="23">
+               <Attributes />
+               <ID>ulNo</ID>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <EventExpressions />
+               <Name>ulNo</Name>
+               <ValueBinding>
+                  <DataSource>UlReportDTO</DataSource>
+                  <BindingPath>ulNo</BindingPath>
+               </ValueBinding>
+               <InnerValue />
+               <BackgroundText>ulNo</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="3" NumOfColumns="2">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="8">
+                           <Attributes />
+                           <ID>bgsj</ID>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>报告时间：</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="22">
+                                 <Text>报告时间</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="8">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>报告医师：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="5">
+                                 <Attributes />
+                                 <ID>field24</ID>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Doctor</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>doctorName</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <BackgroundText>默认为ThisEye登陆医师</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>打印时间：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="5">
+                                 <Attributes />
+                                 <ID>PrintTime</ID>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>PrintTime</Name>
+                                 <ValueBinding>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <BackgroundText>打印时自动生成</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>审核医师：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="13">
+                                 <Text>注：本报告单仅供临床医师参考，医师签字有效。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>984</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>984</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XPageInfo" StyleIndex="21">
+               <Attributes />
+               <Width>100</Width>
+               <AutoHeight>true</AutoHeight>
+               <Height>42.77343</Height>
+               <FormatString>[%PageIndex%]/[%NumOfPages%]</FormatString>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="4" NumOfColumns="4">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>姓名： </Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>name</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>name</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>name</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>姓名</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>性别：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>Sex</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Sex</Name>
+                                 <ValueBinding>
+                                    <DataSource>InformationDto</DataSource>
+                                    <BindingPath>Sex</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>性别</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>年龄：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>Age</ID>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Age</Name>
+                                 <ValueBinding>
+                                    <DataSource>InformationDto</DataSource>
+                                    <BindingPath>Age</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>年龄</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>类别：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="18">
+                                 <Attributes />
+                                 <ID>field8</ID>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>Type</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>类别</BackgroundText>
+                                 <FieldSettings>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="19" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>门诊号/住院号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>clinicInHospNo</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>clinicInHospNo</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>clinicInHospNo</BindingPath>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>门诊号/住院号</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>病区：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>Ward</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>Ward</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>Ward</BindingPath>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>病区</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>床号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>Bed</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>Bed</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>Bed</BindingPath>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>床号</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>检查部位：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>CheckPart</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>CheckPart</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>CheckPart</BindingPath>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>检查</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>检查设备：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>DeviceName</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>DeviceName</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>DeviceName</BindingPath>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>检查设备</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>开单医师：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>PaperDoctor</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>PaperDoctor</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>PaperDoctor</BindingPath>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>开单医师</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>检查时间：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes />
+                                 <ID>makeTime</ID>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>makeTime</Name>
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>yyyy-MM-dd HH:mm</Format>
+                                 </DisplayFormat>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>makeTime</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>检查时间</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DateTime</EditStyle>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>临床诊断：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>111</Name>
+                                       <Value>1</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>clinicDiagnosis</ID>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <Name>clinicDiagnosis</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>clinicDiagnosis</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>临床诊断</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>404</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>507</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>449</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>633</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XTextTable" NumOfRows="6" NumOfColumns="4">
+               <Attributes>
+                  <Attribute>
+                     <Name>12</Name>
+                     <Value>1</Value>
+                  </Attribute>
+               </Attributes>
+               <ID />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>右眼</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>左眼</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="20">
+                                 <Attributes />
+                                 <ID>field9</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <ValueBinding>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <BackgroundText>部位</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Items>
+                                          <Item>
+                                             <Text>颞侧</Text>
+                                             <Value>nc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>鼻侧</Text>
+                                             <Value>bc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>上方</Text>
+                                             <Value>sf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>下方</Text>
+                                             <Value>xf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>横扫</Text>
+                                             <Value>hs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>纵扫</Text>
+                                             <Value>zs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>轴位</Text>
+                                             <Value>zw</Value>
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="20">
+                                 <Attributes />
+                                 <ID>field9</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <ValueBinding>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <BackgroundText>部位</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Items>
+                                          <Item>
+                                             <Text>颞侧</Text>
+                                             <Value>nc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>鼻侧</Text>
+                                             <Value>bc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>上方</Text>
+                                             <Value>sf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>下方</Text>
+                                             <Value>xf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>横扫</Text>
+                                             <Value>hs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>纵扫</Text>
+                                             <Value>zs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>轴位</Text>
+                                             <Value>zw</Value>
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-673.228333</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="20">
+                                 <Attributes />
+                                 <ID>field9</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <ValueBinding>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <BackgroundText>部位</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Items>
+                                          <Item>
+                                             <Text>颞侧</Text>
+                                             <Value>nc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>鼻侧</Text>
+                                             <Value>bc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>上方</Text>
+                                             <Value>sf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>下方</Text>
+                                             <Value>xf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>横扫</Text>
+                                             <Value>hs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>纵扫</Text>
+                                             <Value>zs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>轴位</Text>
+                                             <Value>zw</Value>
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="20">
+                                 <Attributes />
+                                 <ID>field9</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <ValueBinding>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <BackgroundText>部位</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Items>
+                                          <Item>
+                                             <Text>颞侧</Text>
+                                             <Value>nc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>鼻侧</Text>
+                                             <Value>bc</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>上方</Text>
+                                             <Value>sf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>下方</Text>
+                                             <Value>xf</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>横扫</Text>
+                                             <Value>hs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>纵扫</Text>
+                                             <Value>zs</Value>
+                                          </Item>
+                                          <Item>
+                                             <Text>轴位</Text>
+                                             <Value>zw</Value>
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-673.228333</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>超声所见：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="17">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>正常</Name>
+                                       <Value>双眼晶状体、玻璃体内偶探及散在点状弱回声/未见明显异常回声，球壁形态基本平整，球后脂肪垫及眼外肌未见明显异常。CDFI未见异常血流信号。</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>高度近视</Name>
+                                       <Value>双眼眼轴较长，玻璃体腔内可探及少量点状弱回声及弯曲带状回声，动度（+），后运动（+），后极部球壁形态局部后凸，球后脂肪垫及眼外肌未见明显异常。CDFI未见异常血流信号。</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>球内占位</Name>
+                                       <Value>右眼玻璃体腔内可探及少量点状弱回声及弯曲带状回声，后极部球壁前可探及一实性占位病变（大小约  mm），边界清/欠清，内回声不均/均匀，可见“挖空征”及脉络膜凹陷，对侧可探及带状强回声隆起，球后脂肪垫及眼外肌未见明显异常。CDFI光带上可见与CRA/CRV相延续的血流信号，实性病变内可见丰富血流信号/点状血流信号/与PCA频谱一致的血流信号。</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>玻璃体混浊、后脱离</Name>
+                                       <Value>双眼玻璃体内可探及少量点状弱回声及弯曲带状回声，球壁形态基本平整，球后脂肪垫及眼外肌未见明显异常。CDFI未见异常血流信号。</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>RD/CD</Name>
+                                       <Value>右眼玻璃体腔内可探及少量点状弱回声及弯曲带状回声，可探及带状强回声隆起，后端连于视乳头，其下为无回声暗区，CDFI带状回声上可探及与CRA相延续的血流信号，周边球壁前可探及较强粗带状回声隆起，其下为无回声暗区，球后脂肪垫及眼外肌未见明显异常。  </Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>硅油眼</Name>
+                                       <Value>右眼玻璃体内硅油填充，眼球假性扩张，球壁形态及球后脂肪垫观察不清。</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>see</ID>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <Name>see</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>see</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>超声所见</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>双眼晶状体、玻璃体内偶探及散在点状弱回声/未见明显异常回声，球壁形态基本平整，球后脂肪垫及眼外肌未见明显异常。CDFI未见异常血流信号。</Text>
+                                             <Value>正常</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼眼轴较长，玻璃体腔内可探及少量点状弱回声及弯曲带状回声，动度（+），后运动（+），后极部球壁形态局部后凸，球后脂肪垫及眼外肌未见明显异常。CDFI未见异常血流信号。</Text>
+                                             <Value>高度近视</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼玻璃体腔内可探及少量点状弱回声及弯曲带状回声，后极部球壁前可探及一实性占位病变（大小约  mm），边界清/欠清，内回声不均/均匀，可见“挖空征”及脉络膜凹陷，对侧可探及带状强回声隆起，球后脂肪垫及眼外肌未见明显异常。CDFI光带上可见与CRA/CRV相延续的血流信号，实性病变内可见丰富血流信号/点状血流信号/与PCA频谱一致的血流信号。</Text>
+                                             <Value>球内占位</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体内可探及少量点状弱回声及弯曲带状回声，球壁形态基本平整，球后脂肪垫及眼外肌未见明显异常。CDFI未见异常血流信号。</Text>
+                                             <Value>玻璃体混浊、后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼玻璃体腔内可探及少量点状弱回声及弯曲带状回声，可探及带状强回声隆起，后端连于视乳头，其下为无回声暗区，CDFI带状回声上可探及与CRA相延续的血流信号，周边球壁前可探及较强粗带状回声隆起，其下为无回声暗区，球后脂肪垫及眼外肌未见明显异常。  </Text>
+                                             <Value>RD/CD</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼玻璃体内硅油填充，眼球假性扩张，球壁形态及球后脂肪垫观察不清。</Text>
+                                             <Value>硅油眼</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>330.708649</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>超声诊断： </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="20">
+                                 <Attributes />
+                                 <ID>diagnosis</ID>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <EventExpressions />
+                                 <Name>diagnosis</Name>
+                                 <ValueBinding>
+                                    <DataSource>UlReportDTO</DataSource>
+                                    <BindingPath>diagnosis</BindingPath>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <InnerValue />
+                                 <BackgroundText>超声诊断</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>双眼玻璃体混浊、后脱离</Text>
+                                             <Value>玻璃体混浊、后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼/左眼视网膜脱离</Text>
+                                             <Value>视网膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼未见明显异常声像</Text>
+                                             <Value>正常</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼/左眼眶内占位--性质？</Text>
+                                             <Value>眶内占位</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼球内占位病变（脉络膜血管瘤/脉络膜黑色素瘤可能）</Text>
+                                             <Value>球内占位</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体混浊、后脱离，后巩膜葡萄肿</Text>
+                                             <Value>高度近视</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+                           </XElements>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>315.842529</SpecifyHeight>
+                  </Element>
+               </XElements>
+               <LeftIndent>72</LeftIndent>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>135.020447</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>854.071838</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>147.9538</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>855.954</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text>建议：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <DocumentContentVersion>98</DocumentContentVersion>
+   <Info>
+      <FieldBorderElementWidth>0.5</FieldBorderElementWidth>
+      <ID>8e297397-11a1-4924-a20c-96cffe39f32e</ID>
+      <Title>彩超图文报告</Title>
+      <CreationTime>2014-05-20T16:46:00</CreationTime>
+      <LastModifiedTime>2014-06-26T12:08:50.5869707+08:00</LastModifiedTime>
+      <LastPrintTime>2014-04-25T20:56:00</LastPrintTime>
+      <Author>林施施</Author>
+      <Operator>DCSoft.Writer Version:1.1404.30.50000</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>姓名： 姓名性别：性别年龄：年龄类别：类别门诊号/住院号：门诊号/住院号病区：病区床号：床号检查部位：检查检查设备：检查设备开单医师：开单医师检查时间：检查时间临床诊断：临床诊断
+右眼左眼部位部位部位部位超声所见：超声所见超声诊断： 超声诊断建议：</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>74</LeftMargin>
+      <TopMargin>99</TopMargin>
+      <RightMargin>74</RightMargin>
+      <BottomMargin>99</BottomMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>24</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="2">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>1</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+            <BorderSpacing>4</BorderSpacing>
+         </Style>
+         <Style Index="3">
+            <FontName>宋体</FontName>
+            <FontSize>14</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="4">
+            <FontName>宋体</FontName>
+            <FontSize>20</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="5">
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="6">
+            <FontName>宋体</FontName>
+            <FontSize>10</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="7">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="8">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+            <BorderTop>true</BorderTop>
+            <PaddingLeft>22</PaddingLeft>
+            <PaddingRight>22</PaddingRight>
+         </Style>
+         <Style Index="9">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="10">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="11">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Bottom</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <PaddingLeft>22</PaddingLeft>
+            <PaddingRight>22</PaddingRight>
+         </Style>
+         <Style Index="12">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+            <PaddingLeft>22</PaddingLeft>
+            <PaddingRight>22</PaddingRight>
+         </Style>
+         <Style Index="13">
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+         </Style>
+         <Style Index="14">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="15">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+         </Style>
+         <Style Index="16">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="17">
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="18">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="19">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="20">
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Align>Justify</Align>
+         </Style>
+         <Style Index="21">
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="22">
+            <Color>114, 114, 114</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="23">
+            <FontName>宋体</FontName>
+            <FontSize>10</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes>
+      <Attribute>
+         <Name>AuthorName</Name>
+         <Value />
+      </Attribute>
+      <Attribute>
+         <Name>科室</Name>
+         <Value>胸外科</Value>
+      </Attribute>
+      <Attribute>
+         <Name>床号</Name>
+         <Value>33</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>f38f05c8-26e6-4968-8386-e02686a68b88</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>f38f05c8-26e6-4968-8386-e02686a68b88</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>记录时间</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <ValueName />
+                  <Required>true</Required>
+                  <ValueType>DateTime</ValueType>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+                  <ExcludeKeywords />
+                  <CustomMessage />
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>2013-09-29 00:00</Text>
+                  </Element>
+               </XElements>
+               <Deleteable>false</Deleteable>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <UserEditable>false</UserEditable>
+               <Name>d92b420e-8032-49a3-9ab7-946277627152</Name>
+               <DisplayFormat>
+                  <Style>DateTime</Style>
+                  <Format>yyyy-MM-dd HH:mm</Format>
+               </DisplayFormat>
+               <InnerValue>2013-09-29</InnerValue>
+               <BackgroundText>*选择时间*</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings>
+                  <EditStyle>Date</EditStyle>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" WhiteSpaceLength="19">
+               <Text>                   </Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>60060fe7-8210-47f1-90b8-5c50b64aec71</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>21034952-b1ec-4b68-8805-0dc00b174d88</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>查房医生</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>马省凤</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <UserEditable>false</UserEditable>
+               <Name>5bf50b22-fdd4-4e8e-974f-0d463ef231a3</Name>
+               <InnerValue>马省凤</InnerValue>
+               <BackgroundText>请选择值</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings>
+                  <EditStyle>DropdownList</EditStyle>
+                  <ListSource>
+                     <Items>
+                        <Item>
+                           <Text>冯光</Text>
+                           <Value>冯光</Value>
+                        </Item>
+                        <Item>
+                           <Text>王明</Text>
+                           <Value>王明</Value>
+                        </Item>
+                        <Item>
+                           <Text>王勇文</Text>
+                           <Value>王勇文</Value>
+                        </Item>
+                        <Item>
+                           <Text>杨艳妮</Text>
+                           <Value>杨艳妮</Value>
+                        </Item>
+                        <Item>
+                           <Text>朱梦莹</Text>
+                           <Value>朱梦莹</Value>
+                        </Item>
+                        <Item>
+                           <Text>郭乐</Text>
+                           <Value>郭乐</Value>
+                        </Item>
+                        <Item>
+                           <Text>雷婷</Text>
+                           <Value>雷婷</Value>
+                        </Item>
+                        <Item>
+                           <Text>周文涛</Text>
+                           <Value>周文涛</Value>
+                        </Item>
+                        <Item>
+                           <Text>马省凤</Text>
+                           <Value>马省凤</Value>
+                        </Item>
+                        <Item>
+                           <Text>李永宏</Text>
+                           <Value>李永宏</Value>
+                        </Item>
+                        <Item>
+                           <Text>徐沙沙</Text>
+                           <Value>徐沙沙</Value>
+                        </Item>
+                        <Item>
+                           <Text>冯钢</Text>
+                           <Value>冯钢</Value>
+                        </Item>
+                     </Items>
+                  </ListSource>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="0">
+               <Text>查房记录</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>          患者今日症状</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>5e458034-de03-41c7-b6aa-812fa0886435</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>91d2ab06-8c88-47a6-88f7-88c79fcbb100</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>91d2ab06-8c88-47a6-88f7-88c79fcbb100</Name>
+               <InnerValue />
+               <BackgroundText>XXXX</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>，体征</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>ff447b34-dd41-4258-ae91-ea57889e0491</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>9665842a-d161-47e4-9b8c-a93e89095e9a</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>9665842a-d161-47e4-9b8c-a93e89095e9a</Name>
+               <InnerValue />
+               <BackgroundText>请录入体征</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>，主要诊断医技检1查结果</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>f16c454f-2c42-4d9f-96d2-86c7fbefc2a5</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>dd484e5c-e5dc-4022-86e0-d78fd3d9bb9b</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>dd484e5c-e5dc-4022-86e0-d78fd3d9bb9b</Name>
+               <InnerValue />
+               <BackgroundText>请录入</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>。精神、食欲、睡眠较好，大小便正常。（患者有无新</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>病史、体征补充</Text>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>）      根据以上情况，诊断“     ”成立。本病例疾</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>病应鉴别 （鉴别诊</Text>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>断）    等。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>治疗上应以        等为主。现患者经相应治疗后，其     病情较入院时稍好转，（下一步诊疗计划和具体医嘱）治疗fdasfdsa有效，可继续按原fdsa方案治疗，</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>继续观察。遵</Text>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>嘱执行。 </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XInputField" StyleIndex="4">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>5380ad9a-9055-411e-a0ae-d840be73999c</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>c9544cd0-f7c6-428f-89f8-54d3a19cd535</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>签名</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>0fb60954-777b-40c4-8869-f065ec0f026d</Name>
+               <InnerValue />
+               <BackgroundText>签名</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+         </XElements>
+      </Element>
+   </XElements>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer\DCSoft.Writer.Demo\Bin\DemoFile\病程记录内容\病程记录2.xml</FileName>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <Title>2013年9月29日 0:00 查房记录(都昌)</Title>
+      <LicenseText>兰州新昊源电子科技有限公司:兰州新昊源电子科技有限公司</LicenseText>
+      <CreationTime>2013-05-31T20:04:10.984375+08:00</CreationTime>
+      <LastModifiedTime>2015-10-05T10:41:06.026988+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1413.30368</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>2013-09-29 00:00                   马省凤查房记录
+          患者今日症状，体征，主要诊断医技检1查结果。精神、食欲、睡眠较好，大小便正常。（患者有无新病史、体征补充）      根据以上情况，诊断“     ”成立。本病例疾病应鉴别 （鉴别诊断）    等。
+治疗上应以        等为主。现患者经相应治疗后，其     病情较入院时稍好转，（下一步诊疗计划和具体医嘱）治疗fdasfdsa有效，可继续按原fdsa方案治疗，继续观察。遵嘱执行。 
+</BodyText>
+   <Comments>
+      <Comment Index="76">
+         <Attributes />
+         <Author>yyf</Author>
+         <CreationTime>2013-09-30T14:10:49.6388282+08:00</CreationTime>
+         <Text>vvvvvvvv</Text>
+      </Comment>
+      <Comment Index="74">
+         <Attributes />
+         <Author>王明</Author>
+         <CreationTime>2013-09-30T11:03:58.0854295+08:00</CreationTime>
+         <Text>ssssssssss</Text>
+         <CreatorIndex>0</CreatorIndex>
+      </Comment>
+      <Comment Index="78">
+         <Attributes />
+         <Author>张三</Author>
+         <CreationTime>2013-09-30T14:23:17.8136738+08:00</CreationTime>
+         <Text>222222</Text>
+      </Comment>
+   </Comments>
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>59</LeftMargin>
+      <TopMargin>167</TopMargin>
+      <RightMargin>59</RightMargin>
+      <BottomMargin>79</BottomMargin>
+   </PageSettings>
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <CommentIndex>76</CommentIndex>
+         </Style>
+         <Style Index="2">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <CommentIndex>74</CommentIndex>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <CommentIndex>78</CommentIndex>
+         </Style>
+         <Style Index="4">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <Align>Right</Align>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

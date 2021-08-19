@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="DCSoft_Writer_DocumentBehaviorOptions_DoubleClickToSelectWord"><value>双击选择单词</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableCopySource_Description"><value>允许执行内容复制,默认true。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_CustomPromptForbitCheckMRID"><value>自定义病历校验失败提示信息</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_AutoIgnoreLastEmptyPage_Description"><value>自动忽略最后空白页，默认为true。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_Printable_Description"><value>文档能否打印。若为false则文档不能打印。默认为true。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableExpression"><value>启用表达式</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_ForceCollateWhenPrint"><value>强制自动分页</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_Printable"><value>能否打印</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_OutputFormatedXMLSource"><value>输出格式化XML</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_ExcludeKeywords"><value>全局违禁关键字</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_ForceCollateWhenPrint_Description"><value>.NET框架的一个BUG，导致有时打印多份的时候无法自动分页，此处强制设置自动分页。而不管在打印机设置中是否使用自动分页。这是在没有修正系统BUG时的临时扑救措施。该系统BUG说明可见http://support.microsoft.com/kb/2744968。不建议设置该属性。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableExpression_Description"><value>是否允许表达式。如果为false，则系统不执行表达式，级联模板功能也无法运行。默认为true。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableControlHostAtDesignTime_Description"><value>编辑器在设计模式下仍然允许承载控件，默认为true。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_AutoCreateInstanceInProperty_Description"><value>在属性中自动创建变量对象实例，默认为false。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableDataBinding"><value>启用数据源绑定</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_ForcePopupFormTopMost_Description"><value>强制弹出式数据输入框为TopMost模式，默认为false。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_DoubleClickToSelectWord_Description"><value>双击选择单词</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_OutputFormatedXMLSource_Description"><value>是否输出格式化的XML文本，默认为true。格式化的XML文本带有缩进控制，阅读方便，但文档比较大。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_InsertDocumentWithCheckMRID"><value>校验文档MRID</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableScript"><value>启用VBA脚本</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_AutoCreateInstanceInProperty"><value>自动创建属性值</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_OutputBackgroundTextToRTF_Description"><value>在导出RTF文档时是否导出文本输入域的背景文本。默认为true。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_SpecifyDebugMode"><value>特别的调试模式</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_DebugMode_Description"><value>系统是否处于调试模式。若为true，则系统处于调试模式，系统会输出一些调试文本信息。默认为false。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_DefaultEditorActiveMode"><value>默认输入域激活模式</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableScript_Description"><value>允许VBA宏脚本。默认为true。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableKBEntryRangeMask"><value>知识节点应用范围掩码</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_SpecifyDebugMode_Description"><value>特别的调试模式，内部使用，默认为false。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_ExcludeKeywords_Description"><value>全局违禁关键字列表，可包含多个违禁关键字，各个关键字之间用半角逗号分开。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_PromptForExcludeSystemClipboardRange"><value>内容保护提示方式</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_AutoIgnoreLastEmptyPage"><value>自动忽略最后空白页</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableCopySource"><value>允许执行内容复制</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_ForcePopupFormTopMost"><value>数据输入框置顶</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_PromptForExcludeSystemClipboardRange_Description"><value>当视图删除无法删除的内容时的提示方式，默认为Details。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_InsertDocumentWithCheckMRID_Description"><value>插入文档内容时MRID值的检测模式。默认为None。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableControlHostAtDesignTime"><value>设计模式下承载控件</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableKBEntryRangeMask_Description"><value>知识节点应用范围掩码</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_DefaultEditorActiveMode_Description"><value>默认的数值编辑器激活模式，默认为None。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_CustomPromptForbitCheckMRID_Description"><value>自定义的检查病历编号不通过的禁止提示信息，可以设置为“警告：当前文档关联的编号为“{0}”，而要粘贴的内容关联的编号为“{1}”，根据规范，禁止执行本次操作。”</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_OutputBackgroundTextToRTF"><value>输出背景文本到RTF中</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_CustomWarringCheckMRID_Description"><value>自定义的检查病历编号不通过的警告提示信息，可以设置为“警告：当前文档关联的编号为“{0}”，而要粘贴的内容关联的编号为“{1}”，根据规范，不建议执行本次操作，是否继续？”。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_DebugMode"><value>调试模式</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_CustomWarringCheckMRID"><value>自定义病历校验警告信息</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_DesignMode_Description"><value>编辑器是否处于设计模式。默认为false。</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_DesignMode"><value>设计模式</value></data>
+  <data name="DCSoft_Writer_DocumentBehaviorOptions_EnableDataBinding_Description"><value>是否启用数据源绑定，如果为false，则编辑器不执行数据源绑定。默认为true。</value></data>
+  </root>

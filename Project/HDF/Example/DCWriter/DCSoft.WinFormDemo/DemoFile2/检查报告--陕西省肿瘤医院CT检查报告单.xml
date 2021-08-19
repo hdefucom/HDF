@@ -1,0 +1,1963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>陕西省肿瘤</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="6">
+               <Text>医院</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="15">
+               <Text>               </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="16" WhiteSpaceLength="4">
+               <Text>    </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text>CT </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>检</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>查</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>报</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>告</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>单</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="17" WhiteSpaceLength="8">
+               <Text>        </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2" WhiteSpaceLength="2">
+               <Text>  </Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="14">
+               <Attributes />
+               <ID>1001</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString" StyleIndex="14">
+                     <Text>临时报告</Text>
+                  </Element>
+               </XElements>
+               <Visible>false</Visible>
+               <Deleteable>false</Deleteable>
+               <BorderElementColor />
+               <EventExpressions />
+               <UserEditable>false</UserEditable>
+               <Name>临时报告</Name>
+               <InnerValue>临时报告</InnerValue>
+               <BackgroundText>临时报告</BackgroundText>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+            <Element xsi:type="XTextTable" NumOfRows="9" NumOfColumns="17">
+               <Attributes />
+               <ID />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>姓名：</Text>
+                              </Element>
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Attributes />
+                                 <ID>NAME</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>韩XX</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>NAME</Name>
+                                 <InnerValue>韩XX</InnerValue>
+                                 <BackgroundText>姓名</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>性  别：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Attributes />
+                                 <ID>SEX</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>女</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>SEX</Name>
+                                 <InnerValue>女</InnerValue>
+                                 <BackgroundText>性别</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>年龄：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Attributes />
+                                 <ID>AGE</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>27岁</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>AGE</Name>
+                                 <InnerValue>27岁</InnerValue>
+                                 <BackgroundText>年龄</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>CT号：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Attributes />
+                                 <ID>PATIENT_LOCAL_ID</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>CT14005372</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>PATIENT_LOCAL_ID</Name>
+                                 <InnerValue>CT14005372</InnerValue>
+                                 <BackgroundText>影像号</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-82.67716</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>科室：</Text>
+                              </Element>
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Attributes />
+                                 <ID>REQ_DEPT</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>胸部外科</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>REQ_DEPT</Name>
+                                 <InnerValue>胸部外科</InnerValue>
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>住院号：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>INPUT_ID</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>INPUT_ID</Name>
+                                 <InnerValue />
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>床号：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>BED_NO</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>BED_NO</Name>
+                                 <InnerValue />
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>检查日期：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>EXAM_DATE_TIME</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>2014-04-18</Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>EXAM_DATE_TIME</Name>
+                                 <InnerValue>2014-04-18</InnerValue>
+                                 <BackgroundText>检查时间</BackgroundText>
+                              </Element>
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-82.67716</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>检查部位：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>EXAM_SUB_CLASS</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>胸部</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>EXAM_SUB_CLASS</Name>
+                                 <InnerValue>胸部</InnerValue>
+                                 <BackgroundText>检查部位</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>检查设备：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>DEVICE</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>西门子64排</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>DEVICE</Name>
+                                 <InnerValue>西门子64排</InnerValue>
+                                 <BackgroundText>检查设备</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>报告日期：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>CREATETIME</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>2014-04-18</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>CREATETIME</Name>
+                                 <InnerValue>2014-04-18</InnerValue>
+                              </Element>
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-82.67716</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="15">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>检查项目：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="15">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>EXAM_ITEM</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>胸部CT平扫</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>EXAM_ITEM</Name>
+                                 <InnerValue>胸部CT平扫</InnerValue>
+                                 <BackgroundText>检查项目</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>15</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>82.67716</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>CT </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="20">
+                                 <Text>所见：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>16</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="22">
+                                 <Text>阳性：</Text>
+                              </Element>
+                              <Element xsi:type="XTextCheckBox" StyleIndex="22">
+                                 <Attributes />
+                                 <ID>IS_ABNORMAL</ID>
+                                 <ScriptItems />
+                                 <Name>IS_ABNORMAL</Name>
+                                 <Width>62</Width>
+                                 <Height>62</Height>
+                                 <GroupName>IS_ABNORMAL</GroupName>
+                                 <Checked>true</Checked>
+                                 <EventExpressions />
+                              </Element>
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-82.67716</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="24">
+                                 <Attributes />
+                                 <ID>DESCRIPTION</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="24">
+                                       <Text>     右前胸壁结构乱，肌群形态欠规整、肌间隙模糊，邻近皮肤稍厚，邻近肋骨结构欠清晰，余肺纹理走行自然，肺野内未见明显结节及软组织肿块影，肺门大小形态如常，气管支气管通畅，纵隔内未见明显肿大淋巴结影，右侧胸膜局限性稍厚，胸腔无积液。 </Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>DESCRIPTION</Name>
+                                 <InnerValue>     右前胸壁结构乱，肌群形态欠规整、肌间隙模糊，邻近皮肤稍厚，邻近肋骨结构欠清晰，余肺纹理走行自然，肺野内未见明显结节及软组织肿块影，肺门大小形态如常，气管支气管通畅，纵隔内未见明显肿大淋巴结影，右侧胸膜局限性稍厚，胸腔无积液。 </InnerValue>
+                                 <BackgroundText>检查所见</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>16</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>11</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-1263.77954</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="20">
+                                 <Text>诊断意见：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>17</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>11</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>11</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-82.67716</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="15">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="24">
+                                 <Attributes />
+                                 <ID>IMPRESSION</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="24">
+                                       <Text>    右前胸壁结构乱，肌群形态欠规整、肌间隙模糊，邻近皮肤稍厚，请结合临床。</Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>IMPRESSION</Name>
+                                 <InnerValue>    右前胸壁结构乱，肌群形态欠规整、肌间隙模糊，邻近皮肤稍厚，请结合临床。</InnerValue>
+                                 <BackgroundText>检查诊断</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>16</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>11</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-730.283447</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="18">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>报告医生：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="13">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>14</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Attributes />
+                                 <ID>CREATEUSER</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString">
+                                       <Text>赵妍</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>CREATEUSER</Name>
+                                 <InnerValue>赵妍</InnerValue>
+                                 <BackgroundText>报告医生</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>签名：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>审核医生：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>CHECKUSER</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="25">
+                                       <Text>王曙升</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions>
+                                    <Expression>
+                                       <Expression>value=''</Expression>
+                                       <Target>Custom</Target>
+                                       <CustomTargetName>1002</CustomTargetName>
+                                    </Expression>
+                                    <Expression>
+                                       <Expression>value=''</Expression>
+                                       <Target>Custom</Target>
+                                       <CustomTargetName>1001</CustomTargetName>
+                                    </Expression>
+                                 </EventExpressions>
+                                 <UserEditable>false</UserEditable>
+                                 <Name>CHECKUSER</Name>
+                                 <InnerValue>王曙升</InnerValue>
+                                 <BackgroundText>审核医生</BackgroundText>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>签名：</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="12">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>96.48819</SpecifyHeight>
+                  </Element>
+               </XElements>
+               <CellBorderVisibility>Print PDF</CellBorderVisibility>
+               <CellBackgroundVisibility>Print PDF</CellBackgroundVisibility>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>189.145828</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>90.07292</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>55.84375</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>187.911438</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>170.011734</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>56.670578</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>135.859375</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>135.859375</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>57.911438</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>50</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>145.734314</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>133.013916</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>210.027832</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>94.16144</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>94.16144</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>97.3411255</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>330.0235</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>注：本报告单仅供临床医师参考，不作证明之用，未经医师亲笔签名无效。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XInputField" StyleIndex="4">
+               <Attributes />
+               <ID>1002</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString" StyleIndex="4">
+                     <Text>该报告为临时报告，请于</Text>
+                  </Element>
+                  <Element xsi:type="XString" StyleIndex="23">
+                     <Text>CT室</Text>
+                  </Element>
+                  <Element xsi:type="XString" StyleIndex="4">
+                     <Text>正式上班时间换取正式报告。</Text>
+                  </Element>
+               </XElements>
+               <Visible>false</Visible>
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>临时报告说明</Name>
+               <InnerValue>该报告为临时报告，请于CT室正式上班时间换取正式报告。</InnerValue>
+               <BackgroundText>临时报告说明</BackgroundText>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements />
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements />
+      </Element>
+   </XElements>
+   <ControlOptionsForDebug>
+      <RuleVisible>false</RuleVisible>
+      <UserInfo>
+         <ID>511</ID>
+         <Name>上官海燕</Name>
+         <PermissionLevel>0</PermissionLevel>
+      </UserInfo>
+      <DocumentOptions>
+         <SecurityOptions>
+            <AutoEnablePermissionWhenUserLogin>false</AutoEnablePermissionWhenUserLogin>
+            <TrackVisibleLevel0>
+               <UnderLineColorString>#ADD8E6</UnderLineColorString>
+               <DeleteLineColorString>#FF7F50</DeleteLineColorString>
+            </TrackVisibleLevel0>
+            <TrackVisibleLevel1 />
+            <TrackVisibleLevel2>
+               <BackgroundColorString>#FFFFE0</BackgroundColorString>
+               <UnderLineColorNum>2</UnderLineColorNum>
+               <DeleteLineNum>2</DeleteLineNum>
+            </TrackVisibleLevel2>
+            <TrackVisibleLevel3>
+               <BackgroundColorString>#FFFFE0</BackgroundColorString>
+               <UnderLineColorNum>2</UnderLineColorNum>
+               <DeleteLineNum>2</DeleteLineNum>
+            </TrackVisibleLevel3>
+         </SecurityOptions>
+         <ViewOptions>
+            <AdornTextBackColorValue>#64808080</AdornTextBackColorValue>
+            <FieldBackColorValue>#F0F8FF</FieldBackColorValue>
+            <FieldHoverBackColorValue>#FFFFFF</FieldHoverBackColorValue>
+         </ViewOptions>
+         <BehaviorOptions>
+            <ParagraphFlagFollowTableOrSection>true</ParagraphFlagFollowTableOrSection>
+            <ValidateUserIDWhenEditDeleteComment>true</ValidateUserIDWhenEditDeleteComment>
+            <InsertDocumentWithCheckMRID>PromptForbitWhenFail</InsertDocumentWithCheckMRID>
+         </BehaviorOptions>
+         <EditOptions>
+            <GridLinePreviewText>DCWriter是南京都昌信息科技有限公司自主研发的专业的电子病历文档编辑器。</GridLinePreviewText>
+         </EditOptions>
+      </DocumentOptions>
+      <Font>
+         <Size>12</Size>
+      </Font>
+      <HeaderFooterFlagVisible>None</HeaderFooterFlagVisible>
+      <JumpPrint />
+      <PageTitlePosition>BottomRight</PageTitlePosition>
+      <Readonly>true</Readonly>
+      <RegisterCode></RegisterCode>
+   </ControlOptionsForDebug>
+   <Info>
+      <LicenseText>dd:南京都昌信息科技有限公司,网址www.dcwriter.cn。</LicenseText>
+      <CreationTime>2013-08-01T09:26:41.765625+08:00</CreationTime>
+      <LastModifiedTime>2015-02-04T14:56:12.0321788+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.2013.10718</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>陕西省肿瘤医院
+                   CT 检 查 报 告 单           临时报告
+姓名： 韩XX 性  别： 女 年龄： 27岁 CT号： CT14005372 
+科室： 胸部外科 住院号：   床号：   检查日期： 2014-04-18 
+检查部位： 胸部 检查设备： 西门子64排 报告日期： 2014-04-18 
+检查项目： 胸部CT平扫 
+CT 所见： 阳性：■ 
+       右前胸壁结构乱，肌群形态欠规整、肌间隙模糊，邻近皮肤稍厚，邻近肋骨结构欠清晰，余肺纹理走行自然，肺野内未见明显结节及软组织肿块影，肺门大小形态如常，气管支气管通畅，纵隔内未见明显肿大淋巴结影，右侧胸膜局限性稍厚，胸腔无积液。  
+诊断意见： 
+      右前胸壁结构乱，肌群形态欠规整、肌间隙模糊，邻近皮肤稍厚，请结合临床。 
+报告医生： 赵妍 签名：   审核医生： 王曙升 签名：    注：本报告单仅供临床医师参考，不作证明之用，未经医师亲笔签名无效。
+该报告为临时报告，请于CT室正式上班时间换取正式报告。</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <PrinterName />
+      <PaperSource />
+      <HeaderDistance>0</HeaderDistance>
+      <FooterDistance>0</FooterDistance>
+      <LeftMargin>39</LeftMargin>
+      <TopMargin>77</TopMargin>
+      <RightMargin>39</RightMargin>
+      <BottomMargin>77</BottomMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>4</BorderWidth>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+            <GridLineType>ExtentToBottom</GridLineType>
+         </Style>
+         <Style Index="2">
+            <Color>178, 14, 18</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10</FontSize>
+            <Bold>true</Bold>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="4">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10</FontSize>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="5">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="6">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>22</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="7">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="8">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="9">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>22</FontSize>
+            <Bold>true</Bold>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="10">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>22</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="11">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>4</BorderWidth>
+            <BorderTop>true</BorderTop>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+            <GridLineType>ExtentToBottom</GridLineType>
+         </Style>
+         <Style Index="12">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>4</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+            <GridLineType>ExtentToBottom</GridLineType>
+         </Style>
+         <Style Index="13">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>4</BorderWidth>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="14">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>14</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="15">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>4</BorderWidth>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="16">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="17">
+            <Color>178, 14, 18</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="18">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>4</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="19">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>22</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="20">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="21">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="22">
+            <Visibility>PDF</Visibility>
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="23">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10</FontSize>
+         </Style>
+         <Style Index="24">
+            <BackgroundColor>White</BackgroundColor>
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>14</FontSize>
+         </Style>
+         <Style Index="25">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <CreatorIndex>0</CreatorIndex>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories>
+      <History>
+         <ID>355</ID>
+         <Name>王曙升</Name>
+         <SavedTime>1900-01-01T00:00:00</SavedTime>
+         <ClientName>PC:2012-20131217HM,IP:172.16.141.144.</ClientName>
+      </History>
+   </UserHistories>
+</XTextDocument>

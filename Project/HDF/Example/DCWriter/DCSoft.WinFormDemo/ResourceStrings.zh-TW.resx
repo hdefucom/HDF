@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_BOOKMARKEXIST" xml:space="preserve">
+    <value>已經存在該名稱的書簽,無法執行操作.</value>
+  </data>
+  <data name="_ERROR" xml:space="preserve">
+    <value>錯誤:</value>
+  </data>
+  <data name="_EXEERR" xml:space="preserve">
+    <value>執行命令錯誤:</value>
+  </data>
+  <data name="_IMGFILTER" xml:space="preserve">
+    <value>BMP,PNG,JPG,GIF圖片檔|*.bmp;*.png;*.jpg;*.jpeg;*.gif|所有檔|*.*</value>
+  </data>
+  <data name="_LINE" xml:space="preserve">
+    <value>第 {0} 頁 第 {1} 行 第 {2} 列</value>
+  </data>
+  <data name="_OPENED" xml:space="preserve">
+    <value>成功打開文件</value>
+  </data>
+  <data name="_OPENERR" xml:space="preserve">
+    <value>打開檔“{0}” 錯誤:{1}</value>
+  </data>
+  <data name="_OPENING" xml:space="preserve">
+    <value>正在打開文件</value>
+  </data>
+  <data name="_QUERYHTMLINDENT" xml:space="preserve">
+    <value>是否使用HTML代碼縮進處理? \r\n使用縮進處理的HTML代碼便於閱讀和修改,但可能導致HTML頁面顯示和文字編輯器中的顯示樣式有所差別.</value>
+  </data>
+  <data name="_QUERYSAVE" xml:space="preserve">
+    <value>檔已修改，是否保存？</value>
+  </data>
+  <data name="_SAVED" xml:space="preserve">
+    <value>成功保存檔</value>
+  </data>
+  <data name="_SAVEERR" xml:space="preserve">
+    <value>保存檔“{0}” 錯誤:{1}</value>
+  </data>
+  <data name="_SAVEFILTER" xml:space="preserve">
+    <value>RTF文件,TXT文件,XML文件|*.rtf;*.xml;*.txt|所有檔|*.*</value>
+  </data>
+  <data name="_SAVING" xml:space="preserve">
+    <value>正在保存檔</value>
+  </data>
+  <data name="_SELECTELEMENTS" xml:space="preserve">
+    <value>選擇了{0}個元素</value>
+  </data>
+  <data name="_TEXTDEMO" xml:space="preserve">
+    <value>演示</value>
+  </data>
+  <data name="_WORDCOUNT" xml:space="preserve">
+    <value>統計資訊 _____________
+頁數              {0}
+字數              {1}
+字元數(不計空格)  {2}
+字元數(計空格)    {3}
+段落數            {4}
+行數              {5}</value>
+  </data>
+  <data name="DocumentValidate" xml:space="preserve">
+    <value>文檔內容校驗通過。</value>
+  </data>
+  <data name="PromptXML2RTF" xml:space="preserve">
+    <value>此處演示在後臺將XDesigner.Writer格式的XML文檔轉換為RTF文檔，不顯示使用者介面，可以運用在ASP.NET或Service程式中。</value>
+  </data>
+  <data name="SOURCEXMLDLGTITLE" xml:space="preserve">
+    <value>請選擇一個XDesigner.Writer程式保存的XML檔</value>
+  </data>
+  <data name="SUCCESSXML2RTF_SOURCE_DESC" xml:space="preserve">
+    <value>成功的將”{0}“轉換為”{1}“。</value>
+  </data>
+</root>

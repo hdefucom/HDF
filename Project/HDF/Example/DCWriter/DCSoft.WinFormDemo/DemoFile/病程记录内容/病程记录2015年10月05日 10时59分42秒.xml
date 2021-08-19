@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XInputField" StyleIndex="0">
+               <Attributes>
+                  <Attribute>
+                     <Name>NsoElementTypeName</Name>
+                     <Value>NewControl</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>NsoControlTypeName</Name>
+                     <Value>DateTimeBox</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Type</Name>
+                     <Value>8</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlID</Name>
+                     <Value>20140801114124</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ElementID</Name>
+                     <Value>52</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>WordVersion</Name>
+                     <Value>2</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>HelpTip</Name>
+                     <Value>记录日期</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DelFlag</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>EditProtect</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsSaveAsNode</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsNotRecordInXML</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>MustFillContent</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Reference</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ExpandInput</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Edge</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>WomanUse</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlType</Name>
+                     <Value>8</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlTypeTemplate</Name>
+                     <Value>ElementLableAndDateTimePicker</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsCtrlHidden</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ViewSecret</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlName</Name>
+                     <Value>记录日期</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>UpdateEveryTime</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsGroupUse</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ConsistenceType</Name>
+                     <Value>3</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>PlaceHolder</Name>
+                     <Value>记录日期</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Reserve</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>EdgeStyle</Name>
+                     <Value>[</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>EdgeStyle2</Name>
+                     <Value>]</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsDefault</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>BetweenInTimeAndOutTime</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>WritingInAdvance</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsGroupReplace</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsNullPrint</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ReplaceOldValue</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>field24</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <Required>true</Required>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString" StyleIndex="0">
+                     <Text>2014-09-18 15:25</Text>
+                  </Element>
+               </XElements>
+               <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+               <Deleteable>false</Deleteable>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <BackgroundTextColor>Red</BackgroundTextColor>
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <Name>记录日期</Name>
+               <DisplayFormat>
+                  <Style>DateTime</Style>
+                  <Format>yyyy-MM-dd HH:mm</Format>
+               </DisplayFormat>
+               <InnerValue>2014-09-18 15:25</InnerValue>
+               <ToolTip>记录日期</ToolTip>
+               <BackgroundText>记录日期</BackgroundText>
+               <BorderVisible>Hidden</BorderVisible>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings>
+                  <EditStyle>DateTime</EditStyle>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="0" WhiteSpaceLength="13">
+               <Text>             </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+            <Element xsi:type="XString" WhiteSpaceLength="4">
+               <Text>    </Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>NsoElementTypeName</Name>
+                     <Value>NewControl</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>NsoControlTypeName</Name>
+                     <Value>TextBox</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Type</Name>
+                     <Value>3</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlID</Name>
+                     <Value>20140801135105</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ElementID</Name>
+                     <Value>937</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>WordVersion</Name>
+                     <Value>2</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ExternalDataSourceId</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>HelpTip</Name>
+                     <Value>查房记录</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DelFlag</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>EditProtect</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsSaveAsNode</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsNotRecordInXML</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>MustFillContent</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Reference</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ExpandInput</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Edge</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>WomanUse</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlType</Name>
+                     <Value>3</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlTypeTemplate</Name>
+                     <Value>ElementLableAndRichTextBox</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsCtrlHidden</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ViewSecret</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ControlName</Name>
+                     <Value>查房意见</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>UpdateEveryTime</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsGroupUse</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Code</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ConsistenceType</Name>
+                     <Value>3</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>PlaceHolder</Name>
+                     <Value>请在此输入查房记录</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Reserve</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>EdgeStyle</Name>
+                     <Value>[</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>EdgeStyle2</Name>
+                     <Value>]</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsDefault</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>BetweenInTimeAndOutTime</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>WritingInAdvance</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsGroupReplace</Name>
+                     <Value>TRUE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>UserSet</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>CheckboxCaption</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>IsNullPrint</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ReplaceOldValue</Name>
+                     <Value>FALSE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>FormatConvertClassWord</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>CalcText</Name>
+                  </Attribute>
+               </Attributes>
+               <ID>20140801135105</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>患者，男，85岁，</Text>
+                  </Element>
+               </XElements>
+               <Deleteable>false</Deleteable>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <Name>查房意见</Name>
+               <InnerValue>患者，男，85岁，</InnerValue>
+               <ToolTip>查房记录</ToolTip>
+               <BackgroundText>请在此输入查房记录</BackgroundText>
+               <BorderVisible>Visible</BorderVisible>
+               <EditorActiveMode>MouseClick</EditorActiveMode>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>主因“咳喘伴上腹部不适10余天”于2014年9月18日10时32分入院，查体：体温36.5℃，脉搏77次/分，呼吸18次/分，血压130/70mmHg。 发育正常，营养中等，神志清楚，精神可，半卧位，查体合作。喘息貌，精神弱，全身皮肤粘膜未见苍白、黄染、紫绀、出血点及蜘蛛痣，未触及肿大浅表淋巴结。头颅无畸形，眼睑无浮肿，巩膜无黄染，睑结膜无充血苍白，双侧瞳孔等大等圆，对光反射存在。耳鼻无畸形，口唇无发绀，口角无偏斜，伸舌居中，咽部无充血，扁桃体无肿大。颈部软，无抵抗，气管居中，甲状腺不大，双侧颈静脉充盈，肝-颈静脉回流征阴性。胸廓对称无畸形，双侧呼吸动度一致，双肺叩诊呈清音，呼吸音粗，双肺底可闻及少量湿性罗音，心前区无隆起，心尖搏动无弥散，心界叩诊无扩大，心音有力，心率77次／分，律齐，各瓣膜听诊区未闻及杂音。腹部平坦，未见肠型及蠕动波，腹软，无压痛、反跳痛及肌紧张，肝脾未触及，移动性浊音阴性,未闻及腹部血管杂音，肠鸣音存在。脊柱无畸形，双下肢略屈曲，不能伸直，双膝关节活动受限，双下肢痛温觉减低，肌力及肌张力正常，双膝关节活动受限，双下肢痛温觉减低，双下肢无水肿，双足背动脉搏动减弱，膝腱反射存。冠状动脉粥样硬化性心脏病、心功能Ⅲ级（NYHA分级）、肺炎、急性胆囊炎？、2型糖尿病、2型糖尿病性周围神经病变、2型糖尿病性周围血管病、高血压Ⅱ（很高危）、脑梗死（陈旧性）、前列腺增生</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>慢性胃炎、营养不良、电解质紊乱：低钠低钾血症。治疗：1、检查计划:血尿便常规、血气分析、血生化检查、血凝检测、甲状腺功能、NT-proBNP、糖化血红蛋白、肿标、肌钙蛋白T、血糖、心电图、胸片、心脏彩超、泌尿彩超、腹部彩超。2.治疗计划:予心电、血压、血氧饱和度监护，吸氧，静点硝酸异山梨酯扩血管，改善血循环，抗感染、化痰、抑制血小板聚集，保护胃粘膜，改善心功能及对症支持治疗。并向患者家属交待患者病情较危重，患者家属表示理解。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+            <Element xsi:type="XString" StyleIndex="2" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <Attributes>
+                  <Attribute>
+                     <Name>NsoElementTypeName</Name>
+                     <Value>Section</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>HelpTip</Name>
+                     <Value>签名</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>PlaceHolder</Name>
+                     <Value>签名</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>UserSet</Name>
+                     <Value>签名</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DelFlag</Name>
+                     <Value>true</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>EditProtect</Name>
+                     <Value>true</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>AllDoctorSignHorizontal20140801135232</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ContentReadonly>True</ContentReadonly>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString" StyleIndex="2">
+                     <Text>朱XX</Text>
+                  </Element>
+               </XElements>
+               <Deleteable>false</Deleteable>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue>朱XX</InnerValue>
+               <ToolTip>签名</ToolTip>
+               <BackgroundText>签名</BackgroundText>
+               <EnableHighlight>Disabled</EnableHighlight>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <Title>病程记录2015年10月05日 10时59分42秒</Title>
+      <LicenseText>南京都昌信息科技有限公司2016年度测试版:南京都昌信息科技有限公司2016年度测试版</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-01-15T13:51:34.4732748+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Author>yfyuan</Author>
+      <Operator>DCSoft.Writer Version:1.2014.4.30</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>2014-09-18 15:25             
+    患者，男，85岁，主因“咳喘伴上腹部不适10余天”于2014年9月18日10时32分入院，查体：体温36.5℃，脉搏77次/分，呼吸18次/分，血压130/70mmHg。 发育正常，营养中等，神志清楚，精神可，半卧位，查体合作。喘息貌，精神弱，全身皮肤粘膜未见苍白、黄染、紫绀、出血点及蜘蛛痣，未触及肿大浅表淋巴结。头颅无畸形，眼睑无浮肿，巩膜无黄染，睑结膜无充血苍白，双侧瞳孔等大等圆，对光反射存在。耳鼻无畸形，口唇无发绀，口角无偏斜，伸舌居中，咽部无充血，扁桃体无肿大。颈部软，无抵抗，气管居中，甲状腺不大，双侧颈静脉充盈，肝-颈静脉回流征阴性。胸廓对称无畸形，双侧呼吸动度一致，双肺叩诊呈清音，呼吸音粗，双肺底可闻及少量湿性罗音，心前区无隆起，心尖搏动无弥散，心界叩诊无扩大，心音有力，心率77次／分，律齐，各瓣膜听诊区未闻及杂音。腹部平坦，未见肠型及蠕动波，腹软，无压痛、反跳痛及肌紧张，肝脾未触及，移动性浊音阴性,未闻及腹部血管杂音，肠鸣音存在。脊柱无畸形，双下肢略屈曲，不能伸直，双膝关节活动受限，双下肢痛温觉减低，肌力及肌张力正常，双膝关节活动受限，双下肢痛温觉减低，双下肢无水肿，双足背动脉搏动减弱，膝腱反射存。冠状动脉粥样硬化性心脏病、心功能Ⅲ级（NYHA分级）、肺炎、急性胆囊炎？、2型糖尿病、2型糖尿病性周围神经病变、2型糖尿病性周围血管病、高血压Ⅱ（很高危）、脑梗死（陈旧性）、前列腺增生
+慢性胃炎、营养不良、电解质紊乱：低钠低钾血症。治疗：1、检查计划:血尿便常规、血气分析、血生化检查、血凝检测、甲状腺功能、NT-proBNP、糖化血红蛋白、肿标、肌钙蛋白T、血糖、心电图、胸片、心脏彩超、泌尿彩超、腹部彩超。2.治疗计划:予心电、血压、血氧饱和度监护，吸氧，静点硝酸异山梨酯扩血管，改善血循环，抗感染、化痰、抑制血小板聚集，保护胃粘膜，改善心功能及对症支持治疗。并向患者家属交待患者病情较危重，患者家属表示理解。
+ 朱XX</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>59</LeftMargin>
+      <TopMargin>167</TopMargin>
+      <RightMargin>59</RightMargin>
+      <BottomMargin>79</BottomMargin>
+   </PageSettings>
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>SpaceSpecify</LineSpacingStyle>
+            <LineSpacing>100</LineSpacing>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>SpaceSpecify</LineSpacingStyle>
+            <LineSpacing>91.6666641</LineSpacing>
+         </Style>
+         <Style Index="2">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>SpaceMultiple</LineSpacingStyle>
+            <LineSpacing>1.25</LineSpacing>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="4">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Right</Align>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer.Demo\WebDemo\DemoFile\病程记录内容\病程记录2015年10月05日 10时59分42秒.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1413.40886">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextBody">
+      <Expressions />
+      <ScriptItems />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XTextTable" NumOfRows="5" NumOfColumns="6">
+          <Expressions />
+          <ScriptItems />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XTextTableRow">
+              <Expressions />
+              <ScriptItems />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="8">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="1">
+                      <Text>日期</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="8">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="1">
+                      <Text>护理诊断</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="8">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="1">
+                      <Text>护理目标</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="8">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="1">
+                      <Text>护理措施</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="8">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="1">
+                      <Text>效果评价</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="8">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="1">
+                      <Text>签名</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+              <SpecifyHeight>83</SpecifyHeight>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <ID />
+              <Expressions />
+              <ScriptItems />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="6">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="6">
+                          <Text>2013-05-06</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>2013-05-06</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>2013-05-06</InnerValue>
+                      <BackgroundText>护理日期</BackgroundText>
+                      <FieldSettings>
+                        <EditStyle>Date</EditStyle>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="1">
+                          <Text>自理能力缺陷综合症</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>自理能力缺陷综合症</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>自理能力缺陷综合症</InnerValue>
+                      <BackgroundText>护理诊断</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="1">
+                          <Text>与骨折肢体固定后活动或功能受限有关</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>与骨折肢体固定后活动或功能受限有关</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>与骨折肢体固定后活动或功能受限有关</InnerValue>
+                      <BackgroundText>护理目标</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="1">
+                          <Text>心理护理：</Text>
+                        </Element>
+                        <Element xsi:type="XString" StyleIndex="2">
+                          <Text>讲述疾病相关只是及介绍成功病历，帮助患者树立战胜疾病的信心。睡倒时应仰卧、免枕、肩胛区垫枕以使两肩后伸。</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>心理护理：讲述疾病相关只是及介绍成功病历，帮助患者树立战胜疾病的信心。睡倒时应仰卧、免枕、肩胛区垫枕以使两肩后伸。</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>心理护理：讲述疾病相关只是及介绍成功病历，帮助患者树立战胜疾病的信心。睡倒时应仰卧、免枕、肩胛区垫枕以使两肩后伸。</InnerValue>
+                      <BackgroundText>护理措施</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="13">
+                          <Text>加剧</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>加剧</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <UserEditable>false</UserEditable>
+                      <InnerValue>加剧</InnerValue>
+                      <BackgroundText>效果评价</BackgroundText>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <Items>
+                            <Item>
+                              <Text>加剧</Text>
+                              <Value>加剧</Value>
+                            </Item>
+                            <Item>
+                              <Text>好转</Text>
+                              <Value>好转</Value>
+                            </Item>
+                            <Item>
+                              <Text>缓解</Text>
+                              <Value>缓解</Value>
+                            </Item>
+                            <Item>
+                              <Text>接受</Text>
+                              <Value>接受</Value>
+                            </Item>
+                          </Items>
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="9">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="11">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="11">
+                          <Text>张三</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>张三</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>张三</InnerValue>
+                      <BackgroundText>签名</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                  </XElements>
+                </Element>
+              </XElements>
+              <CloneType>ContentWithClearField</CloneType>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <ID />
+              <Expressions />
+              <ScriptItems />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="1">
+                          <Text>疼痛</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>疼痛</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>疼痛</InnerValue>
+                      <BackgroundText>护理诊断</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="1">
+                          <Text>与创伤有关</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>与创伤有关</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>与创伤有关</InnerValue>
+                      <BackgroundText>护理目标</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="1">
+                          <Text>运用放松技术，转移注意力，听听音乐，看看书或者和好朋友聊天。</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>运用放松技术，转移注意力，听听音乐，看看书或者和好朋友聊天。</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>运用放松技术，转移注意力，听听音乐，看看书或者和好朋友聊天。</InnerValue>
+                      <BackgroundText>护理措施</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="13">
+                          <Text>好转</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>好转</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <UserEditable>false</UserEditable>
+                      <InnerValue>好转</InnerValue>
+                      <BackgroundText>效果评价</BackgroundText>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <Items>
+                            <Item>
+                              <Text>加剧</Text>
+                              <Value>加剧</Value>
+                            </Item>
+                            <Item>
+                              <Text>好转</Text>
+                              <Value>好转</Value>
+                            </Item>
+                            <Item>
+                              <Text>缓解</Text>
+                              <Value>缓解</Value>
+                            </Item>
+                            <Item>
+                              <Text>接受</Text>
+                              <Value>接受</Value>
+                            </Item>
+                          </Items>
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="9">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="11">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="11">
+                          <Text>李四</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>李四</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>李四</InnerValue>
+                      <BackgroundText>签名</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+                  </XElements>
+                </Element>
+              </XElements>
+              <CloneType>ContentWithClearField</CloneType>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <ID />
+              <Expressions />
+              <ScriptItems />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="1">
+                          <Text>2013-05-07</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>2013-05-07</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>2013-05-07</InnerValue>
+                      <BackgroundText>护理日期</BackgroundText>
+                      <FieldSettings>
+                        <EditStyle>Date</EditStyle>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="15">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="13">
+                          <Text>知识缺乏</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>知识缺乏</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>知识缺乏</InnerValue>
+                      <BackgroundText>护理诊断</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="13">
+                          <Text>缺乏骨折后预防并发症和健康锻炼的相关知识</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>缺乏骨折后预防并发症和健康锻炼的相关知识</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>缺乏骨折后预防并发症和健康锻炼的相关知识</InnerValue>
+                      <BackgroundText>护理目标</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="13">
+                          <Text>固定后，注意观察双手合前臂的皮肤颜色是否有发白或者青紫，有麻木感。是否有挠 动脉搏动减弱或者消失，如果有以上症状，表示有腋部神经血管受压，应指导患者双手叉腰，使双肩尽量外展，后伸，如症状没有缓解，立即报告值班医生调整固定的放松度，直至症状解除为止。</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>固定后，注意观察双手合前臂的皮肤颜色是否有发白或者青紫，有麻木感。是否有挠 动脉搏动减弱或者消失，如果有以上症状，表示有腋部神经血管受压，应指导患者双手叉腰，使双肩尽量外展，后伸，如症状没有缓解，立即报告值班医生调整固定的放松度，直至症状解除为止。</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>固定后，注意观察双手合前臂的皮肤颜色是否有发白或者青紫，有麻木感。是否有挠 动脉搏动减弱或者消失，如果有以上症状，表示有腋部神经血管受压，应指导患者双手叉腰，使双肩尽量外展，后伸，如症状没有缓解，立即报告值班医生调整固定的放松度，直至症状解除为止。</InnerValue>
+                      <BackgroundText>护理措施</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="13">
+                          <Text>缓解</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>缓解</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <UserEditable>false</UserEditable>
+                      <InnerValue>缓解</InnerValue>
+                      <BackgroundText>效果评价</BackgroundText>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <Items>
+                            <Item>
+                              <Text>加剧</Text>
+                              <Value>加剧</Value>
+                            </Item>
+                            <Item>
+                              <Text>好转</Text>
+                              <Value>好转</Value>
+                            </Item>
+                            <Item>
+                              <Text>缓解</Text>
+                              <Value>缓解</Value>
+                            </Item>
+                            <Item>
+                              <Text>接受</Text>
+                              <Value>接受</Value>
+                            </Item>
+                          </Items>
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="9">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="14">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="14">
+                          <Text>王五</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>王五</TextValue>
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue>王五</InnerValue>
+                      <BackgroundText>签名</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                  </XElements>
+                </Element>
+              </XElements>
+              <CloneType>ContentWithClearField</CloneType>
+            </Element>
+            <Element xsi:type="XTextTableRow">
+              <ID />
+              <Expressions />
+              <ScriptItems />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue />
+                      <BackgroundText>护理日期</BackgroundText>
+                      <FieldSettings>
+                        <EditStyle>Date</EditStyle>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="15">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue />
+                      <BackgroundText>护理诊断</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue />
+                      <BackgroundText>护理目标</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue />
+                      <BackgroundText>护理措施</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="7">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="13">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <UserEditable>false</UserEditable>
+                      <BackgroundText>效果评价</BackgroundText>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <Items>
+                            <Item>
+                              <Text>加剧</Text>
+                              <Value>加剧</Value>
+                            </Item>
+                            <Item>
+                              <Text>好转</Text>
+                              <Value>好转</Value>
+                            </Item>
+                            <Item>
+                              <Text>缓解</Text>
+                              <Value>缓解</Value>
+                            </Item>
+                            <Item>
+                              <Text>接受</Text>
+                              <Value>接受</Value>
+                            </Item>
+                          </Items>
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="13">
+                      <AutoCreate>true</AutoCreate>
+                    </Element>
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="9">
+                  <Expressions />
+                  <ScriptItems />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="14">
+                      <Expressions />
+                      <ScriptItems />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                      <EventExpressions />
+                      <InnerValue />
+                      <BackgroundText>签名</BackgroundText>
+                      <EnableHighlight>Disabled</EnableHighlight>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+                  </XElements>
+                </Element>
+              </XElements>
+              <CloneType>ContentWithClearField</CloneType>
+            </Element>
+          </XElements>
+          <Columns>
+            <Element xsi:type="XTextTableColumn">
+              <Width>312.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>312.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>312.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>1109.45837</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>406.458374</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>378.458374</Width>
+            </Element>
+          </Columns>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextHeader">
+      <Expressions />
+      <ScriptItems />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XString" StyleIndex="5">
+          <Text>护理记录单</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>姓名： </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="4">
+          <Text>  肖静  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="12">
+          <Text>  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>性别：</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="4">
+          <Text> 女  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="12">
+          <Text>  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>年龄：</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="4">
+          <Text>  28   </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text> 病区：</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="4">
+          <Text> 骨科-病区   </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="16">
+          <Text> </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="17">
+          <Text>  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>床号：</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="4">
+          <Text> 38  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="12">
+          <Text>       </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>住院号</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="4">
+          <Text>20121058 </Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Expressions />
+      <ScriptItems />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2013-05-08T11:27:49.1911338+08:00</CreationTime>
+    <LastModifiedTime>2013-05-08T11:27:49.1911338+08:00</LastModifiedTime>
+    <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1413.26617</Operator>
+    <NumOfPage>1</NumOfPage>
+  </Info>
+  <BodyText>日期
+护理诊断
+护理目标
+护理措施
+效果评价
+签名
+2013-05-06
+自理能力缺陷综合症
+与骨折肢体固定后活动或功能受限有关
+心理护理：讲述疾病相关只是及介绍成功病历，帮助患者树立战胜疾病的信心。睡倒时应仰卧、免枕、肩胛区垫枕以使两肩后伸。
+加剧
+张三
+
+疼痛
+与创伤有关
+运用放松技术，转移注意力，听听音乐，看看书或者和好朋友聊天。
+好转
+李四
+2013-05-07
+知识缺乏
+缺乏骨折后预防并发症和健康锻炼的相关知识
+固定后，注意观察双手合前臂的皮肤颜色是否有发白或者青紫，有麻木感。是否有挠 动脉搏动减弱或者消失，如果有以上症状，表示有腋部神经血管受压，应指导患者双手叉腰，使双肩尽量外展，后伸，如症状没有缓解，立即报告值班医生调整固定的放松度，直至症状解除为止。
+缓解
+王五
+护理日期
+护理诊断
+护理目标
+护理措施
+效果评价
+签名
+
+</BodyText>
+  <UserHistories />
+  <Comments />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+      <FontSize>12</FontSize>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Align>Center</Align>
+      </Style>
+      <Style Index="1" />
+      <Style Index="2" />
+      <Style Index="3">
+        <DefaultValuePropertyNames>Align</DefaultValuePropertyNames>
+      </Style>
+      <Style Index="4">
+        <Underline>true</Underline>
+      </Style>
+      <Style Index="5">
+        <FontSize>18</FontSize>
+        <Bold>true</Bold>
+      </Style>
+      <Style Index="6" />
+      <Style Index="7">
+        <BorderWidth>1</BorderWidth>
+        <BorderLeft>true</BorderLeft>
+        <BorderBottom>true</BorderBottom>
+        <BorderTop>true</BorderTop>
+        <BorderRight>true</BorderRight>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+        <GridLineType>ExtentToBottom</GridLineType>
+      </Style>
+      <Style Index="8">
+        <BackgroundColor>LightGray</BackgroundColor>
+        <BorderWidth>4</BorderWidth>
+        <BorderLeft>true</BorderLeft>
+        <BorderBottom>true</BorderBottom>
+        <BorderTop>true</BorderTop>
+        <BorderRight>true</BorderRight>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+      </Style>
+      <Style Index="9">
+        <VerticalAlign>Bottom</VerticalAlign>
+        <BorderWidth>1</BorderWidth>
+        <BorderLeft>true</BorderLeft>
+        <BorderBottom>true</BorderBottom>
+        <BorderTop>true</BorderTop>
+        <BorderRight>true</BorderRight>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+        <GridLineType>ExtentToBottom</GridLineType>
+      </Style>
+      <Style Index="10">
+        <Align>Right</Align>
+      </Style>
+      <Style Index="11">
+        <Align>Right</Align>
+      </Style>
+      <Style Index="12">
+        <DefaultValuePropertyNames>Underline</DefaultValuePropertyNames>
+      </Style>
+      <Style Index="13">
+        <VerticalAlign>Middle</VerticalAlign>
+        <BorderWidth>1</BorderWidth>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+      </Style>
+      <Style Index="14">
+        <Align>Right</Align>
+        <VerticalAlign>Middle</VerticalAlign>
+        <BorderWidth>1</BorderWidth>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+      </Style>
+      <Style Index="15">
+        <VerticalAlign>Middle</VerticalAlign>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+      </Style>
+      <Style Index="16">
+        <Underline>true</Underline>
+      </Style>
+      <Style Index="17">
+        <Underline>true</Underline>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <PageSettings>
+    <Landscape>true</Landscape>
+  </PageSettings>
+</XTextDocument>

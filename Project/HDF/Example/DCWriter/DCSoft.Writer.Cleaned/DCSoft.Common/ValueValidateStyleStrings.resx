@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http:                                                                    //www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="MustDateTimeType"><value>必须为日期时间格式。</value></data>
+  <data name="ForbidEmpty"><value>数据不能为空。</value></data>
+  <data name="ExcludeRange_Range"><value>文本不包含在列表“{0}”。</value></data>
+  <data name="LessThanMinValue_Value"><value>小于最小值 {0}。</value></data>
+  <data name="CanNotContains_Text"><value>不能包含“{0}”。</value></data>
+  <data name="MustInteger"><value>必须为整数。</value></data>
+  <data name="MoreThanMaxDemicalDigits"><value>小数位数超过上限，上限为{0}。</value></data>
+  <data name="MoreThanMaxLength_Length"><value>文本过长，不得超过 {0} 个字符。</value></data>
+  <data name="MustDateType"><value>必须为日期格式。</value></data>
+  <data name="MoreThanMaxValue_Value"><value>超过最大值 {0}。</value></data>
+  <data name="LessThanMinLength_Length"><value>文本过短，不得少于 {0} 个字符。</value></data>
+  <data name="MustTimeType"><value>必须为时间格式。</value></data>
+  <data name="MustNumeric"><value>必须为数值。</value></data>
+  <data name="MustMatch_Expression"><value>必须符合“{0}”格式。</value></data>
+  </root>

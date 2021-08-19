@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Footer"><value>页脚</value></data>
+  <data name="PrintError"><value>打印错误</value></data>
+  <data name="Header"><value>页眉</value></data>
+  <data name="NoDocument"><value>没有文档</value></data>
+  <data name="MargeMoreThanPageWidth"><value>左边距与左边距之和不能大于页面的宽度!</value></data>
+  <data name="UserCancelled"><value>用户取消操作。</value></data>
+  <data name="NoPrinter"><value>系统中未安装打印机。</value></data>
+  <data name="FooterForFirstPage"><value>首页页脚</value></data>
+  <data name="ImageFileFilter"><value>图片文件(*.jpg,*.jpeg,*.gif,*.png)|*.jpg;*.jpeg;*.gif;*.png</value></data>
+  <data name="HeaderForFirstPage"><value>首页页眉</value></data>
+  <data name="ForbitJumpPrintWhenMultiColumns"><value>在多栏分页显示的时候不得执行续打操作。</value></data>
+  <data name="PrintintPage_Name_Index"><value>正在打印文档“0”的第“{1}“页。</value></data>
+  <data name="PrintResult"><value>打印结果</value></data>
+  <data name="PromptInputNumer"><value>请输入数字。</value></data>
+  <data name="SystemAlert"><value>系统提示</value></data>
+  <data name="StartPrint_Name"><value>开始打印文档“{0}”。</value></data>
+  <data name="PromptManualDuplex"><value>请将出纸器中已打印好一面的纸取出并将其放回送纸器，然后按下“确定”，继续打印。</value></data>
+  <data name="MargeMoreThanPageHeight"><value>上边距与下边距之和不能大于页面的高度!</value></data>
+  <data name="PrintCurrentPage_PageIndex"><value>打印当前页（第{0}页）</value></data>
+  </root>

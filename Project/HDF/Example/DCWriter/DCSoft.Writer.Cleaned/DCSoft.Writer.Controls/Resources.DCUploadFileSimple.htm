@@ -1,0 +1,32 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>上传文件</title>
+	</head>
+	<body style="padding:0px;margin:0px">
+        <!-- 简单的上传文件的页面 -->
+	    <form id="form1" action="" method="post" enctype="multipart/form-data">
+           <input type="file" name="file" id="file" style="border:1px solid black;width:100%;height:100%" onchange="Submit();" />
+           <input type="hidden" id="fileid" name="fileid" style="width:100px;height:100px"  />
+        </form>
+        <script language="javascript">
+            function Submit() {
+                //alert("zzz");
+                if (window.frameElement.okCallback) {
+                    if (window.frameElement.okCallback() == false) {
+                        // 用户取消操作
+                        return;
+                    }
+                }
+                var frm = document.getElementById("form1");
+                frm.submit();
+            }
+            if (window.frameElement != null && window.frameElement.fileID) {
+                document.getElementById("fileid").value = window.frameElement.fileID;
+            }
+            if (window.frameElement != null && window.frameElement.accept) {
+                document.getElementById("file").setAttribute("accept", window.frameElement.accept);
+            }
+        </script>
+	</body>
+</html>
