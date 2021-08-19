@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{DC713C80-8DA5-40C4-85CD-E0B3169B009C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>ZYTextDocumentLib</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\WINDOWS\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Vsa">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualBasic.Vsa\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.Vsa.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vsa">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Vsa\8.0.0.0__b03f5f7f11d50a3a\Microsoft.Vsa.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\WINDOWS\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualBasic\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows32\AlphaFlags.cs" />
+    <Compile Include="Windows32\AnimateFlags.cs" />
+    <Compile Include="Windows32\BLENDFUNCTION.cs" />
+    <Compile Include="Windows32\BrushStyles.cs" />
+    <Compile Include="Windows32\CaptureMouseMoveEventArgs.cs" />
+    <Compile Include="Windows32\CaptureMouseMoveEventHandler.cs" />
+    <Compile Include="Windows32\ClassStyle.cs" />
+    <Compile Include="Windows32\CombineFlags.cs" />
+    <Compile Include="Windows32\Cursors.cs" />
+    <Compile Include="Windows32\DCRasterOperations.cs" />
+    <Compile Include="Windows32\DeviceContextBase.cs" />
+    <Compile Include="Windows32\DialogCodes.cs" />
+    <Compile Include="Windows32\enumDCConst.cs" />
+    <Compile Include="Windows32\Gdi32.cs" />
+    <Compile Include="Windows32\GDIObject.cs" />
+    <Compile Include="Windows32\GDIPen.cs" />
+    <Compile Include="Windows32\GetWindowLongFlags.cs" />
+    <Compile Include="Windows32\HatchStyles.cs" />
+    <Compile Include="Windows32\HitTest.cs" />
+    <Compile Include="Windows32\Imm32.cs" />
+    <Compile Include="Windows32\Kernel32.cs" />
+    <Compile Include="Windows32\LOGBRUSH.cs" />
+    <Compile Include="Windows32\MouseActivateFlags.cs" />
+    <Compile Include="Windows32\MouseCapturer.cs" />
+    <Compile Include="Windows32\MSG.cs" />
+    <Compile Include="Windows32\Msgs.cs" />
+    <Compile Include="Windows32\PAINTSTRUCT.cs" />
+    <Compile Include="Windows32\PeekMessageFlags.cs" />
+    <Compile Include="Windows32\PenStyle.cs" />
+    <Compile Include="Windows32\POINT.cs" />
+    <Compile Include="Windows32\RasterOperations.cs" />
+    <Compile Include="Windows32\RECT.cs" />
+    <Compile Include="Windows32\RectangleMouseCapturer.cs" />
+    <Compile Include="Windows32\ReversibleDrawer.cs" />
+    <Compile Include="Windows32\ReversibleShapeStyle.cs" />
+    <Compile Include="Windows32\SetWindowPosFlags.cs" />
+    <Compile Include="Windows32\SetWindowPosZ.cs" />
+    <Compile Include="Windows32\ShowWindowStyles.cs" />
+    <Compile Include="Windows32\SIZE.cs" />
+    <Compile Include="Windows32\SPIActions.cs" />
+    <Compile Include="Windows32\SPIWinINIFlags.cs" />
+    <Compile Include="Windows32\StockObject.cs" />
+    <Compile Include="Windows32\SystemMetricsConst.cs" />
+    <Compile Include="Windows32\TrackerEventFlags.cs" />
+    <Compile Include="Windows32\TRACKMOUSEEVENTS.cs" />
+    <Compile Include="Windows32\UpdateLayeredWindowsFlags.cs" />
+    <Compile Include="Windows32\User32.cs" />
+    <Compile Include="Windows32\VirtualKeys.cs" />
+    <Compile Include="Windows32\Win32APIException.cs" />
+    <Compile Include="Windows32\Win32Caret.cs" />
+    <Compile Include="Windows32\WindowExStyles.cs" />
+    <Compile Include="Windows32\WindowStyles.cs" />
+    <Compile Include="Windows32\WinInet.cs" />
+    <Compile Include="XDesignerCommon\HashTableVariableProvider.cs" />
+    <Compile Include="XDesignerCommon\IVariableProvider.cs" />
+    <Compile Include="XDesignerCommon\MathCommon.cs" />
+    <Compile Include="XDesignerCommon\MeasureConvert.cs" />
+    <Compile Include="XDesignerCommon\PointBuffer.cs" />
+    <Compile Include="XDesignerCommon\RectangleCommon.cs" />
+    <Compile Include="XDesignerCommon\StackTraceHelper.cs" />
+    <Compile Include="XDesignerCommon\StringDictionaryVariableProvider.cs" />
+    <Compile Include="XDesignerCommon\VariableString.cs" />
+    <Compile Include="XDesignerDrawer\DrawerUtil.cs" />
+    <Compile Include="XDesignerDrawer\EllipseObject.cs" />
+    <Compile Include="XDesignerDrawer\PageFrameDrawer.cs" />
+    <Compile Include="XDesignerDrawer\RectangleDrawer.cs" />
+    <Compile Include="XDesignerGUI\BorderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XDesignerGUI\DocumentViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XDesignerGUI\GraphicsUnitConvert.cs" />
+    <Compile Include="XDesignerGUI\MessageBoxHelper.cs" />
+    <Compile Include="XDesignerGUI\MultiRectangleTransform.cs" />
+    <Compile Include="XDesignerGUI\PageSettingPreview.cs" />
+    <Compile Include="XDesignerGUI\RectangleCounter.cs" />
+    <Compile Include="XDesignerGUI\SimpleRectangleTransform.cs" />
+    <Compile Include="XDesignerGUI\TextPageViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XDesignerGUI\TransformBase.cs" />
+    <Compile Include="XDesignerGUI\UpdateLock.cs" />
+    <Compile Include="XDesignerPrinting\dlgPageSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XDesignerPrinting\DocumentPageDrawer.cs" />
+    <Compile Include="XDesignerPrinting\IPageDocument.cs" />
+    <Compile Include="XDesignerPrinting\MultiPageTransform.cs" />
+    <Compile Include="XDesignerPrinting\PageLineInfo.cs" />
+    <Compile Include="XDesignerPrinting\PageScrollableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XDesignerPrinting\PageViewMode.cs" />
+    <Compile Include="XDesignerPrinting\PrintPage.cs" />
+    <Compile Include="XDesignerPrinting\PrintPageCollection.cs" />
+    <Compile Include="XDesignerPrinting\PrintUtil.cs" />
+    <Compile Include="XDesignerPrinting\XPageSettings.cs" />
+    <Compile Include="XDesignerPrinting\XPaperSize.cs" />
+    <Compile Include="XDesignerPrinting\XPaperSizeCollection.cs" />
+    <Compile Include="XDesignerPrinting\XPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\BoolNoParameterHandler.cs" />
+    <Compile Include="ZYCommon\ButtonClickHandler.cs" />
+    <Compile Include="ZYCommon\ButtonTextChangedHandler.cs" />
+    <Compile Include="ZYCommon\ByteBuffer.cs" />
+    <Compile Include="ZYCommon\CaptureDragRectangleHandler.cs" />
+    <Compile Include="ZYCommon\CheckStringHandler.cs" />
+    <Compile Include="ZYCommon\ClipboardHandler.cs" />
+    <Compile Include="ZYCommon\CommandLine.cs" />
+    <Compile Include="ZYCommon\CommonFunction.cs" />
+    <Compile Include="ZYCommon\ConsoleBuffer.cs" />
+    <Compile Include="ZYCommon\DBComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\DBXMLConfig.cs" />
+    <Compile Include="ZYCommon\dlgChangePWD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgInputBox2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgInputBox5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgInputFormatText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgOpenConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgUnderWriteMarkList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\dlgWaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\DocumentView.cs" />
+    <Compile Include="ZYCommon\EMRTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\EMRTabControlDesigner.cs" />
+    <Compile Include="ZYCommon\EMRTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\EMRTabPageCollection.cs" />
+    <Compile Include="ZYCommon\Format_Date.cs" />
+    <Compile Include="ZYCommon\Format_Double.cs" />
+    <Compile Include="ZYCommon\Format_InList.cs" />
+    <Compile Include="ZYCommon\Format_Integer.cs" />
+    <Compile Include="ZYCommon\Format_Max.cs" />
+    <Compile Include="ZYCommon\Format_MaxLength.cs" />
+    <Compile Include="ZYCommon\Format_Min.cs" />
+    <Compile Include="ZYCommon\Format_MinLength.cs" />
+    <Compile Include="ZYCommon\Format_NoInList.cs" />
+    <Compile Include="ZYCommon\Format_NoNull.cs" />
+    <Compile Include="ZYCommon\HttpPostDataHandler.cs" />
+    <Compile Include="ZYCommon\ImageTypeCheck.cs" />
+    <Compile Include="ZYCommon\inputBox4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\Int32Buffer.cs" />
+    <Compile Include="ZYCommon\IXMLSerializable.cs" />
+    <Compile Include="ZYCommon\LoadDiagramPic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\NameValueList.cs" />
+    <Compile Include="ZYCommon\NameValueListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\ObjectByteList.cs" />
+    <Compile Include="ZYCommon\ObjectProgressHandler.cs" />
+    <Compile Include="ZYCommon\PaintButtonHandler.cs" />
+    <Compile Include="ZYCommon\ProgressHandler.cs" />
+    <Compile Include="ZYCommon\PropertyItem.cs" />
+    <Compile Include="ZYCommon\PropertyList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\RectangleObject.cs" />
+    <Compile Include="ZYCommon\SEQCreator.cs" />
+    <Compile Include="ZYCommon\SimpleXMLConfig.cs" />
+    <Compile Include="ZYCommon\StatusTextChangeHandler.cs" />
+    <Compile Include="ZYCommon\StringBuffer.cs" />
+    <Compile Include="ZYCommon\StringCommon.cs" />
+    <Compile Include="ZYCommon\StringDataFormat.cs" />
+    <Compile Include="ZYCommon\StringDataFormatItem.cs" />
+    <Compile Include="ZYCommon\XMLCommon.cs" />
+    <Compile Include="ZYCommon\XMLHttpCommand.cs" />
+    <Compile Include="ZYCommon\XMLHttpConnection.cs" />
+    <Compile Include="ZYCommon\XMLHttpDBExecutingHandler.cs" />
+    <Compile Include="ZYCommon\XMLHttpParameter.cs" />
+    <Compile Include="ZYCommon\XMLHttpParameterCollection.cs" />
+    <Compile Include="ZYCommon\XMLHttpReader.cs" />
+    <Compile Include="ZYCommon\XMLHttpServer.cs" />
+    <Compile Include="ZYCommon\ZYButtonClickHandler.cs" />
+    <Compile Include="ZYCommon\ZYButtonGroup.cs" />
+    <Compile Include="ZYCommon\ZYColorSelector.cs" />
+    <Compile Include="ZYCommon\ZYConfig.cs" />
+    <Compile Include="ZYCommon\ZYDBConnection.cs" />
+    <Compile Include="ZYCommon\ZYDBRecordBase.cs" />
+    <Compile Include="ZYCommon\ZYErrorReport.cs" />
+    <Compile Include="ZYCommon\ZYFont.cs" />
+    <Compile Include="ZYCommon\ZYPopupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\ZYPublic.cs" />
+    <Compile Include="ZYCommon\ZYTime.cs" />
+    <Compile Include="ZYCommon\ZYToolBarGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZYCommon\ZYViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib.icon\IconHelper.cs" />
+    <Compile Include="ZYTextDocumentLibGUI\ZYKnowledge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLibPublic\ZYEditPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\A_AlignCenter.cs" />
+    <Compile Include="ZYTextDocumentLib\A_AlignJustify.cs" />
+    <Compile Include="ZYTextDocumentLib\A_AlignLeft.cs" />
+    <Compile Include="ZYTextDocumentLib\A_AlignRight.cs" />
+    <Compile Include="ZYTextDocumentLib\A_BackSpace.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ClearSaveLog.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ContentChanged.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ContentChangeLog.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ConvertTextToSelect.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Copy.cs" />
+    <Compile Include="ZYTextDocumentLib\A_CtlMoveDown.cs" />
+    <Compile Include="ZYTextDocumentLib\A_CtlMoveUp.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Cut.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Delete.cs" />
+    <Compile Include="ZYTextDocumentLib\A_DeleteFormat.cs" />
+    <Compile Include="ZYTextDocumentLib\A_DesignMode.cs" />
+    <Compile Include="ZYTextDocumentLib\A_DivProperty.cs" />
+    <Compile Include="ZYTextDocumentLib\A_DocumentTitle.cs" />
+    <Compile Include="ZYTextDocumentLib\A_EditScript.cs" />
+    <Compile Include="ZYTextDocumentLib\A_EnableJumpPrint.cs" />
+    <Compile Include="ZYTextDocumentLib\A_EnableKBSection.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ErrorReportURL.cs" />
+    <Compile Include="ZYTextDocumentLib\A_FieldName.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Find.cs" />
+    <Compile Include="ZYTextDocumentLib\A_FontBold.cs" />
+    <Compile Include="ZYTextDocumentLib\A_FontItalic.cs" />
+    <Compile Include="ZYTextDocumentLib\A_FontName.cs" />
+    <Compile Include="ZYTextDocumentLib\A_FontSize.cs" />
+    <Compile Include="ZYTextDocumentLib\A_FontUnderline.cs" />
+    <Compile Include="ZYTextDocumentLib\A_HeadFooter.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertChar.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertDiagramPic.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertDiv.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertDocument.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertEMRelement.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertExDataInput.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertGongshi.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertImage.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertInput.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertKB.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertKeyWord.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertLine.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertMultipleSelect.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertSelect.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertString.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertTable.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertTemplate.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertTextFlag.cs" />
+    <Compile Include="ZYTextDocumentLib\A_InsertXML.cs" />
+    <Compile Include="ZYTextDocumentLib\A_INSERTXMLCANUNDO.cs" />
+    <Compile Include="ZYTextDocumentLib\A_LockDocument.cs" />
+    <Compile Include="ZYTextDocumentLib\A_LogicDelete.cs" />
+    <Compile Include="ZYTextDocumentLib\A_MoveDown.cs" />
+    <Compile Include="ZYTextDocumentLib\A_MoveEnd.cs" />
+    <Compile Include="ZYTextDocumentLib\A_MoveHome.cs" />
+    <Compile Include="ZYTextDocumentLib\A_MoveLeft.cs" />
+    <Compile Include="ZYTextDocumentLib\A_MoveRight.cs" />
+    <Compile Include="ZYTextDocumentLib\A_MoveUp.cs" />
+    <Compile Include="ZYTextDocumentLib\A_NewFile.cs" />
+    <Compile Include="ZYTextDocumentLib\A_NewFilePacs.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Open.cs" />
+    <Compile Include="ZYTextDocumentLib\A_OpenDBFile.cs" />
+    <Compile Include="ZYTextDocumentLib\A_OwnerSection.cs" />
+    <Compile Include="ZYTextDocumentLib\A_PageDown.cs" />
+    <Compile Include="ZYTextDocumentLib\A_PageSetting.cs" />
+    <Compile Include="ZYTextDocumentLib\A_PageSize.cs" />
+    <Compile Include="ZYTextDocumentLib\A_PageUp.cs" />
+    <Compile Include="ZYTextDocumentLib\A_PageViewMode.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Paste.cs" />
+    <Compile Include="ZYTextDocumentLib\A_PrintDocument.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Redo.cs" />
+    <Compile Include="ZYTextDocumentLib\A_RegisteUser.cs" />
+    <Compile Include="ZYTextDocumentLib\A_RemoveBlankKeyField.cs" />
+    <Compile Include="ZYTextDocumentLib\A_RemoveBlankLine.cs" />
+    <Compile Include="ZYTextDocumentLib\A_RemoveVariable.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Replace.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ReplaceAll.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SaveAs.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SaveDBFile.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SaveFile.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SaveImage.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SaveTemplate.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SectionSQL.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SelectAll.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetBackColor.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Setflag.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetForeColor.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetInputFormat.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetMultiSelect.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetPageSize.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetSub.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetSup.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetUserLevel.cs" />
+    <Compile Include="ZYTextDocumentLib\A_SetVariable.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftMoveDown.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftMoveEnd.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftMoveHome.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftMoveLeft.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftMoveRight.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftMoveUp.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftPageDown.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShiftPageUp.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShowAll.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShowMark.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ShowParagraphFlag.cs" />
+    <Compile Include="ZYTextDocumentLib\A_UnderWriteMark.cs" />
+    <Compile Include="ZYTextDocumentLib\A_UnderWriteMarkUI.cs" />
+    <Compile Include="ZYTextDocumentLib\A_Undo.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ViewDataSource.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ViewSource.cs" />
+    <Compile Include="ZYTextDocumentLib\A_ViewStructSource.cs" />
+    <Compile Include="ZYTextDocumentLib\DivTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\dlgDivProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgFormat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgHRuleProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgIconInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgKBPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgKB_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgKB_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgPageSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\dlgSetHeadFooter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\EMRCell.cs" />
+    <Compile Include="ZYTextDocumentLib\EMRCol.cs" />
+    <Compile Include="ZYTextDocumentLib\EMRRow.cs" />
+    <Compile Include="ZYTextDocumentLib\EMRTable.cs" />
+    <Compile Include="ZYTextDocumentLib\EnumElementHandler.cs" />
+    <Compile Include="ZYTextDocumentLib\ET_Document.cs" />
+    <Compile Include="ZYTextDocumentLib\frmDBFileList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\frmEditImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\frmScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\HRuleTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\ICD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\IListIndex.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageAreaAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageDistanceAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageEditAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\ImageFillRectAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageLineAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImagePenAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImagePolyAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageRectAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageRectAndFillAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageRectSelectAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\ImageTextAction.cs" />
+    <Compile Include="ZYTextDocumentLib\InputTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\IObjectSafety.cs" />
+    <Compile Include="ZYTextDocumentLib\JumpDivHandler.cs" />
+    <Compile Include="ZYTextDocumentLib\KBDataProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\KBImageIndexConst.cs" />
+    <Compile Include="ZYTextDocumentLib\KBItemClickHandler.cs" />
+    <Compile Include="ZYTextDocumentLib\KBItemStyleConst.cs" />
+    <Compile Include="ZYTextDocumentLib\KBListAttributeConst.cs" />
+    <Compile Include="ZYTextDocumentLib\KBListClickHandler.cs" />
+    <Compile Include="ZYTextDocumentLib\KBSection.cs" />
+    <Compile Include="ZYTextDocumentLib\KBTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\KB_Item.cs" />
+    <Compile Include="ZYTextDocumentLib\KB_List.cs" />
+    <Compile Include="ZYTextDocumentLib\OnSaveHandler.cs" />
+    <Compile Include="ZYTextDocumentLib\ParagraphAlignConst.cs" />
+    <Compile Include="ZYTextDocumentLib\ParagraphTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\PopupInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\RoundRectangle.cs" />
+    <Compile Include="ZYTextDocumentLib\SectionList.cs" />
+    <Compile Include="ZYTextDocumentLib\SmartTagItem.cs" />
+    <Compile Include="ZYTextDocumentLib\SmartTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\SwapListItemHandler.cs" />
+    <Compile Include="ZYTextDocumentLib\TableTagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\TextFlagProvider.cs" />
+    <Compile Include="ZYTextDocumentLib\UnderWriteMark.cs" />
+    <Compile Include="ZYTextDocumentLib\UnderWriteMarkCollection.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYAttribute.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYAttributeCollection.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYContent.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYDataSource.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYDocumentInfo.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYEditorAction.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\ZYGout.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYKBBuffer.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYKBBufferYS.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYKBListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\ZYKBObjectList.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYKBPopupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\ZYKBTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZYTextDocumentLib\ZYTextBlock.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextBorder.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextBox.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextChar.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextCharTab.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextConst.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextContainer.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextDiv.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextDocument.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextElement.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextFlag.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextHRule.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextImage.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextInput.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextKeyWord.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextLine.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextLineEnd.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextListItem.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextLock.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextObject.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextParagraph.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextSaveLog.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextSaveLogCollection.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYTextSelect.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYUserList.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYVBConnection.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYVBEventObject.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYVBEventType.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYVBScriptElement.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYVBScriptEngine.cs" />
+    <Compile Include="ZYTextDocumentLib\ZYVBSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XDesignerPrinting\dlgPageSetup.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgChangePWD.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgError.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgInputBox.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgInputBox2.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgInputBox5.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgInputFormatText.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgOpenConnection.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgUnderWriteMarkList.resx" />
+    <EmbeddedResource Include="ZYCommon\dlgWaiting.resx" />
+    <EmbeddedResource Include="ZYCommon\inputBox4.resx" />
+    <EmbeddedResource Include="ZYCommon\NameValueListControl.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\check.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\checked.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\chm.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\close.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\close_2.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\createsql.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\delete.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\div.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\event.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\frm.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\frmX.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\hrule.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\img.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\imgtools.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\item.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\link.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\lock.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\mspaint.ico" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\new.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\open.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\open_2.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\paragraph.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\paragraphmenu.gif" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\PPINTL5.ico" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\PPINTL6.ico" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\save.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\system.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\text.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\textbox.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLib.icon\unit.bmp" />
+    <EmbeddedResource Include="ZYTextDocumentLibGUI\ZYKnowledge.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLibPublic\ZYEditPanel.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\Config.config.xml" />
+    <EmbeddedResource Include="ZYTextDocumentLib\Config.toolbardef.xml" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgDivProperty.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgFormat.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgHRuleProperty.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgIconInfo.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgKBPath.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgKB_Item.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgKB_List.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgPageSetup.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\dlgSetHeadFooter.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\frmDBFileList.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\frmEditImage.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\frmScript.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\ICD.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\PopupInput.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\ZYEditorControl.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\ZYKBListView.resx" />
+    <EmbeddedResource Include="ZYTextDocumentLib\ZYKBTreeView.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

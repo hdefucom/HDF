@@ -1,0 +1,18 @@
+namespace Windows32
+{
+	public enum ClassStyle
+	{
+		CS_VREDRAW = 1,
+		CS_HREDRAW = 2,
+		CS_DBLCLKS = 8,
+		CS_OWNDC = 0x20,
+		CS_CLASSDC = 0x40,
+		CS_PARENTDC = 0x80,
+		CS_NOCLOSE = 0x200,
+		CS_SAVEBITS = 0x800,
+		CS_BYTEALIGNCLIENT = 0x1000,
+		CS_BYTEALIGNWINDOW = 0x2000,
+		CS_GLOBALCLASS = 0x4000,
+		CS_IME = 0x10000
+	}
+}
