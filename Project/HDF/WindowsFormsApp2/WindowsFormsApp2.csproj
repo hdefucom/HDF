@@ -282,12 +282,6 @@
     <None Include="Resources\ParagraphFlag.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HDF.Miniblink\HDF.Miniblink.csproj">
-      <Project>{169600c4-03af-4148-95bc-8add79fb5d58}</Project>
-      <Name>HDF.Miniblink</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="WriterEditorControl.png" />
   </ItemGroup>
   <ItemGroup>
