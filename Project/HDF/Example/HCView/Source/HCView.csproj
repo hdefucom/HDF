@@ -172,6 +172,8 @@
     <EmbeddedResource Include="Resources\tool4.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="HCView.cd" />
     <None Include="Resources\tool5.ico" />
   </ItemGroup>
   <ItemGroup>

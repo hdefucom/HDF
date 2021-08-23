@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -67,6 +68,18 @@ namespace GHIS.Ctrl
         [Category("CardList事件")]
         [Description("卡片鼠标悬浮事件")]
         public event Action<Card, EventArgs> CardMouseHover;
+        /// <summary>
+        /// 卡片鼠标按下事件
+        /// </summary>
+        [Category("CardList事件")]
+        [Description("卡片鼠标按下事件")]
+        public event Action<Card, EventArgs> CardMouseDown;
+        /// <summary>
+        /// 卡片鼠标抬起事件
+        /// </summary>
+        [Category("CardList事件")]
+        [Description("卡片鼠标抬起事件")]
+        public event Action<Card, EventArgs> CardMouseUp;
 
         /// <summary>
         /// 卡片绘制事件
@@ -89,6 +102,8 @@ namespace GHIS.Ctrl
         public virtual void OnCardMouseEnter(Card obj, MouseEventArgs e) => CardMouseEnter?.Invoke(obj, e);
         public virtual void OnCardMouseLeave(Card obj, EventArgs e) => CardMouseLeave?.Invoke(obj, e);
         public virtual void OnCardMouseHover(Card obj, EventArgs e) => CardMouseHover?.Invoke(obj, e);
+        public virtual void OnCardMouseDown(Card obj, EventArgs e) => CardMouseDown?.Invoke(obj, e);
+        public virtual void OnCardMouseUp(Card obj, EventArgs e) => CardMouseUp?.Invoke(obj, e);
         public virtual void OnCardPaint(Card obj, PaintEventArgs e) => CardPaint?.Invoke(obj, e);
         public virtual void OnCardCheckedChanged(Card obj) => CardCheckedChanged?.Invoke(obj);
 
@@ -247,7 +262,10 @@ namespace GHIS.Ctrl
 
             foreach (var card in Cards)
             {
-                if (rect.IntersectsWith(card.Bound))
+                var border = card.Bound;
+                //如果不加上边框，则拖动的半透明图片覆盖边框特效是无法重绘
+                border.Inflate(this.CardSelectionBorderWidth, this.CardSelectionBorderWidth);
+                if (rect.IntersectsWith(border))
                 {//如果该card无效，进行画板原点偏移触发重绘，card内部绘制时坐标原点在card相对于CardList的Location位置
 
                     //    //存在内存爆炸问题
@@ -271,11 +289,17 @@ namespace GHIS.Ctrl
                     e.Graphics.SetClip(new Rectangle(Point.Empty, card.Size));//限制卡片绘制区域
                     card.OnPaint(e);
                     e.Graphics.Restore(state);
-
-
-
                 }
             }
+
+            if ((MouseButtons & MouseButtons.Left) == MouseButtons.Left)
+            {
+                var card = Cards.FirstOrDefault(c => c.Checked);
+                if (card == null)
+                    return;
+                card.PaintDrapPreview(e.Graphics);
+            }
+
         }
 
         private void DrawSelectionBorder(Graphics g, RectangleF rect, Color c, float len)
@@ -338,6 +362,7 @@ namespace GHIS.Ctrl
                 {
                     p.Offset(-card.Location.X, -card.Location.Y);
                     card.OnMouseClick(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                    return;
                 }
             }
         }
@@ -355,43 +380,82 @@ namespace GHIS.Ctrl
                 {
                     p.Offset(-card.Location.X, -card.Location.Y);
                     card.OnMouseDoubleClick(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                    return;
                 }
             }
         }
 
+        private Card DragTargetCard;
 
         protected override void OnMouseMove(MouseEventArgs e)
         {
             base.OnMouseMove(e);
 
+            //Debug.WriteLine("Move");
+
             var p = e.Location;
             p.Offset(-this.AutoScrollPosition.X, -this.AutoScrollPosition.Y);
 
+            var isDownLeftButton = (MouseButtons & MouseButtons.Left) == MouseButtons.Left;
+
+            //Debug.WriteLine($"Move{p}");
             foreach (var card in Cards)
             {
                 if (card.Bound.Contains(p))
                 {
-                    p.Offset(-card.Location.X, -card.Location.Y);
-                    if (!card.Checked)
-                        card.OnMouseEnter(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
-                    card.OnMouseMove(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                    if (isDownLeftButton)
+                    {
+                        if (card.Checked)
+                        {
+                            p.Offset(-card.Location.X, -card.Location.Y);
+                            card.OnMouseMove(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                        }
+                        else
+                        {
+                            DragTargetCard = card;
+                        }
+                    }
+                    else
+                    {
+                        p.Offset(-card.Location.X, -card.Location.Y);
+                        if (!card.Checked)
+                            card.OnMouseEnter(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                        card.OnMouseMove(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+
+                    }
+                    return;
                 }
-                else
+                else if (card.Checked)
                 {
-                    if (card.Checked)
+                    if (isDownLeftButton)
+                    {
+                        p.Offset(-card.Location.X, -card.Location.Y);
+                        card.OnMouseMove(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                    }
+                    else
                     {
                         var p2 = p;
                         p2.Offset(-card.Location.X, -card.Location.Y);
                         card.OnMouseLeave(new MouseEventArgs(e.Button, e.Clicks, p2.X, p2.Y, e.Delta));
-                    }
 
+                        //p.Offset(-card.Location.X, -card.Location.Y);
+                        //card.OnMouseLeave(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+
+                    }
+                    return;
                 }
             }
+
+            DragTargetCard = null;
+
         }
 
         protected override void OnMouseLeave(EventArgs e)
         {
             base.OnMouseLeave(e);
+
+            //if ((MouseButtons & MouseButtons.Left) == MouseButtons.Left)
+            //    return;
             foreach (var card in Cards)
             {
                 card.Checked = false;
@@ -404,9 +468,51 @@ namespace GHIS.Ctrl
             foreach (var card in Cards)
             {
                 if (card.Checked)
+                {
                     card.OnMouseHover(e);
+                    return;
+                }
             }
         }
+
+
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            base.OnMouseDown(e);
+
+            var p = e.Location;
+            p.Offset(-this.AutoScrollPosition.X, -this.AutoScrollPosition.Y);
+
+            foreach (var card in Cards)
+            {
+                if (card.Bound.Contains(p))
+                {
+                    p.Offset(-card.Location.X, -card.Location.Y);
+                    card.OnMouseDown(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                    return;
+                }
+            }
+        }
+
+
+        protected override void OnMouseUp(MouseEventArgs e)
+        {
+            base.OnMouseUp(e);
+
+            var p = e.Location;
+            p.Offset(-this.AutoScrollPosition.X, -this.AutoScrollPosition.Y);
+
+            foreach (var card in Cards)
+            {
+                if (card.Bound.Contains(p))
+                {
+                    p.Offset(-card.Location.X, -card.Location.Y);
+                    card.OnMouseUp(new MouseEventArgs(e.Button, e.Clicks, p.X, p.Y, e.Delta));
+                    return;
+                }
+            }
+        }
+
 
 
         /// <summary>
@@ -426,6 +532,9 @@ namespace GHIS.Ctrl
             public object Tag { get; set; }
 
             private bool check;
+            /// <summary>
+            /// 鼠标悬浮的标志，并不是点击选中的标志
+            /// </summary>
             public bool Checked
             {
                 get => check; set
@@ -441,6 +550,9 @@ namespace GHIS.Ctrl
                 }
             }
 
+
+            public Point MouseDownPostion = Point.Empty;
+            private Image PreviewImage = null;
 
             public void OnPaint(PaintEventArgs e)
             {
@@ -470,17 +582,99 @@ namespace GHIS.Ctrl
                 this.Host.OnCardMouseDoubleClick(this, e);
             }
 
+            public Rectangle OldInvalidateRect;
+
             public void OnMouseMove(MouseEventArgs e)
             {
+                if (!MouseDownPostion.IsEmpty && (MouseButtons & MouseButtons.Left) == MouseButtons.Left)
+                {
+
+                    if (Math.Abs(e.X - MouseDownPostion.X) > 5 || Math.Abs(e.Y - MouseDownPostion.Y) > 5)
+                    {
+                        var p = this.Location;
+                        p.Offset(e.Location);
+                        p.Offset(-MouseDownPostion.X, -MouseDownPostion.Y);
+
+                        var rect = new Rectangle(p.X, p.Y, this.Size.Width, this.Size.Height);
+
+                        //rect.Inflate(Host.CardSelectionBorderWidth, Host.CardSelectionBorderWidth);
+                        rect.Offset(Host.AutoScrollPosition.X, Host.AutoScrollPosition.Y);
+
+                        var newrect = Rectangle.Union(rect, OldInvalidateRect);
+
+                        OldInvalidateRect = rect;
+
+                        Host.Invalidate(newrect);
+
+                        //Host.DoDragDrop(this, DragDropEffects.All);//性能问题弃用
+                    }
+                }
                 this.Host.OnCardMouseMove(this, e);
             }
+
+            public void PaintDrapPreview(Graphics g)
+            {
+                if (PreviewImage == null)
+                {
+                    var img = new Bitmap(this.Size.Width, this.Size.Height);
+                    var imggrap = Graphics.FromImage(img);
+                    this.OnPaint(new PaintEventArgs(imggrap, new Rectangle(Point.Empty, img.Size)));
+                    PreviewImage = img;
+
+                }
+                var p = Host.PointToClient(MousePosition);
+                p.Offset(-MouseDownPostion.X, -MouseDownPostion.Y);
+
+
+                var colorAlpha = 0.5f;
+
+                float[][] matrixItems ={
+            new float[] {1, 0, 0, 0, 0},
+            new float[] {0, 1, 0,0 , 0},
+            new float[] {0, 0, 1, 0, 0},
+            new float[] {0, 0, 0, colorAlpha, 0},
+            new float[] {0, 0, 0, 0, 1}};
+                ColorMatrix colorMatrix = new ColorMatrix(matrixItems);
+
+                // Create an ImageAttributes object and set its color matrix.  设置色调整矩阵
+                ImageAttributes imageAtt = new ImageAttributes();
+                imageAtt.SetColorMatrix(
+                    colorMatrix,
+                    ColorMatrixFlag.Default,
+                    ColorAdjustType.Bitmap);
+
+
+                g.DrawImage(
+       PreviewImage,
+       new Rectangle(p.X, p.Y, PreviewImage.Width, PreviewImage.Height),
+       0, 0, PreviewImage.Width, PreviewImage.Height,
+       GraphicsUnit.Pixel,
+       imageAtt);
+
+            }
+
+
+
+
+
+
+
             public void OnMouseEnter(MouseEventArgs e)
             {
+                Debug.WriteLine($"Enter-->{Tag}");
                 this.Checked = true;
                 this.Host.OnCardMouseEnter(this, e);
             }
             public void OnMouseLeave(MouseEventArgs e)
             {
+                Debug.WriteLine($"Leave-->{Tag}");
+
+                if (!OldInvalidateRect.IsEmpty)
+                {
+                    Host.Invalidate(OldInvalidateRect);
+                    OldInvalidateRect = Rectangle.Empty;
+                }
+
                 this.Checked = false;
                 this.Host.OnCardMouseLeave(this, e);
             }
@@ -488,6 +682,23 @@ namespace GHIS.Ctrl
             {
                 this.Host.OnCardMouseHover(this, e);
             }
+
+
+
+            public void OnMouseDown(MouseEventArgs e)
+            {
+                Debug.WriteLine($"Down-->{Tag}-->{DateTime.Now.Ticks}");
+                MouseDownPostion = e.Location;
+                this.Host.OnCardMouseDown(this, e);
+            }
+
+            public void OnMouseUp(MouseEventArgs e)
+            {
+                Debug.WriteLine($"Up-->{Tag}-->{DateTime.Now.Ticks}");
+                MouseDownPostion = Point.Empty;
+                this.Host.OnCardMouseUp(this, e);
+            }
+
 
 
 

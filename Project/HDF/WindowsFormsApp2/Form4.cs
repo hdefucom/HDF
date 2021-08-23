@@ -144,7 +144,7 @@ namespace WindowsFormsApp2
         {
             base.OnMouseMove(e);
             Console.WriteLine();
-            Console.WriteLine($"引发MouseMove--{e.Location}");
+            Console.WriteLine($"引发MouseMove--{e.Location}--{e.Button}");
         }
         protected override void OnMouseEnter(EventArgs e)
         {

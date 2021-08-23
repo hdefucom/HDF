@@ -25,14 +25,11 @@ namespace WinFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.Invalidate();
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            //ControlPaint.DrawBorder(e.Graphics, new Rectangle(100, 100, 100, 100), Color.Blue, ButtonBorderStyle.Solid);
-
-
 
 
             if (Checked)
@@ -73,6 +70,11 @@ namespace WinFormsApp2
         private void Form1_Scroll(object sender, ScrollEventArgs e)
         {
 
+        }
+
+        protected override void DefWndProc(ref Message m)
+        {
+            base.DefWndProc(ref m);
         }
 
 
@@ -147,7 +149,7 @@ namespace WinFormsApp2
         {
             foreach (var prop in dto.GetType().GetProperties().Where(p => row.Table.Columns.Contains(p.Name)))
             {
-                row[prop.Name] = prop.GetValue(dto,null);
+                row[prop.Name] = prop.GetValue(dto, null);
             }
         }
 

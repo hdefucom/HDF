@@ -150,30 +150,11 @@ namespace WindowsFormsApp2
         private void gCardListControl1_CardMouseHover(GCardListControl.Card arg1, EventArgs arg2)
         {
 
-            var p = arg1.Location;
-
-            p.Offset(gCardListControl1.Left, gCardListControl1.Top);
-            p.Offset(gCardListControl1.AutoScrollPosition.X, gCardListControl1.AutoScrollPosition.Y);
-
-            p.Offset(arg1.Size.Width, 0);
-
-            if (p.X + panel_info.Width > gCardListControl1.Width)
-            {
-                p = arg1.Location;
-                p.Offset(gCardListControl1.Left, gCardListControl1.Top);
-                p.Offset(gCardListControl1.AutoScrollPosition.X, gCardListControl1.AutoScrollPosition.Y);
-                p.Offset(-panel_info.Width, 0);
-            }
-
-            panel_info.Location = p;
-
-            panel_info.Visible = true;
         }
 
         private void gCardListControl1_CardMouseLeave(GCardListControl.Card arg1, EventArgs arg2)
         {
 
-            panel_info.Visible = false;
         }
     }
 }

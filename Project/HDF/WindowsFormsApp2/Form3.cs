@@ -470,6 +470,72 @@ namespace WindowsFormsApp2
         }
 
 
+
+        private void DrawPeiRect2(Graphics g, RectangleF rect, float top, float bottom, float left, float right)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddBezier(rect.X - left, rect.Y, rect.X - left, rect.Y - top, rect.X, rect.Y - top, rect.X, rect.Y - top);
+            path.AddLine(rect.X, rect.Y - top, rect.Right, rect.Y - top);
+            path.AddBezier(rect.Right, rect.Y - top, rect.Right + right, rect.Y - top, rect.Right + right, rect.Y, rect.Right + right, rect.Y);
+            path.AddLine(rect.Right + right, rect.Y, rect.Right + right, rect.Bottom);
+            path.AddBezier(rect.Right + right, rect.Bottom, rect.Right + right, rect.Bottom + bottom, rect.Right, rect.Bottom + bottom, rect.Right, rect.Bottom + bottom);
+            path.AddLine(rect.Right, rect.Bottom + bottom, rect.X, rect.Bottom + bottom);
+            path.AddBezier(rect.X, rect.Bottom + bottom, rect.X - left, rect.Bottom + bottom, rect.X - left, rect.Bottom, rect.X - left, rect.Bottom);
+            path.AddLine(rect.X - left, rect.Bottom, rect.X - left, rect.Y);
+
+            //生成一个圆角矩形渐变画刷
+            PathGradientBrush pb = new PathGradientBrush(path);
+
+            var c = Color.Green;
+
+            //无须手动运算ARGB的A通道值，使用
+            //for (int i = 0; i < this.Width; i += 1)
+            //{
+            //    g.FillRectangle(new SolidBrush(c), new RectangleF(i, 100, 1, 100));
+            //    if (c.A > 1)
+            //        c = Color.FromArgb(c.A - 1, c);
+            //}
+
+            //从外到内渐变颜色
+            //Color[] colors =
+            //{
+            //   Color.Transparent,
+            //   //Color.Gainsboro,
+            //   Color.Silver,
+            //   Color.Gray,
+            //}; 
+            Color[] colors =
+            {
+               Color.Transparent,
+               //Color.Gainsboro,
+               //Color.Green,
+              Color.Silver,
+               Color.Black,
+            };
+
+            //从内到外渐变位置百分比
+            float[] relativePositions =
+            {
+               0f,
+               //0.03f,
+               0.1f,
+               1f,
+            };
+
+            ColorBlend colorBlend = new ColorBlend();
+            colorBlend.Colors = colors;
+            colorBlend.Positions = relativePositions;
+
+            pb.InterpolationColors = colorBlend;
+
+            //去圆角毛刺
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.FillPath(pb, path);
+            g.FillRectangle(Brushes.White, rect);
+        }
+
+
+
     }
 
 

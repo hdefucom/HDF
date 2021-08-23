@@ -29,10 +29,10 @@ namespace WindowsFormsApp2
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.toolTip1 = new System.Windows.Forms.ToolTip();
-            this.panel_info = new System.Windows.Forms.Panel();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.gCardListControl1 = new GHIS.Ctrl.GCardListControl();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -56,15 +56,6 @@ namespace WindowsFormsApp2
             this.panel1.Size = new System.Drawing.Size(800, 47);
             this.panel1.TabIndex = 2;
             // 
-            // panel_info
-            // 
-            this.panel_info.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel_info.Location = new System.Drawing.Point(395, 58);
-            this.panel_info.Name = "panel_info";
-            this.panel_info.Size = new System.Drawing.Size(160, 158);
-            this.panel_info.TabIndex = 0;
-            this.panel_info.Visible = false;
-            // 
             // gCardListControl1
             // 
             this.gCardListControl1.CardSelectionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(130)))), ((int)(((byte)(180)))));
@@ -84,7 +75,6 @@ namespace WindowsFormsApp2
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel_info);
             this.Controls.Add(this.gCardListControl1);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.SteelBlue;
@@ -103,6 +93,5 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Panel panel1;
         private GHIS.Ctrl.GCardListControl gCardListControl1;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Panel panel_info;
     }
 }
