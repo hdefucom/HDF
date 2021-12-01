@@ -1,0 +1,101 @@
+<emrtextdoc version="1.0" checkcount="0" senior="">
+  <underwritemarks />
+  <savelogs>
+    <savelog name="高鹏志" time="2013-01-15 11:09:24" level="2" />
+    <savelog name="高鹏志" time="2013-01-17 09:04:17" level="2" />
+    <savelog name="甘凤君" time="2013-01-21 09:54:08" level="2" />
+  </savelogs>
+  <headstring>&lt;a&gt;&lt;text fontname="仿宋_GB2312" fontsize="12" bold="bold" center="center"&gt;吉林省九台市人民医院&lt;/text&gt;
+&lt;text fontname="仿宋_GB2312" fontsize="18" bold="bold" center="center"&gt;&lt;/text&gt;
+&lt;text fontname="仿宋_GB2312" fontsize="12" center="center"&gt;姓名：杜成珍     住院号：235975     科室：神经内科1血液科     床号：1   &lt;/text&gt;
+&lt;line thick="5" &gt;&lt;/line&gt;
+&lt;/a&gt;</headstring>
+  <headheight>259</headheight>
+  <footerstring>&lt;a&gt;&lt;line thick="2"&gt;&lt;/line&gt;&lt;text fontname="宋体_GB2312" fontsize="10" center="center" &gt;第[%pageindex%]页&lt;/text&gt;&lt;/a&gt;</footerstring>
+  <footerheight>177</footerheight>
+  <docsetting id="p563" title="知识库.标准住院病历模板.出院记录.出院记录" modifytime="20130121095408" version="1.0" pagesize="A4" ParagraphSpacing="35" />
+  <script runpwd="" editpwd=""><![CDATA[]]></script>
+  <text>出 院 记 录
+                                                              住院号：
+姓名：杜成珍   性别：女    年龄：72岁 职业：其他    科别：
+入院时间：           年     月     日     时      分
+出院时间：           年     月     日     时      分
+入院情况：
+
+
+入院诊断：
+
+诊疗经过：
+
+出院诊断：
+出院情况：
+出院医嘱：
+
+住院医师签字：                                  主治医师签字：
+
+</text>
+  <body id="C568C49413">
+    <text>出 院 记 录
+                                                              住院号：[住院号]
+姓名：杜成珍   性别：女    年龄：72岁 职业：其他    科别：
+入院时间：           年     月     日     时      分
+出院时间：           年     月     日     时      分
+入院情况：
+
+
+入院诊断：
+
+诊疗经过：
+
+出院诊断：
+出院情况：
+出院医嘱：
+
+住院医师签字：                                  主治医师签字：
+
+</text>
+    <span fontname="Microsoft Sans Serif" fontsize="20" fontbold="1">出 院 记 录</span>
+    <p align="2" />
+    <span fontname="Microsoft Sans Serif" fontsize="20" fontbold="1">                                                   </span>
+    <span fontname="Microsoft Sans Serif" fontbold="1">          </span>
+    <span fontname="Microsoft Sans Serif"> 住院号：</span>
+    <select name="住院号" listsource="y0001000020900000018" id="kby0001000020900000018" text="" value="#zyh#" />
+    <p />
+    <span fontname="Microsoft Sans Serif">姓名：</span>
+    <select name="姓名" listsource="y0001000020900000002" id="kby0001000020900000002" text="杜成珍" value="#xm#" />
+    <span fontname="Microsoft Sans Serif">   性别：</span>
+    <select name="性别" listsource="y0001000020900000004" id="kby0001000020900000004" text="女" value="#xb#" />
+    <span fontname="Microsoft Sans Serif">    年龄：</span>
+    <select name="年龄" listsource="y0001000020900000003" id="kby0001000020900000003" text="72岁" value="#nl#" />
+    <span fontname="Microsoft Sans Serif"> 职业：</span>
+    <select name="职业" listsource="y0001000020900000008" id="kby0001000020900000008" text="其他" value="#zy#" />
+    <span fontname="Microsoft Sans Serif">    科别：</span>
+    <input id="科别" name="科别">
+    </input>
+    <p />
+    <span fontname="Microsoft Sans Serif">入院时间：           年     月     日     时      分</span>
+    <p />
+    <span fontname="Microsoft Sans Serif">出院时间：           年     月     日     时      分</span>
+    <p />
+    <span fontname="Microsoft Sans Serif">入院情况：</span>
+    <p />
+    <p />
+    <p />
+    <span fontname="Microsoft Sans Serif">入院诊断：</span>
+    <p />
+    <p />
+    <span fontname="Microsoft Sans Serif">诊疗经过：</span>
+    <p />
+    <p />
+    <span fontname="Microsoft Sans Serif">出院诊断：</span>
+    <p />
+    <span fontname="Microsoft Sans Serif">出院情况：</span>
+    <p />
+    <span fontname="Microsoft Sans Serif">出院医嘱：</span>
+    <p />
+    <p />
+    <span fontname="Microsoft Sans Serif">住院医师签字：                                  主治医师签字：</span>
+    <p />
+    <p />
+  </body>
+</emrtextdoc>

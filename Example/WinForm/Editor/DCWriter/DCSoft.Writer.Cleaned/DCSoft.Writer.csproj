@@ -1,0 +1,2977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{4ED3CDE9-FF3A-4461-9282-D42737D8CFEA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>DCSoft.Writer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualBasic\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient">
+      <HintPath>C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Management\2.0.0.0__b03f5f7f11d50a3a\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.JScript">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.JScript\8.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DCSoft.Barcode\BarcodeStrings.cs" />
+    <Compile Include="DCSoft.Barcode\BarcodeStyle.cs" />
+    <Compile Include="DCSoft.Data.CSV\CSVDataReader.cs" />
+    <Compile Include="DCSoft.Drawing.Design\dlgBorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Drawing.Design\dlgPadding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Drawing.Design\dlgParagraphFormatcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Drawing.Design\dlgParagraphListStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Drawing.Design\SimpleImageValueEditor.cs" />
+    <Compile Include="DCSoft.Drawing\AccountingNumberUnitMode.cs" />
+    <Compile Include="DCSoft.Drawing\CharacterCircleStyles.cs" />
+    <Compile Include="DCSoft.Drawing\ContentLayoutAlign.cs" />
+    <Compile Include="DCSoft.Drawing\ContentStyle.cs" />
+    <Compile Include="DCSoft.Drawing\ContentStyleContainer.cs" />
+    <Compile Include="DCSoft.Drawing\ContentStyleList.cs" />
+    <Compile Include="DCSoft.Drawing\DCContentAlignment.cs" />
+    <Compile Include="DCSoft.Drawing\DCDirection.cs" />
+    <Compile Include="DCSoft.Drawing\DCGraphics.cs" />
+    <Compile Include="DCSoft.Drawing\DCGraphicsLogType.cs" />
+    <Compile Include="DCSoft.Drawing\DefaultFontNameValueAttribute.cs" />
+    <Compile Include="DCSoft.Drawing\dlgRenderVisibility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Drawing\DocumentContentAlignment.cs" />
+    <Compile Include="DCSoft.Drawing\DocumentTerminalTextInfo.cs" />
+    <Compile Include="DCSoft.Drawing\DragPointPositions.cs" />
+    <Compile Include="DCSoft.Drawing\DrawerUtil.cs" />
+    <Compile Include="DCSoft.Drawing\DrawingResources.cs" />
+    <Compile Include="DCSoft.Drawing\DrawingStrings.cs" />
+    <Compile Include="DCSoft.Drawing\DrawStringFormatExt.cs" />
+    <Compile Include="DCSoft.Drawing\FontWidthStyle.cs" />
+    <Compile Include="DCSoft.Drawing\FormButtonStyle.cs" />
+    <Compile Include="DCSoft.Drawing\GraphicsUnitConvert.cs" />
+    <Compile Include="DCSoft.Drawing\GridLineInfo.cs" />
+    <Compile Include="DCSoft.Drawing\IContentStyle.cs" />
+    <Compile Include="DCSoft.Drawing\IContentStyleContainer.cs" />
+    <Compile Include="DCSoft.Drawing\IContentStyleList.cs" />
+    <Compile Include="DCSoft.Drawing\IDocumentTerminalTextInfo.cs" />
+    <Compile Include="DCSoft.Drawing\IGridLineInfo.cs" />
+    <Compile Include="DCSoft.Drawing\IPageBorderBackgroundStyle.cs" />
+    <Compile Include="DCSoft.Drawing\IPointClass.cs" />
+    <Compile Include="DCSoft.Drawing\IRectangleClass.cs" />
+    <Compile Include="DCSoft.Drawing\IWatermarkInfo.cs" />
+    <Compile Include="DCSoft.Drawing\IXFontValue.cs" />
+    <Compile Include="DCSoft.Drawing\IXImageValue.cs" />
+    <Compile Include="DCSoft.Drawing\IXPaddingF.cs" />
+    <Compile Include="DCSoft.Drawing\IXPenStyle.cs" />
+    <Compile Include="DCSoft.Drawing\LengthUnit.cs" />
+    <Compile Include="DCSoft.Drawing\LineSpacingStyle.cs" />
+    <Compile Include="DCSoft.Drawing\PageBorderBackgroundStyle.cs" />
+    <Compile Include="DCSoft.Drawing\PageBorderRangeTypes.cs" />
+    <Compile Include="DCSoft.Drawing\PageContentPartyStyle.cs" />
+    <Compile Include="DCSoft.Drawing\PageTitlePosition.cs" />
+    <Compile Include="DCSoft.Drawing\ParagraphListStyle.cs" />
+    <Compile Include="DCSoft.Drawing\PointClass.cs" />
+    <Compile Include="DCSoft.Drawing\RectangleClass.cs" />
+    <Compile Include="DCSoft.Drawing\RectangleCommon.cs" />
+    <Compile Include="DCSoft.Drawing\RectangleSlantSplitStyle.cs" />
+    <Compile Include="DCSoft.Drawing\RenderVisibility.cs" />
+    <Compile Include="DCSoft.Drawing\ShapeDrawer.cs" />
+    <Compile Include="DCSoft.Drawing\ShapeSymbleStyle.cs" />
+    <Compile Include="DCSoft.Drawing\ShapeTypes.cs" />
+    <Compile Include="DCSoft.Drawing\TextUnderlineStyle.cs" />
+    <Compile Include="DCSoft.Drawing\VerticalAlignStyle.cs" />
+    <Compile Include="DCSoft.Drawing\WatermarkInfo.cs" />
+    <Compile Include="DCSoft.Drawing\WatermarkType.cs" />
+    <Compile Include="DCSoft.Drawing\XBrushStyle.cs" />
+    <Compile Include="DCSoft.Drawing\XBrushStyleConst.cs" />
+    <Compile Include="DCSoft.Drawing\XColorValue.cs" />
+    <Compile Include="DCSoft.Drawing\XFontValue.cs" />
+    <Compile Include="DCSoft.Drawing\XImageValue.cs" />
+    <Compile Include="DCSoft.Drawing\XImageValueTypeConverter.cs" />
+    <Compile Include="DCSoft.Drawing\XPaddingF.cs" />
+    <Compile Include="DCSoft.Drawing\XPenStyle.cs" />
+    <Compile Include="DCSoft.Printing\BoundsSelectionPrintInfo.cs" />
+    <Compile Include="DCSoft.Printing\BoundsSelectionPrintInfoItem.cs" />
+    <Compile Include="DCSoft.Printing\ContentRenderMode.cs" />
+    <Compile Include="DCSoft.Printing\DCDuplexType.cs" />
+    <Compile Include="DCSoft.Printing\DCGridLineInfo.cs" />
+    <Compile Include="DCSoft.Printing\DCGridLineInfoForPageSettingsUIEditor.cs" />
+    <Compile Include="DCSoft.Printing\DCGridLineInfoUIEditor.cs" />
+    <Compile Include="DCSoft.Printing\DCPrintDocumentOptions.cs" />
+    <Compile Include="DCSoft.Printing\DCPrintMode.cs" />
+    <Compile Include="DCSoft.Printing\DCPrintPreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\DCSimplePrintPreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgDCGridLineInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgDCGridLineInfoForPageSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgPageContentBorderStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgPageIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgPageSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgPrintResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgTerminalTextInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgWaitPrintJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\dlgWatermarkInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\DocumentTerminalTextInfoUITypeEditor.cs" />
+    <Compile Include="DCSoft.Printing\ExtPrintSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\frmTestPrintDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\HeaderFooterFlagVisible.cs" />
+    <Compile Include="DCSoft.Printing\IDCGridLineInfo.cs" />
+    <Compile Include="DCSoft.Printing\IDCPrintDocumentOptions.cs" />
+    <Compile Include="DCSoft.Printing\IJumpPrintInfo.cs" />
+    <Compile Include="DCSoft.Printing\IPageDocument.cs" />
+    <Compile Include="DCSoft.Printing\IPrintPage.cs" />
+    <Compile Include="DCSoft.Printing\IPrintPageCollection.cs" />
+    <Compile Include="DCSoft.Printing\IPrintPageResult.cs" />
+    <Compile Include="DCSoft.Printing\IPrintPageResultList.cs" />
+    <Compile Include="DCSoft.Printing\IPrintResult.cs" />
+    <Compile Include="DCSoft.Printing\IXPageSettings.cs" />
+    <Compile Include="DCSoft.Printing\JumpPrintInfo.cs" />
+    <Compile Include="DCSoft.Printing\JumpPrintMode.cs" />
+    <Compile Include="DCSoft.Printing\PageDocumentPaintEventArgs.cs" />
+    <Compile Include="DCSoft.Printing\PageDocumentPaintEventHandler.cs" />
+    <Compile Include="DCSoft.Printing\PageViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Printing\PageViewMode.cs" />
+    <Compile Include="DCSoft.Printing\PrinterStatus.cs" />
+    <Compile Include="DCSoft.Printing\PrintingResources.cs" />
+    <Compile Include="DCSoft.Printing\PrintJob.cs" />
+    <Compile Include="DCSoft.Printing\PrintPage.cs" />
+    <Compile Include="DCSoft.Printing\PrintPageCollection.cs" />
+    <Compile Include="DCSoft.Printing\PrintPageResult.cs" />
+    <Compile Include="DCSoft.Printing\PrintPageResultList.cs" />
+    <Compile Include="DCSoft.Printing\PrintResult.cs" />
+    <Compile Include="DCSoft.Printing\PrintResultStates.cs" />
+    <Compile Include="DCSoft.Printing\WatermarkInfoUITypeEditor.cs" />
+    <Compile Include="DCSoft.Printing\XPageSettings.cs" />
+    <Compile Include="DCSoft.Printing\XPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Script\AssemblySourceStyle.cs" />
+    <Compile Include="DCSoft.Script\CompilerLanguage.cs" />
+    <Compile Include="DCSoft.Script\dlgBrowseGACAssembly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Script\dlgInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Script\dlgScriptError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Script\dlgScriptOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Script\DotNetAssemblyInfo.cs" />
+    <Compile Include="DCSoft.Script\DotNetAssemblyInfoConverter.cs" />
+    <Compile Include="DCSoft.Script\DotNetAssemblyInfoList.cs" />
+    <Compile Include="DCSoft.Script\DynamicCompiler.cs" />
+    <Compile Include="DCSoft.Script\frmFullScriptText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Script\MyStringList.cs" />
+    <Compile Include="DCSoft.Script\ScriptError.cs" />
+    <Compile Include="DCSoft.Script\ScriptErrorList.cs" />
+    <Compile Include="DCSoft.Script\ScriptErrorStyle.cs" />
+    <Compile Include="DCSoft.Script\ScriptStrings.cs" />
+    <Compile Include="DCSoft.Script\XEngingInfo.cs" />
+    <Compile Include="DCSoft.Script\XVBAEngine.cs" />
+    <Compile Include="DCSoft.Script\XVBAOptions.cs" />
+    <Compile Include="DCSoft.Script\XVBAScriptGlobalObject.cs" />
+    <Compile Include="DCSoft.Script\XVBAScriptGlobalObjectList.cs" />
+    <Compile Include="DCSoft.Script\XVBAWindowObject.cs" />
+    <Compile Include="DCSoft.Script\XVBHost.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\LabelEditorControlType.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeContainerElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeContentStyleContainer.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeDocument.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeDocumentImagePage.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeDocumentPage.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeElementList.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeEllipseElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeFileFormat.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeLabelEditEventArgs.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeLineElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeLinesElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeMouseEventArgs.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapePolygonElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeRectangleElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeRenderEventArgs.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeRenderStyle.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeSelection.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeWireLabelElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor.Dom\ShapeZoomInElement.cs" />
+    <Compile Include="DCSoft.ShapeEditor\frmImageShapeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.ShapeEditor\ResourceStrings.cs" />
+    <Compile Include="DCSoft.ShapeEditor\ShapeDocumentOptions.cs" />
+    <Compile Include="DCSoft.ShapeEditor\ShapeDocumentViewOptions.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardContentItem.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardContentItemList.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardContentItemPaintEventArgs.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardImageItem.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardImageListKeyItem.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewConfig.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewDragEventArgs.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewDragEventHandler.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewEventArgs.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewEventHandler.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewItem.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewItemCollection.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewMouseEventArgs.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewMouseEventHandler.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewMouseEventHandlerForCom.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewPaintItemEventArgs.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardListViewPaintItemEventHandler.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardRectangleItem.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCCardStringItem.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCColorPlateResource.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\DCMenuHelper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms.Controls\dlgDCColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms.Controls\IDCCardListViewEventArgs.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\IDCCardListViewItem.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\IDCCardListViewItemCollection.cs" />
+    <Compile Include="DCSoft.WinForms.Controls\IDCCardListViewMouseEventArgs.cs" />
+    <Compile Include="DCSoft.WinForms.Native\AnimatedDrawStyle.cs" />
+    <Compile Include="DCSoft.WinForms.Native\AnimatedRectDrawer.cs" />
+    <Compile Include="DCSoft.WinForms.Native\dlgInputUrl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms.Native\FileExtensionInfo.cs" />
+    <Compile Include="DCSoft.WinForms.Native\MouseCapturer.cs" />
+    <Compile Include="DCSoft.WinForms.Native\Msgs.cs" />
+    <Compile Include="DCSoft.WinForms.Native\RectangleMouseCapturer.cs" />
+    <Compile Include="DCSoft.WinForms.Native\ShellLinkHelper.cs" />
+    <Compile Include="DCSoft.WinForms.Native\SHStockIcons.cs" />
+    <Compile Include="DCSoft.WinForms\BorderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\BrowseTypeTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\CalculateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\CheckStringHandler.cs" />
+    <Compile Include="DCSoft.WinForms\ClientFormInfo.cs" />
+    <Compile Include="DCSoft.WinForms\ClientProcessModuleInfo.cs" />
+    <Compile Include="DCSoft.WinForms\ClientReportInfo.cs" />
+    <Compile Include="DCSoft.WinForms\DCFileDirectoryEnumerable.cs" />
+    <Compile Include="DCSoft.WinForms\DCFileDirectoryEnumerator.cs" />
+    <Compile Include="DCSoft.WinForms\DCUITools.cs" />
+    <Compile Include="DCSoft.WinForms\DCWinMessageFilterList.cs" />
+    <Compile Include="DCSoft.WinForms\dlgBrowseImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgBrowseTypeTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgBrowseWindowHandle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgBrowseXmlNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgImageResize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgListItems2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgMultiLines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgPrepareScreenSnapshot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgScreenSnapshot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\dlgTreeString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\DocumentViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\frmConfigXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\frmScreenSnapshot2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\frmViewXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.WinForms\MessageBoxShower.cs" />
+    <Compile Include="DCSoft.WinForms\MultiColumTextDrawer.cs" />
+    <Compile Include="DCSoft.WinForms\RecentFileNameList.cs" />
+    <Compile Include="DCSoft.WinForms\ResizeableType.cs" />
+    <Compile Include="DCSoft.WinForms\ScrollToViewStyle.cs" />
+    <Compile Include="DCSoft.WinForms\SystemDebugInfo.cs" />
+    <Compile Include="DCSoft.WinForms\SystemDebugKeyValueItem.cs" />
+    <Compile Include="DCSoft.WinForms\SystemDebugKeyValueList.cs" />
+    <Compile Include="DCSoft.WinForms\SystemExecuteFileInfo.cs" />
+    <Compile Include="DCSoft.WinForms\SystemHardwareInfo.cs" />
+    <Compile Include="DCSoft.WinForms\SystemProcessInfo.cs" />
+    <Compile Include="DCSoft.WinForms\SystemProcessModuleInfo.cs" />
+    <Compile Include="DCSoft.WinForms\SystemSoftwareInfo.cs" />
+    <Compile Include="DCSoft.WinForms\TreeViewJumper.cs" />
+    <Compile Include="DCSoft.WinForms\VImageListBox.cs" />
+    <Compile Include="DCSoft.WinForms\WindowStatusInfo.cs" />
+    <Compile Include="DCSoft.WinForms\WinFormsResources.cs" />
+    <Compile Include="DCSoft.WinForms\WinFormTreeNodeEnumerable.cs" />
+    <Compile Include="DCSoft.WinForms\WinFormUtils.cs" />
+    <Compile Include="DCSoft.WinForms\WinFormXMLHelper.cs" />
+    <Compile Include="DCSoft.Writer.Commands.Design\dlgCommandNameEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands.Design\WriterCommandNameDlgEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands.Design\WriterCommandSimpleInfo.cs" />
+    <Compile Include="DCSoft.Writer.Commands\BorderBackgroundCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\BorderSettingsStyle.cs" />
+    <Compile Include="DCSoft.Writer.Commands\dlgAccountintNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgAdornTextSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgBarcodeElementEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgBrowseControlType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgBrowseElements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgBrowseInputLanguage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgBrowseKBEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgButtonElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgCharacterCircle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgCheckBoxElementEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgCommandList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgContentGridLineType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgContentLinkEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgContentProtectedMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgControlHostEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgConvertTableElementToDataTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgCopySourceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgCustomShapeElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgDocmentGridLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgDocumentBorderBackground.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgDocumentContentStyles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgDocumentOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgDocumentParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgElementExpression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgEventBindingVBScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgFileContentSource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgGlobalDebugConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgHorizontalLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgImageElementEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgImagePartitionEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgImagePartitionInfoEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInputFieldEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInputFieldSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInputFieldUnderLineInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInputRTF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInputString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInputUrl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInsertCheckBoxes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInsertDirectoryField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInsertTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgInstanceProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgLabelElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgLayoutDirection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgLetterSpacing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgMotherTemplateInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgNewBarcodeElementEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgObjectProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgPageBorderRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgPageInfoType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgPromptDeleteCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgPropertyExpressionInfoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgResourceStrings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgRulerElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgRulerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgSectionElementEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgSpecifyPageIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgSpecifyPaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgSplitCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgStringList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgTDBarCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgTitleLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgVBScriptEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgWordCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgXDataBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\dlgXTextFileBlockElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\ElementPropertiesCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\FileOpenCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\FilePrintCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\FilePrintPreviewCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\FileSaveCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\frmGenerateCreateInstanceCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\frmPreviewHtml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\frmPrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\frmSystemLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\HeaderFormatCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\HostComponentTypeInfoLoader.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IBorderBackgroundCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IFileOpenCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IFilePrintCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IFileSaveCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IHeaderFormatCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IInsertDocumentCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IInsertStringCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IMegeCellCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\InjectCommandHandlerInfo.cs" />
+    <Compile Include="DCSoft.Writer.Commands\InjectCommandHandlerList.cs" />
+    <Compile Include="DCSoft.Writer.Commands\InputFieldUnderLineCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\InsertDocumentCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\InsertRTFCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\InsertStringCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IParagraphFormatCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\ISearchReplaceCommandArgs.cs" />
+    <Compile Include="DCSoft.Writer.Commands\ISplitCellExtCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\ITableCommandArgs.cs" />
+    <Compile Include="DCSoft.Writer.Commands\IWriterCommandEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Commands\MegeCellCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\ParagraphFormatCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\PrintPreviewZoomRate.cs" />
+    <Compile Include="DCSoft.Writer.Commands\PropertyExpressionInfoListUITypeEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\SearchReplaceCommandArgs.cs" />
+    <Compile Include="DCSoft.Writer.Commands\SplitCellExtCommandParameter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\StyleApplyRanges.cs" />
+    <Compile Include="DCSoft.Writer.Commands\TableCommandArgs.cs" />
+    <Compile Include="DCSoft.Writer.Commands\UIStateRefreshLevel.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterActionModuleList.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommand.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandContainer.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandDelegate.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandDescriptionAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandEventMode.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandExecuter.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandExecuterBase.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandList.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModule.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleBrowse.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleCore.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleData.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleEdit.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleFile.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleFormat.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleInsert.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleSecurity.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleTable.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandModuleTools.cs" />
+    <Compile Include="DCSoft.Writer.Commands\WriterCommandState.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextAccountingNumberElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextBarcodeFieldElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextButtonElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextCheckBoxElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextContentLinkElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextControlHostElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextFileBlockElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextHorizontalLineElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextImageElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextInputFieldElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextInputFieldElementProperties.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextLabelElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextNewBarcodeElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextRadioBoxElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextRulerElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextSectionElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextTableElementProperties.cs" />
+    <Compile Include="DCSoft.Writer.Commands\XTextTDBarcodeFieldElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\AxDCCardListViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\AxFriedmanCurveControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\AxTemperatureControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\AxWriterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\AxWriterControlForPB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\AxWriterPrintPreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\ClipboardProvider.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CollectProtectedElementsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CollectProtectedElementsEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CommandErrorEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CommandErrorEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ComponentTypeBrowseTypes.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ComponentTypeControler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ComVoidHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ContextMenuStripManager.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ControlHostManager.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CreateInstanceEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CreateInstanceEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CustomCommandEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\CustomCommandEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\DateSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\DateTimeSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\DCLicenceDisplayMode.cs" />
+    <Compile Include="DCSoft.Writer.Controls\DCOptionMode.cs" />
+    <Compile Include="DCSoft.Writer.Controls\DCTestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\DeveloperToolsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgAxWriterControlDock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgBrowseControlType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgCrosssPrecessHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgDocumentComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgErrorViewSource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgInsertParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgPromptProtectedContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgRequireNET20SP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\dlgWriterDataFormats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\DocumentViewState.cs" />
+    <Compile Include="DCSoft.Writer.Controls\DOMTreeManager.cs" />
+    <Compile Include="DCSoft.Writer.Controls\DragOperationState.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ElementValueEditContext.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ElementValueEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ElementValueEditorEditStyle.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ElementValueEditResult.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ErrorReporter.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ErrorReportInfo.cs" />
+    <Compile Include="DCSoft.Writer.Controls\FormatListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\FormatListItemsEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\FormViewMode.cs" />
+    <Compile Include="DCSoft.Writer.Controls\frmAssistStringList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\FunctionControlVisibility.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAutoSaveManager.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxDCCardListViewControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxDCCardListViewControlComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxFriedmanCurveControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxFriedmanCurveControlComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxTemperatureControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxTemperatureControlComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxWriterControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxWriterControlComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxWriterControlForPB.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxWriterControlForPBComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxWriterPrintPreviewControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IAxWriterPrintPreviewControlComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ICollectProtectedElementsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ICommandErrorEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IContextMenuStripManager.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ICreateInstanceEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ICustomCommandEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IDCTestControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IDCTestControlComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IFormatListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IInputFieldElementEditorControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IInstanceFactoryForCOM.cs" />
+    <Compile Include="DCSoft.Writer.Controls\InputFieldElementEditorEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\InstanceFactoryForCOM.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IObjectSafety.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IParseSelectedItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IPromptProtectedContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IQueryKBEntriesEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IQueryListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IStatusTextChangedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IWriterControlEventMessage.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IWriterControlWebService.cs" />
+    <Compile Include="DCSoft.Writer.Controls\IWriterControlWebServiceProtocol.cs" />
+    <Compile Include="DCSoft.Writer.Controls\KBTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\KBTreeViewController.cs" />
+    <Compile Include="DCSoft.Writer.Controls\LocalAutoSaveManager.cs" />
+    <Compile Include="DCSoft.Writer.Controls\MediaPlayerControler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\NavigateTreeViewControler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ParseSelectedItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\ParseSelectedItemsEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\PlayerStatusChangedEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\PlayStatus.cs" />
+    <Compile Include="DCSoft.Writer.Controls\PromptProtectedContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\PromptProtectedContentEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\QueryKBEntriesEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\QueryKBEntriesEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\QueryListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\QueryListItemsEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\SetTrackBarPositionDel.cs" />
+    <Compile Include="DCSoft.Writer.Controls\StatusTextChangedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Controls\StatusTextChangedEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\TextPageViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\TextWindowsFormsEditorHost.cs" />
+    <Compile Include="DCSoft.Writer.Controls\TimeSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\ToolTipContentType.cs" />
+    <Compile Include="DCSoft.Writer.Controls\TrackListBoxControler.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WebServiceServerType.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WebWriterControl.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WebWriterControlBuilder.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WebWriterControlDesigner.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WebWriterControlLoadDocumentOptions.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WebWriterControlRenderMode.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterCalculateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\WriterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\WriterControlEventMessage.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlEventMessageType.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlEventTemplate.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlExt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\WriterControlExtViewMode.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlOptions.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlState.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlWebMethodTypes.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlWebServiceProtocol.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlWebServiceProtocolForJava.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterControlWebServiceProtocolForJavaListItem.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterDataFormatsUIEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterDataObjectRange.cs" />
+    <Compile Include="DCSoft.Writer.Controls\WriterPrintPreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\WriterViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Controls\XTextInputFieldElementCustomEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\XTextInputFieldElementDateTimeValueEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\XTextInputFieldElementDateTimeWithoutSectionValueEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\XTextInputFieldElementDateValueEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\XTextInputFieldElementListValueEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\XTextInputFieldElementNumericValueEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\XTextInputFieldElementTimeValueEditor.cs" />
+    <Compile Include="DCSoft.Writer.Controls\XTreeListBoxEditControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Data\CreateElementsByKBEntryEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\CreateElementsByKBEntryEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Data\CurrentDepartmentInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\CurrentUserInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataBindingPathEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataBindingPathProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataFeedbackInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataFeedbackInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataSourceTreeDocument.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataSourceTreeNode.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataSourceTreeNodeList.cs" />
+    <Compile Include="DCSoft.Writer.Data\DataSourceTreeNodeType.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCListItemCollectionBuffer.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodCommandTextAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodEngine.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodIgnoreAttriubte.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodParameterAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodParameterInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodParameterType.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodReturnPropertyAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodReturnPropertyInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodServiceAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Data\DCSQLMethodType.cs" />
+    <Compile Include="DCSoft.Writer.Data\DefaultDateTimeService.cs" />
+    <Compile Include="DCSoft.Writer.Data\DefaultFileSystem.cs" />
+    <Compile Include="DCSoft.Writer.Data\DefaultKBProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\dlgListItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Data\dlgListSourceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Data\dlgOldEMRTemplateBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Data\DocumentParameter.cs" />
+    <Compile Include="DCSoft.Writer.Data\DocumentParameterCollection.cs" />
+    <Compile Include="DCSoft.Writer.Data\DocumentParameterValueType.cs" />
+    <Compile Include="DCSoft.Writer.Data\EntryOwnerLevel.cs" />
+    <Compile Include="DCSoft.Writer.Data\FileSystemDictionary.cs" />
+    <Compile Include="DCSoft.Writer.Data\GetLinkListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\GetLinkListItemsEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Data\ICreateElementsByKBEntryEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\ICurrentDepartmentInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\ICurrentUserInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\IDateTimeService.cs" />
+    <Compile Include="DCSoft.Writer.Data\IDCCustomRecordForSQLMethod.cs" />
+    <Compile Include="DCSoft.Writer.Data\IDCNLPProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\IDocumentParameterProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\IFileSystem.cs" />
+    <Compile Include="DCSoft.Writer.Data\IGetLinkListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\IKBEntry.cs" />
+    <Compile Include="DCSoft.Writer.Data\IKBEntryList.cs" />
+    <Compile Include="DCSoft.Writer.Data\IKBEntryLoadTemplateContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\IKBLibrary.cs" />
+    <Compile Include="DCSoft.Writer.Data\IKBProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\ILinkListBindingInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\ILinkListProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\ILinkListProviderList.cs" />
+    <Compile Include="DCSoft.Writer.Data\IListItem.cs" />
+    <Compile Include="DCSoft.Writer.Data\IListItemCollection.cs" />
+    <Compile Include="DCSoft.Writer.Data\IListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\IListItemsProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\IListSourceEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\IListSourceInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\IListSourceProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\IXDataBinding.cs" />
+    <Compile Include="DCSoft.Writer.Data\IXMLLinkListProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\KBEntry.cs" />
+    <Compile Include="DCSoft.Writer.Data\KBEntryList.cs" />
+    <Compile Include="DCSoft.Writer.Data\KBEntryLoadTemplateContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\KBEntryLoadTemplateContentEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Data\KBEntryStyle.cs" />
+    <Compile Include="DCSoft.Writer.Data\KBLibrary.cs" />
+    <Compile Include="DCSoft.Writer.Data\KBTemplateDocument.cs" />
+    <Compile Include="DCSoft.Writer.Data\LinkListBindingInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\LinkListProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\LinkListProviderList.cs" />
+    <Compile Include="DCSoft.Writer.Data\ListItem.cs" />
+    <Compile Include="DCSoft.Writer.Data\ListItemCollection.cs" />
+    <Compile Include="DCSoft.Writer.Data\ListItemCollectionEditor.cs" />
+    <Compile Include="DCSoft.Writer.Data\ListItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\ListSourceEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\ListSourceInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\ListSourceInfoEditor.cs" />
+    <Compile Include="DCSoft.Writer.Data\NLPTerm.cs" />
+    <Compile Include="DCSoft.Writer.Data\OldEMRTemplateFileSystem.cs" />
+    <Compile Include="DCSoft.Writer.Data\QueryRootDataSourceEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\QueryRootDataSourceEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Data\VFileInfo.cs" />
+    <Compile Include="DCSoft.Writer.Data\VFileSystemEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Data\ViewStateBag.cs" />
+    <Compile Include="DCSoft.Writer.Data\WriterServiceContainer.cs" />
+    <Compile Include="DCSoft.Writer.Data\XDataBinding.cs" />
+    <Compile Include="DCSoft.Writer.Data\XDataBindingProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\XMLLinkListProvider.cs" />
+    <Compile Include="DCSoft.Writer.Data\XMLViewStateBag.cs" />
+    <Compile Include="DCSoft.Writer.Data\XMLViewStateBagItem.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Design\dlgAttributes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Dom.Design\dlgElementTypeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Dom.Design\dlgValueEditorActiveMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Dom.Design\ElementTypeEditor.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Design\ValueEditorActiveModeEditor.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Design\XAttributeListEditor.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\UndoMethodTypes.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextDocumentUndoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoBase.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoCellSpan.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoCharValue.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoElementVisible.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoHeaderRow.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoInvalidateElements.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoInvokeMethod.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoModifyArrayItem.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoNameProperty.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoProperty.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoReplaceElements.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoSetDefaultFont.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoSetDocumentProperty.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoSetElementStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoSetStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoStyleIndex.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoTableColumnWidth.cs" />
+    <Compile Include="DCSoft.Writer.Dom.Undo\XTextUndoTableInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\BorderElementPosition.cs" />
+    <Compile Include="DCSoft.Writer.Dom\CanInsertElementEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\CheckBoxControlStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\CheckBoxVisualStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ContainerAutoHideMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ContentAutoFixFontSizeMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ContentProtectedInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ContentProtectedReason.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ContentRangeMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ContentReferenceState.cs" />
+    <Compile Include="DCSoft.Writer.Dom\CopySourceExecuteInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\CopySourceInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\CurrentContentStyleInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DataSourceBindingDescription.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DataSourceBindingDescriptionList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DCBarcodeStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DCBorderTextPosition.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DCContentLockInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DCElementIDForEditableDependentExecuter.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DCTBErroeCorrectionLevelType.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DCTDBarcodeType.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DetectResultForValueBindingModified.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DetectResultForValueBindingModifiedList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentComment.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentCommentList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentContentStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentContentStyleContainer.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentControler.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentControlerSnapshot.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentEventHandelr.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentEventStyles.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentHostElementEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentImageFlags.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentOutlineNode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentOutlineNodeList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentPaintEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentPaintEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentRenderMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DocumentStates.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DomAccessFlags.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DomReadyStates.cs" />
+    <Compile Include="DCSoft.Writer.Dom\DomTreeNodeEnumerable.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ElementEnumerateEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ElementEnumerateEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ElementPositionStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ElementRenderResult.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ElementStateDetectEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ElementType.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ElementZOrderStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\FileContentSource.cs" />
+    <Compile Include="DCSoft.Writer.Dom\FixIndexDirection.cs" />
+    <Compile Include="DCSoft.Writer.Dom\HighlightActiveStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\HighlightInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\HighlightInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\HostedControlType.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ICanInsertElementEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IContentReadonlyable.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ICopySourceInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ICurrentContentStyleInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDataSourceBindingDescription.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDataSourceBindingDescriptionList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDCContentLockInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDCElementIDForEditableDependentExecuter.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDCTableRowComparer.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDeleteable.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDetectResultForValueBindingModified.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDetectResultForValueBindingModifiedList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentComment.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentCommentList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentContentStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentContentStyleContainer.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentHostedObject.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentImage.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentOutlineNode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IDocumentOutlineNodeList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IFileContentSource.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IInputFieldSettings.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ILocalConfig.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IMemberPropertyExpressions.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IMotherTemplateInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\InputFieldAdornTextType.cs" />
+    <Compile Include="DCSoft.Writer.Dom\InputFieldEditStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\InputFieldListItem.cs" />
+    <Compile Include="DCSoft.Writer.Dom\InputFieldListItemList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\InputFieldSettings.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPageContentVersionInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPageContentVersionInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPageImageInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPageImageInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPageLabelText.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPageLabelTextList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPropertyExpressionInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IPropertyExpressionInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ISelectionChangingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ISetContainerTextArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ISpecifyPageIndexInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ISpecifyPageIndexInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ISubDocumentSettings.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IUpdateDataBindingExt.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IValueValidateResult.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IValueValidateResultList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IWordCountResult.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXAttributeList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextAccountingNumberElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextBarcodeFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextButtonElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextCharElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextCheckBoxElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextContainerElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextContent.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextContentLinkFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextControlHostElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextCustomShapeElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDirectoryFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocument.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocumentBodyElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocumentComEvents.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocumentFooterElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocumentFooterForFirstPageElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocumentHeaderElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocumentHeaderForFirstPageElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextDocumentList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextElementList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextFieldBorderElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextFileBlockElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextFriedmanCurveChartElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextHorizontalLineElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextImageElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextInputFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextLabelElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextLine.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextLineBreakElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextLineList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextMediaElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextNewMedicalExpressionElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextPageBreakElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextPageInfoElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextParagraphFlagElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextRadioBoxElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextRulerElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextSectionElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextSelection.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextSignElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextSubDocumentElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextTableCellElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextTableColumnElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextTableElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextTableRowElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextTDBarcodeElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\IXTextTemperatureChartElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\LabelTextContactActionMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\LinkClickEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\LinkClickEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Dom\LocalConfig.cs" />
+    <Compile Include="DCSoft.Writer.Dom\MotherTemplateInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ObjectHostMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ObjectParameter.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ObjectParameterList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PageContentVersionInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PageContentVersionInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PageImageInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PageImageInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PageInfoValueType.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PageLabelText.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PageLabelTextList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ParameterValueUpdateMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PrintVisibilityModeWhenUnchecked.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PropertyExpressionInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\PropertyExpressionInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ReadHTMLEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\RepeatedImageValue.cs" />
+    <Compile Include="DCSoft.Writer.Dom\RepeatedImageValueList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ResetDomStateMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\RuleScaleItem.cs" />
+    <Compile Include="DCSoft.Writer.Dom\RuleScaleItemList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\RuntimeDocumentContentStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ScaleProperty.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ScalePropertyList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\SelectionChangingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\SelectionChangingEventHandler.cs" />
+    <Compile Include="DCSoft.Writer.Dom\SetContainerTextArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\SimpleRectangleTransform.cs" />
+    <Compile Include="DCSoft.Writer.Dom\SpecifyPageIndexInfo.cs" />
+    <Compile Include="DCSoft.Writer.Dom\SpecifyPageIndexInfoList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\SubDocumentSettings.cs" />
+    <Compile Include="DCSoft.Writer.Dom\TableRowCloneType.cs" />
+    <Compile Include="DCSoft.Writer.Dom\TableSubfieldMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\TextScriptStyle.cs" />
+    <Compile Include="DCSoft.Writer.Dom\UpdateDataBindingArgs.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ValueValidateResult.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ValueValidateResultList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\ValueValidateResultTypes.cs" />
+    <Compile Include="DCSoft.Writer.Dom\WindowsMediaPlayerUIMode.cs" />
+    <Compile Include="DCSoft.Writer.Dom\WordCountResult.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XAttribute.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XAttributeList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XImagePartition.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextAccountingNumberElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextBarcodeFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextBeanFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextBlankLineElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextBlockElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextBookmark.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextButtonElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextCharElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextCheckBoxElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextCheckBoxElementBase.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextContainerElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextContent.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextContentElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextContentLinkFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextControlHostElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextCustomShapeElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDirectoryFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocument.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentBodyElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentContentElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentFooterElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentFooterForFirstPageElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentHeaderElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentHeaderForFirstPageElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextDocumentList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextElementList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextEOFElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextExpressionFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextFieldBorderElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextFieldElementBase.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextFileBlockElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextFriedmanCurveChartElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextHorizontalLineElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextImageElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextInputFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextInputFieldElementBase.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextLabelElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextLabelElementBase.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextLine.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextLineBreakElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextLineList.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextMediaElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextNewBarcodeElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextNewMedicalExpressionElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextNewMedicalExpressionElementEditor.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextObjectElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextPageBreakElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextPageInfoElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextParagraphElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextParagraphFlagElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextParagraphListItemElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextParameterElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextPartitionImageElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextRadioBoxElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextRange.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextRuleElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextRulerElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextSectionElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextSelection.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextShadowElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextShapeInputFieldElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextSignElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextStringElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextSubDocumentElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextTableCellElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextTableColumnElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextTableElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextTableRowElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextTDBarcodeElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextTemperatureChartElement.cs" />
+    <Compile Include="DCSoft.Writer.Dom\XTextWhiteSpacesElement.cs" />
+    <Compile Include="DCSoft.Writer.Printing\DocumentPrinter.cs" />
+    <Compile Include="DCSoft.Writer.Printing\WriterPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Script\dlgExpressionEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Script\DocumentScriptEngine.cs" />
+    <Compile Include="DCSoft.Writer.Script\DomExpression.cs" />
+    <Compile Include="DCSoft.Writer.Script\DomExpressionList.cs" />
+    <Compile Include="DCSoft.Writer.Script\DomExpressionType.cs" />
+    <Compile Include="DCSoft.Writer.Script\ElementVBScriptEventTemplate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Script\frmScriptEdtior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer.Script\IDocumentScriptEngine.cs" />
+    <Compile Include="DCSoft.Writer.Script\ScriptGlobalObjectContainer.cs" />
+    <Compile Include="DCSoft.Writer.Script\VBScriptItem.cs" />
+    <Compile Include="DCSoft.Writer.Script\VBScriptItemList.cs" />
+    <Compile Include="DCSoft.Writer.Script\WriterWindow.cs" />
+    <Compile Include="DCSoft.Writer\AdornTextManager.cs" />
+    <Compile Include="DCSoft.Writer\AppErrorHandleModeConsts.cs" />
+    <Compile Include="DCSoft.Writer\AppErrorInfo.cs" />
+    <Compile Include="DCSoft.Writer\CanInsertObjectEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\CanInsertObjectEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ContentBuilder.cs" />
+    <Compile Include="DCSoft.Writer\ContentChangedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ContentChangedEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ContentChangedEventSource.cs" />
+    <Compile Include="DCSoft.Writer\ContentChangingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ContentChangingEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ContentEffects.cs" />
+    <Compile Include="DCSoft.Writer\ContentGridLineType.cs" />
+    <Compile Include="DCSoft.Writer\ContentLayoutDirectionStyle.cs" />
+    <Compile Include="DCSoft.Writer\ContentProtectType.cs" />
+    <Compile Include="DCSoft.Writer\ContentReadonlyState.cs" />
+    <Compile Include="DCSoft.Writer\ContentUpdateState.cs" />
+    <Compile Include="DCSoft.Writer\ContentViewEncryptType.cs" />
+    <Compile Include="DCSoft.Writer\ControlHelper.cs" />
+    <Compile Include="DCSoft.Writer\DCAdornTextVisibility.cs" />
+    <Compile Include="DCSoft.Writer\DCBackgroundTextOutputMode.cs" />
+    <Compile Include="DCSoft.Writer\DCBooleanValue.cs" />
+    <Compile Include="DCSoft.Writer\DCBooleanValueHasDefault.cs" />
+    <Compile Include="DCSoft.Writer\DCDefaultValueType.cs" />
+    <Compile Include="DCSoft.Writer\DCFastInputMode.cs" />
+    <Compile Include="DCSoft.Writer\DCImageCompressSaveMode.cs" />
+    <Compile Include="DCSoft.Writer\DCInsertRowDownUseHotKeys.cs" />
+    <Compile Include="DCSoft.Writer\DCPermissionControler.cs" />
+    <Compile Include="DCSoft.Writer\DCProcessStates.cs" />
+    <Compile Include="DCSoft.Writer\DCStdImageKey.cs" />
+    <Compile Include="DCSoft.Writer\DCStdImageList.cs" />
+    <Compile Include="DCSoft.Writer\DCValidateIDRepeatMode.cs" />
+    <Compile Include="DCSoft.Writer\DCVisibleState.cs" />
+    <Compile Include="DCSoft.Writer\DCWriterPublish.cs" />
+    <Compile Include="DCSoft.Writer\DCXmlSerializablePackage.cs" />
+    <Compile Include="DCSoft.Writer\DefaultErrorReporter.cs" />
+    <Compile Include="DCSoft.Writer\DetectRangeResult.cs" />
+    <Compile Include="DCSoft.Writer\DocumentBehaviorOptions.cs" />
+    <Compile Include="DCSoft.Writer\DocumentContentSourceTypes.cs" />
+    <Compile Include="DCSoft.Writer\DocumentConvert.cs" />
+    <Compile Include="DCSoft.Writer\DocumentEditOptions.cs" />
+    <Compile Include="DCSoft.Writer\DocumentNavigator.cs" />
+    <Compile Include="DCSoft.Writer\DocumentOptions.cs" />
+    <Compile Include="DCSoft.Writer\DocumentValueValidateMode.cs" />
+    <Compile Include="DCSoft.Writer\DocumentViewOptions.cs" />
+    <Compile Include="DCSoft.Writer\DocumentWriterControlOptions.cs" />
+    <Compile Include="DCSoft.Writer\ElementCancelEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementCancelEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementEventConsts.cs" />
+    <Compile Include="DCSoft.Writer\ElementEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementEventTemlateMap.cs" />
+    <Compile Include="DCSoft.Writer\ElementEventTemplate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoft.Writer\ElementEventTemplateList.cs" />
+    <Compile Include="DCSoft.Writer\ElementExpressionEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementExpressionEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementKeyEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementKeyEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementLoadEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementLoadEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementMouseEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementMouseEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementPaintEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementPaintEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementPropertiesEditEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementPropertiesEditMethod.cs" />
+    <Compile Include="DCSoft.Writer\ElementPropertiesEditor.cs" />
+    <Compile Include="DCSoft.Writer\ElementPropertiesEditorContainer.cs" />
+    <Compile Include="DCSoft.Writer\ElementQueryStateEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementQueryStateEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementValidatingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ElementValidatingEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ElementValidatingState.cs" />
+    <Compile Include="DCSoft.Writer\ElementVisibility.cs" />
+    <Compile Include="DCSoft.Writer\EnableState.cs" />
+    <Compile Include="DCSoft.Writer\FieldValueDescriptor.cs" />
+    <Compile Include="DCSoft.Writer\FieldValueDescriptorList.cs" />
+    <Compile Include="DCSoft.Writer\FilterValueEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\FilterValueEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\FlagXTextRangeProvider.cs" />
+    <Compile Include="DCSoft.Writer\GlobalDebugConfig.cs" />
+    <Compile Include="DCSoft.Writer\GridLineSettings.cs" />
+    <Compile Include="DCSoft.Writer\HtmlAttributeAttribute.cs" />
+    <Compile Include="DCSoft.Writer\IAppErrorInfo.cs" />
+    <Compile Include="DCSoft.Writer\ICanInsertObjectEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ICaretProvider.cs" />
+    <Compile Include="DCSoft.Writer\IContentBuilder.cs" />
+    <Compile Include="DCSoft.Writer\IContentChangedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IContentChangingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IDCStdImageList.cs" />
+    <Compile Include="DCSoft.Writer\IDCWriterPublish.cs" />
+    <Compile Include="DCSoft.Writer\IDocumentBehaviorOptions.cs" />
+    <Compile Include="DCSoft.Writer\IDocumentEditOptions.cs" />
+    <Compile Include="DCSoft.Writer\IDocumentNavigator.cs" />
+    <Compile Include="DCSoft.Writer\IDocumentOptions.cs" />
+    <Compile Include="DCSoft.Writer\IDocumentViewOptions.cs" />
+    <Compile Include="DCSoft.Writer\IDocumentWriterControlOptions.cs" />
+    <Compile Include="DCSoft.Writer\IElementCancelEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementEventTemlateMap.cs" />
+    <Compile Include="DCSoft.Writer\IElementEventTemplate.cs" />
+    <Compile Include="DCSoft.Writer\IElementEventTemplateComEvents.cs" />
+    <Compile Include="DCSoft.Writer\IElementEventTemplateList.cs" />
+    <Compile Include="DCSoft.Writer\IElementExpressionEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementKeyEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementLoadEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementMouseEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementPaintEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementQueryStateEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IElementValidatingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IErrorReporter.cs" />
+    <Compile Include="DCSoft.Writer\IFieldValueDescriptor.cs" />
+    <Compile Include="DCSoft.Writer\IFieldValueDescriptorList.cs" />
+    <Compile Include="DCSoft.Writer\IFilterValueEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IGetSetAttribute.cs" />
+    <Compile Include="DCSoft.Writer\IGridLineSettings.cs" />
+    <Compile Include="DCSoft.Writer\IImmProvider.cs" />
+    <Compile Include="DCSoft.Writer\IInsertObjectEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\INavigateNode.cs" />
+    <Compile Include="DCSoft.Writer\INavigateNodeList.cs" />
+    <Compile Include="DCSoft.Writer\InputValueSource.cs" />
+    <Compile Include="DCSoft.Writer\InputValueType.cs" />
+    <Compile Include="DCSoft.Writer\InsertDocumentWithCheckMRIDType.cs" />
+    <Compile Include="DCSoft.Writer\InsertObjectEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\InsertObjectEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\IQueryUserHistoryDisplayTextEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\ISystemAlertInfo.cs" />
+    <Compile Include="DCSoft.Writer\ISystemAlertInfoList.cs" />
+    <Compile Include="DCSoft.Writer\ITrackVisibleConfig.cs" />
+    <Compile Include="DCSoft.Writer\IUserTrackInfo.cs" />
+    <Compile Include="DCSoft.Writer\IUserTrackInfoList.cs" />
+    <Compile Include="DCSoft.Writer\IWriterAfterFieldContentEditEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterBeforeFieldContentEditEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterBeforePlayMediaEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterBeforeUIKeyboardInputStringEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterButtonClickEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterCancelEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterDocumentPrintedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterDrawShapeContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterEditElementValueEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterExpressionFunctionEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterGetAdornTextEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterLinkEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterMouseEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterPrintEventEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterPrintPageEventEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterPrintQueryPageSettingsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterQueryAdornTextEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterQueryAssistInputItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterReadFileContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterReportErrorEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterSaveFileContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterSectionElementCancelEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterSectionElementEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterShowDialogEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterStartEditEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterTableRowHeightChangedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\IWriterTableRowHeightChangingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\MainModuleStarter.cs" />
+    <Compile Include="DCSoft.Writer\MeasureMode.cs" />
+    <Compile Include="DCSoft.Writer\MemberEffectLevel.cs" />
+    <Compile Include="DCSoft.Writer\MemberExpressionableAttribute.cs" />
+    <Compile Include="DCSoft.Writer\ModuleStarter.cs" />
+    <Compile Include="DCSoft.Writer\MoveFocusHotKeys.cs" />
+    <Compile Include="DCSoft.Writer\MoveTarget.cs" />
+    <Compile Include="DCSoft.Writer\MoveUnit.cs" />
+    <Compile Include="DCSoft.Writer\NavigateNode.cs" />
+    <Compile Include="DCSoft.Writer\NavigateNodeList.cs" />
+    <Compile Include="DCSoft.Writer\PromptProtectedContentMode.cs" />
+    <Compile Include="DCSoft.Writer\QueryUserHistoryDisplayTextEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\QueryUserHistoryDisplayTextEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\ScriptLanguageType.cs" />
+    <Compile Include="DCSoft.Writer\SelectionHighlightStyle.cs" />
+    <Compile Include="DCSoft.Writer\StandardCommandNames.cs" />
+    <Compile Include="DCSoft.Writer\SystemAlertInfo.cs" />
+    <Compile Include="DCSoft.Writer\SystemAlertInfoList.cs" />
+    <Compile Include="DCSoft.Writer\TrackVisibleConfig.cs" />
+    <Compile Include="DCSoft.Writer\UserTrackInfo.cs" />
+    <Compile Include="DCSoft.Writer\UserTrackInfoList.cs" />
+    <Compile Include="DCSoft.Writer\UserTrackType.cs" />
+    <Compile Include="DCSoft.Writer\ValueEditorActiveMode.cs" />
+    <Compile Include="DCSoft.Writer\WriterAfterExecuteEventExpressionEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterAfterExecuteEventExpressionEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterAfterFieldContentEditEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterAfterFieldContentEditEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterAppHost.cs" />
+    <Compile Include="DCSoft.Writer\WriterAppHostConfig.cs" />
+    <Compile Include="DCSoft.Writer\WriterBeforeFieldContentEditEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterBeforeFieldContentEditEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterBeforePlayMediaEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterBeforePlayMediaEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterBeforeUIKeyboardInputStringEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterBeforeUIKeyboardInputStringEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterButtonClickEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterButtonClickEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterCancelEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterCancelEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterCoreDescriptionStrings.cs" />
+    <Compile Include="DCSoft.Writer\WriterDataFormats.cs" />
+    <Compile Include="DCSoft.Writer\WriterDebugger.cs" />
+    <Compile Include="DCSoft.Writer\WriterDescriptionStrings.cs" />
+    <Compile Include="DCSoft.Writer\WriterDocumentPrintedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterDocumentPrintedEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterDrawShapeContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterDrawShapeContentEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterEditElementValueEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterEditElementValueEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterElementCheckedChangedEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterExpressionFunctionEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterExpressionFunctionEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterGetAdornTextEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterGetAdornTextEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterLinkEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterLinkEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterMouseEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterMouseEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterPrintEventEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterPrintEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterPrintPageEventEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterPrintPageEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterPrintQueryPageSettingsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterPrintQueryPageSettingsEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterQueryAdornTextEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterQueryAdornTextEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterQueryAssistInputItemsEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterQueryAssistInputItemsEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterReadFileContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterReadFileContentEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterReportErrorEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterReportErrorEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterResources.cs" />
+    <Compile Include="DCSoft.Writer\WriterResourcesCore.cs" />
+    <Compile Include="DCSoft.Writer\WriterSaveFileContentEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterSaveFileContentEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterSectionElementCancelEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterSectionElementCancelEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterSectionElementEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterSectionElementEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterShowDialogEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterShowDialogEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterStartEditEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterStartEditEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterStrings.cs" />
+    <Compile Include="DCSoft.Writer\WriterStringsCore.cs" />
+    <Compile Include="DCSoft.Writer\WriterTableRowHeightChangedEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterTableRowHeightChangedEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterTableRowHeightChangingEventArgs.cs" />
+    <Compile Include="DCSoft.Writer\WriterTableRowHeightChangingEventHandler.cs" />
+    <Compile Include="DCSoft.Writer\WriterTools.cs" />
+    <Compile Include="DCSoft.Writer\WriterUtils.cs" />
+    <Compile Include="DCSoft.Writer\XTextRangeProvider.cs" />
+    <Compile Include="DCSoftDotfuscate\Attribute0.cs" />
+    <Compile Include="DCSoftDotfuscate\Class0.cs" />
+    <Compile Include="DCSoftDotfuscate\Class100.cs" />
+    <Compile Include="DCSoftDotfuscate\Class101.cs" />
+    <Compile Include="DCSoftDotfuscate\Class103.cs" />
+    <Compile Include="DCSoftDotfuscate\Class104.cs" />
+    <Compile Include="DCSoftDotfuscate\Class105.cs" />
+    <Compile Include="DCSoftDotfuscate\Class109.cs" />
+    <Compile Include="DCSoftDotfuscate\Class110.cs" />
+    <Compile Include="DCSoftDotfuscate\Class111.cs" />
+    <Compile Include="DCSoftDotfuscate\Class112.cs" />
+    <Compile Include="DCSoftDotfuscate\Class113.cs" />
+    <Compile Include="DCSoftDotfuscate\Class114.cs" />
+    <Compile Include="DCSoftDotfuscate\Class115.cs" />
+    <Compile Include="DCSoftDotfuscate\Class116.cs" />
+    <Compile Include="DCSoftDotfuscate\Class117.cs" />
+    <Compile Include="DCSoftDotfuscate\Class118.cs" />
+    <Compile Include="DCSoftDotfuscate\Class119.cs" />
+    <Compile Include="DCSoftDotfuscate\Class121.cs" />
+    <Compile Include="DCSoftDotfuscate\Class122.cs" />
+    <Compile Include="DCSoftDotfuscate\Class123.cs" />
+    <Compile Include="DCSoftDotfuscate\Class124.cs" />
+    <Compile Include="DCSoftDotfuscate\Class125.cs" />
+    <Compile Include="DCSoftDotfuscate\Class126.cs" />
+    <Compile Include="DCSoftDotfuscate\Class128.cs" />
+    <Compile Include="DCSoftDotfuscate\Class129.cs" />
+    <Compile Include="DCSoftDotfuscate\Class130.cs" />
+    <Compile Include="DCSoftDotfuscate\Class131.cs" />
+    <Compile Include="DCSoftDotfuscate\Class132.cs" />
+    <Compile Include="DCSoftDotfuscate\Class134.cs" />
+    <Compile Include="DCSoftDotfuscate\Class135.cs" />
+    <Compile Include="DCSoftDotfuscate\Class136.cs" />
+    <Compile Include="DCSoftDotfuscate\Class137.cs" />
+    <Compile Include="DCSoftDotfuscate\Class139.cs" />
+    <Compile Include="DCSoftDotfuscate\Class140.cs" />
+    <Compile Include="DCSoftDotfuscate\Class141.cs" />
+    <Compile Include="DCSoftDotfuscate\Class142.cs" />
+    <Compile Include="DCSoftDotfuscate\Class143.cs" />
+    <Compile Include="DCSoftDotfuscate\Class149.cs" />
+    <Compile Include="DCSoftDotfuscate\Class150.cs" />
+    <Compile Include="DCSoftDotfuscate\Class151.cs" />
+    <Compile Include="DCSoftDotfuscate\Class152.cs" />
+    <Compile Include="DCSoftDotfuscate\Class153.cs" />
+    <Compile Include="DCSoftDotfuscate\Class154.cs" />
+    <Compile Include="DCSoftDotfuscate\Class155.cs" />
+    <Compile Include="DCSoftDotfuscate\Class156.cs" />
+    <Compile Include="DCSoftDotfuscate\Class157.cs" />
+    <Compile Include="DCSoftDotfuscate\Class158.cs" />
+    <Compile Include="DCSoftDotfuscate\Class159.cs" />
+    <Compile Include="DCSoftDotfuscate\Class160.cs" />
+    <Compile Include="DCSoftDotfuscate\Class161.cs" />
+    <Compile Include="DCSoftDotfuscate\Class162.cs" />
+    <Compile Include="DCSoftDotfuscate\Class163.cs" />
+    <Compile Include="DCSoftDotfuscate\Class164.cs" />
+    <Compile Include="DCSoftDotfuscate\Class165.cs" />
+    <Compile Include="DCSoftDotfuscate\Class166.cs" />
+    <Compile Include="DCSoftDotfuscate\Class167.cs" />
+    <Compile Include="DCSoftDotfuscate\Class168.cs" />
+    <Compile Include="DCSoftDotfuscate\Class170.cs" />
+    <Compile Include="DCSoftDotfuscate\Class171.cs" />
+    <Compile Include="DCSoftDotfuscate\Class172.cs" />
+    <Compile Include="DCSoftDotfuscate\Class173.cs" />
+    <Compile Include="DCSoftDotfuscate\Class174.cs" />
+    <Compile Include="DCSoftDotfuscate\Class186.cs" />
+    <Compile Include="DCSoftDotfuscate\Class187.cs" />
+    <Compile Include="DCSoftDotfuscate\Class188.cs" />
+    <Compile Include="DCSoftDotfuscate\Class189.cs" />
+    <Compile Include="DCSoftDotfuscate\Class199.cs" />
+    <Compile Include="DCSoftDotfuscate\Class201.cs" />
+    <Compile Include="DCSoftDotfuscate\Class202.cs" />
+    <Compile Include="DCSoftDotfuscate\Class203.cs" />
+    <Compile Include="DCSoftDotfuscate\Class204.cs" />
+    <Compile Include="DCSoftDotfuscate\Class206.cs" />
+    <Compile Include="DCSoftDotfuscate\Class207.cs" />
+    <Compile Include="DCSoftDotfuscate\Class208.cs" />
+    <Compile Include="DCSoftDotfuscate\Class209.cs" />
+    <Compile Include="DCSoftDotfuscate\Class210.cs" />
+    <Compile Include="DCSoftDotfuscate\Class211.cs" />
+    <Compile Include="DCSoftDotfuscate\Class214.cs" />
+    <Compile Include="DCSoftDotfuscate\Class216.cs" />
+    <Compile Include="DCSoftDotfuscate\Class217.cs" />
+    <Compile Include="DCSoftDotfuscate\Class218.cs" />
+    <Compile Include="DCSoftDotfuscate\Class219.cs" />
+    <Compile Include="DCSoftDotfuscate\Class220.cs" />
+    <Compile Include="DCSoftDotfuscate\Class225.cs" />
+    <Compile Include="DCSoftDotfuscate\Class226.cs" />
+    <Compile Include="DCSoftDotfuscate\Class227.cs" />
+    <Compile Include="DCSoftDotfuscate\Class228.cs" />
+    <Compile Include="DCSoftDotfuscate\Class231.cs" />
+    <Compile Include="DCSoftDotfuscate\Class232.cs" />
+    <Compile Include="DCSoftDotfuscate\Class233.cs" />
+    <Compile Include="DCSoftDotfuscate\Class234.cs" />
+    <Compile Include="DCSoftDotfuscate\Class235.cs" />
+    <Compile Include="DCSoftDotfuscate\Class236.cs" />
+    <Compile Include="DCSoftDotfuscate\Class237.cs" />
+    <Compile Include="DCSoftDotfuscate\Class238.cs" />
+    <Compile Include="DCSoftDotfuscate\Class239.cs" />
+    <Compile Include="DCSoftDotfuscate\Class240.cs" />
+    <Compile Include="DCSoftDotfuscate\Class241.cs" />
+    <Compile Include="DCSoftDotfuscate\Class242.cs" />
+    <Compile Include="DCSoftDotfuscate\Class243.cs" />
+    <Compile Include="DCSoftDotfuscate\Class244.cs" />
+    <Compile Include="DCSoftDotfuscate\Class245.cs" />
+    <Compile Include="DCSoftDotfuscate\Class246.cs" />
+    <Compile Include="DCSoftDotfuscate\Class247.cs" />
+    <Compile Include="DCSoftDotfuscate\Class248.cs" />
+    <Compile Include="DCSoftDotfuscate\Class249.cs" />
+    <Compile Include="DCSoftDotfuscate\Class250.cs" />
+    <Compile Include="DCSoftDotfuscate\Class251.cs" />
+    <Compile Include="DCSoftDotfuscate\Class252.cs" />
+    <Compile Include="DCSoftDotfuscate\Class253.cs" />
+    <Compile Include="DCSoftDotfuscate\Class255.cs" />
+    <Compile Include="DCSoftDotfuscate\Class256.cs" />
+    <Compile Include="DCSoftDotfuscate\Class265.cs" />
+    <Compile Include="DCSoftDotfuscate\Class266.cs" />
+    <Compile Include="DCSoftDotfuscate\Class267.cs" />
+    <Compile Include="DCSoftDotfuscate\Class268.cs" />
+    <Compile Include="DCSoftDotfuscate\Class271.cs" />
+    <Compile Include="DCSoftDotfuscate\Class272.cs" />
+    <Compile Include="DCSoftDotfuscate\Class273.cs" />
+    <Compile Include="DCSoftDotfuscate\Class275.cs" />
+    <Compile Include="DCSoftDotfuscate\Class276.cs" />
+    <Compile Include="DCSoftDotfuscate\Class50.cs" />
+    <Compile Include="DCSoftDotfuscate\Class51.cs" />
+    <Compile Include="DCSoftDotfuscate\Class52.cs" />
+    <Compile Include="DCSoftDotfuscate\Class53.cs" />
+    <Compile Include="DCSoftDotfuscate\Class55.cs" />
+    <Compile Include="DCSoftDotfuscate\Class57.cs" />
+    <Compile Include="DCSoftDotfuscate\Class58.cs" />
+    <Compile Include="DCSoftDotfuscate\Class59.cs" />
+    <Compile Include="DCSoftDotfuscate\Class60.cs" />
+    <Compile Include="DCSoftDotfuscate\Class61.cs" />
+    <Compile Include="DCSoftDotfuscate\Class62.cs" />
+    <Compile Include="DCSoftDotfuscate\Class63.cs" />
+    <Compile Include="DCSoftDotfuscate\Class64.cs" />
+    <Compile Include="DCSoftDotfuscate\Class65.cs" />
+    <Compile Include="DCSoftDotfuscate\Class66.cs" />
+    <Compile Include="DCSoftDotfuscate\Class68.cs" />
+    <Compile Include="DCSoftDotfuscate\Class69.cs" />
+    <Compile Include="DCSoftDotfuscate\Class73.cs" />
+    <Compile Include="DCSoftDotfuscate\Class74.cs" />
+    <Compile Include="DCSoftDotfuscate\Class77.cs" />
+    <Compile Include="DCSoftDotfuscate\Class78.cs" />
+    <Compile Include="DCSoftDotfuscate\Class79.cs" />
+    <Compile Include="DCSoftDotfuscate\Class83.cs" />
+    <Compile Include="DCSoftDotfuscate\Class84.cs" />
+    <Compile Include="DCSoftDotfuscate\Class85.cs" />
+    <Compile Include="DCSoftDotfuscate\Class86.cs" />
+    <Compile Include="DCSoftDotfuscate\Class87.cs" />
+    <Compile Include="DCSoftDotfuscate\Class88.cs" />
+    <Compile Include="DCSoftDotfuscate\Class89.cs" />
+    <Compile Include="DCSoftDotfuscate\Class90.cs" />
+    <Compile Include="DCSoftDotfuscate\Class91.cs" />
+    <Compile Include="DCSoftDotfuscate\Class92.cs" />
+    <Compile Include="DCSoftDotfuscate\Class93.cs" />
+    <Compile Include="DCSoftDotfuscate\Class94.cs" />
+    <Compile Include="DCSoftDotfuscate\Class95.cs" />
+    <Compile Include="DCSoftDotfuscate\Class96.cs" />
+    <Compile Include="DCSoftDotfuscate\Class97.cs" />
+    <Compile Include="DCSoftDotfuscate\Class98.cs" />
+    <Compile Include="DCSoftDotfuscate\Class99.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum10.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum13.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum14.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum15.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum16.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum17.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum18.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum19.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum24.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum25.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum26.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum27.cs" />
+    <Compile Include="DCSoftDotfuscate\Enum28.cs" />
+    <Compile Include="DCSoftDotfuscate\GAttribute0.cs" />
+    <Compile Include="DCSoftDotfuscate\GAttribute1.cs" />
+    <Compile Include="DCSoftDotfuscate\GAttribute2.cs" />
+    <Compile Include="DCSoftDotfuscate\GAttribute3.cs" />
+    <Compile Include="DCSoftDotfuscate\GAttribute4.cs" />
+    <Compile Include="DCSoftDotfuscate\GAttribute5.cs" />
+    <Compile Include="DCSoftDotfuscate\GAttribute6.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass0.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass100.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass101.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass102.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass103.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass104.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass105.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass106.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass107.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass108.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass109.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass11.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass111.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass112.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass113.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass114.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass115.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass116.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass117.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass118.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass119.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass12.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass120.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass121.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass122.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass123.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass124.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass125.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass126.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass127.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass128.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass129.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass130.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass131.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass132.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass133.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass134.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass135.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass136.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass137.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass138.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass139.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass14.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass140.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass141.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass142.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass143.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass144.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass145.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass146.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass147.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass148.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass149.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass15.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass150.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass151.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass152.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass153.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass154.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass155.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass156.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass157.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass158.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass16.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass160.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass161.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass162.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass163.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass164.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass165.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass166.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass167.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass168.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass169.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass17.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass170.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass171.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass172.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass173.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass174.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass175.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass176.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass177.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass178.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass179.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass180.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass181.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass182.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass183.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass184.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass185.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass186.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass187.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass188.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass189.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass190.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass191.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass192.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass193.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass194.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass195.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass196.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass197.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass198.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass199.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass20.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass200.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass201.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass202.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass203.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass204.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass205.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass206.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass207.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass208.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass209.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass21.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass210.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass211.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass212.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass213.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass214.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass215.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass216.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass217.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass218.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass219.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass22.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass220.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass221.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass222.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass223.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass224.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass225.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass226.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass227.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass228.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass229.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass23.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass230.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass231.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass232.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass233.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass234.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass235.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass236.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass237.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass238.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass239.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass24.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass240.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass241.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass242.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass243.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass244.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass245.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass246.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass247.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass248.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass249.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass25.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass250.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass251.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass252.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass253.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass254.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass255.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass256.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GClass257.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass258.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass259.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass26.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass260.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GClass262.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass263.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass264.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass265.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass266.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass267.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass268.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GClass269.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass27.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass270.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass271.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass272.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass273.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass274.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass275.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass276.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass278.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass279.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass28.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass280.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass281.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass282.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass283.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass285.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GClass286.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass287.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass288.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass289.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass29.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass290.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass291.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass292.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass293.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass294.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass295.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass296.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass299.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass3.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass30.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass300.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass301.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass302.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass303.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass304.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GClass305.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass306.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass307.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass308.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass309.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass31.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass310.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass311.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass312.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass313.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass314.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass315.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass316.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass317.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass318.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass319.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass32.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass320.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass321.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass322.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass323.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass324.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass325.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass326.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass327.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass328.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass329.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass33.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass330.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass331.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass332.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass333.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass334.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass335.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass336.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass337.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass338.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass339.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass34.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass340.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass341.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass342.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass343.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass344.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass345.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass346.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass347.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass348.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass349.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass35.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass350.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass351.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass352.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass353.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass354.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass355.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass356.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass357.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass358.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass359.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass36.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass360.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass361.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass362.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass363.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass364.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass365.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass366.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass367.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass368.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass369.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass37.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass370.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass371.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass372.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass373.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass374.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass375.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass376.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass377.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass378.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass379.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass38.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass380.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass381.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass382.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass383.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass384.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass385.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass386.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass387.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass388.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass389.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass39.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass390.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass391.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass392.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass393.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass394.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass395.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass396.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass397.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass398.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass399.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass40.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass400.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass401.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass402.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass403.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass404.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass405.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass406.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass407.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass408.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass409.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass41.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass410.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass411.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass412.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass413.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass414.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass415.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass416.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass417.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass418.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass419.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass42.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass420.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass421.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass422.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass423.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass424.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass425.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass426.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass427.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass428.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass429.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass43.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass430.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass431.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass432.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass436.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass437.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass438.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass439.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass44.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass440.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass441.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass442.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass443.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass444.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass445.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass446.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass447.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass448.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass449.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass45.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass450.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass451.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass452.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass453.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass454.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass455.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass456.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass457.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass458.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass459.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass46.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass460.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass461.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass462.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass463.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass464.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass465.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass466.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass467.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass468.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass469.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass47.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass470.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass471.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass472.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass473.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass474.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass475.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass476.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass477.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass478.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass479.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass48.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass480.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass481.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass482.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass483.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass484.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass485.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass486.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass487.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass488.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass489.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass49.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass490.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass491.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass492.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass493.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass494.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass495.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass496.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass497.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass498.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass499.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass50.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass500.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass501.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass502.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass503.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass504.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass505.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass506.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass507.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass508.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass509.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass510.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass511.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass512.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass513.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass514.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass515.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass516.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass517.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass518.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass519.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass52.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass520.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass521.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass522.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass523.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass524.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass525.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass526.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass528.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass529.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass53.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass530.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass531.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass532.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass533.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass534.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass535.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass536.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass537.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass538.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass539.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass54.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass540.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass541.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass542.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass543.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass544.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass545.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass546.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass547.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass548.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass549.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass55.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass550.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass551.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass552.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass553.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass554.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass555.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass556.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass557.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass558.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass559.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass56.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass560.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass561.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass562.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass563.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass564.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass565.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass566.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass567.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass568.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass569.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass57.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass570.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass571.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass572.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass573.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass574.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass575.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass576.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass577.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass578.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass579.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass58.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass580.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass581.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass582.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass583.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass584.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass585.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass586.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass587.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass588.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass59.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass590.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass591.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass592.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass593.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass594.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass595.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass596.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass597.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass598.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass599.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass60.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass600.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass601.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass602.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass603.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass604.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass605.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass606.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass607.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass608.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass609.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass61.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass610.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass611.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass612.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass613.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass614.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass615.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass616.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass617.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass618.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass619.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass62.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass620.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass621.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass622.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass623.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass624.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass625.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass626.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass627.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass628.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass629.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass630.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass631.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass632.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass633.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass634.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass635.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass636.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass637.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass638.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass639.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass640.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass641.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass642.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass643.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass644.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass645.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass646.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass647.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass648.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass649.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass650.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass651.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass652.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass653.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass654.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass655.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass656.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass657.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass658.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass659.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass660.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass661.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass662.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass663.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass664.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass665.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass666.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass667.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass668.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass669.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass670.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass671.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass672.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass675.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass676.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass677.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass678.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass679.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass680.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass681.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass682.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass683.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass684.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass685.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass75.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass76.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass77.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass78.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass79.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass8.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass80.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass81.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass82.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass83.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass84.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass85.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass86.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass87.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass88.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass89.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass9.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass91.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass92.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass93.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass94.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass95.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass96.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass97.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass98.cs" />
+    <Compile Include="DCSoftDotfuscate\GClass99.cs" />
+    <Compile Include="DCSoftDotfuscate\GControl0.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl5.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl7.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GControl9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GDelegate1.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate10.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate11.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate12.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate13.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate15.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate16.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate17.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate18.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate2.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate21.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate22.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate23.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate24.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate26.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate27.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate28.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate29.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate3.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate30.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate31.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate32.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate34.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate4.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate5.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate6.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate7.cs" />
+    <Compile Include="DCSoftDotfuscate\GDelegate8.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum0.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum1.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum10.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum100.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum101.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum104.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum11.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum12.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum13.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum14.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum15.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum16.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum17.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum18.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum19.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum2.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum20.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum21.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum22.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum23.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum24.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum25.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum26.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum27.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum28.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum29.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum3.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum30.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum31.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum32.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum33.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum34.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum35.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum36.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum37.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum38.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum39.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum4.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum40.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum41.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum42.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum43.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum44.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum45.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum46.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum47.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum48.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum49.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum5.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum50.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum51.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum52.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum53.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum54.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum55.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum56.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum57.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum58.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum59.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum6.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum60.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum61.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum62.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum63.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum64.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum65.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum66.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum67.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum68.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum69.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum7.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum70.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum72.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum73.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum74.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum75.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum76.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum77.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum78.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum79.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum8.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum80.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum81.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum82.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum83.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum84.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum85.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum86.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum87.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum88.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum89.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum9.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum90.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum91.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum92.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum93.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum94.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum95.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum96.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum98.cs" />
+    <Compile Include="DCSoftDotfuscate\GEnum99.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs0.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs1.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs10.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs11.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs12.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs13.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs14.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs15.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs16.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs17.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs18.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs19.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs2.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs3.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs4.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs5.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs6.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs7.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs8.cs" />
+    <Compile Include="DCSoftDotfuscate\GEventArgs9.cs" />
+    <Compile Include="DCSoftDotfuscate\GException0.cs" />
+    <Compile Include="DCSoftDotfuscate\GException1.cs" />
+    <Compile Include="DCSoftDotfuscate\GException10.cs" />
+    <Compile Include="DCSoftDotfuscate\GException11.cs" />
+    <Compile Include="DCSoftDotfuscate\GException12.cs" />
+    <Compile Include="DCSoftDotfuscate\GException13.cs" />
+    <Compile Include="DCSoftDotfuscate\GException14.cs" />
+    <Compile Include="DCSoftDotfuscate\GException15.cs" />
+    <Compile Include="DCSoftDotfuscate\GException16.cs" />
+    <Compile Include="DCSoftDotfuscate\GException17.cs" />
+    <Compile Include="DCSoftDotfuscate\GException18.cs" />
+    <Compile Include="DCSoftDotfuscate\GException19.cs" />
+    <Compile Include="DCSoftDotfuscate\GException2.cs" />
+    <Compile Include="DCSoftDotfuscate\GException20.cs" />
+    <Compile Include="DCSoftDotfuscate\GException21.cs" />
+    <Compile Include="DCSoftDotfuscate\GException22.cs" />
+    <Compile Include="DCSoftDotfuscate\GException23.cs" />
+    <Compile Include="DCSoftDotfuscate\GException24.cs" />
+    <Compile Include="DCSoftDotfuscate\GException25.cs" />
+    <Compile Include="DCSoftDotfuscate\GException26.cs" />
+    <Compile Include="DCSoftDotfuscate\GException27.cs" />
+    <Compile Include="DCSoftDotfuscate\GException3.cs" />
+    <Compile Include="DCSoftDotfuscate\GException4.cs" />
+    <Compile Include="DCSoftDotfuscate\GException5.cs" />
+    <Compile Include="DCSoftDotfuscate\GException6.cs" />
+    <Compile Include="DCSoftDotfuscate\GException7.cs" />
+    <Compile Include="DCSoftDotfuscate\GException8.cs" />
+    <Compile Include="DCSoftDotfuscate\GException9.cs" />
+    <Compile Include="DCSoftDotfuscate\GForm0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCSoftDotfuscate\GInterface0.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface1.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface10.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface11.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface12.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface13.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface14.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface15.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface16.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface17.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface18.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface19.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface2.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface20.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface21.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface22.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface23.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface24.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface25.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface26.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface27.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface28.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface29.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface3.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface30.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface31.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface33.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface34.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface35.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface36.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface37.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface38.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface39.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface4.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface40.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface41.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface42.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface43.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface44.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface45.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface46.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface47.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface48.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface49.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface5.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface50.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface51.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface52.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface53.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface54.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface6.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface7.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface8.cs" />
+    <Compile Include="DCSoftDotfuscate\GInterface9.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream0.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream1.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream10.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream2.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream3.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream4.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream5.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream6.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream7.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream8.cs" />
+    <Compile Include="DCSoftDotfuscate\GStream9.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct0.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct1.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct10.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct11.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct12.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct13.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct14.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct15.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct16.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct17.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct18.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct19.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct2.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct20.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct21.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct22.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct23.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct3.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct4.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct5.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct6.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct7.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct8.cs" />
+    <Compile Include="DCSoftDotfuscate\GStruct9.cs" />
+    <Compile Include="DCSoftDotfuscate\Interface0.cs" />
+    <Compile Include="DCSoftDotfuscate\Interface2.cs" />
+    <Compile Include="DCSoftDotfuscate\MultiPageTransform.cs" />
+    <Compile Include="DCSoftDotfuscate\MultiRectangleTransform.cs" />
+    <Compile Include="DCSoftDotfuscate\SimpleRectangleTransform.cs" />
+    <Compile Include="DCSoftDotfuscate\Stream0.cs" />
+    <Compile Include="DCSoftDotfuscate\Stream3.cs" />
+    <Compile Include="DCSoftDotfuscate\继承MultiPageTransform.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DCSoft.Barcode\BarcodeStrings.resx" />
+    <EmbeddedResource Include="DCSoft.Drawing.Design\dlgPadding.resx" />
+    <EmbeddedResource Include="DCSoft.Drawing.Design\dlgParagraphFormatcs.resx" />
+    <EmbeddedResource Include="DCSoft.Drawing.Design\dlgParagraphListStyle.resx" />
+    <EmbeddedResource Include="DCSoft.Drawing\dlgRenderVisibility.resx" />
+    <EmbeddedResource Include="DCSoft.Drawing\DrawingResources.resx" />
+    <EmbeddedResource Include="DCSoft.Drawing\DrawingStrings.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\DCPrintPreviewControl.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\dlgPageContentBorderStyle.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\dlgPageIndex.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\dlgPageSetup.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\dlgPrintResult.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\dlgWaitPrintJob.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\ExtPrintSettingsControl.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\frmTestPrintDocument.resx" />
+    <EmbeddedResource Include="DCSoft.Printing\PrintingResources.resx" />
+    <EmbeddedResource Include="DCSoft.Script\dlgBrowseGACAssembly.resx" />
+    <EmbeddedResource Include="DCSoft.Script\dlgInputBox.resx" />
+    <EmbeddedResource Include="DCSoft.Script\dlgScriptError.resx" />
+    <EmbeddedResource Include="DCSoft.Script\dlgScriptOptions.resx" />
+    <EmbeddedResource Include="DCSoft.Script\frmFullScriptText.resx" />
+    <EmbeddedResource Include="DCSoft.Script\ScriptStrings.resx" />
+    <EmbeddedResource Include="DCSoft.ShapeEditor.Dom\ShapeEllipseElement.bmp" />
+    <EmbeddedResource Include="DCSoft.ShapeEditor.Dom\ShapeLineElement.bmp" />
+    <EmbeddedResource Include="DCSoft.ShapeEditor.Dom\ShapeRectangleElement.bmp" />
+    <EmbeddedResource Include="DCSoft.ShapeEditor\frmImageShapeEditor.resx" />
+    <EmbeddedResource Include="DCSoft.ShapeEditor\Images.WireLabel.bmp" />
+    <EmbeddedResource Include="DCSoft.ShapeEditor\ResourceStrings.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms.Controls\DCCardListViewControl.bmp" />
+    <EmbeddedResource Include="DCSoft.WinForms.Controls\DCColorPlateResource.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms.Controls\dlgDCColor.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms.Native\dlgInputUrl.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\BrowseTypeTreeView.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgBrowseImage.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgBrowseTypeTreeView.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgBrowseWindowHandle.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgBrowseXmlNode.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgError.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgImageResize.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgInputBox.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgScreenSnapshot.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\dlgTreeString.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\frmConfigXML.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\frmScreenSnapshot2.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\frmViewXML.resx" />
+    <EmbeddedResource Include="DCSoft.WinForms\Resources.picBorderPreview.Image.bmp" />
+    <EmbeddedResource Include="DCSoft.WinForms\WinFormsResources.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands.Design\dlgCommandNameEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgAccountintNumber.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgAdornTextSettings.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgBarcodeElementEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgBrowseControlType.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgBrowseElements.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgBrowseInputLanguage.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgBrowseKBEntry.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgButtonElement.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgCharacterCircle.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgCheckBoxElementEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgCommandList.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgContentGridLineType.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgContentLinkEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgContentProtectedMode.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgControlHostEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgCopySourceInfo.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgDocmentGridLine.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgDocumentBorderBackground.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgDocumentOptions.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgDocumentParameters.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgEventBindingVBScript.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgFileContentSource.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgHorizontalLine.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgImageElementEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgImagePartitionEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputFieldEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputFieldSettings.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputFieldUnderLineInfo.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputRTF.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputString.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputUrl.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInsertTable.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInstanceProperties.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgLabelElement.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgLayoutDirection.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgLetterSpacing.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgMotherTemplateInfo.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgNewBarcodeElementEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgObjectProperty.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgPageBorderRange.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgPageInfoType.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgPromptDeleteCell.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgProperties.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgPropertyExpressionInfoList.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgRegister.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgResourceStrings.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgSearch.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgSpecifyPaste.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgSplitCell.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgStringList.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgTitleLevel.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgVBScriptEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgWordCount.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgXDataBinding.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgXTextFileBlockElement.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\frmPreviewHtml.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\frmPrintPreview.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\frmSystemLog.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\AxTemperatureControl.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\AxWriterControl.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\DateSelectControl.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\DateTimeSelectControl.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\DeveloperToolsControl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgAbout.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgBrowseControlType.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgCrosssPrecessHost.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgDocumentComment.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgError.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgErrorViewSource.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgInsertParameter.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgPromptProtectedContent.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\dlgRequireNET20SP2.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.closebutton.png" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.closebutton2.png" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCBrowserCompabitility.js" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCCalendar.html" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCSubDocumentManager.js" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCTimer.html" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCUploadFile.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCUploadFileSimple.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCWriterControl.css" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.DCWriterControl.js" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.dcwriter_mini.js" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.Flag_Error.png" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.laydate.css" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.Loading16.gif" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpreesion_BackImageForFourValue2.png" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpression_FetalHeart.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpression_FourValues.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpression_FourValues1.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpression_FourValues2.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpression_LightPositioning.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpression_Pupil.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.MedicalExpression_ThreeValues.htm" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.SkyCalendar.html" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.SkyCalendarButton.gif" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\Resources.SkyTimer.html" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\TimeSelectControl.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\VB.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\WriterCalculateControl.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\WriterControl.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\WriterControlExt.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\WriterPrintPreviewControl.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\WriterPrintPreviewControl.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\XTreeListBoxEditControl2.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Data\dlgListSourceInfo.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Data\dlgOldEMRTemplateBrowse.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Data\KBEntry.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom.Design\dlgAttributes.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom.Design\dlgElementTypeEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom.Design\dlgValueEditorActiveMode.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom\XTextBeanFieldElement.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom\XTextButtonElement.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom\XTextCheckBoxElementBase.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom\XTextFileBlockElement.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom\XTextHorizontalLineElement.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom\XTextInputFieldElement.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Dom\XTextTemperatureChartElement.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer.Script\frmScriptEdtior.resx" />
+    <EmbeddedResource Include="DCSoft.Writer\ElementEventTemplate.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer\preload.xml" />
+    <EmbeddedResource Include="DCSoft.Writer\WebCabSource.cabarc.exe" />
+    <EmbeddedResource Include="DCSoft.Writer\WebCabSource.DCSoft.Writer.ClientConfig.exe" />
+    <EmbeddedResource Include="DCSoft.Writer\WebCabSource.DCSoft.Writer.ClientConfigForNET40.exe" />
+    <EmbeddedResource Include="DCSoft.Writer\WebCabSource.install.inf" />
+    <EmbeddedResource Include="DCSoft.Writer\Win32Res.WriterControl.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer\Win32Res.WriterPrintPreviewControl.bmp" />
+    <EmbeddedResource Include="DCSoft.Writer\WriterCoreDescriptionStrings.resx" />
+    <EmbeddedResource Include="DCSoft.Writer\WriterDescriptionStrings.resx" />
+    <EmbeddedResource Include="DCSoft.Writer\WriterResources.resx" />
+    <EmbeddedResource Include="DCSoft.Writer\WriterResourcesCore.resx" />
+    <EmbeddedResource Include="DCSoft.Writer\WriterStrings.resx" />
+    <EmbeddedResource Include="DCSoft.Writer\WriterStringsCore.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DCSoftDotfuscate\ad5.Black.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.DragCopy.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.DragLink.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.DragMove.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.DragNo.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.DragPage.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.DragPageNo.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.FormatBrush.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.FormatBrush2.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.HandDragDown.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.HandDragUp.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.Right.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.RightArrow.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.SelectCell.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.ZoomIn.cur" />
+    <Content Include="DCSoftDotfuscate\ad5.ZoomOut.cur" />
+    <Content Include="DCSoftDotfuscate\GClass304.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

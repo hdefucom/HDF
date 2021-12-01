@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1111.18594">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextBody">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XTextControlHost" StyleIndex="3">
+          <Expressions />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XString" StyleIndex="4">
+              <Text>这是一个椭圆形</Text>
+            </Element>
+          </XElements>
+          <TextValue>这是一个椭圆形</TextValue>
+          <EventExpressions />
+          <BackgroundText>DCSoft.Writer.WinFormDemo.ShapeDemo.EllipseDocumentImage,DCSoft.Writer.WinFormDemo</BackgroundText>
+          <EnableHighlight>Disabled</EnableHighlight>
+          <TypeFullName>DCSoft.Writer.Extension.Shape.EllipseDocumentImage,DCSoft.Writer</TypeFullName>
+          <ValuePropertyName>Text</ValuePropertyName>
+          <Parameters />
+          <Width>1095</Width>
+          <Height>381</Height>
+        </Element>
+        <Element xsi:type="XParagraphFlag" />
+        <Element xsi:type="XTextControlHost" StyleIndex="1">
+          <Expressions />
+          <Attributes />
+          <XElements />
+          <TextValue />
+          <EventExpressions />
+          <BackgroundText>DCSoft.Writer.WinFormDemo.EMRAdviceListControl,DCSoft.Writer.WinFormDemo</BackgroundText>
+          <EnableHighlight>Disabled</EnableHighlight>
+          <TypeFullName>DCSoft.Writer.WinFormDemo.EMRAdviceListControl,DCSoft.Writer.WinFormDemo</TypeFullName>
+          <ValuePropertyName>Text</ValuePropertyName>
+          <ViewStateValue>AAEAAAD/////AQAAAAAAAAAQAQAAAAIAAAAGAgAAAAdhZHZpY2VzCQMAAAAMBAAAAFdEQ1NvZnQuV3JpdGVyLldpbkZvcm1EZW1vLCBWZXJzaW9uPTEuMC40NzE3LjE4NTk2LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAwAAADxEQ1NvZnQuV3JpdGVyLldpbkZvcm1EZW1vLkVNUkFkdmljZUxpc3RDb250cm9sK0VNUkFkdmljZUxpc3QDAAAADUxpc3RgMStfaXRlbXMMTGlzdGAxK19zaXplD0xpc3RgMStfdmVyc2lvbgQAADpEQ1NvZnQuV3JpdGVyLldpbkZvcm1EZW1vLkVNUkFkdmljZUxpc3RDb250cm9sK0VNUkFkdmljZVtdBAAAAAgIBAAAAAkFAAAAAQAAAAEAAAAHBQAAAAABAAAABAAAAAQ4RENTb2Z0LldyaXRlci5XaW5Gb3JtRGVtby5FTVJBZHZpY2VMaXN0Q29udHJvbCtFTVJBZHZpY2UEAAAACQYAAAANAwUGAAAAOERDU29mdC5Xcml0ZXIuV2luRm9ybURlbW8uRU1SQWR2aWNlTGlzdENvbnRyb2wrRU1SQWR2aWNlBAAAAA1f6I2v5ZOB5ZCN56ewB1/liYLph48HX+WNleS9jQ1f57uZ6I2v6YCU5b6EAQEBAQQAAAAGBwAAAANhYWEGCAAAAAN2dnYGCQAAAAPlhYsGCgAAAAzpnZnohInngrnmu7QL</ViewStateValue>
+          <Parameters>
+            <Parameter Name="BorderStyle">FixedSingle</Parameter>
+          </Parameters>
+          <Width>1671.25</Width>
+          <Height>849.375</Height>
+        </Element>
+        <Element xsi:type="XParagraphFlag" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>        dsafdsa  dfsa fdsafdsa fdsafdsafdsa</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextHeader">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2012-11-29T09:57:57.5608764+08:00</CreationTime>
+    <LastModifiedTime>2012-11-29T09:57:57.5608764+08:00</LastModifiedTime>
+    <LastPrintTime>2012-11-29T10:37:11.1464938+08:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1111.17925</Operator>
+    <NumOfPage>1</NumOfPage>
+  </Info>
+  <BodyText>这是一个椭圆形
+
+        dsafdsa  dfsa fdsafdsa fdsafdsafdsa
+</BodyText>
+  <UserHistories />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+      <FontSize>12</FontSize>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Align>Center</Align>
+      </Style>
+      <Style Index="1">
+        <PaddingLeft>20</PaddingLeft>
+        <PaddingTop>20</PaddingTop>
+        <PaddingRight>20</PaddingRight>
+        <PaddingBottom>20</PaddingBottom>
+      </Style>
+      <Style Index="2">
+        <PaddingLeft>20</PaddingLeft>
+        <PaddingTop>20</PaddingTop>
+        <PaddingRight>20</PaddingRight>
+        <PaddingBottom>20</PaddingBottom>
+      </Style>
+      <Style Index="3">
+        <BackgroundColor>Lime</BackgroundColor>
+        <Color>Red</Color>
+        <FontName>宋体</FontName>
+        <FontSize>14.25</FontSize>
+        <Bold>true</Bold>
+        <PaddingLeft>20</PaddingLeft>
+        <PaddingTop>20</PaddingTop>
+        <PaddingRight>20</PaddingRight>
+        <PaddingBottom>20</PaddingBottom>
+        <DefaultValuePropertyNames>Italic,Strikeout,Underline</DefaultValuePropertyNames>
+      </Style>
+      <Style Index="4">
+        <BackgroundColor>Lime</BackgroundColor>
+        <Color>Red</Color>
+        <FontName>宋体</FontName>
+        <FontSize>14.25</FontSize>
+        <Bold>true</Bold>
+        <PaddingLeft>20</PaddingLeft>
+        <PaddingTop>20</PaddingTop>
+        <PaddingRight>20</PaddingRight>
+        <PaddingBottom>20</PaddingBottom>
+        <DefaultValuePropertyNames>Italic,Strikeout,Underline</DefaultValuePropertyNames>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <DocumentGraphicsUnit>Document</DocumentGraphicsUnit>
+  <PageSettings />
+</XTextDocument>

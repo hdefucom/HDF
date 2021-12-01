@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes>
+      <Attribute>
+         <Name>AuthorName</Name>
+         <Value />
+      </Attribute>
+      <Attribute>
+         <Name>科室</Name>
+         <Value>胸外科</Value>
+      </Attribute>
+      <Attribute>
+         <Name>床号</Name>
+         <Value>33</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>选择时间：</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>8134238a-83cf-4a93-bf77-917a807a5b8a</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>8134238a-83cf-4a93-bf77-917a807a5b8a</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>小结时间</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <ValueName />
+                  <Required>true</Required>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+                  <ExcludeKeywords />
+                  <CustomMessage />
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>2013-09-29 14:36</Text>
+                  </Element>
+               </XElements>
+               <Deleteable>false</Deleteable>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <UserEditable>false</UserEditable>
+               <Name>d92b420e-8032-49a3-9ab7-946277627152</Name>
+               <DisplayFormat>
+                  <Style>DateTime</Style>
+                  <Format>yyyy-MM-dd HH:mm</Format>
+               </DisplayFormat>
+               <InnerValue>2013-09-29 14:36:00</InnerValue>
+               <BackgroundText>*选择时间*</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings>
+                  <EditStyle>DateTime</EditStyle>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString" WhiteSpaceLength="19">
+               <Text>                   </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="0">
+               <Text>d</Text>
+            </Element>
+            <Element xsi:type="XString" WhiteSpaceLength="4">
+               <Text>    </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>阶段小结  </Text>
+            </Element>
+            <Element xsi:type="XString" WhiteSpaceLength="2">
+               <Text>  </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString" WhiteSpaceLength="3">
+               <Text>   </Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>fd1e1ff1-1894-4f01-b2dd-deafa02d5382</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>5cec7d81-7872-4ca7-a574-40804f5b42d9</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>姓名1</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>许存智</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>0a46b713-b846-4164-b50f-035d04d2f949</Name>
+               <InnerValue>许存智</InnerValue>
+               <BackgroundText>患者姓名</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>、</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>e0c229a2-5269-432b-8f4d-1875696327f7</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>043d145e-718e-4bfd-a8cc-ae4d0a11c1d7</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>性别</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>男</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>70f03336-91de-4c1b-903d-7544d41e9563</Name>
+               <InnerValue>男</InnerValue>
+               <BackgroundText>性别</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>、</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>698e28fb-bce2-4309-b15c-fd2d95c5bbae</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>d40f94d2-c1a9-4a46-82e8-132e5cd5f716</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>年龄</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>66岁</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>886284e4-b912-447f-987b-88224ea4969b</Name>
+               <InnerValue>66岁</InnerValue>
+               <BackgroundText>年龄</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>。</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>e29f6e00-6dc4-4343-844e-98d4097fdd37</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>c7bcea9c-ffc7-45c4-a76c-e1d599c99959</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>主诉</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>c724f2a6-6285-4fa7-9206-ec3c88d1331f</Name>
+               <InnerValue />
+               <BackgroundText>录入主诉原因</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>于</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>abf278e2-beda-4c21-9ef1-8f6d78def97a</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>51ff71dd-0b94-43da-8d2e-f59512a834d2</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>入院日期</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <ValueName />
+                  <Required>true</Required>
+                  <ValueType>DateTime</ValueType>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+                  <ExcludeKeywords />
+                  <CustomMessage />
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>2013-07-17 15:29</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <UserEditable>false</UserEditable>
+               <Name>e2138c8b-19f0-4800-a621-43656b8c7a73</Name>
+               <DisplayFormat>
+                  <Style>DateTime</Style>
+                  <Format>yyyy年MM月dd日 HH时mm分</Format>
+               </DisplayFormat>
+               <InnerValue>2013-07-17 15:29</InnerValue>
+               <BackgroundText>*2000-1-1*</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings>
+                  <EditStyle>Date</EditStyle>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>住我院</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>24d3d762-18c0-41c4-b2bf-eba04903dd50</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>5643afc6-a151-439d-be50-9b99dc067f36</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>科室1</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>胸外科</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>80b8f1a2-d55a-4733-8291-b2a442d4eafe</Name>
+               <InnerValue>胸外科</InnerValue>
+               <BackgroundText>入院科室</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>   入院情况</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>c1671966-b111-491f-8fd4-e60a933dff87</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>0b076bd3-6cea-4a87-ba68-cd3f4a87540b</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>0b076bd3-6cea-4a87-ba68-cd3f4a87540b</Name>
+               <InnerValue />
+               <BackgroundText>录入入院情况</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>（提fdsa示入院ffdassf时</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>阳性病史、查体及重</Text>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>要辅助检查结果）</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>   入院诊断</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>1eea2426-11fb-4d1f-84a0-d180f715a4af</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>3646cb0f-9bef-4db4-9f60-72bf0bb6a0ad</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>3646cb0f-9bef-4db4-9f60-72bf0bb6a0ad</Name>
+               <InnerValue />
+               <BackgroundText>录入入院诊断</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag">
+               <ID>dcid0</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>   诊疗情况</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>d31660bf-ba24-41a1-882a-c809b2309733</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>0ca4a67e-2478-4530-b86b-1a3d683ab06d</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>0ca4a67e-2478-4530-b86b-1a3d683ab06d</Name>
+               <InnerValue />
+               <BackgroundText>录入诊疗情况</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>   目前情况</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>9f9e3cb6-0d5d-47b2-9012-03a3341955c1</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>a59cacad-c635-455a-84af-67e88c64cc53</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>a59cacad-c635-455a-84af-67e88c64cc53</Name>
+               <InnerValue />
+               <BackgroundText>录入目前情况</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>（</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>提示</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text>入院</Text>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>后至本小结前患者病情的演变诊疗过 11果）</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>   目前诊断</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>968f0fa3-281c-4ca8-88a7-c4b769d81e7b</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>c7485334-8652-43cc-99fd-5b861c7aff16</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>c7485334-8652-43cc-99fd-5b861c7aff16</Name>
+               <InnerValue />
+               <BackgroundText>录入目前诊断</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>   诊疗计划</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value />
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>281020e1-97a7-4bfb-9dd1-122b6f02955a</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>127703da-0520-494c-9719-e456d3528610</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>127703da-0520-494c-9719-e456d3528610</Name>
+               <InnerValue />
+               <BackgroundText>录入诊断计划</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>（提示今后准备实施的诊疗方案）</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XInputField" StyleIndex="5">
+               <Attributes>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>cc0d3c99-4388-423e-9d74-824393b2c6db</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ClickID</Name>
+                     <Value>e0ebf464-ff10-498b-b087-35fa8383d85c</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>签名</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle>
+                  <DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+                  <DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+               </ValidateStyle>
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <EventExpressions />
+               <Name>4bc51975-6823-4283-83c2-7b22aab9fd39</Name>
+               <InnerValue />
+               <BackgroundText>医师签名</BackgroundText>
+               <EditorActiveMode>F2 MouseDblClick MouseClick</EditorActiveMode>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+         </XElements>
+      </Element>
+   </XElements>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer\DCSoft.Writer.Demo\Bin\DemoFile\病程记录内容\病程记录1.xml</FileName>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <Title>2013年9月29日 14:36 阶段小结(都昌)</Title>
+      <LicenseText>兰州新昊源电子科技有限公司:兰州新昊源电子科技有限公司</LicenseText>
+      <CreationTime>2013-05-31T20:45:44.875+08:00</CreationTime>
+      <LastModifiedTime>2015-10-05T11:01:24.040796+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1413.30368</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>选择时间：2013-09-29 14:36                       阶段小结    
+   许存智、男、66岁。于2013-07-17 15:29住我院胸外科。
+   入院情况（提fdsa示入院ffdassf时阳性病史、查体及重要辅助检查结果）
+   入院诊断
+   诊疗情况
+   目前情况（后至本小结前患者病情的演变诊疗过 11果）
+   目前诊断
+   诊疗计划（提示今后准备实施的诊疗方案）
+
+</BodyText>
+   <Comments>
+      <Comment Index="2">
+         <Attributes />
+         <Author>王明</Author>
+         <CreationTime>2013-09-30T14:12:07.752379+08:00</CreationTime>
+         <Text>111111</Text>
+         <CreatorIndex>0</CreatorIndex>
+      </Comment>
+      <Comment Index="3">
+         <Attributes />
+         <Author>王明</Author>
+         <CreationTime>2013-09-30T11:03:58.0854295+08:00</CreationTime>
+         <Text>ssssssssss</Text>
+         <CreatorIndex>0</CreatorIndex>
+      </Comment>
+   </Comments>
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>59</LeftMargin>
+      <TopMargin>167</TopMargin>
+      <RightMargin>59</RightMargin>
+      <BottomMargin>79</BottomMargin>
+   </PageSettings>
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <DeleterIndex>1</DeleterIndex>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="2">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <CommentIndex>2</CommentIndex>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <DeleterIndex>1</DeleterIndex>
+         </Style>
+         <Style Index="4">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <DeleterIndex>0</DeleterIndex>
+         </Style>
+         <Style Index="5">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <CommentIndex>3</CommentIndex>
+         </Style>
+         <Style>
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <CreatorIndex>1</CreatorIndex>
+         </Style>
+         <Style Index="5">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <CommentIndex>3</CommentIndex>
+            <CreatorIndex>1</CreatorIndex>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories>
+      <History>
+         <ID>0734</ID>
+         <Name>王明</Name>
+         <SavedTime>2013-09-29T16:30:03.1968266+08:00</SavedTime>
+         <PermissionLevel>1</PermissionLevel>
+      </History>
+      <History Index="1">
+         <ID>0734</ID>
+         <Name>王明</Name>
+         <SavedTime>2015-10-05T10:40:23.6836303+08:00</SavedTime>
+         <PermissionLevel>1</PermissionLevel>
+      </History>
+   </UserHistories>
+</XTextDocument>

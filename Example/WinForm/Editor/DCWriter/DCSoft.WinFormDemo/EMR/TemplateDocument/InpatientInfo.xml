@@ -1,0 +1,2400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1820.38871">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text>住院病人基本信息</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XTextTable" NumOfRows="22" NumOfColumns="6">
+               <Expressions />
+               <ScriptItems />
+               <Attributes />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>基本信息</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>105.859367</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>病人ID：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>pa_id</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <Readonly>true</Readonly>
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_ID</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_ID</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>病人ID</ToolTip>
+                                 <BackgroundText>病人ID</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>姓名：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>pa_name</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_NAME</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_NAME</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>姓名</ToolTip>
+                                 <BackgroundText>姓名</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>性别：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>EMR_Patients.PA_SEX</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_SEX</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>性别</ToolTip>
+                                 <BackgroundText>性别</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>性别</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>出生年月：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_PRITHTIME</Name>
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>yyyy年MM月dd日</Format>
+                                 </DisplayFormat>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_PRITHTIME</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>出生日期</ToolTip>
+                                 <BackgroundText>出生日期</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>Date</EditStyle>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>身份证号：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_IDENTITYCARD</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_IDENTITYCARD</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>身份证号</ToolTip>
+                                 <BackgroundText>身份证号</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>国籍：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>EMR_Patients.PA_NATIONALITY</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_NATIONALITY</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>国籍</ToolTip>
+                                 <BackgroundText>国籍</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName>国籍</SourceName>
+                                       <DisplayPath>SysDesc</DisplayPath>
+                                       <ValuePath>SysCode</ValuePath>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>民族：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>EMR_Patients.PA_NATION</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_NATION</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>民族</ToolTip>
+                                 <BackgroundText>民族</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName>民族</SourceName>
+                                       <DisplayPath>SysDesc</DisplayPath>
+                                       <ValuePath>SysCode</ValuePath>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>职业：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_OCCUPATION</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_OCCUPATION</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>职业</ToolTip>
+                                 <BackgroundText>职业</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName>职业</SourceName>
+                                       <DisplayPath>SysDesc</DisplayPath>
+                                       <ValuePath>SysCode</ValuePath>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>门诊号：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_OUTPATIENT_CODE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_OUTPATIENT_CODE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>门诊号</ToolTip>
+                                 <BackgroundText>门诊号</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>一卡通号：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_CARDCODE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_CARDCODE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>一卡通号</ToolTip>
+                                 <BackgroundText>一卡通号</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>52.859375</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>婚姻状况：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_AMRRIAGE_STATUS</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_AMRRIAGE_STATUS</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>婚姻情况</ToolTip>
+                                 <BackgroundText>婚姻情况</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>婚姻状态</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>出生地：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_HOMEPLACE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_HOMEPLACE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>出生地</ToolTip>
+                                 <BackgroundText>出生地</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>户口地址：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_RPE_ADDRESS</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_RPE_ADDRESS</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>户口所在地</ToolTip>
+                                 <BackgroundText>户口所在地</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>邮编：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_RPE_POSTALCODE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_RPE_POSTALCODE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>户口所在地的邮编</ToolTip>
+                                 <BackgroundText>户口所在地的邮编</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>电话：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_RPE_PHONE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_RPE_PHONE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>户口所在地的电话</ToolTip>
+                                 <BackgroundText>户口所在地的电话</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>病案号：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_CASE_HISTOR_CODE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_CASE_HISTOR_CODE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>病历号</ToolTip>
+                                 <BackgroundText>病历号</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>入院信息</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>105.156242</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>病人来源：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_PATIENT_SOURCE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_PATIENT_SOURCE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>病人来源</ToolTip>
+                                 <BackgroundText>病人来源</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>病人来源</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>门诊医生：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_DOCTOR</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_DOCTOR</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>门诊医生</ToolTip>
+                                 <BackgroundText>门诊医生</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName>本科门诊医生</SourceName>
+                                       <DisplayPath>em_Name</DisplayPath>
+                                       <ValuePath>id</ValuePath>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>诊断：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_DIAGNOSE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_DIAGNOSE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>诊断</ToolTip>
+                                 <BackgroundText>诊断</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>入院情况：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_NURCS</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_NURCS</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>入院情况</ToolTip>
+                                 <BackgroundText>入院情况</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>入院情况</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>付款方式：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_PAYMENT_NURCS</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_PAYMENT_NURCS</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>付款方式</ToolTip>
+                                 <BackgroundText>付款方式</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>付款方式</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>入院前经院外诊治：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_FORESTALLDIAGNOSE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_FORESTALLDIAGNOSE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>入院前诊断</ToolTip>
+                                 <BackgroundText>入院前诊断</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>入院方式（途径）：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_FASHION</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_FASHION</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>入院方式</ToolTip>
+                                 <BackgroundText>入院方式</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>入院方式</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>住院科别：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_DISPLACE_KB</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_DISPLACE_KB</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>入科科别</ToolTip>
+                                 <BackgroundText>入科科别</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>入院时间：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_RY_TIME</Name>
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>yyyy年MM月dd日 HH时</Format>
+                                 </DisplayFormat>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_RY_TIME</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>入院时间</ToolTip>
+                                 <BackgroundText>入院时间</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>Date</EditStyle>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>单位信息</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>102.156242</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>工作单位：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_WORK_UNIT</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_WORK_UNIT</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>工作单位</ToolTip>
+                                 <BackgroundText>工作单位</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>电话：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_W_PHONE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_W_PHONE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>工作单位的电话</ToolTip>
+                                 <BackgroundText>工作单位的电话</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>地址：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_WORKADRESS</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_WORKADRESS</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>工作单位地址</ToolTip>
+                                 <BackgroundText>工作单位地址</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>邮编：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_W_POSTALCODE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_W_POSTALCODE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>工作单位邮政编码</ToolTip>
+                                 <BackgroundText>工作单位邮政编码</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>联系人信息</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>105.156242</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>联系人：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_LINKMAN_NAME</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_LINKMAN_NAME</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>联系人姓名</ToolTip>
+                                 <BackgroundText>联系人姓名</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>关系：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_LM_RAPPORT</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_LM_RAPPORT</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>联系人关系</ToolTip>
+                                 <BackgroundText>联系人关系</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>联系人关系</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>电话：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_LM_PHONE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_LM_PHONE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>联系人电话</ToolTip>
+                                 <BackgroundText>联系人电话</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>地址：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_LM_ADDRESS</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_LM_ADDRESS</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>联系人地址</ToolTip>
+                                 <BackgroundText>联系人地址</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>保险信息</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>102.156242</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>保险代码：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_INSURANCE_CE_CODE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_INSURANCE_CE_CODE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>保险中心号码</ToolTip>
+                                 <BackgroundText>保险中心号码</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>保险名称：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_INSURANCE_CE_NAME</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_INSURANCE_CE_NAME</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>保险中心名称</ToolTip>
+                                 <BackgroundText>保险中心名称</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>保险号：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_INSURANCE_CODE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_INSURANCE_CODE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>保险号</ToolTip>
+                                 <BackgroundText>保险号</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>人员类型：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <Name>EMR_Patients.PA_PERSONNEL_TYPE</Name>
+                                 <ValueBinding>
+                                    <DataSource>EMR_Patients</DataSource>
+                                    <BindingPath>PA_PERSONNEL_TYPE</BindingPath>
+                                    <AutoUpdate>true</AutoUpdate>
+                                    <Readonly>false</Readonly>
+                                 </ValueBinding>
+                                 <ValidateStyle />
+                                 <InnerValue />
+                                 <ToolTip>人员类型</ToolTip>
+                                 <BackgroundText>人员类型</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName>联系人类型</SourceName>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>312.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>312.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>312.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>312.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>274.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>350.458344</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements />
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements />
+      </Element>
+   </XElements>
+   <Info>
+      <CreationTime>2012-07-12T11:21:34.5655682+08:00</CreationTime>
+      <LastModifiedTime>2012-07-12T11:21:34.5655682+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>XDesigner.Writer Version:1.0.1111.19546</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>住院病人基本信息
+
+基本信息病人ID：病人ID姓名：姓名性别：性别出生年月：出生日期身份证号：身份证号国籍：国籍民族：民族职业：职业门诊号：门诊号一卡通号：一卡通号婚姻状况：婚姻情况出生地：出生地户口地址：户口所在地邮编：户口所在地的邮编电话：户口所在地的电话病案号：病历号入院信息病人来源：病人来源门诊医生：门诊医生诊断：诊断入院情况：入院情况付款方式：付款方式入院前经院外诊治：入院前诊断入院方式（途径）：入院方式住院科别：入科科别入院时间：入院时间单位信息工作单位：工作单位电话：工作单位的电话地址：工作单位地址邮编：工作单位邮政编码联系人信息联系人：联系人姓名关系：联系人关系电话：联系人电话地址：联系人地址保险信息保险代码：保险中心号码保险名称：保险中心名称保险号：保险号人员类型：人员类型
+</BodyText>
+   <UserHistories />
+   <Comments />
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+         <PrintBackColor />
+         <GridLineColor />
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <BorderWidth>1</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+            <BorderSpacing>8</BorderSpacing>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="1">
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>15</PaddingTop>
+            <PaddingBottom>15</PaddingBottom>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="2">
+            <Bold>true</Bold>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="3">
+            <Align>Center</Align>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="4">
+            <FontSize>21.75</FontSize>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+         <Style Index="5">
+            <Bold>true</Bold>
+            <Align>Center</Align>
+            <PrintBackColor />
+            <GridLineColor />
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <LocalConfig />
+   <PageSettings />
+</XTextDocument>

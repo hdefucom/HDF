@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes>
+      <Attribute>
+         <Name>IsShowGridLine</Name>
+         <Value>true</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XInputField" StyleIndex="5">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>病程标题</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>SJZSJZ2013061200068</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>引用域</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Quote</Name>
+                     <Value>1</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>ID</Name>
+                     <Value>LoginDoct</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>CourseTitle</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString" StyleIndex="5">
+                     <Text>首次病程记录</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>CourseTitle</Name>
+               <InnerValue>首次病程记录</InnerValue>
+               <BackgroundText>病程标题</BackgroundText>
+               <EnableHighlight>Disabled</EnableHighlight>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="6">
+               <ID>5d302ca8-2925-4ead-b5ed-299553</ID>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>病程记录时间</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>SJZSJZ2013061200068</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>引用域</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Quote</Name>
+                     <Value>1</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>963176fd-eaf3-482b-bb43-2abd81</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString" StyleIndex="1">
+                     <Text>2014-01-05 16:35:31</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>CourseTime</Name>
+               <InnerValue>2014-01-05 16:35:31</InnerValue>
+               <ToolTip>病程记录时间</ToolTip>
+               <BackgroundText>病程记录时间</BackgroundText>
+               <FieldSettings>
+                  <EditStyle>DateTime</EditStyle>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>12799b00-6bb6-4872-97e8-51917e</ID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text>一、病历特点</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>d9b5c570-c1f4-42e7-8242-f637c7</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>患者钟朋云，男，63岁，因“肝内外胆管结石术后1月余。”于2013-12-30步行入院，病史特点如下：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>73b1fad0-bd9a-426c-a9eb-24f467</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>1.患者为老年男性。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="11">
+               <ID>74c10394-bf86-47da-8b60-7d032d</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>2.缘于1月余前于我科诊断“肝内外胆管结石伴慢性胆管炎”，在无手术禁忌下于11.26在全麻下行“胆囊切除+胆总管切开取石+左肝外叶切除+术中胆道镜取石+T管引流术”。术中探查：未见明显腹水，胆囊与大网膜稍粘连；肝脏质地软，色红润，左、右肝实质内可触及多枚大小不等结石，部分左肝组织萎缩，肝组织内未及明显肿物；胆囊约8.0cm*4.0cm*3.0cm，内可及泥沙样结石，胆囊壁稍充血水肿，壁厚约3mm；胆囊三角尚清晰；胆总管直径约1.8cm，内未扪及结石；胃、脾脏等未发现明显异常。术顺，术后病理：原发性肝胆管结石并胆管炎，慢性胆囊炎。术后予舒普深抗感染及保肝、补液、营养支持及对症等治疗后恢复好带T管出院。出院以来一般情况可，无畏寒、发热、腹痛、腹胀、皮肤黄、尿黄等不适，今为复查就诊我院。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="11">
+               <ID>366a85e7-42ce-4cfd-8f0d-cbc648</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>3.既往素健，否认“高血压、冠心病、糖尿病”等病史，否认“乙型病毒性肝炎、肺结核、伤寒”等传染病史。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="11">
+               <ID>8a371ce7-4130-4fc2-a453-b558fd</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>4.查体：T：36.6℃，P：72次/分，R:19次/分，BP:126/90mmHg，神志清楚，全身皮肤粘膜无明显黄染，全身浅表淋巴结未触及肿大；心肺检查无特殊；腹平坦，双侧对称，右上腹可见一长约25cm“弧形”陈旧性术痕，右肋下可一T管，固定良好，内有胆汁引出，引流管口稍有红肿；腹壁静脉无曲张，未见胃肠型及肠蠕动波；腹肌柔软，全腹无压痛、反跳痛，未触及肿物及包块，无液波震颤。肝于右锁骨中线肋缘下及剑突下未触及，脾于左肋缘下未触及，肝上界于右锁骨中线上第五肋间叩出，肝浊音界正常，肝下界位于右肋缘下，肝脾肾区无叩痛，移动性浊音阴性；肠鸣音4次/分，无血管杂音，无振水音，双下肢无水肿。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="11">
+               <ID>1e1e4165-4bc5-4393-b735-b5df35</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>5.辅助检查：暂缺。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="11">
+               <ID>105e0cb3-6ebf-4364-9ae4-f3e002</ID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text>二、初步诊断</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>15b37890-fda8-40d2-b318-8528c4</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>1.肝内外胆管结石术后,2.胆囊切除术后</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>1861efaf-9a5d-4af4-8736-39c5db</ID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text>三、诊断依据</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>ae00a443-e547-4a79-9c46-b4891c</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>    1)肝内外胆管结石术后1月余。2)11.26于我科在全麻下行“胆囊切除+胆总管切开取石+左肝外叶切除+术中胆道镜取石+T管引流术”。3)查体：腹平坦，双侧对称，右上腹可见一长约25cm“弧形”陈旧性术痕，右肋下可一T管，固定良好，内有胆汁引出，引流管口稍有红肿；腹壁静脉无曲张，未见胃肠型及肠蠕动波；腹肌柔软，全腹无压痛、反跳痛，未触及肿物及包块，无液波震颤。肝于右锁骨中线肋缘下及剑突下未触及，脾于左肋缘下未触及，肝上界于右锁骨中线上第五肋间叩出，肝浊音界正常，肝下界位于右肋缘下，肝脾肾区无叩痛，移动性浊音阴性；肠鸣音4次/分，无血管杂音，无振水音，双下肢无水肿。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>a3c7b22c-0988-4d73-bf33-134c4e</ID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text>四、鉴别诊断</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>079f9ab4-3872-42c1-8bbe-fd556e</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>    根据患者病史应做一下鉴别，1.消化性溃疡急性穿孔：有较典型的溃疡病史，腹痛突然加剧，腹肌紧张，肝浊音界消失，腹平片可见膈下有游离气体，可予鉴别。2.急性肠梗阻：腹痛多为阵发性，腹胀、呕吐、肠鸣音多亢进，肛门停止排气排便，腹平片可见多个液气平面，可予鉴别。3.急性胰腺炎，多于暴饮暴食后腹痛发作或合并胆囊结石者结石落入胆总管而发作，伴呕吐，呕吐后疼痛不缓解，仰卧位时疼痛多明显，严重者左上腹、腰部可见淤血征，血尿淀粉酶多较高，进一步影像学检查鉴别诊断；结合患者诊疗史，倾向患者腹痛为胆源性胰腺炎。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>d8334844-1bd3-4398-b2f5-d82128</ID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="10">
+               <Text>五、诊疗计划</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7">
+               <ID>6821b421-b52d-40d5-b15e-053f0c</ID>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>    1.肝胆外科常规护理，二级护理，低脂软质饮食；2.予完善血常规、生化、心电图、T管造影等检查；3.</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="7">
+               <Text>将目前病情及诊疗方案告之患者及家属，其表示理解，上级医师罗顺峰副主任医师已珍视过病人，并指导上述诊疗方并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案案。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="9" WhiteSpaceLength="71">
+               <Text>                                                                       </Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="9">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>登录医生</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>SJZSJZ2013061200068</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>引用域</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>Quote</Name>
+                     <Value>1</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>8c7ff682-5571-4928-8b95-d39054</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString" StyleIndex="9">
+                     <Text>林联库</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>LoginDoct</Name>
+               <InnerValue>林联库</InnerValue>
+               <ToolTip>登录医生</ToolTip>
+               <BackgroundText>登录医生</BackgroundText>
+               <FieldSettings>
+                  <EditStyle>DateTime</EditStyle>
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>X  X </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text> 医 院</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>姓名his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+               </Attributes>
+               <ID>24c4eb0a-1e66-4aac-a529-9ab671</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>name</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <SpecifyWidth>295.2756</SpecifyWidth>
+               <EventExpressions />
+               <LabelText>姓名:</LabelText>
+               <Name>name</Name>
+               <InnerValue />
+               <ToolTip>姓名</ToolTip>
+               <BackgroundText>姓名</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>就诊病区his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+               </Attributes>
+               <ID>c4de0ff9-dffb-456c-ba0b-617bc9</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>PA_sickarea</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <SpecifyWidth>354.330719</SpecifyWidth>
+               <EventExpressions />
+               <LabelText>病区：</LabelText>
+               <Name>sickarea</Name>
+               <InnerValue />
+               <ToolTip>病区</ToolTip>
+               <BackgroundText>病区</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>入院床号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+               </Attributes>
+               <ID>42e0f8ac-6b8d-460c-86e6-7c73ea</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>insickroom</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <SpecifyWidth>177.165359</SpecifyWidth>
+               <EventExpressions />
+               <LabelText>床号：</LabelText>
+               <Name>insickroom</Name>
+               <InnerValue />
+               <ToolTip>床号</ToolTip>
+               <BackgroundText>床号</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>患者住院号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+               </Attributes>
+               <ID>b5c49189-5586-4563-a835-3a51d3</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>Regno</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <SpecifyWidth>354.330719</SpecifyWidth>
+               <EventExpressions />
+               <LabelText>住院号：</LabelText>
+               <Name>Regno</Name>
+               <InnerValue />
+               <ToolTip>住院号</ToolTip>
+               <BackgroundText>住院号</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>第</Text>
+            </Element>
+            <Element xsi:type="XPageInfo">
+               <Attributes />
+               <ScriptItems />
+               <Width>100</Width>
+               <Height>62</Height>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>页 </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+   </XElements>
+   <Info>
+      <MRID>2014007801</MRID>
+      <LicenseText>南京都昌信息科技有限公司演示版:南京都昌信息科技有限公司演示版</LicenseText>
+      <CreationTime>2013-05-07T14:34:17.7385618+08:00</CreationTime>
+      <LastModifiedTime>2014-11-17T15:32:48.2134308+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1413.31734</Operator>
+      <NumOfPage>2</NumOfPage>
+   </Info>
+   <BodyText>首次病程记录
+2014-01-05 16:35:31
+一、病历特点
+患者钟朋云，男，63岁，因“肝内外胆管结石术后1月余。”于2013-12-30步行入院，病史特点如下：
+1.患者为老年男性。
+2.缘于1月余前于我科诊断“肝内外胆管结石伴慢性胆管炎”，在无手术禁忌下于11.26在全麻下行“胆囊切除+胆总管切开取石+左肝外叶切除+术中胆道镜取石+T管引流术”。术中探查：未见明显腹水，胆囊与大网膜稍粘连；肝脏质地软，色红润，左、右肝实质内可触及多枚大小不等结石，部分左肝组织萎缩，肝组织内未及明显肿物；胆囊约8.0cm*4.0cm*3.0cm，内可及泥沙样结石，胆囊壁稍充血水肿，壁厚约3mm；胆囊三角尚清晰；胆总管直径约1.8cm，内未扪及结石；胃、脾脏等未发现明显异常。术顺，术后病理：原发性肝胆管结石并胆管炎，慢性胆囊炎。术后予舒普深抗感染及保肝、补液、营养支持及对症等治疗后恢复好带T管出院。出院以来一般情况可，无畏寒、发热、腹痛、腹胀、皮肤黄、尿黄等不适，今为复查就诊我院。
+3.既往素健，否认“高血压、冠心病、糖尿病”等病史，否认“乙型病毒性肝炎、肺结核、伤寒”等传染病史。
+4.查体：T：36.6℃，P：72次/分，R:19次/分，BP:126/90mmHg，神志清楚，全身皮肤粘膜无明显黄染，全身浅表淋巴结未触及肿大；心肺检查无特殊；腹平坦，双侧对称，右上腹可见一长约25cm“弧形”陈旧性术痕，右肋下可一T管，固定良好，内有胆汁引出，引流管口稍有红肿；腹壁静脉无曲张，未见胃肠型及肠蠕动波；腹肌柔软，全腹无压痛、反跳痛，未触及肿物及包块，无液波震颤。肝于右锁骨中线肋缘下及剑突下未触及，脾于左肋缘下未触及，肝上界于右锁骨中线上第五肋间叩出，肝浊音界正常，肝下界位于右肋缘下，肝脾肾区无叩痛，移动性浊音阴性；肠鸣音4次/分，无血管杂音，无振水音，双下肢无水肿。
+5.辅助检查：暂缺。
+二、初步诊断
+1.肝内外胆管结石术后,2.胆囊切除术后
+三、诊断依据
+    1)肝内外胆管结石术后1月余。2)11.26于我科在全麻下行“胆囊切除+胆总管切开取石+左肝外叶切除+术中胆道镜取石+T管引流术”。3)查体：腹平坦，双侧对称，右上腹可见一长约25cm“弧形”陈旧性术痕，右肋下可一T管，固定良好，内有胆汁引出，引流管口稍有红肿；腹壁静脉无曲张，未见胃肠型及肠蠕动波；腹肌柔软，全腹无压痛、反跳痛，未触及肿物及包块，无液波震颤。肝于右锁骨中线肋缘下及剑突下未触及，脾于左肋缘下未触及，肝上界于右锁骨中线上第五肋间叩出，肝浊音界正常，肝下界位于右肋缘下，肝脾肾区无叩痛，移动性浊音阴性；肠鸣音4次/分，无血管杂音，无振水音，双下肢无水肿。
+四、鉴别诊断
+    根据患者病史应做一下鉴别，1.消化性溃疡急性穿孔：有较典型的溃疡病史，腹痛突然加剧，腹肌紧张，肝浊音界消失，腹平片可见膈下有游离气体，可予鉴别。2.急性肠梗阻：腹痛多为阵发性，腹胀、呕吐、肠鸣音多亢进，肛门停止排气排便，腹平片可见多个液气平面，可予鉴别。3.急性胰腺炎，多于暴饮暴食后腹痛发作或合并胆囊结石者结石落入胆总管而发作，伴呕吐，呕吐后疼痛不缓解，仰卧位时疼痛多明显，严重者左上腹、腰部可见淤血征，血尿淀粉酶多较高，进一步影像学检查鉴别诊断；结合患者诊疗史，倾向患者腹痛为胆源性胰腺炎。
+五、诊疗计划
+    1.肝胆外科常规护理，二级护理，低脂软质饮食；2.予完善血常规、生化、心电图、T管造影等检查；3.将目前病情及诊疗方案告之患者及家属，其表示理解，上级医师罗顺峰副主任医师已珍视过病人，并指导上述诊疗方并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案并指导上述诊疗方案案。
+                                                                       林联库</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <PrinterName />
+      <PaperSource />
+      <LeftMargin>78</LeftMargin>
+      <RightMargin>78</RightMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>32, 31, 53</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+         <Style Index="2">
+            <Color>13, 13, 13</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="3">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+         <Style Index="4">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+         <Style Index="5">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>14.25</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="6">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>Space1pt5</LineSpacingStyle>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="7">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>Space1pt5</LineSpacingStyle>
+         </Style>
+         <Style Index="8">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>Space1pt5</LineSpacingStyle>
+            <CreatorIndex>0</CreatorIndex>
+         </Style>
+         <Style Index="9">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Right</Align>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+         <Style Index="10">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="11">
+            <Color>32, 31, 53</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>Space1pt5</LineSpacingStyle>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories>
+      <History>
+         <ID>admin</ID>
+         <Name>管理员</Name>
+         <SavedTime>2013-09-11T19:49:20.203125+08:00</SavedTime>
+      </History>
+   </UserHistories>
+</XTextDocument>

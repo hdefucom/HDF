@@ -1,0 +1,2277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes>
+      <Attribute>
+         <Name>IsShowGridLine</Name>
+         <Value>false</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="11" NumOfColumns="4">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>日期：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>日期</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>271b482a-4e31-4dbd-acce-720ffb</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <Required>true</Required>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoDate</Name>
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>yyyy-MM-dd</Format>
+                                 </DisplayFormat>
+                                 <InnerValue />
+                                 <ToolTip>日期</ToolTip>
+                                 <BackgroundText>日期</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>Date</EditStyle>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>时间：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>时间</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>99a9e0ab-d84e-4ac1-b68e-8e6405</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <Required>true</Required>
+                                    <ValueType>Time</ValueType>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text InputField</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoTime</Name>
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>HH:mm:00</Format>
+                                 </DisplayFormat>
+                                 <InnerValue />
+                                 <ToolTip>时间</ToolTip>
+                                 <BackgroundText>时间</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>Time</EditStyle>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>神志：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>神志</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>97dd47f9-3ed4-4250-8978-40e99a</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <AcceptChildElementTypes2>Text</AcceptChildElementTypes2>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoSanity</Name>
+                                 <ToolTip>单选</ToolTip>
+                                 <BackgroundText>神志</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>清醒</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>嗜睡</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>模糊</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>昏睡</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>浅昏迷</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>重度昏迷</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>深昏迷</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>谵妄</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>镇静</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="15">
+                                 <Text>体温：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>体温</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>插入时间</Name>
+                                       <Value>2013/5/29 16:35:44</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>c6347dc3-e2af-4a4f-8f26-624e77</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoAnimalHeat</Name>
+                                 <InnerValue />
+                                 <ToolTip>体温</ToolTip>
+                                 <BackgroundText>体温</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>脉搏：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>脉搏</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>a54dd7b0-20cc-4aca-a12a-3b4ee5</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoPulse</Name>
+                                 <InnerValue />
+                                 <ToolTip>脉搏</ToolTip>
+                                 <BackgroundText>脉搏</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>呼吸：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>呼吸</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>164a6657-f458-4e5d-8c0c-21510d</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoBreath</Name>
+                                 <InnerValue />
+                                 <ToolTip>呼吸</ToolTip>
+                                 <BackgroundText>呼吸</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>血压：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>血压</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>0c349a70-925e-412f-9f62-c52a32</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoBloodPressure</Name>
+                                 <InnerValue />
+                                 <ToolTip>血压</ToolTip>
+                                 <BackgroundText>血压</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>CVP：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>CVP</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>4491be21-0be6-4720-b88f-664fd2</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoCVP</Name>
+                                 <InnerValue />
+                                 <ToolTip>CVP</ToolTip>
+                                 <BackgroundText>CVP</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>SaO</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="17">
+                                 <Text>2</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>SaO2</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>be587839-29f6-4dd5-b8a7-25d32c</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoSaO2</Name>
+                                 <InnerValue />
+                                 <ToolTip>SaO2</ToolTip>
+                                 <BackgroundText>SaO2</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="12" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>吸氧：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>吸氧</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>5028b163-36b3-4a42-ae93-c18473</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle>
+                                    <ValueName />
+                                    <ValueType>Numeric</ValueType>
+                                    <MaxValue>NaN</MaxValue>
+                                    <MinValue>NaN</MinValue>
+                                    <ExcludeKeywords />
+                                    <CustomMessage />
+                                 </ValidateStyle>
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoOxygen</Name>
+                                 <InnerValue />
+                                 <ToolTip>吸氧</ToolTip>
+                                 <BackgroundText>吸氧</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID>ruLiang</ID>
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>入</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="3" WhiteSpaceLength="1">
+                                 <Text> </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>量项目：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>入量项目</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>b22d8cd9-f106-4e5f-b1a9-6ea170</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoItem</Name>
+                                 <InnerValue />
+                                 <ToolTip>入量项目</ToolTip>
+                                 <BackgroundText>入量项目</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>入 量：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>入量量</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>e6bc3539-2de8-488a-bcb5-be6a85</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoValue</Name>
+                                 <InnerValue />
+                                 <ToolTip>入量</ToolTip>
+                                 <BackgroundText>入量</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>入量量</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>5d2bcee3-47c8-407b-b569-20c28a</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoValue</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoValue</Name>
+                                 <InnerValue />
+                                 <ToolTip>入量</ToolTip>
+                                 <BackgroundText>入量</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>入量途径：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>入量用途</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>43408bc2-8ba4-4850-bb56-9496ec</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoPurpose</Name>
+                                 <InnerValue />
+                                 <ToolTip>入量途径</ToolTip>
+                                 <BackgroundText>入量途径</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <ID>chuLiang</ID>
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>入量用途</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>410d902e-90ce-4543-b3da-55d6cd</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoPurpose</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoPurpose</Name>
+                                 <InnerValue />
+                                 <ToolTip>入量途径</ToolTip>
+                                 <BackgroundText>入量途径</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>出量项目：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>出量项目</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>42ababdf-d370-4296-aafe-05fa76</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoOItem</Name>
+                                 <InnerValue />
+                                 <ToolTip>出量项目</ToolTip>
+                                 <BackgroundText>出量项目</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="16">
+                                 <Text>出量：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>出量量</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>1a2b9f52-8444-4865-8cea-27f4cc</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoOvolume</Name>
+                                 <InnerValue />
+                                 <ToolTip>出量</ToolTip>
+                                 <BackgroundText>出量</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="3">
+                                 <Text>出量项目：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>出量项目</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>6c2ddbea-69e9-4305-ae5e-498c78</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoOItem</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoOItem</Name>
+                                 <InnerValue />
+                                 <ToolTip>出量项目</ToolTip>
+                                 <BackgroundText>出量项目</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="3">
+                                 <Text> 出量：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>出量量</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>ab25bab2-6339-4aa8-bf5f-6a1129</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoOvolume</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoOvolume</Name>
+                                 <InnerValue />
+                                 <ToolTip>出量</ToolTip>
+                                 <BackgroundText>出量</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="15">
+                                 <Text>皮肤：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="19">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>皮肤</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>1d75e022-31d3-44d2-ae3b-c15011</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoCutis</Name>
+                                 <InnerValue>完整</InnerValue>
+                                 <ToolTip>皮肤</ToolTip>
+                                 <BackgroundText>皮肤</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>完整</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>皮疹</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>瘀斑</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>破溃</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="15">
+                                 <Text>管路护理名称：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>管理护路名称</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>14b37f78-0867-4703-91de-405b4b</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoDirectorialName</Name>
+                                 <InnerValue />
+                                 <ToolTip>管理护路名称</ToolTip>
+                                 <BackgroundText>管理护路名称</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>左股内静脉</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右股内静脉</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>左颈内静脉</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右颈内静脉</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>左锁骨下静脉</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右锁骨下静脉</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>皮肤</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>0bf89edc-039b-44f5-a8f5-f334ac</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoCutis</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoCutis</Name>
+                                 <InnerValue />
+                                 <ToolTip>皮肤</ToolTip>
+                                 <BackgroundText>皮肤</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>出量项目</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>2b0e2dac-48c4-4ff7-a7c3-f34d91</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoOItem</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoOItem</Name>
+                                 <InnerValue />
+                                 <ToolTip>出量项目</ToolTip>
+                                 <BackgroundText>出量项目</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="15">
+                                 <Text>管路护理深度：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>管理护路深度</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>38de072a-ec42-46d2-83bd-4a5a29</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoDirectorialDepth</Name>
+                                 <InnerValue />
+                                 <ToolTip>管理护路深度</ToolTip>
+                                 <BackgroundText>管理护路深度</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="15">
+                                 <Text>管路护理通畅：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>管理护路通畅</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>c35c2f93-fc9d-4434-a756-7fe34f</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoDirectorialFluency</Name>
+                                 <InnerValue />
+                                 <ToolTip>管理护路通畅</ToolTip>
+                                 <BackgroundText>管理护路通畅</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>管理护路名称</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>22f7c2b4-6434-4a36-b4ad-ef0576</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoDirectorialName</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoDirectorialName</Name>
+                                 <InnerValue />
+                                 <ToolTip>管理护路名称</ToolTip>
+                                 <BackgroundText>管理护路名称</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="3">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>出量量</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>d9659585-9b2b-483a-9c13-c0e54f</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>nurseIntoOvolume</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoOvolume</Name>
+                                 <InnerValue />
+                                 <ToolTip>出量</ToolTip>
+                                 <BackgroundText>出量</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>体位：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>体位</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>a6e445ae-65db-488d-82ca-dd7c82</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoPosition</Name>
+                                 <InnerValue />
+                                 <ToolTip>体位</ToolTip>
+                                 <BackgroundText>体位</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>平卧</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>左侧</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右侧</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>伴卧</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>中凹位</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>端坐</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>知识库选择</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>弹出窗口</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>PopForm</Name>
+                                       <Value>know_0001</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>PopFormClass</Name>
+                                       <Value>YunChou.EMR.Win.FrmKnowQuote</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>f3305d89-db73-4d72-a06d-a6091b</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding>
+                                    <DataSource>know_0001</DataSource>
+                                    <AutoUpdate>true</AutoUpdate>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Visible>false</Visible>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>know_0001</Name>
+                                 <InnerValue />
+                                 <ToolTip>知识库选择</ToolTip>
+                                 <BackgroundText>知识库选择</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>病情观察及措施：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>知识库选择</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>弹出窗口</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>PopForm</Name>
+                                       <Value>know_0001</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>PopFormClass</Name>
+                                       <Value>YunChou.EMR.Win.FrmKnowQuote</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>7ad06033-0ea9-4409-86de-db21af</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>know_0001</Name>
+                                 <InnerValue />
+                                 <ToolTip>知识库选择</ToolTip>
+                                 <BackgroundText>病情观察及措施</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>75</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" WhiteSpaceLength="8">
+                                 <Text>        </Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>12小时小结</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>6dc2ac79-be95-4d87-891e-44401e</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntoSummary</Name>
+                                 <InnerValue />
+                                 <ToolTip>12小时小结</ToolTip>
+                                 <BackgroundText>12小时小结</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" WhiteSpaceLength="15">
+                                 <Text>               </Text>
+                              </Element>
+                              <Element xsi:type="XInputField">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>DATASHOWNAME</Name>
+                                       <Value>24小时总结</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPCODE</Name>
+                                       <Value>internalMedicine</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>DATAGROUPSHOWNAME</Name>
+                                       <Value>护理记录(内科)</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>df1c894d-e24e-410b-acb2-f2658c</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <ValidateStyle />
+                                 <ValueBinding />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>nurseIntosummarize</Name>
+                                 <InnerValue />
+                                 <ToolTip>24小时总结</ToolTip>
+                                 <BackgroundText>24小时小结</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="0">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>112</SpecifyHeight>
+                  </Element>
+               </XElements>
+               <LeftIndent>119</LeftIndent>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>596.5296</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>294</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>216.110168</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>953.110168</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="1" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="8">
+               <Text>某 人 民</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="18">
+               <Text> 医 院</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>护理记录单录入</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="10" WhiteSpaceLength="2">
+               <Text>  </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>姓名：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="11">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>姓名his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/5/29 16:24:51</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>6a2de9d3-2981-43b9-9966-d133dc</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>name</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>name</Name>
+               <InnerValue />
+               <ToolTip>姓名his</ToolTip>
+               <BackgroundText>姓名</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text> 性别：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="11">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>性别his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/5/29 16:24:51</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>e6b6b2d7-c8e0-413d-9c42-4022ac</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>gender</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>gender</Name>
+               <InnerValue />
+               <ToolTip>性别his</ToolTip>
+               <BackgroundText>性别</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>年龄：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="11">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>年龄his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/5/29 16:24:51</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>c9b3d707-34f8-4762-a58c-cdd5b8</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>PA_Age</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>Age</Name>
+               <InnerValue />
+               <ToolTip>年龄his</ToolTip>
+               <BackgroundText>年龄</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString">
+               <Text>岁</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>病区：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="11">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>就诊病区his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/5/29 16:24:51</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>0cea39ee-81f7-4349-8728-ff87f3</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>PA_sickarea</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>sickarea</Name>
+               <InnerValue />
+               <ToolTip>就诊病区his</ToolTip>
+               <BackgroundText>病区</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>床号：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="11">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>入院床号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/6/6 22:31:36</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>24c85de3-a287-476e-83d5-a0a60e</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>insickroom</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>insickroom</Name>
+               <InnerValue />
+               <ToolTip>入院床号his</ToolTip>
+               <BackgroundText>床号</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <Text>住院号:</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="11">
+               <Attributes>
+                  <Attribute>
+                     <Name>DATASHOWNAME</Name>
+                     <Value>患者住院号his</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPCODE</Name>
+                     <Value>INTEFACE</Value>
+                  </Attribute>
+                  <Attribute>
+                     <Name>DATAGROUPSHOWNAME</Name>
+                     <Value>接口数据</Value>
+                  </Attribute>
+                  <Attribute />
+                  <Attribute>
+                     <Name>插入时间</Name>
+                     <Value>2013/5/29 16:24:51</Value>
+                  </Attribute>
+               </Attributes>
+               <ID>5d605cb8-f99b-4ad8-935c-817abe</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ValidateStyle />
+               <ValueBinding>
+                  <DataSource>EMR_Patients</DataSource>
+                  <BindingPath>Regno</BindingPath>
+                  <AutoUpdate>true</AutoUpdate>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>Regno</Name>
+               <InnerValue />
+               <ToolTip>患者住院号his</ToolTip>
+               <BackgroundText>住院号</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>第</Text>
+            </Element>
+            <Element xsi:type="XPageInfo">
+               <Attributes />
+               <ScriptItems />
+               <Width>100</Width>
+               <Height>100</Height>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>页 </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+         </XElements>
+      </Element>
+   </XElements>
+   <Info>
+      <LicenseText>都昌测试:</LicenseText>
+      <CreationTime>2013-05-28T17:53:22.8360454+08:00</CreationTime>
+      <LastModifiedTime>2015-01-19T09:53:09.6213928+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1413.31816</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>日期：   时间：   
+神志：   体温：   
+脉搏：   呼吸：   
+血压：   CVP：   
+SaO2：   吸氧：   
+入 量项目： 入 量：   入量途径： 
+出量项目：   出量：   
+出量项目： 出量：皮肤：   管路护理名称：   
+管路护理深度：   管路护理通畅：   
+体位：   病情观察及措施：   
+                             </BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <PrinterName />
+      <PaperSource />
+      <LeftMargin>59</LeftMargin>
+      <RightMargin>59</RightMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+         <Style Index="2">
+            <Color>13, 13, 13</Color>
+            <FontName>宋体</FontName>
+            <FontSize>14.25</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="4">
+            <Color>13, 13, 13</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="5">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="6">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="7">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>14.25</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="8">
+            <Color>13, 13, 13</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="9">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>14.25</FontSize>
+         </Style>
+         <Style Index="10">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="11">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Underline>true</Underline>
+         </Style>
+         <Style Index="12">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="13">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+         </Style>
+         <Style Index="14">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="15">
+            <Color>13, 13, 13</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="16">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="17">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Subscript>true</Subscript>
+            <ProtectType>Range</ProtectType>
+         </Style>
+         <Style Index="18">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>18</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+            <FirstLineIndent>100</FirstLineIndent>
+         </Style>
+         <Style Index="19">
+            <Color>13, 13, 13</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

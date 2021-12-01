@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreeView Name="tvwMenu" BackColor="window" HideSelection="False" Indent="19">
+   
+  <ImageList TransparentColor="Black">
+    
+    <Image Key="Logon.bmp">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAQABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC94S8BaTDpOnC01GCAxu8GsODiWRh8zYkIBMZ2DC8AAAkFtxLPF76R4lkt9D03Th/YVqSrvH8m9uAXUn+JR0JyTk5BBIOv4f8AGn2nS9Pu9KKyadFK7YK7XZj1STk4YBunuDyMGq3xA8S+HtGtv7VtpYo7uWIyLYOnzSSknadoIJQsG3MCB8p53EA+fKnKT0eul+//AAx4Mp1Kl1T0qXV+/TbyT3+/Y//Z</Image>
+    <Image Key="CommandFileOpen.bmp">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAQABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBl18BdDj0UXUetXqXEkW6NZChUEjjPAz19vTPeuVuvC99oWnCLWtE0vUbZ40gj/sqAvcB153swAPI4Jzydvqc+kp8RvDNrHGZ9Xt3dIlQCKQMFAHPQ9z6e1cn4y+K1jcaZLBo91uk/hOD8x6DqMcE7iDwduO9ebSxWIjW5OVtd7afedLo0/Z8zlqf/2Q==</Image>
+    <Image Key="DCTimeLine.bmp">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////wAA/wAA////////////////////////////////////////AAAAAAAA/////////wAA/wAA/wAA/wAA////////////////////////////////AAAAAAAA/////////////////wAA/wAA/wAA/wAA////////////////////MzMzAAAAAAAA/////////////////////////////wAA/wAA/wAA////////MzMzMzMzAAAAAAAA////////////////////////mQD//////////wAA/wAA/wAAMzMz////AAAAAAAA////////////////////mQD/mQD/mQD/////////MzMzMzMz/wAA/wAAAAAAAAAA////MzMz////////mQD/mQD/////mQD/mQD/MzMzMzMz////////////AAAAAAAA////MzMzMzMzmQD/mQD/////////////mQD/mQD/////////////////AAAAAAAA////////mQD/mQD/////////////MzMzMzMzmQD/mQD/////////////AAAAAAAA////mQD/mQD/MzMzMzMz////MzMzMzMz////////mQD/mQD/////////AAAAAAAA////mQD/////////MzMzMzMzMzMz////////////////mQD/mQD/////AAAAAAAA////////////////////MzMz////////////////////////mQD/mQD/AAAAAAAA////////////////////////////////////////////////////mQD/AAAAAAAA////////////////////////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Image>
+    <Image Key="FriedmanCurve48X48.bmp">Qk1yOAAA AAAAADYA AAAoAAAA PQAAAMX/ //8BACAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// kbhZ/6/M h//L3rD/ 4uzS//b5 8P/+//7/ //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// ///+//7/ 9vrx/+Lt 0//K3bD/ r8yH/5O5 XP+91Zz/ //////// //////// //////// //////// //////// //////// ////////
+ //////// /////2Sb GP9Ykwf/ bKAk/422 Vf+vzIf/ y96w/+Lt 0v/1+e// /v/+//// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// /v/+//b6 8f/i7dP/ yt2w/7DM iP+Pt1f/ bKEl/1eT
+ Bv9qnyL/ v9ae//// //////// //////// //////// //////// //////// //////// //////// //////// //+HsUz/ U48B/1KP AP9SjwD/ V5IG/2uf I/+NtlX/ rsuG/8rd
+ r//h7NH/ 9fnv//7/ /v////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////7/ /v/2+fH/ 4+7U/8ve sf+vzIj/ j7ZX/2yg Jf9Xkgb/ Uo8A/1KP AP9Xkgf/ kLha/+Tu 1v////// //////// //////// //////// //////// ////////
+ //////// //////// //////// utOX/2me IP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1eS Bv9roCP/ jbZU/63L hf/J3K7/ 4ezR//X5 7//+//7/ //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// ///+/v7/ 9vnx/+Pt 1P/M37L/ sM2J/4+3 WP9toSb/ V5MH/1KP AP9SjwD/ Uo8A/1KP
+ AP9UkAL/ daYy/8jc q//9/vz/ //////// //////// //////// //////// //////// //////// //////// //////// /////+ry 3/+kxXf/ YpoX/1KP AP9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1KP AP9Xkgb/ ap8i/422 VP+ty4X/ yd2u/+Dr 0P/1+e// ///+//// //////// //////// //////// //////// //////// //////// //////// /v7+//b5
+ 8f/j7dT/ zN6y/7DM if+Pt1j/ baEm/1eT B/9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9UkAL/ bqEo/7jS lP/1+e// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// 4+7V/57B bv9kmxr/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ VpIF/2qg Iv+MtVP/ rcqE/8rd
+ rv/g69D/ 9Pju//7/ /v////// //////// //////// //////7+ /v/3+vL/ 4+7V/8ze sv+xzYr/ kLhZ/26i J/9Xkwf/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP
+ AP9VkQT/ caMs/7bQ kf/x9un/ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////7+ /v/l79j/ qMh8/2yh
+ Jv9UkQP/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1aS Bf9roCL/ i7RS/6zJ g//I3K3/ 4OzQ//T4 7v/+//3/ 9/ry/+Pu 1f/N37P/ sc2K/5C4
+ Wv9uoif/ V5MH/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9blQz/ faw+/7/W nv/z9+z/ //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// /////+/1 5v+605j/ fq1A/12W D/9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1KP AP9WkgX/ aZ4g/4u1 Uv+syoP/ v9ae/7LO i/+QuFr/ b6Mo/1eT B/9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1WR
+ A/9nnR7/ lbtg/9Dh uP/5+/b/ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// +fv1/9bl wP+dwGz/ caMs/1iT CP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ VpIF/1yW DP9Xkwf/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ U5AB/2CZ FP+Cr0T/ s8+N/+jx 2/////7/ //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// 8Pbo/8Xa p/+Uul// b6Iq/1iT Cf9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9UkAL/ YZkV/36s
+ P/+ox3z/ 2ujG//r8 9/////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////7/ 7fTj/8PZ pf+ZvWf/ eak4/2CZ FP9UkAL/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1iT CP9soCT/ h7JM/6vK gf/X5sP/ +Pv0//// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ///+/v7/ 8/fs/9Hi
+ uv+syoL/ jbZW/3en Nf9jmxj/ VpIF/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1OQ Af9blQz/ bKAl/4Gu Q/+bvmn/ vtac/+Pt
+ 1P/7/fn/ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// /P37/+3z 4//O4LX/ sM2J/5e8 ZP+GsUv/ cKIr/1mU C/9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1KP AP9SjwD/ WpUM/3Kk Lf+LtFH/ o8R1/7/X nv/e6sv/ 9vrx//// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////7/ /v/3+vL/ 5e/X/8PZ pf+FsEv/ V5IH/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ WJMI/4Sw Sf/F2qf/ 6vLd//z+ +v////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ///8/fv/ xdmq/2+i
+ K/9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/26h Kf/A1qP/ /v79//// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// /////+nx 3v+Wu2T/ U5AB/1KP AP9SjwD/ Uo8A/1OQ Af+Otlj/ 5u/b//// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ ///6/Pj/ rsqI/1eT CP9SjwD/ Uo8A/1KP AP9Xkgf/ pMR4//r8 +P////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// /////73U nv9jmhj/ Uo8A/1KP AP9SjwD/ YJgV/7PO jv////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// ///H26z/ bKAn/1KP AP9SjwD/ Uo8A/2me Iv+91J3/ //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// zN6z/3Ok MP9SjwD/ Uo8A/1KP AP9uoSn/ wtil////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// /////83f tf90pTL/ Uo8A/1KP AP9SjwD/ b6Ir/8PY p/////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ///L3rP/ cqQw/1KP AP9SjwD/ Uo8A/22g
+ KP/B16T/ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// yNyu/26i Kv9SjwD/ Uo8A/1KP AP9pniL/ vNSd//// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// /////8LX pf9nnB// Uo8A/1KP
+ AP9SjwD/ ZJoa/7bQ k/////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //+50Zj/ XZYR/1KP AP9SjwD/ Uo8A/1yV Dv+ryYT/ /v7+//// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ///8/Pr/ r8uJ/1WR
+ Bf9SjwD/ Uo8A/1KP AP9VkQT/ oMJz//v8 +P////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// 8vbs/6LC df9TjwH/ Uo8A/1KP AP9SjwD/ Uo8A/5O4 YP/v9Of/ //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// /////+Xu
+ 2f+RuF3/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP+GsU3/ 3+vQ//// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// ///V5ML/ f6xC/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ d6c2/8ze tP////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// xNmo/2me I/9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/2Sb G/+30ZX/ //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// +vz4/6/M iv9ZlAr/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9Xkgf/ ocJ0//n7
+ 9f////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// /////+ry 4f+XvGb/ U5AB/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/4q0 U//k7tf/ //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ///U47// fKs+/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP
+ AP9zpTH/ yNyu//// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// ///9/fv/ utOZ/2KZ F/9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ XpcR/6rI gv/6/Pj/ //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// 7fPk/5y/ bP9TkAL/ Uo8A/1KP AP9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1OP Af+NtFb/ 5u7a//// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// /////9Dg uf93pzf/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ b6Eq/8PX pv/+/v7/ //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////X4 8f+tyob/ W5UO/1KP AP9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1mU Cv+ewHD/ 8/fs//// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// ///a5sj/ g69J/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ Uo8A/1KP AP9SjwD/ eag5/87f t/////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ///1+fH/ sMyL/1+Y FP9SjwD/ Uo8A/1KP
+ AP9SjwD/ Uo4C/1GM BP9RjQL/ Uo8A/1KP AP9SjwD/ Uo8A/1yV Dv+hwXT/ 8vbr//// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// ///+/v3/ 1OK//3+s Qv9SjwD/ Uo8A/1KO Av9Phwr/ S3sY/0dv J/9EZzD/ Rmwq/0p5 Gv9PhQz/ UY0C/1KP AP9SjwD/ c6Qx/8fa
+ rP/8/fv/ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// 6fHf/5y/ bf9Zkw3/ T4cK/0t7
+ GP9Hbyf/ QV46/ztM UP81PGT/ MzRt/zQ5 Z/86SVP/ QFw9/0Zt Kv9KeRr/ T4UL/1aR Cf+NtVf/ 4OzS//7+ /v////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// 7fPn/6rC kP9giTf/ R24n/0Fe Ov87TFD/ NTxk/zMz bv8yMm// MjJv/zIy b/8yMm// MjJv/zIz bv80Omf/ OklT/0Bc
+ Pf9GbSn/ WoMw/5u3 e//l7dv/ /v79//// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////z8 /f/t7fP/ 0dLd/5ym pf9abl// O0xQ/zU7
+ ZP8zM27/ MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yM27/ NTpm/zpJ U/9RZ1b/ jZqR/8nL 0//q6vD/ /Pz9//// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// ///8/P3/ 7Ozy/9PT 4P+2tsv/ k5Oz/2hp k/9DRHf/ MzNu/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy
+ b/8yMm// MjJv/zIy b/8yMm// MjNu/zw+ cP9fYYj/ j4+w/7Oz yv/Q0N7/ 6+vx//z8 /f////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// /Pz9/+zs 8v/S0t// tbXL/5KS s/9qapb/ RkZ9/zMz cP8yMm// MjJv/zIy
+ b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zQ0 cP9ERHv/ Z2eU/5CQ
+ sf+zs8n/ 0dHf/+vr 8P/8/P3/ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////z8
+ /f/r6/H/ 0tLf/7W1 y/+SkrP/ aWmW/0VF ff8zM3D/ MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy
+ b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/80NHD/ RER7/2ho lf+QkLD/ tLTK/9HR 3//s7PH/ /Pz9//// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// /////9HR 3/+0tMr/ kZGy/2lp lv9ERHz/ MzNw/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy
+ b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy b/8yMm// MjJv/zIy
+ b/8yMm// MjJv/zIy b/8yMm// NDRw/0RE e/9oaJX/ kZGx/7W1 y//R0d// 7u7z//// //////// //////// //////// //////// //////// //////// //////// ////////
+ //+7u8// lpa2/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE
+ qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4SE qf+EhKn/ hISp/4WF qf+WlrX/ u7vP/+bm
+ 7f////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// //////// ////////
+ //////// //////// //////// //////// //////// //////// //////// //////// //8=</Image>
+    <Image Key="xml">
+      Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAA////hISE9/f39/f3////9/f3////9/f39/f39/f3////9/f3////9/f3////
+      AAAA////hISE9/f39/f39/f3////9/f3////9/f3////9/f39/f39/f3////9/f3
+      AAAA////hISE9/f39/f3nGMxnGMxnGMxnGMxnGMxnGMxnGMxnGMxnGMx9/f3////
+      AAAA////hISE9/f39/f39/f3////9/f3////9/f3////9/f3////9/f3////////
+      AAAA////hISE9/f39/f3nGMxnGMxnGMxnGMxnGMxnGMxnGMxnGMxnGMx9/f3////
+      AAAA////hISE9/f39/f39/f3////9/f3////////////9/f3////9/f3////9/f3
+      AAAA////hISE9/f39/f3986l9/f3////hAAAhAAAhAAA////9/f3986l9/f39/f3
+      AAAA////hISE9/f3986lnAAA/////2Mx/5wxAJwx/wAAhAAA////nAAA986l9/f3
+      AAAA////hISE986lnAAA////9/f3hIQA//8x/84xAJwxhAAA9/f3////nAAA986l
+      AAAA////hISE9/f3986lnAAA9/f3hIQA//////8x/5wxhAAA////nAAA986l9/f3
+      AAAA////hISE9/f39/f3986l9/f3////hIQAhIQA/2Mx////9/f3986l9/f3////
+      AAAA////hISE9/f39/f39/f39/f39/f39/f39/f3////9/f3////AAAAAAAAAAAA
+      AAAA////hISE9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3xsbG////hISE
+      ////////hISE9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3xsbGhISE////
+      ////////hISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISE////////
+      ////////
+    </Image>
+  </ImageList>
+  <Nodes>
+    <Node Text="编辑器控件演示" ForeColor="Red" >
+      <Nodes>
+        <Node Name="ctlTextUseCommand" Text="常规功能演示" ForeColor="Red" />
+        <Node Name="demoFile" Text="演示文档"  ForeColor="Red" />
+        <Node Text="视图模式" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.ViewMode.ctlTestViewMode" Text="视图设置" ForeColor="Red"  />
+          </Nodes>
+        </Node>
+        <Node Text="用户界面" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.UI.ctlTestStatusStrip" Text="状态设置" ForeColor="Red"  />
+            <Node Name="Test.UI.ctlCustomMessageBox" Text="自定义消息框" ForeColor="Red"  />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="文件操作" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.FileOperations.ctlTestFileNew" Text="新建文档" ForeColor="Red"  />
+            <Node Name="Test.FileOperations.ctlTestFileOpen" Text="打开"   ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlTestFileSave" Text="保存"   ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlTestFileSaveAs" Text="另存为"   ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlPageSettings" Text="页面设置"   ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlPrint" Text="打印"  ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlTestPrintPreview" Text="打印预览"  ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlTestNavigate" Text="文档导航"  ForeColor="Red" />
+            <!--<Node Name="Test.FileOperations.ctlTestCopySource" Text="内容复制"  ForeColor="Red" />-->
+            <Node Name="Test.FileOperations.ctlAutoSave" Text="文档自动保存机制"  ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlAutoSaveLocal" Text="基于本地文件系统的自动保存机制"  ForeColor="Red" />
+            <Node Name="Test.FileOperations.ctlTestFileSystemEvent" Text="测试文件系统事件" />
+            <!--<Node Name="" Text="打印预览" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.ctlTestPrintPreview" Text="打印预览"  ForeColor="Red" />
+          </Nodes>
+        </Node>-->
+            <Node Name="Test.FileOperations.ctlTestFileCommand" Text="文件命令" />
+            <Node Name="Test.FileOperations.ctlTestSearchReplace" Text="查找替换" />
+            <Node Name="Test.FileOperations.ctlTestFileFormat" Text="文件格式" />
+            <Node Name="Test.FileOperations.ctlTestDataFormats" Text="数据格式" />
+            <Node Name="Test.FileOperations.ctlZoom" Text="缩放视图" />
+            <Node Name="Test.FileOperations.ctlFileFormatConvert" Text="后台文件格式转换" />
+            <Node Name="Test.FileOperations.ctlTestMove" Text="插入点" />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="数据源操作" ForeColor="Red" >
+          <Nodes>
+            <!--<Node Name="" Text="数据源绑定案例" ForeColor="Red" >
+          <Nodes>
+            <Node Name="EMR.ctlPatientsList" Text="病人基本信息维护"  ForeColor="Red" />
+          </Nodes>
+        </Node>-->
+            <Node Name="EMR.ctlPatientsList" Text="病人基本信息维护"  ForeColor="Red" />
+            <Node Name="Test.DataSourceOperation.ctlTestValueBinding" Text="数据源绑定"  ForeColor="Red" />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="输入域操作" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.InputOperation.ctlDymaticListItems" Text="动态加载下拉列表"  ForeColor="Red" />
+            <Node Name="Test.InputOperation.ctlCustomEditorControl" Text="自定义数据编辑器控件" ForeColor="Red"  />
+            <Node Name="Test.InputOperation.ctlTestAssistInsert" Text="快捷辅助录入"  ForeColor="Red" />
+            <Node Name="Test.InputOperation.ctlTestLinkList" Text="省市县联动"  ForeColor="Red" />
+            <Node Name="Test.InputOperation.ctlTestCopySource" Text="内容复制"  ForeColor="Red" />
+            <!--<Node Name="Test.InputOperation.ctlCheckBoxImage" Text="单选框/复选框"  ForeColor="Red" />-->
+            <Node Name="Test.InputOperation.ctlExpressionFunction" Text="测试自定义表达式函数"  ForeColor="Red" />
+            <Node Name="Test.InputOperation.ctlFieldContentEditEvent" Text="输入域内容修改事件"  ForeColor="Red" />
+            <Node Name="Test.InputOperation.ctlTestEvent" Text="控件级事件和文档元素级事件" />
+            <Node Name="Test.InputOperation.ctlTestCascade" Text="级联模板" />
+            <Node Name="Test.InputOperation.ctlTestSetSize" Text="设置元素大小" />
+            <Node Name="Test.InputOperation.ctlTestSetInputField" Text="设置文本域的内容" />
+            <Node Name="Test.InputOperation.ctlTestListItems" Text="列表项目" />
+            <Node Name="Test.InputOperation.ctlFormatListItems" Text="列表项目格式化输出" />
+            <Node Name="Test.InputOperation.ctlTestCustomElementValueEditor" Text="扩展数值编辑器" />
+            <Node Name="Test.InputOperation.ctlTestEventVBScript" Text="元素事件VB脚本" />
+            <Node Name="Test.InputOperation.ctlTestSetVisible" Text="设置元素可见性" />
+            <!--<Node Name="Test.InputOperation.ctlFormatListItems" Text="列表项目格式化输出" />-->
+            <Node Name="Test.InputOperation.ctlTestEventEditElementValue" Text="测试编辑元素数据事件" />
+            <Node Name="Test.InputOperation.ctlTestInputField" Text="测试输入域" />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="权限控制（质控）" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.AccessControl.ctlTextUsePowerCommand" Text="启用文档内容权限控制"  ForeColor="Red" />
+            <Node Name="Test.AccessControl.ctlTestCheckMRID" Text="跨病历复制"  ForeColor="Red" />
+            <Node Name="Test.AccessControl.ctlTestExcludeKeywords" Text="违禁关键字"  ForeColor="Red" />
+            <Node Name="Test.AccessControl.ctlTestUserTrackList" Text="用户痕迹列表"  ForeColor="Red" />
+            <Node Name="Test.AccessControl.ctlTestFileLock" Text="文件内容锁定"  ForeColor="Red" />
+            <Node Name="Test.AccessControl.ctlContentLock" Text="基于用户的内容锁定机制"  ForeColor="Red" />
+            <Node Name="Test.AccessControl.ctlQueryHistoryDisplayText" Text="自定义修改痕迹提示信息" />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="表格操作" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.TableOperation.ctlTestTable" Text="常规功能"  ForeColor="Red" />
+            <Node Name="Test.TableOperation.ctlTestTable2" Text="其他功能"  ForeColor="Red" />
+            <Node Name="Test.TableOperation.ctlTestTableData" Text="数据源绑定等操作"  ForeColor="Red" />
+            <Node Name="Test.TableOperation.ctlGarde" Text="评分表/量表"  ForeColor="Red" />
+            <Node Name="Test.TableOperation.ctlTestChangeTable" Text="修改表格内容" />
+            <Node Name="Test.TableOperation.ctlTestSetCells" Text="设置多个单元格的值" />
+            <!--<Node Name="Test.ctlTestTable" Text="操作表格"  ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.ctlTestTable" Text="常规功能"  ForeColor="Red" />
+            <Node Name="Test.ctlTestTable2" Text="其他功能"  ForeColor="Red" />
+            <Node Name="Test.ctlTestTableData" Text="数据源绑定等操作"  ForeColor="Red" />
+          </Nodes>
+        </Node>-->
+            <Node Name="Test.TableOperation.ctlTableRowHeightChangedEvent" Text="表格行高度修改事件" />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="OLE拖拽" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.OLEDargAndDrop.ctlTestDrag" Text="OLE拖拽"  ForeColor="Red" />
+            <Node Name="Test.OLEDargAndDrop.ctlTestDragDataSource" Text="拖拽数据源"  ForeColor="Red" />
+            <Node Name="Test.OLEDargAndDrop.ctlTestInsertObject" Text="CanInsertObject/InsertObject事件" />
+          </Nodes>
+        </Node>
+        <Node Text ="文档节" ForeColor="Red">
+          <Nodes>
+            <Node Name="Test.SectionElement.SubDocumentDelayLoadWhenExpand" Text="延迟加载内容" ForeColor="Red" />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="病程记录" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.CourseRecord.ctlTestMulCourse" Text="病程记录" ForeColor="Gray" />
+            <Node Name="Test.CourseRecord.ctlTestMulCourse2" Text="病程记录2" ForeColor="Gray" />
+            <Node Name="Test.CourseRecord.ctlTestMulCourse3" Text="病程记录3" ForeColor="Gray" />
+            <Node Name="Test.CourseRecord.ctlTestMulCourse4" Text="病程记录4" />
+            <Node Name="Test.CourseRecord.ctlTestSubDocument" Text="[推荐]病程记录5"  ForeColor="Red" />
+
+          </Nodes>
+        </Node>
+        <Node Name="" Text="知识库**" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.KnowledgeBase.ctlTestLoadKBLibrary" Text="加载知识库" />
+            <Node Name="Test.KnowledgeBase.ctlQueryKBEntries" Text="自定义查询知识库节点" />
+            <Node Name="Test.KnowledgeBase.ctlDBKBLibrary" Text="基于数据库的知识库" />
+          </Nodes>
+        </Node>
+        <Node Name="" Text="DOM辅助操作" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.DOMAuxiliaryOperation.ctlTestDocumentGridLine" Text="文档网格线"  ForeColor="Red" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlTestAutoTranslate" Text="测试字符自动转换"  ForeColor="Red" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlResourceString" Text="自定义字符串资源"  ForeColor="Red" />
+            <!--<Node Name="Test.DOMAuxiliaryOperation.ctlFormatListItems" Text="列表项目格式化输出" />-->
+            <Node Name="Test.DOMAuxiliaryOperation.ctlFilterValue" Text="数据过滤器" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlTestWriterControlExt" Text="WriterControlExt" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlTestInjectCommand" Text="编辑器命令注入" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlTestGlobalEventTemplate" Text="全局事件模板" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlBuildDom" Text="操作DOM" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlTestCreateContentDocument" Text="获得区域内容" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlRigthToLeft" Text="从右到左排版" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlDomTree" Text="文档DOM树" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlTestOther" Text="其他测试" />
+            <!--<Node Name="Test.DOMAuxiliaryOperation.ctlTestFileSystemEvent" Text="测试文件系统事件" />-->
+            <Node Name="Test.DOMAuxiliaryOperation.ctlCustomHandleError" Text="自定义处理错误" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlContextMenu" Text="自定义快键菜单" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlOutlineTree" Text="文档大纲结构图" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlControlEventMessage" Text="启用事件消息" />
+            <Node Name="Test.DOMAuxiliaryOperation.ctlCustomDrawContent" Text="自定义绘制文档内容" />
+            <!--<Node Name="TestMDI" Text="MDI窗体演示"  />-->
+          </Nodes>
+        </Node>
+        <Node Text="其他文档元素类型" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.OtherElementsOperation.ctlTestTemperatureChartElement" Text="测试体温单"  ForeColor="Red" />
+            <Node Name="Test.OtherElementsOperation.ctlTestFriedmanCurveChartElement" Text="测试产程图"  ForeColor="Red" />
+            <Node Name="Test.OtherElementsOperation.ctlCustomShapeElement" Text="自定义绘制图形"  ForeColor="Red" />
+            <Node Name="Test.OtherElementsOperation.ctlCheckBoxImage" Text="单选框/复选框"  ForeColor="Red" />
+            <Node Name="Test.OtherElementsOperation.ctlTestButtonElement" Text="按钮文档元素" />
+            <Node Name="Test.OtherElementsOperation.ctlTestFileBlock" Text="文件引用块元素" />
+            <Node Name="Test.OtherElementsOperation.ctlMediaElement" Text="插入视频音频" />
+            <Node Name="Test.OtherElementsOperation.ctlTestControlHost" Text="承载控件" />
+          </Nodes>
+        </Node>
+        <Node Text="其他操作" >
+          <Nodes>
+            <Node Name="Test.InputOperation.ctlTestDateTimeService" Text="服务器端时间同步功能"  ForeColor="Red" />
+            <Node Name="Test.OtherOperation.ctlTestAxWriterControl" Text="测试AxWriterControl" />
+          </Nodes>
+        </Node>
+        <Node Text="综合应用" ForeColor="Red" >
+          <Nodes>
+            <Node Name="Test.DOMAuxiliaryOperation.ctlInsertImages" Text="检查报告单"  ForeColor="Red" />
+            <Node Name="Test.CourseRecord.ctlTestMulCourse6" Text="病程记录综合使用"  ForeColor="Red" />
+          </Nodes>
+        </Node>
+        <Node Name="TestMDI" Text="MDI窗体演示"  />
+        <!--<Node Name="Test.ctlTestPatientListView" Text="卡片列表用户信息展示" />-->
+        <Node Text="多语言版本">
+          <Nodes>
+            <Node Name="zh-TW" Text="繁体中文版" />
+            <Node Name="ar" Text="维文版" />
+            <Node Name="Test.Version.Tibetan" Text="藏文版" />
+          </Nodes>
+        </Node>
+        <!--<Node Text="新添功能">
+      <Nodes>
+        <Node Name="newFun1" Text="新功能1" />
+        <Node Name="newFun1" Text="新功能2" />
+      </Nodes>
+    </Node>-->        
+      </Nodes>
+    </Node>
+    
+    <Node Name="" Text="时间轴控件演示" ImageKey="DCTimeLine.bmp" SelectedImageKey="DCTimeLine.bmp" >
+      <Nodes>
+        <Node Name="TimeLineTest.ctlTimeLineNormal" Text="常规演示"  ForeColor="Red"  ImageKey="DCTimeLine.bmp" SelectedImageKey="DCTimeLine.bmp" />
+        <Node Name="TimeLineTest.ctlTimeLineTimeZone" Text="时间区域和超链接"  ForeColor="Red"  ImageKey="DCTimeLine.bmp" SelectedImageKey="DCTimeLine.bmp" />
+        <Node Name="TimeLineTest.ctlTimeLineOperRoomFlow" Text="手术室排程"  ForeColor="Red"  ImageKey="DCTimeLine.bmp" SelectedImageKey="DCTimeLine.bmp" />
+        <Node Name="TimeLineTest.ctlFillDynamic" Text="多线程实时填充"  ForeColor="Red"  ImageKey="DCTimeLine.bmp" SelectedImageKey="DCTimeLine.bmp" />
+      </Nodes>
+    </Node>
+    <Node Name="" Text="产程图控件演示" ImageKey="FriedmanCurve48X48.bmp" SelectedImageKey="FriedmanCurve48X48.bmp" >
+      <Nodes>
+        <Node Name="FriedmanCurveTest.ctlFriedmanCurve" Text="常规演示"  ForeColor="Red"  ImageKey="FriedmanCurve48X48.bmp" SelectedImageKey="FriedmanCurve48X48.bmp" />
+      </Nodes>
+    </Node>
+    <Node Name="" Text="BS版编辑器"  >
+      <Nodes>
+        <Node Name="ASPNETDemoLauncherTest.ASPNETDemoLauncher" Text="常规演示"  ForeColor="Red"   />
+      </Nodes>
+    </Node>
+    <Node Name="" Text="卡片列表演示"  >
+      <Nodes>
+        <Node Name="CardListViewTest.ctlTestPatientListView" Text="常规演示"  ForeColor="Red"   />
+      </Nodes>
+    </Node>
+  </Nodes>
+</TreeView>

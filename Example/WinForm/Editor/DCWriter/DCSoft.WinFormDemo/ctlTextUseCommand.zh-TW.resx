@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;hTML预览ToolStripMenuItem.Name" xml:space="preserve">
+    <value>hTML預覽ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;测试2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>測試2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;执行命令ToolStripMenuItem.Name" xml:space="preserve">
+    <value>執行命令ToolStripMenuItem</value>
+  </data>
+  <data name="btnBackColor.Text" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="btnColor.Text" xml:space="preserve">
+    <value>文本顏色</value>
+  </data>
+  <data name="btnDataSourceList.Text" xml:space="preserve">
+    <value>知識庫列表</value>
+  </data>
+  <data name="btnTestGetElementByID.Text" xml:space="preserve">
+    <value>測試：GetElementByID</value>
+  </data>
+  <data name="cccccccc.Text" xml:space="preserve">
+    <value>批量轉換檔...</value>
+  </data>
+  <data name="cmAlignCenter.Text" xml:space="preserve">
+    <value>居中對齊</value>
+  </data>
+  <data name="cmAlignLeft.Text" xml:space="preserve">
+    <value>左對齊</value>
+  </data>
+  <data name="cmAlignRight.Text" xml:space="preserve">
+    <value>右對齊</value>
+  </data>
+  <data name="cmColor.Text" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="cmCopy.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="cmCut.Text" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="cmDelete.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="cmFont.Text" xml:space="preserve">
+    <value>字體...</value>
+  </data>
+  <data name="cmPaste.Text" xml:space="preserve">
+    <value>粘貼</value>
+  </data>
+  <data name="cmProperties.Text" xml:space="preserve">
+    <value>屬性...</value>
+  </data>
+  <data name="cmRedo.Text" xml:space="preserve">
+    <value>重複</value>
+  </data>
+  <data name="cmTableRowProperties.Text" xml:space="preserve">
+    <value>表格行屬性...</value>
+  </data>
+  <data name="cmUndo.Text" xml:space="preserve">
+    <value>撤銷</value>
+  </data>
+  <data name="hTML预览ToolStripMenuItem.Text" xml:space="preserve">
+    <value>HTML預覽...</value>
+  </data>
+  <data name="lblAbout.Text" xml:space="preserve">
+    <value>演示</value>
+  </data>
+  <data name="lblPosition.Text" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="mAbout.Text" xml:space="preserve">
+    <value>關於...</value>
+  </data>
+  <data name="mAdministratorMode.Text" xml:space="preserve">
+    <value>管理員模式</value>
+  </data>
+  <data name="mAlignBottomCenter.Text" xml:space="preserve">
+    <value>底端居中對齊</value>
+  </data>
+  <data name="mAlignBottomLeft.Text" xml:space="preserve">
+    <value>底端左對齊</value>
+  </data>
+  <data name="mAlignBottomRight.Text" xml:space="preserve">
+    <value>底端右對齊</value>
+  </data>
+  <data name="mAlignMiddleCenter.Text" xml:space="preserve">
+    <value>垂直居中水準居中對齊</value>
+  </data>
+  <data name="mAlignMiddleLeft.Text" xml:space="preserve">
+    <value>垂直居中左對齊</value>
+  </data>
+  <data name="mAlignMiddleRight.Text" xml:space="preserve">
+    <value>垂直居中右對齊</value>
+  </data>
+  <data name="mAlignTopCenter.Text" xml:space="preserve">
+    <value>頂端居中對齊</value>
+  </data>
+  <data name="mAlignTopLeft.Text" xml:space="preserve">
+    <value>頂端左對齊</value>
+  </data>
+  <data name="mAlignTopRight.Text" xml:space="preserve">
+    <value>頂端右對齊</value>
+  </data>
+  <data name="mBackColor.Text" xml:space="preserve">
+    <value>邊框和網底...</value>
+  </data>
+  <data name="mBulleteList.Text" xml:space="preserve">
+    <value>圓點專案樣式</value>
+  </data>
+  <data name="mCellAlign.Text" xml:space="preserve">
+    <value>對齊方式</value>
+  </data>
+  <data name="mCellGridLine.Text" xml:space="preserve">
+    <value>儲存格格線...</value>
+  </data>
+  <data name="mCharacterCircle.Text" xml:space="preserve">
+    <value>文字套圈...</value>
+  </data>
+  <data name="mCleanViewMode.Text" xml:space="preserve">
+    <value>整潔視圖模式</value>
+  </data>
+  <data name="mClearFormat.Text" xml:space="preserve">
+    <value>清除格式</value>
+  </data>
+  <data name="mClearZoom.Text" xml:space="preserve">
+    <value>恢復原始大小</value>
+  </data>
+  <data name="mComplexViewMode.Text" xml:space="preserve">
+    <value>複雜視圖模式</value>
+  </data>
+  <data name="mContentProtect.Text" xml:space="preserve">
+    <value>內容保護...</value>
+  </data>
+  <data name="mConvertContentToKBEntry.Text" xml:space="preserve">
+    <value>轉換為知識庫節點...</value>
+  </data>
+  <data name="mConvertFieldToContent.Text" xml:space="preserve">
+    <value>輸入域轉換為文檔內容</value>
+  </data>
+  <data name="mConvertFiles.Text" xml:space="preserve">
+    <value>批量轉換檔...</value>
+  </data>
+  <data name="mCopy.Text" xml:space="preserve">
+    <value>複製(&amp;C)</value>
+  </data>
+  <data name="mCut.Text" xml:space="preserve">
+    <value>剪切(&amp;T)</value>
+  </data>
+  <data name="mDBFileSystem.Text" xml:space="preserve">
+    <value>設置為資料庫檔案系統</value>
+  </data>
+  <data name="mDebugOutWindow.Text" xml:space="preserve">
+    <value>調試輸出窗口</value>
+  </data>
+  <data name="mDelete.Text" xml:space="preserve">
+    <value>刪除(&amp;D)</value>
+  </data>
+  <data name="mDeleteAllComment.Text" xml:space="preserve">
+    <value>刪除所有批註...</value>
+  </data>
+  <data name="mDeleteColumn.Text" xml:space="preserve">
+    <value>刪除表格列</value>
+  </data>
+  <data name="mDeleteComment.Text" xml:space="preserve">
+    <value>刪除批註...</value>
+  </data>
+  <data name="mDeleteRow.Text" xml:space="preserve">
+    <value>刪除表格行</value>
+  </data>
+  <data name="mDeleteSection.Text" xml:space="preserve">
+    <value>刪除文檔節</value>
+  </data>
+  <data name="mDeleteTable.Text" xml:space="preserve">
+    <value>刪除表格</value>
+  </data>
+  <data name="mDesignMode.Text" xml:space="preserve">
+    <value>設計時模式</value>
+  </data>
+  <data name="mDocumentDefaultFont.Text" xml:space="preserve">
+    <value>文檔預設字體...</value>
+  </data>
+  <data name="mDocumentValidate.Text" xml:space="preserve">
+    <value>測試：校驗資料</value>
+  </data>
+  <data name="mDocumentValueValidate.Text" xml:space="preserve">
+    <value>全文檔資料校驗</value>
+  </data>
+  <data name="mEditComment.Text" xml:space="preserve">
+    <value>編輯批註...</value>
+  </data>
+  <data name="mEditDocumentParameters.Text" xml:space="preserve">
+    <value>文檔參數...</value>
+  </data>
+  <data name="mEditImageShape.Text" xml:space="preserve">
+    <value>編輯圖片</value>
+  </data>
+  <data name="mEditKBEntry.Text" xml:space="preserve">
+    <value>編輯當前知識庫節點...</value>
+  </data>
+  <data name="mEditVBAScript.Text" xml:space="preserve">
+    <value>查看和編輯文檔VB腳本</value>
+  </data>
+  <data name="mElementProperties.Text" xml:space="preserve">
+    <value>屬性...</value>
+  </data>
+  <data name="mElementVisibility.Text" xml:space="preserve">
+    <value>內容可見性設置...</value>
+  </data>
+  <data name="menuClose.Text" xml:space="preserve">
+    <value>退出(&amp;X)</value>
+  </data>
+  <data name="menuConfig.Text" xml:space="preserve">
+    <value>文檔選項...</value>
+  </data>
+  <data name="menuEdit.Text" xml:space="preserve">
+    <value>編輯(&amp;E)</value>
+  </data>
+  <data name="menuFile.Text" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="menuHelp.Text" xml:space="preserve">
+    <value>幫助(&amp;H)</value>
+  </data>
+  <data name="menuNewFile.Text" xml:space="preserve">
+    <value>新建文檔(&amp;N)</value>
+  </data>
+  <data name="menuOpen.Text" xml:space="preserve">
+    <value>打開(&amp;O)...</value>
+  </data>
+  <data name="menuOpenNursingRecordDemo.Text" xml:space="preserve">
+    <value>打開護理記錄單演示文檔</value>
+  </data>
+  <data name="menuOpenXMLDemo.Text" xml:space="preserve">
+    <value>打開XML演示文檔</value>
+  </data>
+  <data name="menuPageSettings.Text" xml:space="preserve">
+    <value>頁面設置...</value>
+  </data>
+  <data name="menuPrint.Text" xml:space="preserve">
+    <value>列印(&amp;P)...</value>
+  </data>
+  <data name="menuSave.Text" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="menuSaveAs.Text" xml:space="preserve">
+    <value>另存為...</value>
+  </data>
+  <data name="menuSpecifyPaste.Text" xml:space="preserve">
+    <value>選擇性粘貼...</value>
+  </data>
+  <data name="menuView.Text" xml:space="preserve">
+    <value>視圖(&amp;V)</value>
+  </data>
+  <data name="mExtCellProperties.Text" xml:space="preserve">
+    <value>儲存格屬性...</value>
+  </data>
+  <data name="mExtension.Text" xml:space="preserve">
+    <value>擴展</value>
+  </data>
+  <data name="mExtTableProperties.Text" xml:space="preserve">
+    <value>表格屬性...</value>
+  </data>
+  <data name="mExtTableRowProperties.Text" xml:space="preserve">
+    <value>表格行屬性...</value>
+  </data>
+  <data name="mFieldFixedWidth.Text" xml:space="preserve">
+    <value>輸入域固定寬度</value>
+  </data>
+  <data name="mFirstIndent.Text" xml:space="preserve">
+    <value>段首縮進</value>
+  </data>
+  <data name="mFont.Text" xml:space="preserve">
+    <value>字體...</value>
+  </data>
+  <data name="mFormat.Text" xml:space="preserve">
+    <value>格式(&amp;F)</value>
+  </data>
+  <data name="mFormatBrush.Text" xml:space="preserve">
+    <value>格式刷</value>
+  </data>
+  <data name="mFormViewMode.Text" xml:space="preserve">
+    <value>表單視圖模式</value>
+  </data>
+  <data name="mGetXMLDataSource.Text" xml:space="preserve">
+    <value>測試：獲得XML資料來源</value>
+  </data>
+  <data name="mHeaderRow.Text" xml:space="preserve">
+    <value>標題行</value>
+  </data>
+  <data name="mInsert.Text" xml:space="preserve">
+    <value>插入(&amp;I)</value>
+  </data>
+  <data name="mInsertBarcode.Text" xml:space="preserve">
+    <value>插入條碼...</value>
+  </data>
+  <data name="mInsertCharacter.Text" xml:space="preserve">
+    <value>插入特殊字元...</value>
+  </data>
+  <data name="mInsertCheckBox.Text" xml:space="preserve">
+    <value>插入核取方塊元素...</value>
+  </data>
+  <data name="mInsertColumnLeft.Text" xml:space="preserve">
+    <value>在左側插入表格列</value>
+  </data>
+  <data name="mInsertColumnRight.Text" xml:space="preserve">
+    <value>在右側插入表格列</value>
+  </data>
+  <data name="mInsertComment2.Text" xml:space="preserve">
+    <value>插入批註...</value>
+  </data>
+  <data name="mInsertContentLink.Text" xml:space="preserve">
+    <value>插入文檔內容連結...</value>
+  </data>
+  <data name="mInsertDateTime.Text" xml:space="preserve">
+    <value>插入日期...</value>
+  </data>
+  <data name="mInsertDateTimeField.Text" xml:space="preserve">
+    <value>插入日期輸入域...</value>
+  </data>
+  <data name="mInsertFileBlock.Text" xml:space="preserve">
+    <value>插入文檔塊...</value>
+  </data>
+  <data name="mInsertFileContent.Text" xml:space="preserve">
+    <value>插入檔內容...</value>
+  </data>
+  <data name="mInsertHL.Text" xml:space="preserve">
+    <value>插入橫線</value>
+  </data>
+  <data name="mInsertImage.Text" xml:space="preserve">
+    <value>插入圖片...</value>
+  </data>
+  <data name="mInsertInputField.Text" xml:space="preserve">
+    <value>插入文本輸入域...</value>
+  </data>
+  <data name="mInsertLabel.Text" xml:space="preserve">
+    <value>插入文本標籤...</value>
+  </data>
+  <data name="mInsertListField.Text" xml:space="preserve">
+    <value>插入下拉清單輸入域...</value>
+  </data>
+  <data name="mInsertMedicalExpression.Text" xml:space="preserve">
+    <value>插入醫學運算式...</value>
+  </data>
+  <data name="mInsertPageBreak.Text" xml:space="preserve">
+    <value>插入分頁符</value>
+  </data>
+  <data name="mInsertPageInfo.Text" xml:space="preserve">
+    <value>插入頁碼資訊...</value>
+  </data>
+  <data name="mInsertRowDown.Text" xml:space="preserve">
+    <value>在下麵插入表格行</value>
+  </data>
+  <data name="mInsertRowUp.Text" xml:space="preserve">
+    <value>在上面插入表格行</value>
+  </data>
+  <data name="mInsertSection.Text" xml:space="preserve">
+    <value>插入文檔節</value>
+  </data>
+  <data name="mInsertShape.Text" xml:space="preserve">
+    <value>插入圖形...</value>
+  </data>
+  <data name="mInsertSimpleList.Text" xml:space="preserve">
+    <value>測試：插入簡單下拉清單域</value>
+  </data>
+  <data name="mInsertTable.Text" xml:space="preserve">
+    <value>插入表格</value>
+  </data>
+  <data name="mInsertTemperature.Text" xml:space="preserve">
+    <value>插入體溫單...</value>
+  </data>
+  <data name="mInsertXML.Text" xml:space="preserve">
+    <value>以XML格式插入...</value>
+  </data>
+  <data name="mInsertXmlFromClipboard.Text" xml:space="preserve">
+    <value>測試：從系統剪切板插入XML代碼</value>
+  </data>
+  <data name="mJumpPrint.Text" xml:space="preserve">
+    <value>續打模式</value>
+  </data>
+  <data name="mLayoutDirection.Text" xml:space="preserve">
+    <value>排版方向...</value>
+  </data>
+  <data name="mLoadKBFromDB.Text" xml:space="preserve">
+    <value>測試：從資料庫中載入知識庫</value>
+  </data>
+  <data name="mLoadKBLibrary.Text" xml:space="preserve">
+    <value>載入知識庫...</value>
+  </data>
+  <data name="mLoadXMLDataSource.Text" xml:space="preserve">
+    <value>測試：載入XML資料來源</value>
+  </data>
+  <data name="mLocalFileSystem.Text" xml:space="preserve">
+    <value>設置為本地檔案系統</value>
+  </data>
+  <data name="mLogin.Text" xml:space="preserve">
+    <value>切換用戶...</value>
+  </data>
+  <data name="mMergeCell.Text" xml:space="preserve">
+    <value>合併儲存格</value>
+  </data>
+  <data name="mNormalViewMode.Text" xml:space="preserve">
+    <value>普通視圖模式</value>
+  </data>
+  <data name="mNumerList.Text" xml:space="preserve">
+    <value>數位專案樣式</value>
+  </data>
+  <data name="mOpenFormViewDemo.Text" xml:space="preserve">
+    <value>打開表單演示文檔：住院病歷</value>
+  </data>
+  <data name="mOpenOldXmlFile.Text" xml:space="preserve">
+    <value>打開舊版本XML檔...</value>
+  </data>
+  <data name="mOpenUrl.Text" xml:space="preserve">
+    <value>打開URL地址...</value>
+  </data>
+  <data name="mPadding.Text" xml:space="preserve">
+    <value>內邊距</value>
+  </data>
+  <data name="mPageViewMode.Text" xml:space="preserve">
+    <value>資料頁檢視模式</value>
+  </data>
+  <data name="mParagraphFormat.Text" xml:space="preserve">
+    <value>段落...</value>
+  </data>
+  <data name="mParagraphListStyle.Text" xml:space="preserve">
+    <value>段落清單樣式...</value>
+  </data>
+  <data name="mPaste.Text" xml:space="preserve">
+    <value>粘貼(&amp;P)</value>
+  </data>
+  <data name="mPermission.Text" xml:space="preserve">
+    <value>審閱</value>
+  </data>
+  <data name="mPermissionConfig.Text" xml:space="preserve">
+    <value>許可權相關設置...</value>
+  </data>
+  <data name="mPrintColor.Text" xml:space="preserve">
+    <value>列印用文字顏色...</value>
+  </data>
+  <data name="mPrintDocumentBackground.Text" xml:space="preserve">
+    <value>測試：幕後列印文檔</value>
+  </data>
+  <data name="mPrintMultiDocument.Text" xml:space="preserve">
+    <value>測試：列印多個文檔</value>
+  </data>
+  <data name="mPrintPreviewMode.Text" xml:space="preserve">
+    <value>閱讀版式視圖</value>
+  </data>
+  <data name="mPrintSelection.Text" xml:space="preserve">
+    <value>列印被選擇內容...</value>
+  </data>
+  <data name="mRedo.Text" xml:space="preserve">
+    <value>重複(R)</value>
+  </data>
+  <data name="mSaveKBLibrary.Text" xml:space="preserve">
+    <value>保存知識庫...</value>
+  </data>
+  <data name="mSearch.Text" xml:space="preserve">
+    <value>查找(&amp;F)</value>
+  </data>
+  <data name="mSectionBorderBackgroundFormat.Text" xml:space="preserve">
+    <value>文檔節邊框和背景...</value>
+  </data>
+  <data name="mSelectAll.Text" xml:space="preserve">
+    <value>全選(&amp;A)</value>
+  </data>
+  <data name="mSetDefaultEventExpression.Text" xml:space="preserve">
+    <value>設置默認動作運算式...</value>
+  </data>
+  <data name="mShowBackgroundCellID.Text" xml:space="preserve">
+    <value>儲存格背景編號</value>
+  </data>
+  <data name="mSignDocument.Text" xml:space="preserve">
+    <value>簽名鎖定文檔</value>
+  </data>
+  <data name="mSplitCellExt.Text" xml:space="preserve">
+    <value>拆分儲存格...</value>
+  </data>
+  <data name="mTable.Text" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="mTableProperties.Text" xml:space="preserve">
+    <value>表格屬性...</value>
+  </data>
+  <data name="mTest.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="mTestChangeEditorTextExt.Text" xml:space="preserve">
+    <value>測試：修改輸入域文本</value>
+  </data>
+  <data name="mTestChangeParagraphFormat.Text" xml:space="preserve">
+    <value>測試：修改段落設置</value>
+  </data>
+  <data name="mTestInsertField.Text" xml:space="preserve">
+    <value>測試：插入國籍列表</value>
+  </data>
+  <data name="mTestInsertImage.Text" xml:space="preserve">
+    <value>測試：插入圖片</value>
+  </data>
+  <data name="mTestInsertMedic.Text" xml:space="preserve">
+    <value>測試：插入藥品列表</value>
+  </data>
+  <data name="mTestInsertString.Text" xml:space="preserve">
+    <value>測試：插入字串</value>
+  </data>
+  <data name="mTestLoadKBFromURL.Text" xml:space="preserve">
+    <value>測試：從URL載入知識庫...</value>
+  </data>
+  <data name="mTestSetDefaultStyle.Text" xml:space="preserve">
+    <value>測試：修改文檔預設樣式</value>
+  </data>
+  <data name="mTestSetInputFieldText.Text" xml:space="preserve">
+    <value>測試：修改文本輸入域的值</value>
+  </data>
+  <data name="mTestSetStyle.Text" xml:space="preserve">
+    <value>測試：設置輸入域內容的樣式</value>
+  </data>
+  <data name="mTestSomething.Text" xml:space="preserve">
+    <value>測試：</value>
+  </data>
+  <data name="mTestUpdateData.Text" xml:space="preserve">
+    <value>測試：更新資料</value>
+  </data>
+  <data name="mTextColor.Text" xml:space="preserve">
+    <value>文本顏色</value>
+  </data>
+  <data name="mTitleLevel.Text" xml:space="preserve">
+    <value>標題層次...</value>
+  </data>
+  <data name="mTools.Text" xml:space="preserve">
+    <value>工具(&amp;T)</value>
+  </data>
+  <data name="mUndo.Text" xml:space="preserve">
+    <value>撤銷(&amp;U)</value>
+  </data>
+  <data name="mUpdateDataSourceForView.Text" xml:space="preserve">
+    <value>根據文檔內容設置參數</value>
+  </data>
+  <data name="mUpdateViewForDataSource.Text" xml:space="preserve">
+    <value>根據參數設置文檔內容</value>
+  </data>
+  <data name="mViewSelectionRTF.Text" xml:space="preserve">
+    <value>測試：查看被選擇內容的RTF代碼</value>
+  </data>
+  <data name="mViewSelectionXML.Text" xml:space="preserve">
+    <value>測試：查看被選擇內容的XML代碼</value>
+  </data>
+  <data name="mWordCount.Text" xml:space="preserve">
+    <value>字數統計</value>
+  </data>
+  <data name="mWriterCommandList.Text" xml:space="preserve">
+    <value>命令列表...</value>
+  </data>
+  <data name="mXML2RTF.Text" xml:space="preserve">
+    <value>測試：後臺將XML轉換為RTF</value>
+  </data>
+  <data name="myEditControl.XMLTextWithDocumentState" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.0.0"&gt;
+   &lt;Attributes /&gt;
+   &lt;XElements&gt;
+      &lt;Element xsi:type="XTextBody" StyleIndex="0"&gt;
+         &lt;Attributes /&gt;
+         &lt;XElements /&gt;
+      &lt;/Element&gt;
+      &lt;Element xsi:type="XTextHeader" StyleIndex="0"&gt;
+         &lt;Attributes /&gt;
+         &lt;XElements /&gt;
+      &lt;/Element&gt;
+      &lt;Element xsi:type="XTextFooter" StyleIndex="0"&gt;
+         &lt;Attributes /&gt;
+         &lt;XElements /&gt;
+      &lt;/Element&gt;
+   &lt;/XElements&gt;
+   &lt;Info&gt;
+      &lt;CreationTime&gt;2013-08-04T21:54:08.3710742+08:00&lt;/CreationTime&gt;
+      &lt;LastModifiedTime&gt;2013-08-04T21:54:08.3710742+08:00&lt;/LastModifiedTime&gt;
+      &lt;LastPrintTime&gt;1980-01-01T00:00:00&lt;/LastPrintTime&gt;
+      &lt;Operator&gt;DCSoft.Writer Version:1.1.0.0&lt;/Operator&gt;
+   &lt;/Info&gt;
+   &lt;BodyText /&gt;
+   &lt;UserHistories /&gt;
+   &lt;Comments /&gt;
+   &lt;ContentStyles&gt;
+      &lt;Default xsi:type="DocumentContentStyle"&gt;
+         &lt;FontName&gt;宋體&lt;/FontName&gt;
+         &lt;PrintBackColor /&gt;
+      &lt;/Default&gt;
+      &lt;Styles&gt;
+         &lt;Style Index="0"&gt;
+            &lt;Align&gt;Center&lt;/Align&gt;
+            &lt;PrintBackColor /&gt;
+         &lt;/Style&gt;
+      &lt;/Styles&gt;
+   &lt;/ContentStyles&gt;
+   &lt;LocalConfig /&gt;
+   &lt;PageSettings /&gt;
+&lt;/XTextDocument&gt;</value>
+  </data>
+  <data name="mZoomIn.Text" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="mZoomOut.Text" xml:space="preserve">
+    <value>縮小</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>資料來源</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>知識庫</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="toolStripButton10.Text" xml:space="preserve">
+    <value>斜體</value>
+  </data>
+  <data name="toolStripButton11.Text" xml:space="preserve">
+    <value>底線</value>
+  </data>
+  <data name="toolStripButton12.Text" xml:space="preserve">
+    <value>左對齊</value>
+  </data>
+  <data name="toolStripButton13.Text" xml:space="preserve">
+    <value>居中對齊</value>
+  </data>
+  <data name="toolStripButton14.Text" xml:space="preserve">
+    <value>右對齊</value>
+  </data>
+  <data name="toolStripButton15.Text" xml:space="preserve">
+    <value>數字清單</value>
+  </data>
+  <data name="toolStripButton16.Text" xml:space="preserve">
+    <value>圓點列表</value>
+  </data>
+  <data name="toolStripButton17.Text" xml:space="preserve">
+    <value>上標</value>
+  </data>
+  <data name="toolStripButton18.Text" xml:space="preserve">
+    <value>下標</value>
+  </data>
+  <data name="toolStripButton19.Text" xml:space="preserve">
+    <value>打開...</value>
+  </data>
+  <data name="toolStripButton2.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>粘貼</value>
+  </data>
+  <data name="toolStripButton6.Text" xml:space="preserve">
+    <value>撤銷</value>
+  </data>
+  <data name="toolStripButton7.Text" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="toolStripButton8.Text" xml:space="preserve">
+    <value>字體</value>
+  </data>
+  <data name="toolStripButton9.Text" xml:space="preserve">
+    <value>粗體</value>
+  </data>
+  <data name="toolStripMenuItem10.Text" xml:space="preserve">
+    <value>查看XML原始程式碼...</value>
+  </data>
+  <data name="toolStripMenuItem11.Text" xml:space="preserve">
+    <value>預覽列印...</value>
+  </data>
+  <data name="toolStripMenuItem12.Text" xml:space="preserve">
+    <value>註冊...</value>
+  </data>
+  <data name="toolStripMenuItem13.Text" xml:space="preserve">
+    <value>文檔內容轉換為輸入域...</value>
+  </data>
+  <data name="toolStripMenuItem14.Text" xml:space="preserve">
+    <value>插入控制項...</value>
+  </data>
+  <data name="toolStripMenuItem15.Text" xml:space="preserve">
+    <value>重複</value>
+  </data>
+  <data name="toolStripMenuItem16.Text" xml:space="preserve">
+    <value>撤銷</value>
+  </data>
+  <data name="toolStripMenuItem17.Text" xml:space="preserve">
+    <value>插入列表輸入域...</value>
+  </data>
+  <data name="toolStripMenuItem18.Text" xml:space="preserve">
+    <value>嵌入在文字中</value>
+  </data>
+  <data name="toolStripMenuItem19.Text" xml:space="preserve">
+    <value>文字四周圍繞</value>
+  </data>
+  <data name="toolStripMenuItem20.Text" xml:space="preserve">
+    <value>查看和編輯文檔元素事件VB腳本...</value>
+  </data>
+  <data name="toolStripMenuItem21.Text" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="toolStripMenuItem22.Text" xml:space="preserve">
+    <value>字體...</value>
+  </data>
+  <data name="toolStripMenuItem23.Text" xml:space="preserve">
+    <value>左對齊</value>
+  </data>
+  <data name="toolStripMenuItem24.Text" xml:space="preserve">
+    <value>居中對齊</value>
+  </data>
+  <data name="toolStripMenuItem25.Text" xml:space="preserve">
+    <value>右對齊</value>
+  </data>
+  <data name="toolStripMenuItem26.Text" xml:space="preserve">
+    <value>儲存格屬性...</value>
+  </data>
+  <data name="toolStripMenuItem27.Text" xml:space="preserve">
+    <value>儲存格內容對齊方式</value>
+  </data>
+  <data name="toolStripMenuItem28.Text" xml:space="preserve">
+    <value>頂端左對齊</value>
+  </data>
+  <data name="toolStripMenuItem29.Text" xml:space="preserve">
+    <value>頂端居中對齊</value>
+  </data>
+  <data name="toolStripMenuItem30.Text" xml:space="preserve">
+    <value>頂端右對齊</value>
+  </data>
+  <data name="toolStripMenuItem31.Text" xml:space="preserve">
+    <value>垂直居中左對齊</value>
+  </data>
+  <data name="toolStripMenuItem32.Text" xml:space="preserve">
+    <value>垂直居中水準居中對齊</value>
+  </data>
+  <data name="toolStripMenuItem33.Text" xml:space="preserve">
+    <value>垂直居中右對齊</value>
+  </data>
+  <data name="toolStripMenuItem34.Text" xml:space="preserve">
+    <value>底端左對齊</value>
+  </data>
+  <data name="toolStripMenuItem35.Text" xml:space="preserve">
+    <value>底端居中對齊</value>
+  </data>
+  <data name="toolStripMenuItem36.Text" xml:space="preserve">
+    <value>底端右對齊</value>
+  </data>
+  <data name="toolStripMenuItem37.Text" xml:space="preserve">
+    <value>在上面插入表格行</value>
+  </data>
+  <data name="toolStripMenuItem38.Text" xml:space="preserve">
+    <value>在下麵插入表格行</value>
+  </data>
+  <data name="toolStripMenuItem39.Text" xml:space="preserve">
+    <value>刪除表格行</value>
+  </data>
+  <data name="toolStripMenuItem40.Text" xml:space="preserve">
+    <value>在左側插入表格列</value>
+  </data>
+  <data name="toolStripMenuItem41.Text" xml:space="preserve">
+    <value>在右側插入表格列</value>
+  </data>
+  <data name="toolStripMenuItem42.Text" xml:space="preserve">
+    <value>刪除表格列</value>
+  </data>
+  <data name="toolStripMenuItem43.Text" xml:space="preserve">
+    <value>合併儲存格</value>
+  </data>
+  <data name="toolStripMenuItem44.Text" xml:space="preserve">
+    <value>拆分儲存格</value>
+  </data>
+  <data name="toolStripMenuItem45.Text" xml:space="preserve">
+    <value>重複</value>
+  </data>
+  <data name="toolStripMenuItem46.Text" xml:space="preserve">
+    <value>撤銷</value>
+  </data>
+  <data name="toolStripMenuItem47.Text" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="toolStripMenuItem48.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="toolStripMenuItem49.Text" xml:space="preserve">
+    <value>粘貼</value>
+  </data>
+  <data name="toolStripMenuItem50.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="toolStripMenuItem51.Text" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="toolStripMenuItem52.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="toolStripMenuItem53.Text" xml:space="preserve">
+    <value>粘貼</value>
+  </data>
+  <data name="toolStripMenuItem54.Text" xml:space="preserve">
+    <value>清除全部痕跡</value>
+  </data>
+  <data name="toolStripMenuItem55.Text" xml:space="preserve">
+    <value>簡體轉繁體</value>
+  </data>
+  <data name="toolStripMenuItem56.Text" xml:space="preserve">
+    <value>屬性...</value>
+  </data>
+  <data name="toolStripMenuItem57.Text" xml:space="preserve">
+    <value>邊框和網底...</value>
+  </data>
+  <data name="toolStripMenuItem58.Text" xml:space="preserve">
+    <value>編輯圖片</value>
+  </data>
+  <data name="toolStripMenuItem59.Text" xml:space="preserve">
+    <value>繁體轉簡體</value>
+  </data>
+  <data name="toolStripMenuItem60.Text" xml:space="preserve">
+    <value>插入會計數字</value>
+  </data>
+  <data name="toolStripMenuItem7.Text" xml:space="preserve">
+    <value>整潔列印...</value>
+  </data>
+  <data name="toolStripMenuItem9.Text" xml:space="preserve">
+    <value>清除部分痕跡</value>
+  </data>
+  <data name="测试2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>測試2</value>
+  </data>
+  <data name="插入ToolStripMenuItem.Text" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="执行命令ToolStripMenuItem.Text" xml:space="preserve">
+    <value>執行命令...</value>
+  </data>
+</root>

@@ -1,0 +1,2285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="0">
+               <Text>WHGS ZGYH01</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>—</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="0">
+               <Text>2014</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="16" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="16" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>5</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="17" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="4">
+               <Text>WHGS</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+            <Element xsi:type="XString" StyleIndex="6">
+               <Text>昆明市五华区国家税务局</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XString" StyleIndex="6">
+               <Text>标准</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+            <Element xsi:type="XString" StyleIndex="8">
+               <Text>WHGS</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text> ZGYH01</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8">
+               <Text>—</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>2014</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="10" />
+            <Element xsi:type="XString" StyleIndex="11">
+               <Text>税收优惠政策管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="12" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="14" />
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>2014</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>-</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>12</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>-</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>09发布                                 2015</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>-</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>01</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>-</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>01实施</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>昆明市五华区国家税务局</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="8">
+               <Text>   </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="9">
+               <Text>发布</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="15" />
+            <Element xsi:type="XPageBreak" />
+            <Element xsi:type="XString" StyleIndex="18">
+               <Text>目    次</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="40" />
+            <Element xsi:type="XDirectoryField">
+               <Attributes />
+               <ID>directory2</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ContentReadonly>False</ContentReadonly>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_1</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103671</Reference>
+                        <Title>前    言</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103671</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>前    言...................................................................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_2</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103672</Reference>
+                        <Title>税收优惠政策管理</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103672</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>税收优惠政策管理...........................................................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_3</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103673</Reference>
+                        <Title>1.范围</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103673</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>1.范围.....................................................................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_4</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103674</Reference>
+                        <Title>2.规范性引用文件</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103674</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>2.规范性引用文件...........................................................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_5</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103675</Reference>
+                        <Title>3.术语和定义</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103675</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>3.术语和定义...............................................................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_6</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103676</Reference>
+                        <Title>3.1.审批类减免税：是指应由税务机关审批的减免税项目。</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103676</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   3.1.审批类减免税：是指应由税务机关审批的减免税项目。....................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_7</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103677</Reference>
+                        <Title>3.2.备案类减免税：是指取消审批手续的减免税项目和不需税务机关审批的减免</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103677</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   3.2.备案类减免税：是指取消审批手续的减免税项目和不需税务机关审批的减免..3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_8</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103678</Reference>
+                        <Title>4.职责</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103678</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>4.职责.....................................................................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_9</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103679</Reference>
+                        <Title>4.1.税务分局</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103679</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   4.1.税务分局............................................................3</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_10</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103680</Reference>
+                        <Title>4.2.货物和劳务税科</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103680</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   4.2.货物和劳务税科......................................................4</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_11</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103681</Reference>
+                        <Title>4.3.所得税科</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103681</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   4.3.所得税科............................................................4</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_12</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103682</Reference>
+                        <Title>4.4.办税服务厅</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103682</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   4.4.办税服务厅..........................................................4</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_13</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103683</Reference>
+                        <Title>5.税收优惠政策管理流程</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103683</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>5.税收优惠政策管理流程.....................................................4</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_14</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103684</Reference>
+                        <Title>6.审批类减免税管理</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103684</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>6.审批类减免税管理.........................................................4</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_15</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103685</Reference>
+                        <Title>6.1.受理 </Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103685</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   6.1.受理 ...............................................................4</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_16</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103686</Reference>
+                        <Title>6.2.审核</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103686</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   6.2.审核................................................................4</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_17</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103687</Reference>
+                        <Title>6.3.审批</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103687</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   6.3.审批................................................................5</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_18</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103688</Reference>
+                        <Title>6.4.信息录入</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103688</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   6.4.信息录入............................................................5</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_19</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103689</Reference>
+                        <Title>6.5.日常监督管理</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103689</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   6.5.日常监督管理........................................................5</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_20</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103690</Reference>
+                        <Title>7.备案类减免税管理</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103690</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>7.备案类减免税管理.........................................................5</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_21</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103691</Reference>
+                        <Title>7.1.受理</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103691</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   7.1.受理................................................................5</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_22</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103692</Reference>
+                        <Title>7.2.日常监督管理</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103692</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   7.2.日常监督管理........................................................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_23</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103693</Reference>
+                        <Title>8.相关记录</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103693</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>8.相关记录.................................................................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_24</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103694</Reference>
+                        <Title>9.纳入绩效考评的行为</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103694</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>9.纳入绩效考评的行为.......................................................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_25</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103695</Reference>
+                        <Title>9.1.减免税引用政策错误的。</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103695</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   9.1.减免税引用政策错误的。..............................................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_26</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103696</Reference>
+                        <Title>9.2.未建减免税台帐或台帐不全、内容缺失或错误的。</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103696</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   9.2.未建减免税台帐或台帐不全、内容缺失或错误的。........................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_27</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103697</Reference>
+                        <Title>9.3.越权减免、应上报未上报、应批不批或不就审批而给予审批的。</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103697</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   9.3.越权减免、应上报未上报、应批不批或不就审批而给予审批的。............6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_28</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103698</Reference>
+                        <Title>9.4.未按规定及时限办理减免税事项的。</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103698</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   9.4.未按规定及时限办理减免税事项的。....................................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_29</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103699</Reference>
+                        <Title>9.5.未按规定做好减免税后续管理的。</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103699</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>   9.5.未按规定做好减免税后续管理的。......................................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_30</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103700</Reference>
+                        <Title>A)</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103700</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>A).........................................................................6</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_31</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103701</Reference>
+                        <Title>B)</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103701</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>B).........................................................................7</Text>
+                     <PageTexts />
+                  </Element>
+                  <Element xsi:type="XTextLabelElement">
+                     <ID>directory2_Label_32</ID>
+                     <LinkInfo>
+                        <Reference>#DCTopic_29103702</Reference>
+                        <Title>C)</Title>
+                     </LinkInfo>
+                     <ReferencedTopicID>29103702</ReferencedTopicID>
+                     <Width>1945.99976</Width>
+                     <Height>57.0312424</Height>
+                     <Alignment>MiddleLeft</Alignment>
+                     <Multiline>false</Multiline>
+                     <Text>C).........................................................................8</Text>
+                     <PageTexts />
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <EventExpressions />
+               <BorderVisible>Hidden</BorderVisible>
+               <EnableHighlight>Disabled</EnableHighlight>
+               <DisplayLevel>2</DisplayLevel>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="20" />
+            <Element xsi:type="XString" StyleIndex="18">
+               <Text>前</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="22" WhiteSpaceLength="1">
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="18">
+               <Text>   言</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="41">
+               <TopicID>29103671</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准按照GB/T 1.1</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>—</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>2009《标准化工作导则 第1部分：标准的结构和编写》编制。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准由五华区国家税务局货物和劳务税科、所得税科提出并归口。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准主要起草单位：五华区国家税务货物和劳务税科、所得税科。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="23">
+               <Text>本标准主要起草人：杨琳、杨兰、张榕、杨立、张雁、杨迎胜、佘玫、季恒、何佳。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="18">
+               <Text>税收优惠政策管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="41">
+               <TopicID>29103672</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>范围</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103673</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准规定了五华区国家税务局办理审批类减免税、备案类减免税的职责，受理、审批及日常监督和绩效考评的管理要求。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>本标准适用于五华区国家税务局税收优惠政策管理。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>规范性引用文件</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103674</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅所注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>国家税务总局 国税发〔2005〕129号《税收减免税管理办法》</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>术语和定义</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103675</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>下列术语和定义适用于本文件。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="26">
+               <Text>审批类减免税：是指应由税务机关审批的减免税项目。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27">
+               <TopicID>29103676</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="26">
+               <Text>备案类减免税：是指取消审批手续的减免税项目和不需税务机关审批的减免税项目。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27">
+               <TopicID>29103677</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>职责</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103678</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>税务分局</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103679</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>受理审批类减免税，并负责审批资料的审核、调查及后续管理。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>受理备案类减免税，并负责备案资料的审核、系统录入及后续管理。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>货物和劳务税科</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103680</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>负责对货物和劳务税减免税政策管理，对减免税业务开展情况进行监控。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>办理所辖纳税人货物和劳务税审批类减免税审批。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>组织实施对所辖纳税人货物和劳务税减免税的清理、检查工作。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>所得税科</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103681</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>负责对所得税减免税政策管理，对减免税业务开展情况进行监控。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>办理所辖纳税人所得税审批类减免税审批。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>组织实施对所辖纳税人所得税减免税的清理、检查工作。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>办税服务厅</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103682</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>负责对审批类减免税的信息录入。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>税收优惠政策管理流程</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103683</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>税收优惠政策管理流程见附录A.1。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>审批类减免税管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103684</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>受理 </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103685</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>报送资料：纳税人申请审批类减免税的，应在政策规定的减免税期限内，向主管税务分局提出书面申请，并报送以下资料：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>减免税申请报告，应列明减免税理由、依据、范围、期限、数量、金额等；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>财务会计报表、纳税申报表；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>有关部门出具的证明材料；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>税务机关要求提供的其他资料。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>纳税人报送的材料应真实、准确、齐全。主管税务分局不得要求纳税人提交与其申请的减免税项目无关的技术资料和其他材料。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局对纳税人提出的减免税申请，应当根据以下情况分别做出处理：  </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>申请的减免税项目，依法不需要由税务机关审查后执行的，应当即时告知纳税人不受理；     </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>申请的减免税材料不详或存在错误的，应一次告知纳税人需要补正的全部内容；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>申请的减免税材料齐全、符合法定形式的，或者纳税人按照税务机关的要求提交全部补正减免税材料的，应当受理纳税人的申请。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>审核</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103686</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局应安排2名以上工作人员进行实地核查，并将核查情况记录在案。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>对符合受理条件的审批类减免税，受理部门应在2个工作日内分类汇总制作《减免税申请审批表》提交货物和劳务税科或所得税科审批。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>审批</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103687</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>货物和劳务税科或所得税科对符合审批类减免税条件的进行审批。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>审批类减免税审批的权限，应符合《税收减免税管理办法》第8条的规定。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>对纳税人的减免税申请，应按以下规定时限完成审批工作，并做出准予减免税的书面决定。依法不予减免税的，应当说明理由，并告知纳税人享有依法申请行政复议或者提起行政诉讼的权利 ：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>区级税务机关负责审批的减免税，必须在20个工作日做出审批决定；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>市级税务机关负责审批的，必须在30个工作日内做出审批决定；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>省级税务机关负责审批的，必须在60个工作日内做出审批决定；</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>在规定期限内不能做出决定的，经本级税务机关负责人批准，可以延长10个工作日，并将延长期限的理由告知纳税人。  </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="32" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>减免税期限超过1个纳税年度的，进行一次性审批。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>货物和劳务税科或所得税科做出的减免税审批决定，应在做出决定之日起2个工作日内移交办税服务厅进行信息录入。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>信息录入</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103688</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>对审批类减免税做出审批决定的，办税服务厅将纸质《税务认定申请审批表》及《纳税人减免税申请审批表》中减免税信息逐项录入《中国税收征管信息系统》中。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>文书录入5个工作日内向纳税人送达减免税审批书面决定。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>日常监督管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103689</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局应建立减免税台账。通过受理、审核、确认审批的审批类减免税项目，税源管理岗要逐户建立减免税台账。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>纳税人已享受减免税的，应进行减免税申报。纳税人享受减免税到期的，应当申报缴纳税款。   </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>货物和劳务税科和所得税科应结合纳税检查、执法检查或其他专项检查，每年定期组织对纳税人减免税事项进行清查、清理，主要内容包括：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>纳税人是否符合减免税的资格条件，是否以隐瞒有关情况或者提供虚假材料等手段骗取减免税。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="33" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>纳税人享受减免税的条件发生变化时,是否根据变化情况经税务机关重新审查后办理减免税。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="34" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>减免税税款有规定用途的，纳税人是否按规定用途使用减免税款；有规定减免税期限的，是否到期恢复纳税。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="34" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>是否存在纳税人未经税务机关批准自行享受减免税的情况。 </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="34" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>已享受减免税是否未申报。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="34" />
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>备案类减免税管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103690</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>受理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103691</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>纳税人需提供《涉税备案表》或者对某些备案事项专门指定使用的备案文书（一式两份）。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局对纳税人填报项目、内容及适用要件当场进行完整性审核，对“涉税备案表”栏目填写不正确、不完整、要件不齐全的，当场一次性告知纳税人补正完整。对不符合备案条件的，不予受理并告知不予受理的理由和原因。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局审核“涉税备案表”栏目填写无误、完整且要件报送齐全的，签收并加盖备案专用章，并退还一份涉税备案表给纳税人。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局进行备案清册记录、登记，并在《中国税收征管信息系统》及其他相关系统中录入备案信息。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="28">
+               <Text>日常监督管理</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="29">
+               <TopicID>29103692</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局应逐户建立减免税台账，详细登记减免税的起始时间、项目、年限、金额，实行动态管理监控。    </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>主管税务分局在后续管理中发现以下情形的，应分别做出处理。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>发现《涉税备案表》和相关备案资料不详、不齐全或存在错误的，制发《税务事项通知书》，一次性告知纳税人补正备案和相关资料的全部内容，并跟踪进行后续处理。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="33" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>发现纳税人的备案不符合政策规定条件，或者在备案中弄虚作假，或者备案条件发生变化未及时向主管国税机关办理相关事宜的，或者按要求应备未备自行执行相关税收政策等情况的，应终止备案或按照税收法律法规等做出其他相应处理。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="34" />
+            <Element xsi:type="XString" StyleIndex="30">
+               <Text>涉税备案办理后，若《涉税备案表》所记载内容及生产经营状况等税收法规政策适用条件发生变化的，纳税人应自变化发生之日起15个工作日内根据变化情况或者重新办理备案，或者办理终止备案相关事宜。若适用的税收法规政策变化，纳税人应按规定适用变化了的税收法规政策，需要备案的按规定重新办理备案。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="31" />
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>相关记录</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103693</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>减免税申请审批表(WHGS ZGYH 01 BD01)</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>纳税人减免税备案登记表(WHGS ZGYH 01 BD02)</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="19">
+               <Text>涉税备案表(WHGS ZGYH 01 BD03)</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="21" />
+            <Element xsi:type="XString" StyleIndex="24">
+               <Text>纳入绩效考评的行为</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="25">
+               <TopicID>29103694</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="26">
+               <Text>减免税引用政策错误的。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27">
+               <TopicID>29103695</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="26">
+               <Text>未建减免税台帐或台帐不全、内容缺失或错误的。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27">
+               <TopicID>29103696</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="26">
+               <Text>越权减免、应上报未上报、应批不批或不就审批而给予审批的。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27">
+               <TopicID>29103697</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="26">
+               <Text>未按规定及时限办理减免税事项的。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27">
+               <TopicID>29103698</TopicID>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="26">
+               <Text>未按规定做好减免税后续管理的。</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="27">
+               <TopicID>29103699</TopicID>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="35">
+               <TopicID>29103700</TopicID>
+            </Element>
+            <Element xsi:type="XLineBreak" />
+            <Element xsi:type="XString" StyleIndex="36">
+               <Text>（规范性附录）</Text>
+            </Element>
+            <Element xsi:type="XLineBreak" />
+            <Element xsi:type="XString" StyleIndex="36">
+               <Text>税收优惠政策管理流程</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="37">
+               <TopicID>29103701</TopicID>
+            </Element>
+            <Element xsi:type="XImage" StyleIndex="19">
+               <Attributes />
+               <ScriptItems />
+               <Width>1933</Width>
+               <Height>2240</Height>
+               <Image>
+                  <ImageDataBase64String> AQAAAGwA AAACAAAA AAAAAIkC AAAABAAA AAAAAAAA AACgOwAA g10AACBF TUYAAAEA 9CwBACoJ AAAEAAAA AAAAAAAA AAAAAAAA AAUAACAD AAAsAQAA uwAAAAAA AAAAAAAA
+ AAAAAOCT BAB42gIA RgAAACwA AAAgAAAA RU1GKwFA AQAcAAAA EAAAAAIQ wNsBAAAA YAAAAGAA AABGAAAA cAAAAGQA AABFTUYr MEACABAA AAAEAAAA AACAPx9A BAAMAAAA
+ AAAAAB5A BQAMAAAA AAAAAB1A AAAUAAAA CAAAAAIA AAD/AwAA CkAAgCQA AAAYAAAA 9+7o/wEA AAD2KIxA C3YeQlsu F0JVq3VE IQAAAAgA AABiAAAA DAAAAAEA AAAkAAAA
+ JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAEA AAAAAAAA 6O73AAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAAQA AAAnAAAA
+ KwAAAP8D AAAFAAAA RwB6AkcA 5T+jAuU/ owJ6AkcA egIlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA
+ qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA
+ AAAAAPYo jEC3kn9E e7MoQreS f0R7syhC C3YeQvYo jEALdh5C 9iiMQLeS f0QAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AABfAAAA OAAAAAIA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AgAAACUA AAAMAAAA BQAAgFYA AAAwAAAA
+ AwAAACYA AAAsAAAA AAQAAAUA AABHAOU/ owLlP6MC egJHAHoC RwDlPyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA
+ AgAAACgA AAAMAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/
+ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA 9iiMQLeS f0SUuSFE t5J/RJS5 IUTD9eg/ 9iiMQMP1 6D/2KIxA t5J/RAAB AQGBAAAK FUABABAA AAAEAAAA AAAAACQA AAAkAAAA
+ AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AgAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAACAAAA
+ JQAAAAwA AAAFAACA VgAAADAA AAADAAAA AAAAAIkC AAAABAAA BQAAAEcA 5T9vKOU/ bygeAEcA HgBHAOU/ JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB
+ AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAACAAAA RgAAADQA AAAoAAAA RU1GKwpA AIAkAAAA GAAAAPfu 6P8BAAAA 9iiMQMP1 6D9BoSBE UVcTQiQA AAAkAAAA
+ AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAwAAAA BAAAAAEA AACHAgAA JwAAAAUA AABHAB4A RwBrAm8o awJvKB4A
+ RwAeACUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb
+ AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA 9iiMQAGf GkKUuSFE AZ8aQpS5 IUTD9eg/
+ 9iiMQMP1 6D/2KIxA AZ8aQgAB AQGBAAAK FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AgAAADgA AAAAAAAA
+ OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAACAAAA JQAAAAwA AAAFAACA VgAAADAA AAADAAAA AAAAAIkC AAAoAAAA BQAAAEcA awJvKGsC
+ bygeAEcA HgBHAGsC JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAACAAAA RgAAAHgC AABsAgAA
+ RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEL2KIxA w/XoPwhA AgZEAAAA OAAAAAIQ wNsAHEc+ AAAAAAAA AAAAAAAA DwAAAFQA SQBNAEUA UwAgAE4A RQBXACAA
+ UgBPAE0A QQBOAAAA NkACgAAC AAD0AQAA AAAA/wEA AAABAAAA LgAAACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA
+ IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA IAAgACAA AJDjPICL hT4Acpw9 gIuFPgAA AD6Ai4U+ AMcxPoCL hT4AjmM+ gIuFPoCq ij6Ai4U+ AI6jPoCL hT6Acbw+
+ gIuFPgBV 1T6Ai4U+ gDjuPoCL hT4AjgM/ gIuFPsD/ Dz+Ai4U+ gHEcP4CL hT5A4yg/ gIuFPgBV NT+Ai4U+ wMZBP4CL hT6AOE4/ gIuFPkCq Wj+Ai4U+ ABxnP4CL hT7AjXM/
+ gIuFPoD/ fz+Ai4U+ oDiGP4CL hT6AcYw/ gIuFPmCq kj+Ai4U+ QOOYP4CL hT4gHJ8/ gIuFPgBV pT+Ai4U+ 4I2rP4CL hT7AxrE/ gIuFPqD/ tz+Ai4U+ gDi+P4CL hT5gccQ/
+ gIuFPkCq yj+Ai4U+ IOPQP4CL hT4AHNc/ gIuFPuBU 3T+Ai4U+ wI3jP4CL hT6gxuk/ gIuFPoD/ 7z+Ai4U+ YDj2P4CL hT5Acfw/ gIuFPhBV AUCAi4U+ gHEEQICL hT7wjQdA
+ gIuFPmCq CkCAi4U+ 0MYNQICL hT4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AABGAAAA DAEAAAAB AABFTUYr K0AAAAwA AAAAAAAA KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA
+ AADAQvYo jEDD9eg/ CEACBigA AAAcAAAA AhDA2wAc Rz4AAAAA AAAAAAAA AAACAAAA i1tTTzZA AoCkAAAA mAAAAAAA AP8BAAAA AQAAAAsA AAAOejZl GE/gYD9l VnuhewZ0
+ QW0Lev5W QOMQQICL hT4AVR1A gIuFPsDG KUCAi4U+ gDg2QICL hT5AqkJA gIuFPgAc T0CAi4U+ wI1bQICL hT6A/2dA gIuFPkBx dECAi4U+ gHGAQICL hT5gqoZA gIuFPgAA
+ gD8AAAAA AAAAAAAA gD8AAAAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA UgAAAHAB AAACAAAA 7f///wAA AAAAAAAA AAAAAJAB AAAAAACG
+ BwAEAItb U08AAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAABAC CgAAAPz/ //9EAAAA nPd+Aj4s jDmc934C
+ RAAAAPz/ //+8CX8C nPd+AsAJ fwLM5RIA 5lWCOQAA AAC8CX8C wAl/AkMA AADAmIAC AQAAAGT4 fgKc934C dPl+AiQE fwI9AAAA PAJ/AhgF fwLECX8C COYSAFMg gjk9AAAA
+ wJiAAgAA AADw5RIA AAAAAJgA k3yYl4AC vOYSACEA k3w4GgIC PQCTfCRd fgKgO38C 5OYSAGE+ gjngmoAC wJiAAsD9 fgIAAAAA AgAAAPn/ //8BAAAA 0N9+Ahjd fgLw234C
+ CgAAANDf fgLEZII5 ZDx0AiAA AADAmIAC IAIAAAAA AAAgAgAA ZHYACAAA AAAlAAAA DAAAAAIA AABUAAAA kAAAAN4A AAALAAAA mwEAAB0A AAABAAAA AIC7QQAA u0HeAAAA
+ GwAAAAsA AABMAAAA AAAAAAAA AAAAAAAA //////// //9kAAAA Dno2ZRhP 4GA/ZVZ7 oXsGdEFt C3r+VgAA EwAAABMA AAATAAAA EwAAABMA AAATAAAA EwAAABMA AAATAAAA
+ EwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA pAAAAJgA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkwA AABAAAAA AhDA2wAA AADOAQAA AAAAAOxR OEACAAAA AgAAAAIA AAACAAAA
+ AAAAAAIA AAAAAABA AACAPwIQ wNsAAAAA AAAA/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAHuz KEJh5wFE lLkhRGHn AUQAAQEB FUABABAA AAAEAAAA AAAAACgA AAAMAAAA
+ AQAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAEgEA EAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ JQAAAAwA AAABAAAA JwAAABgA AAADAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAADAAAA EwAAAAwA AAACAAAA OwAAAAgA AAAbAAAA EAAAAKMC AABjIAAA NgAAABAA AADRAgAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADeAmMg 6AJuIOgC eiDoAocg 3gKRINEC kSA2AAAA EAAAAKMC AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAJcC kSCMAocg jAJ6IIwC biCXAmMg owJjID0A AAAIAAAA GwAAABAA AAAuAwAA YyAAADYA AAAQAAAA XAMAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ aANjIHMD biBzA3og cwOHIGgD kSBcA5Eg NgAAABAA AAAuAwAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAhA5Eg FgOHIBYD eiAWA24g IQNjIC4D YyA9AAAA
+ CAAAABsA AAAQAAAA uAMAAGMg AAA2AAAA EAAAAOYD AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAPMD YyD9A24g /QN6IP0D hyDzA5Eg 5gORIDYA AAAQAAAA
+ uAMAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA qwORIKED hyChA3og oQNuIKsD YyC4A2Mg PQAAAAgA AAAbAAAA EAAAAEIE AABjIAAA NgAAABAA AABwBAAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB9BGMg hwRuIIcE eiCHBIcg fQSRIHAE kSA2AAAA EAAAAEIE AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAADUE kSArBIcg KwR6ICsE biA1BGMg QgRjID0A AAAIAAAA GwAAABAA AADMBAAA YyAAADYA AAAQAAAA +gQAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ BwVjIBEF biARBXog EQWHIAcF kSD6BJEg NgAAABAA AADMBAAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADABJEg tQSHILUE eiC1BG4g wARjIMwE YyA9AAAA
+ CAAAABsA AAAQAAAA VgUAAGMg AAA2AAAA EAAAAIUF AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJEF YyCcBW4g nAV6IJwF hyCRBZEg hQWRIDYA AAAQAAAA
+ VgUAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA SgWRID8F hyA/BXog PwVuIEoF YyBWBWMg PQAAAAgA AAAbAAAA EAAAAOEF AABjIAAA NgAAABAA AAAPBgAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAcBmMg JgZuICYG eiAmBocg HAaRIA8G kSA2AAAA EAAAAOEF AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAANQF kSDKBYcg ygV6IMoF biDUBWMg 4QVjID0A AAAIAAAA GwAAABAA AABrBgAA YyAAADYA AAAQAAAA mQYAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ pgZjILAG biCwBnog sAaHIKYG kSCZBpEg NgAAABAA AABrBgAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABeBpEg VAaHIFQG eiBUBm4g XgZjIGsG YyA9AAAA
+ CAAAABsA AAAQAAAA 9QYAAGMg AAA2AAAA EAAAACMH AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADAH YyA6B24g Ogd6IDoH hyAwB5Eg IweRIDYA AAAQAAAA
+ 9QYAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 6AaRIN4G hyDeBnog 3gZuIOgG YyD1BmMg PQAAAAgA AAAbAAAA EAAAAH8H AABjIAAA NgAAABAA AACuBwAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC6B2Mg xQduIMUH eiDFB4cg ugeRIK4H kSA2AAAA EAAAAH8H AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAHMH kSBoB4cg aAd6IGgH biBzB2Mg fwdjID0A AAAIAAAA GwAAABAA AAAKCAAA YyAAADYA AAAQAAAA OAgAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ RAhjIE8I biBPCHog TwiHIEQI kSA4CJEg NgAAABAA AAAKCAAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD9B5Eg 8weHIPMH eiDzB24g /QdjIAoI YyA9AAAA
+ CAAAABsA AAAQAAAA lAgAAGMg AAA2AAAA EAAAAMII AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAM8I YyDZCG4g 2Qh6INkI hyDPCJEg wgiRIDYA AAAQAAAA
+ lAgAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA hwiRIH0I hyB9CHog fQhuIIcI YyCUCGMg PQAAAAgA AAAbAAAA EAAAAB4J AABjIAAA NgAAABAA AABMCQAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABZCWMg YwluIGMJ eiBjCYcg WQmRIEwJ kSA2AAAA EAAAAB4J AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAABEJ kSAHCYcg Bwl6IAcJ biARCWMg HgljID0A AAAIAAAA GwAAABAA AACoCQAA YyAAADYA AAAQAAAA 1gkAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ 4wljIO4J biDuCXog 7gmHIOMJ kSDWCZEg NgAAABAA AACoCQAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACcCZEg kQmHIJEJ eiCRCW4g nAljIKgJ YyA9AAAA
+ CAAAABsA AAAQAAAA MwoAAGMg AAA2AAAA EAAAAGEK AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAG0K YyB4Cm4g eAp6IHgK hyBtCpEg YQqRIDYA AAAQAAAA
+ MwoAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA JgqRIBwK hyAcCnog HApuICYK YyAzCmMg PQAAAAgA AAAbAAAA EAAAAL0K AABjIAAA NgAAABAA AADrCgAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD4CmMg AgtuIAIL eiACC4cg +AqRIOsK kSA2AAAA EAAAAL0K AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAALAK kSCmCocg pgp6IKYK biCwCmMg vQpjID0A AAAIAAAA GwAAABAA AABHCwAA YyAAADYA AAAQAAAA dQsAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ ggtjIIwL biCMC3og jAuHIIIL kSB1C5Eg NgAAABAA AABHCwAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA6C5Eg MAuHIDAL eiAwC24g OgtjIEcL YyA9AAAA
+ CAAAABsA AAAQAAAA 0QsAAGMg AAA2AAAA EAAAAP8L AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAwM YyAWDG4g Fgx6IBYM hyAMDJEg /wuRIDYA AAAQAAAA
+ 0QsAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA xQuRILoL hyC6C3og ugtuIMUL YyDRC2Mg PQAAAAgA AAAbAAAA EAAAAFwM AABjIAAA NgAAABAA AACKDAAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACWDGMg oQxuIKEM eiChDIcg lgyRIIoM kSA2AAAA EAAAAFwM AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAE8M kSBFDIcg RQx6IEUM biBPDGMg XAxjID0A AAAIAAAA GwAAABAA AADmDAAA YyAAADYA AAAQAAAA FA0AAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ IQ1jICsN biArDXog Kw2HICEN kSAUDZEg NgAAABAA AADmDAAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADZDJEg zwyHIM8M eiDPDG4g 2QxjIOYM YyA9AAAA
+ CAAAABsA AAAQAAAA cA0AAGMg AAA2AAAA EAAAAJ4N AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKsN YyC1DW4g tQ16ILUN hyCrDZEg ng2RIDYA AAAQAAAA
+ cA0AAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA Yw2RIFkN hyBZDXog WQ1uIGMN YyBwDWMg PQAAAAgA AAAbAAAA EAAAAPoN AABjIAAA NgAAABAA AAAoDgAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA1DmMg Pw5uID8O eiA/Docg NQ6RICgO kSA2AAAA EAAAAPoN AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAO4N kSDjDYcg 4w16IOMN biDuDWMg +g1jID0A AAAIAAAA GwAAABAA AACFDgAA YyAAADYA AAAQAAAA sw4AAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ vw5jIMoO biDKDnog yg6HIL8O kSCzDpEg NgAAABAA AACFDgAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB4DpEg bg6HIG4O eiBuDm4g eA5jIIUO YyA9AAAA
+ CAAAABsA AAAQAAAA Dw8AAGMg AAA2AAAA EAAAAD0P AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEoP YyBUD24g VA96IFQP hyBKD5Eg PQ+RIDYA AAAQAAAA
+ Dw8AAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA Ag+RIPgO hyD4Dnog +A5uIAIP YyAPD2Mg PQAAAAgA AAAbAAAA EAAAAJkP AABjIAAA NgAAABAA AADHDwAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADUD2Mg 3g9uIN4P eiDeD4cg 1A+RIMcP kSA2AAAA EAAAAJkP AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAIwP kSCCD4cg gg96IIIP biCMD2Mg mQ9jID0A AAAIAAAA GwAAABAA AAAjEAAA YyAAADYA AAAQAAAA URAAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ XhBjIGgQ biBoEHog aBCHIF4Q kSBREJEg NgAAABAA AAAjEAAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAXEJEg DBCHIAwQ eiAMEG4g FxBjICMQ YyA9AAAA
+ CAAAABsA AAAQAAAA rhAAAGMg AAA2AAAA EAAAANwQ AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAOgQ YyDzEG4g 8xB6IPMQ hyDoEJEg 3BCRIDYA AAAQAAAA
+ rhAAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA oRCRIJYQ hyCWEHog lhBuIKEQ YyCuEGMg PQAAAAgA AAAbAAAA EAAAADgR AABjIAAA NgAAABAA AABmEQAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABzEWMg fRFuIH0R eiB9EYcg cxGRIGYR kSA2AAAA EAAAADgR AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAACsR kSAhEYcg IRF6ICER biArEWMg OBFjID0A AAAIAAAA GwAAABAA AADCEQAA YyAAADYA AAAQAAAA 8BEAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ /RFjIAcS biAHEnog BxKHIP0R kSDwEZEg NgAAABAA AADCEQAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC1EZEg qxGHIKsR eiCrEW4g tRFjIMIR YyA9AAAA
+ CAAAABsA AAAQAAAA TBIAAGMg AAA2AAAA EAAAAHoS AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIcS YyCREm4g kRJ6IJES hyCHEpEg ehKRIDYA AAAQAAAA
+ TBIAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA QBKRIDUS hyA1Enog NRJuIEAS YyBMEmMg PQAAAAgA AAAbAAAA EAAAANYS AABjIAAA NgAAABAA AAAFEwAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAARE2Mg HBNuIBwT eiAcE4cg ERORIAUT kSA2AAAA EAAAANYS AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAMoS kSC/Eocg vxJ6IL8S biDKEmMg 1hJjID0A AAAIAAAA GwAAABAA AABhEwAA YyAAADYA AAAQAAAA jxMAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ nBNjIKYT biCmE3og phOHIJwT kSCPE5Eg NgAAABAA AABhEwAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABUE5Eg ShOHIEoT eiBKE24g VBNjIGET YyA9AAAA
+ CAAAABsA AAAQAAAA 6xMAAGMg AAA2AAAA EAAAABkU AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACYU YyAwFG4g MBR6IDAU hyAmFJEg GRSRIDYA AAAQAAAA
+ 6xMAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 3hORINQT hyDUE3og 1BNuIN4T YyDrE2Mg PQAAAAgA AAAbAAAA EAAAAHUU AABjIAAA NgAAABAA AACjFAAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACwFGMg uhRuILoU eiC6FIcg sBSRIKMU kSA2AAAA EAAAAHUU AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAGgU kSBeFIcg XhR6IF4U biBoFGMg dRRjID0A AAAIAAAA GwAAABAA AAD/FAAA YyAAADYA AAAQAAAA LhUAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ OhVjIEUV biBFFXog RRWHIDoV kSAuFZEg NgAAABAA AAD/FAAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADzFJEg 6BSHIOgU eiDoFG4g 8xRjIP8U YyA9AAAA
+ CAAAABsA AAAQAAAA ihUAAGMg AAA2AAAA EAAAALgV AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMQV YyDPFW4g zxV6IM8V hyDEFZEg uBWRIDYA AAAQAAAA
+ ihUAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA fRWRIHMV hyBzFXog cxVuIH0V YyCKFWMg PQAAAAgA AAAbAAAA EAAAABQW AABjIAAA NgAAABAA AABCFgAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABPFmMg WRZuIFkW eiBZFocg TxaRIEIW kSA2AAAA EAAAABQW AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAAcW kSD9FYcg /RV6IP0V biAHFmMg FBZjID0A AAAIAAAA GwAAABAA AACeFgAA YyAAADYA AAAQAAAA zBYAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ 2RZjIOMW biDjFnog 4xaHINkW kSDMFpEg NgAAABAA AACeFgAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACRFpEg hxaHIIcW eiCHFm4g kRZjIJ4W YyA9AAAA
+ CAAAABsA AAAQAAAA KBcAAGMg AAA2AAAA EAAAAFYX AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGMX YyBuF24g bhd6IG4X hyBjF5Eg VheRIDYA AAAQAAAA
+ KBcAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA HBeRIBEX hyARF3og ERduIBwX YyAoF2Mg PQAAAAgA AAAbAAAA EAAAALMX AABjIAAA NgAAABAA AADhFwAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADtF2Mg +BduIPgX eiD4F4cg 7ReRIOEX kSA2AAAA EAAAALMX AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAKYX kSCcF4cg nBd6IJwX biCmF2Mg sxdjID0A AAAIAAAA GwAAABAA AAA9GAAA YyAAADYA AAAQAAAA axgAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ eBhjIIIY biCCGHog ghiHIHgY kSBrGJEg NgAAABAA AAA9GAAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAwGJEg JhiHICYY eiAmGG4g MBhjID0Y YyA9AAAA
+ CAAAABsA AAAQAAAA xxgAAGMg AAA2AAAA EAAAAPUY AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAIZ YyAMGW4g DBl6IAwZ hyACGZEg 9RiRIDYA AAAQAAAA
+ xxgAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA uhiRILAY hyCwGHog sBhuILoY YyDHGGMg PQAAAAgA AAAbAAAA EAAAAFEZ AABjIAAA NgAAABAA AAB/GQAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACMGWMg lhluIJYZ eiCWGYcg jBmRIH8Z kSA2AAAA EAAAAFEZ AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAEUZ kSA6GYcg Ohl6IDoZ biBFGWMg URljID0A AAAIAAAA GwAAABAA AADcGQAA YyAAADYA AAAQAAAA ChoAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ FhpjICEa biAhGnog IRqHIBYa kSAKGpEg NgAAABAA AADcGQAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADPGZEg xRmHIMUZ eiDFGW4g zxljINwZ YyA9AAAA
+ CAAAABsA AAAQAAAA ZhoAAGMg AAA2AAAA EAAAAJQa AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKEa YyCrGm4g qxp6IKsa hyChGpEg lBqRIDYA AAAQAAAA
+ ZhoAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA WRqRIE8a hyBPGnog TxpuIFka YyBmGmMg PQAAAAgA AAAbAAAA EAAAAPAa AABjIAAA NgAAABAA AAAeGwAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAArG2Mg NRtuIDUb eiA1G4cg KxuRIB4b kSA2AAAA EAAAAPAa AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAOMa kSDZGocg 2Rp6INka biDjGmMg 8BpjID0A AAAIAAAA GwAAABAA AAB6GwAA YyAAADYA AAAQAAAA qBsAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ tRtjIL8b biC/G3og vxuHILUb kSCoG5Eg NgAAABAA AAB6GwAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABuG5Eg YxuHIGMb eiBjG24g bhtjIHob YyA9AAAA
+ CAAAABsA AAAQAAAA BRwAAGMg AAA2AAAA EAAAADMc AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAD8c YyBKHG4g Shx6IEoc hyA/HJEg MxyRIDYA AAAQAAAA
+ BRwAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA +BuRIO4b hyDuG3og 7htuIPgb YyAFHGMg PQAAAAgA AAAbAAAA EAAAAI8c AABjIAAA NgAAABAA AAC9HAAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADKHGMg 1BxuINQc eiDUHIcg yhyRIL0c kSA2AAAA EAAAAI8c AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAIIc kSB4HIcg eBx6IHgc biCCHGMg jxxjID0A AAAIAAAA GwAAABAA AAAZHQAA YyAAADYA AAAQAAAA Rx0AAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ VB1jIF4d biBeHXog Xh2HIFQd kSBHHZEg NgAAABAA AAAZHQAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAMHZEg Ah2HIAId eiACHW4g DB1jIBkd YyA9AAAA
+ CAAAABsA AAAQAAAA ox0AAGMg AAA2AAAA EAAAANEd AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAN4d YyDoHW4g 6B16IOgd hyDeHZEg 0R2RIDYA AAAQAAAA
+ ox0AAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA lx2RIIwd hyCMHXog jB1uIJcd YyCjHWMg PQAAAAgA AAAbAAAA EAAAAC4e AABjIAAA NgAAABAA AABcHgAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABoHmMg cx5uIHMe eiBzHocg aB6RIFwe kSA2AAAA EAAAAC4e AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAACEe kSAWHocg Fh56IBYe biAhHmMg Lh5jID0A AAAIAAAA GwAAABAA AAC4HgAA YyAAADYA AAAQAAAA 5h4AAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ 8x5jIP0e biD9Hnog /R6HIPMe kSDmHpEg NgAAABAA AAC4HgAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACrHpEg oR6HIKEe eiChHm4g qx5jILge YyA9AAAA
+ CAAAABsA AAAQAAAA Qh8AAGMg AAA2AAAA EAAAAHAf AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAH0f YyCHH24g hx96IIcf hyB9H5Eg cB+RIDYA AAAQAAAA
+ Qh8AAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA NR+RICsf hyArH3og Kx9uIDUf YyBCH2Mg PQAAAAgA AAAbAAAA EAAAAMwf AABjIAAA NgAAABAA AAD6HwAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAHIGMg ESBuIBEg eiARIIcg ByCRIPof kSA2AAAA EAAAAMwf AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAMAf kSC1H4cg tR96ILUf biDAH2Mg zB9jID0A AAAIAAAA GwAAABAA AABWIAAA YyAAADYA AAAQAAAA hSAAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ kSBjIJwg biCcIHog nCCHIJEg kSCFIJEg NgAAABAA AABWIAAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABKIJEg PyCHID8g eiA/IG4g SiBjIFYg YyA9AAAA
+ CAAAABsA AAAQAAAA 4SAAAGMg AAA2AAAA EAAAAA8h AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAABwh YyAmIW4g JiF6ICYh hyAcIZEg DyGRIDYA AAAQAAAA
+ 4SAAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 1CCRIMog hyDKIHog yiBuINQg YyDhIGMg PQAAAAgA AAAbAAAA EAAAAGsh AABjIAAA NgAAABAA AACZIQAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACmIWMg sCFuILAh eiCwIYcg piGRIJkh kSA2AAAA EAAAAGsh AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAF4h kSBUIYcg VCF6IFQh biBeIWMg ayFjID0A AAAIAAAA GwAAABAA AAD1IQAA YyAAADYA AAAQAAAA IyIAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ MCJjIDoi biA6Inog OiKHIDAi kSAjIpEg NgAAABAA AAD1IQAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADoIZEg 3iGHIN4h eiDeIW4g 6CFjIPUh YyA9AAAA
+ CAAAABsA AAAQAAAA fyIAAGMg AAA2AAAA EAAAAK4i AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAALoi YyDFIm4g xSJ6IMUi hyC6IpEg riKRIDYA AAAQAAAA
+ fyIAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA cyKRIGgi hyBoInog aCJuIHMi YyB/ImMg PQAAAAgA AAAbAAAA EAAAAAoj AABjIAAA NgAAABAA AAA4IwAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABEI2Mg TyNuIE8j eiBPI4cg RCORIDgj kSA2AAAA EAAAAAoj AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAP0i kSDzIocg 8yJ6IPMi biD9ImMg CiNjID0A AAAIAAAA GwAAABAA AACUIwAA YyAAADYA AAAQAAAA wiMAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ zyNjINkj biDZI3og 2SOHIM8j kSDCI5Eg NgAAABAA AACUIwAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACHI5Eg fSOHIH0j eiB9I24g hyNjIJQj YyA9AAAA
+ CAAAABsA AAAQAAAA HiQAAGMg AAA2AAAA EAAAAEwk AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAFkk YyBjJG4g YyR6IGMk hyBZJJEg TCSRIDYA AAAQAAAA
+ HiQAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA ESSRIAck hyAHJHog ByRuIBEk YyAeJGMg PQAAAAgA AAAbAAAA EAAAAKgk AABjIAAA NgAAABAA AADWJAAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADjJGMg 7iRuIO4k eiDuJIcg 4ySRINYk kSA2AAAA EAAAAKgk AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAJwk kSCRJIcg kSR6IJEk biCcJGMg qCRjID0A AAAIAAAA GwAAABAA AAAzJQAA YyAAADYA AAAQAAAA YSUAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ bSVjIHgl biB4JXog eCWHIG0l kSBhJZEg NgAAABAA AAAzJQAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAmJZEg HCWHIBwl eiAcJW4g JiVjIDMl YyA9AAAA
+ CAAAABsA AAAQAAAA vSUAAGMg AAA2AAAA EAAAAOsl AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAPgl YyACJm4g AiZ6IAIm hyD4JZEg 6yWRIDYA AAAQAAAA
+ vSUAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA sCWRIKYl hyCmJXog piVuILAl YyC9JWMg PQAAAAgA AAAbAAAA EAAAAEcm AABjIAAA NgAAABAA AAB1JgAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACCJmMg jCZuIIwm eiCMJocg giaRIHUm kSA2AAAA EAAAAEcm AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAADom kSAwJocg MCZ6IDAm biA6JmMg RyZjID0A AAAIAAAA GwAAABAA AADRJgAA YyAAADYA AAAQAAAA /yYAAGMg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA
+ DCdjIBYn biAWJ3og FieHIAwn kSD/JpEg NgAAABAA AADRJgAA kSAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADFJpEg uiaHILom eiC6Jm4g xSZjINEm YyA9AAAA
+ CAAAABsA AAAQAAAA XCcAAGMg AAA2AAAA EAAAAIon AABjIAAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJYn YyChJ24g oSd6IKEn hyCWJ5Eg iieRIDYA AAAQAAAA
+ XCcAAJEg AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA TyeRIEUn hyBFJ3og RSduIE8n YyBcJ2Mg PQAAAAgA AAAbAAAA EAAAAOYn AABjIAAA NgAAABAA AAAUKAAA
+ YyAAAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAhKGMg KyhuICso eiArKIcg ISiRIBQo kSA2AAAA EAAAAOYn AACRIAAA WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAANkn kSDPJ4cg zyd6IM8n biDZJ2Mg 5idjID0A AAAIAAAA PAAAAAgA AAA/AAAA GAAAACcA AAAEAgAA hQIAAAsC AAATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAlAAAA
+ DAAAAAcA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA lAAAAIgA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA
+ AAAAAOxR OEACAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQM0AAAA KAAAAAIQ wNsDAAAA AAAAAPYo jEBh5wFE mji6QciN BkR7syhC YecBRAAB AQEVQAEA
+ EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAuAAAA AAAAAAAA AAAAAAAA
+ AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA KAAAAAIA AAAFAgAA LQAAAB0C AAADAAAA RwB6IHUB pCGjAnog JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA
+ JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAMwA AADAAAAA RU1GKypA AAAkAAAA GAAAAAAA AAAAAMDC AADAQgAA AABUpF9B
+ lDoERAhA AgYoAAAA HAAAAAIQ wNsAqyo+ AAAAAAAA AAAAAAAA AgAAAItb U082QAKA cAAAAGQA AAAAAAD/ AQAAAAEA AAAGAAAA oVt5Ynt8 z1FNUQ56 AHD8PQBb Gz6AcZQ+
+ AFsbPgDH 6T4AWxs+ QI4fPwBb Gz4AOUo/ AFsbPsDj dD8AWxs+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA
+ KAAAAAwA AAACAAAA UgAAAHAB AAACAAAA 8P///wAA AACEAwAA hAMAAJAB AAAAAACG BwAEAItb U08AAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA 8AUAABEA AAAJAAAA vAB/Aj4s jDm8AH8C CQAAABEA AAB8AH8C vAB/AiAA AADM5RIA 5lWCOQAA AAB8AH8C fgB/AggA AACQFIIC
+ AQAAAIQB fwIAABUA dAJ/Ahj7 fgI9AAAA MPl+Agz8 fgJ8AAEA BAAAACzl EgA9AAAA IOYSAAAA knxAAJN8 /////z0A k3z6mYB8 AAAVAAAA AAANmoB8 3hIKAmB3 HAAgQPN3
+ 5OYSAGE+ gjlwFoIC kBSCAvzl EgAAAAAA lO8SALCa g3wQmoB8 /////w2a gHzl++93 YHccAAIA AAAAAAEA 2hIhQQEA AABk5hIA yyvwdyBA 83feEgoC ZHYACAAA AAAlAAAA
+ DAAAAAIA AABUAAAA VAAAAA8A AAAEAgAA HwAAAAUC AAABAAAA AIC7QQAA u0EdAAAA BQIAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA oVsAAAAA AABUAAAA
+ VAAAAA8A AAD0AQAA HwAAAPUB AAABAAAA AIC7QQAA u0EdAAAA 9QEAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA eWIAAAAA AABUAAAA VAAAAA8A AADkAQAA
+ HwAAAOUB AAABAAAA AIC7QQAA u0EdAAAA 5QEAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA e3wAAAAA AABUAAAA VAAAAA8A AADUAQAA HwAAANUB AAABAAAA
+ AIC7QQAA u0EdAAAA 1QEAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA z1EAAAAA AABUAAAA VAAAAA8A AADEAQAA HwAAAMUB AAABAAAA AIC7QQAA u0EdAAAA
+ xQEAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA TVEAAAAA AABUAAAA VAAAAA8A AAC0AQAA HwAAALUB AAABAAAA AIC7QQAA u0EdAAAA tQEAAAEA AABMAAAA
+ AAAAAAAA AAAAAAAA //////// //9QAAAA DnoAAAAA AAAlAAAA DAAAAA0A AIBGAAAA pAAAAJgA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkwA AABAAAAA AhDA2wAA AADOAQAA
+ AAAAAOxR OEACAAAA AgAAAAIA AAACAAAA AAAAAAIA AAAAAABA AACAPwIQ wNsAAAAA AAAA/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAHuz KELSH3ZE lLkhRNIf dkQAAQEB
+ FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAEgEA EAAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAADAAAA EwAAAAwA AAACAAAA OwAAAAgA AAAbAAAA EAAAAKMC AABxPQAA NgAAABAA AADRAgAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AADeAnE9 6AJ8PegC iD3oApU9 3gKfPdEC nz02AAAA EAAAAKMC AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJcC nz2MApU9
+ jAKIPYwC fD2XAnE9 owJxPT0A AAAIAAAA GwAAABAA AAAuAwAA cT0AADYA AAAQAAAA XAMAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA aANxPXMD fD1zA4g9
+ cwOVPWgD nz1cA589 NgAAABAA AAAuAwAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAhA589 FgOVPRYD iD0WA3w9 IQNxPS4D cT09AAAA CAAAABsA AAAQAAAA
+ uAMAAHE9 AAA2AAAA EAAAAOYD AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAPMD cT39A3w9 /QOIPf0D lT3zA589 5gOfPTYA AAAQAAAA uAMAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA qwOfPaED lT2hA4g9 oQN8PasD cT24A3E9 PQAAAAgA AAAbAAAA EAAAAEIE AABxPQAA NgAAABAA AABwBAAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAB9BHE9 hwR8PYcE iD2HBJU9 fQSfPXAE nz02AAAA EAAAAEIE AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADUE nz0rBJU9
+ KwSIPSsE fD01BHE9 QgRxPT0A AAAIAAAA GwAAABAA AADMBAAA cT0AADYA AAAQAAAA +gQAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA BwVxPREF fD0RBYg9
+ EQWVPQcF nz36BJ89 NgAAABAA AADMBAAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADABJ89 tQSVPbUE iD21BHw9 wARxPcwE cT09AAAA CAAAABsA AAAQAAAA
+ VgUAAHE9 AAA2AAAA EAAAAIUF AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJEF cT2cBXw9 nAWIPZwF lT2RBZ89 hQWfPTYA AAAQAAAA VgUAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA SgWfPT8F lT0/BYg9 PwV8PUoF cT1WBXE9 PQAAAAgA AAAbAAAA EAAAAOEF AABxPQAA NgAAABAA AAAPBgAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAAcBnE9 JgZ8PSYG iD0mBpU9 HAafPQ8G nz02AAAA EAAAAOEF AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAANQF nz3KBZU9
+ ygWIPcoF fD3UBXE9 4QVxPT0A AAAIAAAA GwAAABAA AABrBgAA cT0AADYA AAAQAAAA mQYAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA pgZxPbAG fD2wBog9
+ sAaVPaYG nz2ZBp89 NgAAABAA AABrBgAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABeBp89 VAaVPVQG iD1UBnw9 XgZxPWsG cT09AAAA CAAAABsA AAAQAAAA
+ 9QYAAHE9 AAA2AAAA EAAAACMH AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADAH cT06B3w9 OgeIPToH lT0wB589 IwefPTYA AAAQAAAA 9QYAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA 6AafPd4G lT3eBog9 3gZ8PegG cT31BnE9 PQAAAAgA AAAbAAAA EAAAAH8H AABxPQAA NgAAABAA AACuBwAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAC6B3E9 xQd8PcUH iD3FB5U9 ugefPa4H nz02AAAA EAAAAH8H AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAHMH nz1oB5U9
+ aAeIPWgH fD1zB3E9 fwdxPT0A AAAIAAAA GwAAABAA AAAKCAAA cT0AADYA AAAQAAAA OAgAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA RAhxPU8I fD1PCIg9
+ TwiVPUQI nz04CJ89 NgAAABAA AAAKCAAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAD9B589 8weVPfMH iD3zB3w9 /QdxPQoI cT09AAAA CAAAABsA AAAQAAAA
+ lAgAAHE9 AAA2AAAA EAAAAMII AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAM8I cT3ZCHw9 2QiIPdkI lT3PCJ89 wgifPTYA AAAQAAAA lAgAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA hwifPX0I lT19CIg9 fQh8PYcI cT2UCHE9 PQAAAAgA AAAbAAAA EAAAAB4J AABxPQAA NgAAABAA AABMCQAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AABZCXE9 Ywl8PWMJ iD1jCZU9 WQmfPUwJ nz02AAAA EAAAAB4J AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAABEJ nz0HCZU9
+ BwmIPQcJ fD0RCXE9 HglxPT0A AAAIAAAA GwAAABAA AACoCQAA cT0AADYA AAAQAAAA 1gkAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 4wlxPe4J fD3uCYg9
+ 7gmVPeMJ nz3WCZ89 NgAAABAA AACoCQAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACcCZ89 kQmVPZEJ iD2RCXw9 nAlxPagJ cT09AAAA CAAAABsA AAAQAAAA
+ MwoAAHE9 AAA2AAAA EAAAAGEK AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAG0K cT14Cnw9 eAqIPXgK lT1tCp89 YQqfPTYA AAAQAAAA MwoAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA JgqfPRwK lT0cCog9 HAp8PSYK cT0zCnE9 PQAAAAgA AAAbAAAA EAAAAL0K AABxPQAA NgAAABAA AADrCgAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAD4CnE9 Agt8PQIL iD0CC5U9 +AqfPesK nz02AAAA EAAAAL0K AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAALAK nz2mCpU9
+ pgqIPaYK fD2wCnE9 vQpxPT0A AAAIAAAA GwAAABAA AABHCwAA cT0AADYA AAAQAAAA dQsAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA ggtxPYwL fD2MC4g9
+ jAuVPYIL nz11C589 NgAAABAA AABHCwAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA6C589 MAuVPTAL iD0wC3w9 OgtxPUcL cT09AAAA CAAAABsA AAAQAAAA
+ 0QsAAHE9 AAA2AAAA EAAAAP8L AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAwM cT0WDHw9 FgyIPRYM lT0MDJ89 /wufPTYA AAAQAAAA 0QsAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA xQufPboL lT26C4g9 ugt8PcUL cT3RC3E9 PQAAAAgA AAAbAAAA EAAAAFwM AABxPQAA NgAAABAA AACKDAAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AACWDHE9 oQx8PaEM iD2hDJU9 lgyfPYoM nz02AAAA EAAAAFwM AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAE8M nz1FDJU9
+ RQyIPUUM fD1PDHE9 XAxxPT0A AAAIAAAA GwAAABAA AADmDAAA cT0AADYA AAAQAAAA FA0AAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA IQ1xPSsN fD0rDYg9
+ Kw2VPSEN nz0UDZ89 NgAAABAA AADmDAAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADZDJ89 zwyVPc8M iD3PDHw9 2QxxPeYM cT09AAAA CAAAABsA AAAQAAAA
+ cA0AAHE9 AAA2AAAA EAAAAJ4N AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKsN cT21DXw9 tQ2IPbUN lT2rDZ89 ng2fPTYA AAAQAAAA cA0AAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA Yw2fPVkN lT1ZDYg9 WQ18PWMN cT1wDXE9 PQAAAAgA AAAbAAAA EAAAAPoN AABxPQAA NgAAABAA AAAoDgAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAA1DnE9 Pw58PT8O iD0/DpU9 NQ6fPSgO nz02AAAA EAAAAPoN AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAO4N nz3jDZU9
+ 4w2IPeMN fD3uDXE9 +g1xPT0A AAAIAAAA GwAAABAA AACFDgAA cT0AADYA AAAQAAAA sw4AAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA vw5xPcoO fD3KDog9
+ yg6VPb8O nz2zDp89 NgAAABAA AACFDgAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAB4Dp89 bg6VPW4O iD1uDnw9 eA5xPYUO cT09AAAA CAAAABsA AAAQAAAA
+ Dw8AAHE9 AAA2AAAA EAAAAD0P AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEoP cT1UD3w9 VA+IPVQP lT1KD589 PQ+fPTYA AAAQAAAA Dw8AAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA Ag+fPfgO lT34Dog9 +A58PQIP cT0PD3E9 PQAAAAgA AAAbAAAA EAAAAJkP AABxPQAA NgAAABAA AADHDwAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AADUD3E9 3g98Pd4P iD3eD5U9 1A+fPccP nz02AAAA EAAAAJkP AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIwP nz2CD5U9
+ gg+IPYIP fD2MD3E9 mQ9xPT0A AAAIAAAA GwAAABAA AAAjEAAA cT0AADYA AAAQAAAA URAAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA XhBxPWgQ fD1oEIg9
+ aBCVPV4Q nz1REJ89 NgAAABAA AAAjEAAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAXEJ89 DBCVPQwQ iD0MEHw9 FxBxPSMQ cT09AAAA CAAAABsA AAAQAAAA
+ rhAAAHE9 AAA2AAAA EAAAANwQ AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAOgQ cT3zEHw9 8xCIPfMQ lT3oEJ89 3BCfPTYA AAAQAAAA rhAAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA oRCfPZYQ lT2WEIg9 lhB8PaEQ cT2uEHE9 PQAAAAgA AAAbAAAA EAAAADgR AABxPQAA NgAAABAA AABmEQAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AABzEXE9 fRF8PX0R iD19EZU9 cxGfPWYR nz02AAAA EAAAADgR AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACsR nz0hEZU9
+ IRGIPSER fD0rEXE9 OBFxPT0A AAAIAAAA GwAAABAA AADCEQAA cT0AADYA AAAQAAAA 8BEAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA /RFxPQcS fD0HEog9
+ BxKVPf0R nz3wEZ89 NgAAABAA AADCEQAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAC1EZ89 qxGVPasR iD2rEXw9 tRFxPcIR cT09AAAA CAAAABsA AAAQAAAA
+ TBIAAHE9 AAA2AAAA EAAAAHoS AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIcS cT2REnw9 kRKIPZES lT2HEp89 ehKfPTYA AAAQAAAA TBIAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA QBKfPTUS lT01Eog9 NRJ8PUAS cT1MEnE9 PQAAAAgA AAAbAAAA EAAAANYS AABxPQAA NgAAABAA AAAFEwAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAARE3E9 HBN8PRwT iD0cE5U9 EROfPQUT nz02AAAA EAAAANYS AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMoS nz2/EpU9
+ vxKIPb8S fD3KEnE9 1hJxPT0A AAAIAAAA GwAAABAA AABhEwAA cT0AADYA AAAQAAAA jxMAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA nBNxPaYT fD2mE4g9
+ phOVPZwT nz2PE589 NgAAABAA AABhEwAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABUE589 ShOVPUoT iD1KE3w9 VBNxPWET cT09AAAA CAAAABsA AAAQAAAA
+ 6xMAAHE9 AAA2AAAA EAAAABkU AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACYU cT0wFHw9 MBSIPTAU lT0mFJ89 GRSfPTYA AAAQAAAA 6xMAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA 3hOfPdQT lT3UE4g9 1BN8Pd4T cT3rE3E9 PQAAAAgA AAAbAAAA EAAAAHUU AABxPQAA NgAAABAA AACjFAAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AACwFHE9 uhR8PboU iD26FJU9 sBSfPaMU nz02AAAA EAAAAHUU AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGgU nz1eFJU9
+ XhSIPV4U fD1oFHE9 dRRxPT0A AAAIAAAA GwAAABAA AAD/FAAA cT0AADYA AAAQAAAA LhUAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA OhVxPUUV fD1FFYg9
+ RRWVPToV nz0uFZ89 NgAAABAA AAD/FAAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADzFJ89 6BSVPegU iD3oFHw9 8xRxPf8U cT09AAAA CAAAABsA AAAQAAAA
+ ihUAAHE9 AAA2AAAA EAAAALgV AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMQV cT3PFXw9 zxWIPc8V lT3EFZ89 uBWfPTYA AAAQAAAA ihUAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA fRWfPXMV lT1zFYg9 cxV8PX0V cT2KFXE9 PQAAAAgA AAAbAAAA EAAAABQW AABxPQAA NgAAABAA AABCFgAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AABPFnE9 WRZ8PVkW iD1ZFpU9 TxafPUIW nz02AAAA EAAAABQW AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAcW nz39FZU9
+ /RWIPf0V fD0HFnE9 FBZxPT0A AAAIAAAA GwAAABAA AACeFgAA cT0AADYA AAAQAAAA zBYAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 2RZxPeMW fD3jFog9
+ 4xaVPdkW nz3MFp89 NgAAABAA AACeFgAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACRFp89 hxaVPYcW iD2HFnw9 kRZxPZ4W cT09AAAA CAAAABsA AAAQAAAA
+ KBcAAHE9 AAA2AAAA EAAAAFYX AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGMX cT1uF3w9 bheIPW4X lT1jF589 VhefPTYA AAAQAAAA KBcAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA HBefPREX lT0RF4g9 ERd8PRwX cT0oF3E9 PQAAAAgA AAAbAAAA EAAAALMX AABxPQAA NgAAABAA AADhFwAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AADtF3E9 +Bd8PfgX iD34F5U9 7RefPeEX nz02AAAA EAAAALMX AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKYX nz2cF5U9
+ nBeIPZwX fD2mF3E9 sxdxPT0A AAAIAAAA GwAAABAA AAA9GAAA cT0AADYA AAAQAAAA axgAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA eBhxPYIY fD2CGIg9
+ ghiVPXgY nz1rGJ89 NgAAABAA AAA9GAAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAwGJ89 JhiVPSYY iD0mGHw9 MBhxPT0Y cT09AAAA CAAAABsA AAAQAAAA
+ xxgAAHE9 AAA2AAAA EAAAAPUY AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAAIZ cT0MGXw9 DBmIPQwZ lT0CGZ89 9RifPTYA AAAQAAAA xxgAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA uhifPbAY lT2wGIg9 sBh8PboY cT3HGHE9 PQAAAAgA AAAbAAAA EAAAAFEZ AABxPQAA NgAAABAA AAB/GQAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AACMGXE9 lhl8PZYZ iD2WGZU9 jBmfPX8Z nz02AAAA EAAAAFEZ AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAEUZ nz06GZU9
+ OhmIPToZ fD1FGXE9 URlxPT0A AAAIAAAA GwAAABAA AADcGQAA cT0AADYA AAAQAAAA ChoAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA FhpxPSEa fD0hGog9
+ IRqVPRYa nz0KGp89 NgAAABAA AADcGQAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADPGZ89 xRmVPcUZ iD3FGXw9 zxlxPdwZ cT09AAAA CAAAABsA AAAQAAAA
+ ZhoAAHE9 AAA2AAAA EAAAAJQa AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAKEa cT2rGnw9 qxqIPasa lT2hGp89 lBqfPTYA AAAQAAAA ZhoAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA WRqfPU8a lT1PGog9 Txp8PVka cT1mGnE9 PQAAAAgA AAAbAAAA EAAAAPAa AABxPQAA NgAAABAA AAAeGwAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAArG3E9 NRt8PTUb iD01G5U9 KxufPR4b nz02AAAA EAAAAPAa AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAOMa nz3ZGpU9
+ 2RqIPdka fD3jGnE9 8BpxPT0A AAAIAAAA GwAAABAA AAB6GwAA cT0AADYA AAAQAAAA qBsAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA tRtxPb8b fD2/G4g9
+ vxuVPbUb nz2oG589 NgAAABAA AAB6GwAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABuG589 YxuVPWMb iD1jG3w9 bhtxPXob cT09AAAA CAAAABsA AAAQAAAA
+ BRwAAHE9 AAA2AAAA EAAAADMc AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAD8c cT1KHHw9 ShyIPUoc lT0/HJ89 MxyfPTYA AAAQAAAA BRwAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA +BufPe4b lT3uG4g9 7ht8Pfgb cT0FHHE9 PQAAAAgA AAAbAAAA EAAAAI8c AABxPQAA NgAAABAA AAC9HAAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AADKHHE9 1Bx8PdQc iD3UHJU9 yhyfPb0c nz02AAAA EAAAAI8c AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAIIc nz14HJU9
+ eByIPXgc fD2CHHE9 jxxxPT0A AAAIAAAA GwAAABAA AAAZHQAA cT0AADYA AAAQAAAA Rx0AAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA VB1xPV4d fD1eHYg9
+ Xh2VPVQd nz1HHZ89 NgAAABAA AAAZHQAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAMHZ89 Ah2VPQId iD0CHXw9 DB1xPRkd cT09AAAA CAAAABsA AAAQAAAA
+ ox0AAHE9 AAA2AAAA EAAAANEd AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAN4d cT3oHXw9 6B2IPegd lT3eHZ89 0R2fPTYA AAAQAAAA ox0AAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA lx2fPYwd lT2MHYg9 jB18PZcd cT2jHXE9 PQAAAAgA AAAbAAAA EAAAAC4e AABxPQAA NgAAABAA AABcHgAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AABoHnE9 cx58PXMe iD1zHpU9 aB6fPVwe nz02AAAA EAAAAC4e AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAACEe nz0WHpU9
+ Fh6IPRYe fD0hHnE9 Lh5xPT0A AAAIAAAA GwAAABAA AAC4HgAA cT0AADYA AAAQAAAA 5h4AAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA 8x5xPf0e fD39Hog9
+ /R6VPfMe nz3mHp89 NgAAABAA AAC4HgAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACrHp89 oR6VPaEe iD2hHnw9 qx5xPbge cT09AAAA CAAAABsA AAAQAAAA
+ Qh8AAHE9 AAA2AAAA EAAAAHAf AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAH0f cT2HH3w9 hx+IPYcf lT19H589 cB+fPTYA AAAQAAAA Qh8AAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA NR+fPSsf lT0rH4g9 Kx98PTUf cT1CH3E9 PQAAAAgA AAAbAAAA EAAAAMwf AABxPQAA NgAAABAA AAD6HwAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAAHIHE9 ESB8PREg iD0RIJU9 ByCfPfof nz02AAAA EAAAAMwf AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAMAf nz21H5U9
+ tR+IPbUf fD3AH3E9 zB9xPT0A AAAIAAAA GwAAABAA AABWIAAA cT0AADYA AAAQAAAA hSAAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA kSBxPZwg fD2cIIg9
+ nCCVPZEg nz2FIJ89 NgAAABAA AABWIAAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AABKIJ89 PyCVPT8g iD0/IHw9 SiBxPVYg cT09AAAA CAAAABsA AAAQAAAA
+ 4SAAAHE9 AAA2AAAA EAAAAA8h AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAABwh cT0mIXw9 JiGIPSYh lT0cIZ89 DyGfPTYA AAAQAAAA 4SAAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA 1CCfPcog lT3KIIg9 yiB8PdQg cT3hIHE9 PQAAAAgA AAAbAAAA EAAAAGsh AABxPQAA NgAAABAA AACZIQAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AACmIXE9 sCF8PbAh iD2wIZU9 piGfPZkh nz02AAAA EAAAAGsh AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAF4h nz1UIZU9
+ VCGIPVQh fD1eIXE9 ayFxPT0A AAAIAAAA GwAAABAA AAD1IQAA cT0AADYA AAAQAAAA IyIAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA MCJxPToi fD06Iog9
+ OiKVPTAi nz0jIp89 NgAAABAA AAD1IQAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADoIZ89 3iGVPd4h iD3eIXw9 6CFxPfUh cT09AAAA CAAAABsA AAAQAAAA
+ fyIAAHE9 AAA2AAAA EAAAAK4i AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAALoi cT3FInw9 xSKIPcUi lT26Ip89 riKfPTYA AAAQAAAA fyIAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA cyKfPWgi lT1oIog9 aCJ8PXMi cT1/InE9 PQAAAAgA AAAbAAAA EAAAAAoj AABxPQAA NgAAABAA AAA4IwAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AABEI3E9 TyN8PU8j iD1PI5U9 RCOfPTgj nz02AAAA EAAAAAoj AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAP0i nz3zIpU9
+ 8yKIPfMi fD39InE9 CiNxPT0A AAAIAAAA GwAAABAA AACUIwAA cT0AADYA AAAQAAAA wiMAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA zyNxPdkj fD3ZI4g9
+ 2SOVPc8j nz3CI589 NgAAABAA AACUIwAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AACHI589 fSOVPX0j iD19I3w9 hyNxPZQj cT09AAAA CAAAABsA AAAQAAAA
+ HiQAAHE9 AAA2AAAA EAAAAEwk AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAFkk cT1jJHw9 YySIPWMk lT1ZJJ89 TCSfPTYA AAAQAAAA HiQAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA ESSfPQck lT0HJIg9 ByR8PREk cT0eJHE9 PQAAAAgA AAAbAAAA EAAAAKgk AABxPQAA NgAAABAA AADWJAAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AADjJHE9 7iR8Pe4k iD3uJJU9 4ySfPdYk nz02AAAA EAAAAKgk AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJwk nz2RJJU9
+ kSSIPZEk fD2cJHE9 qCRxPT0A AAAIAAAA GwAAABAA AAAzJQAA cT0AADYA AAAQAAAA YSUAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA bSVxPXgl fD14JYg9
+ eCWVPW0l nz1hJZ89 NgAAABAA AAAzJQAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAAmJZ89 HCWVPRwl iD0cJXw9 JiVxPTMl cT09AAAA CAAAABsA AAAQAAAA
+ vSUAAHE9 AAA2AAAA EAAAAOsl AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAPgl cT0CJnw9 AiaIPQIm lT34JZ89 6yWfPTYA AAAQAAAA vSUAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA sCWfPaYl lT2mJYg9 piV8PbAl cT29JXE9 PQAAAAgA AAAbAAAA EAAAAEcm AABxPQAA NgAAABAA AAB1JgAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AACCJnE9 jCZ8PYwm iD2MJpU9 giafPXUm nz02AAAA EAAAAEcm AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADom nz0wJpU9
+ MCaIPTAm fD06JnE9 RyZxPT0A AAAIAAAA GwAAABAA AADRJgAA cT0AADYA AAAQAAAA /yYAAHE9 AABYAAAA NAAAAAAA AAAAAAAA //////// //8GAAAA DCdxPRYn fD0WJ4g9
+ FieVPQwn nz3/Jp89 NgAAABAA AADRJgAA nz0AAFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADFJp89 uiaVPbom iD26Jnw9 xSZxPdEm cT09AAAA CAAAABsA AAAQAAAA
+ XCcAAHE9 AAA2AAAA EAAAAIon AABxPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAJYn cT2hJ3w9 oSeIPaEn lT2WJ589 iiefPTYA AAAQAAAA XCcAAJ89 AABYAAAA
+ NAAAAAAA AAAAAAAA //////// //8GAAAA TyefPUUn lT1FJ4g9 RSd8PU8n cT1cJ3E9 PQAAAAgA AAAbAAAA EAAAAOYn AABxPQAA NgAAABAA AAAUKAAA cT0AAFgA AAA0AAAA
+ AAAAAAAA AAD///// /////wYA AAAhKHE9 Kyh8PSso iD0rKJU9 ISifPRQo nz02AAAA EAAAAOYn AACfPQAA WAAAADQA AAAAAAAA AAAAAP// //////// BgAAANkn nz3PJ5U9
+ zyeIPc8n fD3ZJ3E9 5idxPT0A AAAIAAAA PAAAAAgA AAA/AAAA GAAAACcA AADVAwAA hQIAANwD AAATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAlAAAA DAAAAAcA AIAkAAAA
+ JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA lAAAAIgA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAOxR OEACAAAA
+ AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQM0AAAA KAAAAAIQ wNsDAAAA AAAAAPYo jEDSH3ZE mji6QTnG ekR7syhC 0h92RAAB AQEVQAEA EAAAAAQA AAAAAAAA
+ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAuAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA
+ DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA KAAAAAIA AADWAwAA LQAAAO4D AAADAAAA RwCIPXUB sj6jAog9 JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB
+ AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAKQA AACYAAAA RU1GKypA AAAkAAAA GAAAAAAA AAAAAMDC AADAQgAA AABUpF9B BXN4RDZA AoBwAAAA
+ ZAAAAAAA AP8BAAAA AQAAAAYA AAAHWUho e3zPUU1R DnoAcPw9 AFsbPoBx lD4AWxs+ AMfpPgBb Gz5Ajh8/ AFsbPgA5 Sj8AWxs+ wON0PwBb Gz4AAIA/ AAAAAAAA AAAAAIA/
+ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA VAAAAA8A AADVAwAA HwAAANYD AAABAAAA AIC7QQAA u0EdAAAA
+ 1gMAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA B1kAAAAA AABUAAAA VAAAAA8A AADFAwAA HwAAAMYD AAABAAAA AIC7QQAA u0EdAAAA xgMAAAEA AABMAAAA
+ AAAAAAAA AAAAAAAA //////// //9QAAAA SGgAAAAA AABUAAAA VAAAAA8A AAC1AwAA HwAAALYD AAABAAAA AIC7QQAA u0EdAAAA tgMAAAEA AABMAAAA AAAAAAAA AAAAAAAA
+ //////// //9QAAAA e3wAAAAA AABUAAAA VAAAAA8A AAClAwAA HwAAAKYD AAABAAAA AIC7QQAA u0EdAAAA pgMAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA
+ z1EAAAAA AABUAAAA VAAAAA8A AACVAwAA HwAAAJYD AAABAAAA AIC7QQAA u0EdAAAA lgMAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA TVEAAAAA AABUAAAA
+ VAAAAA8A AACFAwAA HwAAAIYD AAABAAAA AIC7QQAA u0EdAAAA hgMAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA DnoAAAAA AAAlAAAA DAAAAA0A AIBGAAAA
+ tAAAAKgA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA
+ PAAAAAIQ wNsFAAAA AAAAAB3M OUO3kn9E BWGqQ7eS f0QFYapD C3YeQh3M OUMLdh5C Hcw5Q7eS f0QAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA
+ BQAAgFYA AAAwAAAA uAAAACYA AABWAQAA AAQAAAUA AACdC+U/ TRXlP00V egKdC3oC nQvlPyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA
+ AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AAA0AAAA KAAAAEVN RisKQACA JAAAABgA AAD37uj/ AQAAAB3M OUMLdh5C 7fUaQ/P5 PEIoAAAA DAAAAAMA AAAkAAAA
+ JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA 6O73AAAA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAALkA AAAnAAAA
+ VQEAAFcA AAAFAAAA nQt6Ap0L bgVNFW4F TRV6Ap0L egIlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA
+ qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA
+ AAAAAB3M OUP/t61C BWGqQ/+3 rUIFYapD C3YeQh3M OUMLdh5C Hcw5Q/+3 rUIAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA
+ uAAAACYA AABWAQAA WAAAAAUA AACdC24F TRVuBU0V egKdC3oC nQtuBSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA
+ AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA hAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC Hcw5Qwt2 HkI2QAKA XAAAAFAA AAAAAAD/ AQAAAAEA AAAEAAAA
+ DnqhUgZS QFwAffI+ gA+aPkDp Iz+AD5o+ AJROP4AP mj7APnk/ gA+aPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA
+ GAAAACgA AAAMAAAA AgAAAFIA AABwAQAA AgAAAPD/ //8AAAAA AAAAAAAA AACQAQAA AAAAhgcA BACLW1NP AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAA8AAEA AAAvAAAA OAAAAHz3 fgI+LIw5 fPd+AjgA AAAvAAAA /gV/Anz3 fgIgAAAA zOUSAOZV gjkAAAAA /gV/AgIG fwI3AAAA
+ GF5QAwEA AABE+H4C AAAVACT5 fgKIAX8C OAAAAMj/ fgJoAn8C EAYBAAQA AAAs5RIA OAAAACDm EgAAAJJ8 QACTfP// //89AJN8 +pmAfAAA FQAAAAAA DZqAfN4S CgNgdxwA
+ IEDzd+Tm EgBhPoI5 2F9QAxhe UAP85RIA AAAAAJTv EgCwmoN8 EJqAfP// //8NmoB8 5fvvd2B3 HAACAAAA AAABANoS IUEBAAAA ZOYSAMsr 8HcgQPN3 3hIKA2R2 AAgAAAAA
+ JQAAAAwA AAACAAAA VAAAAGQA AADnAAAA NwAAABYB AABGAAAA AQAAAACA u0EAALtB 5wAAAEUA AAAEAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// VAAAAA56 oVIGUkBc
+ EAAAABAA AAAQAAAA AAAAACUA AAAMAAAA DQAAgEYA AAC0AAAA qAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA
+ AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA BWGqQ7eS f0T72/dD t5J/RPvb 90MLdh5C BWGqQwt2 HkIFYapD t5J/RAAB AQGBAAAK
+ FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AABTAQAA JgAAAPEB AAAABAAA BQAAAE0V 5T/8HuU/ /B56Ak0V egJNFeU/ JQAAAAwA AAAHAACA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAADQA AAAoAAAA RU1GKwpA AIAkAAAA GAAAAPfu 6P8BAAAA
+ BWGqQwt2 HkLs9RpD 8/k8QiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA VAEAACcA AADwAQAA
+ VwAAAAUA AABNFXoC TRVuBfwe bgX8HnoC TRV6AiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA
+ nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA
+ BWGqQ/+3 rUL72/dD /7etQvvb 90MLdh5C BWGqQwt2 HkIFYapD /7etQgAB AQGBAAAK FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA
+ AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AABTAQAA
+ JgAAAPEB AABYAAAA BQAAAE0V bgX8Hm4F /B56Ak0V egJNFW4F JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA
+ KAAAAAwA AAABAAAA RgAAAJAA AACEAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEIFYapD C3YeQjZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA AABAYpdf
+ DnrReQA4 aT0A3T4+ APlkPgDd Pj4A0sc+ AN0+PsCT Dj8A3T4+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA
+ JQAAAAwA AAACAAAA VAAAAGQA AABaAQAA LAAAAIkB AAA7AAAA AQAAAACA u0EAALtB WgEAADoA AAAEAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// VAAAAEBi l18OetF5
+ EAAAABAA AAAQAAAA AAAAACUA AAAMAAAA DQAAgEYA AACAAAAA dAAAAEVN RisrQAAA DAAAAAAA AAAqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC BWGqQwt2 HkI2QAKA
+ QAAAADQA AAAAAAD/ AQAAAAEA AAABAAAA ATCAPjk/ AN0+PgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA
+ JQAAAAwA AAACAAAA VAAAAFQA AACaAQAA LAAAAJoB AAA7AAAA AQAAAACA u0EAALtB mgEAADoA AAABAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAAEw AAAAAAAA
+ JQAAAAwA AAANAACA RgAAAJwA AACQAAAA RU1GKytA AAAMAAAA AAAAACpA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEIFYapD C3YeQjZA AoBcAAAA UAAAAAAA AP8BAAAA
+ AQAAAAQA AAAnjWly jFSzUkDp Yz8A3T4+ AEqHPwDd Pj5gn5w/ AN0+PsD0 sT8A3T4+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA
+ FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGQA AACqAQAA LAAAANkB AAA7AAAA AQAAAACA u0EAALtB qgEAADoA AAAEAAAA TAAAAAAA AAAAAAAA AAAAAP// ////////
+ VAAAACeN aXKMVLNS EAAAABAA AAAQAAAA AAAAACUA AAAMAAAA DQAAgEYA AACUAAAA iAAAAEVN RisrQAAA DAAAAAAA AAAqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC
+ BWGqQwt2 HkI2QAKA VAAAAEgA AAAAAAD/ AQAAAAEA AAADAAAA oVIOetF5 wJMOPwBD zT6APjk/ AEPNPkDp Yz8AQ80+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA AAASAAAA
+ DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA YAAAAIoB AABAAAAA qQEAAE8A AAABAAAA AIC7QQAA u0GKAQAA TgAAAAMA AABMAAAA
+ AAAAAAAA AAAAAAAA //////// //9UAAAA oVIOetF5 AAAQAAAA EAAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA tAAAAKgA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA
+ AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAPvb 90O3kn9E lLkhRLeS f0SUuSFE
+ C3YeQvvb 90MLdh5C +9v3Q7eS f0QAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA
+ AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA 7gEAACYA AACJAgAA AAQAAAUA AAD8HuU/
+ byjlP28o egL8HnoC /B7lPyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AAA0AAAA
+ KAAAAEVN RisKQACA JAAAABgA AAD37uj/ AQAAAPvb 90MLdh5C Wi4XQ/P5 PEIkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA
+ DAAAAAgA AIBWAAAA MAAAAO8B AAAnAAAA hwIAAFcA AAAFAAAA /B56Avwe bgVvKG4F byh6Avwe egIlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA
+ AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA
+ AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAPvb 90P/t61C lLkhRP+3 rUKUuSFE C3YeQvvb 90MLdh5C +9v3Q/+3 rUIAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA
+ JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA
+ AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA 7gEAACYA AACJAgAA WAAAAAUA AAD8Hm4F byhuBW8o egL8HnoC /B5uBSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA
+ AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACcAAAA kAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC +9v3Qwt2 HkI2QAKA
+ aAAAAFwA AAAAAAD/ AQAAAAEA AAAFAAAA nlIOeg1n oVKFU4Dd vT6AD5o+ gJkJP4AP mj5ARDQ/ gA+aPgDv Xj+AD5o+ 4MyEP4AP mj4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA
+ AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABsAAAA EwIAADcA AABSAgAA RgAAAAEA AAAAgLtB AAC7QRMC AABFAAAA
+ BQAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1gA AACeUg56 DWehUoVT AAAQAAAA EAAAABAA AAAQAAAA AAAAACUA AAAMAAAA DQAAgEYA AAC0AAAA qAAAAEVN RisrQAAA
+ DAAAAAAA AAAIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA
+ e7MoQreS f0QdzDlD t5J/RB3M OUMLdh5C e7MoQgt2 HkJ7syhC t5J/RAAB AQGBAAAK FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA
+ AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AAApAAAA
+ JgAAALsA AAAABAAA BQAAAKMC 5T+dC+U/ nQt6AqMC egKjAuU/ JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA
+ KAAAAAwA AAABAAAA RgAAADQA AAAoAAAA RU1GKwpA AIAkAAAA GAAAAPfu 6P8BAAAA e7MoQgt2 HkI9nw9D 8/k8QiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA
+ AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA KgAAACcA AAC6AAAA VwAAAAUA AACjAnoC owJuBZ0L bgWdC3oC owJ6AiUA AAAMAAAA BwAAgCUA AAAMAAAA
+ AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA
+ AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA e7MoQv+3 rUIdzDlD /7etQh3M OUMLdh5C e7MoQgt2 HkJ7syhC /7etQgAB AQGBAAAK
+ FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AAApAAAA JgAAALsA AABYAAAA BQAAAKMC bgWdC24F nQt6AqMC egKjAm4F JQAAAAwA AAAHAACA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAIgA AAB8AAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA
+ AAAAAAAA wEJ7syhC C3YeQjZA AoBUAAAA SAAAAAAA AP8BAAAA AQAAAAMA AACzfg56 uk6A7v4+ gA+aPgAi Kj+AD5o+ wMxUP4AP mj4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA
+ AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABgAAAA WgAAADcA AAB5AAAA RgAAAAEA AAAAgLtB AAC7QVoA AABFAAAA
+ AwAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1QA AACzfg56 uk4AABAA AAAQAAAA AAAAACUA AAAMAAAA DQAAgEYA AABAAAAA NAAAAEVN RisrQAAA DAAAAAAA AAAKQACA
+ JAAAABgA AAD37uj/ AQAAAHh5 UEMmbwBD XC6XQtRq NUIkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA
+ MAAAANAA AACAAAAA HQEAAK4A AAAFAAAA CA0HCAgN 3QrCEd0K whEHCAgN BwglAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA
+ AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA
+ PAAAAAIQ wNsFAAAA AAAAAHh5 UEPbyS1D UwiOQ9vJ LUNTCI5D Jm8AQ3h5 UEMmbwBD eHlQQ9vJ LUMAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA
+ BQAAgFYA AAAwAAAA zwAAAH8A AAAeAQAA rwAAAAUA AAAIDd0K whHdCsIR BwgIDQcI CA3dCiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA
+ AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AAC4AAAA rAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC eHlQQyZv AEMIQAIG KAAAABwA AAACEMDb
+ AI7jPQAA AAAAAAAA AAAAAAIA AACLW1NP NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAANdT BnREjZll AKUvPgCq iz4AtpA+ AKqLPoCZ yT4Aqos+ gD4BPwCq iz4AAIA/
+ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAoAAAA DAAAAAIA AABSAAAA cAEAAAIA AAD1//// AAAAAAAA AAAAAAAA
+ kAEAAAAA AIYHAAQA i1tTTwAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA gjlPSYI5 JQAAAKRC ggIGV4I5
+ 3Pd+AtRB ggIlAAAA CgAAAMQC fwLc934C IAAAAMzl EgDmVYI5 AQAAAMQC fwLGAn8C JQAAANRB ggIBAAAA pPh+AgAA FQBI+X4C MAB/AioA AADg/n4C 2AB/AtQC AQAEAAAA
+ LOUSACoA AAAg5hIA AACSfEAA k3z///// PQCTfPqZ gHwAABUA AAAAAA2a gHzeEgoE YHccACBA 83fk5hIA YT6CORxD ggLUQYIC /OUSAAAA AACU7xIA sJqDfBCa gHz/////
+ DZqAfOX7 73dgdxwA AgAAAAAA AQDaEiFB AQAAAGTm EgDLK/B3 IEDzd94S CgRkdgAI AAAAACUA AAAMAAAA AgAAAFQA AABkAAAA 4QAAAJIA AAABAQAA nAAAAAEA AAAAgLtB
+ AAC7QeEA AACbAAAA BAAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1QA AADXUwZ0 RI2ZZQsA AAALAAAA CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA mAAAAIwA AABFTUYr
+ K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQMsAAAA IAAAAAIQ wNsCAAAA
+ AAAAAIYA FEOBHBdD 1AhKQ4Ec F0MAAQEB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA
+ OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACQA AACSAAAA lgAAAMwA AACZAAAA AgAAAEEJ cgmhDHIJ
+ JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA
+ MAAAAAIQ wNsEAAAA AAAAAE8d SUNsbhND eHlQQ4Ec F0NPHUlD lcoaQ08d SUNsbhND AAEBgRRA AYAQAAAA BAAAAL93 Rv8oAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA Rne/AAAA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAMkA AACTAAAA
+ 0QAAAJsA AAAEAAAA kgw3CQgN cgmSDK0J kgw3CSUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA
+ AgAAAEYA AAA0AAAA KAAAAEVN RisKQACA JAAAABgA AAD37uj/ AQAAAFxr UUO7uU1D zGaTQsTh MEIoAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA 6O73AAAA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAANEA AADNAAAA HAEAAPoA AAAFAAAA Fw3cDBcN oA+yEaAP
+ shHcDBcN 3AwlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA
+ AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAFxr UUMs8nlD YY+NQyzy eUNhj41D
+ u7lNQ1xr UUO7uU1D XGtRQyzy eUMAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA
+ AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA 0AAAAMwA AAAdAQAA /AAAAAUA AAAXDaAP
+ shGgD7IR 3AwXDdwM Fw2gDyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AAB8AAAA
+ cAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC XGtRQ7u5 TUM2QAKA SAAAADwA AAAAAAD/ AQAAAAEA AAACAAAA HVKhWwC8 iz4ApIg+ gJ/EPgCk iD4AAIA/
+ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA WAAAAOwA AADeAAAA 9gAAAOgA AAABAAAA
+ AIC7QQAA u0HsAAAA 5wAAAAIA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA HVKhWwsA AAAAAAAA JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA RU1GKytA AAAMAAAA
+ AAAAAApA AIAkAAAA GAAAAPfu 6P8BAAAA XGtRQ32s ikPMZpNC wOEwQiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA
+ CAAAgFYA AAAwAAAA 0QAAABUB AAAcAQAA QgEAAAUA AAAXDVYR Fw0aFLIR GhSyEVYR Fw1WESUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA
+ AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/
+ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA XGtRQ7XI oENhj41D tcigQ2GP jUN9rIpD XGtRQ32s ikNca1FD tcigQwAB AQGBAAAK FUABABAA AAAEAAAA AAAAACQA AAAkAAAA
+ AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA
+ JQAAAAwA AAAFAACA VgAAADAA AADQAAAA FAEAAB0B AABDAQAA BQAAABcN GhSyERoU shFWERcN VhEXDRoU JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB
+ AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAJAA AACEAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEJca1FD fayKQzZA AoBcAAAA
+ UAAAAAAA AP8BAAAA AQAAAAQA AACeWzBX OGjlZwCx JT4ApIg+ ALyLPgCk iD6An8Q+ AKSIPgCD /T4ApIg+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA
+ GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGQA AADhAAAA JgEAAAEB AAAwAQAA AQAAAACA u0EAALtB 4QAAAC8B AAAEAAAA TAAAAAAA AAAAAAAA
+ AAAAAP// //////// VAAAAJ5b MFc4aOVn CwAAAAsA AAALAAAA AAAAACUA AAAMAAAA DQAAgEYA AABAAAAA NAAAAEVN RisrQAAA DAAAAAAA AAAKQACA JAAAABgA AAD37uj/
+ AQAAALHH AkTuUgJD kEiEQni9 HkIkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAAsC AACCAAAA
+ TgIAAKsA AAAFAAAA siAmCLIg oQrVJKEK 1SQmCLIg JgglAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA
+ qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA
+ AAAAALHH AkRMAipD w1ATREwC KkPDUBNE 7lICQ7HH AkTuUgJD sccCREwC KkMAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA
+ CgIAAIEA AABPAgAA rAAAAAUA AACyIKEK 1SShCtUk JgiyICYI siChCiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA
+ AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA hAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC sccCRO5S AkM2QAKA XAAAAFAA AAAAAAD/ AQAAAAEA AAAEAAAA
+ h2VmTlVf ZVEAUPo9 ABh5PgDv bj4AGHk+ AFuwPgAY eT6APuk+ ABh5PgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA
+ GAAAACUA AAAMAAAA AgAAAFQA AABkAAAA FwIAAJEA AAA3AgAA mwAAAAEA AAAAgLtB AAC7QRcC AACaAAAA BAAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1QA AACHZWZO
+ VV9lUQsA AAALAAAA CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA QAAAADQA AABFTUYr K0AAAAwA AAAAAAAA CkAAgCQA AAAYAAAA 9+7o/wEA AACxxwJE 5U5YQ5BI hEJ8vR5C
+ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AAALAgAA 2AAAAE4C AAAAAQAA BQAAALIg hQ2yIAAQ
+ 1SQAENUk hQ2yIIUN JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA
+ NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AACxxwJE RP5/Q8NQ E0RE/n9D
+ w1ATROVO WEOxxwJE 5U5YQ7HH AkRE/n9D AAEBAYEA AAoVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA
+ OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAAoC AADXAAAA TwIAAAIB AAAFAAAA
+ siAAENUk ABDVJIUN siCFDbIg ABAlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA
+ kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQrHH AkTlTlhD NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAAIdl Zk4gTxKQ AFD6PQAY eT4A724+
+ ABh5PgBb sD4AGHk+ gD7pPgAY eT4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA
+ ZAAAABcC AADnAAAA NwIAAPEA AAABAAAA AIC7QQAA u0EXAgAA 8AAAAAQA AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA h2VmTiBP EpALAAAA CwAAAAsA AAAAAAAA
+ JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA RU1GKytA AAAMAAAA AAAAAApA AIAkAAAA GAAAAPfu 6P8BAAAA sccCRCYB nUOQSIRC gL0eQiQA AAAkAAAA AACAPQAA AAAAAAAA
+ AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA CwIAADoB AABOAgAA YgEAAAUA AACyIKET siAcFtUk HBbVJKET siChEyUA AAAMAAAA
+ BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA
+ CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA sccCRNbY sEPDUBNE 1tiwQ8NQ E0QmAZ1D sccCRCYB nUOxxwJE
+ 1tiwQwAB AQGBAAAK FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA
+ BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AAAKAgAA OAEAAE8C AABjAQAA BQAAALIg HBbVJBwW 1SShE7Ig oROyIBwW
+ JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAJAA AACEAAAA RU1GKypA AAAkAAAA
+ GAAAAAAA wEIAAAAA AAAAAAAA wEKxxwJE JgGdQzZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA AACHZWZO AJX3UwBQ +j0AGHk+ AO9uPgAY eT4AW7A+ ABh5PoA+ 6T4AGHk+
+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGQA AAAXAgAA SAEAADcC AABSAQAA
+ AQAAAACA u0EAALtB FwIAAFEB AAAEAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// VAAAAIdl Zk4AlfdT CwAAAAsA AAALAAAA AAAAACUA AAAMAAAA DQAAgEYA AACYAAAA
+ jAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAywA AAAgAAAA
+ AhDA2wIA AAAAAAAA OgwLREwC KkM6DAtE Qt5RQwAB AQEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA
+ OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA JAAAACsC AACoAAAA LgIAANMA AAACAAAA
+ xCKhCsQi Hg0lAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr
+ CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA v/cLRL3y UEM6DAtE 5U5YQ7Ug CkS98lBD v/cLRL3y UEMAAQGB FEABgBAA AAAEAAAA v3dG/ygA AAAMAAAA AwAAACQA AAAkAAAA
+ AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AABGd78A AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA
+ KAIAANEA AAAwAgAA 2QAAAAQA AAD+IhAN xCKFDYki EA3+IhAN JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB
+ AAAAAAAA AAACAAAA RgAAAIwA AACAAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED
+ LAAAACAA AAACEMDb AgAAAAAA AAA6DAtE RP5/QzoM C0TUyJlD AAEBgRVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA
+ OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA KwIAAP4A AAAuAgAA
+ NQEAAAIA AADEIgAQ xCI6EyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AABcAAAA
+ UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AAC/9wtE ElOZQzoM C0QmAZ1D tSAKRBJT mUO/9wtE ElOZQwAB AYEUQAGA EAAAAAQA AAC/d0b/ JAAAACQA AAAAAIA9
+ AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAACwA AAAoAgAA MgEAADAC AAA7AQAA BAAAAP4i KxPEIqET
+ iSIrE/4i KxMlAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA NAAAACgA AABFTUYr
+ CkAAgCQA AAAYAAAA 9+7o/wEA AABAXVJD z1XTQ7TZ nEJ4ODxC KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA
+ AAAAAOju 9wAAAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AADSAAAA pgEAACEB AADWAQAA BQAAACYN axomDVwd DRJcHQ0S axomDWsa JQAAAAwA AAAHAACA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+
+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AABAXVJD 3tzqQw1l kEPe3OpD DWWQQ89V 00NAXVJD z1XTQ0Bd UkPe3OpD
+ AAEBAYEA AAoVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAANEA AAClAQAA IgEAANcB AAAFAAAA Jg1cHQ0S XB0NEmsa Jg1rGiYN XB0lAAAA
+ DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA
+ AADAQgAA AAAAAAAA AADAQkBd UkPPVdND NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAAESN mWVSX2No AJqZPQA5 Uj4AlD4+ ADlSPoAt mD4AOVI+ ABHRPgA5 Uj4AAIA/
+ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA ZAAAANoA AACxAQAA +gAAALsB AAABAAAA
+ AIC7QQAA u0HaAAAA ugEAAAQA AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA RI2ZZVJf Y2gLAAAA CwAAAAsA AAAAAAAA JQAAAAwA AAANAACA RgAAAIAA AAB0AAAA
+ RU1GKytA AAAMAAAA AAAAACpA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEJAXVJD z1XTQzZA AoBAAAAA NAAAAAAA AP8BAAAA AQAAAAEA AAABMED6 BD8AOVI+ AACAPwAA
+ AAAAAAAA AACAPwAA AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA VAAAAAQB AACxAQAA BAEAALsB AAABAAAA
+ AIC7QQAA u0EEAQAA ugEAAAEA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA ATAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA gAAAAHQA AABFTUYr K0AAAAwA AAAAAAAA
+ KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQkBd UkPPVdND NkACgEAA AAA0AAAA AAAA/wEA AAABAAAA AQAAAPpe AGwhPwA5 Uj4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA
+ AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABUAAAA DwEAALEB AAAPAQAA uwEAAAEA AAAAgLtB AAC7QQ8B AAC6AQAA
+ AQAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1AA AAD6XgAA AAAAACUA AAAMAAAA DQAAgEYA AACUAAAA iAAAAEVN RisrQAAA DAAAAAAA AAAqQAAA JAAAABgA AAAAAMBC
+ AAAAAAAA AAAAAMBC QF1SQ89V 00M2QAKA VAAAAEgA AAAAAAD/ AQAAAAEA AAADAAAA y3rwUyaN AHh3PgBV sj6An7Q+ AFWyPgCD 7T4AVbI+ AACAPwAA AAAAAAAA AACAPwAA
+ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA YAAAAOoA AAC/AQAA /wAAAMkB AAABAAAA AIC7QQAA u0HqAAAA
+ yAEAAAMA AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA y3rwUyaN AAALAAAA CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA oAAAAJQA AABFTUYr K0AAAAwA AAAAAAAA
+ CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQM0AAAA KAAAAAIQ wNsDAAAA AAAAADoM C0TW2LBD
+ OgwLRFcZ 30NfnZND VxnfQwAB AQEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA
+ AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA KAAAACYB AABgAQAA LgIAAMAB AAADAAAA xCIcFsQi 5Bt0EuQb
+ JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA
+ MAAAAAIQ wNsEAAAA AAAAACET lENh8OBD DWWQQ1cZ 30MhE5RD TELdQyET lENh8OBD AAEBgRRA AYAQAAAA BAAAAL93 Rv8oAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA Rne/AAAA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAACAB AAC6AQAA
+ KQEAAMIB AAAEAAAA gxIfHA0S 5BuDEqkb gxIfHCUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA
+ AgAAAEYA AABoAAAA XAAAAEVN RisIQAED SAAAADwA AAACEMDb BQAAAAAA AACUh09D 7GO6Qw9F dkOtxK5D RYGOQ+xj ukMPRXZD KgPGQ5SH T0PsY7pD AAEBAYEA AAoUQAGA
+ EAAAAAQA AAD37uj/ KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA AAAAAOju 9wAAAAAA JQAAAAwA AAADAAAA
+ EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAADAA AADPAAAA XQEAAB4B AACNAQAA BQAAAPkM TRdlD9kV 0RFNF2UP wRj5DE0X JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+
+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA
+ OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAM4A AABcAQAA HwEAAI4B AAAFAAAA
+ +QxNF2UP 2RXREU0X ZQ/BGPkM TRclAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA
+ kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQn78 VUN9rLFD NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAAESN PGgkUppb APbpPQBk Xz4AwmY+
+ AGRfPoBE rD4AZF8+ ACjlPgBk Xz4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA
+ ZAAAAOEA AABvAQAA AQEAAHkB AAABAAAA AIC7QQAA u0HhAAAA eAEAAAQA AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA RI08aCRS mlsLAAAA CwAAAAsA AAAAAAAA
+ JQAAAAwA AAANAACA RgAAAJgA AACMAAAA RU1GKytA AAAMAAAA AAAAAAhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb
+ AAAAAL93 Rv8IQAED LAAAACAA AAACEMDb AgAAAAAA AAAPRXZD LPJ5Qw9F dkMrdIdD AAEBARVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA
+ 9QAAAPgA AAD4AAAA EQEAAAIA AABlD6AP ZQ/vECUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA
+ AQAAAEYA AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AAAk83lD aP6GQw9F dkN9rIpD +5ZyQ2j+ hkMk83lD aP6GQwAB AYEUQAGA EAAAAAQA AAC/d0b/
+ KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA AAAAAEZ3 vwAAAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA
+ JQAAAAwA AAAIAACA VgAAACwA AADyAAAA DgEAAPoA AAAWAQAA BAAAAKAP 4BBlD1YR Kg/gEKAP 4BAlAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA
+ JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA jAAAAIAA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA
+ AAAAAAIQ wNsAAAAA v3dG/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAAA9F dkO1yKBD D0V2Q1uM q0MAAQGB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA
+ AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA
+ VwAAACQA AAD1AAAA QAEAAPgA AABZAQAA AgAAAGUP GhRlD3IV JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA
+ KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAACTz eUOZFqtD D0V2Q63E rkP7lnJD mRarQyTz eUOZFqtD AAEBgRRA AYAQAAAA
+ BAAAAL93 Rv8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAPIA AABWAQAA
+ +gAAAF4B AAAEAAAA oA9jFWUP 2RUqD2MV oA9jFSUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA
+ AgAAAEYA AABoAAAA XAAAAEVN RisIQAED SAAAADwA AAACEMDb BQAAAAAA AAC0OL5D j6MWQyPw z0MKYQFD kqfhQ4+j FkMj8M9D FOYrQ7Q4 vkOPoxZD AAEBAYEA AAoUQAGA
+ EAAAAAQA AAD37uj/ KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA AAAAAOju 9wAAAAAA JQAAAAwA AAADAAAA
+ EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA VgAAADAA AAB8AQAA gQAAAMQB AACsAAAA BQAAAMgX awn+GRcI NRxrCf4Z vwrIF2sJ JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+
+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA
+ OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAAHsB AACAAAAA xQEAAK4A AAAFAAAA
+ yBdrCf4Z Fwg1HGsJ /hm/CsgX awklAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA
+ fAAAAHAA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQpws wUOrsQZD NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAKFb eWIAP0k+ AIRPPgCD nT4AhE8+
+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AACVAQAA kQAAAJ8B AACbAAAA
+ AQAAAACA u0EAALtB lQEAAJoA AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAKFb eWILAAAA AAAAACUA AAAMAAAA DQAAgEYA AACoAAAA nAAAAEVN RisrQAAA
+ DAAAAAAA AAAIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA
+ RYGOQ+xj ukNHApdD 7GO6Q0cC l0OPoxZD YgC7Q4+j FkMAAQEB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA
+ AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACwA AAAbAQAA lQAAAHgB AAB2AQAA
+ BAAAANER TRfhEk0X 4RJrCWEX awklAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA
+ XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA n4q6Q3r1 EkO0OL5D j6MWQ5+K ukOjURpD n4q6Q3r1 EkMAAQGB FEABgBAA AAAEAAAA v3dG/ygA AAAMAAAA
+ AwAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AABGd78A AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA
+ CAAAgFYA AAAsAAAA dQEAAJMA AAB9AQAA mwAAAAQA AABSFzAJ yBdrCVIX pglSFzAJ JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB
+ AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAADQA AAAoAAAA RU1GKwpA AIAkAAAA GAAAAP// //8BAAAA +myRQ3b7 X0OAqqpB gJ5gQSgA AAAMAAAA AwAAACQA AAAkAAAA
+ AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AAD///8A AAAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA IgEAAOAA AAA5AQAA
+ 7wAAAAUA AAAuEgAO LhLhDoMT 4Q6DEwAO LhIADiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AAB8AAAA
+ cAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC 8qyJQ26l WkM2QAKA SAAAADwA AAAAAAD/ AQAAAAEA AAACAAAA JnsIVACr Kj4AOik+ ADmOPgA6 KT4AAIA/
+ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA WAAAACMB AADiAAAA LQEAAOwA AAABAAAA
+ AIC7QQAA u0EjAQAA 6wAAAAIA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA JnsIVAsA AAAAAAAA JQAAAAwA AAANAACA RgAAAKgA AACcAAAA RU1GKytA AAAMAAAA
+ AAAAAAhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED PAAAADAA AAACEMDb BAAAAAAA AACSp+FD
+ j6MWQ769 6EOPoxZD vr3oQ50q FkOIKwFE nSoWQwAB AQEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA
+ OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA LAAAAMIB AACVAAAA BgIAAJgA AAAEAAAA
+ NRxrCRgd awkYHWMJ SyBjCSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AABcAAAA
+ UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AACm8ABE iHwSQ7HH AkSdKhZD pvAARLHY GUOm8ABE iHwSQwAB AYEUQAGA EAAAAAQA AAC/d0b/ KAAAAAwA AAADAAAA
+ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA AAAAAEZ3 vwAAAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA
+ VgAAACwA AAADAgAA kgAAAAwC AACaAAAA BAAAAD0g KAmyIGMJ PSCeCT0g KAklAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA
+ AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA nAAAAJAA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA
+ v3dG/whA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAMNQ E0T+7KZD 2dsWRP7s pkPZ2xZE WZrtQyzy IkNZmu1D AAEBARVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA
+ BQAAgFcA AAAsAAAA oQAAAEwB AABdAgAA 3QEAAAQA AADVJN4U tyXeFLcl tB0wCrQd JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB
+ AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAALHd I0Njce9D iIEcQ1ma 7UOx3SND TsPrQ7Hd I0Njce9D
+ AAEBgRRA AYAQAAAA BAAAAL93 Rv8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA
+ LAAAAJwA AADXAQAA pAAAAN8B AAAEAAAA PgrvHckJ tB0+Cnkd PgrvHSUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA
+ AACAQQAA AAAAAAAA AgAAAEYA AAA0AAAA KAAAAEVN RisKQACA JAAAABgA AAD///// AQAAALFI 30PvF+pD gKqqQYCe YEEoAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA ////AAAA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAL4B AADUAQAA 1AEAAOMB AAAFAAAA
+ 6htDHeob JB4/HSQe Px1DHeob Qx0lAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA fAAAAHAA AABFTUYr
+ KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQqmI 10PrbOdD NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAAGQ vo8Aqyo+ ADopPgA5 jj4AOik+ AACAPwAA AAAAAAAA
+ AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AAC/AQAA 1gEAAMkB AADgAQAA AQAAAACA u0EAALtB
+ vwEAAN8B AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAAGQ vo8LAAAA AAAAACUA AAAMAAAA DQAAgEYA AACoAAAA nAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC
+ QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA I/DPQwph AUMj8M9D
+ m4XkQg9F dkObheRC D0V2QwT9 80IAAQEB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA
+ OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACwA AAD1AAAA cQAAAKEB AACDAAAA BAAAAP4Z Fwj+GSUH
+ ZQ8lB2UP oAclAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr
+ CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA JPN5Q/ol 8kIPRXZD Jm8AQ/uW ckP6JfJC JPN5Q/ol 8kIAAQGB FEABgBAA AAAEAAAA v3dG/ygA AAAMAAAA AwAAACQA AAAkAAAA
+ AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AABGd78A AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA
+ 8gAAAHkA AAD6AAAA gQAAAAQA AACgD5IH ZQ8HCCoP kgegD5IH JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB
+ AAAAAAAA AAACAAAA RgAAADQA AAAoAAAA RU1GKwpA AIAkAAAA GAAAAP// //8BAAAA gTCgQ/V7 1kKAqqpB gJ5gQSgA AAAMAAAA AwAAACQA AAAkAAAA AACAPQAA AAAAAAAA
+ AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AAD///8A AAAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA QAEAAGsA AABWAQAA egAAAAUA AAAHFLQG
+ BxSVB1wV lQdcFbQG BxS0BiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AAB8AAAA cAAAAEVN RisqQAAA
+ JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC eXCYQ+XP y0I2QAKA SAAAADwA AAAAAAD/ AQAAAAEA AAACAAAA DU4mewCr Kj4AOik+ ADmOPgA6 KT4AAIA/ AAAAAAAA AAAAAIA/
+ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA WAAAAEEB AABtAAAA SwEAAHcA AAABAAAA AIC7QQAA u0FBAQAA
+ dgAAAAIA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA DU4mewsA AAAAAAAA JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA RU1GKytA AAAMAAAA AAAAAApA AIAkAAAA
+ GAAAAPfu 6P8BAAAA ZZG8Q79N s0OUSIRC gL0eQigA AAAMAAAA AwAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AADo7vcA
+ AAAAACUA AAAMAAAA AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA eQEAAGYB AAC8AQAA jwEAAAUA AACTF2oW kxflGLUb 5Ri1G2oW kxdqFiUA AAAMAAAA BwAAgCUA AAAMAAAA
+ AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA
+ AgAAAAIA AAAAAAAA AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA ZZG8Q28l x0OKo91D byXHQ4qj 3UO/TbND ZZG8Q79N s0NlkbxD byXHQwAB AQGBAAAK
+ FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA
+ AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AAB4AQAA ZQEAAL0B AACQAQAA BQAAAJMX 5Ri1G+UY tRtqFpMX ahaTF+UY JQAAAAwA AAAHAACA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAJAA AACEAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA
+ AAAAAAAA wEJlkbxD v02zQzZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA AACzfg56 wGjlZwBQ +j0AGHk+ AO9uPgAY eT4AW7A+ ABh5PoA+ 6T4AGHk+ AACAPwAA AAAAAAAA
+ AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGQA AACFAQAA dQEAAKUB AAB/AQAA AQAAAACA u0EAALtB
+ hQEAAH4B AAAEAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// VAAAALN+ DnrAaOVn CwAAAAsA AAALAAAA AAAAACUA AAAMAAAA DQAAgEYA AABAAAAA NAAAAEVN RisrQAAA
+ DAAAAAAA AAAKQACA JAAAABgA AAD37uj/ AQAAAN2r VUP0sApE Pp+PQrBY LEIkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA
+ DAAAAAgA AIBWAAAA MAAAANUA AAAqAgAA HgEAAFYC AAAFAAAA Ww2tIlsN XiXYEV4l 2BGtIlsN rSIlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA
+ AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA
+ AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAN2r VUN/dhVE vr2OQ392 FUS+vY5D 9LAKRN2r VUP0sApE 3atVQ392 FUQAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA
+ JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA
+ AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA 1AAAACkC AAAfAQAA VwIAAAUA AABbDV4l 2BFeJdgR rSJbDa0i Ww1eJSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA
+ AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AAB8AAAA cAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC 3atVQ/Sw CkQ2QAKA
+ SAAAADwA AAAAAAD/ AQAAAAEA AAACAAAA 11MGdACU hj4AnoU+ gHe/PgCe hT4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA
+ DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA WAAAAO8A AAA7AgAA +QAAAEUC AAABAAAA AIC7QQAA u0HvAAAA RAIAAAIA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA
+ 11MGdAsA AAAAAAAA JQAAAAwA AAANAACA RgAAAHQA AABoAAAA RU1GKytA AAAMAAAA AAAAAAhA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAHh5 UEOdhSRE F0l6QxJA HkRbDJJD
+ nYUkRBdJ ekMoyypE eHlQQ52F JEQAAQEB gQAAChRA AYAQAAAA BAAAAPfu 6P8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA
+ DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA MAAAANAA AAB5AgAA JQEAAKwC AAAFAAAA CA0iKaUP kCdCEiIp pQ+zKggN IiklAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA
+ DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA YAAAAFQA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA
+ AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/xVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA
+ AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA zwAAAHcC AAAmAQAA rQIAAAUA AAAIDSIp
+ pQ+QJ0IS IimlD7Mq CA0iKSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA
+ hAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC aHFXQ3XR H0Q2QAKA XAAAAFAA AAAAAAD/ AQAAAAEA AAAEAAAA RI2ZZSRS mlsAABA+ ACJuPoDj gD4AIm4+
+ AMe5PgAi bj6AqvI+ ACJuPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABkAAAA
+ 5QAAAI0C AAAFAQAA lwIAAAEA AAAAgLtB AAC7QeUA AACWAgAA BAAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1QA AABEjZll JFKaWwsA AAALAAAA CwAAAAAA AAAlAAAA
+ DAAAAA0A AIBGAAAA QAAAADQA AABFTUYr K0AAAAwA AAAAAAAA CkAAgCQA AAAYAAAA 9+7o/wEA AABIYVZD Dj40RDyf j0KwWCxC JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9
+ AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA JQAAAAwA AAAIAACA VgAAADAA AADWAAAA 0QIAAB8B AAD9AgAA BQAAAGcN EC1nDcEv 5BHBL+QR EC1nDRAt JQAAAAwA AAAHAACA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAKgA AACcAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+
+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8IQAED SAAAADwA AAACEMDb BQAAAAAA AABIYVZD mQM/RHMY j0OZAz9E cxiPQw4+ NERIYVZD Dj40REhh VkOZAz9E
+ AAEBAYEA AAoVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA
+ AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBWAAAA MAAAANUA AADPAgAA IAEAAP4C AAAFAAAA Zw3BL+QR wS/kERAt Zw0QLWcN wS8lAAAA
+ DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA kAAAAIQA AABFTUYr KkAAACQA AAAYAAAA
+ AADAQgAA AAAAAAAA AADAQkhh VkMOPjRE NkACgFwA AABQAAAA AAAA/wEA AAABAAAA BAAAAFVf ZVHhT29g AGEbPgCe hT4AlIY+ AJ6FPoB3 vz4AnoU+ AFv4PgCe hT4AAIA/
+ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA DAAAAAIA AABUAAAA ZAAAAOUA AADhAgAA BQEAAOsC AAABAAAA
+ AIC7QQAA u0HlAAAA 6gIAAAQA AABMAAAA AAAAAAAA AAAAAAAA //////// //9UAAAA VV9lUeFP b2ALAAAA CwAAAAsA AAAAAAAA JQAAAAwA AAANAACA RgAAAEAA AAA0AAAA
+ RU1GKytA AAAMAAAA AAAAAApA AIAkAAAA GAAAAPfu 6P8BAAAA SGFWQ+or TEQ8n49C sFgsQiQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA
+ AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA 1gAAADAD AAAfAQAA XAMAAAUA AABnDQsz Zw29NeQR vTXkEQsz Zw0LMyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA
+ AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA
+ AhDA2wAA AAAAAAD/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA SGFWQ3Xx VkRzGI9D dfFWRHMY j0PqK0xE SGFWQ+or TERIYVZD dfFWRAAB AQGBAAAK FUABABAA AAAEAAAA
+ AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA
+ JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VgAAADAA AADVAAAA LwMAACAB AABdAwAA BQAAAGcN vTXkEb01 5BELM2cN CzNnDb01 JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA
+ JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAJAA AACEAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEJIYVZD
+ 6itMRDZA AoBcAAAA UAAAAAAA AP8BAAAA AQAAAAQA AAD6Xst6 8FMmjQBh Gz4AnoU+ AJSGPgCe hT6Ad78+ AJ6FPgBb +D4AnoU+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA
+ EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAGQA AADlAAAA QQMAAAUB AABLAwAA AQAAAACA u0EAALtB 5QAAAEoD AAAEAAAA
+ TAAAAAAA AAAAAAAA AAAAAP// //////// VAAAAPpe y3rwUyaN CwAAAAsA AAALAAAA AAAAACUA AAAMAAAA DQAAgEYA AABAAAAA NAAAAEVN RisrQAAA DAAAAAAA AAAKQACA
+ JAAAABgA AAD37uj/ AQAAAEhh VkMAt15E PJ+PQrBY LEIkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA
+ MAAAANYA AAB6AwAA HwEAAKYD AAAFAAAA Zw2uN2cN YDrkEWA6 5BGuN2cN rjclAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA
+ AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA
+ PAAAAAIQ wNsFAAAA AAAAAEhh VkOLfGlE cxiPQ4t8 aURzGI9D ALdeREhh VkMAt15E SGFWQ4t8 aUQAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA
+ BQAAgFYA AAAwAAAA 1QAAAHkD AAAgAQAA qAMAAAUA AABnDWA6 5BFgOuQR rjdnDa43 Zw1gOiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA
+ AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA hAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC SGFWQwC3 XkQ2QAKA XAAAAFAA AAAAAAD/
+ AQAAAAEA AAAEAAAA RI2ZZVJf Y2gAYRs+ AJ6FPgCU hj4AnoU+ gHe/PgCe hT4AW/g+ AJ6FPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA
+ AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABkAAAA 5QAAAIsD AAAFAQAA lQMAAAEA AAAAgLtB AAC7QeUA AACUAwAA BAAAAEwA AAAAAAAA AAAAAAAA AAD/////
+ /////1QA AABEjZll Ul9jaAsA AAALAAAA CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA qAAAAJwA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA
+ AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAKyT eUN/dhVE rJN5Q5UB GUQXSXpD lQEZRBdJ ekPpoxxE
+ AAEBARVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA
+ Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAsAAAA +AAAAFQC AAD8AAAA dAIAAAQA AACaD14l mg9BJqUP QSalDykn JQAAAAwA AAAHAACA
+ JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA
+ AAAAACz3 fUMIaRxE F0l6QxJA HkQDm3ZD CGkcRCz3 fUMIaRxE AAEBgRRA AYAQAAAA BAAAAL93 Rv8oAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA Rne/AAAA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAPYA AABxAgAA /gAAAHkC AAAEAAAA
+ 4A8bJ6UP kCdqDxsn 4A8bJyUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACMAAAA
+ gAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAywA AAAgAAAA AhDA2wIA AAAAAAAA
+ F0l6QyjL KkQXSXpD 5aEyRAAB AYEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA
+ AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA JAAAAPkA AACqAgAA /AAAAMwC AAACAAAA pQ+zKqUP qSwlAAAA
+ DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA
+ AhDA2wQA AAAAAAAA LPd9QwRn MkQXSXpD Dj40RAOb dkMEZzJE LPd9QwRn MkQAAQGB FEABgBAA AAAEAAAA v3dG/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA
+ AgAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA 9gAAAMkC AAD+AAAA 0QIAAAQA AADgD5os pQ8QLWoP mizgD5os JQAAAAwA AAAHAACA
+ EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAADQA AAAoAAAA RU1GKwpA AIAkAAAA GAAAAP// //8BAAAA
+ fR5vQ2bD LUR4qqpB gJ5gQSgA AAAMAAAA AwAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AAD///8A AAAAACUA AAAMAAAA
+ AwAAACUA AAAMAAAA CAAAgFYA AAAwAAAA 7wAAALcC AAAFAQAA xgIAAAUA AADyDnEr 8g5SLEgQ UixIEHEr 8g5xKyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA
+ AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AAB8AAAA cAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC bZ5fQ+Rt LEQ2QAKA SAAAADwA AAAAAAD/
+ AQAAAAEA AAACAAAA +HYmewCr Kj4AOik+ ADmOPgA6 KT4AAIA/ AAAAAAAA AAAAAIA/ AAAAAAAA AAASAAAA DAAAAAEA AAAYAAAA DAAAAAAA AAAWAAAA DAAAABgA AAAlAAAA
+ DAAAAAIA AABUAAAA WAAAAPAA AAC5AgAA +gAAAMMC AAABAAAA AIC7QQAA u0HwAAAA wgIAAAIA AABMAAAA AAAAAAAA AAAAAAAA //////// //9QAAAA +HYmewsA AAAAAAAA
+ JQAAAAwA AAANAACA RgAAAJgA AACMAAAA RU1GKytA AAAMAAAA AAAAAAhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb
+ AAAAAL93 Rv8IQAED LAAAACAA AAACEMDb AgAAAAAA AAAXSXpD mQM/RBdJ ekPBj0pE AAEBARVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA
+ +QAAAPoC AAD8AAAA LAMAAAIA AAClD8Ev pQ+kMiUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA
+ AQAAAEYA AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AAAs931D 4FRKRBdJ ekPqK0xE A5t2Q+BU SkQs931D 4FRKRAAB AYEUQAGA EAAAAAQA AAC/d0b/
+ KAAAAAwA AAADAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JwAAABgA AAADAAAA AAAAAEZ3 vwAAAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA
+ JQAAAAwA AAAIAACA VgAAACwA AAD2AAAA KQMAAP4A AAAxAwAA BAAAAOAP ljKlDwsz ag+WMuAP ljIlAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA
+ JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA jAAAAIAA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA
+ AAAAAAIQ wNsAAAAA v3dG/whA AQMsAAAA IAAAAAIQ wNsCAAAA AAAAABdJ ekN18VZE F0l6Q9ca XUQAAQGB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA
+ AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA
+ VwAAACQA AAD5AAAA WgMAAPwA AAB2AwAA AgAAAKUP vTWlD0c3 JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA
+ KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAACz3 fUP231xE F0l6QwC3 XkQDm3ZD 9t9cRCz3 fUP231xE AAEBgRRA AYAQAAAA
+ BAAAAL93 Rv8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAPYA AABzAwAA
+ /gAAAHsD AAAEAAAA 4A84N6UP rjdqDzg3 4A84NyUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA
+ AgAAAEYA AAA0AAAA KAAAAEVN RisKQACA JAAAABgA AAD37uj/ AQAAAHqb t0PgpktE lMudQrBa PUIoAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA 6O73AAAA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAG8B AAAuAwAA vwEAAF4D AAAFAAAA 9BbqMvQW 4DXiG+A1
+ 4hvqMvQW 6jIlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA qAAAAJwA AABFTUYr CEAAAkAA AAA0AAAA
+ AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/whA AQNIAAAA PAAAAAIQ wNsFAAAA AAAAAHqb t0OLfFdE Xw7fQ4t8 V0RfDt9D
+ 4KZLRHqb t0PgpktE epu3Q4t8 V0QAAQEB gQAAChVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA
+ AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFYA AAAwAAAA bgEAAC0D AADAAQAA YAMAAAUA AAD0FuA1
+ 4hvgNeIb 6jL0Fuoy 9BbgNSUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AACQAAAA
+ hAAAAEVN RisqQAAA JAAAABgA AAAAAMBC AAAAAAAA AAAAAMBC epu3Q+Cm S0Q2QAKA XAAAAFAA AAAAAAD/ AQAAAAEA AAAEAAAA s34OesBo 5WcAEUE+ gPSQPgBs mT6A9JA+
+ gE/SPoD0 kD6AmQU/ gPSQPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABkAAAA
+ gQEAAEED AAChAQAA SwMAAAEA AAAAgLtB AAC7QYEB AABKAwAA BAAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1QA AACzfg56 wGjlZwsA AAALAAAA CwAAAAAA AAAlAAAA
+ DAAAAA0A AIBGAAAA qAAAAJwA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA
+ v3dG/whA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAHqb t0O1kVFE TYWwQ7WR UURNhbBD r45RRMVQ kkOvjlFE AAEBARVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA
+ BQAAgFcA AAAsAAAA IwEAAEUD AABxAQAA SAMAAAQA AAD0FmU0 ERZlNBEW ZDRLEmQ0 JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB
+ AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAIjG kkM0elJE cxiPQ6+O UUSIxpJD KqNQRIjG kkM0elJE
+ AAEBgRRA AYAQAAAA BAAAAL93 Rv8oAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA Rne/AAAA AAAlAAAA
+ DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAB4B AABCAwAA JgEAAEoD AAAEAAAA WRKfNOQR ZDRZEik0 WRKfNCUA AAAMAAAA BwAAgBMA AAAMAAAA
+ AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACoAAAA nAAAAEVN RisIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA
+ CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABA0gA AAA8AAAA AhDA2wUA AAAAAAAA ZZG8Q5c5 vUOerZxD lzm9Q56t nEOdvMpD FobaQp28 ykMWhtpC
+ Ie/gQwAB AQEBAAAK FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA
+ BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAADAA AABsAAAA eQEAAHsB AADDAQAA BQAAAJMX qBeWE6gX lhNYGdUG WBnVBh4c
+ JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA
+ MAAAAAIQ wNsEAAAA AAAAAD/i 4UJeeeBD FobaQnMn 5EPtKdNC XnngQz/i 4UJeeeBD AAEBgRRA AYAQAAAA BAAAAL93 Rv8kAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA LAAAAGkA AADBAQAA cQAAAMkB AAAEAAAA EAcQHNUG hRyaBhAc EAcQHCUA AAAMAAAA
+ BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AACcAAAA kAAAAEVN RisIQAAC QAAAADQA AAACEMDb
+ AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA dxrNQ28l x0N3Gs1D mzvOQ6yT eUObO85D
+ rJN5Q34d 0EMAAQEB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA
+ BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACwA AAD4AAAA jQEAAJwB AACiAQAA BAAAAKQZ 5RikGcgZ mg/IGZoP BBolAAAA
+ DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA
+ AhDA2wQA AAAAAAAA wUF9Q7un z0Osk3lD z1XTQ5jl dUO7p89D wUF9Q7un z0MAAQGB FEABgBAA AAAEAAAA v3dG/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA
+ AgAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA 9QAAAJ8B AAD+AAAA pwEAAAQA AADVD/UZ mg9rGl8P 9RnVD/UZ JQAAAAwA AAAHAACA
+ EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAIwA AACAAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA
+ zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED LAAAACAA AAACEMDb AgAAAAAA AAAPRXZD 28ktQw9F dkMXSUdD AAEBgRVA AQAQAAAA
+ BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA Rne/AAAA AAAAAAAA
+ AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgFcA AAAkAAAA 9QAAAKwA AAD4AAAA yQAAAAIA AABlD90K ZQ91DCUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA
+ AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AAAk83lD kl1GQw9F dkO7uU1D
+ +5ZyQ5Jd RkMk83lD kl1GQwAB AYEUQAGA EAAAAAQA AAC/d0b/ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA
+ JQAAAAwA AAAIAACA VgAAACwA AADyAAAA xgAAAPoA AADOAAAA BAAAAKAP ZgxlD9wM Kg9mDKAP ZgwlAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA
+ JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA 5AAAANgA AABFTUYr CEABA8QA AAC4AAAA AhDA2xMA AAAAAAAA sNKQQkwC KkO7GgFD TAIqQ5GK C0NNAipD
+ hgAUQ1mM IUOHABRD gxwXQ4gA FEOrrAxD lIoLQ7Y2 BEO9GgFD tjYEQ70a AUO2NgRD vRoBQ7U2 BEO9GgFD tjYEQ7sa AUO1NgRD sNKQQrU2 BEMF5ndC tTYEQzMO VkKprAxD
+ MQ5WQoAc F0MvDlZC V4whQ//l d0JMAipD rtKQQk0C KkMAAQMD AwMDAwMD AwEBAwMD AwODAxRA AYAQAAAA BAAAAPfu 6P8oAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA 6O73AAAA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAA7AAAA CAAAABsA AAAQAAAA hwQAAKEK AAA2AAAA
+ EAAAABII AAChCgAA WAAAAEAA AAAAAAAA AAAAAP// //////// CQAAALkI oQpBCRkK QQlyCUEJ ywi5CEQI EghECBII RAgSCEQI EghECFkA AAAkAAAA AAAAAAAA AAD/////
+ /////wIA AAASCEQI hwRECFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADgA0QI WQPLCFkD cglZAxkK 4AOhCocE oQo9AAAA CAAAADwA AAAIAAAA PgAAABgA AAA1AAAA
+ hAAAAJUA AACrAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA AAJAAAAA
+ NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9
+ AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIA7AAAA
+ CAAAABsA AAAQAAAA hwQAAKEK AAA2AAAA EAAAABII AAChCgAA WAAAAEAA AAAAAAAA AAAAAP// //////// CQAAALkI oQpBCRkK QQlyCUEJ ywi5CEQI EghECBII RAgSCEQI
+ EghECFkA AAAkAAAA AAAAAAAA AAD///// /////wIA AAASCEQI hwRECFgA AAA0AAAA AAAAAAAA AAD///// /////wYA AADgA0QI WQPLCFkD cglZAxkK 4AOhCocE oQo9AAAA
+ CAAAADwA AAAIAAAA QAAAABgA AAA0AAAA gwAAAJYA AACsAAAA JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA
+ KAAAAAwA AAABAAAA RgAAAHwA AABwAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEIxDlZC tTYEQzZA AoBIAAAA PAAAAAAA AP8BAAAA AQAAAAIA AAAzdfeL
+ gAXDPgAD bz4A6fs+ AANvPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABYAAAA
+ WgAAAJIA AABkAAAA nAAAAAEA AAAAgLtB AAC7QVoA AACbAAAA AgAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1AA AAAzdfeL CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA
+ oAAAAJQA AABFTUYr K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQM0AAAA
+ KAAAAAIQ wNsDAAAA AAAAAJSH T0PsY7pD EoTJQuxj ukMShMlC 8HIwQwAB AQMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA
+ XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA KAAAAGMA AACvAAAA
+ 0QAAAHYB AAADAAAA +QxNF00G TRdNBggL JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA
+ RgAAAFwA AABQAAAA RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAOkn wkJ1XjFD EoTJQkwC KkM74NBC dV4xQ+kn wkJ1XjFD AAEBgRRA AYAQAAAA BAAAAL93 Rv8oAAAA
+ DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA Rne/AAAA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA
+ DAAAAAgA AIBWAAAA LAAAAGEA AACqAAAA aQAAALIA AAAEAAAA EgYWC00G oQqHBhYL EgYWCyUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA
+ AACAQQAA AAAAAAAA AACAQQAA AAAAAAAA AgAAAEYA AAA0AAAA KAAAAEVN RisKQACA JAAAABgA AAD///// AQAAAN0u s0KC4Z5D gKqqQYCe YEEoAAAA DAAAAAMA AAAkAAAA
+ JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA ////AAAA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAFkA AAA9AQAA
+ bwAAAEwB AAAFAAAA mgXdE5oF vRTvBr0U 7wbdE5oF 3RMlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA
+ fAAAAHAA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQr0u lEJ+NpxD NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAA1O JnsAqyo+ ADopPgA5 jj4AOik+
+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AABaAAAA PwEAAGQA AABJAQAA
+ AQAAAACA u0EAALtB WgAAAEgB AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAA1O JnsLAAAA AAAAACUA AAAMAAAA DQAAgEYA AADwAAAA 5AAAAEVN RisrQAAA
+ DAAAAAAA AAAIQAED xAAAALgA AAACEMDb EwAAAAAA AAC01KFC Pg33Q72b CUM+DfdD kwsUQz8N 90OIgRxD RdLyQ4mB HENamu1D ioEcQ25i 6EOWCxRD dCfkQ7+b CUNzJ+RD
+ v5sJQ3Mn 5EO/mwlD cyfkQ7+b CUNzJ+RD vZsJQ3Mn 5EO01KFC cyfkQwf1 jEJzJ+RD OxJ4Qm1i 6EM5EnhC WZrtQzcS eEJE0vJD A/WMQj8N 90Oy1KFC Pw33QwAB AwMDAwMD
+ AwMDAQED AwMDA4MD FEABgBAA AAAEAAAA 9+7o/ygA AAAMAAAA AwAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AADo7vcA
+ AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAADsA AAAIAAAA GwAAABAA AAAPBQAA 4h4AADYA AAAQAAAA mggAAOIe AABYAAAA QAAAAAAA AAAAAAAA //////// //8JAAAA
+ QQniHskJ Wx7JCbQd yQkNHUEJ hRyaCIUc mgiFHJoI hRyaCIUc WQAAACQA AAAAAAAA AAAAAP// //////// AgAAAJoI hRwPBYUc WAAAADQA AAAAAAAA AAAAAP// ////////
+ BgAAAGgE hRzhAw0d 4QO0HeED Wx5oBOIe DwXiHj0A AAAIAAAA PAAAAAgA AAA+AAAA GAAAAD4A AADIAQAA nQAAAO8B AAATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA
+ JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA YAAAAFQA AABFTUYr CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA
+ AAAAAAIQ wNsAAAAA AAAA/xVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA
+ AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgDsA AAAIAAAA GwAAABAA AAAPBQAA 4h4AADYA AAAQAAAA mggAAOIe AABYAAAA
+ QAAAAAAA AAAAAAAA //////// //8JAAAA QQniHskJ Wx7JCbQd yQkNHUEJ hRyaCIUc mgiFHJoI hRyaCIUc WQAAACQA AAAAAAAA AAAAAP// //////// AgAAAJoI hRwPBYUc
+ WAAAADQA AAAAAAAA AAAAAP// //////// BgAAAGgE hRzhAw0d 4QO0HeED Wx5oBOIe DwXiHj0A AAAIAAAA PAAAAAgA AABAAAAA GAAAADwA AADHAQAA ngAAAPAB AAAlAAAA
+ DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA fAAAAHAA AABFTUYr KkAAACQA AAAYAAAA
+ AADAQgAA AAAAAAAA AADAQjkS eEJzJ+RD NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAGdi TIiABcM+ AANvPgDp +z4AA28+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA
+ EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AABjAAAA 1gEAAG0A AADgAQAA AQAAAACA u0EAALtB YwAAAN8B AAACAAAA
+ TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAGdi TIgLAAAA AAAAACUA AAAMAAAA DQAAgEYA AADwAAAA 5AAAAEVN RisrQAAA DAAAAAAA AAAIQAED xAAAALgA AAACEMDb
+ EwAAAAAA AABdKZxC ONNoRBHG BkM402hE 5zURQzjT aETcqxlD u7VmRN2r GUPFGWRE 3qsZQ9B9 YUTqNRFD UmBfRBPG BkNSYF9E E8YGQ1Jg X0QTxgZD UmBfRBPG BkNSYF9E
+ EcYGQ1Ng X0RdKZxC U2BfRLBJ h0JSYF9E jbtsQs99 YUSLu2xC xRlkRIm7 bEK7tWZE rEmHQjjT aERbKZxC ONNoRAAB AwMDAwMD AwMDAQED AwMDA4MD FEABgBAA AAAEAAAA
+ 9+7o/yQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAADsA AAAIAAAA GwAAABAA AADiBAAA NToAADYA AAAQAAAA
+ bQgAADU6 AABYAAAA QAAAAAAA AAAAAAAA //////// //8JAAAA FAk1OpsJ rjmbCQc5 mwlgOBQJ 2TdtCNk3 bQjZN20I 2TdtCNk3 WQAAACQA AAAAAAAA AAAAAP// ////////
+ AgAAAG0I 2TfiBNk3 WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADsE 2TezA2A4 swMHObMD rjk7BDU6 4gQ1Oj0A AAAIAAAA PAAAAAgA AAA+AAAA GAAAADsA AAB9AwAA
+ mgAAAKQD AAATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA YAAAAFQA AABFTUYr CEAAAkAA AAA0AAAA
+ AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA AAAA/xVA AQAQAAAA BAAAAAAA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AABfAAAA OAAAAAEA AAA4AAAA AAAAADgA AAAAAAAA AAABAAUA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACUA AAAMAAAA AQAAACUA AAAMAAAA BQAAgDsA AAAIAAAA
+ GwAAABAA AADiBAAA NToAADYA AAAQAAAA bQgAADU6 AABYAAAA QAAAAAAA AAAAAAAA //////// //8JAAAA FAk1OpsJ rjmbCQc5 mwlgOBQJ 2TdtCNk3 bQjZN20I 2TdtCNk3
+ WQAAACQA AAAAAAAA AAAAAP// //////// AgAAAG0I 2TfiBNk3 WAAAADQA AAAAAAAA AAAAAP// //////// BgAAADsE 2TezA2A4 swMHObMD rjk7BDU6 4gQ1Oj0A AAAIAAAA
+ PAAAAAgA AABAAAAA GAAAADoA AAB8AwAA mwAAAKUD AAAlAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA
+ DAAAAAEA AABGAAAA fAAAAHAA AABFTUYr KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQoy7 bEJTYF9E NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAGdi TIiABcM+
+ AANvPgDp +z4AA28+ AACAPwAA AAAAAAAA AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AABgAAAA
+ iwMAAGoA AACVAwAA AQAAAACA u0EAALtB YAAAAJQD AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAGdi TIgLAAAA AAAAACUA AAAMAAAA DQAAgEYA AACoAAAA
+ nAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAzwA AAAwAAAA
+ AhDA2wQA AAAAAAAA 7FTLQ4t8 V0TsVMtD T15sRMDa 1EJPXmxE wNrUQmFv akQAAQEB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA
+ AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA JQAAAAwA AAAFAACA VwAAACwA AABpAAAA
+ XAMAAJgB AACzAwAA BAAAAGsZ 4DVrGRg7 pwYYO6cG nDolAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA
+ DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA l37NQkOq akTA2tRC ONNoROk2 3EJDqmpE l37NQkOq akQAAQGB FEABgBAA AAAEAAAA
+ v3dG/ygA AAAMAAAA AwAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAACcA AAAYAAAA AwAAAAAA AABGd78A AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA
+ AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA ZgAAAKMD AABvAAAA qwMAAAQA AABsBqs6 pwY1OuIG qzpsBqs6 JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA
+ JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAJQA AACIAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA
+ AgAAAAAA AAACEMDb AAAAAL93 Rv8IQAED NAAAACgA AAACEMDb AwAAAAAA AABIYVZD 1KA5RMDa 1ELUoDlE wNrUQirE XUQAAQGB FUABABAA AAAEAAAA AAAAACQA AAAkAAAA
+ AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA AgAAAF8A AAA4AAAA AQAAADgA AAAAAAAA OAAAAAAA AAAAAAEA BQAAAAAA AABGd78A AAAAAAAA AAAAAAAA JQAAAAwA AAABAAAA
+ JQAAAAwA AAAFAACA VwAAACgA AABpAAAA 5QIAANgA AAB5AwAA AwAAAGcN aS6nBmku pwZyNyUA AAAMAAAA BwAAgCUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA
+ AACAQQAA AAAAAAAA AgAAACgA AAAMAAAA AQAAAEYA AABcAAAA UAAAAEVN RisIQAED PAAAADAA AAACEMDb BAAAAAAA AADpNtxC SIldRMDa 1EJTYF9E l37NQkiJ XUTpNtxC
+ SIldRAAB AYEUQAGA EAAAAAQA AAC/d0b/ JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA JQAAAAwA AAADAAAA EwAAAAwA AAABAAAA JQAAAAwA AAAIAACA
+ VgAAACwA AABmAAAA dgMAAG8A AAB+AwAA BAAAAOIG YzenBtk3 bAZjN+IG YzclAAAA DAAAAAcA AIATAAAA DAAAAAEA AAAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA
+ AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA 5AAAANgA AABFTUYr CEABA8QA AAC4AAAA AhDA2xMA AAAAAAAA XSmcQizN FEQRxgZD LM0UROc1 EUMszRRE 3KsZQ6+v EkTdqxlD
+ uRMQRN6r GUPEdw1E 6jURQ0Za C0QTxgZD RloLRBPG BkNGWgtE E8YGQ0Za C0QTxgZD RloLRBHG BkNGWgtE XSmcQkZa C0SwSYdC RloLRI27 bELDdw1E i7tsQrkT EESJu2xC
+ r68SRKxJ h0IszRRE WymcQizN FEQAAQMD AwMDAwMD AwEBAwMD AwODAxRA AYAQAAAA BAAAAPfu 6P8oAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA
+ AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA 6O73AAAA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAA7AAAA CAAAABsA AAAQAAAA 4gQAADQl AAA2AAAA EAAAAG0I AAA0JQAA
+ WAAAAEAA AAAAAAAA AAAAAP// //////// CQAAABQJ NCWbCawk mwkFJJsJ XiMUCdci bQjXIm0I 1yJtCNci bQjXIlkA AAAkAAAA AAAAAAAA AAD///// /////wIA AABtCNci
+ 4gTXIlgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA7BNci swNeI7MD BSSzA6wk OwQ0JeIE NCU9AAAA CAAAADwA AAAIAAAA PgAAABgA AAA7AAAA LQIAAJoA AABUAgAA
+ EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA RgAAAGAA AABUAAAA RU1GKwhA AAJAAAAA NAAAAAIQ wNsAAAAA
+ zgAAAAAA AAAK16M+ AgAAAAIA AAACAAAA AgAAAAAA AAACEMDb AAAAAAAA AP8VQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA
+ XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIA7AAAA CAAAABsA AAAQAAAA
+ 4gQAADQl AAA2AAAA EAAAAG0I AAA0JQAA WAAAAEAA AAAAAAAA AAAAAP// //////// CQAAABQJ NCWbCawk mwkFJJsJ XiMUCdci bQjXIm0I 1yJtCNci bQjXIlkA AAAkAAAA
+ AAAAAAAA AAD///// /////wIA AABtCNci 4gTXIlgA AAA0AAAA AAAAAAAA AAD///// /////wYA AAA7BNci swNeI7MD BSSzA6wk OwQ0JeIE NCU9AAAA CAAAADwA AAAIAAAA
+ QAAAABgA AAA6AAAA LAIAAJsA AABVAgAA JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA
+ RgAAAHwA AABwAAAA RU1GKypA AAAkAAAA GAAAAAAA wEIAAAAA AAAAAAAA wEKMu2xC RloLRDZA AoBIAAAA PAAAAAAA AP8BAAAA AQAAAAIA AAAzdfeL gAXDPgAD bz4A6fs+
+ AANvPgAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAABIA AAAMAAAA AQAAABgA AAAMAAAA AAAAABYA AAAMAAAA GAAAACUA AAAMAAAA AgAAAFQA AABYAAAA YAAAADsC AABqAAAA
+ RQIAAAEA AAAAgLtB AAC7QWAA AABEAgAA AgAAAEwA AAAAAAAA AAAAAAAA AAD///// /////1AA AAAzdfeL CwAAAAAA AAAlAAAA DAAAAA0A AIBGAAAA oAAAAJQA AABFTUYr
+ K0AAAAwA AAAAAAAA CEAAAkAA AAA0AAAA AhDA2wAA AADOAAAA AAAAAArX oz4CAAAA AgAAAAIA AAACAAAA AAAAAAIQ wNsAAAAA v3dG/whA AQM0AAAA KAAAAAIQ wNsDAAAA
+ AAAAAHh5 UEOdhSRE wNrUQp2F JETA2tRC VWkWRAAB AQMVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA
+ OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA KAAAAGkA AABYAgAA 0gAAAJQC AAADAAAA
+ CA0iKacG IimnBpsl JQAAAAwA AAAHAACA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA KAAAAAwA AAABAAAA RgAAAFwA AABQAAAA
+ RU1GKwhA AQM8AAAA MAAAAAIQ wNsEAAAA AAAAAJd+ zUI3pBZE wNrUQizN FETpNtxC N6QWRJd+ zUI3pBZE AAEBgRRA AYAQAAAA BAAAAL93 Rv8oAAAA DAAAAAMA AAAkAAAA
+ JAAAAAAA gD0AAAAA AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA Rne/AAAA AAAlAAAA DAAAAAMA AAATAAAA DAAAAAEA AAAlAAAA DAAAAAgA AIBWAAAA
+ LAAAAGYA AABTAgAA bwAAAFsC AAAEAAAA bAaqJacG NCXiBqol bAaqJSUA AAAMAAAA BwAAgBMA AAAMAAAA AQAAACUA AAAMAAAA AAAAgCQA AAAkAAAA AACAQQAA AAAAAAAA
+ AACAQQAA AAAAAAAA AgAAAEYA AAA0AAAA KAAAAEVN RisKQACA JAAAABgA AAD///// AQAAAN+v 5UJoxCJE hKqqQYCe YEEoAAAA DAAAAAMA AAAkAAAA JAAAAAAA gD0AAAAA
+ AAAAAAAA gD0AAAAA AAAAAAIA AAAnAAAA GAAAAAMA AAAAAAAA ////AAAA AAAlAAAA DAAAAAMA AAAlAAAA DAAAAAgA AIBWAAAA MAAAAHIA AACLAgAA iQAAAJoC AAAFAAAA
+ LgeyKC4H kimDCJIp gwiyKC4H siglAAAA DAAAAAcA AIAlAAAA DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AABGAAAA fAAAAHAA AABFTUYr
+ KkAAACQA AAAYAAAA AADAQgAA AAAAAAAA AADAQr+v xkLmbiFE NkACgEgA AAA8AAAA AAAA/wEA AAABAAAA AgAAAA1O JnsAqyo+ ADopPgA5 jj4AOik+ AACAPwAA AAAAAAAA
+ AACAPwAA AAAAAAAA EgAAAAwA AAABAAAA GAAAAAwA AAAAAAAA FgAAAAwA AAAYAAAA JQAAAAwA AAACAAAA VAAAAFgA AABzAAAA jQIAAH0A AACXAgAA AQAAAACA u0EAALtB
+ cwAAAJYC AAACAAAA TAAAAAAA AAAAAAAA AAAAAP// //////// UAAAAA1O JnsLAAAA AAAAACUA AAAMAAAA DQAAgEYA AACYAAAA jAAAAEVN RisrQAAA DAAAAAAA AAAIQAAC
+ QAAAADQA AAACEMDb AAAAAM4A AAAAAAAA CtejPgIA AAACAAAA AgAAAAIA AAAAAAAA AhDA2wAA AAC/d0b/ CEABAywA AAAgAAAA AhDA2wIA AAAAAAAA 3asZQ7kT EEQ5O09D
+ uRMQRAAB AQEVQAEA EAAAAAQA AAAAAAAA JAAAACQA AAAAAIA9 AAAAAAAA AAAAAIA9 AAAAAAAA AAACAAAA XwAAADgA AAABAAAA OAAAAAAA AAA4AAAA AAAAAAAA AQAFAAAA
+ AAAAAEZ3 vwAAAAAA AAAAAAAA AAAlAAAA DAAAAAEA AAAlAAAA DAAAAAUA AIBXAAAA JAAAAJgA AAA/AgAA 0QAAAEIC AAACAAAA mwkFJPQM BSQlAAAA DAAAAAcA AIAlAAAA
+ DAAAAAAA AIAkAAAA JAAAAAAA gEEAAAAA AAAAAAAA gEEAAAAA AAAAAAIA AAAoAAAA DAAAAAEA AABGAAAA XAAAAFAA AABFTUYr CEABAzwA AAAwAAAA AhDA2wQA AAAAAAAA
+ tE9OQzQo D0Tdq1VD uRMQRLRP TkM+/xBE tE9OQzQo D0QAAQGB FEABgBAA AAAEAAAA v3dG/ygA AAAMAAAA AwAAACQA AAAkAAAA AACAPQAA AAAAAAAA AACAPQAA AAAAAAAA
+ AgAAACcA AAAYAAAA AwAAAAAA AABGd78A AAAAACUA AAAMAAAA AwAAABMA AAAMAAAA AQAAACUA AAAMAAAA CAAAgFYA AAAsAAAA zgAAADwC AADWAAAA RAIAAAQA AADlDMsj
+ Ww0FJOUM QCTlDMsj JQAAAAwA AAAHAACA EwAAAAwA AAABAAAA JQAAAAwA AAAAAACA JAAAACQA AAAAAIBB AAAAAAAA AAAAAIBB AAAAAAAA AAACAAAA TAAAAGQA AAACAAAA
+ AQAAAIkC AAD/AwAA AgAAAAEA AACIAgAA /wMAACkA qgAAAAAA AAAAAAAA gD8AAAAA AAAAAAAA gD8AAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA AAAAACIA AAAMAAAA
+ /////0YA AAAcAAAA EAAAAEVN RisCQAAA DAAAAAAA AAAOAAAA FAAAAAAA AAAQAAAA FAAAAA==</ImageDataBase64String>
+               </Image>
+               <PageImages />
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="38" />
+            <Element xsi:type="XString" StyleIndex="0">
+               <Text>税收优惠政策管理流程</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="39" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="35">
+               <TopicID>29103702</TopicID>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="38" />
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>_________________________________</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="38" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="38" />
+         </XElements>
+      </Element>
+   </XElements>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer\DCSoft.Writer.Demo\WinFormDemo\DemoFile2\税收优惠政策管理.xml</FileName>
+   <FileFormat>XML</FileFormat>
+   <RepeatedImages />
+   <Info>
+      <Title>标准名称</Title>
+      <LicenseText>都昌软件:南京都昌科技病历文档模板库，如需购买请联系13382028281刘经理。</LicenseText>
+      <CreationTime>2015-03-25T09:57:00</CreationTime>
+      <LastModifiedTime>2015-05-09T15:55:13.6520408+08:00</LastModifiedTime>
+      <EditMinute>4</EditMinute>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2014.4.30</Operator>
+      <NumOfPage>8</NumOfPage>
+   </Info>
+   <BodyText>WHGS
+
+昆明市五华区国家税务局
+标准
+WHGS ZGYH01—2014
+
+
+税收优惠政策管理
+
+
+2014 - 12 - 09发布                                 2015 - 01 - 01实施
+昆明市五华区国家税务局   发布
+目    次
+前    言...................................................................3税收优惠政策管理...........................................................31.范围.....................................................................32.规范性引用文件...........................................................33.术语和定义...............................................................3   3.1.审批类减免税：是指应由税务机关审批的减免税项目。....................3   3.2.备案类减免税：是指取消审批手续的减免税项目和不需税务机关审批的减免..34.职责.....................................................................3   4.1.税务分局............................................................3   4.2.货物和劳务税科......................................................4   4.3.所得税科............................................................4   4.4.办税服务厅..........................................................45.税收优惠政策管理流程.....................................................46.审批类减免税管理.........................................................4   6.1.受理 ...............................................................4   6.2.审核................................................................4   6.3.审批................................................................5   6.4.信息录入............................................................5   6.5.日常监督管理........................................................57.备案类减免税管理.........................................................5   7.1.受理................................................................5   7.2.日常监督管理........................................................68.相关记录.................................................................69.纳入绩效考评的行为.......................................................6   9.1.减免税引用政策错误的。..............................................6   9.2.未建减免税台帐或台帐不全、内容缺失或错误的。........................6   9.3.越权减免、应上报未上报、应批不批或不就审批而给予审批的。............6   9.4.未按规定及时限办理减免税事项的。....................................6   9.5.未按规定做好减免税后续管理的。......................................6A).........................................................................6B).........................................................................7C).........................................................................8
+前    言
+本标准按照GB/T 1.1—2009《标准化工作导则 第1部分：标准的结构和编写》编制。
+本标准由五华区国家税务局货物和劳务税科、所得税科提出并归口。
+本标准主要起草单位：五华区国家税务货物和劳务税科、所得税科。
+本标准主要起草人：杨琳、杨兰、张榕、杨立、张雁、杨迎胜、佘玫、季恒、何佳。
+税收优惠政策管理
+范围
+本标准规定了五华区国家税务局办理审批类减免税、备案类减免税的职责，受理、审批及日常监督和绩效考评的管理要求。
+本标准适用于五华区国家税务局税收优惠政策管理。
+规范性引用文件
+下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅所注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。
+国家税务总局 国税发〔2005〕129号《税收减免税管理办法》
+术语和定义
+下列术语和定义适用于本文件。
+审批类减免税：是指应由税务机关审批的减免税项目。
+备案类减免税：是指取消审批手续的减免税项目和不需税务机关审批的减免税项目。
+职责
+税务分局
+受理审批类减免税，并负责审批资料的审核、调查及后续管理。
+受理备案类减免税，并负责备案资料的审核、系统录入及后续管理。
+货物和劳务税科
+负责对货物和劳务税减免税政策管理，对减免税业务开展情况进行监控。
+办理所辖纳税人货物和劳务税审批类减免税审批。
+组织实施对所辖纳税人货物和劳务税减免税的清理、检查工作。
+所得税科
+负责对所得税减免税政策管理，对减免税业务开展情况进行监控。
+办理所辖纳税人所得税审批类减免税审批。
+组织实施对所辖纳税人所得税减免税的清理、检查工作。
+办税服务厅
+负责对审批类减免税的信息录入。
+税收优惠政策管理流程
+税收优惠政策管理流程见附录A.1。
+审批类减免税管理
+受理 
+报送资料：纳税人申请审批类减免税的，应在政策规定的减免税期限内，向主管税务分局提出书面申请，并报送以下资料：
+减免税申请报告，应列明减免税理由、依据、范围、期限、数量、金额等；
+财务会计报表、纳税申报表；
+有关部门出具的证明材料；
+税务机关要求提供的其他资料。
+纳税人报送的材料应真实、准确、齐全。主管税务分局不得要求纳税人提交与其申请的减免税项目无关的技术资料和其他材料。
+主管税务分局对纳税人提出的减免税申请，应当根据以下情况分别做出处理：  
+申请的减免税项目，依法不需要由税务机关审查后执行的，应当即时告知纳税人不受理；     
+申请的减免税材料不详或存在错误的，应一次告知纳税人需要补正的全部内容；
+申请的减免税材料齐全、符合法定形式的，或者纳税人按照税务机关的要求提交全部补正减免税材料的，应当受理纳税人的申请。
+审核
+主管税务分局应安排2名以上工作人员进行实地核查，并将核查情况记录在案。
+对符合受理条件的审批类减免税，受理部门应在2个工作日内分类汇总制作《减免税申请审批表》提交货物和劳务税科或所得税科审批。
+审批
+货物和劳务税科或所得税科对符合审批类减免税条件的进行审批。
+审批类减免税审批的权限，应符合《税收减免税管理办法》第8条的规定。
+对纳税人的减免税申请，应按以下规定时限完成审批工作，并做出准予减免税的书面决定。依法不予减免税的，应当说明理由，并告知纳税人享有依法申请行政复议或者提起行政诉讼的权利 ：
+区级税务机关负责审批的减免税，必须在20个工作日做出审批决定；
+市级税务机关负责审批的，必须在30个工作日内做出审批决定；
+省级税务机关负责审批的，必须在60个工作日内做出审批决定；
+在规定期限内不能做出决定的，经本级税务机关负责人批准，可以延长10个工作日，并将延长期限的理由告知纳税人。  
+减免税期限超过1个纳税年度的，进行一次性审批。
+货物和劳务税科或所得税科做出的减免税审批决定，应在做出决定之日起2个工作日内移交办税服务厅进行信息录入。
+信息录入
+对审批类减免税做出审批决定的，办税服务厅将纸质《税务认定申请审批表》及《纳税人减免税申请审批表》中减免税信息逐项录入《中国税收征管信息系统》中。
+文书录入5个工作日内向纳税人送达减免税审批书面决定。
+日常监督管理
+主管税务分局应建立减免税台账。通过受理、审核、确认审批的审批类减免税项目，税源管理岗要逐户建立减免税台账。
+纳税人已享受减免税的，应进行减免税申报。纳税人享受减免税到期的，应当申报缴纳税款。   
+货物和劳务税科和所得税科应结合纳税检查、执法检查或其他专项检查，每年定期组织对纳税人减免税事项进行清查、清理，主要内容包括：
+纳税人是否符合减免税的资格条件，是否以隐瞒有关情况或者提供虚假材料等手段骗取减免税。
+纳税人享受减免税的条件发生变化时,是否根据变化情况经税务机关重新审查后办理减免税。
+减免税税款有规定用途的，纳税人是否按规定用途使用减免税款；有规定减免税期限的，是否到期恢复纳税。
+是否存在纳税人未经税务机关批准自行享受减免税的情况。 
+已享受减免税是否未申报。
+备案类减免税管理
+受理
+纳税人需提供《涉税备案表》或者对某些备案事项专门指定使用的备案文书（一式两份）。
+主管税务分局对纳税人填报项目、内容及适用要件当场进行完整性审核，对“涉税备案表”栏目填写不正确、不完整、要件不齐全的，当场一次性告知纳税人补正完整。对不符合备案条件的，不予受理并告知不予受理的理由和原因。
+主管税务分局审核“涉税备案表”栏目填写无误、完整且要件报送齐全的，签收并加盖备案专用章，并退还一份涉税备案表给纳税人。
+主管税务分局进行备案清册记录、登记，并在《中国税收征管信息系统》及其他相关系统中录入备案信息。
+日常监督管理
+主管税务分局应逐户建立减免税台账，详细登记减免税的起始时间、项目、年限、金额，实行动态管理监控。    
+主管税务分局在后续管理中发现以下情形的，应分别做出处理。
+发现《涉税备案表》和相关备案资料不详、不齐全或存在错误的，制发《税务事项通知书》，一次性告知纳税人补正备案和相关资料的全部内容，并跟踪进行后续处理。
+发现纳税人的备案不符合政策规定条件，或者在备案中弄虚作假，或者备案条件发生变化未及时向主管国税机关办理相关事宜的，或者按要求应备未备自行执行相关税收政策等情况的，应终止备案或按照税收法律法规等做出其他相应处理。
+涉税备案办理后，若《涉税备案表》所记载内容及生产经营状况等税收法规政策适用条件发生变化的，纳税人应自变化发生之日起15个工作日内根据变化情况或者重新办理备案，或者办理终止备案相关事宜。若适用的税收法规政策变化，纳税人应按规定适用变化了的税收法规政策，需要备案的按规定重新办理备案。
+相关记录
+减免税申请审批表(WHGS ZGYH 01 BD01)
+纳税人减免税备案登记表(WHGS ZGYH 01 BD02)
+涉税备案表(WHGS ZGYH 01 BD03)
+纳入绩效考评的行为
+减免税引用政策错误的。
+未建减免税台帐或台帐不全、内容缺失或错误的。
+越权减免、应上报未上报、应批不批或不就审批而给予审批的。
+未按规定及时限办理减免税事项的。
+未按规定做好减免税后续管理的。
+
+
+（规范性附录）
+税收优惠政策管理流程
+
+税收优惠政策管理流程
+
+
+_________________________________
+</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>98</HeaderDistance>
+      <FooterDistance>78</FooterDistance>
+      <LeftMargin>98</LeftMargin>
+      <TopMargin>39</TopMargin>
+      <RightMargin>78</RightMargin>
+      <BottomMargin>78</BottomMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>黑体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="1">
+            <FontName>Times New Roman</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="2">
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+         </Style>
+         <Style Index="3">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="4">
+            <FontName>Times New Roman</FontName>
+            <FontSize>48</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="5">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>SpaceExactly</LineSpacingStyle>
+            <Align>Right</Align>
+         </Style>
+         <Style Index="6">
+            <FontName>黑体</FontName>
+            <FontSize>24</FontSize>
+         </Style>
+         <Style Index="7">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>SpaceExactly</LineSpacingStyle>
+         </Style>
+         <Style Index="8">
+            <FontName>Times New Roman</FontName>
+            <FontSize>14</FontSize>
+         </Style>
+         <Style Index="9">
+            <FontName>黑体</FontName>
+            <FontSize>14</FontSize>
+         </Style>
+         <Style Index="10">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingBeforeParagraph>74</SpacingBeforeParagraph>
+            <Align>Right</Align>
+         </Style>
+         <Style Index="11">
+            <FontName>黑体</FontName>
+            <FontSize>26</FontSize>
+         </Style>
+         <Style Index="12">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="13">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingBeforeParagraph>77</SpacingBeforeParagraph>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="14">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingBeforeParagraph>91</SpacingBeforeParagraph>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="15">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <LineSpacingStyle>SpaceExactly</LineSpacingStyle>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="16">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>45</SpacingAfterParagraph>
+            <Align>Right</Align>
+         </Style>
+         <Style Index="17">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingBeforeParagraph>24</SpacingBeforeParagraph>
+            <Align>Right</Align>
+         </Style>
+         <Style Index="18">
+            <FontName>黑体</FontName>
+            <FontSize>16</FontSize>
+            <TitleLevel>0</TitleLevel>
+         </Style>
+         <Style Index="19">
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="20">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>16</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>16</SpacingBeforeParagraph>
+         </Style>
+         <Style Index="21">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <FirstLineIndent>87</FirstLineIndent>
+         </Style>
+         <Style Index="22">
+            <FontName>Times New Roman</FontName>
+            <FontSize>16</FontSize>
+            <TitleLevel>0</TitleLevel>
+         </Style>
+         <Style Index="23">
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <TitleLevel>0</TitleLevel>
+         </Style>
+         <Style Index="24">
+            <FontName>黑体</FontName>
+            <FontSize>10.5</FontSize>
+            <TitleLevel>1</TitleLevel>
+         </Style>
+         <Style Index="25">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>64</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>64</SpacingBeforeParagraph>
+            <Align>Justify</Align>
+            <ParagraphMultiLevel>true</ParagraphMultiLevel>
+            <ParagraphOutlineLevel>1</ParagraphOutlineLevel>
+            <ParagraphListStyle>ListNumberStyle</ParagraphListStyle>
+            <TitleLevel>1</TitleLevel>
+         </Style>
+         <Style Index="26">
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <TitleLevel>2</TitleLevel>
+         </Style>
+         <Style Index="27">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <ParagraphMultiLevel>true</ParagraphMultiLevel>
+            <ParagraphOutlineLevel>2</ParagraphOutlineLevel>
+            <ParagraphListStyle>ListNumberStyle</ParagraphListStyle>
+            <TitleLevel>2</TitleLevel>
+         </Style>
+         <Style Index="28">
+            <FontName>黑体</FontName>
+            <FontSize>10.5</FontSize>
+            <TitleLevel>2</TitleLevel>
+         </Style>
+         <Style Index="29">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>32</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>32</SpacingBeforeParagraph>
+            <ParagraphMultiLevel>true</ParagraphMultiLevel>
+            <ParagraphOutlineLevel>2</ParagraphOutlineLevel>
+            <ParagraphListStyle>ListNumberStyle</ParagraphListStyle>
+            <TitleLevel>2</TitleLevel>
+         </Style>
+         <Style Index="30">
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <TitleLevel>3</TitleLevel>
+         </Style>
+         <Style Index="31">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <ParagraphMultiLevel>true</ParagraphMultiLevel>
+            <ParagraphOutlineLevel>3</ParagraphOutlineLevel>
+            <ParagraphListStyle>ListNumberStyle</ParagraphListStyle>
+            <TitleLevel>3</TitleLevel>
+         </Style>
+         <Style Index="32">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <FirstLineIndent>-84</FirstLineIndent>
+            <LeftIndent>194</LeftIndent>
+            <ParagraphListStyle>BulletedList</ParagraphListStyle>
+         </Style>
+         <Style Index="33">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <FirstLineIndent>-87</FirstLineIndent>
+            <LeftIndent>174</LeftIndent>
+         </Style>
+         <Style Index="34">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <FirstLineIndent>-87</FirstLineIndent>
+            <LeftIndent>174</LeftIndent>
+            <ParagraphListStyle>ListNumberStyleLowercaseLetter</ParagraphListStyle>
+         </Style>
+         <Style Index="35">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <FirstLineIndent>-93</FirstLineIndent>
+            <LeftIndent>168</LeftIndent>
+            <ParagraphMultiLevel>true</ParagraphMultiLevel>
+            <ParagraphOutlineLevel>0</ParagraphOutlineLevel>
+            <ParagraphListStyle>ListNumberStyleUppercaseLetter</ParagraphListStyle>
+            <TitleLevel>0</TitleLevel>
+         </Style>
+         <Style Index="36">
+            <FontName>黑体</FontName>
+            <FontSize>10.5</FontSize>
+            <TitleLevel>0</TitleLevel>
+         </Style>
+         <Style Index="37">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>58</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>133</SpacingBeforeParagraph>
+            <Align>Center</Align>
+            <ParagraphMultiLevel>true</ParagraphMultiLevel>
+            <ParagraphOutlineLevel>0</ParagraphOutlineLevel>
+            <ParagraphListStyle>ListNumberStyleUppercaseLetter</ParagraphListStyle>
+            <TitleLevel>0</TitleLevel>
+         </Style>
+         <Style Index="38">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+         </Style>
+         <Style Index="39">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>32</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>32</SpacingBeforeParagraph>
+            <Align>Center</Align>
+            <ParagraphListStyle>ListNumberStyleUppercaseLetter</ParagraphListStyle>
+         </Style>
+         <Style Index="40">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>45</SpacingAfterParagraph>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="41">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <SpacingAfterParagraph>116</SpacingAfterParagraph>
+            <SpacingBeforeParagraph>133</SpacingBeforeParagraph>
+            <Align>Center</Align>
+            <ParagraphMultiLevel>true</ParagraphMultiLevel>
+            <ParagraphOutlineLevel>1</ParagraphOutlineLevel>
+            <TitleLevel>0</TitleLevel>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

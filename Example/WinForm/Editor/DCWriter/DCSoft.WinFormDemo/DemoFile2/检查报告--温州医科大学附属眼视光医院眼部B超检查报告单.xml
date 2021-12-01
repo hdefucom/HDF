@@ -1,0 +1,1907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1404.30.60000">
+   <Attributes>
+      <Attribute>
+         <Name>DC_RecordID</Name>
+         <Value>615a5cfe-97a6-475c-90b1-7f612f0d7fa2</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DC_TemplateFlags</Name>
+         <Value>None</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DC_UseLanguage2</Name>
+         <Value>False</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DC_OwnerLevel</Name>
+         <Value>Global</Value>
+      </Attribute>
+      <Attribute>
+         <Name>FormViewMode</Name>
+         <Value>False</Value>
+      </Attribute>
+      <Attribute>
+         <Name>Title</Name>
+         <Value>眼视光B超2014.4.26</Value>
+      </Attribute>
+      <Attribute>
+         <Name>RecordID</Name>
+         <Value>615a5cfe-97a6-475c-90b1-7f612f0d7fa2</Value>
+      </Attribute>
+      <Attribute>
+         <Name>DepartmentID</Name>
+      </Attribute>
+      <Attribute>
+         <Name>DepartmentName</Name>
+      </Attribute>
+      <Attribute>
+         <Name>TemplateType</Name>
+         <Value />
+      </Attribute>
+      <Attribute>
+         <Name>FileName</Name>
+         <Value>眼视光B超2014.4.26</Value>
+      </Attribute>
+   </Attributes>
+   <XElements>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" StyleIndex="7" NumOfRows="1" NumOfColumns="2">
+               <Attributes />
+               <ID>table4</ID>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="17">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XImage" StyleIndex="7">
+                                 <Attributes />
+                                 <ID>image1</ID>
+                                 <ScriptItems />
+                                 <KeepWidthHeightRate>false</KeepWidthHeightRate>
+                                 <Width>380</Width>
+                                 <Height>300</Height>
+                                 <CompressSaveMode>false</CompressSaveMode>
+                                 <Image>
+                                    <ImageDataBase64String> /9j/4AAQ SkZJRgAB AQEAlgCW AAD/2wBD AAMCAgMC AgMDAwME AwMEBQgF BQQEBQoH BwYIDAoM DAsKCwsN DhIQDQ4R DgsLEBYQ ERMUFRUV DA8XGBYU GBIUFRT/ 2wBDAQME
+ BAUEBQkF BQkUDQsN FBQUFBQU FBQUFBQU FBQUFBQU FBQUFBQU FBQUFBQU FBQUFBQU FBQUFBQU FBQUFBQU FBT/wAAR CAGZAgUD ASIAAhEB AxEB/8QA HwAAAQUB AQEBAQEA
+ AAAAAAAA AAECAwQF BgcICQoL /8QAtRAA AgEDAwIE AwUFBAQA AAF9AQID AAQRBRIh MUEGE1Fh ByJxFDKB kaEII0Kx wRVS0fAk M2JyggkK FhcYGRol JicoKSo0 NTY3ODk6
+ Q0RFRkdI SUpTVFVW V1hZWmNk ZWZnaGlq c3R1dnd4 eXqDhIWG h4iJipKT lJWWl5iZ mqKjpKWm p6ipqrKz tLW2t7i5 usLDxMXG x8jJytLT 1NXW19jZ 2uHi4+Tl 5ufo6erx
+ 8vP09fb3 +Pn6/8QA HwEAAwEB AQEBAQEB AQAAAAAA AAECAwQF BgcICQoL /8QAtREA AgECBAQD BAcFBAQA AQJ3AAEC AxEEBSEx BhJBUQdh cRMiMoEI FEKRobHB CSMzUvAV
+ YnLRChYk NOEl8RcY GRomJygp KjU2Nzg5 OkNERUZH SElKU1RV VldYWVpj ZGVmZ2hp anN0dXZ3 eHl6goOE hYaHiImK kpOUlZaX mJmaoqOk paanqKmq srO0tba3 uLm6wsPE
+ xcbHyMnK 0tPU1dbX 2Nna4uPk 5ebn6Onq 8vP09fb3 +Pn6/9oA DAMBAAIR AxEAPwD9 U6KKKACi iigAoooo AKKKKACi iigAoooo AKKKKACi iigAoooo AKKKKAG9 fpR06ClJ
+ 4rE17xlo XhhUOr6z YaZu+6Lu 5SLd9AxG aaTeiIlO MVeTsja4 PTmjOK8+ /wCF/fD0 SeX/AMJZ YBumd5x+ eMVzPjH9 q3wJ4Udo ra8m164H GzTlDIDz 1kYhccfw k9elaKjU
+ k7KLOWeM w0FzSqK3 qj2fGO4o /WvjbxH+ 23r12zro uhWOnR54 e7dp3x68 bQD+Brgd S/ae+JGp u5PiFraN jxHbW8SB fodufzNd kMBWlvZH kVM+wkNI 3l6I/QfO O9YviLxf
+ ovg+y+16 1qlrpkBJ CvcyhN5A zhQeWOOw ya/PK7+N Pjy9GJPF 2rrzn91e PH/6CRXN 6z4h1XxH cifVdSvN UnA2iW8n aVgPTLEm t45dK/vS OCpxHDlf s4O/mfYH iz9tLwzp
+ hki0LTbz WpQDtmce RCTzjrlj 2/hFePeJ f2vvHmts 62ElnocJ 6C1gDvj3 Z935gCvD 6K9GGDow +zf1Pnq+ cYuv9qy8 tP8AgnR6 58RvFXiT zBqniHUr 1JAQ0Ut0 5jIPBG3O
+ APbFa3wg 0vUNb8b6 Rp+meIJN DvZ7lRFL ErsynqWw MAjAPBPO MHg5rP8A APw08Q/E zUJLTQbB rsw4M0zM EihBzjcx 4GdpwOpw cV9k/A79 nKw+E8ra re3C6r4g kTyxOq4i
+ t1P3hGDy SehY844A GWzGIrU6 MHCO/Y1y /BYjGVY1 JX5b6t3/ AAe57NbR vFbxpI/m OqgM+Mbj jk1NSUtf Mn6fsFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA
+ UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUVFLNHB GzyOqIoy WY4AFAm7 bjxnFBNe Z+Kv2ifA HhEvFc+I
+ ILy4XP7j TwbhsjqC VyoPsSK8 f8VftvIk rxeG/Dxl jHS61GXb n/tmn893 4V0Qw9Wp tE8yvmWF w/xzV+y1 /I+qycCv Nfij8evC /wALopIr y4+3asAC um2rAyc9 Nx6IO/PP
+ oDXyB4s/ aV8f+LEa KTWn0yFj nZpg+z49 twO7H/Au /NeZ3d5P f3MlxczS XE8h3PLK xZmPqSeT Xo0svd71 H9x89iuI VZxw8de7 /wAj134g /tTeM/Gs skVjc/8A CO6Y2QLe
+ xb94Qf70 uNxP+7tH tXkV1dz3 1w89zNJc TOctJKxZ mPqSetQ0 V68KUKat FWPkK2Jr V5c1STbC iiitTmCi iigAoooo AXqa+iPg v+ylfeKo YdY8ViTT NKdSY7LB S5l9CQR8
+ i9x1J44x 16f9mz9n CIW1h4y8 TJFcNIiX WnWAYOqq RlZJRjBO NrKoPHfn gcP8Sv2l fHdj8Qte t9J1b+zL G0u5bSG3 SCORdsbl Qx3q3zHG T9a86pVn Wk6VB7bs +ioYSjhK
+ ccTjE2pb RX5v/I+x fB/gzR/A WjRaZolk llaJ/CpL Mx9WY8k/ Wt/rzXx9 8J/2udfu fFWn6Z4r W2u9OvJR A13DEI5Y WY4VjghS oPXjOMkZ xg/YIzji vCr0qlKX 7zqfc4HF
+ UMVTvQ0S 0ta1h1FJ S1gekFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA UUUUAFFF FABRRRQA
+ UUUUAJ1F GcU1iFGS cCvFvif+ 1H4X8BLJ bafIniHV hkeRZyAx xnp88gyB yOgyfXFa QpyqO0Vc 5q+IpYeP NVlZHtLM FGScV5n4 +/aG8GfD 4GO61I39 4VLJa2K+ azYOPvfd
+ HORyex9D Xxv8RPj9 4x+JBkgv tQNjpz5B sLDMUTD0 fnL9vvEj jpXnJOa9 all3Wo/u PkcVxDvH Dx+b/wAj 6N8a/tpa /qZkh8N6 bb6PAcgX FwPPn9iA fkHfghu1 eKeKPiL4
+ m8Zyu+t6 5fairHd5 Usx8oH/Z jHyr07AV zlFepTw9 On8MT5it jsTiP4k2 /Lp9wUUU VucAUUUU AFFFFABR RRQAUUUU AFX9E0LU PEmpwafp dnNfXszB UhgQsx/w HueBVCvQ
+ /h18bdV+ F0Mw0LSt JSebAlup 4XklcAdN xfgd8DAz UVHJL3Fd m1GNOU0q srR8tWfX /wAAPgrb /Cfw8Zbl RN4gvUBv Jt+4IOoi TsAO553H nOMAcv8A ET9kPRfG fiO/1mx1
+ i40e4vpD NND5Imi8 w/eZRlSM nkjJ5Jxg YA8z0f8A bb8T284/ tPQ9KvIe PltvMgf3 5LOP0r6Q +E/xg0X4 u6PJdaWJ YLq22i7s 5x88LNnH I4ZTtbBH pyAeK+eq RxFCTqPq
+ foWHnl2O pxw0dUtk 7pnm3gX9 jrQfC+uW mp6pq1xr bWrCSO38 oQRFx0LY JJAODjI6 DORkH6GA 7U7IFGa4 qlWdV3m7 nt4fC0sL FxpRsmLR RRWZ1BRR RQAUUUUA FFFFABRR
+ RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUUUA FFFFABRR RQAUUU1m ABJOAO9A BkjtxXF/ Ef4t+HPh fpoudavN szjMNnBh
+ p5v91cjj 3JA968l+ M37WOn+F 1n0nwk0e qawrbJL1 hut4fXac /O30+Uep xivkDXNd 1DxLq1zq eqXct9f3 Lb5Z5myz Hp+QAAAH AAAHAr08 PgpVPeno j5bMM6p4 e9Oh70u/
+ Rf5np/xW /aV8TfEg TWNu/wDY mhtlfsls 53yoRjEr 9W78DA55 B615DRRX vQpxprlg rI+DrYir iJ89WV2F FFFaHOFF FFABRRRQ AUUUUAFF FFABRRRQ AUUUUAFF FFAHpHhH
+ 9nvxz4ya JrPR2trW RQ63d4wj iKnoQerD nPANfY3w Q+DVp8Ht Ant0uPtm p3rLJeXW MAlRgIo/ ugliM8/M c9sfBOhe MNd8MEnS NZv9My24 i0uXjBPq QCM17H8N v2u/E/hu
+ 6it/Ebf8 JDpbOA7s AtzEueSr DAbjJw3X gblry8VS r1I6NW7H 02V4vA4a ac4tS7vV I+lfH/7Q Pg34c37a fqeoPPqK jLWtnH5j x+m7sp74 JzjBxgiv J9R/bmsY pcWXhO4u
+ IufmuL5Y j7cBG/nX LfFT9m/W vGHiO48U +CTBreja 2TfKPtCx urP8zffI BBJJHORy CBjJ5mx/ ZE+Il44E llZWgP8A FNeKQP8A vnJrnpUc Lypzlr5u x6WJxmaS qONGFl0s
+ r3XrsfW/ wj+LGm/F zwydUsoj a3ET+Xc2 TuGaF8Z6 8ZUg8NgZ 57ggd5wa 8b/Z3+B1 38HrHVX1 K+hvNQ1F ow62ufKj VA2MEgEn LtzjoB71 7LivLrKC qNU3ofU4 OVaVCLrq
+ 0uotFFFZ HYFFFFAB RRRQAUUU UAFFFFAB RRRQAUUU UAFFFFAB RRRQAUUU UAFFFFAB RRRQAUUU UAFFFFAB RRRQAUUU UAFFFFAB RRRQA2jr 2o64rH8T +JdO8H6J d6tq10lp
+ Y2qb5JXP 5ADuScAA ckkAU0m3 ZESkopyk 7JFzVNTt NEsJ72/u IrOzgQvL PMwVEUdy TXxh8ef2 nbnxwlxo Xhh5rHQj ujnueUlv F5GPVYyO 3Ug4OORX IfGz48at 8WdUkgR5
+ LLw5DJm1 sBgF8dJJ cE5c+mSF 6DuT5bXv YXBqHv1N /wAj4HNM 4lWvRw7t Hq+r/wCA FFFFesfJ hRRRQAUU UUAFFFFA BRRRQAUU UUAFFFFA BRRRQAUU UUAFFFFA BUkEEl1P
+ HDDG0s0j BEjQEszE 4AAHU1HX 0H+zVYeB vCt0ninx X4g01NRA IsrB5Nxt +cGVxjh+ PlHYEnrj GNWp7OLl a51YWh9Y qqF0l1b6 I+pPg94W u/Bvw10D Rr8j7ZbW /wC9UHO1
+ mJYrn23Y /CuzI71x ml/GTwRr V5BaWfif Tp7id1ij hE4DO5OA oB6kkgYr tRg89q+T nzczclZs /WqDp8ih SldJW3uK KWiioOkK KKKACiii gAooooAK KKKACiii gAooooAK
+ KKKACiii gAooooAK KKKACiii gAooooAK KKKACiii gAooooAK KKKACiii gBAMUGjN VL++t9Ns 57y6nS3t YEaWSaVg qIoGSxJ4 AAGc0bkt 2V2U/Eni Gx8K6Lea vqUwt7K0
+ iaWWRvQD OAO5PQAc k4FfA3xu +OGqfF7W ApD2Wg2z k2lju79P Mk9XI/BQ SB1Ytf8A 2hvjbN8V vEQttPmm j8NWTYto G+UTPyDO y9ckHAB6 D0LNXkdf Q4TCqmue fxfkfnmb
+ 5q8TJ0aL 91fj/wAA KKKK9Q+X CiiigAoo ooAKKKKA CiiigAoo ooAKKKKA CiiigAoo ooAKKKKA CiiigAoo rtfhP8LN S+LPihdJ sZFtoY08 66u5FLLD HkDOONzE nAXIz6gA
+ kRKSgnKW xrSpzrTV OCu2cWOv HWv0O/Z4 1PxBq/wr 0m48SrcH UPnCTXQP mzRBvkds 88joTywA bnOS/wAJ fs+eBfCC 2zW2hW91 cwps+1Xo 852PdiD8 oJ56AdeM DivSAMD6
+ dK+fxeKj XSjFfM/Q cqyurgpO pUnurWWx JRRRXmn0 4UUmaWgA ooooAKKK KACiiigA ooooAKKK KACikzS0 AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU
+ AFFFFADS fWvjL9qr 45SeItSk 8I6FdhtH t8fbZ4W4 nlBzsBB5 RePq2f7o r1f9qL4z SfDvw/Ho 2kXPl6/q an51PzW9 vyDIPRif lU+zHqor 4a6mvZwO Hv8AvJfL /M+LzzMe
+ X/ZqT9f8 hKKKK9w+ GCiiigAo oooAKKKK ACiiigAo oooAKKKK ACiiigAo oooAKKKK ACiirlho 2oaqyrZW Nzdsx2gQ RM5J9OB7 ildIpRlL RFOivQdJ /Z/+IWtB TbeFb1AR
+ kG5Cwcf9 tCtdzpX7 Gnjq+Ctd T6XpynqJ Z2dh+CqR +tYyr0o7 yR2U8Biq vwU39x4L XZ/CX4kX nwt8Z2ms wb5bYfu7 u2VsCeI9 V+o4I9wK 900r9hy4 bnUvFUcZ x921tC3P
+ 1Zh/Kuis v2IPDceP tev6pMe/ krHH/NWr lqYvDyTi 3c9OhlOP pzVSEbNe aNjX/wBs fwRptlFJ p6ahq9xI pPkxweUI zxw7OR6n 7oboenFe e3P7cupv ODb+FrSK H+5Lds7f
+ mFH8q9Ig /Y38AxHL Nqk3s90B /JRV+H9k j4cRAbtM uZf9+8k/ oRXnRlhI 9Gz6KdLN 6j0lGPp/ wx0Xwb+M en/GLQp7 20tJLC7t JBFc2kjB 9hIyCrDG 5TzyQDlT x0J9EPTi
+ uN8A/Cjw z8Mft3/C PWDWRvdn nlp3k3bN 237xOMbm 6etdlXBP kcnybH0G HVZUoqu0 5dbbCcD0 qG5vre0j 33FxFAv9 6Rwo/WuG 134N2XiE uLvxD4k2 t1ji1V0T /vkcfpXD
+ ap+x74S1 ROdW1xZA ch3ulk+v 3k/ziqjG m/ilb5GV SpiI/wAO mn87foer 3vxF8Laa ubvxLpFr zj99fRJz 6ctVM/F3 wOP+Zw0L /wAGMP8A 8VXh1/8A sOaZIG+y eKbuE/w+
+ dbLJj64Z a5jUf2H9 eiDfYfEd hcnsLiF4 s/lurpjS w7/5efge ZPF5jHag vvufTI+L vgc/8zho X/gyh/8A iqvW3j7w zeqrW/iH S5wwyDHe Rtke2Gr4 r1T9kX4h 6fu8qzst
+ QABOba7X n6b9priN Z+D3jfw8 rPe+GdSi jU4MiQGR R/wJcit1 hKM/hqHF PN8ZT/iU Lff/AJH6 QW2p2l4u YLmKYesc gb+VWdwP cGvysYXW n3BDCW2n Tgg5VlrR svGniDTS
+ Daa5qVrj p5N3In8j VvLu0/wM lxFb46X4 /wDAP1EB +lBr81rD 40ePNOm8 2LxdrLNj GJ7x5V/7 5ckfpXRW X7UfxKsm U/8ACRfa EHVJ7SFg fqdmf1rJ 5dU6NHRH iLDv4oNf
+ d/mfoNig 5r4h079t DxvaMour LSLxO+6B 0Y/ir4/S ux0j9uVD hdU8KsvT Mlpd5+vy sv8AWsXg q8elzthn eCnvJr1T /S59WUv+ eleGaN+2 L4C1EILp tQ0pj1+0 W28D8Yy3
+ 8q9A8P8A xj8FeKDE um+JtOml lOEgecRS txnAR8N+ lc0qNSHx RZ6VPG4e r8E0/mdr RTQ6tyCD 9KdWR2Xu FFFFAwoo ooAKKKKA CiiigAoo ooAKKKKA CiiigAoo ooAYOtYX
+ jfxfY+BP C2o65qL7 baziMm0E bpG6Ki5/ iY4A9zW9 n2r4q/a+ +KT+IfFK eFLKc/2b pR3XIU8S 3BHf1CA4 +pb2rpw9 F1qij06n l5ji1g8O 6nXZep4p 428W3njn xVqWu35B
+ ub2UyFV6 IuAFQeyq FUfSsOii vq4xUVZH 5RObqSc5 O7YUUUUy QooooAKK KKACiiig AooooAKK KKACiiig AoqW3tpb uZIYInml c4VI1LMT 7AV6z4I/ Zc8c+MCk s9gNDs25
+ 87UiUYjG eIxlvTqB 1+tROpCm rzdjoo4a riHy0otv yPIau6Vo t/rl0ltp 9nNeTOwR UhQtyeg9 u/5V9qeC /wBj3wf4 fcT6tLca /P2Sc+VC P+AryT9T +Ar2bQvC 2keGLYW+
+ kaZaadD/ AHLWFYwf rgc15lTM IrSCufSY fh+tPWtJ R/F/5Hw1 4U/ZT8f+ Jdkk9hFo lux5k1GT Y2P9xct+ YFeueG/2 IdLhWN9c 8QXV0/V4 rGNYlz6b m3Ej8BX0 8OntR9K8
+ +eOrT2dj 6GjkmEpf EnJ+bPM/ DX7Ovw98 MMslt4dt 7ucYzLfF rgkjvtcl QfoBXoVh plppkAgt LWG1iHSO CMIo/AVa Cn1pcYFc cpyl8Tue xToUqStC KXogwPSl ooqDoCkp
+ aKACiiig BMUtFFAB RRRQAUUU UAFJgegp aKAMjWfC mjeIofL1 TSrLUo/7 t3bpKP8A x4GvN/EH 7LHw61/z nXR20yeX /lrYTvHt 4x8qElB/ 3zXroNBq 41Jw2djl qYajW+OC
+ fyPlLxN+ w+h3PoHi Nh6Q6jFn /wAfT/4m vHvFH7N3 xB8LNM0u gyX9vHk/ aNPYTqwA 5IUfMPxU V+h4GKaw Prj8K7YY 6tHfU8av kWEq6xTi /Jn5V3dj cafMYrq3 ltpR1SVC
+ rDnHQ+4N QV+oHiTw ToPjC2aD WtJtNRQj bmeIFgPZ uo/A14V4 3/Ys0HU9 0/hrUZ9E l6/Zp8zw n2BJDL9S W+lejTzC EtJqx89i MgxFPWi1 Jfc/8j40 pQcV6R48 /Z68a+AD
+ NLd6U99Y R8/brD97 HjPUgfMv 4gV5tXox nCorxdz5 yrRq4eXL Ui0/M6bw 58S/FXhE r/Y+v39k i9Io52Mf 4ocqfyr1 3wr+2d4t 0uVU1q0s 9Ytyw3ME 8mUDvgr8 v5ivnyis
+ 50KdT4om 9HHYmh/D m1+X3H3T 4P8A2vfB HiEpFqRu dAuW4/0p N8WfZ1z+ ZAr2DRfE el+JLJbz StRttRtS cCa1mWRc +mQevtX5 bVo6D4i1 PwvqKX+k 30+n3iAq s0DlWAPU
+ V59TLovW DsfQYfiG rDSvFSXl o/8AI/Uv PfNGcn3r 4m8B/tke JtBaC28R W0Gv2aja 0w/c3I5H O4fK2Bng qCe7V9Je APj34M+I 7R2+naqt tqLgYsL0 eTMSc8Ln hzwfuE4r
+ y6mFq0tW tD6nC5ph sXpCVn2e jPSaKQEE Utcp64UU lLQAUUUU AFFFFABR RRQAUUUU Act8SfGU Pw/8D6xr s20m0gZo o2OBJIeE X8WIFfmj e3k2o3k9 1cyNNcTy NLJI5yWY
+ nJJ9yTX1 t+234v8A s2h6H4bi ch7qZryc KcfIgKqD 6glifqgr 5Cr6HAU+ WHP3PznP 8S6uIVFb RX4v+kFF FFeofMBR RRQAUUUU AFFFFABR RRQAUUUU AFFORGld URSzMcAA
+ ZJNe/fCz 9kbXvFUg u/EzP4f0 wYKxAK9x OPYZIQe7 ZP8AskHN Y1KsKSvN 2OvD4Wti pctKN3/W 7PDNI0a/ 1+/istNs 5767lOEh t4y7H8BX 0N8NP2N9 W1YR3vi6 6/siDcCL
+ CErJM65/ iYHauR6Z P0r6f8Ef DTw78PLA W2hadHaf KFefG6WT gcs55PQc dPauqzxX i1sfKWlN WR9rg8gp 07SxD5n2 6HF+BPhD 4V+HMSro ulRQ3GMN dyjzJ29c ueRn0GB7
+ V2hoH1zR 1rzJScne TufUU6UK UeWmrLyH UUUVJqFF FFABRRRQ A3OOKM46 Up+teZfF H49+F/ha rQXlyb3V tuU060Ia TtjeeiDk HnkjoDVw hKbtFXZh VrU6EXOp KyPTCRjk
+ 1yHiv4te EfBIcazr 9laSpnMA k8yUY/2F y36V8UfE b9pPxj8Q neAXh0TT dxK2enO0 ZZeQBI+d z8HkcKeu 0V5W8jSu zuxdmOSz HJJr1aeX N61H9x8n ieIYxbjQ jfzf+R9p
+ 65+2r4Ss JCmnaZqO pkf8tCqx Ifpkk/pX IXH7dF05 /ceEIY/+ ul+X/lGK +WaK7o4G gulzw553 jZvSVvRL 9bn1DF+3 LqIb954T tmHot4y/ +yGug0j9 uLR5sf2n 4ZvbT1Np
+ cJP+W4JX x9RVPBUH 9n8yI51j Yv47/Jf5 H6IeEv2i vAfjB0jt tcis7lul vfgwN0z1 b5T+Br0a G4iuoUlh kWWJxlXR gVYeoIr8 qa63wV8V fFfw8mR9 D1m5tYVO Tas2+Bsn
+ nMbZXJ9c Z9DXHUy5 b05feezh +IpXtXh8 1/kfpdkU cHtXzj8L /wBsLR9f aGx8WW66 HfMQovYs tauxOOep j698jqSR X0ZHIsyh 0YMjDIYH IIryKlOd J2mj63DY ujio81KV
+ /wA0S0UU VkdgmKWi igAooooA KKKKAGsM 9s15b8Qf 2dfBvxA8 2ebTk07U 3Bxe2Q8t iT3ZRhXP 1GeOtepU h9sVcJyg 7xdjCrRp 148tSKa8 z8/vil+z b4p+G/2q +SD+1tDi
+ Jb7dbctG nrInVcdy Mr715LX6 tnkAV438 Wf2Z/Dnx HilvLNU0 HXWO/wC2 W8YKSnPP mICAc8/M MHJyc9K9 ejmH2aq+ Z8fjcg3n hn8n+jPg iiup8ffD TxB8NNV+ w65ZNCW/
+ 1VwnzQzD 1R+h+nUd xXLV7UZK avF6HxtS nKlJwmrN BTkdo3DK xVlOQQcE Gm0UzO9j 2L4bftRe L/AZit7y f/hIdKXj 7NfuTKo/ 2JeWHb72 4ADgCvq7 4Z/tAeEv ic0dtY3h
+ sdWYcadf YSVsDJ2H JD8An5ST gZIFfnfT o5GidXRi jqchlOCD XBWwdOrq tGe9g84x GGtFvmj2 f6M/Vod6 AM18T/Cn 9rnWfCzL Y+Kll17T c/LcR7Rc wj0HQOPY kEZ64AFf
+ XnhPxho/ jXSU1LRN Qg1Kzbjz IXyVbAO1 h1VsEEqQ CMjivCrY epRfvLTu fd4PMKGN XuPXs9ze opKWuY9Q KKKKACii igAooooA +A/2sNfG ufGXUYlY tHp0EVop Hsu9h/30
+ 7V47XS/E zUjrHxE8 S3hbcs+p XDqf9nzG wPyxXNV9 hSjyU4x8 j8cxdT2u InPu3+YU UUVqcoUU UUAFFFFA BRRRQAUU UUAFdF4F 8A638Rtb j0rQrNrq 4b5pHPEc KZwXduwH
+ 5noATxW/ 8Hvg5qvx a8QJbW6P baTCwN5f svyRL/dH Yuew/E8V 95+A/h7o Xw30VdN0 KyW1iJBl lJ3STPj7 zseSf0HY AV5+Jxca Pux1kfQ5 ZlM8Y/aT 0h+L9P8A M4r4P/s7
+ 6F8LYo7x /wDiZ68U Alu5fuIc 5IjXsOnJ yeAeOlev Dp6Un86M Y6187Ocq j5pO7P0S jQp4eChT jZDqKKKg 6ApMUtFA BRRRQAUU UUANPfik JCjPTFKa +S/2o/2g JDLdeC/D
+ lyEjG6HV bqPB35BV oFPYc/MR zn5f7wO9 GlKrLlic GMxdPB0n UqfJd2Wv j3+1O1m9 34b8FzDz lPl3Gsow IXruSHjr 239udvZh 8o3NzLeX Es88rzTy sXeSRizO xOSST1JP
+ eo6K+mo0 IUY2ifmG MxtbGVOe o/RdEFFF FdBwBRRR QAUUUUAF FFFABXr3 wS/aI1b4 UzR6fdCT VPDbPl7Q t89vk5Zo ienUnaeC c9CSa8ho rOdONSPL JXR0UMRU w01UpOzR
+ +ofhjxVp njHRbbVt IvEvrG4X KSJ2PcEd QR3B5FbI IxX54/A7 43X/AMId e+bzLzQL pgLyxVuR 0Hmx5OA4 A78MODjh l+/dF1my 8Q6Xa6jp 10l5ZXKC SKaI5VlP +enUV8zi
+ MO6EvJn6 bluYwx1O +0luv1Xk adFFFch7 AUUUUAFF FFABRRRQ AUUUUAYX izwjpPjb RZ9K1qzj vrGUco45 U9mU9VYd iOa+Kvjl +zbqnw3u Z9U0eKbV PDRy5kUb pbUekgHJ
+ Uf38Y9cH Gfu89Tk/ hUM8Ed3B JDMiyxSK VdGGVYHg gjuK6aGI nQem3Y8n G5dRxsfe VpdH1/4Y /KqivpX9 pD9m6Pw3 DceKvCts 503cZL3T 4xkWw7yR j+56j+HO R8o+X5qr
+ 6alVjWjz RPzPFYWr g6rp1F/w QooorY5A rpvAPxG1 74a6wuo6 HfNbMSvn W7fNDcKP 4ZE7jk89 Rk4IPNcz RSlFTVns aU6kqclO Ds0foB8G v2hdB+Ks ENi7DTPE AX57CZhi
+ YgEsYTn5 hgE46gA8 YGa9c7V+ VNpdz6fd Q3VrNJb3 MLiSKaJi rowOQykc ggjORX2Z 8Av2nLbx iLXw/wCK Z0tdfYiG 3uiNsd4e wPZZD0xw GJAHJArw MVgnT9+n sfe5XnMa
+ 9qOIdpdH 0f8AwT6M opB0pa8o +sCiiigA ooooA/Kv VZfP1S8l DBg8ztuB yDknmqtX dbiMGs38 TDDJO6kf RjVKvtFs fict2FFF FMQUUUUA FFFFABRR RQAV2/wi +Fuo/Ffx
+ ZBpdorxW ceJL28AB EEWevPVj 0A7/AEBI 5bQ9EvfE er2mmadb vdXt1IIo ooxkkn+n cnsBX6G/ BX4U2vwm 8Hx6YjJc ahM3nXl2 q482Q9hn nao4H4nA JNcOLxHs IWW7Pcyr
+ L3javNL4 Fv8A5HTe E/Cum+Cd BtdI0m2W 2s7ZNqIO p9WY9yTy TW360fjR 2r5ltt3Z +nRioJRi rJC0tFFI sKKKKACi iigAoooo AKKKjlkW KNndgqqC SxOAB60B seP/ALSf
+ xdf4YeDR Bp0wXX9T JitTwTCg +/Lj2BwP cg84NfA7 u0rs7sWd jksTkk13 Xxu+ID/E n4japqyy M9kjfZrN T/DChIX8 yWb6sa4O vqMLRVGm n1e5+V5r jXi8Q7P3 Vov8/mFF
+ FFdp4wUU UUAFFFFA BRRRQAUU UUAFFFFA BX0x+yJ8 YZNN1RfB OqT/AOg3 JL6e7nHl TZJaPp0f JI5+8Mc7 q+Z6ltrm WzuIp4JH hniYOkkb FWRgcggj oQe9YVqS rQcGduDx
+ U8JWjVj0 3812P1Wx 370uK4j4 N+PV+JPw 80nWiw+1 vH5V0oAG 2dPlfgHg EjcB6MK7 cmvkpRcG 4vdH63Sq RqwVSOz1 FpaKKRqF FFFABRRR QAUUUUAJ S0UUAROi yIVYAqRg
+ g9MV8S/t N/ARfAV6 3iTQbcro F1JiaBFy tnIfT0Qn p2BOO4r7 cLc1meIN DsvE2jXe l38C3Fld RmKWNxkE H+o6g9iB XTh68qE+ ZbdTy8ww MMbRcJbr Z9mflvRX YfFX4cXv
+ ww8Y3ejX QeSBTvtb llwJ4j91 h79j6EGu Pr6qMlJK S2Z+VVKc qU3Cas0F FFFUZhSg 4pKKA2Pr n9nn9p0a kLLwv4vu D9tyIbTV pW/1391J if4+wf8A iyM85LfU Yr8pOhr7
+ M/Ze+Pb+ LoI/Ceuy r/a9tEBZ 3LHH2mJF A2Nk5aQA E57jJ7En wsZhFH95 TXqfdZPm zqNYeu9e j/Rn0jRS Clrxz7MK KKKAPzO+ LWktofxN 8UWbLtEe ozsg/wBh nLL/AOOk
+ VyVe4ftf +Gzo3xak v1QLDqlr HcBh0LKP LYfX5Afx rw+vr6Mu enGXkfj2 NpexxM6f ZsKKKK2O MKKKKACi iigAooqx p9jLqd/b WcC7priR YkX1Zjgf qaBxjzOy Pqv9jP4Y
+ iG2ufGt6 is0u60sA ynKqDiRw enJ+UY9G 9a+quKxP CPhy38Ie GtN0a0GI LKBIVx/F gcsfcnJP 1rb9K+Rr 1HVqOTP1 zA4ZYXDx prfr6i0U UVgegFFF FABRRRQA UUUUAFFF
+ FADR1+te W/tI+MD4 L+Euszwy +VeXqiwt yDg7pOGw fUIHI+le pdq+Tv24 9fYSeGNE RsJiW8lX 1PCIf/Q/ zrpw0PaV oo8vM67w +EnNb2t9 +h8qUUUV 9YfkwUUU UAFFFFAB
+ RRRQAUUU UAFFFFAB RRRQAUUU UAfUP7Ev jI2+p654 Ymf93Ogv rdT/AH1w r49yCn/f NfXXANfn J8BPEDeG vi/4YuwT sku1tXwe Nsv7s59h uz+Ffo2B zXzeOhy1 brqfpGQ1
+ 3VwvK/su 3yH0UUV5 x9KFFFFA BRRRQAUU UUAFFFFA CYo7UtFA HhX7WXw8 h8WfDqbW IYgdS0bM 6uBy0JwJ FPsBhv8A gPua+Fq/ U3W9Jg1v SL3T7lQ9 vdQPBIvq rKQR+Rr8
+ u9Tsn0zU bq0kzvt5 WibIxypI P8q9/Lqj lFwfQ/P+ IaChWjVX 2lr6r/gF aiiivWPk gooooAKs affXGl39 te2kz291 byLNFNGc MjqcqwPq CAar0Ubh F8rvE/Qv 4CfGC3+L
+ XhNZZzHF rlmBHfW6 8c/wyKP7 rYz7HI7A n1EH8q/N T4UfEe9+ F/jOz1m2 Ltbg+Xd2 ytgTwn7y /XuPQgV+ j2katba5 pdnqFlKJ 7W7iWeGQ dGRgCD+R r5jF4f2M 7rZn6dlO
+ P+uUeWb9 +O/n5l+i iiuE98+e v2yvBf8A bfw+tteh TNxo843k DnyZCFP5 NsP518TV +pHiHRbf xJod/pV2 ga2vIHgk BAPDAjPP cZzX5n+L /DN34O8T 6nol6pW5 sZ2hYkY3
+ AHhh7EYI 9jXvZfU5 oum+h+f8 QYbkqxrr aWj9V/wD Hooor1z5 IKKKKACi iigAr0L9 n7SI9b+M vhW2kXKr di4x7xKZ B+qCvPa9 V/ZbIX46 +GvrcD/y XlrKs7Up PyZ2YNKW
+ Ipp/zL8z 9CAOKWii vjz9hCii igAooooA KKKKACii igAooooA afWvhr9s y8Nz8WoY dxK2+nQo F7DLO3/s 1fcrc18I ftgoU+Ml wT0aygI/ Ij+lejgP 43yPms/b WE+aPEqK
+ KK+kPzcK KKKACiii gAooooAK KKKACiii gAooooAK KKKAL+g3 v9ma5p93 u2/Z7iOX djONrA/0 r9TI+UU+ 1flPEjPK iqCzEgAA ZJNfqtB8 sSA+grxM y3j8/wBD 7fhtu1Re
+ hLRRRXin 2wUUUUAF FFFABRRR QAUUUUAF FFFADex+ lfmj8X7M WHxT8WQr 90ancFcD GAZGIH61 +l3Y/Svz R+Ll6uof FLxXOn3G 1S4C85yB IwB/SvXy 745eh8hx Hb2MPX9D
+ kaKKK94+ BCiiigAo oooAK+w/ 2M/iOdU0 K88I3kwM +n5uLMN1 MLN86++1 jn/gftXx 5XV/C3xp L8PvH2ja 5GxWO3nA nUfxwt8s gx/uk498 GuXE0vbU 2up6eXYp 4TExn02f
+ oz9M6Khg mS6hjljc MjqGVlOQ Qehor5Q/ WVrqPz04 r5g/bD+E zajYxeNd Nh3T2qCH UEUctHn5 JP8AgJOD 7Edlr6gq pf2VtqVl PaXUKT2s 8bRSxSqG V0YYKkHq CCRitqNV
+ 0pqaOLGY WOLoSpS6 7eTPyuor 0T44fCe5 +E/jGWzG +XSbomaw uHxl4+6n /aUnB6Z4 OBnFed19 ZCanFSjs z8mq0Z0K jp1FZoKK KKsxCiii gAru/gXq 66H8XfCt 0zhF+3JC
+ zHoBJ+7P /oVcJUlv cSWlxFPE xSWNg6MO oIOQaipH mi49zajP 2VSM10af 3H6sjpSD iuc+H/iu Hxt4N0fW 7d1dL22S RtnRXxh1 +qsGU+4r o/WvjmnF 2Z+xwkpx Ulsx1FIO
+ lLSNAooo oAKKKKAC iiigAooo oAYVwc18 WftsaU1t 8Q9IvgP3 dzpwj6fx JI+f0Za+ 1OvtXzh+ 2v4XbUvB Oka3FGXf TbsxyMP4 Y5Rgk/8A AkQf8C+t duDly1l5 nh5zSdXB
+ zt01+4+M qKKK+oPy 4KKKKACi iigAoooo AKKKKACi iigAoooo AKKKKAN7 wHpjaz42 0CxVS5ub +CLAGeDI Aa/T5BhR 9K+B/wBk /wAMf8JF 8YLG4cZg 0yGS8f0y BsX/AMec
+ H8K+9x3r wMxleoo9 kfoHD1Jx oSm+r/If RRRXkn1o UUUUAFFF FABRRRQA UUUUAFFF FAGT4n1u Dw14e1LV bg/ubG2k uH9wqliP 0r8vr68k 1C9uLqY7 pZ5Gkc+p Jyf519kf
+ tj/EddC8 J2/hS0mH 27ViJbhQ eUtlbvzk bnAA7EI4 r4wr38vp 8sHN9T88 4gxKqVo0 Y/Z39X/w Aooor1j5 UKKKKACi iigAoooo A/Q39nPx UPFPwg0C d5C9xaxG zlLdcxna
+ M/8AAdp/ GivLP2Jt fRfDPiXT JHCCC7iu QD6yIVP/ AKKFFfL1 6XLUkkj9 RwOK9pho Sb6H1JSY paK4j3Dh /ir8M9O+ KnhS40i+ AjnwXtbs LlreXHDD 1HYjuPTg j88/GHhD
+ U/A3iC70 bV7c297b tg91dezq e6kcg1+o PevNvjT8 FNL+L2iL HKws9Ytg Ta36pkr6 ow/iU+nY 8juD6OEx XsXyy+F/ gfOZtlix kfaU/jX4 +R+dtFbP i7wfq/gb WptK1qyl
+ sryPkLIu BIuSA6Ho ykg4I44N Y1fRpqSu j83nCUG4 zVmgooop khRRRQB9 P/sefFiL TrqXwXqc /lxXLmbT mkICiT+K P6t1HuD3 PP13nOeK /Kq1uZbK 5iuIJGin icSI6nBV
+ gcgj8a++ f2ffjdb/ ABV8PC1v JEi8SWKA XcHQzLwP PQYA2knB A+6fQFc+ DjsPyv2k dup95keY Kcfq1R6r bzXb5Hr4 6UtFFeQf YhRRRQAU UUUAFFFF ABRRRQA3 Nc58QvCa
+ eNvBWsaG 7KhvbZ4k dhkI+Mox HfDAH8K6 P2pfamm4 u6M5xVSL hLZn5U3t nNp15PaX EZiuIJGi kRuqsDgj 8xUFfQ37 X/wwbw54 rj8V2iAa dq7BJwow I7kL/wCz qC31Vq+e
+ a+uo1FVg pLqfkWMw 8sLWlSl0 /Lowooor Y4wooooA KKKKACii igAooooA KKKKACii um+G/gW8 +I3i+w0O zGGncGWX /nlED87+ +B2qZNQT bNKcJVJq EVds+rf2 NfAz6H4J
+ vPENzEEn 1iXbAT97 yIyQPplt /wBQAfSv on1qho2j 2vh/SbPT rKIQWlpE sMUa9FVR gCr45/lX yVao6s3N 9T9cwlBY ahCkui/H qOooorE7 QooooAKK KKACiiig AoopDQAh
+ rn/GfjPS /AXh661f V7lLa3hU 7d7YMj4J CKO7HHQf 0pnjfxzo /wAPfD0+ s61crb2s Xyqo5eZ8 EiNF/iY4 PHsScAEj 4I+Lvxn1 v4tau0t5 I1tpETk2 umxt+7iH QM3958Hl
+ j6nGBxXZ hsNKvK/Q 8PMsyhgo WWs3sv1Z g/ETxref ELxhqWuX kjO9zIfL QjAjjHCI Bk4wMd+u eua5uiiv p4pQjyo/ Mak5VZOc ndsKKKKo gKKKKACi iigAoooo A9M+DPim
+ Tw2NY8sk ed5JODjp v/xorD+H sojF/mzi u8+X/rCw 2/e6bWH6 +lFck4py bsetRnJU 0lI/S6ii ivlT9XCk 7UtFAHA/ FX4R6J8V 9EFnqcPl 3kIY2t9G P3kDEfqv TKng4HcC
+ vgr4i/DT XPhhrraZ rVt5ZbLQ XCHMVwgO Nyn+h5GR kCv0w7Vz 3jPwPo3j /RpdM1ux jvLdwdrM o3wsRjej dVYeo/lX fhsVKj7r 1ieBmWVQ xq54aT79 /U/MWivY PjP+zjrX
+ wumm1Cz3 6t4czkXa r88AJwFl UfUDcOD7 dK8fr6OF SNSPNB3R +c16FTDT dOqrMKKK Ks5wra8I eLtT8DeI LXWdInNv eW7ZB6q6 90Yd1I4I rFopNKSs yoTdOSnF 2aP0b+EH
+ xe0n4teH 0u7SRLfU oxi709nB khb1A6lD 2b8OCCB6 D0r8vPCP jDVvAuuQ atot49lf Q5AdQCGU 9VZTwQfQ /wBK+6Pg v+0Do3xW sYbWZ49O 8SBCZdOL HD4/jiY/ eBHO3qOc
+ 5A3H5zFY R0nzQ1j+ R+jZXm8M UlTqu0/z PXaKKK84 +lCiiigA ooooAKKK KACiiigD n/GfhGw8 c+GdQ0PU oy9peRmN iANyHqrr kEBlOCOO or86/iR8 PNU+GXie 50bU4z8h
+ JguApCXE eeHX6+nY 8V+mWePW vPvjD8It L+Lfh5bG 8Jt7+3LP ZXqAboXI xg8cocDK 8ZwOQQDX dhMT7CVp fCzwM2y5 Y2nzw+Nb efkfnJRW z4t8Iar4 H1y40nWL R7S8hPKt
+ 0dezKejK exFY1fTJ qSuj80nB 024yVmgo oopkBRRR QAUUUUAF FFFABRRT 4onnkWON GkkchVVR kknoAKAW ugQwyXEq RRI0kjsF VEGSxPQA dzX3l+zf 8Fl+F3hr 7dqMYPiL
+ U0VrjIGb dOohB/Vs dTjrtBrk v2cP2bn8 KPF4o8Uw IdWIDWdg wz9lyPvv /wBNOeB/ DjOcn5fp SvAxuKU/ 3cHp1Pv8 myt0P9or L3ui7efq LS0UV5J9 cFFFFABR RRQAUUUU
+ AFFFFACG uF+K3xY0 X4TaD9v1 OTzLqbct pZRn95cO B0HooyMs eBkdSQD1 uq6lb6Np t1fXciw2 trE00sjH AVVBJJ/A V+bfxQ+I V98TvGV9 rd6SiyHy 7e3LZEEI J2IPzJPq
+ ST3rtwmH 9vLXZHg5 tmH1KklH 45beXmL8 SvibrXxS 199S1ifK plba1TiO 3jJztUd/ djycDPQV yVFFfTQi oLljsfml SrKrJzm7 thRRRVGY UUUUAFFF FABRRRQA UUUUAe1f
+ s4+Bn8Zr 4g2KG+zG 3zk4+95n /wATRXtH 7F3h5rP4 eanqbrhr ++IT3SNQ Af8Avov+ VFeFWxLV RpH3OCyx VMPCbW6P oyiiivHP tAooooAK SlooAgnt 47qF4po1 kjdSrI4y
+ rA9QR3r5 m+L/AOyF bavLcar4 LeOwuCNz aVJxC7f9 M2/g78Hj PdRX072z mjvW1KrO i7wZxYnC UcXDlqxv +aPy117w 9qXhjU5t O1aymsL2 IkPDOhU9 cZHqOOCO D2rOr9M/
+ HPw38PfE XT/smu6b FebQyxTl cTQ56lHH K9B7HAyD Xyb8Tv2Q /EHhh5bv w1I3iHTh z5GAtzGP 93o/1Xn2 r3aOOhU0 noz4LG5J Ww15Uvej +P3Hz9RU tzazWU7w XETwTIcN
+ HIpVlPoQ air0j5y1 twqazvJ9 Puorm1nk triJtySx OVdD6gjk GoaKAvy6 o+sfgt+1 ykv2bRfH L7HyI4tZ RflIxx5w HQ543gY5 GQMFq+o7 S9gv7aOe 2njuIJFD JLEwZWB6
+ EEcEV+Vd dz8M/jL4 m+Fd3nSL wtYSSCSf TpxuhlOM E46qSAPm XB4GcgYr ya+AU/ep 6PsfW4DP Z0kqeI1X fr/wT9JM 5pMZ7V4n 8M/2qPCv jjybTUXH h7VXO0Q3 b5ic9tsu
+ AOfRsH61 7WjBwCpy DyCK8OdO dN2krH29 DEUsTHnp Suh9FFFQ dIUUUUAF FFFABSUt FAHE/Ev4 XaJ8VNCb T9XgIkX5 re7j4lgb 1U9x6g8H 8jXw/wDF P4CeJ/hb dSyXNs2o
+ aOGIi1K2 UmMrnjeO sbYxkHjP QnrX6K4q Ce3juI3j lRZEYFWR xkMD1BHc V2UMVOg7 LVdjxMfl dHG+89Jd /wDM/Kmi vuj4h/sl eE/GLz3m lM/h3UpC WLW43wM3 PJjJ4/4C
+ QOOlfPfi 39lHx74a aR7axh1u 2DECSwky xHYlGw34 DPPrXuU8 ZSqdbPzP h8Tk+Kw7 +HmXda/8 E8boq/rG haj4fvXs 9Tsbiwuk 6w3MRRuu M4Pbg81R wa7VJPVH juMouzQl
+ FFPigknk SOONpJHI VVUZJJ6A Ci6FZ9hl Fei+Fv2f fHvi1kNr 4fubWBv+ Xi/H2dAP X58Ej6A1 7t4E/Yqs LMR3HizV HvpRybPT yUiz6FyN xHXoF/x5 KmKpU95H p4fLMViX
+ 7sGl3eiP mXwV4C1z 4g6wmm6F p8t7OSN7 qMRxD+87 dFHB69eg yeK+zvgv +zNo3w2F vqeqbNX8 SIAwnOfJ tmxyIlPX /fYZ44C8 ivVfDPhX SPCOlR6f o+nw6dZp 0igXGT6k
+ 9Sfc81sY 5rxcRjJ1 fdjoj7bA ZNSwjVSp 70/wXoOo oorzz6MK KKSgBaKK KACiiigB M5FJ1peo 5rnPF3xA 8PeBrQ3G uatbaegG 4LK/7xx/ soPmb8Aa aTk7IzlO MFzSdkdD
+ WF4s8aaL 4H0t9R1z UItPtUHW Q/Mx9FUc sfYA180f Ef8AbOmk Mlp4NsBE vT+0L5ct 25WPoO45 z9K+bfEP inV/FmoP fazqVzqV 0xJ8y5kL 7cnOFB4U ewwBXp0c BOes9F+J
+ 8zjM+o0r xoLmffp/ wT3H46ft SSeNrC78 PeHIPs+i zrsnvJgf OnHB2qOi L2Ock+3f 55oor3KV KFGPLBHw 2JxVXF1P aVHdhRRR WpyhRRRQ AUUUUAFF FFABRRRQ AUoGTikr
+ 0z9nfwG3 j74o6Vby Rs1jZN9u umA4CIcq p/3m2r9C azqSUIuT 6G9ClKvU jSju3Y+2 vg94S/4Q f4aaBo7o Unhtw864 6Sv87j8G Yj8KK7bb 0or5CUnJ tn7HShGl TjTXQdRR
+ RUlhRRRQ AUUUUAFJ S0UAFIaW igDhfH/w d8LfEq3Y azpaG6xh byD93OnT +IdenQ5F fL/j/wDY 48S6B5tz 4cuo/EFq CSIGxDcK OwwTtbA7 ggnsvavt jrSY4rpp YmrR0i9O
+ x5OKyzDY vWUbPutG fllq2h6j oNybfU7C 60+4BwYr qFomH4MA e4qjX6he I/B+ieML MW2t6Vaa nCOVW5iD lD0ypPKn 3GDXhvjT 9i7w5qqy TeHL+50S c/dglPnw fr84+u4/
+ SvWp5hCW k1Y+TxPD 9anrRakv uf8AkfF9 FeveL/2W /HnheZjB pg1q1A/1 9gwb0z8h w3X27V5V f6dd6XcN b3ltNaTr w0U8ZRh9 Qea9GFWF RXi7nztb DVqDtUi1 6lavRvAP
+ x+8Z/DsC Kx1M3liC T9i1AGaL J545DLzk /KR1rzmi qlCNRWkr kUq1SjLn pyafkfa/ gX9sfwx4 gaK28QW0 /h65YYM3 +utien3g Nwz7rgdz Xu2ka9p3 iCyS60y+ t9QtX+7N
+ bSrIp/EG vyyrS0Lx Lq3hi8F1 pGpXWm3A x+8tZmjJ 9jg8j2Ne ZUy+MtYO x9NhuIKt PStHmXfZ /wCR+pR5 pDz04r4W 8Jftf+N9 BdY9Ua18 QW27J+0R iOUDHRXT A/Flavbf
+ Cv7ZPg3W YEGsRXmg XB++GjNx EPoyDcf+ +RXm1MHW p9L+h9LQ zjCV9Obl fnp+Ox77 Qelc54d+ IXhrxaQN H12w1BsA mKC4VpBn plc5HQ9R 2ro8gjjF cbTTsz2I zjNXi7od
+ RSUtI0Ci iigAoooo Ar3FpBdx mOaFJkPV JFDA/gaw bv4ceFL7 cLnw1pE4 br5ljE2f zWulB96D TUmtmZyp wl8Sucnb fCrwbaPv h8J6LE39 5dPiB/8A Qa3bHRdP 0tdtlY21
+ ouMYgiVB +gq9+FJT cpPdkxpQ j8MUhwGO 1GKWipNg ooooAKKT NLQAmOKT 8KD71ka5 4q0bw1D5 2rapZ6bH jO66nWMH 6ZPNNJvR ESmoq8nZ GueKC3Ga 8S8V/tce A/DxMdlc
+ XWvXA422 MOEB93fa Me65rxzx V+2r4k1H fHoWl2mk Rk/LLMTc SgfjhR+R rqhhK0/s 29Tya+bY Sho53flr /wAA+yrm 6htIHmnl SGFBuaSR gqqPUk9K 8k8c/tS+ B/BjNBFe
+ vrt8rbTB pgDqvXky EhcZGOCT 7V8UeLPi L4l8csh1 3WbrUljY uiSthFJG MhRgD8vX 1rm69Gnl yWtR39D5 zEcQzlpQ jbzev4Hv Xjv9sDxZ 4j8630WK Hw9ZNwHj HmXGMn+M
+ 8DjHQAj1 rw/UdTvN Yu3ur+7n vblzlpri Qu7fUnmq tFenTowp K0FY+Zr4 uviXerJv +uwUUUVs cgUUUUAF FFFABRRR QAUUUUAF FFFABRRR QAV94fst fCw+A/Aa ajfQeXrG
+ sYuJA64e KHH7uM+n BLEerYPS vnf9mD4R /wDCxPGQ 1LUbZ30H SiJJGPCz TdUjz3/v HHYAH7wr 7zAArxMf X/5dR+Z9 tkOB3xU1 5L9WPooo rxT7cKKK KACiiigA ooooAKKK
+ KACiiigA ooooAKKK KAEIrJ13 wtpHia2N vq2m2uow f3LqFZAP pkcVq9Pp R9DTTa1R EoRkrSV0 eL+Jv2S/ APiDLW9p c6LLjAaw mwuc5ztc MK8w1z9h 27V3fRvE 8MiE/LFf
+ WxQqPdlJ z/3yK+t8 mjmumGJr Q2keZVyr B1tZU0vT T8j4F1n9 k74iaSsj x6db6iiD ObO5Ulvo Gwf0rg9V +GXi3Q2f 7d4a1W3C 9Xezk2fg 2MH86/TU EUYzXXHM ai+JJnk1
+ OHqEvgk1 +J+U7xPE 7I6MjKcF WGCDTK/U 690TT9TX F5Y210Om Jolf+Yrn tR+EngvV UC3XhbSZ AuSMWiLj PXoBW6zJ dYnBLhya +Govu/4c /NSORonV 0YoynIZT gg12Xh34
+ y+NvChA0 3xLqEUa9 IpZfOjH0 R8qPyr7b uv2bPhxc q4bwzBGW BGYpZFI+ mGrnL39j 34e3RzHD qFp7Q3ZO P++gav69 QnpKP4GS yTHUXenN fJtHiWhf tn+MtPUJ qNlpuqDj
+ 5zG0T+/K nH6V3mjf tx6bIANV 8MXVtzy1 rcrLn3ww X8s1qah+ xN4WnkZr TWdUtQei N5cgH/jo NZUv7DWn n/V+K7lR /tWan/2c Vi5YOe6t 951U6Wc0 tFK/q0/z O30v9rz4
+ d6goM95f aaSORc2b Ej6+Xurs tK+OHgPW nVLXxTpx duiyy+UT 36NivEn/ AGGrUowT xZLvxwWs xgH6b/60 R/sNWuxQ /iyXfjkr ZjBP031h KGEe0mv6 9DvhXzaP x0k/ml+p
+ 9H2fi7Q9 Sx9l1iwu c9PJuUf+ RrTWZXAK upB6EEV8 yQfsN6cr fvvFV249 EtFX/wBm Nb2nfsX+ DbUZutR1 e9bjrMiD 8gmf1rCU KC2n+B3w r45/FRS+ Z9AZB6HN KcYrh/Df
+ wg8OeFp4 ri0jvpJ4 yGWS61Ge UZByDtL7 f0ruB0rl kknoz04O bXvpJ+Tv +iEJ6dKQ yA9CK+Yf 2s7Tx3Ya tYa34fvt Vh0NbZbe dNNnkQRy 73O51Q9C CBu6DGDj Iz4Bpc/x
+ L8U3C29j ceJtRkbj CSzsPxOc D8a76WE9 pBT50jws Tmzw9V0v Zttfifo7 vUdSPzqj e+INM04E 3Wo2lsB1 M0ypj8zX 53/EHwF4 78F2VnP4 nhvora8H yPLP5qhg T8jEEgNg
+ bgD2+hxw m4nua6IZ epK6nf8A r1POrcQT pS5XRs/N /wDAP0p1 L4w+CNJH +leK9JQ4 ztW6R2x9 FJNcfqf7 V/w40/cI 9YmvnUkF La0l6+xZ VB/OvgWi t45dTW7Z wT4hxD+C
+ CX3s+xdZ /bg0CGMn SvDmo3kn YXckcA/N S9cFrv7a 3iu93Lpm k6bpsZzg yB5pF9MH IH/jtfO9 FdEcHQj9 k86pnONq fbt6JL/g noevftA/ EDxHvF14 mu443BBi tNsC4Pb5
+ AM/jXA3F 1NeTNLPK 80rHLPIx Zj9Saior rjThD4VY 8upXq1Xe cm/V3Cii irMQoooo AKKKKACi iigAoooo AKKKKACi iigAoooo AKKKKACt zwV4O1Hx 54lstE0q Ey3Nw4Xc
+ fuxr/E7H soHJ/wAa yLW1mvrm K2tonnuJ nEccUSlm dicAADkk ntX3r+zr 8Fk+Ffhj 7TqMCf8A CTX67rpg wfyUzlYV PTjgtjgt 3ICmuPE1 1Qhfq9j1 8twEsbWt 9lbv9PVn
+ cfDvwDp3 w08KWeia auY4Rukm YYaaQ/ed vc/oAB0F dV14oor5 dtyd3ufq UIRpxUIK yQ6iiika BRRRQAUU UUAFFFFA BRRRQAUU UUAFFFFA BRRRQAUU UUAFFFFA CYpaKKAC
+ iiigAooo oAKKKKAC kxS0UAFF FFADR1oI qjrWsWvh /SrzUr6Y Q2lpE00s jdFVRk18 v6x+3EqX 7rpXhgy2 YPyveXOy RuepVQQP zNbUqNSt 8CPPxONo YS3tpWuf VnDehoCY
+ IOK+RpP2 5dRZhs8J 2yjuGvGP /sleufD7 9onS/Gfw /wBZ8S3V nJpz6Opa 8tVbzOxK FDgZDYxy Bg57DJ1n hq1NXkjC jmeExEuW Etd9rbep 6pqGnWur WU1ne28V 5azKUkgn
+ QOjqeoKn givCvF37 G/hLXbp7 jSbu70CR zkwxkTQd c8K3zD/v rHHSvJPE H7Z3jG+v Zjpdpp2m 2W4+UjRG WQL23MTg n6AVxOv/ ALR3xE8R RvFN4kuL WJiDtsFW 3Ix6MgDf
+ rXZSwmJp 6xdjxcXm uXVlyzg5 W8v1Nj4v fAGy+Emj i4uvF1vf ajKyi306 O12ySLnl j852qBnn BycDvXjl TXd5Pf3M lxczSXE8 h3PLKxZm PqSeTUNe 1TjKMbTd 2fF1506k
+ 70ocq7Xb /MKKKK0O cKKKKACi iigAoooo AKKKKACi iigAoooo AKKKKACi iigAoooo AKciNI6o qlmY4AAy SaWKJ55U jjRpJHIV VUZJJ6AC vsf9nn9m aDwx9h8T +KIfN1tf
+ 3ttYSYMd oeCrsO8g 7dlz03AE c1bERoRv I9HBYGrj qnLDbq+x Y/Zp/Z7P gmOHxP4i t2TX3Vhb 2rkH7Ihy MnBOXZT+ AOOucfRP PpzQB3pe +M18xUqS rS55H6hh cNTwlJUq
+ a0X4+bHU UUVkdgUU UUAFFFFA BRRRQAUU UUAFFFFA BRRRQAUU UUAFFFFA BRRRQAUU UUAFFFFA BRRRQAUU UUAFFFFA BRRRQAUU UUAZWvaF aeI9GvNL v4fOsruJ oZo9xG5W
+ GDyCCPqC DXxn4m/Y 68YWWvXE Oim01DSy 5MFxLcBH VM8BwQPm A67cj+Vf auoalaaX bNcXlzFa 2643SzOE QZOBknjr XOXXxZ8F WLMs3izR Y3Xqhv4i w/Ddmuqj Wq0r8h4+
+ OwmFxdvb uzXW9mfM Gh/sR+I7 oq2q65p+ nqf+fdXn YfUEKP1r 3vwD8A/D /gTwZqnh 0NNqMerR mO+uJzta UFSuFA4U DJxjkE5y eKfqn7Sf w50lCZfE sMzdAttH JMT/AN8q
+ RXn3iP8A bY8M2KSL o2j6hqky nCm4K28T D1Byzfmo rolLF19G nY4KcMrw PvKSv63f 3HB61+xJ 4ihknbSt a0+5izmN LnfG+M9C QpGcd68m +Ifwi1f4 YMkeuXmm pcyDdHaw
+ XPmSsucb toGQODy2 AcHHPFdt 40/a48ce JjJFp0sH h+zbgLZp ulI9DI2T n3ULXi93 eT39zJcX U0lxPIdz yysWZj6k nk161FYj eq0fJY2e A2w0Xfu3 p925DRRR XaeMFFFF
+ ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFW9K 0q81zUbe w0+3ku7y 4cRxQxLu Z2PYCuh+ Hnww8QfE /VxYaHab wvMt1NlY IR6u2Dj6 DJPYGvur 4SfBTRPh
+ JpXlWSi7 1WZALnUZ UAeQ+ij+ FM/wg+mS TzXDiMVG grbvse3l +V1ca+Z6 Q7/5HGfA b9mm0+HL xa5rbJf+ ISoaNVz5 dnlSGC84 ZuSN35ep 96xikNKa +cqVJVZc 0mfpGHw1
+ LCwVOkrI WiiiszqC iiigAooo oAKKKKAC iiigAooo oAKKKKAC iiigAooo oAKKKKAC iiigAooo oAKKKKAC iiigAooo oAKKKKAC iiigAqKZ mSJ2VS7B SQoOMn0q WigTPzZ+
+ KfxS8SfE fX7iTW5p beOKQrHp YLLDbEZG Ah/i65J5 /DAHD1+k /in4PeD/ ABvqkOpa zoNteX0T A+ccq0gA wA+0jeB6 NnpXnXxR /ZQ8OeK7 ASeG7eDw 7qqMMPGG 8iRe4ZB0
+ PfIH1z29 2ljaUUo2 sfBYrJMX Nyq86k/x Z8O0V9OW 37Dmrtjz /FFlH6+X bO/8yK3V /YZsSwL+ K7gDuotF P67v6V1v GUF9r8zy o5PjZfY/ Ff5nyNRX 2ZZ/sQeG EA+167q0
+ 3/XHyo/5 q1bUX7LX wt8MWyza t500OQnn alqBiUse gyuwZPpW bx9Hpdm8 chxb1lZe r/yufDNF fe+ofsnf DbULVkt9 JnsWYcT2 17KzLx1G 9mH5g189 /Hv4D+Gv hPZQz2Xi
+ aaS7nP7r S7mNXldf 7+5cAKPU rz254qqe MpVZcqvc yxOT4jDQ dSdml2f+ Z4ZRRRXe eGFFFFAB RRRQAUUU UAFFFFAB RRRQAUUU UAFFFegf DT4H+KPi jIr6ZZiD TQ22TUbk
+ 7IVx1x3Y +wB/CplO MFzSdkbU qNStJQpq 78jgAMni vob4Qfsl 6r4mMepe LFm0XTsq yWZGLide Ccj/AJZj HHPzew7+ /fCf9nfw 58LY0ulX +1db2/Nq Fyo+U/8A TNOQg9+T
+ 716ryQeB XiV8e37t L7z7TAZC o2qYrV9u nzMfwx4T 0rwXo8Ol aNYx2NjE PliiHfuz E8sT3JJJ ra65o/Gi vIbbd2fY RioJRirJ DqKKKRYU UUUAFFFF ABRRRQAU UUUAFFFF
+ ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU UUUAFFFF ABRRRQAU hpaKAPm3 4m/tbXHg Dxtqnh+L wyl2LGRY /tEl4UL5 UNnaEOOv rXL2v7cl 213D9p8L Qi2LjzPK
+ uiXC99uV xn616P8A Gz9max+K mrf23ZXv 9k6w0axy sY90U+3h WbHO4DjP oF9K4Xwr +xKkF9HL 4g14XNsj qxt7GIr5 ijqpY9M8 cgev1HrU 3hPZpyWv zPkK8c3W Iapy92+m
+ 1rfmfTuj arb67pFj qVoxe1vI EuImI6o6 hlP5EVfN VrS0hsLW G2t41ihh RY40UYCq BgAfQVYN eU99D62N 7K+54j8a /wBpex+F Orpo1ppp 1fVdgkmV pfKjgUjK 5O07iRzg
+ Y479q4PT f25YNmL/ AMKSq+es F4GGPoUF O/ah+AOt +JvEP/CV eHLZ9SaW JUvLOP8A 1gKgKrpz 82RgEAZG 3POTj5uu fhx4sspG juPDOrxO pwQ9jKP/ AGWvboUM NUppvfrq
+ fD4/G5jQ xMlC6j00 TVvWx9SD 9uDw/j/k XdRz6eZH /jWbqH7c 1ojKLLwl NNnOTPei PHpwEbNf ONl8L/GG oyBLbwvr EpPpYyY/ Pbius0T9 mX4ia2uV 0F7JeOb2 VYuD3wTn
+ j+tavD4W OsvzOOOY 5pV0in8l /wAA67xD +2h4w1NT Hpdjp+kI c/OEM0g/ Fjt/8drx vxT458Qe NrlbjXNW utRkX7om kyqf7q9B +Ar33wz+ xHq9w6Pr uv2llH1M VjG0zfTL
+ bQP1r2Dw d+yr4C8K SJPLYS65 cJyH1RxI mf8ArmAE I+oNT9Yw tH4Fr5f5 m31DM8b/ ABpWXm/0 Rn/sjWuv 2/wuVtYe b7HJOW02 KcHcsGBy M87S2SPz HBrxz9s/ w3e2Xj3T
+ 9amlD2V9 aiGJS43I 0Z+ZQvXH zqc9Msa+ o/id8StL +FXhefV9 RPmEfJb2 iMA9xJ2V c/mT2GTz 0r8+viD4 /wBV+JXi WfW9XlDz uAkcScJD GCSqIOwG T9SSTyax wkZ1azrW
+ sjqzapSw 2Ejg7uUl b/h3/kc1 RRRXuHxA UUUUAFFF FABRRRQA UUUUAFFF et/CT9m/ xD8VbFNT WaLSdFZy i3U6lmlw cN5aDG4A 5GSQMgjP BrOc401z TdkdFChV xE+SlG7P
+ JK7v4ffB PxZ8SpFO k6a0dmTg 313mOAdP 4sHPBBwA TX154E/Z Y8FeDQHu 7U+Ibs4J l1JVeMED +GPGMc9G 3fXpXsUc SQoqIoRF GAoGAK8q rmCWlJfe fV4Xh+T9 7ESt5L/M
+ 8C+Gn7In h7wq8N74 hceINQXn yXXFqh/3 Or/8C49q 97ggjtol jiRY4kAV VUYAA6AC pvwozjrX kVKs6rvN 3Pr8PhaO Gjy0o2Fo oorI6woo ooAKKKKA CiiigAoo ooAKKKKA
+ CiiigAoo ooAKKKKA CiiigAoo ooAKKKKA CiiigAoo ooAKKKKA CiiigAoo ooAKKKKA CiiigAoo ooAaaaTn uKczYHUV wHjn43eD /h9Fc/2p q8El9AOd OtXEtyWx kLsB+UkE
+ fewOetVG MpO0Vcxq VYUVzTkk vM7/AD+F IVB7fpXz hoX7bfhu 9Krq2i6h prHq0DJc IPqflP5C vYvBHxT8 L/ESJjoG sQ30qLve 35SZBnGS jANjPGcY 961nRq09 ZROWjjsN
+ iXanNN9u v3HX7R6C lpKWsD0B B60nrRnH U14b8dP2 kdN+HME+ laNJFqPi Vht2Kd0V p/tSHoW9 E6+uBjN0 6cqsuWKO XEYilhYO pUdkcP8A tj2fhYNb 3d9q+oT+ JvJEVlpU
+ EyGCJN2W lkUqSoPr nLEAAYUl fk2rusax e6/qdxqG oXEl3e3L mSWeVssx NUq+qoUn RgoN3Pyz HYlYqvKo o2v/AFr5 hRRRXQee FFFFABRR RQAUoBPS vVvhb+zh 4p+JghvP
+ KGj6NJyL 66U/OvrG nBf68D3r 7B+GnwN8 L/DLT/Is rJb28cfv r+8RXlkP oOMKvsPb OTzXBWxl OjotWe7g snr4v3n7 se7/AER+ e+n+H9U1 YqLHTbu8 LdBbwM+f yFd/4X/Z
+ t+IHilQ8 ehy6dEWA 36l/o+Ov O1vmxx6d +M1+hMcK RKFRFVR0 CjAqT8P1 rz5ZjN/C rH0NPh2l F3qTb9Fb /M+Yfh5+ xfp+nSx3 Xi/UP7Vc DJ0+zLRw 55+9JwzD oeNvI719
+ LWlrDY20 VvbxrDBE oRI0GAqg YAA9Ksd6 THB5NefU qzrO82fQ 4bB0cJHl pRt+b+Y+ iiisTuCi iigAoooo AKKKKACi iigAoooo AKKKKACi iigAoooo AKKKKACi iigAoooo
+ AKKKKACi iigAoooo AKKKKACi iigAoooo AKKKKACi iigAoooo AKa33TTq KAPzs+K/ jfx9D4r1 bSNe17VQ YZmiNv5z RROgY7WC LhSCO+Oa 82d2kdnd izMclick mv088ReB
+ PD3i4o2s 6JYao6Da kl1bq7qP QMRkfhXM N+z18O3b cfCtln0G 4D8s17VP HU4xScbe h8RicixF Wo5Kpded 7n50V7p+ yn8ONb1v 4hWHiOOC W00bTCzy XjrhZWKs ojT+8eTn
+ HAHXBIB+ s9L+DPgf SJA9r4V0 pJF6O9qr kfQsDXXw W8dtEscK LFGowEQY AHsKitj1 ODjCO5rg 8hdGrGrV nezvZf5k 2AcVznjX x5ofw+0h tR1y/jso BkIp5eVv 7qKOWP0/
+ GuhZiFJB r86vjx4h 1PxH8QdT uNQ1e21I RzyRW8Vp N5kdvCGO xQR8vI5O CTnOea48 NQ9vOzei PZzLH/Ua SlFXb2Ox +NH7Ueqe Pf8AiXeH WudD0TGJ CW2XNwec 7mUnauMf
+ KDzzknIA 8KJz1pKK +lp04Uo8 sEfmuIxN XFT56juw opdp9KdH E80ipGjO 7EKqqMkn 0ArW5zcr 7DKK9O8G fs5eO/Gc 0RTRptMt GIJutRHk gD1Ct8zf gK908G/s UaTZGKfx
+ NrE2pSDl rWzXyovo WOWP4ba5 KmLpU92e rh8rxWJ1 jCy7vQ+P sGpLe2mu 5khgieaV zhUjUsxP sBX6XaR8 MfCmh6Yd Ps/D+nxW hXY0bW6v vGdwDFgS 3PPJPNaW k+EdD0E/
+ 8SzR7DTj jb/otskX Hp8oFcLz JdInuR4c npzTX3Hw p4I/Zh8d +MZYHk07 +xLBxuN1 qJ8sge0f 3ycdMgD3 FfT/AMNv 2YfCPgEw Xc8J13Vo 1wbm7H7s HuVi5A/H cR617EBg
+ UuMiuCrj KtXS9l5H v4TKMNhX zW5pd3/k CqFGAMU6 iiuI9zYK KKKAEpaK KACiiigA ooooAKKK KACiiigA ooooAKKK KACiiigA ooooAKKK KACiiigA ooooAKKK KACiiigA
+ ooooAKKK KACiiigA ooooAKKK KACiiigA ooooAKKK KACiiigA pKWigApD S0UAfN37 ZPirxLof h3SbPS2m tdHvmkW+ uYMgsRt2 Rlh90H5j 1+bGOgOf lHwl4F1/ x3qH2LQd
+ Ln1G4xk+ WAFUerMS FHUdTX31 8fv+SV67 /uR/+jo6 zP2cf+Sd W3/XV/6V 7NCt7LD8 0Vrc+Mx2 BWKx6hOT s1f09Dzv 4bfsaaZp 0UN54vu2 1G8BDfYr VtsC+zNj c/4YH1r2
+ XS/gz4G0 iJFtfCmk jyyGV5bR JXBHQ7nB P612Y6mn HoK82pXq VHeTPocP gcNQjywg v1+8x38H 6HIm1tH0 8r6G1Qj+ VP0zwto2 hu0lhpNj ZSN95ra3 SMn6kAVq jrQetZc0
+ u53eygne woA7CjFL RUmgUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU AFFFFABR RRQAUUUU Af/Z</ImageDataBase64String>
+                                 </Image>
+                                 <PageImages />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="17">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="1">
+                                 <Text>温州医科大学附属眼视光医院</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+                              <Element xsi:type="XString" StyleIndex="2">
+                                 <Text>The Eye Hospital of Wenzhou Medical University</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+                              <Element xsi:type="XString" StyleIndex="3">
+                                 <Text>眼部B超检查报告单</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="18" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>338</SpecifyHeight>
+                  </Element>
+               </XElements>
+               <CellBorderVisibility>Hidden</CellBorderVisibility>
+               <CellBackgroundVisibility>Hidden</CellBackgroundVisibility>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>412.9167</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>1614.83325</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="6">
+               <Text>检查号：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="16">
+               <Attributes />
+               <ID>Bcno</ID>
+               <ValueBinding>
+                  <DataSource>BUltrasound</DataSource>
+                  <BindingPath>Bcno</BindingPath>
+               </ValueBinding>
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <BorderElementColor />
+               <EventExpressions />
+               <Name>ulNo</Name>
+               <InnerValue />
+               <BackgroundText>检查号</BackgroundText>
+               <FieldSettings />
+            </Element>
+            <Element xsi:type="XString" StyleIndex="20" WhiteSpaceLength="2">
+               <Text>  </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="19" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="3" NumOfColumns="2">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ID>bgsj</ID>
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>报告时间：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>bgsji</ID>
+                                 <ValueBinding />
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ID>bgys</ID>
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>报告医师：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="10">
+                           <Attributes />
+                           <ID>dysj</ID>
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>打印时间：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>dysji</ID>
+                                 <ValueBinding />
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="10">
+                           <Attributes />
+                           <ID>shys</ID>
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>审核医师：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="21">
+                                 <Attributes />
+                                 <ID>shysi</ID>
+                                 <ValueBinding />
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+                           </XElements>
+                           <Title />
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="12">
+                                 <Text>版本号1.1.0</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+                              <Element xsi:type="XString" StyleIndex="12">
+                                 <Text>注：本报告单仅供临床医师参考，医师签字有效。                                             </Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="14">
+                                 <Text>设计:郑美琴</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>981.4014</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>986.5985</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="15" WhiteSpaceLength="43">
+               <Text>                                           </Text>
+            </Element>
+            <Element xsi:type="XPageInfo" StyleIndex="15">
+               <Attributes />
+               <ScriptItems />
+               <Width>100</Width>
+               <AutoHeight>true</AutoHeight>
+               <Height>54.89257</Height>
+               <FormatString>[%PageIndex%]/[%NumOfPages%]</FormatString>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="5" NumOfColumns="4">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>姓名：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Name</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Name</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Name</Name>
+                                 <InnerValue />
+                                 <BackgroundText>姓名</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>性别：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Sex</ID>
+                                 <ValueBinding>
+                                    <DataSource>InformationDto</DataSource>
+                                    <BindingPath>Sex</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Sex</Name>
+                                 <InnerValue />
+                                 <BackgroundText>性别</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>年龄：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Age</ID>
+                                 <ValueBinding>
+                                    <DataSource>InformationDto</DataSource>
+                                    <BindingPath>Age</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Age</Name>
+                                 <InnerValue />
+                                 <BackgroundText>年龄</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>类别：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>field8</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Type</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <InnerValue />
+                                 <BackgroundText>类别</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>门诊</Text>
+                                             <Value>mz</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>课题</Text>
+                                             <Value>kt</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>住院</Text>
+                                             <Value>zy</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>63</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>职业：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Vocation</ID>
+                                 <ValueBinding>
+                                    <DataSource>InformationDto</DataSource>
+                                    <BindingPath>Vocation</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Vocation</Name>
+                                 <InnerValue />
+                                 <BackgroundText>职业</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>住址：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Address</ID>
+                                 <ValueBinding>
+                                    <DataSource>InformationDto</DataSource>
+                                    <BindingPath>Address</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Address</Name>
+                                 <InnerValue />
+                                 <BackgroundText>住址</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                           </XElements>
+                           <ColSpan>3</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>门诊号/住院号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>clinicInHospNo</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>clinicInHospNo</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>clinicInHospNo</Name>
+                                 <InnerValue />
+                                 <BackgroundText>门诊号/住院号</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>病区：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Ward</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Ward</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Ward</Name>
+                                 <InnerValue />
+                                 <BackgroundText>病区</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>床号：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Bed</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Bed</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Bed</Name>
+                                 <InnerValue />
+                                 <BackgroundText>床号</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>检查部位：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>CheckPart</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>CheckPart</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>CheckPart</Name>
+                                 <InnerValue />
+                                 <BackgroundText>部位</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>检查设备：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>DeviceName</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>DeviceName</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>DeviceName</Name>
+                                 <InnerValue />
+                                 <BackgroundText>检查设备</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>开单医师：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>ApplyDoctor</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>ApplyDoctor</BindingPath>
+                                 </ValueBinding>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>ApplyDoctor</Name>
+                                 <InnerValue />
+                                 <BackgroundText>开单医师</BackgroundText>
+                                 <FieldSettings />
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>检查时间：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Ontime</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Ontime</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <UserEditable>false</UserEditable>
+                                 <Name>Ontime</Name>
+                                 <DisplayFormat>
+                                    <Style>DateTime</Style>
+                                    <Format>yyyy-MM-dd HH:mm</Format>
+                                 </DisplayFormat>
+                                 <InnerValue />
+                                 <BackgroundText>检查时间</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DateTime</EditStyle>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>临床诊断：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Lczd</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Lczd</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>Lczd</Name>
+                                 <InnerValue />
+                                 <BackgroundText>临床诊断</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>1212</Text>
+                                             <Value>2</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                           </XElements>
+                           <ColSpan>4</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>411</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>492</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>470</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>629</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XTextTable" NumOfRows="5" NumOfColumns="2">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>超声所见：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Cssj</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Cssj</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>Cssj</Name>
+                                 <InnerValue />
+                                 <BackgroundText>超声所见</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <TextInList>球内异物</TextInList>
+                                             <Text>右眼玻璃体腔内可探及少量点状弱回声及弯曲带状回声，动度（+），后运动（+），玻璃体腔内探及一强回声光斑伴后方声影，球壁形态基本平整，球后脂肪垫及眼外肌未见明显异常。</Text>
+                                             <Value>球内异物</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>正常声像</TextInList>
+                                             <Text>双眼玻璃体腔内偶探及散在点状弱回声/未见明显异常回声，球壁形态平整，球后脂肪垫及眼外肌未见明显异常。</Text>
+                                             <Value>正常声像</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>球内占位</TextInList>
+                                             <Text>右眼玻璃体腔内可探及少量点状弱回声及弯曲带状回声，后极部球壁前可探及一实性占位病变（大小约  mm），内回声不均/均匀，可见“挖空征”及脉络膜凹陷，对侧可探及带状强回声隆起，球后脂肪垫及眼外肌未见明显异常</Text>
+                                             <Value>球内占位</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>高度近视</TextInList>
+                                             <Text>双眼眼轴较长，玻璃体腔内可探及少量点状弱回声及弯曲带状回声，动度（+），后运动（+），后极部球壁形态局部后凸，球后脂肪垫及眼外肌未见明显异常。</Text>
+                                             <Value>高度近视</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>玻璃体混浊后脱离</TextInList>
+                                             <Text>双眼玻璃体腔内可探及少量点状弱回声及弯曲纤细带状回声，运动(+)，后运动(+)，球壁形态基本平整，球后脂肪垫及眼外肌未见明显异常。</Text>
+                                             <Value>玻璃体混浊后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>硅油眼</TextInList>
+                                             <Text>右眼玻璃体腔内硅油填充，眼球假性扩张，球壁形态及球后结构观察欠清。</Text>
+                                             <Value>硅油眼</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-153.5433</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>超声诊断：</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Cszd_6175</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Cszd</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>Cszd</Name>
+                                 <InnerValue />
+                                 <BackgroundText>超声诊断</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <TextInList>双眼玻璃体轻度混浊</TextInList>
+                                             <Text>双眼玻璃体轻度混浊</Text>
+                                             <Value>双眼玻璃体轻度混浊</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>双眼玻璃体轻度混浊、后脱离</TextInList>
+                                             <Text>双眼玻璃体轻度混浊、后脱离</Text>
+                                             <Value>双眼玻璃体轻度混浊、后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</TextInList>
+                                             <Text>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Text>
+                                             <Value>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>右眼视网膜脱离</TextInList>
+                                             <Text>右眼视网膜脱离</Text>
+                                             <Value>右眼视网膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>右眼脉络膜脱离</TextInList>
+                                             <Text>右眼脉络膜脱离</Text>
+                                             <Value>右眼脉络膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>右眼硅油眼</TextInList>
+                                             <Text>右眼硅油眼</Text>
+                                             <Value>右眼硅油眼</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>右眼球内异物</TextInList>
+                                             <Text>右眼球内异物</Text>
+                                             <Value>右眼球内异物</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <TextInList>右眼未见明显异常声像</TextInList>
+                                             <Text>右眼未见明显异常声像</Text>
+                                             <Value>右眼未见明显异常声像</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                              <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="10">
+                                 <Text>          </Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Cszd_6175</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Cszd2</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>Cszd</Name>
+                                 <InnerValue />
+                                 <BackgroundText>超声诊断2</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊</Text>
+                                             <Value>双眼玻璃体轻度混浊</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊、后脱离</Text>
+                                             <Value>双眼玻璃体轻度混浊、后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Text>
+                                             <Value>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼视网膜脱离</Text>
+                                             <Value>右眼视网膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼脉络膜脱离</Text>
+                                             <Value>右眼脉络膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼硅油眼</Text>
+                                             <Value>右眼硅油眼</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼球内异物</Text>
+                                             <Value>右眼球内异物</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼未见明显异常声像</Text>
+                                             <Value>右眼未见明显异常声像</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                              <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="10">
+                                 <Text>          </Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Cszd_6175_14503</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Cszd3</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>Cszd</Name>
+                                 <InnerValue />
+                                 <BackgroundText>超声诊断3</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊</Text>
+                                             <Value>双眼玻璃体轻度混浊</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊、后脱离</Text>
+                                             <Value>双眼玻璃体轻度混浊、后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Text>
+                                             <Value>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼视网膜脱离</Text>
+                                             <Value>右眼视网膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼脉络膜脱离</Text>
+                                             <Value>右眼脉络膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼硅油眼</Text>
+                                             <Value>右眼硅油眼</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼球内异物</Text>
+                                             <Value>右眼球内异物</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼未见明显异常声像</Text>
+                                             <Value>右眼未见明显异常声像</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="10">
+                                 <Text>          </Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Cszd_6256</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Cszd4</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>Cszd</Name>
+                                 <InnerValue />
+                                 <BackgroundText>超声诊断4</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊</Text>
+                                             <Value>双眼玻璃体轻度混浊</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊、后脱离</Text>
+                                             <Value>双眼玻璃体轻度混浊、后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Text>
+                                             <Value>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼视网膜脱离</Text>
+                                             <Value>右眼视网膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼脉络膜脱离</Text>
+                                             <Value>右眼脉络膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼硅油眼</Text>
+                                             <Value>右眼硅油眼</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼球内异物</Text>
+                                             <Value>右眼球内异物</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼未见明显异常声像</Text>
+                                             <Value>右眼未见明显异常声像</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="13" />
+                              <Element xsi:type="XString" StyleIndex="5" WhiteSpaceLength="10">
+                                 <Text>          </Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="4">
+                                 <Attributes />
+                                 <ID>Cszd_6256_14592</ID>
+                                 <ValueBinding>
+                                    <DataSource>BUltrasound</DataSource>
+                                    <BindingPath>Cszd5</BindingPath>
+                                 </ValueBinding>
+                                 <ValueExpression />
+                                 <ContentReadonly>False</ContentReadonly>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <Deleteable>false</Deleteable>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>Cszd</Name>
+                                 <InnerValue />
+                                 <BackgroundText>超声诊断5</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊</Text>
+                                             <Value>双眼玻璃体轻度混浊</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体轻度混浊、后脱离</Text>
+                                             <Value>双眼玻璃体轻度混浊、后脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Text>
+                                             <Value>双眼玻璃体混浊、后脱离、后巩膜葡萄肿</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼视网膜脱离</Text>
+                                             <Value>右眼视网膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼脉络膜脱离</Text>
+                                             <Value>右眼脉络膜脱离</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼硅油眼</Text>
+                                             <Value>右眼硅油眼</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼球内异物</Text>
+                                             <Value>右眼球内异物</Value>
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>右眼未见明显异常声像</Text>
+                                             <Value>右眼未见明显异常声像</Value>
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>右眼</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>True</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>左眼</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-531.496033</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow" StyleIndex="7">
+                     <Attributes />
+                     <ID />
+                     <Expressions />
+                     <ScriptItems />
+                     <EventTemplateName />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="11">
+                           <Attributes />
+                           <ContentReadonly>False</ContentReadonly>
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>-797.496033</SpecifyHeight>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>1006.74719</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>997.253</Width>
+                  </Element>
+               </Columns>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="5">
+               <Text> 建议：</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <Info>
+      <ID>615a5cfe-97a6-475c-90b1-7f612f0d7fa2</ID>
+      <Title>眼视光B超2014.4.26</Title>
+      <LicenseText>本软件未注册。</LicenseText>
+      <CreationTime>2014-04-26T17:49:00</CreationTime>
+      <LastModifiedTime>2014-08-31T10:05:16.7541248+08:00</LastModifiedTime>
+      <LastPrintTime>2014-04-25T20:56:00</LastPrintTime>
+      <Author>林施施</Author>
+      <Operator>DCSoft.Writer Version:1.0.0.0</Operator>
+      <NumOfPage>2</NumOfPage>
+   </Info>
+   <BodyText>姓名： 性别： 年龄： 类别： 
+职业： 住址： 
+门诊号/住院号： 病区： 床号： 
+检查部位： 检查设备： 开单医师： 检查时间： 
+临床诊断： 超声所见： 
+超声诊断：
+          
+          
+          
+           
+右眼 左眼 
+    
+     建议：</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>74</LeftMargin>
+      <TopMargin>99</TopMargin>
+      <RightMargin>74</RightMargin>
+      <BottomMargin>99</BottomMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>14</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>24</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="2">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>14</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="3">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>20</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="4">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+         </Style>
+         <Style Index="5">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="6">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="7">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="8">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="9">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="10">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <VerticalAlign>Bottom</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <PaddingLeft>22</PaddingLeft>
+            <PaddingRight>22</PaddingRight>
+         </Style>
+         <Style Index="11">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>1</BorderWidth>
+            <PaddingLeft>22</PaddingLeft>
+            <PaddingRight>22</PaddingRight>
+         </Style>
+         <Style Index="12">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+         </Style>
+         <Style Index="13">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Justify</Align>
+         </Style>
+         <Style Index="14">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>9</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="15">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>10</BorderWidth>
+         </Style>
+         <Style Index="16">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10</FontSize>
+         </Style>
+         <Style Index="17">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderLeftColor>White</BorderLeftColor>
+            <BorderTopColor>White</BorderTopColor>
+            <BorderRightColor>White</BorderRightColor>
+            <BorderBottomColor>White</BorderBottomColor>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+            <GridLineStyle>Dot</GridLineStyle>
+         </Style>
+         <Style Index="18">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <BorderSpacing>4</BorderSpacing>
+         </Style>
+         <Style Index="19">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Right</Align>
+            <BorderWidth>1</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+            <BorderSpacing>4</BorderSpacing>
+         </Style>
+         <Style Index="20">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Right</Align>
+            <BorderWidth>1</BorderWidth>
+            <BorderSpacing>4</BorderSpacing>
+         </Style>
+         <Style Index="21">
+            <Color>ControlText</Color>
+            <FontName>宋体</FontName>
+            <FontSize>10.5</FontSize>
+            <Bold>true</Bold>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

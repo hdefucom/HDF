@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1111.21296">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextBody">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>中医</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>处方：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" />
+        <Element xsi:type="XTextTable" NumOfRows="1" NumOfColumns="6">
+          <Expressions />
+          <Attributes />
+          <XElements>
+            <Element xsi:type="XTextTableRow">
+              <ID />
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="3">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID>DOCEX</ID>
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <UserEditable>false</UserEditable>
+                      <Name>DOCEX</Name>
+                      <BackgroundText>DOCEX</BackgroundText>
+                      <EditorActiveMode>Program F2 GotFocus MouseDblClick</EditorActiveMode>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <SourceName>kbDOCEX</SourceName>
+                          <Items />
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="3">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <ValidateStyle>
+                        <ValueName />
+                        <ValueType>Numeric</ValueType>
+                        <MaxValue>NaN</MaxValue>
+                        <MinValue>NaN</MinValue>
+                        <ExcludeKeywords />
+                        <CustomMessage />
+                      </ValidateStyle>
+                      <InnerValue />
+                      <BackgroundText>数量</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XInputField" StyleIndex="1">
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <Deleteable>false</Deleteable>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <InnerValue>克</InnerValue>
+                      <BackgroundText>单位</BackgroundText>
+                      <EditorActiveMode>Program F2 GotFocus MouseDblClick</EditorActiveMode>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <Name />
+                          <SourceName />
+                          <DisplayPath />
+                          <ValuePath />
+                          <Items>
+                            <Item>
+                              <Text>克</Text>
+                              <Value>克</Value>
+                            </Item>
+                            <Item>
+                              <Text>钱</Text>
+                              <Value>钱</Value>
+                            </Item>
+                            <Item>
+                              <Text>斤</Text>
+                              <Value>斤</Value>
+                            </Item>
+                            <Item>
+                              <Text>瓶</Text>
+                              <Value>瓶</Value>
+                            </Item>
+                          </Items>
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="3">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID>DOCEX</ID>
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <UserEditable>false</UserEditable>
+                      <Name>DOCEX</Name>
+                      <BackgroundText>DOCEX</BackgroundText>
+                      <EditorActiveMode>Program F2 GotFocus MouseDblClick</EditorActiveMode>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <SourceName>kbDOCEX</SourceName>
+                          <Items />
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="3">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <ValidateStyle>
+                        <ValueName />
+                        <ValueType>Numeric</ValueType>
+                        <MaxValue>NaN</MaxValue>
+                        <MinValue>NaN</MinValue>
+                        <ExcludeKeywords />
+                        <CustomMessage />
+                      </ValidateStyle>
+                      <InnerValue />
+                      <BackgroundText>数量</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XInputField">
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <Deleteable>false</Deleteable>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <InnerValue>克</InnerValue>
+                      <BackgroundText>单位</BackgroundText>
+                      <EditorActiveMode>Program F2 GotFocus MouseDblClick</EditorActiveMode>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <Name />
+                          <SourceName />
+                          <DisplayPath />
+                          <ValuePath />
+                          <Items>
+                            <Item>
+                              <Text>克</Text>
+                              <Value>克</Value>
+                            </Item>
+                            <Item>
+                              <Text>钱</Text>
+                              <Value>钱</Value>
+                            </Item>
+                            <Item>
+                              <Text>斤</Text>
+                              <Value>斤</Value>
+                            </Item>
+                            <Item>
+                              <Text>瓶</Text>
+                              <Value>瓶</Value>
+                            </Item>
+                          </Items>
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="3">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <ID>DOCEX</ID>
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <UserEditable>false</UserEditable>
+                      <Name>DOCEX</Name>
+                      <BackgroundText>DOCEX</BackgroundText>
+                      <EditorActiveMode>Program F2 GotFocus MouseDblClick</EditorActiveMode>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <SourceName>kbDOCEX</SourceName>
+                          <Items />
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="3">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField">
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <ValidateStyle>
+                        <ValueName />
+                        <ValueType>Numeric</ValueType>
+                        <MaxValue>NaN</MaxValue>
+                        <MinValue>NaN</MinValue>
+                        <ExcludeKeywords />
+                        <CustomMessage />
+                      </ValidateStyle>
+                      <InnerValue />
+                      <BackgroundText>数量</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XInputField">
+                      <Expressions />
+                      <Attributes />
+                      <XElements />
+                      <TextValue />
+                      <Deleteable>false</Deleteable>
+                      <EventExpressions />
+                      <RuntimeEventExpressions />
+                      <InnerValue>克</InnerValue>
+                      <BackgroundText>单位</BackgroundText>
+                      <EditorActiveMode>Program F2 GotFocus MouseDblClick</EditorActiveMode>
+                      <FieldSettings>
+                        <EditStyle>DropdownList</EditStyle>
+                        <ListSource>
+                          <Name />
+                          <SourceName />
+                          <DisplayPath />
+                          <ValuePath />
+                          <Items>
+                            <Item>
+                              <Text>克</Text>
+                              <Value>克</Value>
+                            </Item>
+                            <Item>
+                              <Text>钱</Text>
+                              <Value>钱</Value>
+                            </Item>
+                            <Item>
+                              <Text>斤</Text>
+                              <Value>斤</Value>
+                            </Item>
+                            <Item>
+                              <Text>瓶</Text>
+                              <Value>瓶</Value>
+                            </Item>
+                          </Items>
+                        </ListSource>
+                      </FieldSettings>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" />
+                  </XElements>
+                </Element>
+              </XElements>
+              <CloneType>ContentWithClearField</CloneType>
+            </Element>
+          </XElements>
+          <Columns>
+            <Element xsi:type="XTextTableColumn">
+              <Width>314.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>310.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>322.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>302.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>313.458344</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>311.458344</Width>
+            </Element>
+          </Columns>
+        </Element>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+      <Sections />
+    </Element>
+    <Element xsi:type="XTextHeader">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2013-04-09T10:04:30.3820157+08:00</CreationTime>
+    <LastModifiedTime>2013-04-09T10:04:30.3820157+08:00</LastModifiedTime>
+    <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1111.18130</Operator>
+    <NumOfPage>1</NumOfPage>
+  </Info>
+  <BodyText>中医处方：
+
+DOCEX
+数量单位
+DOCEX
+数量单位
+DOCEX
+数量单位
+
+</BodyText>
+  <UserHistories />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+      <FontSize>12</FontSize>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Align>Center</Align>
+      </Style>
+      <Style Index="1" />
+      <Style Index="2" />
+      <Style Index="3">
+        <VerticalAlign>Middle</VerticalAlign>
+        <BorderWidth>1</BorderWidth>
+        <PaddingLeft>15</PaddingLeft>
+        <PaddingBottom>15</PaddingBottom>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <PageSettings>
+    <ViewLeftMargin>300</ViewLeftMargin>
+    <ViewTopMargin>300</ViewTopMargin>
+    <ViewRightMargin>300</ViewRightMargin>
+    <ViewBottomMargin>300</ViewBottomMargin>
+    <ViewPaperWidth>2481</ViewPaperWidth>
+    <ViewPaperHeight>3507</ViewPaperHeight>
+  </PageSettings>
+</XTextDocument>

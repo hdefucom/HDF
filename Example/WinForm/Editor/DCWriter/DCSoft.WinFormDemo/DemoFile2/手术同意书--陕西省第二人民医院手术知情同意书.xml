@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextTable" NumOfRows="6" NumOfColumns="6">
+               <Attributes />
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>姓名</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="8">
+                                 <Text>:</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="7">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value>51135349-b2ce-43f3-ae2b-4d1cfd717f39</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>714baecb-0165-468c-84f2-4591a08a19f8</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>姓名</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="7">
+                                       <Text>程</Text>
+                                    </Element>
+                                    <Element xsi:type="XString" StyleIndex="6">
+                                       <Text>XX</Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>8332ef37-c094-48d6-b2f8-0c7f37dcccfb</Name>
+                                 <InnerValue>程XX</InnerValue>
+                                 <ToolTip>姓名</ToolTip>
+                                 <BackgroundText>XXXX</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>性别</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="8">
+                                 <Text>:</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="7">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value>8fd74a07-1cde-4848-95c1-0c40435cb837</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>afc88c0f-4dd8-4d5e-b655-65fe7bd62790</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>性别</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="7">
+                                       <Text>女</Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>eb5e9154-463d-44c4-8f70-6efcb8a89757</Name>
+                                 <InnerValue>女</InnerValue>
+                                 <ToolTip>性别</ToolTip>
+                                 <BackgroundText>XX</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>年龄</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="8">
+                                 <Text>:</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="7">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value>aee56d18-e63b-4c58-89e1-0b09ae8863a5</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>6934280d-32c5-4f4d-a390-224ac4093675</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>年龄</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="7">
+                                       <Text>86岁</Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>d98845c9-a560-4d4b-abf8-0486d9bf7930</Name>
+                                 <InnerValue>86岁</InnerValue>
+                                 <ToolTip>年龄</ToolTip>
+                                 <BackgroundText>XXX</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>科室</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="8">
+                                 <Text>:</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="7">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value>6a2d7088-4c39-49cd-8301-17d1785eb2f0</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>a0f818d3-6bb2-4c49-9abf-17ed78a37098</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>科室</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="7">
+                                       <Text>肾病内科</Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>3cac272e-ec33-494a-badc-5eb58a8d9951</Name>
+                                 <InnerValue>肾病内科</InnerValue>
+                                 <ToolTip>科室</ToolTip>
+                                 <BackgroundText>XXXXXXXXX</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>床号</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="8">
+                                 <Text>:</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="7">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value>52a6e455-053b-4a32-9e87-3856e784d38b</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>914a79ed-e8d0-4b7c-85d0-376ddc1c5e0a</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>床号</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="7">
+                                       <Text>5</Text>
+                                    </Element>
+                                 </XElements>
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>d72ca38e-1173-433a-87a1-613d9671d4f4</Name>
+                                 <InnerValue>5</InnerValue>
+                                 <ToolTip>床号</ToolTip>
+                                 <BackgroundText>XXX</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>病案号</Text>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="8">
+                                 <Text>:</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="7">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value>140777f2-795b-4b8b-99c6-1b762c772f09</Value>
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>5f1e7207-5717-43ec-b21e-26139e152842</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>病案号</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>04c6a81a-e828-4ba6-9f94-ee5465ba2118</Name>
+                                 <InnerValue />
+                                 <ToolTip>病案号</ToolTip>
+                                 <BackgroundText>XXXXXXXXXX</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                     <SpecifyHeight>96</SpecifyHeight>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="7">
+                                 <Text>入院后病情诊断</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="7" />
+                           </XElements>
+                           <ColSpan>5</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>疾病介绍和治疗建议：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>    医师已告知我患有     ，拟定于   年   月   日    麻醉下进行       手术。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>术中术后潜在风险及对策：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>    医生告知我如下</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="6">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value />
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>06066289-6cbf-42b0-9635-f5442d75d470</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>b2db0ca7-1680-4e1d-a57d-82c4a97f0b87</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>b2db0ca7-1680-4e1d-a57d-82c4a97f0b87</Name>
+                                 <InnerValue />
+                                 <ToolTip>手术名称</ToolTip>
+                                 <BackgroundText>手术名称</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>切除手术可能发生的一些风险，有些不常见的风险可能没有在此列出，具体的手术方式根据不同病人的情况有所不同。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>    1、</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>    2、</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>    3、</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>    我理解根据我个人的病情，我可能出现未包括在上述所交待并发症以外的风险：</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6" WhiteSpaceLength="5">
+                                 <Text>     </Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="6">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value />
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>e00a38bf-169f-46ec-834b-65fc80e25604</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>a00ea223-9e2d-4ea8-963c-4ab0cc956ca7</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>a00ea223-9e2d-4ea8-963c-4ab0cc956ca7</Name>
+                                 <InnerValue />
+                                 <BackgroundText>并发症以外的风险</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>一旦发生上述情况和意外，医生会采取积极应对措施。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>医生陈述</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>    我已经告知患者将要进行的手术方式、此次手术及术后可能发生的并发症和风险、可能存在的其它治疗方法并且解答了患者关于此次手术的相关问题。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>手术医生签名:</Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="6">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value />
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>e9d8e8ce-bb43-4741-9f34-8d87ce7fd348</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>6943839f-0aea-41a2-9219-6fbec6f8ebd4</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>6943839f-0aea-41a2-9219-6fbec6f8ebd4</Name>
+                                 <InnerValue />
+                                 <ToolTip>姓名</ToolTip>
+                                 <BackgroundText>XXXX</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>                                                                                               签名日期:     年   月   日</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Attributes />
+                     <Expressions />
+                     <ScriptItems />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements>
+                              <Element xsi:type="XString" StyleIndex="5">
+                                 <Text>患者知情选择</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>	我的医生已经告知我将要进行的手术方式、此次手术及术后可能发生的并发症和风险、可能存在的其它治疗方法并且解答了我关于此次手术的相关问题。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>	我同意在手术中医生可以根据我的病情对预定的手术方式做出调整。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>	我理解我的手术需要多位医生共同进行。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>	我并未得到手术百分之百成功的许诺。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>	我受医师对手术切除的病变器官、组织或标本进行处置，包括病理学检查、细胞学检查和医疗废物处理等。</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6" WhiteSpaceLength="7">
+                                 <Text>       </Text>
+                              </Element>
+                              <Element xsi:type="XInputField" StyleIndex="6">
+                                 <Attributes>
+                                    <Attribute>
+                                       <Name>ID</Name>
+                                       <Value />
+                                    </Attribute>
+                                    <Attribute>
+                                       <Name>ClickID</Name>
+                                       <Value>bd6f7457-dc34-439c-a665-7833490ba972</Value>
+                                    </Attribute>
+                                 </Attributes>
+                                 <ID>8b3c300d-0dec-447a-8a00-b5ab6aceaa66</ID>
+                                 <EnableValueValidate>true</EnableValueValidate>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <XElements />
+                                 <BorderElementColor />
+                                 <EventExpressions />
+                                 <Name>8b3c300d-0dec-447a-8a00-b5ab6aceaa66</Name>
+                                 <InnerValue />
+                                 <BackgroundText>（此处病人或受权人手写）上述情况已知，同意手术，谅解风险。</BackgroundText>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>患者签名:                                                                                                      签名日期:      年   月   日</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6" WhiteSpaceLength="2">
+                                 <Text>  </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                              <Element xsi:type="XString" StyleIndex="6">
+                                 <Text>受权人签名:          与患者关系:                                                          签名日期:      年   月   日</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+                           </XElements>
+                           <ColSpan>6</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="4">
+                           <Attributes />
+                           <Expressions />
+                           <ScriptItems />
+                           <XElements />
+                           <Visible>false</Visible>
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>365.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>217.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>278.458282</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>456.458344</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>244.4584</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Attributes />
+                     <Width>469.458221</Width>
+                  </Element>
+               </Columns>
+            </Element>
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>陕西省</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>第二人民医院</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+            <Element xsi:type="XString" StyleIndex="1">
+               <Text>手术</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <Text>知情同意书</Text>
+            </Element>
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements />
+      </Element>
+   </XElements>
+   <ControlOptionsForDebug>
+      <RuleVisible>false</RuleVisible>
+      <UserInfo>
+         <ID>511</ID>
+         <Name>上官海燕</Name>
+         <PermissionLevel>0</PermissionLevel>
+      </UserInfo>
+      <DocumentOptions>
+         <SecurityOptions>
+            <AutoEnablePermissionWhenUserLogin>false</AutoEnablePermissionWhenUserLogin>
+            <TrackVisibleLevel0>
+               <UnderLineColorString>#ADD8E6</UnderLineColorString>
+               <DeleteLineColorString>#FF7F50</DeleteLineColorString>
+            </TrackVisibleLevel0>
+            <TrackVisibleLevel1 />
+            <TrackVisibleLevel2>
+               <BackgroundColorString>#FFFFE0</BackgroundColorString>
+               <UnderLineColorNum>2</UnderLineColorNum>
+               <DeleteLineNum>2</DeleteLineNum>
+            </TrackVisibleLevel2>
+            <TrackVisibleLevel3>
+               <BackgroundColorString>#FFFFE0</BackgroundColorString>
+               <UnderLineColorNum>2</UnderLineColorNum>
+               <DeleteLineNum>2</DeleteLineNum>
+            </TrackVisibleLevel3>
+         </SecurityOptions>
+         <ViewOptions>
+            <AdornTextBackColorValue>#64808080</AdornTextBackColorValue>
+            <FieldBackColorValue>#F0F8FF</FieldBackColorValue>
+            <FieldHoverBackColorValue>#FFFFFF</FieldHoverBackColorValue>
+         </ViewOptions>
+         <BehaviorOptions>
+            <ParagraphFlagFollowTableOrSection>true</ParagraphFlagFollowTableOrSection>
+            <ValidateUserIDWhenEditDeleteComment>true</ValidateUserIDWhenEditDeleteComment>
+            <InsertDocumentWithCheckMRID>PromptForbitWhenFail</InsertDocumentWithCheckMRID>
+         </BehaviorOptions>
+         <EditOptions>
+            <GridLinePreviewText>DCWriter是南京都昌信息科技有限公司自主研发的专业的电子病历文档编辑器。</GridLinePreviewText>
+         </EditOptions>
+      </DocumentOptions>
+      <Font>
+         <Size>12</Size>
+      </Font>
+      <HeaderFooterFlagVisible>None</HeaderFooterFlagVisible>
+      <JumpPrint />
+      <PageTitlePosition>BottomRight</PageTitlePosition>
+      <Readonly>true</Readonly>
+      <RegisterCode></RegisterCode>
+   </ControlOptionsForDebug>
+   <Info>
+      <MRID>2012010210</MRID>
+      <LicenseText>dd:南京都昌信息科技有限公司,网址www.dcwriter.cn。</LicenseText>
+      <CreationTime>2013-05-27T20:20:37.5633119+08:00</CreationTime>
+      <LastModifiedTime>2015-02-04T14:55:54.6191828+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1413.31462</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>姓名:程XX 性别:女 年龄:86岁 科室:肾病内科 床号:5 病案号: 
+入院后病情诊断   
+疾病介绍和治疗建议：
+    医师已告知我患有     ，拟定于   年   月   日    麻醉下进行       手术。 
+术中术后潜在风险及对策：
+    医生告知我如下切除手术可能发生的一些风险，有些不常见的风险可能没有在此列出，具体的手术方式根据不同病人的情况有所不同。
+    1、
+    2、
+    3、
+    我理解根据我个人的病情，我可能出现未包括在上述所交待并发症以外的风险：
+     
+一旦发生上述情况和意外，医生会采取积极应对措施。 
+医生陈述
+    我已经告知患者将要进行的手术方式、此次手术及术后可能发生的并发症和风险、可能存在的其它治疗方法并且解答了患者关于此次手术的相关问题。
+
+手术医生签名:                                                                                               签名日期:     年   月   日 
+患者知情选择
+	我的医生已经告知我将要进行的手术方式、此次手术及术后可能发生的并发症和风险、可能存在的其它治疗方法并且解答了我关于此次手术的相关问题。
+	我同意在手术中医生可以根据我的病情对预定的手术方式做出调整。
+	我理解我的手术需要多位医生共同进行。
+	我并未得到手术百分之百成功的许诺。
+	我受医师对手术切除的病变器官、组织或标本进行处置，包括病理学检查、细胞学检查和医疗废物处理等。
+       
+患者签名:                                                                                                      签名日期:      年   月   日
+  
+受权人签名:          与患者关系:                                                          签名日期:      年   月   日 </BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <LeftMargin>75</LeftMargin>
+      <TopMargin>75</TopMargin>
+      <RightMargin>75</RightMargin>
+      <BottomMargin>75</BottomMargin>
+   </PageSettings>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>13</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>13</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>15</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="2">
+            <FontName>宋体</FontName>
+            <FontSize>15</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="3">
+            <FontName>宋体</FontName>
+            <FontSize>15</FontSize>
+            <Bold>true</Bold>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="4">
+            <FontName>宋体</FontName>
+            <FontSize>13</FontSize>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+         </Style>
+         <Style Index="5">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="6">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="7">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="8">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <UserHistories />
+</XTextDocument>

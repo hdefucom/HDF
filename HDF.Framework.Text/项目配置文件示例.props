@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<!--项目引用Winform框架-->
+		<UseWindowsForms>true</UseWindowsForms>
+		<!--多版本框架项目-->
+		<TargetFrameworks>net40</TargetFrameworks>
+		<!--项目C#语法版本-->
+		<LangVersion>9.0</LangVersion>
+		<!--C#9启用Null编译检查-->
+		<!--<Nullable>enable</Nullable>-->
+		<!--配置项目Xml文档-->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<!--自动生成Nuget包-->
+		<!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
+		<!--调试符号文件嵌入到dll中，以便附加调试nuget包程序（项目生成nuget包默认不含pdb文件，想要调试需要用符号包或者下面方式）-->
+		<!-- https://docs.microsoft.com/zh-cn/dotnet/core/deploying/single-file#include-pdb-files-inside-the-bundle -->
+		<!-- https://docs.microsoft.com/zh-cn/nuget/create-packages/symbol-packages-snupkg -->
+		<DebugType>embedded</DebugType>
+		<!--包信息-->
+		<PackageIcon>Logo.png</PackageIcon>
+		<Authors>Gocent.HDF</Authors>
+		<Company>Gocent</Company>
+		<Description>国讯电子病历编辑器</Description>
+		<!--包版本-->
+		<!--打包自动加上时间后缀-->
+		<Time>$([System.DateTime]::Now.ToString('yyyyMMdd-HHmmss'))</Time>
+		<!--<Version Condition="'$(Configuration)' == 'Debug'">0.1.5-$(Time)</Version>
+<Version Condition="'$(Configuration)' == 'Release'">0.1.5</Version>-->
+
+		<!--
+    <Build>$([System.DateTime]::Now.Date.Subtract($([System.DateTime]::new(2000,1,1))).TotalDays)</Build>
+    <Revision>$([MSBuild]::Divide($([System.DateTime]::Now.TimeOfDay.TotalSeconds), 2).ToString('F0'))</Revision>
+    <Version>1.0.$(Build).$(Revision)</Version>
+    -->
+		<VersionPrefix>0.1.9</VersionPrefix>
+		<!--<VersionSuffix Condition="'$(Configuration)' == 'Debug'">$(Time)</VersionSuffix>-->
+		<!--1591取消缺少注释警告-->
+		<NoWarn>1701;1702;1591</NoWarn>
+	</PropertyGroup>
+
+	<!--打包logo图标文件-->
+	<ItemGroup>
+		<None Include="Resources\Logo.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+
+
+	<!--生成时自动删除上次生成的nuget包-->
+	<!--<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<Exec Condition="$(AppendTargetFrameworkToOutputPath)" Command="del /S /Q $(TargetDir)..\*.nupkg" />
+		<Exec Condition="!$(AppendTargetFrameworkToOutputPath)" Command="del /S /Q $(TargetDir)*.nupkg" />
+	</Target>-->
+
+	<!--生成时自动生成代码版本号-->
+	<!--<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+	<AssemblyVersionAttribute>[assembly:System.Reflection.AssemblyVersion("1.2.$(Build).$(Revision)")]</AssemblyVersionAttribute>
+		<WriteLinesToFile File="Properties\VersionInfo.cs" Lines="$(AssemblyVersionAttribute)" Overwrite="true" />
+	</Target>-->
+
+	<!--Linux构建Framework程序添加此nuget包-->
+	<!--<ItemGroup>
+<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+</PackageReference>
+</ItemGroup>-->
+	
+	<!--自动设置资源文件显示方式-->
+	<!--MSBuildProjectDirectory也可以，但是ProjectDir貌似只能项目文件显示Import才可以使用，Directory.Build.props中无法使用-->
+	<ItemGroup>
+		<Compile Update="$(ProjectDir)\Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<EmbeddedResource Update="$(ProjectDir)\Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	
+	
+	
+	
+	
+	
+
+</Project>

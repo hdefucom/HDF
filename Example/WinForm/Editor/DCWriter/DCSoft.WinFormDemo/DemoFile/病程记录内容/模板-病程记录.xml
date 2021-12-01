@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.12.23">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XString" StyleIndex="0">
+               <XElements xsi:nil="true" />
+               <Text>DCWriter演示程序</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+            <Element xsi:type="XString" StyleIndex="1">
+               <XElements xsi:nil="true" />
+               <Text>日 常 病 程 记 录</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+            <Element xsi:type="XString" StyleIndex="2">
+               <XElements xsi:nil="true" />
+               <Text>姓名:</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <XElements xsi:nil="true" />
+               <Text>李六    </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <XElements xsi:nil="true" />
+               <Text>科室:</Text>
+            </Element>
+            <Element xsi:type="XTextLabelElement">
+               <ID>lblArea</ID>
+               <PropertyExpressions />
+               <Width>535</Width>
+               <Height>53</Height>
+               <Text>[科室]</Text>
+               <PageTexts />
+               <ContactAction>Normal</ContactAction>
+               <AttributeNameForContactAction>科室</AttributeNameForContactAction>
+               <LinkTextForContactAction>&gt;</LinkTextForContactAction>
+               <Alignment>TopLeft</Alignment>
+               <Multiline>false</Multiline>
+               <AutoSize>false</AutoSize>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3" WhiteSpaceLength="2">
+               <XElements xsi:nil="true" />
+               <Text>  </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <XElements xsi:nil="true" />
+               <Text>床号:</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3" WhiteSpaceLength="1">
+               <XElements xsi:nil="true" />
+               <Text> </Text>
+            </Element>
+            <Element xsi:type="XTextLabelElement">
+               <ID>label2</ID>
+               <PropertyExpressions />
+               <Width>454</Width>
+               <Height>53</Height>
+               <Text>[床号]</Text>
+               <PageTexts />
+               <AttributeNameForContactAction>床号</AttributeNameForContactAction>
+               <LinkTextForContactAction>&gt;</LinkTextForContactAction>
+               <Alignment>TopLeft</Alignment>
+               <Multiline>false</Multiline>
+               <AutoSize>false</AutoSize>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3" WhiteSpaceLength="4">
+               <XElements xsi:nil="true" />
+               <Text>    </Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="2">
+               <XElements xsi:nil="true" />
+               <Text>住院号:</Text>
+            </Element>
+            <Element xsi:type="XString" StyleIndex="3">
+               <XElements xsi:nil="true" />
+               <Text>100010</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="6" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <ContentReadonly>False</ContentReadonly>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XString">
+               <XElements xsi:nil="true" />
+               <Text>第</Text>
+            </Element>
+            <Element xsi:type="XPageInfo" StyleIndex="7">
+               <PropertyExpressions />
+               <Width>100</Width>
+               <AutoHeight>true</AutoHeight>
+               <Height>62.7343674</Height>
+               <FormatString />
+               <SpecifyPageIndexTextList />
+            </Element>
+            <Element xsi:type="XString">
+               <XElements xsi:nil="true" />
+               <Text>页</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+            <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeaderForFirstPage">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooterForFirstPage">
+         <Attributes />
+         <AcceptTab>true</AcceptTab>
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>都昌信息内部测试版:都昌信息内部测试版</LicenseText>
+      <CreationTime>2013-01-11T16:19:02.7134633+08:00</CreationTime>
+      <LastModifiedTime>2017-03-20T14:52:16.0844089+08:00</LastModifiedTime>
+      <LastPrintTime>2013-01-11T16:19:02.7134633+08:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.1111.29168</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText />
+   <Comments />
+   <LocalConfig />
+   <PageSettings>
+      <HeaderDistance>39</HeaderDistance>
+      <FooterDistance>39</FooterDistance>
+      <LeftMargin>59</LeftMargin>
+      <TopMargin>167</TopMargin>
+      <RightMargin>59</RightMargin>
+      <BottomMargin>79</BottomMargin>
+   </PageSettings>
+   <UserHistories />
+   <Parameters />
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Color>#000080</Color>
+            <FontName>宋体</FontName>
+            <FontSize>22</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>20</FontSize>
+            <Bold>true</Bold>
+         </Style>
+         <Style Index="2">
+            <FontName>宋体</FontName>
+            <FontSize>11</FontSize>
+         </Style>
+         <Style Index="3">
+            <Color>#000080</Color>
+            <FontName>宋体</FontName>
+            <FontSize>11</FontSize>
+         </Style>
+         <Style Index="4">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <BorderWidth>30</BorderWidth>
+         </Style>
+         <Style Index="5">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="6">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>30</BorderWidth>
+         </Style>
+         <Style Index="7">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="8">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+            <BorderWidth>1</BorderWidth>
+            <BorderBottom>true</BorderBottom>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>F:\SVNProgrammes\DCSoft\DCSoft\08代码\DCSoft\DCSoft.WinFormDemo\DemoFile\病程记录内容\模板-病程记录.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

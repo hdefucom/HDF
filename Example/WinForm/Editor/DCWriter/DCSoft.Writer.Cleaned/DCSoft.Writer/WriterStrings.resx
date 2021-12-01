@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="MenuSaveRTFFile"><value>保存RTF文件...</value></data>
+  <data name="JS_SuccessInsertDocument"><value>插入文档成功。</value></data>
+  <data name="JS_SessionTimeout"><value>服务器会话超时，功能无效。请刷新整个页面再试试。</value></data>
+  <data name="MenuSaveFile"><value>保存文件</value></data>
+  <data name="Command_Table_SplitCell"><value>拆分单元格</value></data>
+  <data name="Command_BorderBackgroudFormat"><value>边框和背景样式</value></data>
+  <data name="Command_FilePageSettings"><value>页面设置...</value></data>
+  <data name="StyleApplyRangeRow"><value>表格行</value></data>
+  <data name="SuccessRegAsm_FileName"><value>成功的向系统注册了程序集“{0}”的COM接口。</value></data>
+  <data name="SuccessValidateFile_Url"><value>成功的验证了地址“{0}”处的程序集文件。</value></data>
+  <data name="JS_InputFieldMarkUnDeleted"><value>输入域被标记为不能删除。</value></data>
+  <data name="ExpressionTargetInvalidteForChild_Source_Target"><value>元素“{1}”是元素"{0}"的子元素,不能执行相关的表达式。</value></data>
+  <data name="PromptNotFoundProperty_Type_Name"><value>类型“{0}”未找到属性“{1}”。</value></data>
+  <data name="ScriptCompileOK"><value>脚本代码编译成功。</value></data>
+  <data name="JS_MustBeDate"><value>比如为时间格式。</value></data>
+  <data name="LabelNewText"><value>标签文本</value></data>
+  <data name="JS_PromptReadonly"><value>文档只读。</value></data>
+  <data name="Command_EditVBAScript"><value>编辑VBA脚本</value></data>
+  <data name="ParseExpressionTypeInvalidate_ID_Expression_Item"><value>解析元素“{0}”的表达式“{1}”时查找名称为“{2}”的元素时出现元素类型不匹配的警告。</value></data>
+  <data name="Command_FilePrintCurrentPage"><value>打印当前页</value></data>
+  <data name="CannotSearchSpecifyContent"><value>未能找到指定的内容。</value></data>
+  <data name="Delete"><value>删除</value></data>
+  <data name="Saving_FileName"><value>正在保存文件“{0}”...</value></data>
+  <data name="PromptClearDelphi"><value>清理Delphi完成。</value></data>
+  <data name="Command_UpdateViewForDataSource"><value>根据数据源更新视图</value></data>
+  <data name="AboutWebControl"><value>DCWriter WEB版控件是南京都昌信息科技有限公司完全独立自主研发的新型电子医疗文书编辑器控件，并拥有全部版权。本控件完全使用C#开发，安全可靠，功能强大，性能优良。客户端无需安装任何插件，支持IE/FireFox/Chorme/Safari/UC/Opera等各种浏览器。支持在各种PC平台和移动平台上展示和编辑文档内容。
+&lt;br/&gt;    公司网站：http://www.dcwriter.cn，电子邮件：28348092@qq.com。</value></data>
+  <data name="BrowserNotSupportActiveX"><value>浏览器不支持ActiveX控件。</value></data>
+  <data name="DeleteDirectory_Name"><value>删除目录“{0}”。</value></data>
+  <data name="SuccessSetTrustSite_Site"><value>成功的设置站点“{0}”为可信站点。</value></data>
+  <data name="Command_MoveLeft"><value>向左移动</value></data>
+  <data name="Command_MoveHome"><value>移动到行首</value></data>
+  <data name="Command_MoveDown"><value>向下移动一行</value></data>
+  <data name="Command_Table_DeleteTable"><value>删除表格</value></data>
+  <data name="StyleApplyRangeTable"><value>表格</value></data>
+  <data name="JS_SaveDocumentFail"><value>保存文档失败。</value></data>
+  <data name="Command_ShiftMoveUp"><value>带选择向上移动一行</value></data>
+  <data name="StyleApplyRangeField"><value>文档域</value></data>
+  <data name="AppProcessing"><value>应用程序处理中，请稍候...</value></data>
+  <data name="Command_DesignMode"><value>设计模式</value></data>
+  <data name="MenuSaveFirstXMLFile"><value>保存第一个文档为XML文件...</value></data>
+  <data name="ConfirmAutoSave_Time_FileName"><value>系统发现在{0}自动保存的文件“{0}”内容，是否恢复？</value></data>
+  <data name="Command_CtlMoveDown"><value>向下滚动视图</value></data>
+  <data name="EventScriptError_Event_Message"><value>处理事件“{0}”时发生脚本错误“{1}”。</value></data>
+  <data name="Command_MoveRight"><value>向右移动</value></data>
+  <data name="JS_TextTooLong_Maxlength"><value>文本过长，不得超过{0}个字符。</value></data>
+  <data name="Command_FormViewMode"><value>表单视图模式</value></data>
+  <data name="ExecuteExpression_Sender_Expression_Result"><value>对象“{0}”执行表达式“{1}”，结果为“{2}”。</value></data>
+  <data name="AssemblyFileFilter"><value>.NET程序集文件(*.dll,*.exe)|*.dll;*.exe|所有文件|*.*</value></data>
+  <data name="Command_Table_InsertRowDown"><value>在下面插入表格行</value></data>
+  <data name="Command_JumpPrintMode"><value>续打模式</value></data>
+  <data name="Command_InsertPageInfo"><value>插入页码</value></data>
+  <data name="PromptJumEndForSearch"><value>已到达文档的开始处，是否继续从结尾处搜索？</value></data>
+  <data name="JS_ValueValidateResult_ItemCount"><value>共检查出{0}条数据校验错误信息:</value></data>
+  <data name="CurrentHeight_CM"><value>当前显示高度{0}厘米。</value></data>
+  <data name="HtmlFileFilter"><value>Html文件(*.htm,*.html)|*.htm;*.html</value></data>
+  <data name="Command_AlignRight"><value>右对齐</value></data>
+  <data name="ExpressionMissElement_Element_Expression_ID"><value>对象“{0}”的表达式“{1}”中的编号“{2}”未找到对应元素。</value></data>
+  <data name="ElementType_AccountingNumber"><value>会计数字</value></data>
+  <data name="NoDocument"><value>无文档。</value></data>
+  <data name="Command_Backspace"><value>退格</value></data>
+  <data name="NoImage"><value>没有图片</value></data>
+  <data name="Command_BackColor"><value>背景色</value></data>
+  <data name="SelectDefaultPrinterName"><value>请选择默认打印机名称</value></data>
+  <data name="ElementType_TChart"><value>体温单</value></data>
+  <data name="Command_FileNew"><value>新建文件...</value></data>
+  <data name="JS_NotSupportCommand"><value>不支持的命令：</value></data>
+  <data name="FailUnRegAsm_FileName"><value>注销程序集“{0}”COM接口失败。</value></data>
+  <data name="Command_SetDefaultStyle"><value>设置文档默认样式</value></data>
+  <data name="JS_SaveDocumentOK"><value>保存文档成功。</value></data>
+  <data name="PageIndexText"><value>页码</value></data>
+  <data name="Command_FieldSpecifyWidth"><value>设置域固定宽度</value></data>
+  <data name="PDFFilter"><value>PDF文件(*.pdf)|*.pdf</value></data>
+  <data name="Command_ParagraphFormat"><value>段落格式</value></data>
+  <data name="MenuSavePDFFile"><value>保存PDF文件...</value></data>
+  <data name="JS_MustBeNumber"><value>必须为数值。</value></data>
+  <data name="RequireServicePageURL"><value>必须设置WebWriterControl.ServicePageURL属性值。可以新建一个空白的ASPX页面，在Page_Load中执行代码“DCSoft.Writer.Controls.WebWriterControl.HandleServicePage(this);”，然后设置ServicePageURL属性值为该页面地址。</value></data>
+  <data name="SaveComplete_Size"><value>保存完成，共保存了{0}。</value></data>
+  <data name="FailToAcceptChildElement_Parent_Child"><value>容器元素{0}不能接受子元素{0}。</value></data>
+  <data name="FailValidateContent_URL"><value>验证URL“{0}”处的文件内容失败。</value></data>
+  <data name="PromptInputURL"><value>请输入一个URL地址。</value></data>
+  <data name="JS_Cancel"><value>取消</value></data>
+  <data name="Command_SelectAll"><value>全选</value></data>
+  <data name="PromptReadViewModeToJumpPrint"><value>建议在阅读版式视图模式使用续打功能。</value></data>
+  <data name="Loading_FileName"><value>正在加载文件“{0}”...</value></data>
+  <data name="PromptSaveFile_Name"><value>文件”{0}“已经修改，尚未保存，是否保存文件？</value></data>
+  <data name="JS_TextTooShort_MinLength"><value>文本过短，至少要{0}个字符。</value></data>
+  <data name="Command_InsertBarcode"><value>插入条码</value></data>
+  <data name="ConfirmCompressSaveModeForImageSize_Size_MinSize"><value>图片文件大小 {0} 超过了 {1}，比较大了，是否压缩存储图片数据？ 如果压缩存储图片数据，则文档大小不会很大，不过会导致图片显示和打印质量下降。</value></data>
+  <data name="DCWriterProductName"><value>DCWriter文档编辑器</value></data>
+  <data name="JS_Exclude"><value>不能包含：</value></data>
+  <data name="PromptNotInstallWindowsMediaPlayer"><value>未检测到系统中安装了Windows Media Player。可以设置BehaviorOptions.ActiveCheckInstallWindowsMediaPlayer值为false后再尝试操作。</value></data>
+  <data name="NotSupportReadText_Format"><value>不能以文本方式读取“{0}”格式的文件。</value></data>
+  <data name="Command_Paste"><value>粘贴</value></data>
+  <data name="Command_Color"><value>文本颜色</value></data>
+  <data name="MenuSaveFirstHTMLFile"><value>保存第一个文档为HTML文件...</value></data>
+  <data name="JS_NotInclude"><value>文本不包含在列表：</value></data>
+  <data name="Command_DocumentOptions"><value>文档选项...</value></data>
+  <data name="NumOfPagesText"><value>总页数</value></data>
+  <data name="JS_ServicePageUrlIsEmpty"><value>控件的ServicePageURL属性为空!</value></data>
+  <data name="PromptKillProcess_Name"><value>系统检测到有"{0}"进程在运行，执行本操作需要退出所有的"{0}"进程，请您关闭所有的"{0}"进程后点击“确定”按钮以继续执行操作；或者点击“取消”按钮而退出本次操作。</value></data>
+  <data name="WebControlStateInvalidate"><value>控件状态不对,可能是服务器会话超时,操作失败，可能需要刷新整个页面。</value></data>
+  <data name="Command_FontName"><value>字体名称</value></data>
+  <data name="Command_FontSize"><value>字体大小</value></data>
+  <data name="StyleApplyRangeText"><value>文本</value></data>
+  <data name="StyleApplyRangeCell"><value>单元格</value></data>
+  <data name="Command_Table_MegeCell"><value>合并单元格</value></data>
+  <data name="Command_DeleteField"><value>删除域</value></data>
+  <data name="ScriptCompileFail"><value>脚本代码编译失败。</value></data>
+  <data name="Command_FilePrint"><value>打印...</value></data>
+  <data name="JS_Dialog"><value>对话框</value></data>
+  <data name="ExpressionMissTarget_Source_Target"><value>对象“{0}”执行表达式时未找到目标“{1}”,取消执行。</value></data>
+  <data name="Command_PageViewMode"><value>分页视图模式</value></data>
+  <data name="ImageFileFilter"><value>图片文件(*.bmp,*.jpg,*.jpeg,*.gif,*.png,*.wmf,*.emf)|*.bmp;*.jpg;*.jpeg;*.gif;*.png;*.wmf;*.emf|所有文件|*.*</value></data>
+  <data name="Command_AlignLeft"><value>左对齐</value></data>
+  <data name="LocalPageIndexText"><value>页码</value></data>
+  <data name="Command_Table_InsertRowUP"><value>在上面插入表格行</value></data>
+  <data name="Command_Table_InsertTable"><value>插入表格...</value></data>
+  <data name="Command_AlignBottomCenter"><value /></data>
+  <data name="JS_MustBeInteger"><value>必须为整数。</value></data>
+  <data name="Command_Strikeout"><value>删除线</value></data>
+  <data name="LoadTemplate_FS_FileName"><value>正在使用“{0}”加载模板“{1}”。</value></data>
+  <data name="PromptGenerateDCWriterTlb_FileName"><value>请首先执行注册COM接口来生成"{0}"文件。</value></data>
+  <data name="Command_BulletedList"><value>圆点式列表</value></data>
+  <data name="Command_NumberedList"><value>数字式列表</value></data>
+  <data name="RadioboxProperty"><value>单选框属性</value></data>
+  <data name="Command_ClearUserTrace"><value>提交历史痕迹</value></data>
+  <data name="PromptActiveXControlInWeb"><value>没能下载安装控件，请联系管理员来设置安全站点，允许网页使用ActiveX控件，并确认客户端安装了.NET框架。</value></data>
+  <data name="FailPasswordForExecuteCommand"><value>密码不正确，请重新输入！</value></data>
+  <data name="Command_ViewXMLSource"><value>查看XML源代码</value></data>
+  <data name="JS_CannotInsertFieldAtCurrentPosition"><value>不能在当前位置插入输入域。</value></data>
+  <data name="SucccessSetSite_Site"><value>配置“{0}”的运行环境成功。</value></data>
+  <data name="JS_PromptShowingDialog"><value>系统正在显示对话框，在关闭对话框前无法执行本操作。</value></data>
+  <data name="JS_ExcludeKeyword"><value>违禁关键字：</value></data>
+  <data name="Command_InsertLineBreak"><value>插入软回车</value></data>
+  <data name="PromptReplaceAllResult_Times"><value>成功的替换了 {0} 处文档内容。</value></data>
+  <data name="ModuleDeveloping"><value>此功能模块正在开发中，尚未正式发布。</value></data>
+  <data name="ButtonNewText"><value>按钮</value></data>
+  <data name="Disable"><value>不可用</value></data>
+  <data name="JS_UploadingImage"><value>正在上传图片...</value></data>
+  <data name="PickCABOutputDirectory"><value>选择自动生成的CAB文件的输出目录，程序必须有对该目录的访问权限，而且对WEB客户端能下载该目录下的文件。</value></data>
+  <data name="Command_DocumentDefaultFont"><value>设置文档默认字体</value></data>
+  <data name="JS_SizeLabel_Width_Height"><value>宽度：{0}PX，高度：{1}PX。</value></data>
+  <data name="Enabled"><value>可用</value></data>
+  <data name="By"><value>由</value></data>
+  <data name="JS_UnderMinValue"><value>低于最小值：</value></data>
+  <data name="FailSetTrustSite_Url"><value>设置“{0}”为可信站点的操作失败。</value></data>
+  <data name="Command_ConvertToField"><value>文档内容转换为输入域</value></data>
+  <data name="XMLFilter"><value>XML文件|*.xml</value></data>
+  <data name="Command_InsertInputField"><value>插入输入域</value></data>
+  <data name="Command_DebugMode"><value>调试模式</value></data>
+  <data name="NotSupportWrite_Format"><value>不支持保存“{0}”格式的文件。</value></data>
+  <data name="ReturnNull"><value>返回空值。</value></data>
+  <data name="Command_SearchReplace"><value>查找和替换</value></data>
+  <data name="CheckboxProperty"><value>复选框属性</value></data>
+  <data name="ClickToLoadMedia"><value>点击加载视频或音频。</value></data>
+  <data name="StyleApplyRangeParagraph"><value>段落</value></data>
+  <data name="InvalidateCommandName_Name_SimiliarNames"><value>错误的命令“{0}”，系统支持类似的命令有“{1}”</value></data>
+  <data name="MenuSaveFirstPDFFile"><value>保存第一个文档为PDF文件...</value></data>
+  <data name="Command_ShiftMoveLeft"><value>带选择向左移动</value></data>
+  <data name="Command_ShiftMoveHome"><value>带选择移动到行首</value></data>
+  <data name="Command_ShiftMoveDown"><value>带选择向下移动一行</value></data>
+  <data name="ValueValidateFail"><value>数据校验失败.</value></data>
+  <data name="Input"><value>输入</value></data>
+  <data name="Command_UpdateDataSourceForView"><value>根据视图更新数据源</value></data>
+  <data name="JS_OK"><value>确定</value></data>
+  <data name="SuccessUnRegAsm_FileName"><value>成功的向系统注销了程序集"{0}"的COM接口。</value></data>
+  <data name="ElementType_Media"><value>多媒体</value></data>
+  <data name="NotInstallPrinter"><value>系统中未安装打印机。</value></data>
+  <data name="JS_TooManyDigits"><value>小数位数超过上限，最多为：</value></data>
+  <data name="FileNotExist_FileName"><value>文件“{0}”不存在。</value></data>
+  <data name="Command_Table_DeleteRow"><value>删除表格行</value></data>
+  <data name="ElementType_TDBarcode"><value>二维条码</value></data>
+  <data name="Command_SaveKBLibrary"><value>保存知识库...</value></data>
+  <data name="DocumentOutline"><value>文档大纲层次</value></data>
+  <data name="Command_InsertContentLink"><value>插入文档内容链接...</value></data>
+  <data name="Command_DebugOutputWindow"><value>显示调试输出窗体</value></data>
+  <data name="MenuSaveXMLFile"><value>保存XML文件...</value></data>
+  <data name="Command_FileSave"><value>保存文件</value></data>
+  <data name="Command_FileOpen"><value>打开文件...</value></data>
+  <data name="Command_AlignJustify"><value>两边对齐</value></data>
+  <data name="Command_FirstLineIndent"><value>段落首行缩进</value></data>
+  <data name="Command_InsertHtml"><value>插入HTML文档</value></data>
+  <data name="Command_InsertMode"><value>插入模式</value></data>
+  <data name="AlertSessionTimeout"><value>服务器端会话状态超时，部分功能无效。</value></data>
+  <data name="QuerySave"><value>文档内容已经改变，是否保存？</value></data>
+  <data name="ElementType_Barcode"><value>条码</value></data>
+  <data name="PromptCannotEditComment_AuthorID"><value>不能编辑这个文档批注，因为该批注是”{0}“创建的。</value></data>
+  <data name="Command_MoveTo"><value>移动到...</value></data>
+  <data name="Command_MoveUp"><value>向上移动一行</value></data>
+  <data name="Readonly"><value>只读</value></data>
+  <data name="Command_InsertCheckBox"><value>插入复选框</value></data>
+  <data name="SystemAlert"><value>系统提示</value></data>
+  <data name="BrowserNotSupportHtml5Video"><value>浏览器不支持HTML5/VIDEO元素。</value></data>
+  <data name="Command_FileSaveAs"><value>另存为...</value></data>
+  <data name="UserCancel"><value>用户取消操作。</value></data>
+  <data name="Command_Italic"><value>斜体</value></data>
+  <data name="Command_Underline"><value>下划线</value></data>
+  <data name="LocalNumOfPagesText"><value>页数</value></data>
+  <data name="JS_CannotInsertImageForSessionTimeout"><value>服务器会话状态超时，无法上传本地图片。</value></data>
+  <data name="JS_SelfCheckingError"><value>编辑器控件自检错误：</value></data>
+  <data name="NotSupportWriteBinary_Format"><value>不支持以二进制模式输出“{0}”格式的文件。</value></data>
+  <data name="RecommentDocumentGridLine"><value>本命令已经淘汰了，请使用页面设置对话框中的文档网格线功能，或者设置document.PageSettings.DocumentGridLine属性。</value></data>
+  <data name="Command_Register"><value>用户注册...</value></data>
+  <data name="ExpressionRefSelf_ElementID_Expression"><value>元素“{0}”的数值表达式“{1}”中引用了元素自己。</value></data>
+  <data name="Command_InsertImage"><value>插入图片</value></data>
+  <data name="Command_Delete"><value>删除</value></data>
+  <data name="CaptionInputLanguage"><value>输入语言：</value></data>
+  <data name="LoadComplete_Size"><value>加载完成，共加载了{0}。</value></data>
+  <data name="NotSpecifyFileName"><value>未指定文件名。</value></data>
+  <data name="Command_ShiftMovePageDown"><value>带选择向下翻页</value></data>
+  <data name="Command_FileCleanPrint"><value>整洁打印...</value></data>
+  <data name="StyleApplyRangeSection"><value>文档节</value></data>
+  <data name="SuccessInvalidateFile_Url"><value>验证地址“{0}”处的程序集文件失败，可能是WEB服务器上的程序集文件不存在或无法下载或者程序集文件内容和本程序集内容不一致。</value></data>
+  <data name="Command_Undo"><value>撤销</value></data>
+  <data name="Command_Redo"><value>重做</value></data>
+  <data name="Command_Font"><value>字体</value></data>
+  <data name="Command_Bold"><value>粗体</value></data>
+  <data name="Command_Copy"><value>复制</value></data>
+  <data name="Command_Cut"><value>剪切</value></data>
+  <data name="HasCompilerErrors_Num"><value>有{0}个编译错误。</value></data>
+  <data name="Command_SpecifyPaste"><value>选择性粘贴...</value></data>
+  <data name="Command_LoadKBLibrary"><value>加载知识库...</value></data>
+  <data name="FailRegAsm_FileName"><value>向系统注册程序集“{0}”COM接口失败。</value></data>
+  <data name="JS_NotDefinedFunction"><value>未定义的函数：</value></data>
+  <data name="XMLFilter1"><value>XML文件|*.xml</value></data>
+  <data name="ExecuteExpression_EventSource_Sender_Expression_Result"><value>对象“{0}”触发对象“{1}”执行表达式“{2}”，结果为“{3}”。</value></data>
+  <data name="Command_EditElementValue"><value>编辑文档元素值</value></data>
+  <data name="Command_Subscript"><value>下标</value></data>
+  <data name="Command_Table_DeleteColumn"><value>删除表格列</value></data>
+  <data name="DetectValueExpression_ID_Expression"><value>检测到元素“{0}”有表达式“{1}”。</value></data>
+  <data name="Command_OpenOldXMLFormat"><value>打开旧格式XML文件...</value></data>
+  <data name="Command_InsertFileContent"><value>插入文档内容...</value></data>
+  <data name="PromptErrAndWin7_MSG"><value>程序发生错误“{0}”，对于Windows7操作系统请以管理员模式运行本程序。</value></data>
+  <data name="Command_DocumentValueValidate"><value>文档数据校验</value></data>
+  <data name="ValueValidateOK"><value>数据校验成功.</value></data>
+  <data name="MenuSaveFirstRTFFile"><value>保存第一个文档为RTF文件...</value></data>
+  <data name="SuccessSetFullTrust"><value>成功的设置了.NET框架安全性为完全信任。</value></data>
+  <data name="ActiveXSuggest"><value>&lt;br/&gt;-------- 为成功显示出控件，请按照以下方法来做:
+&lt;br/&gt;第一，点击[&lt;a href="@CABURL"&gt;@CABURL&lt;/a&gt;]判断能否下载CAB文件。
+&lt;br/&gt;第二，客户端安装.NET框架2.0SP2或更高级版本。推荐的微软.NET2.0SP2的下载页面为“http://www.microsoft.com/zh-cn/download/details.aspx?id=1639”。
+&lt;br/&gt;第三，设置网站为安全可信站点，并设置为允许执行ActiveX控件。步骤为：
+&lt;br/&gt;  打开Internet选项对话框，切换到“安全”标签页面，点击上面的“受信任的站点”，然后点击“站点”按钮，在弹出的“收信任的站点”对话框中输入WEB站点地址。
+&lt;br/&gt;  然后点击Internet选择对话框中的“自定义级别”按钮，显示一个对话框，在该对话框中勾选以下选项：
+&lt;br/&gt;  “对未标记为可安全执行脚本的ActiveX控件初始化并执行脚本/启用”，
+&lt;br/&gt;  “下载未签名的ActiveX控件/启用”，
+&lt;br/&gt;  “允许允许以前未使用的ActiveX控件而不提示/启用”，
+&lt;br/&gt;  “运行ActiveX控件和插件/启用”
+&lt;br/&gt;第四，推荐使用IE浏览器打开页面而不是用360浏览器等第三方浏览器打开。
+&lt;br/&gt;第五，关闭一些安全监控软件，比如360安全卫士等等。
+&lt;br/&gt;第六，仅支持IE7.0或者更高版本，不支持其他浏览器，对于高版本IE浏览器请以兼容视图模式显示网页。</value></data>
+  <data name="Uploading_Name_Size_Total"><value>正在上传{0}，以上传{1}共{2}。</value></data>
+  <data name="Command_NormalViewMode"><value>普通视图模式</value></data>
+  <data name="Command_Table_InsertColumnLeft"><value>在左侧插入表格列</value></data>
+  <data name="Command_ElementProperties"><value>编辑文档元素属性</value></data>
+  <data name="JS_ServicePageUrlCheckError_URL_MSG"><value>服务器页面地址{0}检查错误：{1}。</value></data>
+  <data name="PromptCannotPrintDocument"><value>不能打印文档。</value></data>
+  <data name="FailSetFullTrust"><value>设置.NET框架的完全可信级别失败。</value></data>
+  <data name="JS_ReturnNoneContent_Url"><value>地址"{0}"未返回任何内容，可能是服务器被关闭了。</value></data>
+  <data name="JS_NoServerEvent_EventName"><value>服务器控件没有设置{0}事件。</value></data>
+  <data name="AlreadCopyToClipboard"><value>已经复制到系统剪切板。</value></data>
+  <data name="Command_AlignCenter"><value>居中对齐</value></data>
+  <data name="Command_InsertCheckBoxList"><value>插入复选框组</value></data>
+  <data name="Command_InsertXML"><value>插入XML文档</value></data>
+  <data name="Command_InsertRTF"><value>插入RTF文档</value></data>
+  <data name="JS_CanNotEmpty"><value>数据不得为空。</value></data>
+  <data name="MenuSaveHTMLFile"><value>保存HTML文件...</value></data>
+  <data name="Command_SignDocument"><value>文档签名</value></data>
+  <data name="JS_CannotInsertImageAtCurrentPosition"><value>在当前位置不能插入图片。</value></data>
+  <data name="Command_MovePageUp"><value>向上翻页</value></data>
+  <data name="RTFFileFilter"><value>RTF文件(*.rtf)|*.rtf</value></data>
+  <data name="Command_Table_InsertColumnRight"><value>在右侧插入表格列</value></data>
+  <data name="PormptInvalidateRowsNum"><value>请输入正确的行数。</value></data>
+  <data name="Command_MoveEnd"><value>移动到行尾</value></data>
+  <data name="Command_CleanViewMode"><value>整洁视图模式</value></data>
+  <data name="JS_ExceedMaxValue"><value>超过最大值：</value></data>
+  <data name="Command_ShiftMoveEnd"><value>带选择移动到行尾</value></data>
+  <data name="NotSupportRead_Format"><value>不支持读取“{0}”格式的文件。</value></data>
+  <data name="PromptJumpStartForSearch"><value>已到达文档的结尾处，是否继续从开始处搜索？</value></data>
+  <data name="CannotModifyElement_Name"><value>不能修改文档元素“{0}”。</value></data>
+  <data name="Command_ShiftMoveRight"><value>带选择向右移动</value></data>
+  <data name="Command_WordCount"><value>字数统计</value></data>
+  <data name="FailReplace"><value>替换操作失败，可能是被替换区域内容只读，无法修改。</value></data>
+  <data name="MediaFileFilter"><value>媒体文件(*.avi;*.mp3;*.mp4;*.wav;*.wma;*.wmx;*.wmv)|*.avi;*.mp3;*.mp4;*.wav;*.wma;*.wmx;*.wmv|所有文件|*.*</value></data>
+  <data name="NotSupportWriteText_Format"><value>不支持以文本模式输出“{0}”格式的文件。</value></data>
+  <data name="Command_CtlMoveUp"><value>向上滚动视图</value></data>
+  <data name="Command_ShiftMovePageUp"><value>带选择向上翻页</value></data>
+  <data name="Command_ConvertFieldToContent"><value>输入域转换为文档内容</value></data>
+  <data name="Command_ComplexViewMode"><value>复杂视图模式</value></data>
+  <data name="Command_AboutControl"><value>关于...</value></data>
+  <data name="ElementIDForEditableDependent_SrcID_TargetID_Result"><value>元素“{0}”联动设置元素“{1}”的ContentReadonly值为“{2}”。</value></data>
+  <data name="Command_EditImageAdditionShape"><value>编辑图像标注</value></data>
+  <data name="Command_Superscript"><value>上标</value></data>
+  <data name="Command_AdministratorViewMode"><value>管理员模式</value></data>
+  <data name="Command_InsertString"><value>插入纯文本</value></data>
+  <data name="SelectEventListener"><value>选择事件监视器</value></data>
+  <data name="Command_MovePageDown"><value>向下翻页</value></data>
+  </root>

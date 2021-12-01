@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1111.16794">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextBody">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XTemperature">
+          <Attributes />
+          <XElements />
+          <TextValue />
+          <Deleteable>true</Deleteable>
+          <EnableHighlight>Default</EnableHighlight>
+          <Width>1881</Width>
+          <Height>2000</Height>
+          <InnerDocumentOptions>
+            <HourTicks>
+              <int>4</int>
+              <int>8</int>
+              <int>12</int>
+              <int>16</int>
+              <int>20</int>
+              <int>24</int>
+            </HourTicks>
+            <HeaderLines>
+              <Line>
+                <Text>日期</Text>
+              </Line>
+              <Line>
+                <Text>住院天数</Text>
+                <ValueType>InDayIndex</ValueType>
+              </Line>
+              <Line>
+                <Text>术后天数</Text>
+                <StartDateKeyword>手术</StartDateKeyword>
+                <ValueType>DayIndex</ValueType>
+              </Line>
+              <Line>
+                <Text>产后天数</Text>
+                <ValueType>DayIndex</ValueType>
+              </Line>
+              <Line>
+                <Text>时刻</Text>
+                <ValueType>HourTick</ValueType>
+              </Line>
+            </HeaderLines>
+            <FooterLines>
+              <Line>
+                <Text>小便  ml</Text>
+                <ValueType>Pee</ValueType>
+              </Line>
+              <Line>
+                <Text>大便次数</Text>
+                <ValueType>Stool</ValueType>
+              </Line>
+              <Line>
+                <Text>液入量ml</Text>
+                <ValueType>Liquid_In</ValueType>
+              </Line>
+              <Line>
+                <Text>血压 　早</Text>
+                <ValueType>Blood_PressureP</ValueType>
+              </Line>
+              <Line>
+                <Text>mmHg 　晚</Text>
+                <ValueType>Blood_PressureA</ValueType>
+              </Line>
+              <Line>
+                <Text>体重　Kg</Text>
+                <ValueType>Body_Weight</ValueType>
+              </Line>
+              <Line>
+                <Text>腹　　围</Text>
+                <ValueType>Abdomen_Circumference</ValueType>
+              </Line>
+              <Line>
+                <Text>引流　ml</Text>
+                <ValueType>Liquid_Out</ValueType>
+              </Line>
+            </FooterLines>
+            <YAxisInfos>
+              <YAxis>
+                <Title>体温</Title>
+                <MaxValue>42</MaxValue>
+                <MinValue>34</MinValue>
+                <SymbolStyle>Cross</SymbolStyle>
+                <SymbolColorValue>Blue</SymbolColorValue>
+              </YAxis>
+              <YAxis>
+                <Title>脉搏</Title>
+                <ValueMember>Pluse</ValueMember>
+                <MaxValue>180</MaxValue>
+                <MinValue>20</MinValue>
+              </YAxis>
+            </YAxisInfos>
+          </InnerDocumentOptions>
+          <InnerDocument>
+            <Title>XXXX省人民医院</Title>
+            <InpatientID>0001234</InpatientID>
+            <PatientName>张三</PatientName>
+            <PatientAge>43</PatientAge>
+            <Section>第三病区</Section>
+            <BedID>20</BedID>
+            <FooterMeasures>
+              <FooterMeasure>
+                <Pee>100</Pee>
+                <Stool>2</Stool>
+                <Liquid_In>1000</Liquid_In>
+                <Liquid_Out>900</Liquid_Out>
+                <Blood_PressureA>90</Blood_PressureA>
+                <Blood_PressureP>90</Blood_PressureP>
+                <Body_Weight>80</Body_Weight>
+                <Abdomen_Circumference>80</Abdomen_Circumference>
+                <ValueDate>2013-02-19T00:00:00</ValueDate>
+              </FooterMeasure>
+              <FooterMeasure>
+                <Pee>100</Pee>
+                <Stool>2</Stool>
+                <Liquid_In>1000</Liquid_In>
+                <Liquid_Out>900</Liquid_Out>
+                <Blood_PressureA>90</Blood_PressureA>
+                <Blood_PressureP>90</Blood_PressureP>
+                <Body_Weight>80</Body_Weight>
+                <Abdomen_Circumference>80</Abdomen_Circumference>
+                <ValueDate>2013-02-20T00:00:00</ValueDate>
+              </FooterMeasure>
+            </FooterMeasures>
+            <Measures>
+              <Measure>
+                <ValueDate>2013-02-18T00:00:00</ValueDate>
+                <ValueTime>8</ValueTime>
+                <Memo>上午十时入院</Memo>
+                <Body_Temperature>37.5</Body_Temperature>
+                <FT>37.5</FT>
+                <Pluse>80</Pluse>
+                <Breath>22</Breath>
+              </Measure>
+              <Measure>
+                <ValueDate>2013-02-19T00:00:00</ValueDate>
+                <ValueTime>12</ValueTime>
+                <Memo>手术</Memo>
+                <Body_Temperature>39</Body_Temperature>
+                <FT>33</FT>
+                <Pluse>88</Pluse>
+                <Breath>22</Breath>
+              </Measure>
+              <Measure>
+                <ValueDate>2013-02-19T00:00:00</ValueDate>
+                <ValueTime>20</ValueTime>
+                <Memo />
+                <FT>33</FT>
+                <Pluse>80</Pluse>
+                <Breath>22</Breath>
+              </Measure>
+              <Measure>
+                <ValueDate>2013-02-20T00:00:00</ValueDate>
+                <ValueTime>18</ValueTime>
+                <Memo>主任查房</Memo>
+                <Body_Temperature>39.6</Body_Temperature>
+                <FT>33</FT>
+                <Pluse>90</Pluse>
+                <Breath>22</Breath>
+              </Measure>
+              <Measure>
+                <ValueDate>2013-02-21T00:00:00</ValueDate>
+                <ValueTime>8</ValueTime>
+                <Body_Temperature>37.6</Body_Temperature>
+                <FT>37</FT>
+                <Pluse>85</Pluse>
+                <Breath>20</Breath>
+              </Measure>
+            </Measures>
+          </InnerDocument>
+        </Element>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+      <Sections />
+    </Element>
+    <Element xsi:type="XTextHeader">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2013-02-19T14:48:35.9592863+08:00</CreationTime>
+    <LastModifiedTime>2013-02-19T14:48:35.9592863+08:00</LastModifiedTime>
+    <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1111.20717</Operator>
+    <NumOfPage>1</NumOfPage>
+  </Info>
+  <BodyText>
+</BodyText>
+  <UserHistories />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Align>Center</Align>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <PageSettings />
+</XTextDocument>

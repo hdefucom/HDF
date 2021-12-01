@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <ID>dcid3</ID>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>H</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field2</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <VisibleExpression />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <StartBorderText>{</StartBorderText>
+               <EndBorderText>}</EndBorderText>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <UnitText>岁</UnitText>
+               <InnerValue />
+               <BackgroundText>年龄</BackgroundText>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>HHH</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes />
+               <ID>field1</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <VisibleExpression />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <StartBorderText>{</StartBorderText>
+               <EndBorderText>}</EndBorderText>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <UnitText>岁</UnitText>
+               <LabelText>年龄:</LabelText>
+               <InnerValue />
+               <BackgroundText>年龄</BackgroundText>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>HHHHHHHHHHH</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field3</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <VisibleExpression />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <StartBorderText>{</StartBorderText>
+               <EndBorderText />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <LabelText>年龄:</LabelText>
+               <InnerValue />
+               <BackgroundText>年龄</BackgroundText>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>HHHH</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field4</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <VisibleExpression />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <StartBorderText />
+               <EndBorderText>}</EndBorderText>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <UnitText>岁</UnitText>
+               <InnerValue />
+               <BackgroundText>年龄</BackgroundText>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>HHHHH</Text>
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field5</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <VisibleExpression />
+               <Expressions />
+               <ScriptItems />
+               <XElements />
+               <StartBorderText />
+               <EndBorderText />
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue />
+               <BackgroundText>年龄</BackgroundText>
+            </Element>
+            <Element xsi:type="XString">
+               <Text>HH</Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XString">
+               <Text>分组互斥下拉列表：</Text>
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="2">
+               <Attributes />
+               <ID>field6</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <VisibleExpression />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>九江,上饶</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <InnerValue>九江,上饶</InnerValue>
+               <BackgroundText>XXX</BackgroundText>
+               <SelectedIndex>8</SelectedIndex>
+               <LastSelectedListItems>
+                  <Item>
+                     <TextInList />
+                     <Text>九江</Text>
+                     <Value />
+                     <Group>江西省</Group>
+                  </Item>
+               </LastSelectedListItems>
+               <FieldSettings>
+                  <EditStyle>DropdownList</EditStyle>
+                  <RepulsionForGroup>true</RepulsionForGroup>
+                  <MultiSelect>true</MultiSelect>
+                  <ListSource>
+                     <SourceName />
+                     <Items>
+                        <Item>
+                           <TextInList />
+                           <Text>南京</Text>
+                           <Value />
+                           <Group>江苏省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>扬州</Text>
+                           <Value />
+                           <Group>江苏省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>苏州</Text>
+                           <Value />
+                           <Group>江苏省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>无锡</Text>
+                           <Value />
+                           <Group>江苏省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>常州</Text>
+                           <Value />
+                           <Group>江苏省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>盐城</Text>
+                           <Value />
+                           <Group>江苏省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>南昌</Text>
+                           <Value />
+                           <Group>江西省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>九江</Text>
+                           <Value />
+                           <Group>江西省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>景德镇</Text>
+                           <Value />
+                           <Group>江西省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>上饶</Text>
+                           <Value />
+                           <Group>江西省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>宜春</Text>
+                           <Value />
+                           <Group>江西省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>瑞金</Text>
+                           <Value />
+                           <Group>江西省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>合肥</Text>
+                           <Value />
+                           <Group>安徽省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>芜湖</Text>
+                           <Value />
+                           <Group>安徽省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>马鞍山</Text>
+                           <Value />
+                           <Group>安徽省</Group>
+                        </Item>
+                        <Item>
+                           <TextInList />
+                           <Text>安庆</Text>
+                           <Value />
+                           <Group>安徽省</Group>
+                        </Item>
+                     </Items>
+                  </ListSource>
+                  <ListValueFormatString />
+               </FieldSettings>
+            </Element>
+            <Element xsi:type="XParagraphFlag">
+               <ID>dcid2</ID>
+            </Element>
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <ID>dcid4</ID>
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>南京都昌信息科技有限公司2016年度测试版:南京都昌信息科技有限公司2016年度测试版</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-01-06T11:32:29.4522759+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2014.4.30</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>H{岁}HHH{年龄:岁}HHHHHHHHHHH{年龄:HHHH岁}HHHHHHH
+
+分组互斥下拉列表：九江,上饶</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+         <Style Index="2">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer.Demo\WinFormDemo\DemoFile\输入域边界元素.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

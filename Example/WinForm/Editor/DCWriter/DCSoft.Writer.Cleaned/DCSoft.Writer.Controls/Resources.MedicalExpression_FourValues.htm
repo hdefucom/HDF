@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>请输入月经史值</title>
+	</head>
+	<body style="overflow:hidden">
+    <div unselectable="on">
+    <span>请输入月经史值：</span>
+    <hr />
+    <!--Table结构，border划线 -->
+	    <table style="width:100%;"  cellspacing="0">
+        <tr style="text-align: center">
+            <td rowspan="2" style="padding-bottom: 10px;">初潮年龄<br /><input type="text" id="value1" style="width:120px;"/></td>
+            <td style="border-color: #000000; border-bottom-style: solid; padding-bottom: 5px; border-width:3px;">经期(天)<br /><input type="text" id="value2" style="width:120px;"/></td>
+            <td rowspan="2" style="padding-bottom: 25px;">末次月经/<br />绝经年龄 <br /><input type="text" id="value4" style="width:120px;"/></td>
+        </tr>
+        <tr style="text-align: center">
+            <td style="border-color: #000000; border-top-style: solid; border-width:3px;">周期(天)<br /><input type="text" id="value3" style="width:120px;"/></td>
+        </tr>      
+        </table>
+    <hr />
+        <center>
+            <input type="button" value="确定" onclick= "OnOK();" />
+            <input type="button" value="取消" onclick= "OnCancel();" />
+        </center>
+        </div>
+        <script language=javascript>
+
+            var elementText = window.frameElement.elementText;
+            if (elementText != null) {
+                var items = elementText.split(',');
+                if (items.length > 0) {
+                    document.getElementById("value1").value = items[0];
+                }
+                if (items.length > 1) {
+                    document.getElementById("value2").value = items[1];
+                }
+                if (items.length > 2) {
+                    document.getElementById("value3").value = items[2];
+                } 
+                if (items.length > 3) {
+                    document.getElementById("value4").value = items[3];
+                }
+            }
+
+            function OnOK() {
+                window.frameElement.elementText = document.getElementById("value1").value + "," + document.getElementById("value2").value + "," + document.getElementById("value3").value + "," + document.getElementById("value4").value;
+                if (window.frameElement.okCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.okCallback();
+                }
+            }
+
+            function OnCancel() {
+                if (window.frameElement.cancelCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.cancelCallback();
+                }
+            }
+        
+        </script>
+	</body>
+</html>

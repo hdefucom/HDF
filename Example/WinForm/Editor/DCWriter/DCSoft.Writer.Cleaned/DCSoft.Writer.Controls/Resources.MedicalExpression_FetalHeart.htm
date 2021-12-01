@@ -1,0 +1,113 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>请输入胎心图值</title>
+	</head>
+    <script>
+    //解决Safari游览器Table显示错误
+        function onLoad() {
+            if (navigator.userAgent.indexOf("Safari") > 0) {
+                if (navigator.userAgent.indexOf("Chrome") == -1) {
+                    document.getElementById('main').style.height = '40px';
+                }
+            }
+        }
+    </script>
+	<body onload="onLoad()" style="overflow:hidden">
+    <div>
+    <span>请输入胎心图值：</span>
+    <hr />
+    <!--Table结构，border划线-->
+	       <table width="100%" cellspacing="0">
+         <tr>
+            <td rowspan="2" style="border-color: #000000;border-bottom-style: solid; border-width:3px">&nbsp;
+            </td>
+            <td align="center" style="padding-bottom: 5px;">
+                <input id="value1" type="text" style="width:130px"/></td>
+            <td rowspan="2" 
+                 style="border-color: #000000;border-bottom-style: solid; border-right-style: solid; border-width:3px" 
+                 id="main">&nbsp;&nbsp;
+            </td>
+            <td rowspan="2" style="border-color: #000000;border-left-style: solid; border-bottom-style: solid; border-width:3px">&nbsp;&nbsp;
+            </td>
+            <td align="center" style="padding-bottom: 5px;">
+                <input id="value2" type="text" style="width:130px"/></td>
+            <td rowspan="2" style="border-color: #000000;border-bottom-style: solid; border-width:3px">&nbsp;
+            </td>
+         </tr>
+         <tr>
+            <td rowspan="2" align="center" style="border-color: #000000;padding-bottom: 5px; border-width:3px">
+                <input id="value3" type="text" style="width:130px"/></td>
+            <td rowspan="2" align="center" style="border-color: #000000;padding-bottom: 5px; border-width:3px">
+                <input id="value4" type="text" style="width:130px"/></td>
+         </tr>
+         <tr>
+            <td rowspan="2" style="border-color: #000000;border-top-style: solid; border-width:3px">&nbsp;
+            </td>
+            <td rowspan="2" 
+                 style="border-top-style: solid; border-right-style: solid; border-width:3px; border-top-color: #000000; border-right-color: #000000;">&nbsp;
+            </td>
+            <td rowspan="2" 
+                 style="border-top-style: solid; border-left-style: solid; border-width:3px; border-top-color: #000000; border-left-color: #000000;">&nbsp;
+            </td>
+            <td rowspan="2" style="border-color: #000000;border-top-style: solid; border-width:3px">&nbsp;
+            </td>
+         </tr>
+         <tr>
+            <td align="center" style="padding-bottom: 5px;">
+                <input id="value5" type="text" style="width:130px"/></td>
+            <td align="center" style="padding-bottom: 5px;">
+                <input id="value6" type="text" style="width:130px"</td>
+         </tr>
+</table>
+</div>
+<hr />
+        <center>
+            <input type="button" value="确定" onclick= "OnOK();" />
+            <input type="button" value="取消" onclick= "OnCancel();" />
+        </center>
+        </div>
+        <script language=javascript>
+
+            var elementText = window.frameElement.elementText;
+            if (elementText != null) {
+                var items = elementText.split(',');
+                if (items.length > 0) {
+                    document.getElementById("value1").value = items[0];
+                }
+                if (items.length > 1) {
+                    document.getElementById("value2").value = items[1];
+                }
+                if (items.length > 2) {
+                    document.getElementById("value3").value = items[2];
+                }
+                if (items.length > 3) {
+                    document.getElementById("value4").value = items[3];
+                }
+                if (items.length > 4) {
+                    document.getElementById("value5").value = items[4];
+                }
+                if (items.length > 5) {
+                    document.getElementById("value6").value = items[5];
+                } 
+            }
+
+            function OnOK() {
+                window.frameElement.elementText = document.getElementById("value1").value + "," + document.getElementById("value2").value + "," + document.getElementById("value3").value + ","
+                + document.getElementById("value4").value + "," + document.getElementById("value5").value + "," + document.getElementById("value6").value;
+                if (window.frameElement.okCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.okCallback();
+                }
+            }
+
+            function OnCancel() {
+                if (window.frameElement.cancelCallback != null) {
+                    location.replace("about:blank");
+                    window.frameElement.cancelCallback();
+                }
+            }
+        
+        </script>
+	</body>
+</html>

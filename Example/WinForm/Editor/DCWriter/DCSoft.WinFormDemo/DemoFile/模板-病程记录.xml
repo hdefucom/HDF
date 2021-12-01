@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1616.38181">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextHeader">
+      <Expressions />
+      <ScriptItems />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XString" StyleIndex="0">
+          <Text>DCWriter演示程序</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>日 常 病 程 记 录</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="8" />
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>姓名</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="6">
+          <Text>:</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="3">
+          <Text>李六</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="7">
+          <Text> </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="10">
+          <Text> </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="11">
+          <Text>  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>科别</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="6">
+          <Text>:</Text>
+        </Element>
+        <Element xsi:type="XTextLabelElement">
+          <ID>lblArea</ID>
+          <EventTemplateName>设置病区标题</EventTemplateName>
+          <Attributes />
+          <Width>510</Width>
+          <Height>53</Height>
+          <Alignment>TopLeft</Alignment>
+          <Multiline>false</Multiline>
+          <Text>[病区]</Text>
+          <AutoSize>false</AutoSize>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="10">
+          <Text> </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="11">
+          <Text> </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>床号</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="6">
+          <Text>:</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="3">
+          <Text>床号</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="7">
+          <Text>  </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="10">
+          <Text> </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="11">
+          <Text>   </Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="2">
+          <Text>住院号</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="6">
+          <Text>:</Text>
+        </Element>
+        <Element xsi:type="XString" StyleIndex="3">
+          <Text>100010</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="9" />
+      </XElements>
+      <_NeedRefreshPage>false</_NeedRefreshPage>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Expressions />
+      <ScriptItems />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+      </XElements>
+      <_NeedRefreshPage>false</_NeedRefreshPage>
+    </Element>
+    <Element xsi:type="XTextBody">
+      <Expressions />
+      <ScriptItems />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" />
+      </XElements>
+      <_NeedRefreshPage>false</_NeedRefreshPage>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2013-01-11T16:19:02.7134633+08:00</CreationTime>
+    <LastModifiedTime>2013-01-11T16:19:02.7134633+08:00</LastModifiedTime>
+    <LastPrintTime>2013-01-11T16:19:02.7134633+08:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1111.29168</Operator>
+    <NumOfPage>1</NumOfPage>
+  </Info>
+  <BodyText>
+</BodyText>
+  <UserHistories />
+  <Comments />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+      <FontSize>12</FontSize>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Color>Navy</Color>
+        <FontName>宋体</FontName>
+        <FontSize>22</FontSize>
+        <Bold>true</Bold>
+      </Style>
+      <Style Index="1">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>20</FontSize>
+        <Bold>true</Bold>
+      </Style>
+      <Style Index="2">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>11</FontSize>
+      </Style>
+      <Style Index="3">
+        <Color>Navy</Color>
+        <FontName>宋体</FontName>
+        <FontSize>11</FontSize>
+      </Style>
+      <Style Index="4">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <BorderWidth>30</BorderWidth>
+      </Style>
+      <Style Index="5">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <BorderWidth>1</BorderWidth>
+        <BorderBottom>true</BorderBottom>
+      </Style>
+      <Style Index="6">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>11</FontSize>
+      </Style>
+      <Style Index="7">
+        <Color>Navy</Color>
+        <FontName>宋体</FontName>
+        <FontSize>11</FontSize>
+      </Style>
+      <Style Index="8">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <Align>Center</Align>
+        <DefaultValuePropertyNames>FirstLineIndent,LeftIndent,LineSpacing,LineSpacingStyle,SpacingAfterParagraph,SpacingBeforeParagraph</DefaultValuePropertyNames>
+      </Style>
+      <Style Index="9">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <Align>Center</Align>
+        <BorderWidth>30</BorderWidth>
+      </Style>
+      <Style Index="10">
+        <Color>Navy</Color>
+        <FontName>宋体</FontName>
+        <FontSize>11</FontSize>
+      </Style>
+      <Style Index="11">
+        <Color>Navy</Color>
+        <FontName>宋体</FontName>
+        <FontSize>11</FontSize>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <LocalConfig />
+  <PageSettings>
+    <HeaderDistance>39</HeaderDistance>
+    <FooterDistance>39</FooterDistance>
+    <LeftMargin>59</LeftMargin>
+    <TopMargin>167</TopMargin>
+    <RightMargin>59</RightMargin>
+    <BottomMargin>79</BottomMargin>
+  </PageSettings>
+</XTextDocument>

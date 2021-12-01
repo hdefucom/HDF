@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.0.0">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextBody" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements>
+            <Element xsi:type="XString">
+               <Text>【Steward苏醒评分】 </Text>
+            </Element>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+            <Element xsi:type="XTextTable" NumOfRows="6" NumOfColumns="2">
+               <ID />
+               <Expressions />
+               <ScriptItems />
+               <Attributes />
+               <XElements>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>项目</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="2">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>评分</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>清醒程度</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>完全苏醒=2</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>对刺激有反应=1</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>对刺激无反应=0 </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>清醒程度</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <ValueBinding />
+                                 <ValidateStyle />
+                                 <BackgroundText>清醒程度</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>0</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>1</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>2</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>呼吸道通畅程度 </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>可按医师吩咐咳嗽=2</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>呼吸支持可保持呼吸道通畅=1</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>呼吸道需要给以支持=0 </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>呼吸道通畅程度</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <ValueBinding />
+                                 <ValidateStyle />
+                                 <BackgroundText>呼吸道通畅程度</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>0</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>1</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>2</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>肢体活动度 </Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>肢体能有意识的活动=2</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>肢体无意识活动=1</Text>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" />
+                              <Element xsi:type="XString">
+                                 <Text>肢体无活动=0 </Text>
+                              </Element>
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField">
+                                 <ID>肢体活动度</ID>
+                                 <Expressions />
+                                 <ScriptItems />
+                                 <Attributes />
+                                 <XElements />
+                                 <EventExpressions />
+                                 <ValueBinding />
+                                 <ValidateStyle />
+                                 <BackgroundText>肢体活动度</BackgroundText>
+                                 <FieldSettings>
+                                    <EditStyle>DropdownList</EditStyle>
+                                    <ListSource>
+                                       <Name />
+                                       <SourceName />
+                                       <DisplayPath />
+                                       <ValuePath />
+                                       <Items>
+                                          <Item>
+                                             <Text>0</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>1</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                          <Item>
+                                             <Text>2</Text>
+                                             <Value />
+                                             <Group />
+                                          </Item>
+                                       </Items>
+                                    </ListSource>
+                                    <ListValueFormatString />
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>总分</Text>
+                              </Element>
+                           </XElements>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XInputField" StyleIndex="0">
+                                 <Attributes />
+                                 <XElements>
+                                    <Element xsi:type="XString" StyleIndex="0">
+                                       <Text>0</Text>
+                                    </Element>
+                                 </XElements>
+                                 <Name>sum</Name>
+                                 <ValueBinding />
+                                 <ValidateStyle />
+                                 <InnerValue>0</InnerValue>
+                                 <BackgroundText>总分</BackgroundText>
+                                 <FieldSettings>
+                                    <ListSource>
+                                       <Items />
+                                    </ListSource>
+                                 </FieldSettings>
+                              </Element>
+                              <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+                           </XElements>
+                           <Expression>[B2]+[B3]+[B4]</Expression>
+                        </Element>
+                     </XElements>
+                  </Element>
+                  <Element xsi:type="XTextTableRow">
+                     <Expressions />
+                     <ScriptItems />
+                     <Attributes />
+                     <XElements>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements>
+                              <Element xsi:type="XString">
+                                 <Text>注：评分在4分以上，方能离开手术室或恢复室.</Text>
+                              </Element>
+                           </XElements>
+                           <ColSpan>2</ColSpan>
+                        </Element>
+                        <Element xsi:type="XTextTableCell" StyleIndex="1">
+                           <Expressions />
+                           <ScriptItems />
+                           <Attributes />
+                           <XElements />
+                        </Element>
+                     </XElements>
+                  </Element>
+               </XElements>
+               <Columns>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>1350.375</Width>
+                  </Element>
+                  <Element xsi:type="XTextTableColumn">
+                     <Width>524.375</Width>
+                  </Element>
+               </Columns>
+            </Element>
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextHeader" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements />
+      </Element>
+      <Element xsi:type="XTextFooter" StyleIndex="0">
+         <Expressions />
+         <ScriptItems />
+         <Attributes />
+         <XElements />
+      </Element>
+   </XElements>
+   <Info>
+      <CreationTime>2013-07-14T08:08:15.7973126+08:00</CreationTime>
+      <LastModifiedTime>2013-07-14T08:08:15.7973126+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.1.0.0</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>【Steward苏醒评分】 
+项目评分清醒程度
+完全苏醒=2
+对刺激有反应=1
+对刺激无反应=0 清醒程度呼吸道通畅程度 
+可按医师吩咐咳嗽=2
+呼吸支持可保持呼吸道通畅=1
+呼吸道需要给以支持=0 呼吸道通畅程度肢体活动度 
+肢体能有意识的活动=2
+肢体无意识活动=1
+肢体无活动=0 肢体活动度总分0注：评分在4分以上，方能离开手术室或恢复室.</BodyText>
+   <UserHistories />
+   <Comments />
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <Color>ControlText</Color>
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+         <PrintBackColor />
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <Align>Center</Align>
+            <PrintBackColor />
+         </Style>
+         <Style Index="1">
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>1</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+            <PrintBackColor />
+         </Style>
+         <Style Index="2">
+            <BackgroundColor>Lavender</BackgroundColor>
+            <VerticalAlign>Middle</VerticalAlign>
+            <BorderWidth>4.125</BorderWidth>
+            <BorderLeft>true</BorderLeft>
+            <BorderBottom>true</BorderBottom>
+            <BorderTop>true</BorderTop>
+            <BorderRight>true</BorderRight>
+            <PaddingLeft>15</PaddingLeft>
+            <PaddingTop>10</PaddingTop>
+            <PaddingBottom>10</PaddingBottom>
+            <PrintBackColor />
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <LocalConfig />
+   <PageSettings />
+</XTextDocument>

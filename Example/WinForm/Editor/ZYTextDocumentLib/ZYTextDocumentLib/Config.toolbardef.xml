@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolbardefine>
+	<emrtoolbars name="kb">
+		<toolbar name="控制">
+			<spliter />
+			<button text="刷新知识库树状列表" image="refresh.bmp" command="refreshkb" />
+			<button text="保存对知识库的修改" image="save.bmp" command="savekb" />
+		</toolbar>
+	</emrtoolbars>
+	<emrtoolbars name="main">
+		<toolbar name="命令">
+			<button style="spliter" />
+			<button text="清空" image="new.bmp" command="newfilepacs" />
+			<button text="打开文件" image="open.bmp" command="open" />
+			<button style="button" text="保存" image="save.bmp" command="savedbfile" />
+			<button style="button" text="保存为文件" image="componentmenu.bmp" command="saveas" />
+			<button text="页面设置" image="pagesetting.bmp" command="pagesetting" />
+			<button text="打印文档" image="print.bmp" command="printdocument" />
+			<spliter />
+			<button style="button" text="剪切" image="cut.bmp" command="cut" />
+			<button style="button" text="复制" image="copy.bmp" command="copy" />
+			<button style="button" text="粘贴" image="paste.bmp" command="paste" />
+			<button style="button" text="删除" image="delete.bmp" command="delete" />
+			<spliter />
+			<button text="撤销" image="undo.bmp" command="undo" />
+			<button text="重复" image="redo.bmp" command="redo" />
+			<spliter />
+			<pushbutton text="显示段落标记" image="paragraphmenu.bmp" command="showparagraphflag" />
+			<pushbutton text="文档只读" image="lock.bmp" command="lock" />
+		</toolbar>
+		<toolbar name="格式">
+			<spliter />
+			<select name="字体列表" command="fontname">
+				<option>字体列表</option>
+				<option value="宋体">宋体</option>
+				<option value="黑体">黑体</option>
+				<option value="楷体_GB2312">楷体_GB2312</option>
+				<option value="仿宋_GB2312">仿宋_GB2312</option>
+				<option value="隶书">隶书</option>
+				<option value="幼圆">幼圆</option>
+			</select>
+			<select name="字体大小" command="fontsize">
+				<option>字体大小</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+			</select>
+			<pushbutton style="button" text="粗体" image="bold.bmp" command="bold" />
+			<pushbutton style="button" text="斜体" image="italic.bmp" command="italic" />
+			<button style="button" text="字体颜色" image="forecolor.bmp" command="forecolor" />
+			<spliter />
+			<pushbutton text="左对齐" image="justifyleft.bmp" command="alignleft" />
+			<pushbutton text="居中对齐" image="justifycenter.bmp" command="aligncenter" />
+			<pushbutton text="右对齐" image="justifyright.bmp" command="alignright" />
+			<pushbutton text="两边对齐" image="justifyfull.bmp" command="alignjustify" />
+			<spliter />
+			<button text="插入文本块" image="div.bmp" command="insertdiv" />
+			<button text="插入文本域" image="formtext.bmp" command="insertinput" />
+			<button text="插入固定文字块" image="about.bmp" command="insertflag" />
+			<button text="插入图片" image="img.bmp" command="insertimage" />
+			<pushbutton text="上标" image="sup.bmp" command="sup" />
+			<pushbutton text="下标" image="sub.bmp" command="sub" />
+			<button text="插入水平线" command="insertline" image="inserthorizontalrule.bmp" />
+			<button text="插入表格" command="inserttable" image="tablemenu.bmp" />
+      <!--<button text="插入示意图" command="insertdiagrampic" image="tablemenu.bmp" />-->
+		</toolbar>
+	</emrtoolbars>
+</toolbardefine>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="AlertUpdate_OldVersion_NewVersion"><value>当前版本是"{0}"，发现新版本"{1}"，是否更新？</value></data>
+  <data name="DCName"><value>南京都昌信息科技有限公司 www.dcwriter.cn</value></data>
+  <data name="SystemWarring"><value>系统警告</value></data>
+  <data name="PromptUpdateAssembly"><value>已成功启动后台更新程序，请关闭本软件和所有的WEB浏览器（包括IE浏览器，360浏览器，QQ浏览器等等）后等待几分钟后重新进入。</value></data>
+  <data name="CheckBoxUnChecked" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAANgMAAAJCTTYDAAAAAAAANgAAACgAAAAQAAAAEAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////+AURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURz///////////////////////////////////////////////////////////////////8L</value></data><data name="DefaultWorkingMessage"><value>正在处理中...</value></data>
+  <data name="SystemAlert"><value>系统提示</value></data>
+  <data name="SystemError"><value>系统错误</value></data>
+  <data name="CheckBoxChecked" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAANgMAAAJCTTYDAAAAAAAANgAAACgAAAAQAAAAEAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////+AURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURz///////+AURz7/Pz///////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////8hoSH///////////////////////////+AURz///////+AURz///////////8hoSEhoSEhoSH///////////////////////+AURz///////+AURz///////8hoSEhoSEhoSEhoSEhoSH///////////////////+AURz///////+AURz///////8hoSEhoSHv8fEhoSEhoSEhoSH///////////////+AURz///////+AURz///////8hoSH///////////8hoSEhoSEhoSH///////////+AURz///////+AURz///////////////////////////8hoSEhoSH///////////+AURz///////+AURz///////////////////////////////8hoSH///////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURz///////////////////////////////////////////////+AURz///////+AURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURz///////////////////////////////////////////////////////////////////8L</value></data><data name="ImageFilter"><value>图片文件(*.jpg;*.jpeg;*.png;*.bmp)|*.jpg;*.jpeg;*.png;*.bmp</value></data>
+  <data name="LoadingPromptText"><value>正在加载数据，请稍候。。。</value></data>
+  </root>

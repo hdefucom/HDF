@@ -1,0 +1,34 @@
+[Setup Hooks]
+hook1=hook1
+
+[hook1]
+run=%EXTRACT_DIR%\DCSoft.Writer.ClientConfig.exe /i
+
+[Version]
+; This section is required for compatibility on both Windows 95 and Windows NT.
+Signature="$CHICAGO$"
+AdvancedInf=2.0
+
+[Add.Code]
+DCSoft.Writer.dll=DCSoft.Writer.dll
+
+[DCSoft.Writer.dll]
+file-win32-x86=thiscab
+clsid={00012345-6789-ABCD-EF01-2345678900ff}
+;FileVersion=1.2014.1217.2
+
+;[version] 
+;signature="$CHICAGO$" 
+;AdvancedINF=2.0 
+;[Add.Code]
+;DCSoft.Writer.dll=DCSoft.Writer.dll
+;DCSoft.Writer.ClientConfig.exe=DCSoft.Writer.ClientConfig.exe
+;[DCSoft.Writer.dll]
+;file-win32-x86=thiscab
+;clsid={00012345-6789-ABCD-EF01-2345678900ff}
+;FileVersion=1.2014.1217.1
+;[Setup Hooks] 
+;hook1=hook1 
+;[hook1] 
+;run=%EXTRACT_DIR%/DCSoft.Writer.ClientConfig.exe
+;RegisterServer=yes

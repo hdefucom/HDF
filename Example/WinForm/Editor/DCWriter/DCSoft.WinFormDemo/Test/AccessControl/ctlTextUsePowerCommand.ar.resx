@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;测试2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>سىناق2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;插入ToolStripMenuItem.Name" xml:space="preserve">
+    <value>ToolStripMenuItem قىستۇرۇش </value>
+  </data>
+  <data name="&gt;&gt;执行命令ToolStripMenuItem.Name" xml:space="preserve">
+    <value>ToolStripMenuItem بۇيرۇقىنى ئىجرا قىلىش </value>
+  </data>
+  <data name="btnBackColor.Text" xml:space="preserve">
+    <value>تەگلىك رەڭگى</value>
+  </data>
+  <data name="btnColor.Text" xml:space="preserve">
+    <value>تېكىست رەڭگى</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>ئابۇنىت ئالماشتۇرۇش</value>
+  </data>
+  <data name="btnTestGetElementByID.Text" xml:space="preserve">
+    <value>سىناق : GetElementByID</value>
+  </data>
+  <data name="cccccccc.Text" xml:space="preserve">
+    <value>ھۆججەت  توپ  ئايلاندۇرۇش ...</value>
+  </data>
+  <data name="cmAlignCenter.Text" xml:space="preserve">
+    <value>ئوتتۇرىغا توغرىلاش</value>
+  </data>
+  <data name="cmAlignLeft.Text" xml:space="preserve">
+    <value>سولغا توغرىلاش</value>
+  </data>
+  <data name="cmAlignRight.Text" xml:space="preserve">
+    <value>ئوڭغا توغرىلاش</value>
+  </data>
+  <data name="cmColor.Text" xml:space="preserve">
+    <value>رەڭگى</value>
+  </data>
+  <data name="cmCopy.Text" xml:space="preserve">
+    <value>كۆچۈرۈش</value>
+  </data>
+  <data name="cmCut.Text" xml:space="preserve">
+    <value>كېسىش</value>
+  </data>
+  <data name="cmDelete.Text" xml:space="preserve">
+    <value>ئۆچۈرۈش</value>
+  </data>
+  <data name="cmFont.Text" xml:space="preserve">
+    <value>خەت  نۇسخىسى...</value>
+  </data>
+  <data name="cmPaste.Text" xml:space="preserve">
+    <value>چاپلاش</value>
+  </data>
+  <data name="cmProperties.Text" xml:space="preserve">
+    <value>خاسلىق...</value>
+  </data>
+  <data name="cmRedo.Text" xml:space="preserve">
+    <value>قايتىلاش</value>
+  </data>
+  <data name="cmTableRowProperties.Text" xml:space="preserve">
+    <value>جەدۋەل قۇر خاسلىقى...</value>
+  </data>
+  <data name="cmUndo.Text" xml:space="preserve">
+    <value>ئەمەلدىن قالدۇرۇش </value>
+  </data>
+  <data name="lblAbout.Text" xml:space="preserve">
+    <value>DCWriter كۆرسىتىش</value>
+  </data>
+  <data name="lblPosition.Text" xml:space="preserve">
+    <value>ئورۇن</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>ھالەت</value>
+  </data>
+  <data name="mAbout.Text" xml:space="preserve">
+    <value>ھەققىدە...</value>
+  </data>
+  <data name="mAdministratorMode.Text" xml:space="preserve">
+    <value>باشقۇرغۇچى ھالىتى</value>
+  </data>
+  <data name="mAlignBottomCenter.Text" xml:space="preserve">
+    <value>ئاستى قىسىم ئوتتۇرىغا توغرىلاش</value>
+  </data>
+  <data name="mAlignBottomLeft.Text" xml:space="preserve">
+    <value>ئاستى قىسىم سولغا توغرىلاش</value>
+  </data>
+  <data name="mAlignBottomRight.Text" xml:space="preserve">
+    <value>ئاستى قىسىم ئوڭغا توغرىلاش </value>
+  </data>
+  <data name="mAlignLeft.Text" xml:space="preserve">
+    <value>سولغا توغرىلاش</value>
+  </data>
+  <data name="mAlignMiddleCenter.Text" xml:space="preserve">
+    <value>ۋېرتىكال ئوتتۇرىغا گورۇزۇنتال ئوتتۇرىغا توغرىلاش</value>
+  </data>
+  <data name="mAlignMiddleLeft.Text" xml:space="preserve">
+    <value>ۋېرتىكال ئوتتۇرا سولغا توغرىلاش </value>
+  </data>
+  <data name="mAlignMiddleRight.Text" xml:space="preserve">
+    <value>ۋېرتىكال ئوتتۇرا ئوڭغا توغرىلاش </value>
+  </data>
+  <data name="mAlignTopCenter.Text" xml:space="preserve">
+    <value>ئۈستى ئوتتۇرىغا توغرىلاش</value>
+  </data>
+  <data name="mAlignTopLeft.Text" xml:space="preserve">
+    <value>ئۈستى سولغا توغرىلاش</value>
+  </data>
+  <data name="mAlignTopRight.Text" xml:space="preserve">
+    <value>ئۈستى ئوڭغا توغرىلاش</value>
+  </data>
+  <data name="mBackColor.Text" xml:space="preserve">
+    <value>رامكا ۋە نەقىش...</value>
+  </data>
+  <data name="mBulleteList.Text" xml:space="preserve">
+    <value>چەمبەر نوقتا تۈر پاسونى</value>
+  </data>
+  <data name="mCellAlign.Text" xml:space="preserve">
+    <value>توغرىلاش ئۇسۇلى</value>
+  </data>
+  <data name="mCellGridLine.Text" xml:space="preserve">
+    <value>كاتەكچە تورسىمان سىزىقى...</value>
+  </data>
+  <data name="mCenterAlign.Text" xml:space="preserve">
+    <value>ئوتتۇرىغا توغرىلاش</value>
+  </data>
+  <data name="mCharacterCircle.Text" xml:space="preserve">
+    <value>تېكىست  سىرىتمىقى...</value>
+  </data>
+  <data name="mCleanViewMode.Text" xml:space="preserve">
+    <value>پاكىز كۆرۈنۈش ھالىتى</value>
+  </data>
+  <data name="mClearFormat.Text" xml:space="preserve">
+    <value>فورماتىنى تازىلاش</value>
+  </data>
+  <data name="mClearZoom.Text" xml:space="preserve">
+    <value>ئەسلى چوڭلىقىغا قايتۇرۇش</value>
+  </data>
+  <data name="mComplexViewMode.Text" xml:space="preserve">
+    <value>مۇرەككەپ كۆرۈنۈش ھالىتى </value>
+  </data>
+  <data name="mContentProtect.Text" xml:space="preserve">
+    <value>مەزمۇن قوغداش...</value>
+  </data>
+  <data name="mConvertContentToKBEntry.Text" xml:space="preserve">
+    <value>بىلىم ئامبىرى نوقتىسىغا ئايلاندۇرۇش </value>
+  </data>
+  <data name="mConvertFieldToContent.Text" xml:space="preserve">
+    <value>كىرگۈزۈش رايونىنى ھۆججەت مەزمۇنىغا ئايلاندۇرۇش</value>
+  </data>
+  <data name="mConvertFiles.Text" xml:space="preserve">
+    <value>ھۆججەتنى توپ ئايلاندۇرۇش</value>
+  </data>
+  <data name="mCopy.Text" xml:space="preserve">
+    <value>كۆچۈرۈش(&amp;C)</value>
+  </data>
+  <data name="mCut.Text" xml:space="preserve">
+    <value>كېسىش(&amp;T)</value>
+  </data>
+  <data name="mDataSourceList.Text" xml:space="preserve">
+    <value>بىلىم ئامبىرى تىزىملىكى </value>
+  </data>
+  <data name="mDBFileSystem.Text" xml:space="preserve">
+    <value>ساندان ھۆججەت سېستىمىسى قىلىپ بەلگىلەش</value>
+  </data>
+  <data name="mDebugOutWindow.Text" xml:space="preserve">
+    <value>سىناپ چىقىرىش كۆزنىكى</value>
+  </data>
+  <data name="mDelete.Text" xml:space="preserve">
+    <value>ئۆچۈرۈش(&amp;D)</value>
+  </data>
+  <data name="mDeleteAllComment.Text" xml:space="preserve">
+    <value>بارلىق ئىزاھاتلارنى ئۆچۈرۈش...</value>
+  </data>
+  <data name="mDeleteColumn.Text" xml:space="preserve">
+    <value>جەدۋەل ستونىنى ئۆچۈرۈش</value>
+  </data>
+  <data name="mDeleteComment.Text" xml:space="preserve">
+    <value>ئىزاھاتنى ئۆچۈرۈش...</value>
+  </data>
+  <data name="mDeleteRow.Text" xml:space="preserve">
+    <value>جەدۋەل قۇرىنى ئۆچۈرۈش</value>
+  </data>
+  <data name="mDeleteSection.Text" xml:space="preserve">
+    <value>ھۆججەت پاراگىرافىنى ئۆچۈرۈش</value>
+  </data>
+  <data name="mDeleteTable.Text" xml:space="preserve">
+    <value>جەدۋەلنى ئۆچۈرۈش</value>
+  </data>
+  <data name="mDesignMode.Text" xml:space="preserve">
+    <value>ۋاقىت ھالىتىنى لايىھلەش</value>
+  </data>
+  <data name="mDocumentDefaultFont.Text" xml:space="preserve">
+    <value>ھۆججەت كۆڭۈلدىكىدەك خەت نۇسخىسى...</value>
+  </data>
+  <data name="mDocumentValidate.Text" xml:space="preserve">
+    <value>سىناق : سېلىشتۇرما سانلىق مەلۇمات</value>
+  </data>
+  <data name="mDocumentValueValidate.Text" xml:space="preserve">
+    <value>پۈتكۈل ھۆججەت سانلىق مەلۇمات سېلىشتۇرمسىى</value>
+  </data>
+  <data name="mEditComment.Text" xml:space="preserve">
+    <value>ئىزاھاتنى تەھرىرلەش...</value>
+  </data>
+  <data name="mEditDocumentParameters.Text" xml:space="preserve">
+    <value>ھۆججەت پارامېتىرى...</value>
+  </data>
+  <data name="mEditImageShape.Text" xml:space="preserve">
+    <value>رەسىم تەھرىرلەش</value>
+  </data>
+  <data name="mEditKBEntry.Text" xml:space="preserve">
+    <value>ھازىرقى بىلىم ئامبىرى نوقتىسىنى تەھرىرلەش ...</value>
+  </data>
+  <data name="mEditVBAScript.Text" xml:space="preserve">
+    <value>ھۆججەت VB سىكرىپتىنى كۆرۈش ۋە تەھرىرلەش</value>
+  </data>
+  <data name="mElementProperties.Text" xml:space="preserve">
+    <value>خاسلىق...</value>
+  </data>
+  <data name="mElementVisibility.Text" xml:space="preserve">
+    <value>مەزمۇن كۆرۈنۈشچانلىق تەڭشىكى...</value>
+  </data>
+  <data name="menuClose.Text" xml:space="preserve">
+    <value>چېكىنىش(&amp;X)</value>
+  </data>
+  <data name="menuConfig.Text" xml:space="preserve">
+    <value>ھۆججەت تاللانمىسى...</value>
+  </data>
+  <data name="menuEdit.Text" xml:space="preserve">
+    <value>تەھرىرىلەش(&amp;E)</value>
+  </data>
+  <data name="menuFile.Text" xml:space="preserve">
+    <value>ھۆججەت(&amp;F)</value>
+  </data>
+  <data name="menuHelp.Text" xml:space="preserve">
+    <value>ياردەم(&amp;H)</value>
+  </data>
+  <data name="menuNewFile.Text" xml:space="preserve">
+    <value>يېڭىدىن ھۆججەت قۇرۇش (&amp;N)</value>
+  </data>
+  <data name="menuOpen.Text" xml:space="preserve">
+    <value>ئېچىش(&amp;O)...</value>
+  </data>
+  <data name="menuOpenNursingRecordDemo.Text" xml:space="preserve">
+    <value>ئاسىراش خاتىرىسى ھۆججىتىنى ئېچىش</value>
+  </data>
+  <data name="menuOpenXMLDemo.Text" xml:space="preserve">
+    <value>XML ھۆججىتى ئېچىش</value>
+  </data>
+  <data name="menuPageSettings.Text" xml:space="preserve">
+    <value>بەت تەڭشىكى...</value>
+  </data>
+  <data name="menuPrint.Text" xml:space="preserve">
+    <value>بېسىپ چىقىرىش(&amp;P)...</value>
+  </data>
+  <data name="menuSave.Text" xml:space="preserve">
+    <value>ساقلاش(&amp;S)</value>
+  </data>
+  <data name="menuSaveAs.Text" xml:space="preserve">
+    <value>باشقىچە ساقلاش...</value>
+  </data>
+  <data name="menuSpecifyPaste.Text" xml:space="preserve">
+    <value>تاللاشچان چاپلاش...</value>
+  </data>
+  <data name="menuView.Text" xml:space="preserve">
+    <value>كۆرۈنۈش(&amp;V)</value>
+  </data>
+  <data name="mExtCellProperties.Text" xml:space="preserve">
+    <value>كاتەكچە خاسلىقى...</value>
+  </data>
+  <data name="mExtension.Text" xml:space="preserve">
+    <value>كېڭەيتىش</value>
+  </data>
+  <data name="mExtTableProperties.Text" xml:space="preserve">
+    <value>جەدۋەل خاسلىقى...</value>
+  </data>
+  <data name="mExtTableRowProperties.Text" xml:space="preserve">
+    <value>جەدۋەل قۇر خاسلىقى...</value>
+  </data>
+  <data name="mFieldFixedWidth.Text" xml:space="preserve">
+    <value>كىرگۈزۈش رايونى مۇقىم كەڭلىك</value>
+  </data>
+  <data name="mFirstIndent.Text" xml:space="preserve">
+    <value>ئابزاس بېشىنى قىسىش</value>
+  </data>
+  <data name="mFont.Text" xml:space="preserve">
+    <value>خەت  نۇسخىسى...</value>
+  </data>
+  <data name="mFormat.Text" xml:space="preserve">
+    <value>فورمات(&amp;F)</value>
+  </data>
+  <data name="mFormatBrush.Text" xml:space="preserve">
+    <value>فورماتلاش چوتكىسى</value>
+  </data>
+  <data name="mFormViewMode.Text" xml:space="preserve">
+    <value>تالۇن كۆرۈنۈش ھالىتى</value>
+  </data>
+  <data name="mGetXMLDataSource.Text" xml:space="preserve">
+    <value>سىناق : XML سانلىق مەلۇمات مەنبەسىگە ئېرىشىش</value>
+  </data>
+  <data name="mHeaderRow.Text" xml:space="preserve">
+    <value>تېما قۇرى</value>
+  </data>
+  <data name="mInsert.Text" xml:space="preserve">
+    <value>قىستۇرۇش(&amp;I)</value>
+  </data>
+  <data name="mInsertBarcode.Text" xml:space="preserve">
+    <value>تاياقچە كود قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertCharacter.Text" xml:space="preserve">
+    <value>ئالاھىدە ھەرپ قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertCheckBox.Text" xml:space="preserve">
+    <value>كۆپ تاللاش رامكىسى ئىلمىنتى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertColumnLeft.Text" xml:space="preserve">
+    <value>سول تەرەپكە جەدۋەل ستونى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertColumnRight.Text" xml:space="preserve">
+    <value>ئوڭ تەرەپكە جەدۋەل ستونى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertComment2.Text" xml:space="preserve">
+    <value>ئىزاھات قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertContentLink.Text" xml:space="preserve">
+    <value>ھۆججەت مەزمۇن ئۇلانمىسىنى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertDateTime.Text" xml:space="preserve">
+    <value>چىسلانى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertDateTimeField.Text" xml:space="preserve">
+    <value>چىسلا كىرگۈزۈش رايونى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertFileBlock.Text" xml:space="preserve">
+    <value>ھۆججەت بۆلىكىنى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertFileContent.Text" xml:space="preserve">
+    <value>ھۆججەت مەزمۇنىنى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertHL.Text" xml:space="preserve">
+    <value>توغرا سىزىق قىستۇرۇش</value>
+  </data>
+  <data name="mInsertImage.Text" xml:space="preserve">
+    <value>رەسىم قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertInputField.Text" xml:space="preserve">
+    <value>ھۆججەت كىرگۈزۈش رايونىنى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertLabel.Text" xml:space="preserve">
+    <value>تېكىست خەتكۈچى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertListField.Text" xml:space="preserve">
+    <value>سىيرىلما تىزىملىك كىرگۈزۈش رايونى قىستۇرۇش...</value>
+  </data>
+  <data name="mInsertMedicalExpression.Text" xml:space="preserve">
+    <value>تىببى ئىپادە قىستۇرۇش</value>
+  </data>
+  <data name="mInsertPageBreak.Text" xml:space="preserve">
+    <value>بەت ئايرىش بەلگىسى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertPageInfo.Text" xml:space="preserve">
+    <value>بەت نومۇرى ئۇچۇرلىرىنى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertRowDown.Text" xml:space="preserve">
+    <value>ئاستىغا جەدۋەل قۇرى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertRowUp.Text" xml:space="preserve">
+    <value>ئۈستىگە جەدۋەل قۇرى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertSection.Text" xml:space="preserve">
+    <value>ماتىريال تۈگىنى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertShape.Text" xml:space="preserve">
+    <value>... شەكىل قىستۇرۇش</value>
+  </data>
+  <data name="mInsertSimpleList.Text" xml:space="preserve">
+    <value>سىناق:ئاددى سىرىلما مۇندەرىجە رايونى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertTable.Text" xml:space="preserve">
+    <value>جەدۋەل قىستۇرۇش</value>
+  </data>
+  <data name="mInsertTemperature.Text" xml:space="preserve">
+    <value>تېمپىراتورا بىرلىكى قىستۇرۇش</value>
+  </data>
+  <data name="mInsertXML.Text" xml:space="preserve">
+    <value>شەكىلدە قىستۇرۇشXML</value>
+  </data>
+  <data name="mInsertXmlFromClipboard.Text" xml:space="preserve">
+    <value>كودىنى قىستۇرۇشXMLسىناق:سېستىمىنىڭ كېسىپ چاپلاش تاختىسىدىن </value>
+  </data>
+  <data name="mJumpPrint.Text" xml:space="preserve">
+    <value>ئۇلاپ بېسىش ئەندىزىسى</value>
+  </data>
+  <data name="mLoadKBFromDB.Text" xml:space="preserve">
+    <value>سىناق:سانداندىن بىلىم ئامبىرىنى يۈكلەش</value>
+  </data>
+  <data name="mLoadKBLibrary.Text" xml:space="preserve">
+    <value>... بىلىم ئامبىرىنى يۈكلەش</value>
+  </data>
+  <data name="mLoadXMLDataSource.Text" xml:space="preserve">
+    <value>سىناق :XML سانلىق مەلۇمات مەنبەسىنى يۈكلەش</value>
+  </data>
+  <data name="mLocalFileSystem.Text" xml:space="preserve">
+    <value>يەرلىك ھۆججەت سېستىمىسى قىلىپ بېكىتىش</value>
+  </data>
+  <data name="mLogin.Text" xml:space="preserve">
+    <value>ئابونىتنى ئالماشتۇرۇش</value>
+  </data>
+  <data name="mMergeCell.Text" xml:space="preserve">
+    <value>كاتەكچىلەرنى بىرىكتۈرۈش</value>
+  </data>
+  <data name="mNormalViewMode.Text" xml:space="preserve">
+    <value>ئادەتتىكى كۆرۈنۈش ئەندىزىسى</value>
+  </data>
+  <data name="mNumerList.Text" xml:space="preserve">
+    <value>سانلىق مەلۇمات تۈرى شەكلى</value>
+  </data>
+  <data name="mOpenFormViewDemo.Text" xml:space="preserve">
+    <value>تالون ئۈلگە ھۆججىتىنى ئېچىش: دوختۇرخانىدا يېتىش كېسەللىك ئارخىپى</value>
+  </data>
+  <data name="mOpenOldXmlFile.Text" xml:space="preserve">
+    <value>كونا نۇسخىدىكى xml ھۆججەتنى ئېچىش</value>
+  </data>
+  <data name="mOpenUrl.Text" xml:space="preserve">
+    <value>URL ئادىرسىنى ئېچىش</value>
+  </data>
+  <data name="mPadding.Text" xml:space="preserve">
+    <value>ئىچكى ئارلىق</value>
+  </data>
+  <data name="mPageViewMode.Text" xml:space="preserve">
+    <value>بەت كۆرىنىش ئەندىزىسى</value>
+  </data>
+  <data name="mParagraphFormat.Text" xml:space="preserve">
+    <value>ئابزاس...</value>
+  </data>
+  <data name="mParagraphListStyle.Text" xml:space="preserve">
+    <value>ئابزاس مۇندەرىجە شەكلى</value>
+  </data>
+  <data name="mPaste.Text" xml:space="preserve">
+    <value>چاپلاش(&amp;P)</value>
+  </data>
+  <data name="mPermission.Text" xml:space="preserve">
+    <value>ھوقوق</value>
+  </data>
+  <data name="mPermissionConfig.Text" xml:space="preserve">
+    <value>ھوقوققا مۇناسىۋەتلىك تەڭشەك</value>
+  </data>
+  <data name="mPrintDocumentBackground.Text" xml:space="preserve">
+    <value>سىناق:ھۆججەتنى ئارقا سۇپىدا بېسىپ چىقىرىش</value>
+  </data>
+  <data name="mPrintMultiDocument.Text" xml:space="preserve">
+    <value>سىناق:كوپ ھۆججەتلەرنى بېسىپ چىقىرش</value>
+  </data>
+  <data name="mPrintSelection.Text" xml:space="preserve">
+    <value>تاللانغان مەزمۇننى بېسىپ چىقىرىش</value>
+  </data>
+  <data name="mRedo.Text" xml:space="preserve">
+    <value>قايتىلاش(R)</value>
+  </data>
+  <data name="mRightAlign.Text" xml:space="preserve">
+    <value>ئوڭغا توغۇرلاش</value>
+  </data>
+  <data name="mSearch.Text" xml:space="preserve">
+    <value>ئىزدەش(&amp;F)</value>
+  </data>
+  <data name="mSectionBorderBackgroundFormat.Text" xml:space="preserve">
+    <value>ھۆججەت تۈگۈن رامكىسى ۋە تەگلىك ...</value>
+  </data>
+  <data name="mSelectAll.Text" xml:space="preserve">
+    <value>ھەممىنى تاللاش(&amp;A)</value>
+  </data>
+  <data name="mSetDefaultEventExpression.Text" xml:space="preserve">
+    <value>كۆڭىلدىكى ھەركەت ئىپادىسى قىلىپ بېكىتىش...</value>
+  </data>
+  <data name="mSignDocument.Text" xml:space="preserve">
+    <value>قۇلۇپلانغان ھۆججەتكە ئىمزا قويۇش</value>
+  </data>
+  <data name="mSplitCellExt.Text" xml:space="preserve">
+    <value>كاتەكچىلەرنى پارچىلاش...</value>
+  </data>
+  <data name="mSub.Text" xml:space="preserve">
+    <value>ئاستى بەلگە</value>
+  </data>
+  <data name="mSup.Text" xml:space="preserve">
+    <value>ئۈستى بەلگە</value>
+  </data>
+  <data name="mTable.Text" xml:space="preserve">
+    <value>جەدۋەل </value>
+  </data>
+  <data name="mTest.Text" xml:space="preserve">
+    <value>سىناق</value>
+  </data>
+  <data name="mTestChangeEditorTextExt.Text" xml:space="preserve">
+    <value>سىناق:كىرگۈزۈش رايونى تېكىسنى ئۆزگەرتىش</value>
+  </data>
+  <data name="mTestChangeParagraphFormat.Text" xml:space="preserve">
+    <value>سىناق:ئابزاس تەڭشىكىنى ئۆزگەرتىش</value>
+  </data>
+  <data name="mTestInsertField.Text" xml:space="preserve">
+    <value>سىناق:دۆلەتلەر مۇندەرىجىسىنى قىستۇرۇش</value>
+  </data>
+  <data name="mTestInsertImage.Text" xml:space="preserve">
+    <value>سىناق:رەسىم قىستۇرۇش</value>
+  </data>
+  <data name="mTestInsertMedic.Text" xml:space="preserve">
+    <value>سىناق:دورا-ماتىرياللار مۇندەرىجىسىنى قىستۇرۇش</value>
+  </data>
+  <data name="mTestInsertString.Text" xml:space="preserve">
+    <value>سىناق:ھەرىپ-بەلگە تىزمىسى قىستۇرۇش</value>
+  </data>
+  <data name="mTestLoadKBFromURL.Text" xml:space="preserve">
+    <value>سىناق:URL دىن بىلىم ئامبىرىغا يۈكلەش...</value>
+  </data>
+  <data name="mTestSetDefaultStyle.Text" xml:space="preserve">
+    <value>سىناق:ھۆججەتنىڭ كۆڭىلدىكى شەكلىنى ئۆزگەرتىش</value>
+  </data>
+  <data name="mTestSetInputFieldText.Text" xml:space="preserve">
+    <value>سىناق:تېكىست كىرگۈزۈش رايۇنىنىڭ قىممىتىنى ئۆزگەرتىش</value>
+  </data>
+  <data name="mTestSetStyle.Text" xml:space="preserve">
+    <value>سىناق:كىرگۈزۈش رايونى مەزمۇنىنڭ شەكلىنى بەلگىلەش</value>
+  </data>
+  <data name="mTestSomething.Text" xml:space="preserve">
+    <value>سىناق:</value>
+  </data>
+  <data name="mTestUpdateData.Text" xml:space="preserve">
+    <value>سىناق:سانلىق مەلۇماتلارنى يېڭىلاش</value>
+  </data>
+  <data name="mTextColor.Text" xml:space="preserve">
+    <value>تېكىست رەڭگى</value>
+  </data>
+  <data name="mTitleLevel.Text" xml:space="preserve">
+    <value>تېما قەۋىتى</value>
+  </data>
+  <data name="mTools.Text" xml:space="preserve">
+    <value>قورال(&amp;T)</value>
+  </data>
+  <data name="mUndo.Text" xml:space="preserve">
+    <value>يېنىۋېلىش</value>
+  </data>
+  <data name="mUpdateDataSourceForView.Text" xml:space="preserve">
+    <value>ھۆججەتنىڭ مەزمۇنىغا ئاساسەن پارامىتىرلىرىنى بېكىتىش</value>
+  </data>
+  <data name="mUpdateViewForDataSource.Text" xml:space="preserve">
+    <value>پارامىتىرلىرغا ئاساسەن ھۆججەتنىڭ مەزمۇننى بېكىتىش</value>
+  </data>
+  <data name="mViewSelectionRTF.Text" xml:space="preserve">
+    <value>سىناق:تاللانغا مەزمۇننىڭ RTFكودىنى كۆرۈش</value>
+  </data>
+  <data name="mViewSelectionXML.Text" xml:space="preserve">
+    <value>سىناق:تاللانغا مەزمۇننىڭ XML كودىنى كۆرۈش</value>
+  </data>
+  <data name="mWordCount.Text" xml:space="preserve">
+    <value>خەت سانى سىتاستىكىسى</value>
+  </data>
+  <data name="mWriterCommandList.Text" xml:space="preserve">
+    <value>بۇيرۇق مۇندەرىجىسى</value>
+  </data>
+  <data name="mXML2RTF.Text" xml:space="preserve">
+    <value>سىناق:ئارقا سۇپىدا XMLنى RTFقا ئۆزگەرتىدۇ</value>
+  </data>
+  <data name="mZoomIn.Text" xml:space="preserve">
+    <value>چوڭايتىش</value>
+  </data>
+  <data name="mZoomOut.Text" xml:space="preserve">
+    <value>كىچىكلىتىش</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>سانلىق مەلۇمات مەنبەسى</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>بىلىم ئامبىرى</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>يېڭىدىن قۇرۇش</value>
+  </data>
+  <data name="toolStripButton10.Text" xml:space="preserve">
+    <value>يانتو خەت</value>
+  </data>
+  <data name="toolStripButton11.Text" xml:space="preserve">
+    <value>ئاستى سىزىق</value>
+  </data>
+  <data name="toolStripButton12.Text" xml:space="preserve">
+    <value>سولغا توغۇرلاش</value>
+  </data>
+  <data name="toolStripButton13.Text" xml:space="preserve">
+    <value>ئوتتۇرغا توغۇرلاش</value>
+  </data>
+  <data name="toolStripButton14.Text" xml:space="preserve">
+    <value>ئوڭغا توغۇرلاش</value>
+  </data>
+  <data name="toolStripButton17.Text" xml:space="preserve">
+    <value>ئۈستى بەلگە</value>
+  </data>
+  <data name="toolStripButton18.Text" xml:space="preserve">
+    <value>ئاستى بەلگە</value>
+  </data>
+  <data name="toolStripButton19.Text" xml:space="preserve">
+    <value>ئېچىش ..</value>
+  </data>
+  <data name="toolStripButton2.Text" xml:space="preserve">
+    <value>ساقلاش</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>كىسىپ ئېلىش</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>كۆچۈرۈش</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>چاپلاش</value>
+  </data>
+  <data name="toolStripButton6.Text" xml:space="preserve">
+    <value>يېنىۋېلىش</value>
+  </data>
+  <data name="toolStripButton7.Text" xml:space="preserve">
+    <value>قايتىدىن قىلىش</value>
+  </data>
+  <data name="toolStripButton8.Text" xml:space="preserve">
+    <value>خەت نۇسخىسى</value>
+  </data>
+  <data name="toolStripButton9.Text" xml:space="preserve">
+    <value>توم خەت</value>
+  </data>
+  <data name="toolStripMenuItem10.Text" xml:space="preserve">
+    <value>XML كودىنى تەكشۇرۇش</value>
+  </data>
+  <data name="toolStripMenuItem11.Text" xml:space="preserve">
+    <value>بېسىپ چىقىرىش ئالدىن كۆرۈش</value>
+  </data>
+  <data name="toolStripMenuItem12.Text" xml:space="preserve">
+    <value>تىزىملاش...</value>
+  </data>
+  <data name="toolStripMenuItem13.Text" xml:space="preserve">
+    <value>ھۆججەتنىڭ مەزمۇننى كىرگۈزۈش رايونىغا ئايلاندۇرۇش</value>
+  </data>
+  <data name="toolStripMenuItem14.Text" xml:space="preserve">
+    <value>كونترول قىستۇرۇش...</value>
+  </data>
+  <data name="toolStripMenuItem15.Text" xml:space="preserve">
+    <value>قايتىلاش</value>
+  </data>
+  <data name="toolStripMenuItem16.Text" xml:space="preserve">
+    <value>يېنىۋېلىش</value>
+  </data>
+  <data name="toolStripMenuItem17.Text" xml:space="preserve">
+    <value>مۇندەرىجىنى كىرگۈزۈش رايونىغا قىستۇرۇش...</value>
+  </data>
+  <data name="toolStripMenuItem18.Text" xml:space="preserve">
+    <value>خەتنىڭ ئىچىگە قىستۇرش</value>
+  </data>
+  <data name="toolStripMenuItem19.Text" xml:space="preserve">
+    <value>خەتنىڭ ئەتراپىنى ئوراپ تۇرغان</value>
+  </data>
+  <data name="toolStripMenuItem20.Text" xml:space="preserve">
+    <value>ھۆججەت ئېلىمىنت ھادىسىسى VB قوليازمىسىنى كۆرۈش ۋە تەھرىرلەش</value>
+  </data>
+  <data name="toolStripMenuItem21.Text" xml:space="preserve">
+    <value>رەڭگى</value>
+  </data>
+  <data name="toolStripMenuItem22.Text" xml:space="preserve">
+    <value>خەت نۇسخىسى...</value>
+  </data>
+  <data name="toolStripMenuItem23.Text" xml:space="preserve">
+    <value>سولغا توغۇرلاش</value>
+  </data>
+  <data name="toolStripMenuItem24.Text" xml:space="preserve">
+    <value>ئوتتۇرغا توغۇرلاش</value>
+  </data>
+  <data name="toolStripMenuItem25.Text" xml:space="preserve">
+    <value>ئوڭغا توغۇرلاش</value>
+  </data>
+  <data name="toolStripMenuItem26.Text" xml:space="preserve">
+    <value>كاتەكچە خاسلىقى</value>
+  </data>
+  <data name="toolStripMenuItem27.Text" xml:space="preserve">
+    <value>كاتەكچە مەزمۇننىڭ توغىرلىنىش شەكلى</value>
+  </data>
+  <data name="toolStripMenuItem28.Text" xml:space="preserve">
+    <value>ئۈستى سولغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem29.Text" xml:space="preserve">
+    <value>ئۈستى ئوتتۇغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem30.Text" xml:space="preserve">
+    <value>ئۈستى ئوڭغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem31.Text" xml:space="preserve">
+    <value>تىك ئوتۇرى سولغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem32.Text" xml:space="preserve">
+    <value>تىل ئوتتۇرى گورزىنتال ئوتتۇرىغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem33.Text" xml:space="preserve">
+    <value>تىك ئوتتۇرا ئوڭغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem34.Text" xml:space="preserve">
+    <value>ئاستى سولغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem35.Text" xml:space="preserve">
+    <value>ئاستى ئوتتۇرىغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem36.Text" xml:space="preserve">
+    <value>ئاستى ئوڭغا توغىرلاش</value>
+  </data>
+  <data name="toolStripMenuItem37.Text" xml:space="preserve">
+    <value>ئۈستىگە جەدۋەل قۇرى قىستۇرۇش</value>
+  </data>
+  <data name="toolStripMenuItem38.Text" xml:space="preserve">
+    <value>ئاستىغا جەدۋەل قۇرى قىستۇرۇش</value>
+  </data>
+  <data name="toolStripMenuItem39.Text" xml:space="preserve">
+    <value>جەدۋەل قۇرىنى ئۆچۈرۈش</value>
+  </data>
+  <data name="toolStripMenuItem40.Text" xml:space="preserve">
+    <value>سولغا جەدۋەل قۇرى قىستۇرۇش</value>
+  </data>
+  <data name="toolStripMenuItem41.Text" xml:space="preserve">
+    <value>ئوڭغا جەدۋەل سىتونى قىستۇرۇش</value>
+  </data>
+  <data name="toolStripMenuItem42.Text" xml:space="preserve">
+    <value>جەدۋەل سىتونىنى ئۆچۈرۈش</value>
+  </data>
+  <data name="toolStripMenuItem43.Text" xml:space="preserve">
+    <value>كاتەكچىلەرنى بىرىكتۈرۈش</value>
+  </data>
+  <data name="toolStripMenuItem44.Text" xml:space="preserve">
+    <value>كاتەكچىلەرنى پارچىلاش</value>
+  </data>
+  <data name="toolStripMenuItem45.Text" xml:space="preserve">
+    <value>قايتىلاش</value>
+  </data>
+  <data name="toolStripMenuItem46.Text" xml:space="preserve">
+    <value>يېنىۋېلىش</value>
+  </data>
+  <data name="toolStripMenuItem47.Text" xml:space="preserve">
+    <value>كىسىپ ئېلىش</value>
+  </data>
+  <data name="toolStripMenuItem48.Text" xml:space="preserve">
+    <value>كۆچۈرۈش</value>
+  </data>
+  <data name="toolStripMenuItem49.Text" xml:space="preserve">
+    <value>چاپلاش</value>
+  </data>
+  <data name="toolStripMenuItem50.Text" xml:space="preserve">
+    <value>ئۆچۈرۈش</value>
+  </data>
+  <data name="toolStripMenuItem51.Text" xml:space="preserve">
+    <value>كىسىپ ئېلىش</value>
+  </data>
+  <data name="toolStripMenuItem52.Text" xml:space="preserve">
+    <value>كۆچۈرۈش</value>
+  </data>
+  <data name="toolStripMenuItem53.Text" xml:space="preserve">
+    <value>چاپلاش</value>
+  </data>
+  <data name="toolStripMenuItem56.Text" xml:space="preserve">
+    <value>خاسلىقى...</value>
+  </data>
+  <data name="toolStripMenuItem57.Text" xml:space="preserve">
+    <value>رامكا ۋە نەقىش</value>
+  </data>
+  <data name="toolStripMenuItem58.Text" xml:space="preserve">
+    <value>رەسىمنى تەھرىرلەش</value>
+  </data>
+  <data name="toolStripMenuItem7.Text" xml:space="preserve">
+    <value>پاكىز بېسىپ چىقىرىش</value>
+  </data>
+  <data name="toolStripMenuItem9.Text" xml:space="preserve">
+    <value>قالدۇق ئىزنى تازلاش</value>
+  </data>
+  <data name="测试2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>سىناق 2</value>
+  </data>
+  <data name="插入ToolStripMenuItem.Text" xml:space="preserve">
+    <value>قىستۇرۇش</value>
+  </data>
+  <data name="执行命令ToolStripMenuItem.Text" xml:space="preserve">
+    <value>بۇيرۇقنى ئىجرا قىلىش</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ALKATIP Tor Tom,9pt</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft,System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean,mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+</root>

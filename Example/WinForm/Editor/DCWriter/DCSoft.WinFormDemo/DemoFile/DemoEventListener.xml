@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1111.26211">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextBody">
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>DCWriter事件监听器演示</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" />
+        <Element xsi:type="XParagraphFlag" />
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>本文档演示了DCWriter的事件监听器功能，使用该功能，开发者可以很容易的为各种文档元素绑定事件监听功能，关于事件监听功能可参考DCWriter中的用户手册。</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="2" />
+        <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+        <Element xsi:type="XString" StyleIndex="1">
+          <Text>演示1.监听鼠标事件：</Text>
+        </Element>
+        <Element xsi:type="XParagraphFlag" StyleIndex="3" />
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextHeader">
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2012-12-18T15:18:57.8880329+08:00</CreationTime>
+    <LastModifiedTime>2012-12-18T15:18:57.8880329+08:00</LastModifiedTime>
+    <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1111.26211</Operator>
+    <NumOfPage>1</NumOfPage>
+  </Info>
+  <BodyText>DCWriter事件监听器演示
+
+本文档演示了DCWriter的事件监听器功能，使用该功能，开发者可以很容易的为各种文档元素绑定事件监听功能，关于事件监听功能可参考DCWriter中的用户手册。
+
+演示1.监听鼠标事件：
+</BodyText>
+  <UserHistories />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+      <FontSize>12</FontSize>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Align>Center</Align>
+      </Style>
+      <Style Index="1" />
+      <Style Index="2">
+        <FirstLineIndent>100</FirstLineIndent>
+        <DefaultValuePropertyNames>BulletedList,LeftIndent,NumberedList</DefaultValuePropertyNames>
+      </Style>
+      <Style Index="3">
+        <DefaultValuePropertyNames>BulletedList,LeftIndent,NumberedList</DefaultValuePropertyNames>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <DocumentGraphicsUnit>Document</DocumentGraphicsUnit>
+  <PageSettings />
+</XTextDocument>

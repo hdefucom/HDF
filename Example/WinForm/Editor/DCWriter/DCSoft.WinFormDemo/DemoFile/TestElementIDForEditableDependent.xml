@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2014.4.30">
+   <Attributes />
+   <XElements>
+      <Element xsi:type="XTextHeader">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" StyleIndex="0" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextBody">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XTextRadioBox">
+               <Attributes />
+               <ID>aaa_1</ID>
+               <PropertyExpressions />
+               <ScriptItems />
+               <Name>aaa</Name>
+               <Caption>无</Caption>
+               <Width>122</Width>
+               <Height>62</Height>
+               <GroupName>aaa</GroupName>
+               <ControlStyle>RadioBox</ControlStyle>
+               <CheckedValue>0</CheckedValue>
+               <EventExpressions />
+            </Element>
+            <Element xsi:type="XTextRadioBox">
+               <Attributes />
+               <ID>aaa_2</ID>
+               <PropertyExpressions />
+               <ScriptItems />
+               <Name>aaa</Name>
+               <Caption>有</Caption>
+               <Width>122</Width>
+               <Height>62</Height>
+               <GroupName>aaa</GroupName>
+               <ControlStyle>RadioBox</ControlStyle>
+               <Checked>true</Checked>
+               <CheckedValue>1</CheckedValue>
+               <EventExpressions />
+            </Element>
+            <Element xsi:type="XInputField" StyleIndex="1">
+               <Attributes />
+               <ID>field1</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ElementIDForEditableDependent>aaa_2</ElementIDForEditableDependent>
+               <ContentReadonly>False</ContentReadonly>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>只有勾选了前面的选项“有”，本输入域才能输入内容。</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue>只有勾选了前面的选项“有”，本输入域才能输入内容。</InnerValue>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XParagraphFlag" />
+            <Element xsi:type="XTextCheckBox">
+               <Attributes />
+               <ID>chk_1</ID>
+               <PropertyExpressions />
+               <ScriptItems />
+               <Caption>选项1</Caption>
+               <Width>196.999985</Width>
+               <Height>62</Height>
+               <Checked>true</Checked>
+               <CheckedValue>选项1</CheckedValue>
+               <EventExpressions />
+            </Element>
+            <Element xsi:type="XTextCheckBox">
+               <Attributes />
+               <ID>chk_2</ID>
+               <PropertyExpressions />
+               <ScriptItems />
+               <Caption>选项2</Caption>
+               <Width>196.999985</Width>
+               <Height>62</Height>
+               <CheckedValue>选项2</CheckedValue>
+               <EventExpressions />
+            </Element>
+            <Element xsi:type="XInputField">
+               <Attributes />
+               <ID>field2</ID>
+               <EnableValueValidate>true</EnableValueValidate>
+               <ElementIDForEditableDependent>chk_2</ElementIDForEditableDependent>
+               <ContentReadonly>True</ContentReadonly>
+               <Expressions />
+               <ScriptItems />
+               <XElements>
+                  <Element xsi:type="XString">
+                     <Text>只有勾选了前面的选项“选项2”，本输入域才能输入内容。</Text>
+                  </Element>
+               </XElements>
+               <BorderElementColor />
+               <RuntimeBackgroundTextColor />
+               <RuntimeMoveFocusHotKey>Tab</RuntimeMoveFocusHotKey>
+               <EventExpressions />
+               <InnerValue>只有勾选了前面的选项“选项2”，本输入域才能输入内容。</InnerValue>
+            </Element>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+      <Element xsi:type="XTextFooter">
+         <Attributes />
+         <Expressions />
+         <ScriptItems />
+         <XElements>
+            <Element xsi:type="XParagraphFlag" />
+         </XElements>
+      </Element>
+   </XElements>
+   <RepeatedImages />
+   <GlobalJavaScriptReferences />
+   <Info>
+      <LicenseText>南京都昌信息科技有限公司2016年度测试版:南京都昌信息科技有限公司2016年度测试版</LicenseText>
+      <CreationTime>1980-01-01T00:00:00</CreationTime>
+      <LastModifiedTime>2016-01-15T10:31:21.9663782+08:00</LastModifiedTime>
+      <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+      <Operator>DCSoft.Writer Version:1.2014.4.30</Operator>
+      <NumOfPage>1</NumOfPage>
+   </Info>
+   <BodyText>○无●有只有勾选了前面的选项“有”，本输入域才能输入内容。
+
+■选项1□选项2只有勾选了前面的选项“选项2”，本输入域才能输入内容。</BodyText>
+   <Comments />
+   <LocalConfig />
+   <PageSettings />
+   <UserHistories />
+   <Parameters>
+      <Parameter Name="当前时间" />
+   </Parameters>
+   <ContentStyles>
+      <Default xsi:type="DocumentContentStyle">
+         <FontName>宋体</FontName>
+         <FontSize>12</FontSize>
+      </Default>
+      <Styles>
+         <Style Index="0">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+            <Align>Center</Align>
+         </Style>
+         <Style Index="1">
+            <FontName>宋体</FontName>
+            <FontSize>12</FontSize>
+         </Style>
+      </Styles>
+   </ContentStyles>
+   <FileName>E:\Source\DCSoft\08代码\DCSoft\DCSoft.Writer.Demo\WinFormDemo\DemoFile\TestContentReadonlyBindingTargetID.xml</FileName>
+   <FileFormat>XML</FileFormat>
+</XTextDocument>

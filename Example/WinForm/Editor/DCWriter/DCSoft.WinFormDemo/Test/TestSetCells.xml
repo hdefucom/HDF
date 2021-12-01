@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.1.1413.26617">
+  <Attributes />
+  <XElements>
+    <Element xsi:type="XTextBody">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XTextTable" NumOfRows="3" NumOfColumns="5">
+          <Expressions />
+          <Attributes />
+          <ID>PatientTable</ID>
+          <XElements>
+            <Element xsi:type="XTextTableRow" StyleIndex="1">
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="2">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="3">
+                      <Text>编号</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="2">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="3">
+                      <Text>姓名</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="2">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="3">
+                      <Text>性别</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="2">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="3">
+                      <Text>科室</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="2">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XString" StyleIndex="3">
+                      <Text>地址</Text>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+            <Element xsi:type="XTextTableRow" StyleIndex="1">
+              <EventTemplateName>病人信息表格行</EventTemplateName>
+              <CloneType>ContentWithClearField</CloneType>
+              <Expressions />
+              <Attributes />
+              <XElements>
+                <Element xsi:type="XTextTableCell" StyleIndex="6">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="8">
+                      <Name>ID</Name>
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="7">
+                          <Text>00004613</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>00004613</TextValue>
+                      <InnerValue>00004613</InnerValue>
+                      <BackgroundText>编号</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="4" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="6">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="9">
+                      <Name>Name</Name>
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="3">
+                          <Text>张三</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>张三</TextValue>
+                      <InnerValue>张三</InnerValue>
+                      <BackgroundText>姓名</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="6">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="9">
+                      <Name>Sex</Name>
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="3">
+                          <Text>男</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>男</TextValue>
+                      <InnerValue>男</InnerValue>
+                      <BackgroundText>性别</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="6">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="10">
+                      <Name>Space</Name>
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="3">
+                          <Text>神经内科</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>神经内科</TextValue>
+                      <InnerValue>神经内科</InnerValue>
+                      <BackgroundText>科室</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+                <Element xsi:type="XTextTableCell" StyleIndex="6">
+                  <Expressions />
+                  <Attributes />
+                  <XElements>
+                    <Element xsi:type="XInputField" StyleIndex="9">
+                      <Name>Home</Name>
+                      <Attributes />
+                      <XElements>
+                        <Element xsi:type="XString" StyleIndex="3">
+                          <Text>陕西扶风</Text>
+                        </Element>
+                      </XElements>
+                      <TextValue>陕西扶风</TextValue>
+                      <InnerValue>陕西扶风</InnerValue>
+                      <BackgroundText>地址</BackgroundText>
+                    </Element>
+                    <Element xsi:type="XParagraphFlag" StyleIndex="5" />
+                  </XElements>
+                </Element>
+              </XElements>
+            </Element>
+             
+          </XElements>
+          <Columns>
+            <Element xsi:type="XTextTableColumn">
+              <Width>354</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>354</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>354</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>355</Width>
+            </Element>
+            <Element xsi:type="XTextTableColumn">
+              <Width>355</Width>
+            </Element>
+          </Columns>
+        </Element>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+      <Sections />
+    </Element>
+    <Element xsi:type="XTextHeader">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag" StyleIndex="0">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+    <Element xsi:type="XTextFooter">
+      <Expressions />
+      <Attributes />
+      <XElements>
+        <Element xsi:type="XParagraphFlag">
+          <AutoCreate>true</AutoCreate>
+        </Element>
+      </XElements>
+    </Element>
+  </XElements>
+  <Info>
+    <CreationTime>2013-06-13T15:34:04.3141614+08:00</CreationTime>
+    <LastModifiedTime>2013-06-13T15:34:04.3141614+08:00</LastModifiedTime>
+    <LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+    <Operator>DCSoft.Writer Version:1.1.1413.26617</Operator>
+    <NumOfPage>1</NumOfPage>
+  </Info>
+  <BodyText>编号
+姓名
+性别
+科室
+地址
+00004613
+张三
+男
+神经内科
+陕西扶风
+编号
+姓名
+性别
+科室
+地址
+
+</BodyText>
+  <UserHistories />
+  <ContentStyles>
+    <Default xsi:type="DocumentContentStyle">
+      <Color>ControlText</Color>
+      <FontName>宋体</FontName>
+      <FontSize>12</FontSize>
+    </Default>
+    <Styles>
+      <Style Index="0">
+        <Align>Center</Align>
+      </Style>
+      <Style Index="1">
+        <BackgroundColor />
+      </Style>
+      <Style Index="2">
+        <BackgroundColor>217, 217, 217</BackgroundColor>
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <BorderWidth>1</BorderWidth>
+        <BorderLeft>true</BorderLeft>
+        <BorderBottom>true</BorderBottom>
+        <BorderTop>true</BorderTop>
+        <BorderRight>true</BorderRight>
+        <PaddingLeft>22</PaddingLeft>
+        <PaddingRight>22</PaddingRight>
+      </Style>
+      <Style Index="3">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>10.5</FontSize>
+      </Style>
+      <Style Index="4">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <Align>Justify</Align>
+        <BorderWidth>10</BorderWidth>
+      </Style>
+      <Style Index="5">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <BorderWidth>10</BorderWidth>
+      </Style>
+      <Style Index="6">
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <BorderWidth>1</BorderWidth>
+        <BorderLeft>true</BorderLeft>
+        <BorderBottom>true</BorderBottom>
+        <BorderTop>true</BorderTop>
+        <BorderRight>true</BorderRight>
+        <PaddingLeft>22</PaddingLeft>
+        <PaddingRight>22</PaddingRight>
+      </Style>
+      <Style Index="7">
+        <BackgroundColor />
+        <FontName>Calibri</FontName>
+        <FontSize>10.5</FontSize>
+      </Style>
+      <Style Index="8">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <Align>Justify</Align>
+        <BorderWidth>10</BorderWidth>
+      </Style>
+      <Style Index="9">
+        <BackgroundColor />
+        <FontName>宋体</FontName>
+        <FontSize>12</FontSize>
+        <BorderWidth>10</BorderWidth>
+      </Style>
+      <Style Index="10">
+        <BackgroundColor />
+        <FontName>Calibri</FontName>
+        <FontSize>12</FontSize>
+      </Style>
+    </Styles>
+  </ContentStyles>
+  <PageSettings>
+    <ViewLeftMargin>300</ViewLeftMargin>
+    <ViewTopMargin>300</ViewTopMargin>
+    <ViewRightMargin>300</ViewRightMargin>
+    <ViewBottomMargin>300</ViewBottomMargin>
+    <ViewPaperWidth>2481</ViewPaperWidth>
+    <ViewPaperHeight>3507</ViewPaperHeight>
+  </PageSettings>
+</XTextDocument>

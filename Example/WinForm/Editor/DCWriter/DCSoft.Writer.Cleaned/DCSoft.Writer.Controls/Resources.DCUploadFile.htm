@@ -1,0 +1,40 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>上传文件</title>
+	</head>
+	<body>
+	    <form id="form1" action="" method="post" onsubmit="OnSubmit();" enctype="multipart/form-data">
+           <span>请选择要上传的文件:</span>
+           <br />
+           <input type="file" name="file" id="file" style="width:100%"/>
+           <br />
+           <hr />
+           <center> 
+           <input type="submit" value="确定"   />
+           <input type="button" value="取消" onclick="CancelUpload();"/>
+           <input type="hidden" id="fileid" name="fileid" />
+           
+           </center>
+        </form>
+        <script language="javascript">
+            function CancelUpload() {
+                if (window.frameElement.cancelCallback) {
+                    window.frameElement.cancelCallback();
+                }
+            }
+            function OnSubmit() {
+                if (window.frameElement.okCallback) {
+                    window.frameElement.okCallback();
+                }
+                return true;
+            }
+            if (window.frameElement.fileID) {
+                document.getElementById("fileid").value = window.frameElement.fileID;
+            }
+            if (window.frameElement.accept) {
+                document.getElementById("file").setAttribute("accept", window.frameElement.accept);
+            }
+        </script>
+	</body>
+</html>
