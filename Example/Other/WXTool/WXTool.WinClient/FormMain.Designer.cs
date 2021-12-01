@@ -1,4 +1,4 @@
-﻿namespace WXTool.WebService
+﻿namespace WXTool.WinClient
 {
     partial class FormMain
     {

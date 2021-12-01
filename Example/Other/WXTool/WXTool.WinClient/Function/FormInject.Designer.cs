@@ -1,4 +1,4 @@
-﻿namespace WXTool.WebService.Function
+﻿namespace WXTool.WinClient.Function
 {
     partial class FormInject
     {

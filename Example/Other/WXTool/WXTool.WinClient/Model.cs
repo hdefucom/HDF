@@ -1,4 +1,4 @@
-﻿namespace WXTool.WebService;
+﻿namespace WXTool.WinClient;
 
 /// <summary>
 /// 微信用户实体（包括个人、群聊、公众号）

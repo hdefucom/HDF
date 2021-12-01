@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace WXTool.WebService.Function
+namespace WXTool.WinClient.Function
 {
     public partial class FormInject : Form
     {
