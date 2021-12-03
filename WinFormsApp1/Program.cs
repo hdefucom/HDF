@@ -1,8 +1,10 @@
 
+using HDF.Common.Windows;
 using Nelibur.ObjectMapper;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.IO;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -24,42 +26,22 @@ static class Program
     {
 
 
+
+
+
+
+
+
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
         Application.Run(new Form4());
-    }
 
 
 
-
-}
-
-
-
-
-public struct ValueWithUnit<T>
-{
-    public T Value { get; set; }
-    public string Unit { get; set; }
-}
-
-
-public class FFF : Form
-{
-
-    protected override void OnGotFocus(EventArgs e)
-    {
-        base.OnGotFocus(e);
-    }
-
-
-
-    protected override void DefWndProc(ref Message m)
-    {
-        base.DefWndProc(ref m);
 
 
     }
+
 
 
 

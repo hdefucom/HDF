@@ -2,17 +2,22 @@
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+
+
+--**********************************************************用户表
+
+
 CREATE TABLE [dbo].[Users](
 	[UserId] [int] IDENTITY(1,1) NOT NULL,
-	[UserCode] [varchar](50) NOT NULL,
-	[UserName] [varchar](50) NULL,
+	[UserCode] [nvarchar](50) NOT NULL,
+	[UserName] [nvarchar](50) NULL,
 	[UserPassword] [varbinary](50) NULL,
 	[IsValid] [bit] NOT NULL,
-	[CreateUserCode] [varchar](50) NULL,
+	[CreateUserCode] [nvarchar](50) NULL,
 	[CreateTime] [datetime] NULL,
-	[ModifyUserCode] [varchar](50) NULL,
+	[ModifyUserCode] [nvarchar](50) NULL,
 	[ModifyTime] [datetime] NULL,
-	[DeleteUserCode] [varchar](50) NULL,
+	[DeleteUserCode] [nvarchar](50) NULL,
 	[DeleteTime] [datetime] NULL
 ) ON [PRIMARY]
 GO
@@ -33,26 +38,18 @@ EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'用户密码' 
 GO
 
 
+--**********************************************************角色表
 
-
-
-
---insert into users([UserCode],[UserName]) values('hdf','黄德富')
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
 CREATE TABLE [dbo].[Roles](
 	[RoleId] [int] IDENTITY(1,1) NOT NULL,
-	[RoleCode] [varchar](200) NULL,
-	[RoleName] [varchar](200) NULL,
+	[RoleCode] [nvarchar](200) NULL,
+	[RoleName] [nvarchar](200) NULL,
 	[IsValid] [bit] NOT NULL,
-	[CreateUserCode] [varchar](50) NULL,
+	[CreateUserCode] [nvarchar](50) NULL,
 	[CreateTime] [datetime] NULL,
-	[ModifyUserCode] [varchar](50) NULL,
+	[ModifyUserCode] [nvarchar](50) NULL,
 	[ModifyTime] [datetime] NULL,
-	[DeleteUserCode] [varchar](50) NULL,
+	[DeleteUserCode] [nvarchar](50) NULL,
 	[DeleteTime] [datetime] NULL
 ) ON [PRIMARY]
 GO
@@ -71,24 +68,19 @@ EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'角色名称' 
 GO
 
 
+--**********************************************************菜单表
 
-
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
 CREATE TABLE [dbo].[Menus](
 	[MenuId] [int] IDENTITY(1,1) NOT NULL,
-	[MenuCode] [varchar](200) NULL,
-	[MenuName] [varchar](200) NULL,
+	[MenuCode] [nvarchar](200) NULL,
+	[MenuName] [nvarchar](200) NULL,
 	[ParentId] [int] NULL,
 	[IsValid] [bit] NOT NULL,
-	[CreateUserCode] [varchar](50) NULL,
+	[CreateUserCode] [nvarchar](50) NULL,
 	[CreateTime] [datetime] NULL,
-	[ModifyUserCode] [varchar](50) NULL,
+	[ModifyUserCode] [nvarchar](50) NULL,
 	[ModifyTime] [datetime] NULL,
-	[DeleteUserCode] [varchar](50) NULL,
+	[DeleteUserCode] [nvarchar](50) NULL,
 	[DeleteTime] [datetime] NULL
 ) ON [PRIMARY]
 GO
@@ -109,15 +101,7 @@ EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'父级菜单�
 GO
 
 
-
-
-
-
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
+--**********************************************************用户角色表
 CREATE TABLE [dbo].[UserRoles](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[UserId] [int] NULL,
@@ -132,14 +116,7 @@ GO
 
 
 
-
-
-
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
+--**********************************************************角色菜单表
 CREATE TABLE [dbo].[RoleMenus](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[RoleId] [int] NULL,
@@ -153,41 +130,26 @@ ALTER TABLE [dbo].[RoleMenus] ADD PRIMARY KEY CLUSTERED
 GO
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
+--**********************************************************文档表
 CREATE TABLE [dbo].[Books](
 	[BookId] [int] IDENTITY(1,1) NOT NULL,
-	[BookName] [varchar](200) NULL,
-	[PMID] [varchar](200) NULL,
-	[DOI] [varchar](200) NULL,
-	[LongUrl] [varchar](500) NULL,
-	[ShortUrl] [varchar](500) NULL,
+	[BookName] [nvarchar](200) NULL,
+	[PMID] [nvarchar](200) NULL,
+	[DOI] [nvarchar](200) NULL,
+	[LongUrl] [nvarchar](500) NULL,
+	[ShortUrl] [nvarchar](500) NULL,
 	[ShortUrlCreateTime] [datetime] NULL,
-	[Author] [varchar](200) NULL,
-	[Source] [varchar](200) NULL,
-	[OuterChain1] [varchar](500) NULL,
-	[OuterChain2] [varchar](500) NULL,
-	[OuterChain3] [varchar](500) NULL,
+	[Author] [nvarchar](200) NULL,
+	[Source] [nvarchar](200) NULL,
+	[OuterChain1] [nvarchar](500) NULL,
+	[OuterChain2] [nvarchar](500) NULL,
+	[OuterChain3] [nvarchar](500) NULL,
 	[IsValid] [bit] NOT NULL,
-	[CreateUserCode] [varchar](50) NULL,
+	[CreateUserCode] [nvarchar](50) NULL,
 	[CreateTime] [datetime] NULL,
-	[ModifyUserCode] [varchar](50) NULL,
+	[ModifyUserCode] [nvarchar](50) NULL,
 	[ModifyTime] [datetime] NULL,
-	[DeleteUserCode] [varchar](50) NULL,
+	[DeleteUserCode] [nvarchar](50) NULL,
 	[DeleteTime] [datetime] NULL
 ) ON [PRIMARY]
 GO
