@@ -25,7 +25,10 @@ static class Program
     static unsafe void Main()
     {
 
+        int? i1 = null;
 
+
+        Nullable<int> i2 = null;
 
 
 
