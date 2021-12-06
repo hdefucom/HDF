@@ -1,7 +1,10 @@
-﻿namespace WXTool.Web.Models;
+﻿using System.ComponentModel;
+
+namespace WXTool.Web.Models;
 
 public abstract class BaseEntity
 {
+    [DefaultValue(true)]
     public bool IsValid { get; set; }
 
     public string CreateUserCode { get; set; }

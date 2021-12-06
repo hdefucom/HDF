@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace WXTool.Web.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -22,6 +22,18 @@ namespace WXTool.Web.Controllers
         {
             _logger = logger;
         }
+
+
+
+        [HttpGet]
+        public DateTime GetCurrentDateTime() => DateTime.Now;
+
+
+
+        [HttpGet]
+        public string GetString() => "aaaa";
+
+
 
         //[HttpGet]
         //public IEnumerable<WeatherForecast> Get()

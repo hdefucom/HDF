@@ -11,7 +11,7 @@ CREATE TABLE [dbo].[Users](
 	[UserId] [int] IDENTITY(1,1) NOT NULL,
 	[UserCode] [nvarchar](50) NOT NULL,
 	[UserName] [nvarchar](50) NULL,
-	[UserPassword] [varbinary](50) NULL,
+	[UserPassword] [nvarchar](50) NULL,
 	[IsValid] [bit] NOT NULL,
 	[CreateUserCode] [nvarchar](50) NULL,
 	[CreateTime] [datetime] NULL,
