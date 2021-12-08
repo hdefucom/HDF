@@ -1,6 +1,8 @@
 
 using HDF.Common.Windows;
 using Nelibur.ObjectMapper;
+using Newtonsoft.Json;
+using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -8,14 +10,13 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace WinFormsApp1;
 
 static class Program
 {
-
-
 
     /// <summary>
     ///  The main entry point for the application.
@@ -24,14 +25,20 @@ static class Program
     //[MTAThread]
     static unsafe void Main()
     {
-
-        int? i1 = null;
-
-
-        Nullable<int> i2 = null;
+        //Regex.IsMatch("1.45", @"^\d{1}(\.\d{1,4})?$");
+        //new Regex("^-?\\d+$|^(-?\\d+)(\\.\\d+)?$").IsMatch( "1.4434")
 
 
 
+        var t = new Test();
+
+        t.test += () => 1;
+        t.test += () => 2;
+
+
+
+
+        Environment.OSVersion.Platform == PlatformID.Win32NT
 
 
 
@@ -50,16 +57,14 @@ static class Program
 
 }
 
+public interface ITest { }
+
+public class Test : ITest
+{
+
+    public event Func<int> test;
 
 
 
-
-
-
-
-
-
-
-
-
-
+    public int? get() => test?.Invoke();
+}

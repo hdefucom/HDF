@@ -6,93 +6,57 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1
+namespace WinFormsApp3
 {
-    public partial class Form4 : Form
+    public partial class Form1 : Form
     {
-        public Form4()
+        public Form1()
         {
             InitializeComponent();
-
-
-
-            listBox1.DisplayMember = "Text";
-            listBox1.ValueMember = "Value";
-            listBox1.DataSource = new ObservableCollection<TestItem>(
-                Enumerable.Range(1, 10).Select(i => i.ToString())
-                .Select(i => new TestItem() { Text = i, Value = i })
-                );
-
-
-
 
             _dropDown = new ToolStripDropDown();
             _dropDown.Padding = Padding.Empty;
 
-
-            //_dropDown.Items.AddRange(
-            //    Enumerable.Range(1, 10)
-            //    .Select(i => new ToolStripSplitButton(i.ToString()) { Tag = i, /*CheckOnClick = true,*/ })
-            //    .ToArray()
-            //    );
-
-
-             box = new ListBox()
+            box = new ListBox()
             {
                 Margin = Padding.Empty,
-                //BorderStyle = BorderStyle.None,
                 Dock = DockStyle.Fill,
                 SelectionMode = SelectionMode.MultiSimple
             };
 
-            box.DataSourceChanged += (_, _) =>
-            {
-                var a = box.Items;
-
-            };
-
+            //*******************************************************  Can display
             //box.Items.AddRange(Enumerable.Range(10000000, 20)
             //    .Select(i => i.ToString())
-            //    .Select(i=>new TestItem() { Text = i, Value = i })
+            //    .Select(i => new TestItem() { Text = i, Value = i })
             //    .OfType<object>().ToArray());
+            //*************************************************************************
 
+            //*******************************************************  Cannot display
             box.DisplayMember = "Text";
             box.ValueMember = "Value";
             box.DataSource = new ObservableCollection<TestItem>(
                 Enumerable.Range(1, 10).Select(i => i.ToString())
                 .Select(i => new TestItem() { Text = i, Value = i })
                 );
-
-            box.SelectedIndexChanged += (sender, e) =>
-            {
-                if (box.SelectionMode == SelectionMode.One)
-                    _dropDown.Close();
-            };
-
-             host = new ToolStripControlHost(box) { Padding = Padding.Empty, Margin = Padding.Empty };
+            //*************************************************************************
 
 
+            host = new ToolStripControlHost(box) { Padding = Padding.Empty, Margin = Padding.Empty };
             _dropDown.Items.Add(host);
         }
 
         ListBox box;
         ToolStripControlHost host;
+        ToolStripDropDown _dropDown;
 
-        private readonly ToolStripDropDown _dropDown;
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-
             _dropDown.Show(Control.MousePosition);
         }
-
-        private void Form4_Load(object sender, EventArgs e)
-        {
-        }
-
         private class TestItem
         {
             public string Text { get; set; }
