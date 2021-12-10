@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -38,8 +39,8 @@ public class Startup
         services.AddScoped(typeof(AccessToken));
 
 
-        //添加控制器服务，配置Json序列化服务
-        services.AddControllers().AddNewtonsoftJsonService();
+        //添加控制器服务，配置Json序列化服务，删除默认字符串输出格式(text/plain)，使用application/json
+        services.AddControllers(options => options.OutputFormatters.RemoveType<StringOutputFormatter>()).AddNewtonsoftJsonService();
 
         //添加Swagger服务
         services.AddSwaggerService();
@@ -79,7 +80,7 @@ public class Startup
             //SignalR  hub ...
         });
 
-        //app.UseSpaMiddleware(env, settings.SpaConfig);//配置SPA中间件
+        app.UseSpaMiddleware(env, settings.SpaConfig);//配置SPA中间件
 
-    }
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 }

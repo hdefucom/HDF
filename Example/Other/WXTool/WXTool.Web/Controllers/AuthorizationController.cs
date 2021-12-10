@@ -87,16 +87,17 @@ public class AuthorizationController : ControllerBase
         if (user == default)
             return ApiResult.Fail<UserInfoModel>("登录用户无效！");
 
-        _dapper.Query("select * from users where ");
+        //_dapper.Query("select * from users where ");
 
-         
 
-        var menus = user.UserRoles
-            .SelectMany(ur => ur.Role.RoleMenus.Select(rm => rm.Menu))
-            .GroupBy(m => m.Id, m => m, (k, v) => v.First())
-            .ToList();
 
-        return ApiResult.Success(new UserInfoModel(user.UserName, menus));
+        //var menus = user.UserRoles
+        //    .SelectMany(ur => ur.Role.RoleMenus.Select(rm => rm.Menu))
+        //    .GroupBy(m => m.Id, m => m, (k, v) => v.First())
+        //    .ToList();
+
+        //return ApiResult.Success(new UserInfoModel(user.UserName, menus));
+        return ApiResult.Success(new UserInfoModel(user.UserName, default));
     }
 
 

@@ -12,6 +12,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace WinFormsApp1;
 
@@ -30,15 +31,11 @@ static class Program
 
 
 
-        var t = new Test();
-
-        t.test += () => 1;
-        t.test += () => 2;
+        XmlDocument doc = new XmlDocument();
 
 
+        doc.LoadXml("<doc/>");
 
-
-        Environment.OSVersion.Platform == PlatformID.Win32NT
 
 
 
@@ -47,7 +44,8 @@ static class Program
         Application.Run(new Form4());
 
 
-
+        I1 l = default;
+        var res = l is I2;
 
 
     }
@@ -57,14 +55,12 @@ static class Program
 
 }
 
-public interface ITest { }
 
-public class Test : ITest
+public class Test
 {
 
-    public event Func<int> test;
-
-
-
-    public int? get() => test?.Invoke();
+    public string Name { get; set; }
 }
+
+public interface I1 { }
+public interface I2 { }

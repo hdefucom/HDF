@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace WXTool.Web.Controllers
 {
+    //[Produces("application/json")]
     [ApiController]
     [Route("[controller]/[action]")]
     public class WeatherForecastController : ControllerBase
