@@ -65,13 +65,6 @@ public partial class Form_DllInject : Form
             }
 
 
-            //int module = GetModuleHandleA("Kernel32.dll");
-            //int LoadLibraryAddress = GetProcAddress(module, "LoadLibraryA");
-            //if (LoadLibraryAddress == 0)
-            //{
-            //    MessageBox.Show("查找LoadLibraryA地址失败！");
-            //    return;
-            //}
 
             var hack = GetProcAddress(GetModuleHandle("Kernel32.dll"), "LoadLibraryA"); //取得loadlibarary在kernek32.dll地址
 
@@ -81,7 +74,11 @@ public partial class Form_DllInject : Form
                 Application.Exit();
             }
 
-            var yan = CreateRemoteThread(process.Handle, 0, 0, hack, baseaddress, 0, 0); //创建远程线程。
+            /*
+                2021-12-13：严重
+                此处代码有时候会导致Windows系统报毒！导致VS有时无法编译成功，因为被Windows拦截了
+             */
+            var yan =   CreateRemoteThread(process.Handle, 0, 0, hack, baseaddress, 0, 0); //创建远程线程。
 
             if (yan == 0)
             {
