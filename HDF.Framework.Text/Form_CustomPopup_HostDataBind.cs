@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1;
 
-public partial class Form4 : Form
+public partial class Form_CustomPopup_HostDataBind : Form
 {
-    public Form4()
+    public Form_CustomPopup_HostDataBind()
     {
         InitializeComponent();
 

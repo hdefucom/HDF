@@ -1,6 +1,10 @@
-﻿namespace WinFormsApp1
+﻿
+
+using System.Windows.Forms;
+
+namespace WinFormsApp1
 {
-    partial class Form4
+    partial class Form_CustomPopup_HostDataBind
     {
         /// <summary>
         /// Required designer variable.
