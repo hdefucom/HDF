@@ -30,6 +30,7 @@ namespace HDF.Framework.Text
 
 
 
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form5());
