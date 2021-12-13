@@ -77,18 +77,21 @@ public partial class Form_DllInject : Form
             /*
                 2021-12-13：严重
                 此处代码有时候会导致Windows系统报毒！导致VS有时无法编译成功，因为被Windows拦截了
-             */
-            var yan =   CreateRemoteThread(process.Handle, 0, 0, hack, baseaddress, 0, 0); //创建远程线程。
 
-            if (yan == 0)
-            {
-                MessageBox.Show("创建远程线程失败！！");
-                Application.Exit();
-            }
-            else
-            {
-                MessageBox.Show("已成功注入dll!!");
-            }
+                由于报毒导致无法编译，此处暂时注释
+
+             */
+            //var yan =   CreateRemoteThread(process.Handle, 0, 0, hack, baseaddress, 0, 0); //创建远程线程。
+
+            //if (yan == 0)
+            //{
+            //    MessageBox.Show("创建远程线程失败！！");
+            //    Application.Exit();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("已成功注入dll!!");
+            //}
 
 
 
