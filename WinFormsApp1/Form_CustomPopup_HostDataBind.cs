@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1;
 
-public partial class Form4 : Form
+public partial class Form_CustomPopup_HostDataBind : Form
 {
-    public Form4()
+    public Form_CustomPopup_HostDataBind()
     {
         InitializeComponent();
 
@@ -20,37 +20,20 @@ public partial class Form4 : Form
 
         listBox1.DisplayMember = "Text";
         listBox1.ValueMember = "Value";
-        listBox1.DataSource = new ObservableCollection<TestItem>(
-            Enumerable.Range(1, 10).Select(i => i.ToString())
-            .Select(i => new TestItem() { Text = i, Value = i })
-            );
-
-
+        listBox1.DataSource = Enumerable.Range(1, 10).Select(i => i.ToString())
+            .Select(i => new TestItem() { Text = i, Value = i }).ToList();
 
 
         _dropDown = new ToolStripDropDown();
         _dropDown.Padding = Padding.Empty;
 
 
-        //_dropDown.Items.AddRange(
-        //    Enumerable.Range(1, 10)
-        //    .Select(i => new ToolStripSplitButton(i.ToString()) { Tag = i, /*CheckOnClick = true,*/ })
-        //    .ToArray()
-        //    );
-
 
         box = new ListBox()
         {
             Margin = Padding.Empty,
-            //BorderStyle = BorderStyle.None,
             Dock = DockStyle.Fill,
             SelectionMode = SelectionMode.MultiSimple
-        };
-
-        box.DataSourceChanged += (_, _) =>
-        {
-            var a = box.Items;
-
         };
 
         //box.Items.AddRange(Enumerable.Range(10000000, 20)
@@ -60,11 +43,9 @@ public partial class Form4 : Form
 
         box.DisplayMember = "Text";
         box.ValueMember = "Value";
-        box.DataSource = new ObservableCollection<TestItem>(
-            Enumerable.Range(1, 10).Select(i => i.ToString())
-            .Select(i => new TestItem() { Text = i, Value = i })
-            );
-
+        box.DataSource = Enumerable.Range(1, 10).Select(i => i.ToString())
+            .Select(i => new TestItem() { Text = i, Value = i }).ToList();
+        box.BindingContext = this.BindingContext;
         box.SelectedIndexChanged += (sender, e) =>
         {
             if (box.SelectionMode == SelectionMode.One)
@@ -72,13 +53,7 @@ public partial class Form4 : Form
         };
 
         host = new ToolStripControlHost(box) { Padding = Padding.Empty, Margin = Padding.Empty };
-
-
         _dropDown.Items.Add(host);
-
-
-
-
     }
 
     ListBox box;
@@ -93,9 +68,7 @@ public partial class Form4 : Form
         _dropDown.Show(Control.MousePosition);
     }
 
-    private void Form4_Load(object sender, EventArgs e)
-    {
-    }
+
 
     private class TestItem
     {
@@ -107,33 +80,19 @@ public partial class Form4 : Form
             return Text;
         }
     }
-}
 
-
-
-
-public class TestDropDown : ToolStripDropDown
-{
-
-    protected override void OnBindingContextChanged(EventArgs e)
+    private void button2_Click(object sender, EventArgs e)
     {
-        base.OnBindingContextChanged(e);
-
-        foreach (ToolStripItem item in Items)
+        //改变数据源刷新 BindingContext 以触发刷新数据源，否则Host中的控件无法刷新数据源
+        box.DataSource.As<List<TestItem>>().Add(new TestItem()
         {
-            if (item is ToolStripControlHost host)
-            {
+            Text = DateTime.Now.Second.ToString(),
+            Value = DateTime.Now.Second.ToString()
+        });
 
-            }
-        }
-
-
+        box.BindingContext = null;
+        box.BindingContext = this.BindingContext;
     }
-
-
-
-
-
-
-
 }
+
+

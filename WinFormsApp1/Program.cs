@@ -26,41 +26,44 @@ static class Program
     //[MTAThread]
     static unsafe void Main()
     {
-        //Regex.IsMatch("1.45", @"^\d{1}(\.\d{1,4})?$");
-        //new Regex("^-?\\d+$|^(-?\\d+)(\\.\\d+)?$").IsMatch( "1.4434")
-
-
-
-        XmlDocument doc = new XmlDocument();
-
-
-        doc.LoadXml("<doc/>");
-
-
 
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
-        Application.Run(new Form4());
+        Application.Run(new Form_CustomPopup_HostDataBind());
 
-
-        I1 l = default;
-        var res = l is I2;
 
 
     }
 
 
 
+    public static string FormatObject<T>(this string format, T arg)
+    {
+        format = Regex.Replace(format, @"\{(\w+)\}", "{0:$1}");
+        return string.Format(new ObjectFormatProvider(), format, arg);
+    }
+
 
 }
+
+
+internal class ObjectFormatProvider : IFormatProvider, ICustomFormatter
+{
+    public string Format(string format, object arg, IFormatProvider formatProvider) =>
+        arg?.GetType()?.GetProperty(format)?.GetValue(arg, null)?.ToString() ?? "";
+
+    public object GetFormat(Type formatType) => formatType == typeof(ICustomFormatter) ? this : default;
+
+}
+
+
 
 
 public class Test
 {
 
     public string Name { get; set; }
+    public int Age { get; set; }
 }
 
-public interface I1 { }
-public interface I2 { }
