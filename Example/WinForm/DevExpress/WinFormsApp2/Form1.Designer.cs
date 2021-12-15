@@ -50,7 +50,7 @@
             // 
             this.layoutControl1.Controls.Add(this.layoutControl2);
             this.layoutControl1.Location = new System.Drawing.Point(27, 126);
-            this.layoutControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.layoutControl1.Margin = new System.Windows.Forms.Padding(2);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
             this.layoutControl1.Size = new System.Drawing.Size(469, 264);
@@ -61,7 +61,7 @@
             // 
             this.layoutControl2.Controls.Add(this.textEdit1);
             this.layoutControl2.Location = new System.Drawing.Point(143, 110);
-            this.layoutControl2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.layoutControl2.Margin = new System.Windows.Forms.Padding(2);
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.OptionsView.AutoSizeInLayoutControl = DevExpress.XtraLayout.AutoSizeModes.ResizeToMinSize;
             this.layoutControl2.Root = this.Root;
@@ -71,10 +71,10 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(116, 8);
-            this.textEdit1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textEdit1.Location = new System.Drawing.Point(121, 12);
+            this.textEdit1.Margin = new System.Windows.Forms.Padding(2);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(59, 20);
+            this.textEdit1.Size = new System.Drawing.Size(50, 20);
             this.textEdit1.StyleController = this.layoutControl2;
             this.textEdit1.TabIndex = 4;
             // 
@@ -94,7 +94,7 @@
             this.layoutControlItem2.Control = this.textEdit1;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(169, 30);
+            this.layoutControlItem2.Size = new System.Drawing.Size(163, 24);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(105, 14);
             // 
             // layoutControlGroup1
@@ -114,7 +114,7 @@
             this.layoutControlItem1.ControlAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(455, 250);
+            this.layoutControlItem1.Size = new System.Drawing.Size(449, 244);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             this.layoutControlItem1.TrimClientAreaToControl = false;
@@ -125,7 +125,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(847, 457);
             this.Controls.Add(this.layoutControl1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "XtraForm11";
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
