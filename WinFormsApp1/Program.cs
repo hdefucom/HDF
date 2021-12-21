@@ -1,6 +1,7 @@
 using Newtonsoft.Json.Linq;
 using Oracle.ManagedDataAccess.Client;
 using System.Reflection.Emit;
+using System.Xml.Linq;
 
 namespace WinFormsApp1;
 
@@ -15,13 +16,25 @@ static class Program
     static unsafe void Main()
     {
 
-        var doi = "10.1016/j.jacc.2020.12.009";
 
 
 
-        var res = Regex.IsMatch(doi,@"^\d+.\d+/\D+.");
 
 
+
+        XmlDocument doc = new XmlDocument();
+        doc.LoadXml("<doc/>");
+
+        var ele1 = doc.CreateElement("aa", "bb", "http://hdefu.com");
+        doc.DocumentElement.AppendChild(ele1);
+
+        var ele2 = doc.CreateElement("aa:bb", "http://hdefu.com");
+        doc.DocumentElement.AppendChild(ele2);
+
+        var ele3 = doc.CreateElement("aa:bb");
+        doc.DocumentElement.AppendChild(ele3);
+
+        ele3.InnerText = "<>";
 
 
         Application.EnableVisualStyles();
@@ -37,25 +50,6 @@ static class Program
 
 
 }
-
-
-
-public class Test
-{
-
-    private object _tag;
-
-    public ref object Tag { get => ref _tag; }
-
-    public int MyProperty { get; set; }
-}
-
-public class Test2
-{
-
-    public object Tag { get; set; }
-}
-
 
 
 
