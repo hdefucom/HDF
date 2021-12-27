@@ -1,6 +1,8 @@
 using Newtonsoft.Json.Linq;
 using Oracle.ManagedDataAccess.Client;
 using System.Reflection.Emit;
+using System.Security.Cryptography;
+using System.Text;
 using System.Xml.Linq;
 
 namespace WinFormsApp1;
@@ -22,19 +24,7 @@ static class Program
 
 
 
-        XmlDocument doc = new XmlDocument();
-        doc.LoadXml("<doc/>");
-
-        var ele1 = doc.CreateElement("aa", "bb", "http://hdefu.com");
-        doc.DocumentElement.AppendChild(ele1);
-
-        var ele2 = doc.CreateElement("aa:bb", "http://hdefu.com");
-        doc.DocumentElement.AppendChild(ele2);
-
-        var ele3 = doc.CreateElement("aa:bb");
-        doc.DocumentElement.AppendChild(ele3);
-
-        ele3.InnerText = "<>";
+        var s2 = ShortUrl("1");
 
 
         Application.EnableVisualStyles();
@@ -44,6 +34,21 @@ static class Program
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
