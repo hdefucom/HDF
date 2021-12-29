@@ -22,11 +22,6 @@ static class Program
 
 
 
-
-
-        var s2 = ShortUrl("1");
-
-
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
         Application.Run(new Form5());
