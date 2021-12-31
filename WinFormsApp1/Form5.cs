@@ -79,7 +79,7 @@ namespace WinFormsApp1
                 var (w, obs_h) = e.Graphics.MeasureString(item.ToString(), font, 10000, MeasureFormat);
 
 
-                 var size = TextRenderer.DrawText.MeasureText(e.Graphics, item.ToString(), font,new Size(), TextFormatFlags.NoPadding);
+                 //var size = TextRenderer.MeasureText(e.Graphics, item.ToString(), font,new Size(), TextFormatFlags.NoPadding);
 
 
                 var h = font.GetHeight(e.Graphics);
