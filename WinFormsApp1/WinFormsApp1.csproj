@@ -28,7 +28,6 @@
 		<PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="Oracle.ManagedDataAccess" Version="19.13.0" />
-		<PackageReference Include="Syncfusion.Edit.Windows" Version="19.3.0.54" />
 		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
 		<PackageReference Include="TinyIoC" Version="1.4.0-alpha3">
 		  <PrivateAssets>all</PrivateAssets>
@@ -42,9 +41,7 @@
 		<Reference Include="PresentationCore" />
 		<Reference Include="PresentationFramework" />
 		<Reference Include="System.Configuration" />
-		<Reference Include="System.Design">
-		  <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Design.dll</HintPath>
-		</Reference>
+		<Reference Include="System.Design" />
 		<Reference Include="System.Management" />
 		<Reference Include="System.Xaml" />
 		<Reference Include="UIAutomationProvider" />

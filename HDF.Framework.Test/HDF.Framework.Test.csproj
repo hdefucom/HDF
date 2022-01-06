@@ -23,4 +23,10 @@
 		<Reference Include="System.Management" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Form_SyncfusionEdit.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	</ItemGroup>
+
 </Project>
