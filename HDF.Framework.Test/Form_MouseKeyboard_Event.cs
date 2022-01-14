@@ -68,7 +68,7 @@ namespace WindowsFormsApp2
         //鼠标事件触发链路
 
         MouseDown(按住不放会在此处阻塞此鼠标按键事件，但是不影响其他鼠标按键事件)
-        ↓
+        ↓     //当按住鼠标移动至客户区外，也会触发MouseMove事件，但是在客户区外松开鼠标则只会触发MouseUp，不会触发MouseClick和Click
         Click
         ↓
         MouseClick
