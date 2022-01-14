@@ -50,7 +50,7 @@ namespace WinFormsApp1
 
             //var font = new Font("宋体", 48f);
             //var font = new Font("Fira Code", 48f);
-            var font = new Font("Leelawadee", 72f);
+            var font = new Font("FiraCode", 72f);
 
 
             var rect = new Rectangle(100, 100, 200, 100);
@@ -58,7 +58,7 @@ namespace WinFormsApp1
             //e.Graphics.DrawRectangle(Pens.Black, rect);
 
 
-            var str = "42fq13dfg5423";
+            var str = ">=42fq13dfg5423";
 
             //e.Graphics.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
 
@@ -79,7 +79,7 @@ namespace WinFormsApp1
                 var (w, obs_h) = e.Graphics.MeasureString(item.ToString(), font, 10000, MeasureFormat);
 
 
-                 //var size = TextRenderer.MeasureText(e.Graphics, item.ToString(), font,new Size(), TextFormatFlags.NoPadding);
+                //var size = TextRenderer.MeasureText(e.Graphics, item.ToString(), font,new Size(), TextFormatFlags.NoPadding);
 
 
                 var h = font.GetHeight(e.Graphics);
@@ -251,35 +251,14 @@ namespace WinFormsApp1
             string text, int length, IntPtr font, IntPtr brush,
             PointF[] positions, int flags, IntPtr matrix);
 
+        private void button1_Move(object sender, EventArgs e)
+        {
+        }
 
+        private void button1_MouseMove(object sender, MouseEventArgs e)
+        {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            Console.WriteLine(e.Location);
+        }
     }
 }

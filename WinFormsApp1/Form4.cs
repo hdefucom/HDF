@@ -50,6 +50,8 @@ public class MyPictureBox : PictureBox
         pe.Graphics.ScaleTransform(0.5f, 0.5f);
 
         base.OnPaint(pe);
+
+
     }
 
 

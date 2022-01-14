@@ -1,6 +1,7 @@
-using Newtonsoft.Json.Linq;
+ï»¿using Newtonsoft.Json.Linq;
 using Oracle.ManagedDataAccess.Client;
 using System.Drawing.Printing;
+using System.Globalization;
 using System.Reflection.Emit;
 using System.Security.Cryptography;
 using System.Text;
@@ -26,20 +27,21 @@ static class Program
 
 
 
+
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
 
 
-        Application.Run(new Form4());
+        Application.Run(new Form5());
 
 
     }
 
 
 
-
-
 }
+
+
 
 
 
@@ -82,7 +84,7 @@ class Test2 : IInputData<string>
 public interface IInputData<in T>
 {
     /// <summary>
-    /// ½ÓÊÕÊı¾İ
+    /// æ¥æ”¶æ•°æ®
     /// </summary>
     /// <param name="data"></param>
     void InputData(T data);
@@ -91,12 +93,12 @@ public interface IInputData<in T>
 public interface IOutputData<out T>
 {
     ///// <summary>
-    ///// ±»¶¯Êä³öÊı¾İ
+    ///// è¢«åŠ¨è¾“å‡ºæ•°æ®
     ///// </summary>
     //T OutputData();
 
     /// <summary>
-    /// Ö÷¶¯Êä³öÊı¾İµÄÊÂ¼ş
+    /// ä¸»åŠ¨è¾“å‡ºæ•°æ®çš„äº‹ä»¶
     /// </summary>
     event Action<T> OutputData;
 }
