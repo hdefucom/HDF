@@ -41,7 +41,7 @@ namespace DCSoftDotfuscate
 					MouseCapturer mouseCapturer = new MouseCapturer(method_0());
 					mouseCapturer.Draw += method_14;
 					mouseCapturer.Tag = shapeMouseEventArgs_0;
-					if (mouseCapturer.method_2(bool_1: false))
+					if (mouseCapturer.CaptureMouseMove(bool_1: false))
 					{
 						Rectangle rectangle = RectangleCommon.GetRectangle(point_0, mouseCapturer.CurrentPosition);
 						RectangleF bounds = method_0().method_21(rectangle);

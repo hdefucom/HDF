@@ -172,7 +172,7 @@ namespace DCSoft.ShapeEditor.Dom
 			{
 				geventArgs11_1 = geventArgs11_2;
 				geventArgs11_2.method_12().Draw += method_3;
-				if (geventArgs11_2.method_12().method_2(bool_1: false))
+				if (geventArgs11_2.method_12().CaptureMouseMove(bool_1: false))
 				{
 					Rectangle rectangle = RectangleCommon.GetRectangle(geventArgs11_2.method_10(), geventArgs11_2.method_12().EndPosition);
 					RectangleF rectangleF = geventArgs11_2.method_6().method_21(rectangle);

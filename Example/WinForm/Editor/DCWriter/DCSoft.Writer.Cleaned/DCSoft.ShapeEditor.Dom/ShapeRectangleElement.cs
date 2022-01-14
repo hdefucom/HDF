@@ -212,7 +212,7 @@ namespace DCSoft.ShapeEditor.Dom
 		{
 			geventArgs11_0 = geventArgs11_1;
 			geventArgs11_1.method_12().Draw += method_0;
-			if (geventArgs11_1.method_12().method_2(bool_1: false))
+			if (geventArgs11_1.method_12().CaptureMouseMove(bool_1: false))
 			{
 				int width = geventArgs11_1.method_12().EndPosition.X - geventArgs11_1.method_10().X;
 				int height = geventArgs11_1.method_12().EndPosition.Y - geventArgs11_1.method_10().Y;

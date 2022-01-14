@@ -239,7 +239,7 @@ namespace DCSoft.ShapeEditor.Dom
 			{
 				geventArgs11_0.method_12().Tag = geventArgs11_0;
 				geventArgs11_0.method_12().Draw += method_2;
-				if (geventArgs11_0.method_12().method_2(bool_1: false))
+				if (geventArgs11_0.method_12().CaptureMouseMove(bool_1: false))
 				{
 					PointF pointF = geventArgs11_0.method_6().method_23(geventArgs11_0.method_12().CurrentPosition);
 					RectangleF clientRectangle = Parent.ClientRectangle;

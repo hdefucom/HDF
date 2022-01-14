@@ -429,16 +429,16 @@ namespace DCSoft.WinForms.Native
 
 		public bool method_1()
 		{
-			return method_2(bool_1: true);
+			return CaptureMouseMove(bool_1: true);
 		}
 
-		public bool method_2(bool bool_1)
+		public bool CaptureMouseMove(bool bool_1)
 		{
 			method_0();
 			Struct0 struct0_ = default(Struct0);
 			int width = SystemInformation.DragSize.Width;
 			bool flag = false;
-			if (Control.MouseButtons == MouseButtons.None)
+			if (Control.MouseButtons == MouseButtons.None)  
 			{
 				return false;
 			}

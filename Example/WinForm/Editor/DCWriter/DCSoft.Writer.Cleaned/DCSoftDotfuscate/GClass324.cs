@@ -36,7 +36,7 @@ namespace DCSoftDotfuscate
 					MouseCapturer mouseCapturer = new MouseCapturer(method_0());
 					mouseCapturer.Draw += method_14;
 					mouseCapturer.Tag = shapeMouseEventArgs_0;
-					if (mouseCapturer.method_2(bool_1: false))
+					if (mouseCapturer.CaptureMouseMove(bool_1: false))
 					{
 						ShapeWireLabelElement shapeWireLabelElement = (ShapeWireLabelElement)vmethod_7();
 						PointF pointF_ = method_0().method_23(point_0);

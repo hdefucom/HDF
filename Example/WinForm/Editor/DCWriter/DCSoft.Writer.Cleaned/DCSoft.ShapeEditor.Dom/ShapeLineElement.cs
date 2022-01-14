@@ -186,7 +186,7 @@ namespace DCSoft.ShapeEditor.Dom
 			{
 				geventArgs11_0.method_12().Tag = geventArgs11_0;
 				geventArgs11_0.method_12().Draw += method_0;
-				if (!geventArgs11_0.method_12().method_2(bool_1: false))
+				if (!geventArgs11_0.method_12().CaptureMouseMove(bool_1: false))
 				{
 					return;
 				}
