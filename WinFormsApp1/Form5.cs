@@ -17,14 +17,29 @@ namespace WinFormsApp1
 
 
             this.DoubleBuffered = true;
+
+
+
+            comboBox1.DataSource = FontFamily.Families.Select(f => new FontInfo(f.Name, f)).ToList();
+
+            comboBox1.DisplayMember = "Name";
+            comboBox1.ValueMember = "Family";
+
         }
+
+
+        record FontInfo(string Name, FontFamily Family);
+
+
+
+
 
         private void Form5_Load(object sender, EventArgs e)
         {
 
 
 
-
+            
 
         }
 
@@ -171,11 +186,41 @@ namespace WinFormsApp1
 
 
 
+        SolidBrush SelectionBrush = new SolidBrush(Color.FromArgb(0x80, 128, 128, 128));
+
+        private void comboBox1_DrawItem(object sender, DrawItemEventArgs e)
+        {
+
+            //e.DrawBackground();
+
+
+            e.Graphics.FillRectangle(Brushes.White, e.Bounds);
+
+
+            Debug.WriteLine($"【Index:{e.Index}】【State:{e.State}】");
+
+            var info = comboBox1.Items[e.Index] as FontInfo;
+
+            e.Graphics.DrawString(info.Name, new Font(info.Family, 18f), Brushes.Black, e.Bounds);
 
 
 
 
+            if (e.State.HasFlag(DrawItemState.Selected) && e.State.HasFlag(DrawItemState.Focus) && !e.State.HasFlag(DrawItemState.ComboBoxEdit))
+            {
+                e.Graphics.FillRectangle(SelectionBrush, e.Bounds);
+                //e.DrawFocusRectangle();
+            }
 
+
+        }
+
+
+
+        private void comboBox1_MeasureItem(object sender, MeasureItemEventArgs e)
+        {
+
+        }
 
 
 
@@ -255,10 +300,12 @@ namespace WinFormsApp1
         {
         }
 
+
         private void button1_MouseMove(object sender, MouseEventArgs e)
         {
 
             Console.WriteLine(e.Location);
         }
+
     }
 }
