@@ -87,7 +87,7 @@ static class Program
 
         }
 
-
+        if (false)
         {
 
             //C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
@@ -233,14 +233,6 @@ struct AAA
 
 
 
-                var array = Enumerable.Range(0, 100).Select(i => new AAA() { MyProperty = i }).ToArray();
-
-
-
-                var ptr = array[0].GetType().TypeHandle.Value;
-
-
-
 
 
                 //fixed (string* p = array)
@@ -256,10 +248,32 @@ struct AAA
 
         }
 
+        {
 
+            float i = 0.1f, j = 0.2f;
 
+            var k = i + j;
 
+            var obj = Clipboard.GetDataObject();
 
+            if (obj.GetDataPresent(DataFormats.Text))
+            {
+                var data = obj.GetData(DataFormats.Text);
+            }
+            if (obj.GetDataPresent(DataFormats.Html))
+            {
+                var data = obj.GetData(DataFormats.Html);
+            }
+            if (obj.GetDataPresent(DataFormats.Rtf))
+            {
+                var data = obj.GetData(DataFormats.Rtf);
+            }
+            if (obj.GetDataPresent(DataFormats.UnicodeText))
+            {
+                var data = obj.GetData(DataFormats.UnicodeText);
+            }
+
+        }
 
 
 
