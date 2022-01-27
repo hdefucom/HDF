@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using Oracle.ManagedDataAccess.Client;
 using System.Collections.Concurrent;
+using System.Drawing.Imaging;
 using System.Drawing.Printing;
 using System.Globalization;
 using System.Reflection.Emit;
@@ -248,11 +249,9 @@ struct AAA
 
         }
 
+        if (false)
         {
 
-            float i = 0.1f, j = 0.2f;
-
-            var k = i + j;
 
             var obj = Clipboard.GetDataObject();
 
@@ -276,14 +275,112 @@ struct AAA
         }
 
 
+        {
+
+
+            if (false)
+            {
+
+                Stopwatch stopwatch = Stopwatch.StartNew();
+
+                int j = 0;
+
+                //int i = 0;
+                //while (i < 1_0000_0000)
+                //{
+                //    j += i;
+
+                //    i++;
+                //}
+
+                for (int i = 0; i < 1_0000_0000; i++)
+                {
+                    j += i;
+                }
+
+
+                stopwatch.Stop();
+
+                Console.WriteLine($"Output took {stopwatch.ElapsedMilliseconds} ms.");
+
+            }
+
+            if (false)
+            {
+
+                Stopwatch stopwatch = Stopwatch.StartNew();
+
+
+                using FileStream stream = File.Open("1.txt", FileMode.OpenOrCreate, FileAccess.Write);
+
+                for (int i = 0; i < 1_0000; i++)
+                {
+                    var arr = Encoding.UTF8.GetBytes(i.ToString());
+                    stream.Write(arr, 0, arr.Length);
+                }
+
+                stopwatch.Stop();
+
+                Console.WriteLine($"Output took {stopwatch.ElapsedMilliseconds} ms.");
+
+            }
+
+        }
 
 
 
-        Application.EnableVisualStyles();
-        Application.SetCompatibleTextRenderingDefault(false);
+        if (false)
+        {
+
+            int rowColCount = 16;
+            int tileSize = 128;
+
+            var watch = Stopwatch.StartNew();
+
+            Bitmap bitmap = new Bitmap(rowColCount * tileSize, rowColCount * tileSize);
+            Graphics graphics = Graphics.FromImage(bitmap);
+
+            Brush[] usedBrushes = { Brushes.Blue, Brushes.Red, Brushes.Green, Brushes.Orange, Brushes.Yellow };
+
+            int totalCount = rowColCount * rowColCount;
+            Random random = new Random();
+
+            StringFormat format = new StringFormat();
+            format.LineAlignment = StringAlignment.Center;
+            format.Alignment = StringAlignment.Center;
+
+            for (int i = 0; i < totalCount; i++)
+            {
+                int x = i % rowColCount * tileSize;
+                int y = i / rowColCount * tileSize;
+
+                graphics.FillRectangle(usedBrushes[random.Next(0, usedBrushes.Length)], x, y, tileSize, tileSize);
+                graphics.DrawString(i.ToString(), SystemFonts.DefaultFont, Brushes.Black, x + tileSize / 2, y + tileSize / 2, format);
+            }
+
+            bitmap.Save("Test.png");
+
+            watch.Stop();
+            Console.WriteLine($"Output took {watch.ElapsedMilliseconds} ms.");
 
 
-        Application.Run(new Form5());
+            //Rectangle rect = new Rectangle(0, 0, bitmap.Width, bitmap.Height);
+            //BitmapData bmpData = bitmap.LockBits(rect, ImageLockMode.ReadWrite, bitmap.PixelFormat);
+
+        }
+
+
+        if (false)
+        {
+
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            Application.Run(new Form5());
+
+        }
+
 
 
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -13,26 +14,18 @@ internal class Program
 
 
 
+        Stopwatch stopwatch = Stopwatch.StartNew();
 
+        int j = 0;
+        for (int i = 0; i < 1_0000_0000; i++)
+        {
+            j += i;
+        }
 
-        //Task.Run(() =>
-        //{
-        //    while (true)
-        //    {
-        //        var time = DateTime.Now;
+        stopwatch.Stop();
 
-        //        if (time.Hour == 7)
-        //            while (queue.TryDequeue(out _)) { }
-        //        else
-        //        {
-        //            var span = time.Hour > 7
-        //                ? time.AddDays(1).Date.AddHours(7) - time
-        //                : time.Date.AddHours(7) - time;
-        //            Thread.Sleep(span.Milliseconds);
+        Console.WriteLine($"Output took {stopwatch.ElapsedMilliseconds} ms.");
 
-        //        }
-        //    }
-        //});
 
 
 

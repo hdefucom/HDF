@@ -18,10 +18,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="C:\Users\12131\.nuget\packages\tinyioc\1.4.0-alpha3\contentFiles\cs\any\TinyIoc.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Dirkster.AvalonDock" Version="4.60.0" />
 		<PackageReference Include="Gocent.Library.Editor" Version="0.3.0-dev-20211216-111318" />
 		<PackageReference Include="HDF.Common" Version="1.4.0" />
