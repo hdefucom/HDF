@@ -30,6 +30,7 @@
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="TinyMapper" Version="3.0.3" />
+		<PackageReference Include="zlib.net" Version="1.0.4" />
 	</ItemGroup>
 
 
