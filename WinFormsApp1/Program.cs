@@ -403,6 +403,7 @@ struct AAA
         {
 
 
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
