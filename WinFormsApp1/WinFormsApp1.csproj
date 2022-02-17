@@ -23,6 +23,7 @@
 		<PackageReference Include="HDF.Common" Version="1.4.1" />
 		<PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="OpenTK.GLControl" Version="3.1.0" />
 		<PackageReference Include="Oracle.ManagedDataAccess" Version="19.13.0" />
 		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
 		<PackageReference Include="TinyIoC" Version="1.4.0-alpha3">
