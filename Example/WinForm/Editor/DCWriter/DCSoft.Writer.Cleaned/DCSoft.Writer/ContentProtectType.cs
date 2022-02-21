@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       内容保护模式
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890065")]
 	[DocumentComment]

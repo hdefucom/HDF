@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       表格分栏模式
 	///       </summary>
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	[Guid("3B4D501C-EA0A-438B-88DD-5472BBD4DC82")]

@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <param name="eventSender">参数</param>
 	/// <param name="args">参数</param>
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("28A0AE96-8EF1-4FB1-9F1C-4B6A291F21C2")]
 	[DocumentComment]
 	public delegate void ElementMouseEventHandler(object sender, ElementMouseEventArgs e);

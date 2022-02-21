@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XBean")]
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Bean:{ID}:{DataSource}")]
 	[ToolboxBitmap(typeof(XTextBeanFieldElement))]
 	public class XTextBeanFieldElement : XTextFieldElementBase

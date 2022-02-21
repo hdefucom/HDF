@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class GClass125
 	{
 		private GClass124 gclass124_0 = null;

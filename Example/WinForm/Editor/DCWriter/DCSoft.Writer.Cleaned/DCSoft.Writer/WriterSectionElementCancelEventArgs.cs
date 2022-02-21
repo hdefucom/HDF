@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IWriterSectionElementCancelEventArgs))]
 	[ComVisible(true)]
 	[ComClass("69939F69-03B7-4747-BD2C-0E186C1D0AB1", "298B6B79-9E81-4B20-9D0C-ADB858DB425C")]
-	[DCPublishAPI]
+	
 	public class WriterSectionElementCancelEventArgs : CancelEventArgs, IWriterSectionElementCancelEventArgs
 	{
 		internal const string CLASSID = "69939F69-03B7-4747-BD2C-0E186C1D0AB1";
@@ -32,19 +32,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       文档节对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextSectionElement SectionElement => _SectionElement;
 
 		bool IWriterSectionElementCancelEventArgs.Cancel
@@ -65,7 +65,7 @@ namespace DCSoft.Writer
 		/// <param name="ctl">编辑器控件</param>
 		/// <param name="doc">文档对象</param>
 		/// <param name="sec">文档节元素</param>
-		[DCInternal]
+		
 		public WriterSectionElementCancelEventArgs(WriterControl writerControl_0, XTextDocument xtextDocument_0, XTextSectionElement xtextSectionElement_0)
 		{
 			_WriterControl = writerControl_0;

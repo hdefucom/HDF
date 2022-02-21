@@ -17,7 +17,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IElementKeyEventArgs))]
 	[ComVisible(true)]
 	[Guid("48B6B2E5-4FFB-4A40-9BD5-29C48C1CE854")]
-	[DCPublishAPI]
+	
 	public class ElementKeyEventArgs : ElementEventArgs, IElementKeyEventArgs
 	{
 		internal new const string CLASSID = "48B6B2E5-4FFB-4A40-9BD5-29C48C1CE854";
@@ -37,7 +37,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       Alt键状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Alt
 		{
 			get
@@ -53,7 +53,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       Control键状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Control
 		{
 			get
@@ -69,7 +69,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       Shift键状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Shift
 		{
 			get
@@ -86,7 +86,7 @@ namespace DCSoft.Writer
 		///       按键值
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public Keys KeyCode
 		{
 			get
@@ -103,13 +103,13 @@ namespace DCSoft.Writer
 		///       按键字符值
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public char KeyChar => _KeyChar;
 
 		/// <summary>
 		///       按键字符值
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Obsolete("本属性仅仅作为COM接口使用")]
@@ -120,7 +120,7 @@ namespace DCSoft.Writer
 		///       按键值，仅作为COM接口使用。
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[Obsolete("本属性仅仅作为COM接口使用")]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public int KeyCodeValue => (int)_KeyCode;
@@ -132,7 +132,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="element">
 		/// </param>
-		[DCInternal]
+		
 		public ElementKeyEventArgs(DocumentEventArgs args, XTextElement element)
 			: base(element)
 		{

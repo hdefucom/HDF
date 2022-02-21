@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-234567890047")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IValueValidateResultList))]
 	public class ValueValidateResultList : List<ValueValidateResult>, IValueValidateResultList
 	{
@@ -39,7 +39,7 @@ namespace DCSoft.Writer.Dom
 
 		internal const string CLASSID_Interface = "F3A06595-468E-455B-987D-99196DBDAAF9";
 
-		[DCPublishAPI]
+		
 		public ValueValidateResultList()
 		{
 		}
@@ -48,7 +48,7 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象内容的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			int num = 7;
@@ -76,7 +76,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public ValueValidateResult ComGetItem(int index)
 		{
@@ -88,7 +88,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ComSetItem(int index, ValueValidateResult item)
 		{

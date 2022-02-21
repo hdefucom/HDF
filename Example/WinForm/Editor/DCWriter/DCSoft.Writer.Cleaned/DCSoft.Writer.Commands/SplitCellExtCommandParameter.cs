@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Commands
 	[Guid("FA8E10DB-F4BC-4EE3-B4A4-9E7D53954124")]
 	[ComDefaultInterface(typeof(ISplitCellExtCommandParameter))]
 	[ComClass("FA8E10DB-F4BC-4EE3-B4A4-9E7D53954124", "4CF17461-1E5F-4301-B22D-C9B5F7AB48A1")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
 	public class SplitCellExtCommandParameter : ISplitCellExtCommandParameter

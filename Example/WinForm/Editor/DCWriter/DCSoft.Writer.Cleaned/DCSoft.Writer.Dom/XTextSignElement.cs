@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("00012345-6789-ABCD-EF01-234567890016", "635A3879-B2B2-4299-92B2-523E6790E133")]
 	[XmlType("XTextLock")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public sealed class XTextSignElement : XTextElement, IXTextSignElement
 	{
 		internal const string string_3 = "00012345-6789-ABCD-EF01-234567890016";
@@ -55,7 +55,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextSignElement()
 		{
 		}

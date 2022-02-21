@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       弹出时间日期方式编辑文本输入域内容的编辑器
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class XTextInputFieldElementDateTimeValueEditor : ElementValueEditor
 	{

@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Commands
 	///       编写 袁永福</remarks>
 	[ProvideProperty("CommandName", typeof(Component))]
 	[ToolboxBitmap(typeof(WriterCommandControler))]
-	[DCPublishAPI]
+	
 	[ToolboxItem(true)]
 	[ComVisible(false)]
 	[DocumentComment]
@@ -67,7 +67,7 @@ namespace DCSoft.Writer.Commands
 		///       文本编辑器控件
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public WriterControl EditControl
 		{
@@ -102,7 +102,7 @@ namespace DCSoft.Writer.Commands
 		///       命令容器对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public WriterCommandContainer CommandContainer
 		{
@@ -163,7 +163,7 @@ namespace DCSoft.Writer.Commands
 		///       注入的编辑器命令中的委托对象列表
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public InjectCommandHandlerList InjectHandlers
 		{
@@ -213,7 +213,7 @@ namespace DCSoft.Writer.Commands
 		///       </summary>
 		/// <param name="name">命令名称</param>
 		/// <returns>获得的对象</returns>
-		[DCPublishAPI]
+		
 		public WriterCommand GetCommand(string name)
 		{
 			return CommandContainer.GetCommandRaw(name);
@@ -224,7 +224,7 @@ namespace DCSoft.Writer.Commands
 		///       </summary>
 		/// <param name="ctl">控件对象</param>
 		/// <returns>获得的动作名称</returns>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[Editor(typeof(EventNameUIEditor), typeof(UITypeEditor))]
 		public string GetEventName(Component component_0)
@@ -238,7 +238,7 @@ namespace DCSoft.Writer.Commands
 		/// <param name="ctl">控件对象</param>
 		/// <param name="eventName">动作名称</param>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[Editor(typeof(EventNameUIEditor), typeof(UITypeEditor))]
 		public void SetEventName(Component component_0, string eventName)
 		{
@@ -274,7 +274,7 @@ namespace DCSoft.Writer.Commands
 		/// <param name="commandName">动作名称</param>
 		[Editor(typeof(WriterCommandNameDlgEditor), typeof(UITypeEditor))]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public void SetCommandName(Component component_0, string commandName)
 		{
 			int num = 11;
@@ -451,7 +451,7 @@ namespace DCSoft.Writer.Commands
 		/// <param name="showUI">是否允许显示用户界面</param>
 		/// <param name="parameter">用户参数</param>
 		/// <returns>执行操作后的返回值</returns>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public object InnerExecuteCommand(string commandName, bool showUI, object parameter)
@@ -475,7 +475,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       启动对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Start()
 		{
 			if (writerCommandContainer_0 == null)

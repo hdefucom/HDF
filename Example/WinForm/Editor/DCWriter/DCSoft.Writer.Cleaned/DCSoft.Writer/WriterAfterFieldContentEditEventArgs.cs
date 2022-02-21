@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       用户通过数值编辑器修改输入域内容操作之前触发的事件的参数
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComClass("BE8FB62C-F76E-4F18-AE0B-0FF2034C250D", "2BC86E56-454B-4C1E-912D-AAE838379536")]
 	[Guid("BE8FB62C-F76E-4F18-AE0B-0FF2034C250D")]
 	[ComVisible(true)]
@@ -209,7 +209,7 @@ namespace DCSoft.Writer
 			}
 		}
 
-		[DCInternal]
+		
 		public WriterAfterFieldContentEditEventArgs()
 		{
 			_EditorTypeName = null;
@@ -225,7 +225,7 @@ namespace DCSoft.Writer
 			
 		}
 
-		[DCInternal]
+		
 		public WriterAfterFieldContentEditEventArgs(XTextInputFieldElement field, string selectedIndexs, ListItemCollection selectedItems, string editorTypeName, string oldText, string oldValue)
 		{
 			int num = 9;

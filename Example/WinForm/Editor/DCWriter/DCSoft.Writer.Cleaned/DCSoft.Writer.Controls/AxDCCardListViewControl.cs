@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Controls
 	[ComDefaultInterface(typeof(IAxDCCardListViewControl))]
 	[ComClass("00DF110D-DF3E-4D54-A5B9-663D432B71BA", "4AA75334-A12F-4529-9CBE-A2C3E82F298E", "39655E71-F969-4804-B3B9-A43B0CD30AA2")]
 	[ToolboxBitmap(typeof(AxDCCardListViewControl))]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ToolboxItem(false)]
 	[ComSourceInterfaces(typeof(IAxDCCardListViewControlComEvents))]
@@ -342,7 +342,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int GetInterfaceSafetyOptions(ref Guid riid, ref int pdwSupportedOptions, ref int pdwEnabledOptions)
 		{
 			int num = 9;
@@ -389,7 +389,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public int SetInterfaceSafetyOptions(ref Guid riid, int dwOptionSetMask, int dwEnabledOptions)
 		{

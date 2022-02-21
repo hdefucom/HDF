@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	/// <param name="objectSender">参数</param>
 	/// <param name="args">参数</param>
 	[Guid("00012345-6789-ABCD-EF01-234567890260")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public delegate void CustomCommandEventHandler(object sender, CustomCommandEventArgs e);
 }

@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Data
 	[Guid("00012345-6789-ABCD-EF01-234567890022")]
 	[ComVisible(true)]
 	[DCDescription(typeof(EntryOwnerLevel), "EntryOwnerLevel")]
-	[DCPublishAPI]
+	
 	public enum EntryOwnerLevel
 	{
 		/// <summary>

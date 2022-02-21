@@ -21,7 +21,7 @@ namespace DCSoft.Drawing
 	[Serializable]
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-23456789008D")]
-	[DCPublishAPI]
+	
 	[Editor(typeof(GClass439), typeof(UITypeEditor))]
 	[DefaultProperty("Value")]
 	[ComDefaultInterface(typeof(IXFontValue))]
@@ -34,21 +34,21 @@ namespace DCSoft.Drawing
 		public static string string_0;
 
 		[NonSerialized]
-		[DCInternal]
+		
 		public static Font font_0;
 
 		/// <summary>
 		///       默认字体名称
 		///       </summary>
 		[NonSerialized]
-		[DCInternal]
+		
 		public static string DefaultFontName;
 
 		/// <summary>
 		///       默认字体大小
 		///       </summary>
 		[NonSerialized]
-		[DCInternal]
+		
 		public static float DefaultFontSize;
 
 		private string string_1 = DefaultFontName;
@@ -90,7 +90,7 @@ namespace DCSoft.Drawing
 		///       判断当前字体是否是默认字体
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public bool IsDefault
 		{
 			get
@@ -106,7 +106,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       判断当前字体名称是否是默认字体
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool IsDefaultName => string_1 == DefaultFontName;
 
@@ -138,7 +138,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       判断当前字体是否是默认大小
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool IsDefaultSize => float_0 == DefaultFontSize;
 
@@ -333,20 +333,20 @@ namespace DCSoft.Drawing
 		///       内部缓存字体对象的列表
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public static List<Font> Buffer => list_0;
 
 		/// <summary>
 		///       清空缓存区累计次数
 		///       </summary>
-		[DCInternal]
+		
 		public static int BufferClearCount => int_0;
 
 		/// <summary>
 		///       字体的内置编号,相同设置的XFontValue对象，其RawFontIndex属性相同
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public int RawFontIndex
 		{
@@ -517,7 +517,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public ISite Site
 		{
@@ -534,7 +534,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       字体缓存对象清空时间
 		///       </summary>
-		[DCInternal]
+		
 		public static event EventHandler BufferCleared
 		{
 			add
@@ -566,7 +566,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       对象销毁事件
 		///       </summary>
-		[DCInternal]
+		
 		public event EventHandler Disposed
 		{
 			add
@@ -671,7 +671,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public XFontValue method_0(float float_1)
 		{
 			XFontValue xFontValue = Clone();
@@ -685,7 +685,7 @@ namespace DCSoft.Drawing
 			return (fontStyle_0 & fontStyle_1) == fontStyle_1;
 		}
 
-		[DCInternal]
+		
 		public bool method_2()
 		{
 			string a = smethod_1(string_1);
@@ -697,7 +697,7 @@ namespace DCSoft.Drawing
 			return false;
 		}
 
-		[DCInternal]
+		
 		public static void smethod_0()
 		{
 			list_0.Clear();
@@ -710,7 +710,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public static string smethod_1(string string_2)
 		{
 			int num = 0;
@@ -821,7 +821,7 @@ namespace DCSoft.Drawing
 			return GraphicsUnitConvert.Convert(Value.SizeInPoints, GraphicsUnit.Point, unit);
 		}
 
-		[DCInternal]
+		
 		public void method_3(XFontValue xfontValue_0)
 		{
 			string_1 = xfontValue_0.string_1;
@@ -833,7 +833,7 @@ namespace DCSoft.Drawing
 			graphicsUnit_0 = xfontValue_0.graphicsUnit_0;
 		}
 
-		[DCInternal]
+		
 		public bool method_4(Font font_2)
 		{
 			if (font_2 == null)
@@ -871,7 +871,7 @@ namespace DCSoft.Drawing
 			return true;
 		}
 
-		[DCInternal]
+		
 		public bool method_5(XFontValue xfontValue_0)
 		{
 			if (xfontValue_0 == null)
@@ -917,7 +917,7 @@ namespace DCSoft.Drawing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public XFontValue Clone()
 		{
 			XFontValue xFontValue = new XFontValue();
@@ -937,7 +937,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="obj">对象</param>
 		/// <returns>内容是否相同</returns>
-		[DCInternal]
+		
 		public override bool Equals(object other)
 		{
 			if (other == this)
@@ -956,7 +956,7 @@ namespace DCSoft.Drawing
 		///       获得对象的哈希代码
 		///       </summary>
 		/// <returns>哈希代码</returns>
-		[DCInternal]
+		
 		public override int GetHashCode()
 		{
 			return ToString().GetHashCode();
@@ -966,7 +966,7 @@ namespace DCSoft.Drawing
 		///       获得表示对象数据的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			int num = 1;
@@ -984,7 +984,7 @@ namespace DCSoft.Drawing
 			return string.Join(", ", (string[])arrayList.ToArray(typeof(string)));
 		}
 
-		[DCInternal]
+		
 		public void method_6(string string_2)
 		{
 			int num = 11;
@@ -1042,7 +1042,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCInternal]
+		
 		public void Dispose()
 		{
 			if (eventHandler_1 != null)

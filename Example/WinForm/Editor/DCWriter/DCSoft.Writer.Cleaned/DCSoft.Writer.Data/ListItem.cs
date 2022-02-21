@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Data
 	[Serializable]
 	[XmlType]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IListItem))]
@@ -65,7 +65,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float DisplayWidth
 		{
 			get
@@ -81,7 +81,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public virtual string ID
 		{
@@ -103,7 +103,7 @@ namespace DCSoft.Writer.Data
 		///       对象所属的知识库节点编号
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public virtual string EntryID
 		{
 			get
@@ -123,7 +123,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       孤独勾选模式。当此项被勾选时，其他项目都不能勾选。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool LonelyChecked
 		{
@@ -140,7 +140,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       在下拉列表中的文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string TextInList
 		{
@@ -157,7 +157,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       列表文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Text
 		{
@@ -179,7 +179,7 @@ namespace DCSoft.Writer.Data
 		///       列表文本2，一般用于多语言环境
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Text2
 		{
 			get
@@ -200,7 +200,7 @@ namespace DCSoft.Writer.Data
 		///       列表项目值
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Value
 		{
 			get
@@ -220,7 +220,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       分组名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Group
 		{
@@ -241,7 +241,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       项目勾选时间
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(typeof(DateTime), "1900-1-1")]
 		public DateTime CheckedTime
 		{
@@ -274,7 +274,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       附加数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Tag
 		{
@@ -296,7 +296,7 @@ namespace DCSoft.Writer.Data
 		///       拼音码
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string SpellCode
 		{
 			get
@@ -316,7 +316,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       拼音码2
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string SpellCode2
 		{
@@ -337,7 +337,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       拼音码3
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string SpellCode3
 		{
@@ -358,7 +358,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       自动生成的拼音码
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public string RuntimeSpellCode
 		{
@@ -381,7 +381,7 @@ namespace DCSoft.Writer.Data
 		///       排序编号
 		///       </summary>
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		public int ListIndex
 		{
 			get
@@ -401,9 +401,9 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       记录状态，在DCWriter中没有用处。仅为设计器提供支持。
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(false)]
 		public DataRowState RecordState
@@ -421,7 +421,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ListItem()
 		{
 		}
@@ -438,7 +438,7 @@ namespace DCSoft.Writer.Data
 		///       返回表示对象数据的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return "Text:" + Text + " Value:" + Value;
@@ -448,7 +448,7 @@ namespace DCSoft.Writer.Data
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public ListItem Clone()
 		{
 			return (ListItem)((ICloneable)this).Clone();

@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ComClass("9D9BA649-62D3-41AC-9A34-CAFC92267FF0", "1C702A9E-7C16-40DF-AC7A-E57A1002714D")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public class DataSourceBindingDescription : IDataSourceBindingDescription
 	{
 		internal const string CLASSID = "9D9BA649-62D3-41AC-9A34-CAFC92267FF0";
@@ -41,7 +41,7 @@ namespace DCSoft.Writer.Dom
 		///       数据源名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string DataSource
 		{
 			get
@@ -58,7 +58,7 @@ namespace DCSoft.Writer.Dom
 		///       数据源的绑定路径
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string BindingPath
 		{
 			get
@@ -74,7 +74,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       元素编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ElementID
 		{
@@ -92,7 +92,7 @@ namespace DCSoft.Writer.Dom
 		///       文档元素对象
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public XTextElement Element
 		{
@@ -109,7 +109,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       格式化字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string FormatString
 		{
@@ -126,7 +126,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       自动更新
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool AutoUpdate
 		{
@@ -144,7 +144,7 @@ namespace DCSoft.Writer.Dom
 		///       只读
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool Readonly
 		{
 			get
@@ -160,7 +160,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DataSourceBindingDescription()
 		{
 		}

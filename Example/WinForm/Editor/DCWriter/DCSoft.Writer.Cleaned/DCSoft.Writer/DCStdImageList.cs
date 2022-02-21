@@ -21,7 +21,7 @@ namespace DCSoft.Writer
 	[ComClass("5F3D758E-DDC0-44D7-BDD8-4018A0AB1941", "DAC1FD81-51AE-4700-A97B-9E840CC5FB45")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IDCStdImageList))]
-	[DCPublishAPI]
+	
 	public class DCStdImageList : IDCStdImageList
 	{
 		internal const string string_0 = "5F3D758E-DDC0-44D7-BDD8-4018A0AB1941";
@@ -64,7 +64,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       透明色
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Color TransparentColor
 		{
 			get
@@ -164,7 +164,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       勾选状态的复选框,必须为16*16的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpCheckBoxChecked
 		{
 			get
@@ -185,7 +185,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       不是勾选状态的复选框,必须为16*16的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpCheckBoxUnchecked
 		{
 			get
@@ -206,7 +206,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       勾选状态的单选框,必须为16*16的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpRadioBoxChecked
 		{
 			get
@@ -227,7 +227,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       不是勾选状态的单选框,必须为16*16的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpRadioBoxUnchecked
 		{
 			get
@@ -248,7 +248,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       从左到右时的段落符号，必须为9*12的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpParagraphFlagLeftToRight
 		{
 			get
@@ -269,7 +269,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       从右到左时的段落符号,必须为9*12的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpParagraphFlagRightToLeft
 		{
 			get
@@ -290,7 +290,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       换行符号,必须为9*12的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpLinebreak
 		{
 			get
@@ -311,7 +311,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       拖拽内容使用的把柄,必须为13*13的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpDragHandle
 		{
 			get
@@ -332,7 +332,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       收缩内容的图标,必须为16*16的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpCollapse
 		{
 			get
@@ -353,7 +353,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       展开内容的图标,必须为16*16的BMP图片格式,透明色为红色。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Bitmap BmpExpand
 		{
 			get
@@ -420,7 +420,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="key">关键字</param>
 		/// <param name="base64String">包含图标内容的BASE64字符串</param>
-		[DCPublishAPI]
+		
 		public void SetBitmapByBase64String(DCStdImageKey dcstdImageKey_0, string base64String)
 		{
 			if (string.IsNullOrEmpty(base64String))
@@ -439,7 +439,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="key">关键字</param>
 		/// <param name="fileName">文件名</param>
-		[DCPublishAPI]
+		
 		public void SetBitmapByFileName(DCStdImageKey dcstdImageKey_0, string fileName)
 		{
 			if (string.IsNullOrEmpty(fileName))
@@ -460,7 +460,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="key">关键字</param>
 		/// <param name="bmp">图片对象</param>
-		[DCPublishAPI]
+		
 		public void SetBitmape(DCStdImageKey dcstdImageKey_0, Bitmap bitmap_4)
 		{
 			if (XTextDocument.smethod_13(GEnum6.const_193) && dcstdImageKey_0 != DCStdImageKey.SystemCheckBoxChecked && dcstdImageKey_0 != DCStdImageKey.SystemCheckBoxUnchecked && dcstdImageKey_0 != DCStdImageKey.SystemRadioBoxChecked && dcstdImageKey_0 != DCStdImageKey.SystemRadioBoxUnchecked)
@@ -477,7 +477,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public Bitmap GetBitmap(DCStdImageKey dcstdImageKey_0)
 		{
 			if (dictionary_1.ContainsKey(dcstdImageKey_0) && dictionary_1[dcstdImageKey_0] != null)

@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Commands
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IFileOpenCommandParameter))]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	public class FileOpenCommandParameter : IFileOpenCommandParameter
 	{

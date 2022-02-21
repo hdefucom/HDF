@@ -27,7 +27,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IDocumentViewOptions))]
-	[DCPublishAPI]
+	
 	public class DocumentViewOptions : ICloneable, IDocumentViewOptions
 	{
 		internal const string CLASSID = "00012345-6789-ABCD-EF01-23456789006B";

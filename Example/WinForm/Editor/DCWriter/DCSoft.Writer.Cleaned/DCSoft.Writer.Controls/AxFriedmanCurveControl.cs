@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Controls
 	///       </remarks>
 	[ComVisible(true)]
 	[ComClass("16CFBFC3-F102-4668-A00C-5223BCC50704", "E04D7C01-A7B6-4A49-A302-DEFB122D2631", "3BA92EF4-5C99-456C-B6C1-03DFAB8B5AD4")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComSourceInterfaces(typeof(IAxFriedmanCurveControlComEvents))]
 	[Guid("16CFBFC3-F102-4668-A00C-5223BCC50704")]
@@ -277,7 +277,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public int GetInterfaceSafetyOptions(ref Guid riid, ref int pdwSupportedOptions, ref int pdwEnabledOptions)
 		{
@@ -326,7 +326,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int SetInterfaceSafetyOptions(ref Guid riid, int dwOptionSetMask, int dwEnabledOptions)
 		{
 			int num = 1;

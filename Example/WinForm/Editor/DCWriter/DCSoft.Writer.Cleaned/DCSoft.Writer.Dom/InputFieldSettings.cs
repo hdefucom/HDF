@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("3D3A82BF-14AB-4560-A022-C3C88C7377E4", "6C95AC4B-26D3-4EAA-9C1E-4F0B015E8CE5")]
 	[Guid("3D3A82BF-14AB-4560-A022-C3C88C7377E4")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IInputFieldSettings))]
@@ -59,7 +59,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       支持的自定义列表来源名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public static string[] SupportCustomListSourceNames
 		{
 			get
@@ -79,7 +79,7 @@ namespace DCSoft.Writer.Dom
 		///       在多选下拉列表中，为了用户可以勾选多个项目，若设置这个属性值为true，则文档中显示的多个项目
 		///       会按照勾选操作的时间上的先后顺序进行排序，而不是列表中是上下顺序进行排序。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool GetValueOrderByTime
 		{
@@ -96,7 +96,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       输入方式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(InputFieldEditStyle.Text)]
 		public InputFieldEditStyle EditStyle
 		{
@@ -134,7 +134,7 @@ namespace DCSoft.Writer.Dom
 		///       多列项目
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool MultiColumn
 		{
 			get
@@ -151,7 +151,7 @@ namespace DCSoft.Writer.Dom
 		///       列表项目分组互斥
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool RepulsionForGroup
 		{
 			get
@@ -168,7 +168,7 @@ namespace DCSoft.Writer.Dom
 		///       允许多选列表项目
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool MultiSelect
 		{
 			get
@@ -185,7 +185,7 @@ namespace DCSoft.Writer.Dom
 		///       动态加载列表项目
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool DynamicListItems
 		{
 			get
@@ -201,7 +201,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       列表内容来源
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public ListSourceInfo ListSource
 		{
@@ -222,7 +222,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       列表数值格式化字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ListValueFormatString
 		{
@@ -239,7 +239,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       列表值之间的分隔字符
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(",")]
 		public string ListValueSeparatorChar
 		{
@@ -256,7 +256,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       DCWriter内部使用。
 		///       </summary>
-		[DCInternal]
+		
 		public string RuntimeListValueSeparator => StringConvertHelper.ParseCStyleEscapedString(ListValueSeparatorChar);
 
 		/// <summary>
@@ -298,7 +298,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       列表项目,已过时，不再使用。
 		///       </summary>
-		[DCInternal]
+		
 		[XmlArrayItem("Item", typeof(InputFieldListItem))]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[DefaultValue(null)]
@@ -317,7 +317,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public InputFieldSettings()
 		{
 		}

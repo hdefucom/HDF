@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class TrackListBoxControler
 	{
 		private WriterControl _WriterControl = null;

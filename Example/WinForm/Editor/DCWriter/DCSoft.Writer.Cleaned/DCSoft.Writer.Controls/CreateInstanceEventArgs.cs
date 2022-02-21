@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("3CFD2E1C-72C2-4330-8D1F-56D8E72554F0", "2DE060E8-A2EB-4879-9383-7387E7952DD7")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(ICreateInstanceEventArgs))]
 	[ComVisible(true)]
 	[Guid("3CFD2E1C-72C2-4330-8D1F-56D8E72554F0")]
@@ -37,25 +37,25 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       实例对象类型
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Type InstanceType => _InstanceType;
 
 		/// <summary>
 		///       对象类型全名
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string InstanceTypeFullName
 		{
 			get
@@ -71,13 +71,13 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       相关的命令名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string CommandName => _CommandName;
 
 		/// <summary>
 		///       创建的对象实例
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object CreatedInstance
 		{
 			get
@@ -93,7 +93,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       是否取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -113,7 +113,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="document">文档对象</param>
 		/// <param name="instanceType">实例类型</param>
 		/// <param name="commandName">命令名称</param>
-		[DCInternal]
+		
 		public CreateInstanceEventArgs(WriterControl writerControl_0, XTextDocument document, Type instanceType, string commandName)
 		{
 			_WriterControl = writerControl_0;

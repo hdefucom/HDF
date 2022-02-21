@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       编辑文档元素属性事件参数
 	///       </summary>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public class ElementPropertiesEditEventArgs : EventArgs
 	{
@@ -211,7 +211,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public ElementPropertiesEditEventArgs()
 		{
 		}

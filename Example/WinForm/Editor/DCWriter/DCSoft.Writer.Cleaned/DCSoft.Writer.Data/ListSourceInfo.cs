@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Data
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-234567890032")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890032", "C3F5C68B-53B5-48D5-A352-46ADD435CC72")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IListSourceInfo))]
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Data
 		///       对象内容是否为空
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public bool IsEmpty
 		{
 			get
@@ -108,7 +108,7 @@ namespace DCSoft.Writer.Data
 		///       来源名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string SourceName
 		{
 			get
@@ -161,7 +161,7 @@ namespace DCSoft.Writer.Data
 		///       内置的列表项目
 		///       </summary>
 		[XmlArrayItem("Item", typeof(ListItem))]
-		[DCPublishAPI]
+		
 		public ListItemCollection Items
 		{
 			get
@@ -203,7 +203,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public ListItemCollection RuntimeItems
 		{
@@ -348,7 +348,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="info">信息对象</param>
 		/// <param name="bindingProvider">提供者</param>
 		/// <returns>显示的文本</returns>
-		[DCInternal]
+		
 		public static string StdGetDisplayText(object Value, ListSourceInfo info, XDataBindingProvider bindingProvider)
 		{
 			return smethod_1(Value, info, 0, bindingProvider);
@@ -361,7 +361,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="info">信息对象</param>
 		/// <param name="bindingProvider">提供者</param>
 		/// <returns>后台数据</returns>
-		[DCInternal]
+		
 		public static string StdGetValue(object Value, ListSourceInfo info, XDataBindingProvider bindingProvider)
 		{
 			return smethod_1(Value, info, 1, bindingProvider);
@@ -374,7 +374,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="info">信息对象</param>
 		/// <param name="bindingProvider">提供者</param>
 		/// <returns>后台数据</returns>
-		[DCInternal]
+		
 		public static string StdGetTag(object Value, ListSourceInfo info, XDataBindingProvider bindingProvider)
 		{
 			if (Value is ListItem)
@@ -472,7 +472,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ListSourceInfo()
 		{
 		}

@@ -21,10 +21,10 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-23456789001E")]
-	[DCInternal]
+	
 	public abstract class XTextObjectElement : XTextElement, IDeleteable, IMemberPropertyExpressions
 	{
-		[DCInternal]
+		
 		public static int int_6 = 20;
 
 		public static float float_5 = 3f;
@@ -82,7 +82,7 @@ namespace DCSoft.Writer.Dom
 		///       文档内容布局时使用的宽度
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public override float LayoutWidth
 		{
 			get
@@ -99,7 +99,7 @@ namespace DCSoft.Writer.Dom
 		///       文档内容布局时使用的高度
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public override float LayoutHeight
 		{
 			get
@@ -117,7 +117,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		public override float AbsLeft
 		{
 			get
@@ -136,7 +136,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		public override float AbsTop
 		{
 			get
@@ -154,7 +154,7 @@ namespace DCSoft.Writer.Dom
 		///       X方向偏移量，只有ZOrderStyle=UnderText、InFrontOfText时才有效。
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(0f)]
 		public float OffsetX
 		{
@@ -172,7 +172,7 @@ namespace DCSoft.Writer.Dom
 		///       Y方向偏移量，只有ZOrderStyle=UnderText、InFrontOfText时才有效。
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public float OffsetY
 		{
@@ -191,7 +191,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(false)]
@@ -219,7 +219,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(true)]
 		[DefaultValue(ElementZOrderStyle.Normal)]
-		[DCPublishAPI]
+		
 		public ElementZOrderStyle ZOrderStyle
 		{
 			get
@@ -235,7 +235,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时的Z轴位置
 		///       </summary>
-		[DCInternal]
+		
 		public override ElementZOrderStyle RuntimeZOrderStyle
 		{
 			get
@@ -275,7 +275,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       客户端单击执行的javascript脚本。当Options.BehaviorOptions.EnableExpression为false时，本属性无效。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		public string JavaScriptForClick
@@ -293,7 +293,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       双击时执行的javascript脚本。当Options.BehaviorOptions.EnableExpression为false时，本属性无效。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		public string JavaScriptForDoubleClick
@@ -312,7 +312,7 @@ namespace DCSoft.Writer.Dom
 		///       成员表达式列表
 		///       </summary>
 		[XmlArrayItem("Item", typeof(PropertyExpressionInfo))]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[Browsable(true)]
 		[ComVisible(true)]
@@ -338,7 +338,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时使用的扩展标记文字
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public override string RuntimeAdornText
 		{
@@ -382,7 +382,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[Browsable(true)]
 		public override bool Visible
@@ -400,7 +400,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时使用的垂直对齐方式
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public virtual VerticalAlignStyle RuntimeVAlign => VerticalAlignStyle.Top;
 
@@ -433,7 +433,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(ElementVisibility.Visible)]
 		[ComVisible(true)]
 		[XmlElement]
@@ -452,7 +452,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       元素占据排版位置，能参与文档内容排版。
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public override bool RuntimeLayoutable
 		{
@@ -495,7 +495,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(false)]
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		public override VBScriptItemList RuntimeScriptItems => ScriptItems;
 
 		/// <summary>
@@ -515,7 +515,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[ComVisible(true)]
 		[HtmlAttribute(AutoUseAttributeString = true)]
-		[DCPublishAPI]
+		
 		public virtual HyperlinkInfo LinkInfo
 		{
 			get
@@ -534,7 +534,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(true)]
 		[HtmlAttribute]
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[DefaultValue(ContentReadonlyState.Inherit)]
 		[XmlElement]
 		public virtual ContentReadonlyState ContentReadonly
@@ -552,7 +552,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时的内容是否只读
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public virtual bool RuntimeContentReadonly
 		{
@@ -582,7 +582,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(true)]
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[HtmlAttribute]
 		public bool Deleteable
@@ -616,7 +616,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[Browsable(false)]
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public int UserFlags
 		{
@@ -654,7 +654,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[XmlArrayItem("Attribute", typeof(XAttribute))]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		public override XAttributeList Attributes
 		{
 			get
@@ -678,7 +678,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象宽度高度比,若大于等于0.1则该设置有效，否则无效
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public virtual double WidthHeightRate
@@ -721,7 +721,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[DefaultValue(null)]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
-		[DCPublishAPI]
+		
 		public string Name
 		{
 			get
@@ -743,7 +743,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable]
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[ComVisible(true)]
 		public bool Enabled
@@ -761,7 +761,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       附加的字符串数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		[MemberExpressionable]
@@ -780,7 +780,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       附加的对象数据,这个数据不保存到文档
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[MemberExpressionable]
 		public object Tag
@@ -805,7 +805,7 @@ namespace DCSoft.Writer.Dom
 		///       判断能否使用鼠标拖拽该对象
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public bool ShowDragRect
 		{
 			get
@@ -856,7 +856,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override PropertyExpressionInfoList GetRuntimePropertyExpressions()
 		{
 			return PropertyExpressions;
@@ -867,7 +867,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override GClass96 GetToolTipInfo()
 		{
 			int num = 5;
@@ -898,7 +898,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="name">属性名</param>
 		/// <returns>获得的属性值</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public override string GetAttribute(string name)
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_180))
@@ -919,7 +919,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="Value">属性值</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public override bool SetAttribute(string name, string Value)
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_180))
@@ -939,7 +939,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <returns>是否存在</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public override bool HasAttribute(string name)
 		{
@@ -958,7 +958,7 @@ namespace DCSoft.Writer.Dom
 		{
 		}
 
-		[DCInternal]
+		
 		public virtual GClass300 vmethod_24()
 		{
 			GClass300.int_0 = int_6;
@@ -999,7 +999,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public override void Draw(DocumentPaintEventArgs args)
 		{
 			if (base.DocumentContentElement != null)
@@ -1048,7 +1048,7 @@ namespace DCSoft.Writer.Dom
 		///       处理文档用户界面事件
 		///       </summary>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public override void HandleDocumentEvent(DocumentEventArgs args)
 		{
 			bool designMode = OwnerDocument.Options.BehaviorOptions.DesignMode;
@@ -1274,7 +1274,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="Deeply">是否深度复制</param>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextObjectElement xTextObjectElement = (XTextObjectElement)base.Clone(Deeply);

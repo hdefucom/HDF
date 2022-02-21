@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class GClass123
 	{
 		private class Class133 : Dictionary<Type, XTextElementList>

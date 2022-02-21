@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[Guid("BB1ADA19-0BCF-44A4-9AD7-E1C3445B84D8")]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public enum InsertDocumentWithCheckMRIDType
 	{
 		/// <summary>

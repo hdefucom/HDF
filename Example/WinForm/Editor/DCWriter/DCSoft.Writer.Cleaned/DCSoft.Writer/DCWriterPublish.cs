@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IDCWriterPublish))]
 	[Guid("6AF148FB-3227-4F42-8C0D-D102EB9DBD7F")]
-	[DCPublishAPI]
+	
 	public class DCWriterPublish : IDCWriterPublish
 	{
 		internal const string CLASSID = "6AF148FB-3227-4F42-8C0D-D102EB9DBD7F";
@@ -23,7 +23,7 @@ namespace DCSoft.Writer
 
 		private static bool _StartFlag = false;
 
-		[DCPublishAPI]
+		
 		public static void Start()
 		{
 			int num = 15;

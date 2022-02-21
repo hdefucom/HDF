@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Commands
 	///       文档选项对话框
 	///       </summary>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	public class dlgDocumentOptions : Form
 	{
 		private DocumentOptions documentOptions_0 = null;

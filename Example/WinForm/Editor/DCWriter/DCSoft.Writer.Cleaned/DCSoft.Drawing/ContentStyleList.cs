@@ -18,7 +18,7 @@ namespace DCSoft.Drawing
 	[DebuggerDisplay("Count={ Count }")]
 	public class ContentStyleList : List<ContentStyle>, IContentStyleList
 	{
-		[DCInternal]
+		
 		public ContentStyle SafeGet(int index, ContentStyle defaultValue)
 		{
 			if (index >= 0 && index < base.Count)
@@ -33,7 +33,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="vLock">
 		/// </param>
-		[DCInternal]
+		
 		public void SetValueLocked(bool vLock)
 		{
 		}
@@ -45,7 +45,7 @@ namespace DCSoft.Drawing
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public int IndexOfExt(ContentStyle item)
 		{
 			int num = IndexOf(item);
@@ -73,7 +73,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       更新项目列表的编号属性值
 		///       </summary>
-		[DCInternal]
+		
 		public void UpdateStyleIndex()
 		{
 			for (int i = 0; i < base.Count; i++)
@@ -85,7 +85,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       修复字体名称
 		///       </summary>
-		[DCInternal]
+		
 		public void FixFontName()
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -108,7 +108,7 @@ namespace DCSoft.Drawing
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public ContentStyle ComGetItem(int index)
 		{
 			return base[index];
@@ -119,7 +119,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ComSetItem(int index, ContentStyle item)
 		{

@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Controls
 	///       浏览选择控件的对话框
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class dlgBrowseControlType : Form
 	{

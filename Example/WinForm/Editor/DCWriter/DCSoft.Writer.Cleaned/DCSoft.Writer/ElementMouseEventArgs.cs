@@ -17,7 +17,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IElementMouseEventArgs))]
-	[DCPublishAPI]
+	
 	[ComClass("BB04154D-8AFE-413A-A5F3-608DC2C5E345", "73B53D58-5AB7-4C9E-BBE3-B5C03CEDF98A")]
 	public class ElementMouseEventArgs : ElementEventArgs, IElementMouseEventArgs
 	{
@@ -43,7 +43,7 @@ namespace DCSoft.Writer
 		///       鼠标按键值
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public MouseButtons Button
 		{
 			get
@@ -59,13 +59,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户是否按下左按钮
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool HasLeftButton => (_Button & MouseButtons.Left) == MouseButtons.Left;
 
 		/// <summary>
 		///       用户是否按下右按钮
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool HasRightButton => (_Button & MouseButtons.Right) == MouseButtons.Right;
 
 		/// <summary>
@@ -73,14 +73,14 @@ namespace DCSoft.Writer
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[Obsolete("本属性仅仅作为COM接口使用")]
 		public int ButtonValue => (int)Button;
 
 		/// <summary>
 		///       按键点击次数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Clicks
 		{
 			get
@@ -96,7 +96,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       鼠标滚轮计数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Delta
 		{
 			get
@@ -112,7 +112,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       鼠标光标在文档中的X坐标
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float DocumentX
 		{
 			get
@@ -128,7 +128,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       鼠标光标在文档中的Y坐标
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float DocumentY
 		{
 			get
@@ -144,7 +144,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       鼠标光标在元素客户区中的X坐标
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float ElementClientX
 		{
 			get
@@ -160,7 +160,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       鼠标光标在元素客户区中的Y坐标
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float ElementClientY
 		{
 			get

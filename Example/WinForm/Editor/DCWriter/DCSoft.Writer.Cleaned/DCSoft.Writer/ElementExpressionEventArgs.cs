@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IElementExpressionEventArgs))]
 	[Guid("A4E35045-E2D5-4E05-9703-E06B1AB82B56")]
 	[ComClass("A4E35045-E2D5-4E05-9703-E06B1AB82B56", "11A21CBD-0555-4AAD-BF09-0C4E2E8E0F13")]
@@ -29,13 +29,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       表达式文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Expression => _Expression;
 
 		/// <summary>
 		///       运算结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object Result
 		{
 			get
@@ -53,7 +53,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="element">文档元素</param>
 		/// <param name="expression">表达式文本</param>
-		[DCInternal]
+		
 		public ElementExpressionEventArgs(XTextElement element, string expression)
 			: base(element)
 		{

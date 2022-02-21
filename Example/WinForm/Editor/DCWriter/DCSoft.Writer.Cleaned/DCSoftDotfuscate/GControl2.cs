@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	[ToolboxItem(false)]
 	[ComVisible(false)]
 	public class GControl2 : UserControl

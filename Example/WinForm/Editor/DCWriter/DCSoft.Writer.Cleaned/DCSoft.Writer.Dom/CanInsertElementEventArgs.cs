@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("C26BF7C1-77E3-49B2-94E7-1FD7843FE6CE")]
 	[ComDefaultInterface(typeof(ICanInsertElementEventArgs))]
-	[DCPublishAPI]
+	
 	[ComClass("C26BF7C1-77E3-49B2-94E7-1FD7843FE6CE", "516F05E8-587A-41B4-8DB4-E219BDE0228C")]
 	public class CanInsertElementEventArgs : ICanInsertElementEventArgs
 	{
@@ -40,31 +40,31 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       容器元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextContainerElement Container => _Container;
 
 		/// <summary>
 		///       序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Index => _Index;
 
 		/// <summary>
 		///       文档元素类型
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Type ElementType => _ElementType;
 
 		/// <summary>
 		///       文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement Element => _Element;
 
 		/// <summary>
 		///       标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DomAccessFlags Flags
 		{
 			get
@@ -80,7 +80,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       设置的消息
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool SetMessage
 		{
 			get
@@ -111,7 +111,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Result
 		{
 			get
@@ -131,7 +131,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">序号</param>
 		/// <param name="elementType">文档元素类型</param>
 		/// <param name="flags">标记</param>
-		[DCInternal]
+		
 		public CanInsertElementEventArgs(XTextContainerElement container, int index, Type elementType, DomAccessFlags flags)
 		{
 			_Container = container;
@@ -147,7 +147,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">序号</param>
 		/// <param name="element">文档元素</param>
 		/// <param name="flags">标记</param>
-		[DCInternal]
+		
 		public CanInsertElementEventArgs(XTextContainerElement container, int index, XTextElement element, DomAccessFlags flags)
 		{
 			_Container = container;

@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Commands
 	[DocumentComment]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IHeaderFormatCommandParameter))]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	public class HeaderFormatCommandParameter : IHeaderFormatCommandParameter
 	{

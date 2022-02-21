@@ -10,7 +10,7 @@ namespace DCSoft.Printing
 	/// <summary>
 	///       打印任务对象
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class PrintJob
 	{

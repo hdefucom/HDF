@@ -8,7 +8,7 @@ using System.Web.UI;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	public static class GClass38
 	{
 		private class Class72

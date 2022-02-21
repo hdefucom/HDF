@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("00012345-6789-ABCD-EF01-234567890044")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IDocumentContentStyle))]
-	[DCPublishAPI]
+	
 	public class DocumentContentStyle : ContentStyle, IDocumentContentStyle
 	{
 		internal const string string_73 = "00012345-6789-ABCD-EF01-234567890044";
@@ -88,7 +88,7 @@ namespace DCSoft.Writer.Dom
 		///       运行时样式
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public RuntimeDocumentContentStyle MyRuntimeStyle
 		{
@@ -105,7 +105,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       附加的数据,本数据不存储
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public Hashtable Tags
@@ -123,7 +123,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       打印用文本颜色
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[DefaultValue(typeof(Color), "Transparent")]
 		public Color PrintColor
@@ -141,7 +141,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       字符串格式的对象颜色
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlElement("PrintColor")]
 		[DefaultValue(null)]
@@ -161,7 +161,7 @@ namespace DCSoft.Writer.Dom
 		///       打印用背景颜色
 		///       </summary>
 		[DefaultValue(typeof(Color), "Empty")]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public Color PrintBackColor
 		{
@@ -181,7 +181,7 @@ namespace DCSoft.Writer.Dom
 		[XmlElement("PrintBackColor")]
 		[Browsable(false)]
 		[DefaultValue(null)]
-		[DCInternal]
+		
 		public string PrintBackColorString
 		{
 			get
@@ -198,7 +198,7 @@ namespace DCSoft.Writer.Dom
 		///       运行时使用的打印用的文本颜色
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public Color RuntimePrintColor
 		{
@@ -216,7 +216,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容排版方向，默认为Default
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(ContentLayoutDirectionStyle.Default)]
 		public ContentLayoutDirectionStyle LayoutDirection
 		{
@@ -233,7 +233,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       批注编号，默认为-1.
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(-1)]
 		public int CommentIndex
 		{
@@ -251,7 +251,7 @@ namespace DCSoft.Writer.Dom
 		///       内容保护模式,默认值为None。
 		///       </summary>
 		[DefaultValue(ContentProtectType.None)]
-		[DCPublishAPI]
+		
 		public ContentProtectType ProtectType
 		{
 			get
@@ -267,7 +267,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       标题层次,默认值为-1
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(-1)]
 		public int TitleLevel
 		{
@@ -284,9 +284,9 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否存在有效的标题层次
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public bool HasTitleLevel
 		{
 			get
@@ -304,7 +304,7 @@ namespace DCSoft.Writer.Dom
 		///       本属性已经淘汰了，请使用XTextContentElement.GridLine属性。网格线类型
 		///       </summary>
 		[XmlElement]
-		[DCInternal]
+		
 		[DefaultValue(ContentGridLineType.None)]
 		public ContentGridLineType GridLineType
 		{
@@ -321,7 +321,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       请改用XTextContentElement.SpecifyFixedLineHeight属性
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(0f)]
 		[XmlElement]
 		[Obsolete("本属性已经淘汰了，请使用XTextContentElement.GridLine属性。")]
@@ -341,7 +341,7 @@ namespace DCSoft.Writer.Dom
 		///       本属性已经淘汰了，请使用XTextContentElement.GridLine属性。网格线纵向偏移量
 		///       </summary>
 		[XmlElement]
-		[DCInternal]
+		
 		[DefaultValue(0f)]
 		public float GridLineOffsetY
 		{
@@ -359,7 +359,7 @@ namespace DCSoft.Writer.Dom
 		///       本属性已经淘汰了，请使用XTextContentElement.GridLine属性。网格线线型
 		///       </summary>
 		[XmlElement]
-		[DCInternal]
+		
 		[DefaultValue(DashStyle.Solid)]
 		public DashStyle GridLineStyle
 		{
@@ -377,7 +377,7 @@ namespace DCSoft.Writer.Dom
 		///       本属性已经淘汰了，请使用XTextContentElement.GridLine属性。 网格线颜色
 		///        </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[DefaultValue(typeof(Color), "Black")]
 		[Obsolete("本属性已经淘汰了，请使用XTextContentElement.GridLine属性。")]
 		public Color GridLineColor
@@ -396,7 +396,7 @@ namespace DCSoft.Writer.Dom
 		///       本属性已经淘汰了，请使用XTextContentElement.GridLine属性。字符串格式的对象颜色
 		///       </summary>
 		[DefaultValue(null)]
-		[DCInternal]
+		
 		[XmlElement("GridLineColor")]
 		[Browsable(false)]
 		public string GridLineColorString
@@ -415,7 +415,7 @@ namespace DCSoft.Writer.Dom
 		///       创建元素的用户信息编号
 		///       </summary>
 		[DefaultValue(-1)]
-		[DCPublishAPI]
+		
 		public int CreatorIndex
 		{
 			get
@@ -431,7 +431,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       删除元素的用户信息编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(-1)]
 		public int DeleterIndex
 		{
@@ -449,7 +449,7 @@ namespace DCSoft.Writer.Dom
 		///       对象名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Name
 		{
 			get
@@ -466,7 +466,7 @@ namespace DCSoft.Writer.Dom
 		///       超链接地址
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Link
 		{
 			get
@@ -484,8 +484,8 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[XmlIgnore]
-		[DCInternal]
-		[DCPublishAPI]
+		
+		
 		[Browsable(false)]
 		public int ReferenceCount
 		{
@@ -502,7 +502,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       制表宽度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public float TabWidth => float_3;
 
@@ -667,12 +667,12 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public DocumentContentStyle()
 		{
 		}
 
-		[DCPublishAPI]
+		
 		public override ContentStyle Clone()
 		{
 			DocumentContentStyle documentContentStyle = (DocumentContentStyle)base.Clone();
@@ -685,7 +685,7 @@ namespace DCSoft.Writer.Dom
 			runtimeDocumentContentStyle_0 = null;
 		}
 
-		[DCInternal]
+		
 		public bool method_29(string string_75)
 		{
 			foreach (GClass371 key in base.InnerValues.Keys)
@@ -717,7 +717,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public string method_30(string string_75)
 		{
 			int num = 10;
@@ -758,7 +758,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public string method_31(string string_75)
 		{
 			int num = 1;
@@ -827,7 +827,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public void method_32(DCGraphics dcgraphics_0)
 		{
 			int num = 9;
@@ -846,7 +846,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public int method_33(DocumentContentStyle documentContentStyle_0)
 		{
 			int num = 3;

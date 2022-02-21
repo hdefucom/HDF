@@ -45,7 +45,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       授权相关的功能编号
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		[XmlIgnore]

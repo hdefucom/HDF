@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       标准图标列表编号
 	///       </summary>
 	[Guid("48A5A9F8-F984-4EF1-9D22-2555CC28571C")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	public enum DCStdImageKey

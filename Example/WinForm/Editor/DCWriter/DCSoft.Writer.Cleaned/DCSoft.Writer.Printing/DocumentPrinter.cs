@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Printing
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public class DocumentPrinter
 	{
@@ -35,7 +35,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       打印文档选项
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DCPrintDocumentOptions Options
 		{
 			get
@@ -53,7 +53,7 @@ namespace DCSoft.Writer.Printing
 		///       </summary>
 		[ComVisible(false)]
 		[Obsolete("★★★★★★请使用Options下的属性")]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public bool AsyncPrint
@@ -71,7 +71,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       正文Y方向偏移量
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float BodyOffsetY
 		{
 			get
@@ -87,7 +87,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       要打印的文档
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -107,7 +107,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       要打印的文档集合
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocumentList Documents
 		{
 			get
@@ -123,7 +123,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       整洁打印模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CleanMode
 		{
 			get
@@ -143,7 +143,7 @@ namespace DCSoft.Writer.Printing
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public JumpPrintInfo JumpPrint
 		{
 			get
@@ -159,7 +159,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       当前页对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PrintPage CurrentPage
 		{
 			get
@@ -178,7 +178,7 @@ namespace DCSoft.Writer.Printing
 		[Browsable(false)]
 		[Obsolete("★★★★★★请使用Options下的属性")]
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public PrintRange PrintRange
 		{
@@ -196,7 +196,7 @@ namespace DCSoft.Writer.Printing
 		///       本属性已经废除掉了,请使用Options下的属性
 		///       </summary>
 		[Obsolete("★★★★★★请使用Options下的属性")]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[ComVisible(false)]
 		[Browsable(false)]
@@ -215,7 +215,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       本属性已经废除掉了,请使用Options下的属性
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
@@ -235,7 +235,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       本属性已经废除掉了,请使用Options下的属性
 		///       </summary>
-		[DCInternal]
+		
 		[Obsolete("★★★★★★请使用Options下的属性")]
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
@@ -255,7 +255,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       本属性已经废除掉了,请使用Options下的属性
 		///       </summary>
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[ComVisible(false)]
 		[Browsable(false)]
@@ -293,7 +293,7 @@ namespace DCSoft.Writer.Printing
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[ComVisible(false)]
 		[Obsolete("★★★★★★请使用Options下的属性")]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public List<int> SpecifyPageIndexs
 		{
@@ -310,7 +310,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       本属性已经废除掉了,请使用Options下的属性
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
@@ -330,7 +330,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       本属性已经废除掉了,请使用Options下的属性
 		///       </summary>
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[ComVisible(false)]
 		[Browsable(false)]
@@ -369,7 +369,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentPrinter()
 		{
 		}
@@ -378,7 +378,7 @@ namespace DCSoft.Writer.Printing
 		///       初始化对象
 		///       </summary>
 		/// <param name="doc">要打印的文档对象</param>
-		[DCPublishAPI]
+		
 		public DocumentPrinter(XTextDocument xtextDocument_0)
 		{
 			xtextDocumentList_0 = new XTextDocumentList(xtextDocument_0);
@@ -388,7 +388,7 @@ namespace DCSoft.Writer.Printing
 		///       初始化对象
 		///       </summary>
 		/// <param name="ctl">编辑器控件</param>
-		[DCPublishAPI]
+		
 		public DocumentPrinter(WriterControl writerControl_1)
 		{
 			xtextDocumentList_0 = new XTextDocumentList(writerControl_1.Document);
@@ -408,7 +408,7 @@ namespace DCSoft.Writer.Printing
 		///       初始化对象
 		///       </summary>
 		/// <param name="documents">要打印的文档集合</param>
-		[DCPublishAPI]
+		
 		public DocumentPrinter(XTextDocumentList xtextDocumentList_1)
 		{
 			xtextDocumentList_0 = xtextDocumentList_1;
@@ -435,7 +435,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       为打印做一些准备工作
 		///       </summary>
-		[DCInternal]
+		
 		public void PreparePrintDocument()
 		{
 			if (Documents != null)
@@ -457,7 +457,7 @@ namespace DCSoft.Writer.Printing
 		///       </summary>
 		/// <param name="Prompt">是否显示打印机选择对话框</param>
 		/// <returns>是否进行了打印</returns>
-		[DCPublishAPI]
+		
 		public PrintResult PrintDocument(bool Prompt)
 		{
 			return PrintDocument(Prompt, -1);
@@ -487,7 +487,7 @@ namespace DCSoft.Writer.Printing
 		/// <param name="Prompt">是否显示打印机选择对话框</param>
 		/// <param name="SpecialPageIndex">从0开始计算的要打印的指定序号的报表页,若该参数超出范围则打印文档的所有页</param>
 		/// <returns>是否进行了打印</returns>
-		[DCPublishAPI]
+		
 		public PrintResult PrintDocument(bool Prompt, int SpecialPageIndex)
 		{
 			PrintResult printResult = new PrintResult();

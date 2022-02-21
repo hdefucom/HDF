@@ -48,7 +48,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_1(XTextDocument xtextDocument_0)
 		{
 			XTextElementList elementsByType = xtextDocument_0.GetElementsByType(typeof(XTextImageElement));

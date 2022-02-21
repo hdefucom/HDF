@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(ICopySourceInfo))]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("17946D6F-DE3C-4D07-93E1-B99CFC2EB713", "CFCE3920-FE4C-4FE7-9D39-2D5D44F4E391")]
@@ -35,7 +35,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       数据来源的文档元素编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string SourceID
 		{
@@ -52,7 +52,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       属性名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string SourcePropertyName
 		{
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Dom
 		///       目标属性名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string DescPropertyName
 		{
 			get
@@ -86,7 +86,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       忽略掉子元素的操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool IgnoreChildElements
 		{
@@ -105,7 +105,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public CopySourceInfo()
 		{
 		}
@@ -114,8 +114,8 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		public CopySourceInfo Clone()
 		{
 			return (CopySourceInfo)MemberwiseClone();
@@ -125,19 +125,19 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return ValueTypeHelper.GetPropertiesAttributeString(this, detectDefaultValue: true);
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			return ToString();
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			ValueTypeHelper.SetPropertiesAttributeString(this, text);

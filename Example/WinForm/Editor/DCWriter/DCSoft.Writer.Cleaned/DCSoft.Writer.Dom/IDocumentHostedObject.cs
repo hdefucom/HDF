@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       和文档交互的控件接口
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public interface IDocumentHostedObject

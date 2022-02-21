@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       文档树节点遍历器
 	///       </summary>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	public class DomTreeNodeEnumerable : TreeNodeEnumerable
 	{
 		private bool bool_0 = true;
@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       忽略字符元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ExcludeCharElement
 		{
 			get
@@ -34,7 +34,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       忽略段落符号元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ExcludeParagraphFlag
 		{
 			get
@@ -51,7 +51,7 @@ namespace DCSoft.Writer.Dom
 		///       初始化对象
 		///       </summary>
 		/// <param name="elements">文档元素列表</param>
-		[DCPublishAPI]
+		
 		public DomTreeNodeEnumerable(XTextElementList xtextElementList_0)
 		{
 			base.RootNodes = xtextElementList_0;
@@ -62,7 +62,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="rootElement">根节点</param>
 		/// <param name="includeRootElement">遍历时是否包含根节点</param>
-		[DCPublishAPI]
+		
 		public DomTreeNodeEnumerable(XTextElement xtextElement_0, bool bool_2 = false)
 		{
 			if (bool_2)
@@ -77,19 +77,19 @@ namespace DCSoft.Writer.Dom
 			base.RootParent = xtextElement_0;
 		}
 
-		[DCInternal]
+		
 		public override object GetParent(object instance)
 		{
 			return ((XTextElement)instance).Parent;
 		}
 
-		[DCInternal]
+		
 		public override IEnumerable GetChildNodes(object instance)
 		{
 			return ((XTextElement)instance).Elements;
 		}
 
-		[DCInternal]
+		
 		public override bool IsPublish(object current)
 		{
 			if (bool_0 && current is XTextCharElement)

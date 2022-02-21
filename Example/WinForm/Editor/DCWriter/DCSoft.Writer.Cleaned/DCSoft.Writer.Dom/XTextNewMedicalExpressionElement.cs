@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[XmlType("XNewMedicalExpression")]
 	[ComClass("D879B0C3-A23C-44F4-B142-412E935CBA89", "67E28F15-15A0-4F8B-89C0-3210F4B8FA53")]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("New medical expression:{Name}")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IXTextNewMedicalExpressionElement))]

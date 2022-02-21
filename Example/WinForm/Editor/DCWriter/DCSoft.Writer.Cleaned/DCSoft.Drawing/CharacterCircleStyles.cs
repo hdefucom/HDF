@@ -10,7 +10,7 @@ namespace DCSoft.Drawing
 	[Guid("9BA67798-F22C-487E-BE98-305C14241484")]
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public enum CharacterCircleStyles
 	{
 		/// <summary>

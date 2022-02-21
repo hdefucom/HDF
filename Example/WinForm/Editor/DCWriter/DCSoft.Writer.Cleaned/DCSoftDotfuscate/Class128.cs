@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	internal class Class128
 	{
 		private WriterViewControl writerViewControl_0 = null;

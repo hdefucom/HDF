@@ -13,7 +13,7 @@ namespace DCSoft.Drawing
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IRectangleClass))]
 	[DocumentComment]
-	[DCInternal]
+	
 	public class RectangleClass : IRectangleClass
 	{
 		private int _Left = 0;

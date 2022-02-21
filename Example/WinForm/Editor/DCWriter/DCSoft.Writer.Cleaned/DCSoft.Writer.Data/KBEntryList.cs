@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890029", "AE551F76-B49D-4EEE-980B-15CDB1C5AEF7")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
@@ -30,7 +30,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       列表中最后一个元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public KBEntry Last
 		{
 			get
@@ -46,7 +46,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public KBEntryList()
 		{
 		}
@@ -58,7 +58,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="text">节点文本</param>
 		/// <param name="Value">节点值</param>
 		/// <returns>新添加的节点对象 </returns>
-		[DCPublishAPI]
+		
 		public KBEntry AddBy3Parameter(string string_0, string text, string Value)
 		{
 			KBEntry kBEntry = new KBEntry();
@@ -77,7 +77,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="Value">节点值</param>
 		/// <param name="style">节点类型</param>
 		/// <returns>新添加的节点对象 </returns>
-		[DCPublishAPI]
+		
 		public KBEntry AddBy4Parameters(string string_0, string text, string Value, KBEntryStyle style)
 		{
 			KBEntry kBEntry = new KBEntry();
@@ -93,7 +93,7 @@ namespace DCSoft.Writer.Data
 		///       对内容进行排序
 		///       </summary>
 		/// <returns>操作是否修改了列表内容</returns>
-		[DCPublishAPI]
+		
 		public bool SortItems()
 		{
 			if (base.Count <= 1)

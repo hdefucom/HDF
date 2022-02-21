@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Commands
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("B2916388-F487-4031-BF1C-499330DC0AD9")]
-	[DCPublishAPI]
+	
 	public class BorderBackgroundCommandParameter : IBorderBackgroundCommandParameter
 	{
 		internal const string CLASSID = "B2916388-F487-4031-BF1C-499330DC0AD9";
@@ -61,7 +61,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       指定参与处理的文档元素列表 
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList Elements
 		{
 			get
@@ -77,7 +77,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       是否显示顶端边框线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool TopBorder
 		{
 			get
@@ -93,7 +93,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       是否显示水平中间的边框线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool MiddleHorizontalBorder
 		{
 			get
@@ -109,7 +109,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       是否显示低端边框线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool BottomBorder
 		{
 			get
@@ -125,7 +125,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       是否显示左端边框线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool LeftBorder
 		{
 			get
@@ -141,7 +141,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       是否显示垂直居中的边框线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CenterVerticalBorder
 		{
 			get
@@ -157,7 +157,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       是否显示右边的边框线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool RightBorder
 		{
 			get
@@ -173,7 +173,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       边框线颜色
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Color BorderLeftColor
 		{
 			get
@@ -189,7 +189,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       边框线颜色
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Color BorderTopColor
 		{
 			get
@@ -205,7 +205,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       边框线颜色
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Color BorderRightColor
 		{
 			get
@@ -221,7 +221,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       边框线颜色
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Color BorderBottomColor
 		{
 			get
@@ -237,7 +237,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       边框线样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DashStyle BorderStyle
 		{
 			get
@@ -253,7 +253,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       边框线宽度
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float BorderWidth
 		{
 			get
@@ -269,7 +269,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       背景色
 		///       </summary>
-		[DCPublishAPI]
+		
 		public Color BackgroundColor
 		{
 			get
@@ -285,7 +285,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       设置应用范围
 		///       </summary>
-		[DCPublishAPI]
+		
 		public StyleApplyRanges ApplyRange
 		{
 			get
@@ -301,7 +301,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       边框设置样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public BorderSettingsStyle BorderSettingsStyle
 		{
 			get
@@ -317,7 +317,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       设置边框样式
 		///       </summary>
-		[DCInternal]
+		
 		public void SetBorderSettingsStyle()
 		{
 			if (LeftBorder && TopBorder && RightBorder && BottomBorder)
@@ -348,7 +348,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       清空设置
 		///       </summary>
-		[DCInternal]
+		
 		public void Clear()
 		{
 			TopBorder = true;
@@ -372,7 +372,7 @@ namespace DCSoft.Writer.Commands
 		///       读取温度样式信息对象
 		///       </summary>
 		/// <param name="style">样式信息对象</param>
-		[DCInternal]
+		
 		public void ReadContentStyle(ContentStyle style)
 		{
 			if (style != null)
@@ -396,7 +396,7 @@ namespace DCSoft.Writer.Commands
 		///       </summary>
 		/// <param name="style">样式信息</param>
 		/// <returns>操作是否修改了样式信息内容</returns>
-		[DCInternal]
+		
 		public bool SetContentStyle(ContentStyle style)
 		{
 			bool result = false;

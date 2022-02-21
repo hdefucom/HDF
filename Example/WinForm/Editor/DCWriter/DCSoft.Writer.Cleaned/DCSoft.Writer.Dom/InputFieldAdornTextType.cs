@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("B4997EF2-64FF-49DE-92A5-742D69D382AB")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public enum InputFieldAdornTextType
 	{

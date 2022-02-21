@@ -12,7 +12,7 @@ using System.Xml.Serialization;
 namespace DCSoft.Writer.Dom
 {
 	[Serializable]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Ruler:{Name}")]
 	[Guid("85C8C8E4-68CC-4228-9736-6926ED9F6ECD")]
 	[ComClass("85C8C8E4-68CC-4228-9736-6926ED9F6ECD", "B453DD01-FEEE-4126-9625-F64885E82BB9")]

@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Controls
 	///       知识库树状列表
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCPublishAPI]
+	
 	[Guid("418A0596-D023-4638-8F12-C177FF5A872A")]
 	[ToolboxItem(false)]
 	[ComVisible(false)]

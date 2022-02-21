@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("39EB4EA4-7E7D-4ED9-B088-368A18319BC5")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public enum InputValueSource
 	{

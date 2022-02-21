@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       单元格内容自适应设置字体大小模式。
 	///       </summary>
 	[Guid("8A20F8C0-2D0D-48DA-B6C4-ADBC21405606")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[DocumentComment]
 	public enum ContentAutoFixFontSizeMode

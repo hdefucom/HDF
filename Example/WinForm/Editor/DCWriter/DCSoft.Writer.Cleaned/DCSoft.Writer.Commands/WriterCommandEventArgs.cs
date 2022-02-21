@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Commands
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterCommandEventArgs))]
 	[Guid("6AD3FF4B-9742-46A9-8136-ACCCF5F37825")]
-	[DCPublishAPI]
+	
 	public class WriterCommandEventArgs : EventArgs, IWriterCommandEventArgs
 	{
 		internal const string CLASSID = "6AD3FF4B-9742-46A9-8136-ACCCF5F37825";
@@ -82,13 +82,13 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       命令控制器
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterCommandControler CommandControler => _CommandControler;
 
 		/// <summary>
 		///       由于用户界面菜单按钮操作而触发命令
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool RaiseFromUI
 		{
 			get
@@ -104,7 +104,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       命令名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Name
 		{
 			get
@@ -120,7 +120,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       编辑器宿主对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterAppHost Host
 		{
 			get
@@ -136,13 +136,13 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       文档内容控制器
 		///       </summary>
-		[DCInternal]
+		
 		public DocumentControler DocumentControler
 		{
 			get
@@ -162,13 +162,13 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       编辑器控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl EditorControl => _EditorControl;
 
 		/// <summary>
 		///       命令回话容器对象
 		///       </summary>
-		[DCInternal]
+		
 		public Dictionary<string, object> Session
 		{
 			get
@@ -184,7 +184,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       参数模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterCommandEventMode Mode
 		{
 			get
@@ -200,7 +200,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       用户是否按下了 Alt 键
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool AltKey
 		{
 			get
@@ -216,7 +216,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       用户是否按下的 Ctl 键
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CtlKey
 		{
 			get
@@ -232,7 +232,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       用户是否按下了 Shift 键
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ShiftKey
 		{
 			get
@@ -248,7 +248,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       键盘按键值
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public Keys KeyCode
 		{
@@ -268,7 +268,7 @@ namespace DCSoft.Writer.Commands
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public int KeyCodeValue
 		{
 			get
@@ -284,13 +284,13 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       键盘字符值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public char KeyChar => intKeyChar;
 
 		/// <summary>
 		///       执行动作相关的元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement SourceElement
 		{
 			get
@@ -306,7 +306,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       能否将用户界面元素的文本当做命令参数
 		///       </summary>
-		[DCInternal]
+		
 		public bool EnableSetUITextAsParamter
 		{
 			get
@@ -322,7 +322,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       是否将命令参数设置到UI界面元素的文本值
 		///       </summary>
-		[DCInternal]
+		
 		public bool SetParameterToUIText
 		{
 			get
@@ -338,7 +338,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       相关参数对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object Parameter
 		{
 			get
@@ -354,7 +354,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       允许显示图形化用户界面
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ShowUI
 		{
 			get
@@ -370,7 +370,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       触发动作的用户界面控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object UIElement
 		{
 			get
@@ -386,7 +386,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       触发动作时的用户界面事件参数对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object UIEventArgs
 		{
 			get
@@ -402,7 +402,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       动作是否可用
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Enabled
 		{
 			get
@@ -418,7 +418,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       对象是否可见
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Visible
 		{
 			get
@@ -434,7 +434,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       动作是否处于选择状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Checked
 		{
 			get
@@ -450,7 +450,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       动作是否处于激活状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Actived
 		{
 			get
@@ -466,7 +466,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -482,7 +482,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       命令返回值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object Result
 		{
 			get
@@ -498,7 +498,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       用户界面命令控件刷新等级
 		///       </summary>
-		[DCPublishAPI]
+		
 		public UIStateRefreshLevel RefreshLevel
 		{
 			get
@@ -518,7 +518,7 @@ namespace DCSoft.Writer.Commands
 		/// <param name="document">文档对象</param>
 		/// <param name="mode">命令模式</param>
 		/// <param name="cmdCtl">控制器对象</param>
-		[DCInternal]
+		
 		public WriterCommandEventArgs(WriterControl writerControl_0, XTextDocument document, WriterCommandEventMode mode, WriterCommandControler cmdCtl)
 		{
 			_CommandControler = cmdCtl;
@@ -536,7 +536,7 @@ namespace DCSoft.Writer.Commands
 		///       编辑器控件的开始启用UI层编辑内容
 		///       </summary>
 		/// <returns>启动是否成功</returns>
-		[DCInternal]
+		
 		public bool UIStartEditContent()
 		{
 			return _EditorControl != null && _EditorControl.UIStartEditContent();
@@ -546,7 +546,7 @@ namespace DCSoft.Writer.Commands
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public WriterCommandEventArgs Clone()
 		{
 			return (WriterCommandEventArgs)MemberwiseClone();

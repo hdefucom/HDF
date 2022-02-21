@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(false)]
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-234567890046")]
-	[DCInternal]
+	
 	public class DocumentControler
 	{
 		public const string string_0 = "DCWriterCommand";

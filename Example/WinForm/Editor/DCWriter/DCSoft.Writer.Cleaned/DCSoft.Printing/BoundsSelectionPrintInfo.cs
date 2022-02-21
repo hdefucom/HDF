@@ -10,7 +10,7 @@ namespace DCSoft.Printing
 	///       </summary>
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class BoundsSelectionPrintInfo : List<BoundsSelectionPrintInfoItem>
 	{
 		private bool _Enable = false;

@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IXAttribute))]
 	[Guid("00012345-6789-ABCD-EF01-234567890049")]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890049", "1AECE4DB-7387-44DD-836F-D8CD8A6AAB3B")]
 	[DocumentComment]
@@ -31,7 +31,7 @@ namespace DCSoft.Writer.Dom
 		///       属性名
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Name
 		{
 			get
@@ -48,7 +48,7 @@ namespace DCSoft.Writer.Dom
 		///       属性值
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Value
 		{
 			get
@@ -64,7 +64,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XAttribute()
 		{
 		}
@@ -74,7 +74,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <param name="Value">属性值</param>
-		[DCPublishAPI]
+		
 		public XAttribute(string name, string Value)
 		{
 			_Name = name;

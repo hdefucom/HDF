@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[Guid("63AD161B-4BA6-4A39-952D-56BE7C0F0AA3")]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum DCAdornTextVisibility
 	{

@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       文档按钮事件参数
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IWriterButtonClickEventArgs))]
 	[DocumentComment]
 	[Guid("EBE08785-AF0C-489E-90B0-0219F04D5BB0")]
@@ -27,13 +27,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       按钮文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextButtonElement ButtonElement => (XTextButtonElement)base.Element;
 
 		/// <summary>
 		///       按钮文档元素编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ButtonElementID
 		{
 			get
@@ -49,7 +49,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经处理了，无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -65,7 +65,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       命令名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string CommandName => (base.Element as XTextButtonElement)?.CommandName;
 
 		/// <summary>
@@ -73,7 +73,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="ctl">控件对象</param>
 		/// <param name="btn">按钮元素对象</param>
-		[DCInternal]
+		
 		public WriterButtonClickEventArgs(WriterControl writerControl_0, XTextButtonElement xtextButtonElement_0)
 			: base(writerControl_0, xtextButtonElement_0.OwnerDocument, xtextButtonElement_0)
 		{

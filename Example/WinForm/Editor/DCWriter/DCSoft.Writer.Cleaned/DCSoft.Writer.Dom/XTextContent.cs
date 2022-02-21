@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-234567890051")]
-	[DCInternal]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890051", "89D2B286-781C-42A1-8DBF-81AFECFAA950")]
 	[DebuggerDisplay("Count={ Count }")]
 	[ComDefaultInterface(typeof(IXTextContent))]
@@ -160,7 +160,7 @@ namespace DCSoft.Writer.Dom
 		///       是否自动清除选择状态,若为True则插入点位置修改时会自动设置SelectionLength属性，否则会根据
 		///       旧的插入点的位置计算SelectionLength长度
 		///       </summary>
-		[DCInternal]
+		
 		public bool AutoClearSelection
 		{
 			get
@@ -176,7 +176,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       判断能否删除被选中的元素
 		///       </summary>
-		[DCInternal]
+		
 		public bool CanDeleteSelection
 		{
 			get
@@ -363,12 +363,12 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public XTextContent()
 		{
 		}
 
-		[DCInternal]
+		
 		public void method_16()
 		{
 			Clear();

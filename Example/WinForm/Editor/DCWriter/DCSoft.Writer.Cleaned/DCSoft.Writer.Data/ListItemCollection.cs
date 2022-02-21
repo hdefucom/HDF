@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Data
 	[Serializable]
 	[Guid("465F4EE4-5444-415B-A015-5B0992BFD6B1")]
 	[Editor(typeof(ListItemCollectionEditor), typeof(UITypeEditor))]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[XmlType("ListItems")]
 	[ComClass("465F4EE4-5444-415B-A015-5B0992BFD6B1", "BD892CF8-D290-4F30-8794-160C62B151A4")]
@@ -47,7 +47,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public bool GenerateTemplate
 		{
 			get
@@ -63,7 +63,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ListItemCollection()
 		{
 		}
@@ -71,7 +71,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       按照勾选时间进行排序
 		///       </summary>
-		[DCInternal]
+		
 		public void SortByCheckedTime()
 		{
 			Sort(new TimeComparere());
@@ -83,7 +83,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="Text">文本值</param>
 		/// <param name="Value">数值</param>
 		/// <returns>新增的列表项目对象</returns>
-		[DCPublishAPI]
+		
 		public ListItem AddByTextValue(string Text, string Value)
 		{
 			ListItem listItem = new ListItem();
@@ -100,7 +100,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="Value">数值</param>
 		/// <param name="textInList">在下拉列表中的文本</param>
 		/// <returns>新增的列表项目对象</returns>
-		[DCPublishAPI]
+		
 		public ListItem AddByTextValueTextInList(string text, string Value, string textInList)
 		{
 			ListItem listItem = new ListItem();
@@ -118,7 +118,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="Value">数值</param>
 		/// <param name="spellCode">拼音码</param>
 		/// <returns>新增的列表项目</returns>
-		[DCPublishAPI]
+		
 		public ListItem AddByTextValueSpellCode(string text, string Value, string spellCode)
 		{
 			ListItem listItem = new ListItem();
@@ -134,7 +134,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="Value">数值</param>
 		/// <returns>文本</returns>
-		[DCInternal]
+		
 		public string ValueToText(string Value)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -156,7 +156,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="Values">数值</param>
 		/// <returns>文本</returns>
-		[DCInternal]
+		
 		public string MultiValuesToText(string Values)
 		{
 			int num = 2;
@@ -194,7 +194,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="Text">文本</param>
 		/// <returns>数值</returns>
-		[DCInternal]
+		
 		public string TextToValue(string Text)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -215,7 +215,7 @@ namespace DCSoft.Writer.Data
 		///       简单的复制列表，但不复制列表项目实例
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public ListItemCollection CloneSimple()
 		{
 			ListItemCollection listItemCollection = new ListItemCollection();
@@ -234,7 +234,7 @@ namespace DCSoft.Writer.Data
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public ListItemCollection Clone()
 		{
 			return (ListItemCollection)((ICloneable)this).Clone();
@@ -254,7 +254,7 @@ namespace DCSoft.Writer.Data
 			return listItemCollection;
 		}
 
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			if (base.Count == 0)
@@ -264,7 +264,7 @@ namespace DCSoft.Writer.Data
 			return string.Format(WriterStringsCore.Items_Count, base.Count);
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			int num = 17;
@@ -282,7 +282,7 @@ namespace DCSoft.Writer.Data
 			return gClass.ToString();
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			int num = 14;
@@ -353,7 +353,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public ListItem ComGetItem(int index)
 		{
@@ -365,7 +365,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ComSetItem(int index, ListItem item)
 		{

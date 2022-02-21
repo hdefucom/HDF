@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IElementEventArgs))]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	public class ElementEventArgs : EventArgs, IElementEventArgs
 	{
 		internal const string CLASSID = "D1DB1F7B-F1DC-461E-9E0B-7DC46CF5D513";
@@ -36,7 +36,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl
 		{
 			get
@@ -52,7 +52,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -68,7 +68,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement Element
 		{
 			get
@@ -84,7 +84,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经被处理了，后续无需继续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -100,7 +100,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       取消事件冒泡
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CancelBubble
 		{
 			get
@@ -116,7 +116,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public ElementEventArgs()
 		{
 		}
@@ -125,7 +125,7 @@ namespace DCSoft.Writer
 		///       初始化对象
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
-		[DCInternal]
+		
 		public ElementEventArgs(XTextElement element)
 		{
 			_Document = element.OwnerDocument;
@@ -142,7 +142,7 @@ namespace DCSoft.Writer
 		/// <param name="ctl">编辑器控件</param>
 		/// <param name="document">文档对象</param>
 		/// <param name="element">文档元素对象</param>
-		[DCInternal]
+		
 		public ElementEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element)
 		{
 			_WriterControl = writerControl_0;

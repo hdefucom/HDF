@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       编辑器控件选项
 	///       </summary>
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public class WriterControlOptions

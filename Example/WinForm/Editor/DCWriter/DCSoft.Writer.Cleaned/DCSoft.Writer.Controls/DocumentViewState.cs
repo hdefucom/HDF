@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[Serializable]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class DocumentViewState
 	{
 		public const string ViewStateElementID = "DCDocumentViewState";

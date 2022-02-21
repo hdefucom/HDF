@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	///       数据源绑定信息列表
 	///       </summary>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IDataSourceBindingDescriptionList))]
 	[ComVisible(true)]
 	[ComClass("614D20AD-4ECB-44A8-B584-706CFBAC2006", "BB9EC01B-A78C-45FD-A1CF-83C56606327D")]

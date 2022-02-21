@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       移动输入域焦点的快捷键
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCPublishAPI]
+	
 	[DCDescription(typeof(MoveFocusHotKeys), "MoveFocusHotKeys")]
 	[Guid("00012345-6789-ABCD-EF01-234567890070")]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]

@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public interface GInterface8
 	{

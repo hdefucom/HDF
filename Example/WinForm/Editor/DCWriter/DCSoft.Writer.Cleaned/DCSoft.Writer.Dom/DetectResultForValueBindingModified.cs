@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	///       检测数据源绑定导致的内容发送改变的结果信息
 	///       </summary>
 	[ComDefaultInterface(typeof(IDetectResultForValueBindingModified))]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ComClass("52097494-3A6F-46AB-8DA0-A4CE0FBBB88F", "04099AAE-3E03-4F64-88EA-E9F22FED98E1")]
 	[ClassInterface(ClassInterfaceType.None)]

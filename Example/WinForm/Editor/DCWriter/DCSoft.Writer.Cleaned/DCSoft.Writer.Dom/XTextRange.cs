@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	///       文档区域对象
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
-	[DCInternal]
+	
 	[DocumentComment]
 	[DebuggerDisplay("Index={StartIndex},Length={Length}")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
@@ -500,7 +500,7 @@ namespace DCSoft.Writer.Dom
 			int_0++;
 		}
 
-		[DCInternal]
+		
 		public void method_4()
 		{
 			if (bool_0)
@@ -509,7 +509,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public bool method_5(bool bool_1)
 		{
 			int num = 19;

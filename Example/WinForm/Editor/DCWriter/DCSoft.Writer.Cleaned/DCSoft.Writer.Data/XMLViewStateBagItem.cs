@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	///       XML序列化项目
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class XMLViewStateBagItem
 	{
 		private string _Name = null;

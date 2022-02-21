@@ -40,7 +40,7 @@ namespace DCSoft.Writer.Controls
 	[ToolboxBitmap(typeof(AxWriterControl))]
 	[ToolboxItem(false)]
 	[Guid("00012345-6789-ABCD-EF01-2345678900FF")]
-	[DCPublishAPI]
+	
 	[ComSourceInterfaces(typeof(IAxWriterControlComEvents))]
 	[ClassInterface(ClassInterfaceType.None)]
 	public sealed class AxWriterControl : WriterControl, IObjectSafety, IAxWriterControl
@@ -96,7 +96,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public override bool IsAxControl => true;
 
@@ -1259,7 +1259,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public int GetInterfaceSafetyOptions(ref Guid riid, ref int pdwSupportedOptions, ref int pdwEnabledOptions)
 		{
@@ -1307,7 +1307,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public int SetInterfaceSafetyOptions(ref Guid riid, int dwOptionSetMask, int dwEnabledOptions)
 		{
@@ -1598,7 +1598,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="document">文档对象</param>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public static string SaveToAxContentBase64String(XTextDocument document)
 		{

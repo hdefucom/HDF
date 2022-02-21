@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XTextSection")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public class XTextSectionElement : XTextContentElement, IContentReadonlyable, IXTextSectionElement
 	{
 		private class Class13 : GClass3
@@ -121,7 +121,7 @@ namespace DCSoft.Writer.Dom
 		///       收缩时的前景色
 		///       </summary>
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[DefaultValue(typeof(Color), "128,128,128")]
 		public Color ForeColorForCollapsed
 		{
@@ -159,7 +159,7 @@ namespace DCSoft.Writer.Dom
 		[XmlElement]
 		[DefaultValue(false)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		public bool EnableCollapse
 		{
@@ -213,7 +213,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(false)]
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[XmlElement]
 		public bool IsCollapsed
@@ -232,7 +232,7 @@ namespace DCSoft.Writer.Dom
 		///       DCWriter内部使用。运行时的是否处于收缩状态
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[ComVisible(false)]
 		public bool RuntimeIsCollapsed
@@ -253,7 +253,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[XmlElement]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		public string Title
 		{
@@ -272,7 +272,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		public override bool AcceptTab
 		{
@@ -296,7 +296,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Category("Layout")]
 		[MemberExpressionable(MemberEffectLevel.DocumentLayout)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(false)]
 		public bool CompressOwnerLineSpacing
@@ -319,7 +319,7 @@ namespace DCSoft.Writer.Dom
 		///       若大于0则对象高度自动设置高度而且高度不小于用户指定的高度，
 		///       若小于0则固定设置对象的高度为用户指定的高度。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[DefaultValue(0f)]
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.DocumentLayout)]
@@ -388,7 +388,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Name
 		{
@@ -403,9 +403,9 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public virtual string HtmlTitle => null;
 
 		public override string PreviewString
@@ -433,7 +433,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       选择文档节
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override bool Select()
 		{
 			if (RuntimeIsCollapsed)
@@ -455,7 +455,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得输入焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void Focus()
 		{
 			if (OwnerDocument == null || Focused)
@@ -495,7 +495,7 @@ namespace DCSoft.Writer.Dom
 		///       收缩内容
 		///       </summary>
 		/// <returns>操作是否导致文档视图修改</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DocumentComment]
 		public virtual bool Collapse()
@@ -545,7 +545,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>操作是否导致文档视图修改</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DocumentComment]
 		public virtual bool Expand()
 		{

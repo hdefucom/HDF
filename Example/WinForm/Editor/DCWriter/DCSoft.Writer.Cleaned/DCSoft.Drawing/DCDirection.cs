@@ -7,7 +7,7 @@ namespace DCSoft.Drawing
 	///       方向
 	///       </summary>
 	[Guid("9372E347-F535-4F39-89C7-5247D8891C24")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum DCDirection
 	{

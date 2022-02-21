@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ComClass("4D17869C-1B83-4655-AE1C-1154F7361203", "A453153D-9B11-42B7-B978-175D9E5A30D1")]
 	[ComDefaultInterface(typeof(IXTextCharElement))]
 	[ComVisible(true)]
@@ -45,19 +45,19 @@ namespace DCSoft.Writer.Dom
 
 		internal float float_8 = 0f;
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "Char:" + Text;
 
 		/// <summary>
 		///       字符原始宽度
 		///       </summary>
-		[DCInternal]
+		
 		public float NativeWidth => float_5;
 
 		/// <summary>
 		///       字符原始高度
 		///       </summary>
-		[DCInternal]
+		
 		public float NativeHeight => float_6;
 
 		/// <summary>
@@ -67,7 +67,7 @@ namespace DCSoft.Writer.Dom
 		[ReadOnly(true)]
 		[Browsable(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public float FontSizeZoomRate
 		{
@@ -88,7 +88,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       字符数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		public char CharValue
 		{
 			get
@@ -106,14 +106,14 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       字符整数数值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int CharInt32Value => char_0;
 
 		/// <summary>
 		///       表示对象的文本
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public override string Text
 		{
@@ -169,7 +169,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       实际绘制字母时使用的字符值
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public char RuntimeCharValue
 		{
@@ -186,12 +186,12 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextCharElement()
 		{
 		}
 
-		[DCInternal]
+		
 		public override void Draw(DocumentPaintEventArgs args)
 		{
 			OwnerDocument.method_85(this);
@@ -199,7 +199,7 @@ namespace DCSoft.Writer.Dom
 			args.Render.vmethod_5(this, args);
 		}
 
-		[DCInternal]
+		
 		public override void RefreshSize(DocumentPaintEventArgs args)
 		{
 			args.Render.vmethod_4(this, args.Graphics);
@@ -209,7 +209,7 @@ namespace DCSoft.Writer.Dom
 		///       处理文档用户界面事件
 		///       </summary>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public override void HandleDocumentEvent(DocumentEventArgs args)
 		{
 			int num = 2;
@@ -265,7 +265,7 @@ namespace DCSoft.Writer.Dom
 		///       获得纯文本内容
 		///       </summary>
 		/// <returns>纯文本内容</returns>
-		[DCInternal]
+		
 		public override string ToPlaintString()
 		{
 			return char_0.ToString();
@@ -275,7 +275,7 @@ namespace DCSoft.Writer.Dom
 		///       获得表示对象的文本
 		///       </summary>
 		/// <returns>文本</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return char_0.ToString();

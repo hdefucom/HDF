@@ -33,7 +33,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       数据来源
 		///       </summary>
-		[DCPublishAPI]
+		
 		public InputValueSource Source
 		{
 			get
@@ -49,7 +49,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       数据来源名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string SourceName
 		{
 			get
@@ -65,7 +65,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       数据类型
 		///       </summary>
-		[DCPublishAPI]
+		
 		public InputValueType Type
 		{
 			get
@@ -81,7 +81,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       数据内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object Value
 		{
 			get
@@ -97,7 +97,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       取消相关的数据操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -116,7 +116,7 @@ namespace DCSoft.Writer
 		/// <param name="source">数据来源</param>
 		/// <param name="type">数据类型</param>
 		/// <param name="Value">要处理的数据</param>
-		[DCInternal]
+		
 		public FilterValueEventArgs(InputValueSource source, InputValueType type, object Value)
 		{
 			_Source = source;

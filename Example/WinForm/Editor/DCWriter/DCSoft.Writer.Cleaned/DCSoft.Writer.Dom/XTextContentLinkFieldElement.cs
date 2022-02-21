@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-234567890053")]
 	[XmlType("XContentLinkField")]
-	[DCPublishAPI]
+	
 	public class XTextContentLinkFieldElement : XTextFieldElementBase, IXTextContentLinkFieldElement
 	{
 		internal const string string_16 = "00012345-6789-ABCD-EF01-234567890053";
@@ -36,7 +36,7 @@ namespace DCSoft.Writer.Dom
 
 		private bool bool_19 = true;
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "ContentLink:" + base.ID + " " + ContentSource;
 
 		/// <summary>
@@ -133,7 +133,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       为XML序列化/反序列化的子元素列表
 		///       </summary>
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -177,7 +177,7 @@ namespace DCSoft.Writer.Dom
 
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		public override int vmethod_32(XTextElementList xtextElementList_3, bool bool_20)
 		{
 			if (OwnerDocument.PrintingViewMode)
@@ -213,7 +213,7 @@ namespace DCSoft.Writer.Dom
 		///       文档内容加载后的处理
 		///       </summary>
 		/// <param name="args">参数对象</param>
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			if (!OwnerDocument.Options.BehaviorOptions.DesignMode)
@@ -230,28 +230,28 @@ namespace DCSoft.Writer.Dom
 			base.AfterLoad(args);
 		}
 
-		[DCInternal]
+		
 		public override void OnViewGotFocus(ElementEventArgs elementEventArgs_0)
 		{
 			base.OnViewGotFocus(elementEventArgs_0);
 			method_30();
 		}
 
-		[DCInternal]
+		
 		public override void OnViewLostFocus(ElementEventArgs elementEventArgs_0)
 		{
 			base.OnViewLostFocus(elementEventArgs_0);
 			method_30();
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_7(ElementEventArgs elementEventArgs_0)
 		{
 			base.vmethod_7(elementEventArgs_0);
 			method_30();
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_8(ElementEventArgs elementEventArgs_0)
 		{
 			base.vmethod_8(elementEventArgs_0);
@@ -313,7 +313,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextContentLinkFieldElement xTextContentLinkFieldElement = (XTextContentLinkFieldElement)base.Clone(Deeply);

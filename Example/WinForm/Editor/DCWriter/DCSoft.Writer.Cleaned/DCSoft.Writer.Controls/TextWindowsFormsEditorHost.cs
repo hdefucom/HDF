@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       窗体环境的编辑器宿主对象
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class TextWindowsFormsEditorHost : IDisposable, ITypeDescriptorContext, IWindowsFormsEditorService
 	{

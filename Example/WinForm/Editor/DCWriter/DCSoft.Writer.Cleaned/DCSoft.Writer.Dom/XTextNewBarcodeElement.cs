@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[XmlType("NewBarcode")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[DebuggerDisplay("NewBarcode:{Name}")]
 	public sealed class XTextNewBarcodeElement : XTextLabelElementBase
@@ -41,7 +41,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象高度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[DefaultValue(125f)]
 		[XmlElement]
@@ -61,7 +61,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       已废除，请使用BarcodeStyle2属性。
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(BarcodeStyle.Code128C)]
 		[Browsable(false)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
@@ -84,7 +84,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[DefaultValue(DCBarcodeStyle.Code128C)]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		public DCBarcodeStyle BarcodeStyle2
 		{
 			get
@@ -103,7 +103,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[DefaultValue(StringAlignment.Center)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public StringAlignment TextAlignment
 		{
 			get
@@ -120,7 +120,7 @@ namespace DCSoft.Writer.Dom
 		///       是否绘制文本
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[HtmlAttribute]
 		public bool ShowText
@@ -138,7 +138,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextNewBarcodeElement()
 		{
 			Height = 150f;

@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[Guid("5CA02A4C-914F-4CB2-83D2-D6B350004F2D")]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterEventArgs))]
 	[ComVisible(true)]
@@ -38,7 +38,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[ComVisible(false)]
 		public WriterControl WriterControl => _WriterControl;
@@ -47,14 +47,14 @@ namespace DCSoft.Writer
 		///       文档对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[ComVisible(true)]
 		public XTextElement Element => _Element;
@@ -68,7 +68,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="element">
 		/// </param>
-		[DCInternal]
+		
 		public WriterEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element)
 		{
 			_WriterControl = writerControl_0;

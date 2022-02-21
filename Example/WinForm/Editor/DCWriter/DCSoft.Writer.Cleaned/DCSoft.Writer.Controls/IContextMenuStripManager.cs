@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[DocumentComment]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public interface IContextMenuStripManager : IDisposable
 	{

@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 namespace DCSoft.Writer.Dom
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class CopySourceExecuteInfo
 	{
 		private XTextElement _SourceElement = null;

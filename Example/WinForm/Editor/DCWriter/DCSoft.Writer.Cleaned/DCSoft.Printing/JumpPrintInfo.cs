@@ -36,7 +36,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       是否存在有效的信息
 		///       </summary>
-		[DCInternal]
+		
 		public bool HasValidateInfo
 		{
 			get
@@ -100,7 +100,7 @@ namespace DCSoft.Printing
 		///       发生续打的页面对象
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public PrintPage Page
 		{
@@ -165,7 +165,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       续打的绝对位置
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(0f)]
 		public float AbsPosition
 		{
@@ -183,7 +183,7 @@ namespace DCSoft.Printing
 		///       原始续打结束位置,如果小于等于Position值就无效
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCInternal]
+		
 		public float NativeEndPosition
 		{
 			get
@@ -228,21 +228,21 @@ namespace DCSoft.Printing
 			}
 		}
 
-		[DCInternal]
+		
 		public void SetNativePosition(float float_0)
 		{
 			intNativePosition = float_0;
 			intPosition = float_0;
 		}
 
-		[DCInternal]
+		
 		public void SetNativeEndPosition(float float_0)
 		{
 			intNativeEndPosition = float_0;
 			intEndPosition = float_0;
 		}
 
-		[DCInternal]
+		
 		public void Clear()
 		{
 			_EndPageIndex = -1;
@@ -259,7 +259,7 @@ namespace DCSoft.Printing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public JumpPrintInfo Clone()
 		{
 			return (JumpPrintInfo)MemberwiseClone();
@@ -272,7 +272,7 @@ namespace DCSoft.Printing
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public bool EqualsValue(JumpPrintInfo info)
 		{
 			if (info == null)

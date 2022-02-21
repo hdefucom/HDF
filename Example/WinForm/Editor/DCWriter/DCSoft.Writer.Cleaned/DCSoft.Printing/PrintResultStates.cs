@@ -6,7 +6,7 @@ namespace DCSoft.Printing
 	/// <summary>
 	///       打印结果状态
 	///       </summary>
-	[DCPublishAPI]
+	
 	[Guid("0C5AB15E-88BC-41A4-9FD5-534351F0A04C")]
 	[ComVisible(true)]
 	[DocumentComment]

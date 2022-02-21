@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890061")]
 	[ComDefaultInterface(typeof(IContentChangingEventArgs))]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComClass("00012345-6789-ABCD-EF01-234567890061", "61FB9A1D-AB49-4AFC-BCCC-0216AA64C328")]
 	[ClassInterface(ClassInterfaceType.None)]
@@ -44,7 +44,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -60,7 +60,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       容器元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement Element
 		{
 			get
@@ -76,7 +76,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       额外的数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object Tag
 		{
 			get
@@ -92,7 +92,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       发生操作时的元素位置序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int ElementIndex
 		{
 			get
@@ -108,7 +108,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       正要删除的元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList DeletingElements
 		{
 			get
@@ -124,7 +124,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       准备新增的元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList InsertingElements
 		{
 			get
@@ -140,7 +140,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       取消事件向上层元素冒泡传递
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CancelBubble
 		{
 			get
@@ -156,7 +156,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -172,7 +172,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经被处理掉了，无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -188,7 +188,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ContentChangingEventArgs()
 		{
 		}
@@ -197,7 +197,7 @@ namespace DCSoft.Writer
 		///       获得操作完成后容器元素的预计文本内容
 		///       </summary>
 		/// <returns>预计的文本</returns>
-		[DCPublishAPI]
+		
 		public string GetContainerNewText()
 		{
 			XTextContainerElement xTextContainerElement = Element as XTextContainerElement;

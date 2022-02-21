@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	[ComVisible(true)]
 	[DocumentComment]
 	[Guid("7D4D97D1-BA82-4DBA-AE09-9EE704CCD603")]
-	[DCPublishAPI]
+	
 	public enum WriterDataObjectRange
 	{
 		/// <summary>

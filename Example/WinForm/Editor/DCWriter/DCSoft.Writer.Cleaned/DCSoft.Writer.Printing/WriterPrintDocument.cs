@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Printing
 	/// <summary>
 	///       打印文档对象
 	///       </summary>
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public sealed class WriterPrintDocument : XPrintDocument
@@ -82,7 +82,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       正文位置偏移量
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float BodyPositionOffset
 		{
 			get
@@ -98,7 +98,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       指定的文档名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string SpecifyDocumentName
 		{
@@ -115,7 +115,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       整洁打印模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CleanMode
 		{
 			get
@@ -152,7 +152,7 @@ namespace DCSoft.Writer.Printing
 		///       若该属性为false，则执行同步打印，程序向系统提交打印任务后等待打印任务完全完成后才返回。
 		///       </remarks>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		public bool AsyncPrint
 		{
 			get
@@ -184,7 +184,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public XTextDocumentList Documents
 		{
@@ -217,7 +217,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterPrintDocument()
 		{
 			base.Options.PrinterName = WriterControl.GlobalDefaultPrinterName;
@@ -243,7 +243,7 @@ namespace DCSoft.Writer.Printing
 		/// <param name="specialPageIndex">指定的页码</param>
 		/// <param name="parnet">对话框使用的父窗体</param>
 		/// <returns>用户是否成功的设置</returns>
-		[DCPublishAPI]
+		
 		public bool Prompt(int specialPageIndex, IWin32Window parnet)
 		{
 			using (PrintDialog printDialog = new PrintDialog())
@@ -424,7 +424,7 @@ namespace DCSoft.Writer.Printing
 		///       </summary>
 		/// <param name="SpecialPageIndex">指定的要打印的页码序号</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool PrintDocument(int SpecialPageIndex)
 		{
 			return method_8(SpecialPageIndex, bool_9: false);
@@ -434,7 +434,7 @@ namespace DCSoft.Writer.Printing
 		///       为打印文档而更新文档状态
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		public bool UpdateDocumentsState()
 		{
 			return method_8(-1, bool_9: true);
@@ -753,7 +753,7 @@ namespace DCSoft.Writer.Printing
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_5(CancelEventArgs cancelEventArgs_0)
 		{
 			if (!(base.PrintController is PreviewPrintController) && GlobalBeforePrintHandler != null)
@@ -762,7 +762,7 @@ namespace DCSoft.Writer.Printing
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_6(EventArgs eventArgs_0)
 		{
 			if (!(base.PrintController is PreviewPrintController))
@@ -1112,7 +1112,7 @@ namespace DCSoft.Writer.Printing
 		/// <summary>
 		///       恢复文档状态
 		///       </summary>
-		[DCInternal]
+		
 		public void RestoreDocumentsState()
 		{
 			if (xtextDocumentList_0 != null)
@@ -1160,7 +1160,7 @@ namespace DCSoft.Writer.Printing
 		///       根据编辑控件添加文档内容
 		///       </summary>
 		/// <param name="ctl">编辑器控件</param>
-		[DCPublishAPI]
+		
 		public void AddDocumentByWriterControl(WriterControl writerControl_1)
 		{
 			Documents.Add(writerControl_1.Document);

@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       内容更新状态
 	///       </summary>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890066")]
 	public enum ContentUpdateState

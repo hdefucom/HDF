@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[ComVisible(true)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890072", "E9B6AA40-C74D-41AC-8F4F-88F1E7405D2B")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(ITrackVisibleConfig))]
 	[Guid("00012345-6789-ABCD-EF01-234567890072")]
 	[ClassInterface(ClassInterfaceType.None)]

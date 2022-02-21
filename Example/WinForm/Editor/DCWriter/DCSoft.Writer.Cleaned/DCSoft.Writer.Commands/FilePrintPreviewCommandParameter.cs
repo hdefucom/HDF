@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Commands
 	/// <summary>
 	///       打印预览命令参数
 	///       </summary>
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public class FilePrintPreviewCommandParameter
 	{

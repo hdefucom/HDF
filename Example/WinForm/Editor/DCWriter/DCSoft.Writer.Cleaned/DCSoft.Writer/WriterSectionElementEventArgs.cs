@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[Guid("D81D643D-DB47-43B0-B1E6-09A5165075F7")]
 	[ComDefaultInterface(typeof(IWriterSectionElementEventArgs))]
@@ -32,19 +32,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       文档节对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextSectionElement SectionElement => _SectionElement;
 
 		/// <summary>
@@ -53,7 +53,7 @@ namespace DCSoft.Writer
 		/// <param name="ctl">编辑器控件</param>
 		/// <param name="doc">文档对象</param>
 		/// <param name="sec">文档节元素</param>
-		[DCInternal]
+		
 		public WriterSectionElementEventArgs(WriterControl writerControl_0, XTextDocument xtextDocument_0, XTextSectionElement xtextSectionElement_0)
 		{
 			_WriterControl = writerControl_0;

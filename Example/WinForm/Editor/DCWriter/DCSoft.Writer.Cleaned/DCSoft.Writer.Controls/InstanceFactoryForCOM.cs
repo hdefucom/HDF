@@ -27,7 +27,7 @@ namespace DCSoft.Writer.Controls
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class InstanceFactoryForCOM : IInstanceFactoryForCOM
 	{
 		internal const string CLASSID = "BE5A816C-0337-4B9C-8935-E2CA67007A3E";

@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComDefaultInterface(typeof(INavigateNode))]
-	[DCPublishAPI]
+	
 	[Guid("46A44BC6-CF39-466D-B3EC-90FD812F103C")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
@@ -39,7 +39,7 @@ namespace DCSoft.Writer
 		///       节点唯一编号
 		///       </summary>
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public string ID
 		{
 			get
@@ -55,7 +55,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       标题
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlAttribute]
 		public string Text
 		{
@@ -80,7 +80,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       层次
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlAttribute]
 		public int Level
 		{
@@ -98,7 +98,7 @@ namespace DCSoft.Writer
 		///       在文档中的开始位置
 		///       </summary>
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public int Position
 		{
 			get
@@ -114,7 +114,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       区域的开始位置元素内容序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlAttribute]
 		public int StartContentIndex
 		{
@@ -132,7 +132,7 @@ namespace DCSoft.Writer
 		///       区域的结束位置元素内容序号
 		///       </summary>
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public int EndContentIndex
 		{
 			get
@@ -149,7 +149,7 @@ namespace DCSoft.Writer
 		///       引用的对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextElementList Elements
 		{
 			get
@@ -165,7 +165,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       子节点列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlArrayItem("Node", typeof(NavigateNode))]
 		[DefaultValue(null)]
 		public NavigateNodeList Nodes
@@ -188,7 +188,7 @@ namespace DCSoft.Writer
 		///       判断是否存在子节点
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public bool HasChildNode => _Nodes != null && _Nodes.Count > 0;
 
 		/// <summary>

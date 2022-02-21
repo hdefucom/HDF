@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public abstract class GClass30
 	{

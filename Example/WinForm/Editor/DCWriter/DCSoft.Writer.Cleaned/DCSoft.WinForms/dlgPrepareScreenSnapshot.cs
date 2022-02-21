@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace DCSoft.WinForms
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class dlgPrepareScreenSnapshot : Form
 	{

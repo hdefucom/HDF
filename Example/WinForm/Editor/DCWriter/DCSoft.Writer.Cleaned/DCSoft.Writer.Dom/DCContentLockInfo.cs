@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("495A2C79-9C36-4CA1-9AF2-E6B793ECC7F1", "678CD509-93EC-4184-B543-2247D344A688")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IDCContentLockInfo))]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ComVisible(true)]
@@ -35,7 +35,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件锁定的拥有者用户ID
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string OwnerUserID
 		{
@@ -52,7 +52,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       锁定时间
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DateTime CreationTime
 		{
 			get
@@ -69,7 +69,7 @@ namespace DCSoft.Writer.Dom
 		///       授权用户名列表，各个用户名之间用半角逗号分开。
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string AuthorisedUserIDList
 		{
 			get

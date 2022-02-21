@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[ToolboxBitmap(typeof(XTextCheckBoxElementBase))]
-	[DCPublishAPI]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789004F")]
 	[DebuggerDisplay("CheckBox:Group={GroupName} , Checked={Checked}")]
 	[ComVisible(true)]
@@ -116,7 +116,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool Requried
 		{
@@ -146,7 +146,7 @@ namespace DCSoft.Writer.Dom
 		///       数据名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -168,7 +168,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[MemberExpressionable]
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool CanBeReferenced
 		{
@@ -188,7 +188,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(false)]
 		[HtmlAttribute]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		public bool BringoutToSave
 		{
@@ -205,7 +205,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       引用的数据名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		[ComVisible(true)]
 		[DefaultValue(null)]
@@ -227,7 +227,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(true)]
 		[DefaultValue(RenderVisibility.All)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public RenderVisibility CheckboxVisibility
 		{
@@ -245,7 +245,7 @@ namespace DCSoft.Writer.Dom
 		///       未勾选时的打印可见性设置
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(PrintVisibilityModeWhenUnchecked.Visible)]
 		[ComVisible(true)]
 		public PrintVisibilityModeWhenUnchecked PrintVisibilityWhenUnchecked
@@ -275,7 +275,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时使用的扩展标记文字
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public override string RuntimeAdornText
 		{
@@ -311,7 +311,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[DefaultValue(null)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public string PrintTextForChecked
 		{
 			get
@@ -330,7 +330,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[ComVisible(true)]
 		[Category("Appearance")]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string PrintTextForUnChecked
 		{
@@ -349,7 +349,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(true)]
 		[Category("Appearance")]
-		[DCPublishAPI]
+		
 		[Obsolete("请使用PrintVisibilityWhenUnchecked属性。")]
 		[XmlIgnore]
 		[DefaultValue(false)]
@@ -385,7 +385,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时使用的文档行垂直对齐方式
 		///       </summary>
-		[DCInternal]
+		
 		public override VerticalAlignStyle RuntimeVAlign => VerticalAlignStyle.Bottom;
 
 		/// <summary>
@@ -394,7 +394,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(true)]
 		[ComVisible(true)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public override bool Modified
 		{
 			get
@@ -411,7 +411,7 @@ namespace DCSoft.Writer.Dom
 		///       勾选框靠左侧对齐
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[ComVisible(true)]
 		[Category("Appearance")]
@@ -431,7 +431,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       提示文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		public string ToolTip
@@ -450,7 +450,7 @@ namespace DCSoft.Writer.Dom
 		///       复选框后面跟着的文本
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[DefaultValue(null)]
@@ -470,7 +470,7 @@ namespace DCSoft.Writer.Dom
 		///       标题文本对齐方式
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DefaultValue(StringAlignment.Center)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
@@ -494,7 +494,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容绑定对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		public XDataBinding ValueBinding
@@ -516,7 +516,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       绑定的数据源对象
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[ComVisible(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -539,7 +539,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(false)]
 		[DefaultValue(false)]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(true)]
 		[XmlIgnore]
@@ -596,7 +596,7 @@ namespace DCSoft.Writer.Dom
 		///       多行模式可以改变大小，单行模式不能改变大小
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public override ResizeableType Resizeable
 		{
@@ -617,7 +617,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象宽度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[XmlElement]
 		public override float Width
@@ -636,7 +636,7 @@ namespace DCSoft.Writer.Dom
 		///       对象高度
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		public override float Height
 		{
@@ -653,8 +653,8 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       显示的名称
 		///       </summary>
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		[Browsable(false)]
 		public string DisplayName
 		{
@@ -674,7 +674,7 @@ namespace DCSoft.Writer.Dom
 		[XmlElement]
 		[Browsable(false)]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public virtual string GroupName
 		{
 			get
@@ -690,7 +690,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时使用的分组名称
 		///       </summary>
-		[DCInternal]
+		
 		public string RuntimeGroupName
 		{
 			get
@@ -708,7 +708,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[XmlIgnore]
 		public override string FormulaValue
@@ -748,7 +748,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(false)]
 		[DefaultValue(CheckBoxControlStyle.CheckBox)]
 		[HtmlAttribute]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public virtual CheckBoxControlStyle ControlStyle
 		{
@@ -768,7 +768,7 @@ namespace DCSoft.Writer.Dom
 		/// <remarks>
 		///       若要触发事件，执行相关的表达式，请调用EditorChecked属性。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[DefaultValue(false)]
 		public bool Checked
@@ -793,7 +793,7 @@ namespace DCSoft.Writer.Dom
 		/// <remarks>
 		///       在执行数据源绑定时，如果读取的数据为空，则需要设置的默认勾选状态。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[DefaultValue(false)]
@@ -813,7 +813,7 @@ namespace DCSoft.Writer.Dom
 		///       勾选状态的值
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string CheckedValue
 		{
 			get
@@ -849,7 +849,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象数值
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public string Value
@@ -878,7 +878,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       只读的
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool Readonly
 		{
@@ -899,7 +899,7 @@ namespace DCSoft.Writer.Dom
 		///       编辑器中设置或获得选择状态，就完全模拟用户鼠标点击设置勾选状态。触发表达式和事件。
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public virtual bool EditorChecked
 		{
@@ -1004,7 +1004,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public bool InnerEditorChecked
 		{
 			set
@@ -1032,7 +1032,7 @@ namespace DCSoft.Writer.Dom
 		///       是否允许高亮度显示状态
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(EnableState.Enabled)]
 		public virtual EnableState EnableHighlight
 		{
@@ -1049,7 +1049,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时的是否允许高亮度显示模式
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public EnableState RuntimeEnableHighlight
 		{
@@ -1092,7 +1092,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       返回表示对象数据的文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public override string Text
@@ -1108,7 +1108,7 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public override string OuterText
 		{
 			get
@@ -1170,7 +1170,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(CheckBoxVisualStyle.Default)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public CheckBoxVisualStyle VisualStyle
 		{
 			get
@@ -1188,7 +1188,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public CheckBoxVisualStyle RuntimeVisualStyle
 		{
 			get
@@ -1240,7 +1240,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       多行文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(false)]
 		public bool Multiline
@@ -1270,7 +1270,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时的元素是否可见
 		///       </summary>
-		[DCInternal]
+		
 		public override bool RuntimeVisible
 		{
 			get
@@ -1312,7 +1312,7 @@ namespace DCSoft.Writer.Dom
 		///       文档加载后的处理
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			base.AfterLoad(args);
@@ -1333,7 +1333,7 @@ namespace DCSoft.Writer.Dom
 			return method_2(ValueBinding, null);
 		}
 
-		[DCInternal]
+		
 		public virtual int UpdateDataBindingExt(UpdateDataBindingArgs args)
 		{
 			int num = 13;
@@ -1441,7 +1441,7 @@ namespace DCSoft.Writer.Dom
 			return 0;
 		}
 
-		[DCInternal]
+		
 		public virtual FieldValueDescriptor vmethod_26()
 		{
 			FieldValueDescriptor fieldValueDescriptor = null;
@@ -1461,7 +1461,7 @@ namespace DCSoft.Writer.Dom
 			return fieldValueDescriptor;
 		}
 
-		[DCInternal]
+		
 		public virtual bool vmethod_27(FieldValueDescriptor fieldValueDescriptor_0, bool bool_20)
 		{
 			if (fieldValueDescriptor_0 != null)
@@ -1495,7 +1495,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCPublishAPI]
+		
 		public void SetValueInDocument(string Value, char splitChar = ',')
 		{
 			if (Value != null && Value.Length > 0)
@@ -1523,7 +1523,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetAllValueInDocument(char splitChar = ',')
 		{
@@ -1564,7 +1564,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public XTextElementList GetElementsInSameGroup()
 		{
 			if (OwnerDocument == null)
@@ -1589,7 +1589,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public override void HandleDocumentEvent(DocumentEventArgs args)
 		{
 			if (args.Style == DocumentEventStyles.MouseClick)
@@ -1652,7 +1652,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override GClass96 GetToolTipInfo()
 		{
 			GClass96 gClass = base.GetToolTipInfo();
@@ -1664,7 +1664,7 @@ namespace DCSoft.Writer.Dom
 			return gClass;
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_7(ElementEventArgs elementEventArgs_0)
 		{
 			if (!string.IsNullOrEmpty(GroupName))
@@ -1678,7 +1678,7 @@ namespace DCSoft.Writer.Dom
 			base.vmethod_7(elementEventArgs_0);
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_8(ElementEventArgs elementEventArgs_0)
 		{
 			if (!string.IsNullOrEmpty(GroupName))
@@ -1692,14 +1692,14 @@ namespace DCSoft.Writer.Dom
 			base.vmethod_8(elementEventArgs_0);
 		}
 
-		[DCInternal]
+		
 		public override void OnViewGotFocus(ElementEventArgs elementEventArgs_0)
 		{
 			InvalidateHighlightInfo();
 			base.OnViewGotFocus(elementEventArgs_0);
 		}
 
-		[DCInternal]
+		
 		public override void OnViewLostFocus(ElementEventArgs elementEventArgs_0)
 		{
 			InvalidateHighlightInfo();
@@ -1709,7 +1709,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       声明同组的所有的复选框元素高亮度显示信息无效
 		///       </summary>
-		[DCInternal]
+		
 		public override void InvalidateHighlightInfo()
 		{
 			if (!string.IsNullOrEmpty(GroupName) && OwnerDocument.HighlightManager != null && OwnerDocument.Options.ViewOptions.FieldFocusedBackColor.A != 0)
@@ -1723,7 +1723,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override HighlightInfoList vmethod_20()
 		{
 			if (RuntimeEnableHighlight == EnableState.Disabled)
@@ -1763,7 +1763,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_28(object sender, ContentChangingEventArgs e)
 		{
 			OwnerDocument.method_47(this, "ContentChanging", new object[2]
@@ -1781,7 +1781,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_29(object sender, ContentChangedEventArgs e)
 		{
 			int num = 19;
@@ -1823,7 +1823,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_17(ReadHTMLEventArgs readHTMLEventArgs_0)
 		{
 			int num = 5;
@@ -1853,7 +1853,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_19(GClass103 gclass103_0)
 		{
 			gclass103_0.method_40(Text, RuntimeStyle);
@@ -1864,7 +1864,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override string ToPlaintString()
 		{
 			return Text;
@@ -1874,7 +1874,7 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			int num = 13;
@@ -1890,7 +1890,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="Deeply">是否深入复制，无效</param>
 		/// <returns>复制的对象</returns>
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextCheckBoxElementBase xTextCheckBoxElementBase = (XTextCheckBoxElementBase)base.Clone(Deeply);
@@ -1910,7 +1910,7 @@ namespace DCSoft.Writer.Dom
 			return xTextCheckBoxElementBase;
 		}
 
-		[DCInternal]
+		
 		public override void RefreshSize(DocumentPaintEventArgs args)
 		{
 			if (!RuntimeMultiline || Width <= 0f || Height <= 0f)
@@ -1930,7 +1930,7 @@ namespace DCSoft.Writer.Dom
 			SizeInvalid = false;
 		}
 
-		[DCInternal]
+		
 		public override void DrawContent(DocumentPaintEventArgs args)
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_186) || (args.RenderMode == DocumentRenderMode.Print && !Checked && RuntimePrintVisibilityWhenUnchecked == PrintVisibilityModeWhenUnchecked.HiddenAll))

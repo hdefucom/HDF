@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IUserTrackInfo))]
-	[DCPublishAPI]
+	
 	[ComClass("34D18984-C9E4-4E16-AABA-1089841AFDFF", "7D641D73-509A-4ABE-BCEA-55876B322AC9")]
 	[DocumentComment]
 	[Guid("34D18984-C9E4-4E16-AABA-1089841AFDFF")]
@@ -61,7 +61,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[XmlAttribute]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string UserID
 		{
 			get
@@ -79,7 +79,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public string UserName
 		{
 			get
@@ -96,7 +96,7 @@ namespace DCSoft.Writer
 		///       用户保存文档的事件
 		///       </summary>
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public DateTime SaveTime
 		{
 			get
@@ -113,7 +113,7 @@ namespace DCSoft.Writer
 		///       痕迹信息类型
 		///       </summary>
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public UserTrackType InfoType
 		{
 			get
@@ -130,7 +130,7 @@ namespace DCSoft.Writer
 		///       用户授权等级
 		///       </summary>
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public int PermissionLevel
 		{
 			get
@@ -147,7 +147,7 @@ namespace DCSoft.Writer
 		///       用户操作的文档元素类型
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextElementList Elements
 		{
 			get
@@ -163,7 +163,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       相关的批注文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlElement]
 		public string CommentText
@@ -182,7 +182,7 @@ namespace DCSoft.Writer
 		///       用户
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		public string Text
 		{
@@ -208,7 +208,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[XmlElement]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string StdTitle
 		{
 			get
@@ -238,7 +238,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public UserTrackInfo()
 		{
 		}

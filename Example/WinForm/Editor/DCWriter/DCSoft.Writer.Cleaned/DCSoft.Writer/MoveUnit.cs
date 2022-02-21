@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-234567890090")]
-	[DCPublishAPI]
+	
 	public enum MoveUnit
 	{
 		/// <summary>

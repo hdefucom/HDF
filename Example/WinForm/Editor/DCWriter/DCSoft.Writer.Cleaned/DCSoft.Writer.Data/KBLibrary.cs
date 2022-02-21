@@ -29,7 +29,7 @@ namespace DCSoft.Writer.Data
 	[ComDefaultInterface(typeof(IKBLibrary))]
 	[ComClass("00012345-6789-ABCD-EF01-234567890028", "5685CEC6-0C2C-40BE-9152-DA6B0CCCA36C")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[XmlType]
 	public class KBLibrary : IKBLibrary
 	{
@@ -117,7 +117,7 @@ namespace DCSoft.Writer.Data
 		///       使用第二语言
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public bool UseLanguage2
 		{
@@ -135,7 +135,7 @@ namespace DCSoft.Writer.Data
 		///       知识库的标题
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Title
 		{
 			get
@@ -152,7 +152,7 @@ namespace DCSoft.Writer.Data
 		///       知识库中加载模板使用的文件系统名称
 		///       </summary>
 		[DefaultValue("template")]
-		[DCPublishAPI]
+		
 		public string TemplateFileSystemName
 		{
 			get
@@ -187,7 +187,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       动态下载数据使用的基础路径
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string BaseURL
 		{
@@ -226,7 +226,7 @@ namespace DCSoft.Writer.Data
 		///       列表项目来源格式化字符串
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string ListItemsSourceFormatString
 		{
 			get
@@ -242,7 +242,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       模板来源格式化字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string TemplateSourceFormatString
 		{
@@ -275,7 +275,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       知识库版本号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlAttribute]
 		[DefaultValue(null)]
 		public string Version
@@ -294,7 +294,7 @@ namespace DCSoft.Writer.Data
 		///       知识库列表
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlArrayItem("Entry", typeof(KBEntry))]
 		public virtual KBEntryList KBEntries
 		{
@@ -335,7 +335,7 @@ namespace DCSoft.Writer.Data
 		///       返回系统中所有的知识库节点列表
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public KBEntryList AllKBEntries
 		{
@@ -450,7 +450,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       更新AllKBEntries属性值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void UpdateAllKBEntries()
 		{
 			_AllKBEntries = null;
@@ -462,7 +462,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="spellCode">拼音码</param>
 		/// <returns>检索得到的知识库节点列表</returns>
-		[DCPublishAPI]
+		
 		public KBEntryList SearchKBEntries(string spellCode)
 		{
 			if (spellCode == null)
@@ -543,7 +543,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="id">ID号</param>
 		/// <returns>找到的知识节点对象</returns>
-		[DCPublishAPI]
+		
 		public KBEntry SearchKBEntry(string string_0)
 		{
 			if (string.IsNullOrEmpty(string_0))
@@ -582,7 +582,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="stream">文件流对象</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public virtual bool Load(Stream stream)
 		{
@@ -607,7 +607,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="url">文件URL地址</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public virtual bool Load(string string_0)
 		{
 			int num = 8;
@@ -640,7 +640,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="reader">文件流对象</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public virtual bool Load(TextReader reader)
 		{
 			int num = 13;
@@ -738,7 +738,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="stream">文件流</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public virtual bool Save(Stream stream)
 		{
@@ -757,7 +757,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="fileName">文件名</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public virtual bool Save(string fileName)
 		{
 			int num = 6;
@@ -777,7 +777,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="writer">文件流</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public virtual bool Save(TextWriter writer)
 		{
 			int num = 11;
@@ -794,7 +794,7 @@ namespace DCSoft.Writer.Data
 		///       将知识库信息填充到树状列表中
 		///       </summary>
 		/// <returns>树状列表控件</returns>
-		[DCPublishAPI]
+		
 		public bool Fill(TreeView treeView_0)
 		{
 			int num = 15;
@@ -809,7 +809,7 @@ namespace DCSoft.Writer.Data
 		///       将知识库信息填充到树状列表中
 		///       </summary>
 		/// <returns>树状列表控件</returns>
-		[DCPublishAPI]
+		
 		public bool Fill(TreeView treeView_0, bool forDesigner)
 		{
 			int num = 7;

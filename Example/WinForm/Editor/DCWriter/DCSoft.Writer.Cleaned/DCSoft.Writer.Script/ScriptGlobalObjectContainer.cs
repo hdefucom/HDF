@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Script
 	///       脚本使用的全局对象列表
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public class ScriptGlobalObjectContainer : XVBAScriptGlobalObjectList

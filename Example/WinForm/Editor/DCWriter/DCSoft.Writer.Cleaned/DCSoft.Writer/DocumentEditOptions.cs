@@ -19,7 +19,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IDocumentEditOptions))]
 	[Guid("00012345-6789-ABCD-EF01-234567890069")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
-	[DCPublishAPI]
+	
 	public class DocumentEditOptions : ICloneable, IDocumentEditOptions
 	{
 		internal const string CLASSID = "00012345-6789-ABCD-EF01-234567890069";

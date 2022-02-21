@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class InputFieldElementEditorEventArgs
 	{
 		private WriterControl _WriterControl = null;
@@ -64,7 +64,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public InputFieldElementEditorEventArgs(WriterControl writerControl_0, XTextDocument xtextDocument_0, XTextInputFieldElement field, ElementValueEditContext context)
 		{
 			_WriterControl = writerControl_0;

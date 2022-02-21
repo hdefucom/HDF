@@ -91,7 +91,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(true)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public override bool AcceptTab
 		{
@@ -108,7 +108,7 @@ namespace DCSoft.Writer.Dom
 		///       返回空
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public override DCGridLineInfo GridLine
 		{
@@ -124,7 +124,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       宽度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public override float Width
 		{
@@ -145,7 +145,7 @@ namespace DCSoft.Writer.Dom
 		///       DCWriter内部使用。段落树状列表的根段落对象
 		///       </summary>
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public XTextParagraphFlagElement RootParagraphFlag => xtextParagraphFlagElement_0;
@@ -207,7 +207,7 @@ namespace DCSoft.Writer.Dom
 		///       所有的可承载内容的容器元素列表
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public XTextElementList ContentElements
@@ -228,7 +228,7 @@ namespace DCSoft.Writer.Dom
 		///       当前选择区域信息对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public XTextSelection Selection
@@ -273,7 +273,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       当前行
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -285,7 +285,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextElement CurrentElement
 		{
 			get
@@ -312,14 +312,14 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement CurrentParagraphEOF => Content.CurrentParagraphEOF;
 
 		/// <summary>
 		///       文本行列表
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(true)]
 		public XTextLineList Lines
@@ -359,7 +359,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       废除
 		///       </summary>
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[XmlIgnore]
 		[Obsolete]
@@ -397,7 +397,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		protected XTextDocumentContentElement()
 		{
 			xtextSelection_0 = new XTextSelection(this);
@@ -705,7 +705,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="Deeply">是否深度复制</param>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextDocumentContentElement xTextDocumentContentElement = (XTextDocumentContentElement)base.Clone(Deeply);
@@ -819,7 +819,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="element">元素对象</param>
 		/// <returns>是否选择</returns>
-		[DCPublishAPI]
+		
 		public virtual bool IsSelected(XTextElement element)
 		{
 			if (xtextSelection_0 == null)
@@ -832,7 +832,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void Focus()
 		{
 			XTextDocument ownerDocument = OwnerDocument;
@@ -859,7 +859,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="firstIndex">开始序号</param>
 		/// <param name="lastIndex">结束序号</param>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		public bool SetSelectionRange(int firstIndex, int lastIndex)
 		{
 			if (firstIndex >= 0 && lastIndex >= 0)
@@ -1055,7 +1055,7 @@ namespace DCSoft.Writer.Dom
 		///       获得所有的文档行对象，包括子容器元素的文档行
 		///       </summary>
 		/// <remarks>获得的文档行对象列表</remarks>
-		[DCPublishAPI]
+		
 		public XTextLineList GetAllLines()
 		{
 			XTextLineList xTextLineList = new XTextLineList();
@@ -1314,7 +1314,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       加载文档后的处理
 		///       </summary>
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			xtextContent_0 = null;
@@ -1327,7 +1327,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       清空文档内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void Clear()
 		{
 			OwnerDocument.method_44();
@@ -1345,7 +1345,7 @@ namespace DCSoft.Writer.Dom
 			gclass103_0.bool_4 = false;
 		}
 
-		[DCInternal]
+		
 		public float method_73(int int_13)
 		{
 			GClass128 gClass = new GClass128();

@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public enum DCBackgroundTextOutputMode
 	{
 		/// <summary>

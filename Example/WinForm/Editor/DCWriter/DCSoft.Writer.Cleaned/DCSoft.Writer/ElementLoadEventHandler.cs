@@ -10,6 +10,6 @@ namespace DCSoft.Writer
 	/// <param name="args">参数</param>
 	[Guid("7534DC89-ADC3-4AF9-96AD-670D7B754B60")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public delegate void ElementLoadEventHandler(object sender, ElementLoadEventArgs e);
 }

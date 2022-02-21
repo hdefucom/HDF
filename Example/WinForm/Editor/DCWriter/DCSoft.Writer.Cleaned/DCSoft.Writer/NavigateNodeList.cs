@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[Guid("018F2C51-DA77-4E16-A92E-C5C1D6D8BA78")]
 	[DocumentComment]
 	[ComClass("018F2C51-DA77-4E16-A92E-C5C1D6D8BA78", "2609A1FB-AA59-4BC3-81D7-823A18BBFF44")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ClassInterface(ClassInterfaceType.None)]
@@ -27,7 +27,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public NavigateNodeList()
 		{
 		}
@@ -37,7 +37,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public NavigateNode ComGetItem(int index)
 		{
@@ -50,7 +50,7 @@ namespace DCSoft.Writer
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, NavigateNode item)
 		{
 			base[index] = item;

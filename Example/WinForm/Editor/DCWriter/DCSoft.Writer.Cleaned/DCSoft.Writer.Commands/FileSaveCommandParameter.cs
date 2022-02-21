@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Commands
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("3F6AB3E3-E126-468F-A4B5-238EE4131403")]
 	public class FileSaveCommandParameter : IFileSaveCommandParameter
 	{

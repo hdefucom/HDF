@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[DocumentComment]
 	[Guid("74B2A5DB-7C03-4A4F-BEAC-D1E3A5AD18EC")]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("FriedmanCurveChart:{Name}")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]

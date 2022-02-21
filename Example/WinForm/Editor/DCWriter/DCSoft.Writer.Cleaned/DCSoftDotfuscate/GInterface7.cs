@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public interface GInterface7
 	{
 		void imethod_0();

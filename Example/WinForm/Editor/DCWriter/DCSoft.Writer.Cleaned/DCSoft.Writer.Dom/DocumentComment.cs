@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890099", "2C48283C-903F-450B-9752-99E9220441C4")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Comment:{Text}")]
 	[Guid("00012345-6789-ABCD-EF01-234567890099")]
 	public class DocumentComment : IDocumentComment
@@ -101,7 +101,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       为内部生成的文档批注对象
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool IsInternal => bool_0;
 
@@ -127,7 +127,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		public bool Invalidate
 		{
 			get
@@ -143,7 +143,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象所属文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public XTextDocument Document
@@ -162,7 +162,7 @@ namespace DCSoft.Writer.Dom
 		///       引用本批注的文档元素列表
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public XTextElementList ReferenceElements
 		{
@@ -203,7 +203,7 @@ namespace DCSoft.Writer.Dom
 		///       DCWriter内部使用。运行时是否可见
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public bool RuntimeVisible
@@ -222,9 +222,9 @@ namespace DCSoft.Writer.Dom
 		///       锚元素
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextElement AnchorElement
 		{
 			get
@@ -240,10 +240,10 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       注释所属的文档页面对象
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public PrintPage OwnerPage
 		{
 			get
@@ -260,7 +260,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       绑定的对象
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public object DataBoundItem
@@ -279,9 +279,9 @@ namespace DCSoft.Writer.Dom
 		///       定位位置
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public float AnchorPosition
 		{
@@ -299,7 +299,7 @@ namespace DCSoft.Writer.Dom
 		///       编号
 		///       </summary>
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public int Index
 		{
@@ -318,7 +318,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool BindingUserTrack
 		{
 			get
@@ -335,7 +335,7 @@ namespace DCSoft.Writer.Dom
 		///       自定义属性
 		///       </summary>
 		[XmlArrayItem("Attribute", typeof(XAttribute))]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public XAttributeList Attributes
 		{
@@ -357,7 +357,7 @@ namespace DCSoft.Writer.Dom
 		///       创建者编号
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string AuthorID
 		{
@@ -379,7 +379,7 @@ namespace DCSoft.Writer.Dom
 		///       创建者
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public string Author
 		{
@@ -403,7 +403,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(typeof(DateTime), "1980-1-1")]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public DateTime CreationTime
 		{
 			get
@@ -424,7 +424,7 @@ namespace DCSoft.Writer.Dom
 		///       批注文本
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public string Text
 		{
@@ -448,7 +448,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(-1)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public int CreatorIndex
 		{
 			get
@@ -468,7 +468,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       背景色
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public Color BackColor
 		{
@@ -491,7 +491,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(typeof(Color), "Black")]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public Color ForeColor
 		{
 			get
@@ -513,7 +513,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(typeof(Color), "Red")]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public Color BorderColor
 		{
 			get
@@ -533,7 +533,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       左边位置
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public float Left
@@ -556,7 +556,7 @@ namespace DCSoft.Writer.Dom
 		///       顶端位置
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public float Top
 		{
@@ -578,7 +578,7 @@ namespace DCSoft.Writer.Dom
 		///       宽度
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public float Width
 		{
@@ -600,7 +600,7 @@ namespace DCSoft.Writer.Dom
 		///       高度
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public float Height
 		{
@@ -621,7 +621,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内部的新的高度
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[XmlIgnore]
@@ -640,7 +640,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容高度
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public float ContentHeight
@@ -662,18 +662,18 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentComment()
 		{
 		}
 
-		[DCInternal]
+		
 		public DocumentComment method_0()
 		{
 			return (DocumentComment)MemberwiseClone();
 		}
 
-		[DCInternal]
+		
 		public void method_1(XTextDocument xtextDocument_1)
 		{
 			if (xtextDocument_1 != null && xtextDocument_1.Options.BehaviorOptions.InsertCommentBindingUserTrack && CreatorIndex >= 0 && CreatorIndex < xtextDocument_1.UserHistories.Count)
@@ -697,7 +697,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return Index + " " + Author + ":" + Text;

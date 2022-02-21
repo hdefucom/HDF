@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	public class ObjectParameter
 	{
@@ -57,13 +57,13 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return Name + "=" + Value;
 		}
 
-		[DCInternal]
+		
 		public ObjectParameter Clone()
 		{
 			return (ObjectParameter)MemberwiseClone();

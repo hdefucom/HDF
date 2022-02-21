@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编写 袁永福</remarks>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCInternal]
+	
 	public class HighlightInfo
 	{
 		private Dictionary<XTextLine, RectangleF> dictionary_0;

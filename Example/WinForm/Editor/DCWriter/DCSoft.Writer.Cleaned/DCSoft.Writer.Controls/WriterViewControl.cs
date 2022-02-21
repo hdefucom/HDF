@@ -69,7 +69,7 @@ namespace DCSoft.Writer.Controls
 	///       编辑器中文档批注相关的功能
 	///       </summary>
 	[ToolboxItem(false)]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public sealed class WriterViewControl : TextPageViewControl
 	{
@@ -1171,7 +1171,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       光标控制对象
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public override ICaretProvider Caret
 		{
@@ -1518,7 +1518,7 @@ namespace DCSoft.Writer.Controls
 		///       控件所在的编辑器控件对象
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[ComVisible(false)]
 		internal WriterControl OwnerWriterControl
@@ -4508,7 +4508,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="applicationID">应用编号</param>
 		/// <param name="dlg">对话框</param>
 		/// <param name="ctl">显示对话框的父控件</param>
-		[DCInternal]
+		
 		internal static void CheckRegisteredWithDialog(int applicationID, Form form_0, Control control_0)
 		{
 			int num = 10;
@@ -4694,7 +4694,7 @@ namespace DCSoft.Writer.Controls
 			Invalidate();
 		}
 
-		[DCInternal]
+		
 		public void method_111()
 		{
 			method_163();
@@ -6575,7 +6575,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_162(XTextElement xtextElement_1)
 		{
 			if (xtextElement_1 == null)
@@ -7018,7 +7018,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_175(int int_15)
 		{
 			int_10 = Environment.TickCount + int_15;
@@ -8951,7 +8951,7 @@ namespace DCSoft.Writer.Controls
 			return Document.Render.method_9().method_11(xfontValue_1, string_8, graphics_0, GraphicsUnit.Pixel).Width;
 		}
 
-		[DCInternal]
+		
 		public void method_226(GControl5 gcontrol5_0, bool bool_47)
 		{
 			int num = 13;

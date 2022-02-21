@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public abstract class GClass8
 	{
 		private XTextDocument xtextDocument_0 = null;

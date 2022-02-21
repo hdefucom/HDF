@@ -9,13 +9,13 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public interface IDocumentImage
 	{
 		/// <summary>
 		///       标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		DocumentImageFlags ImageFlags
 		{
 			get;
@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="args">参数</param>
 		/// <returns>推荐的大小</returns>
-		[DCPublishAPI]
+		
 		SizeF GetPreferredSize(DocumentPaintEventArgs args);
 
 		/// <summary>
@@ -34,7 +34,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="args">
 		/// </param>
-		[DCPublishAPI]
+		
 		void Draw(DocumentPaintEventArgs args);
 	}
 }

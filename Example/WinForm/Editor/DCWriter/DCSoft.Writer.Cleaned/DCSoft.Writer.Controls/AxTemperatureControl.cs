@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Controls
 	///       </remarks>
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("2219FC85-1715-4B7E-B674-95637E1D3E88", "69ECCB7E-4595-4202-BD44-1C6EFF6237C7", "9BBA47B8-3E76-4D24-BD80-54E148043797")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ToolboxItem(false)]
 	[ToolboxBitmap(typeof(AxTemperatureControl))]
@@ -270,7 +270,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int GetInterfaceSafetyOptions(ref Guid riid, ref int pdwSupportedOptions, ref int pdwEnabledOptions)
 		{
 			int num = 5;
@@ -318,7 +318,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int SetInterfaceSafetyOptions(ref Guid riid, int dwOptionSetMask, int dwEnabledOptions)
 		{
 			int num = 12;

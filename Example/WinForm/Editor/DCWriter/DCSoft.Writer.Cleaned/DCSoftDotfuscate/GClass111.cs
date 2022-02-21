@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
 	[Serializable]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class GClass111 : ICloneable
 	{

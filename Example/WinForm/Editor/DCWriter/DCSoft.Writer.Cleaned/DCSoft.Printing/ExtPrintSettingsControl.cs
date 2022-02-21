@@ -12,7 +12,7 @@ namespace DCSoft.Printing
 	[DocumentComment]
 	[ComVisible(false)]
 	[ToolboxItem(false)]
-	[DCInternal]
+	
 	public class ExtPrintSettingsControl : UserControl
 	{
 		private static DCPrintMode dcprintMode_0 = DCPrintMode.Normal;

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Guid("1BF4326F-88E9-48AD-8D8E-15571D01B09F")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	public interface IDCTableRowComparer
 	{

@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[XmlType("XField")]
-	[DCInternal]
+	
 	[DebuggerDisplay("Field")]
 	[Guid("00012345-6789-ABCD-EF01-234567890055")]
 	public class XTextFieldElementBase : XTextContainerElement
@@ -52,7 +52,7 @@ namespace DCSoft.Writer.Dom
 		///       开始边框元素文本
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[XmlElement]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
@@ -87,7 +87,7 @@ namespace DCSoft.Writer.Dom
 		[XmlElement]
 		[HtmlAttribute]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public string EndBorderText
@@ -118,7 +118,7 @@ namespace DCSoft.Writer.Dom
 		///       边框元素颜色
 		///       </summary>
 		[DefaultValue(typeof(Color), "Empty")]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[HtmlAttribute]
 		public Color BorderElementColor
@@ -193,7 +193,7 @@ namespace DCSoft.Writer.Dom
 		///       文档元素所属的文档对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public override XTextDocument OwnerDocument
 		{
@@ -223,7 +223,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextFieldBorderElement StartElement
 		{
 			get
@@ -246,7 +246,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XTextFieldBorderElement EndElement
 		{
 			get
@@ -268,7 +268,7 @@ namespace DCSoft.Writer.Dom
 		///       判断所有的内容是否都处于被选择区域
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public virtual bool IsFullSelect
 		{
 			get
@@ -302,7 +302,7 @@ namespace DCSoft.Writer.Dom
 		///       文字颜色
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[DefaultValue(typeof(Color), "Transparent")]
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
@@ -351,7 +351,7 @@ namespace DCSoft.Writer.Dom
 		///       背景文本采用斜体样式
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(DCBooleanValueHasDefault.Default)]
 		[Browsable(true)]
 		[ComVisible(true)]
@@ -393,7 +393,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       背景文字颜色
 		///       </summary>
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[XmlIgnore]
 		[DefaultValue(typeof(Color), "Transparent")]
@@ -542,7 +542,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public XTextElementList method_27()
 		{
 			XTextElementList xTextElementList = new XTextElementList();
@@ -615,7 +615,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public override bool Select()
 		{
 			XTextDocumentContentElement documentContentElement = base.DocumentContentElement;
@@ -647,7 +647,7 @@ namespace DCSoft.Writer.Dom
 		///       选择输入域的正文内容，但不选中两边的边界元素
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SelectWithoutBorderElement()
 		{
 			XTextDocumentContentElement documentContentElement = base.DocumentContentElement;
@@ -718,7 +718,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <returns>是否是背景文本元素</returns>
-		[DCInternal]
+		
 		internal bool FastIsBackgroundTextElement(XTextElement element)
 		{
 			if (Elements == null || Elements.Count == 0)
@@ -733,7 +733,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <returns>是否是背景文本元素</returns>
-		[DCInternal]
+		
 		public virtual bool IsBackgroundTextElement(XTextElement element)
 		{
 			return InnerBackgroundTextElements?.Contains(element) ?? false;
@@ -805,7 +805,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得输入焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void Focus()
 		{
 			if (!BelongToDocumentDom(OwnerDocument, checkLogicDelete: false))
@@ -886,7 +886,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       声明用户界面无效，需要重新绘制
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void InvalidateView()
 		{
 			if (Parent != null && !UIIsUpdating && OwnerDocument != null && OwnerDocument.EditorControl != null && base.DocumentContentElement != null)

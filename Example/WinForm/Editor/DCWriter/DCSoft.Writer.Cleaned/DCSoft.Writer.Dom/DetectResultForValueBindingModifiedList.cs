@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComClass("C72CA203-3B3F-44F3-98F1-22DAFB408510", "D0A86420-1826-4B24-87F2-63B19AFE2F9F")]
-	[DCPublishAPI]
+	
 	public class DetectResultForValueBindingModifiedList : List<DetectResultForValueBindingModified>, IDetectResultForValueBindingModifiedList
 	{
 		internal const string CLASSID = "C72CA203-3B3F-44F3-98F1-22DAFB408510";

@@ -6,7 +6,7 @@ namespace DCSoft.Drawing
 	/// <summary>
 	///       下划线样式
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[Guid("09CA6F4F-FE6A-4AA3-BB5E-5BFDAAD34BED")]
 	public enum TextUnderlineStyle

@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       对象能否被删除
 	///       </summary>
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public interface IDeleteable

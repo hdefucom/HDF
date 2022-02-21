@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[XmlType("XPageBreak")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IXTextPageBreakElement))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-23456789001D")]
@@ -53,7 +53,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextPageBreakElement()
 		{
 			Height = 50f;

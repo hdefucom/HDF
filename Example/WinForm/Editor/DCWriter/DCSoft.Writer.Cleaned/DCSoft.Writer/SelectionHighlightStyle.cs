@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[ComVisible(true)]
 	[Guid("B68E481B-5B1F-415A-B936-0A8F3C8D4828")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public enum SelectionHighlightStyle
 	{

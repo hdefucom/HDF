@@ -59,13 +59,13 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       原始的画布对象
 		///       </summary>
-		[DCInternal]
+		
 		public Graphics NativeGraphics => graphics_0;
 
-		[DCInternal]
+		
 		public bool IsPDFMode => gclass519_0 != null;
 
-		[DCInternal]
+		
 		public Region Clip
 		{
 			get
@@ -267,7 +267,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public Graphics GraphisForMeasure
 		{
 			get
@@ -293,7 +293,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       是否自动销毁掉底层的画布对象
 		///       </summary>
-		[DCInternal]
+		
 		public bool AutoDisposeNativeGraphics
 		{
 			get
@@ -309,7 +309,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       内容记录类型
 		///       </summary>
-		[DCInternal]
+		
 		public DCGraphicsLogType LogType
 		{
 			get
@@ -325,7 +325,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       记录内容使用的流对象
 		///       </summary>
-		[DCInternal]
+		
 		public Stream LogStream
 		{
 			get
@@ -338,7 +338,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public static DCGraphics smethod_0(Image image_0)
 		{
 			DCGraphics dCGraphics = new DCGraphics(Graphics.FromImage(image_0));
@@ -388,7 +388,7 @@ namespace DCSoft.Drawing
 			graphicsUnit_0 = graphics_2.PageUnit;
 		}
 
-		[DCInternal]
+		
 		public static DCGraphics smethod_1(GClass519 gclass519_1)
 		{
 			DCGraphics dCGraphics = new DCGraphics();
@@ -397,7 +397,7 @@ namespace DCSoft.Drawing
 			return dCGraphics;
 		}
 
-		[DCInternal]
+		
 		public void ResetClip()
 		{
 			if (gclass519_0 != null)
@@ -615,7 +615,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_0(Image image_0, RectangleF rectangleF_0, bool bool_1)
 		{
 			if (gclass519_0 != null)
@@ -1553,7 +1553,7 @@ namespace DCSoft.Drawing
 			return (DCMetaRecordType)gclass375_0.method_13();
 		}
 
-		[DCInternal]
+		
 		public void Dispose()
 		{
 			if (AutoDisposeNativeGraphics && graphics_0 != null)
@@ -1564,7 +1564,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public void LogContent(string string_0)
 		{
 			if (LogType == DCGraphicsLogType.Content && stream_0 != null && !string.IsNullOrEmpty(string_0))
@@ -1574,7 +1574,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public void LogContent(byte[] byte_0)
 		{
 			if (LogType == DCGraphicsLogType.Content && stream_0 != null && byte_0 != null && byte_0.Length > 0)
@@ -1583,7 +1583,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public void LogContent(Image image_0)
 		{
 			if (LogType == DCGraphicsLogType.Content && LogStream != null && image_0 != null)

@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       标准功能命令名称
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	[DocumentComment]
 	public class StandardCommandNames

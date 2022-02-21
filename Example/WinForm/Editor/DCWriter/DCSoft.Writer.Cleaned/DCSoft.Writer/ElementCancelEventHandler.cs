@@ -11,6 +11,6 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[Guid("D1DA0DD1-2FAE-49FC-B43C-B421A5D7F33B")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public delegate void ElementCancelEventHandler(object sender, ElementCancelEventArgs e);
 }

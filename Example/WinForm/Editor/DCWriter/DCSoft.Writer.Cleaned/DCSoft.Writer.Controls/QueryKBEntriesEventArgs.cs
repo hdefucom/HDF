@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Controls
 	///       查询知识库列表的事件参数
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("FA368EE3-71FC-439F-AE18-0D99E7CA8783", "12D0A287-D6D3-4C7F-94B9-A9D8405FE2B3")]
 	[ComVisible(true)]
@@ -37,25 +37,25 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       编辑器控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       拼音码
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string SpellCode => _SpellCode;
 
 		/// <summary>
 		///       查询结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public KBEntryList Result
 		{
 			get
@@ -71,7 +71,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       取消相关操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -91,7 +91,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <param name="spellCode">
 		/// </param>
-		[DCInternal]
+		
 		public QueryKBEntriesEventArgs(WriterControl writerControl_0, string spellCode)
 		{
 			int num = 14;

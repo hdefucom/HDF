@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	///       表示连续空格的元素
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	[XmlType("XSpaces")]
 	[DocumentComment]
@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       长度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(0)]
 		[HtmlAttribute]
 		public int Length
@@ -39,7 +39,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextWhiteSpacesElement()
 		{
 		}

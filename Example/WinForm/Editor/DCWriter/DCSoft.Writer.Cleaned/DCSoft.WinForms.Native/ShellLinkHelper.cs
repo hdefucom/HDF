@@ -11,7 +11,7 @@ namespace DCSoft.WinForms.Native
 	///       /Windows操作系统快捷方式处理模块
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public static class ShellLinkHelper
 	{
 		[ComImport]

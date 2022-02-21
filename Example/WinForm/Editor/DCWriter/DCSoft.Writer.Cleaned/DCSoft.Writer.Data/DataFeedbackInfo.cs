@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[Editor("DCSoft.Writer.Commands.DataFeedbackInfoUITypeEditor", typeof(UITypeEditor))]
-	[DCPublishAPI]
+	
 	public class DataFeedbackInfo
 	{
 		private string _TableName = null;

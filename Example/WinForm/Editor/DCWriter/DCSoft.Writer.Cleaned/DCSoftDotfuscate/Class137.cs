@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	internal class Class137
 	{
 		private class Class138 : IComparer<GClass3>

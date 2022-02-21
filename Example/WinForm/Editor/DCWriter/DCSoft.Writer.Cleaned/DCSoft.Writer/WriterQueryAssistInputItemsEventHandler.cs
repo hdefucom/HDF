@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <param name="args">
 	/// </param>
 	[Guid("422ECAD7-F571-4355-94C6-AB2E7498BA2A")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public delegate void WriterQueryAssistInputItemsEventHandler(object sender, WriterQueryAssistInputItemsEventArgs e);
 }

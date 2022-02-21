@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[Guid("C4B8B1C8-94D0-4F97-8EF0-578CBBD3DB47")]
 	[ComVisible(true)]
 	[ComClass("C4B8B1C8-94D0-4F97-8EF0-578CBBD3DB47", "92FB3A91-1D68-4200-8AA8-B399F5070341")]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IWriterExpressionFunctionEventArgs))]
@@ -34,13 +34,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       函数名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string FunctionName => _FunctionName;
 
 		/// <summary>
 		///       参数的个数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int ParametersCount
 		{
 			get
@@ -56,31 +56,31 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       第一个参数的字符串形式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ParameterString1 => GetParameterStringValue(0);
 
 		/// <summary>
 		///       第二个参数的字符串形式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ParameterString2 => GetParameterStringValue(1);
 
 		/// <summary>
 		///       第三个参数的字符串形式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ParameterString3 => GetParameterStringValue(2);
 
 		/// <summary>
 		///       第四个参数的字符串形式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ParameterString4 => GetParameterStringValue(3);
 
 		/// <summary>
 		///       运算结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object Result
 		{
 			get
@@ -96,7 +96,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       运算结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object ResultString
 		{
 			get
@@ -116,7 +116,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经处理了无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -137,7 +137,7 @@ namespace DCSoft.Writer
 		/// <param name="element">元素对象</param>
 		/// <param name="functionName">函数名</param>
 		/// <param name="parameters">参数列表</param>
-		[DCInternal]
+		
 		public WriterExpressionFunctionEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string functionName, object[] parameters)
 			: base(writerControl_0, document, element)
 		{
@@ -150,7 +150,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="index">序号</param>
 		/// <returns>参数值</returns>
-		[DCPublishAPI]
+		
 		public object GetParameterValue(int index)
 		{
 			if (_Parameters != null && index >= 0 && index < _Parameters.Length)
@@ -165,7 +165,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="index">序号</param>
 		/// <returns>参数值</returns>
-		[DCPublishAPI]
+		
 		public string GetParameterStringValue(int index)
 		{
 			object parameterValue = GetParameterValue(index);

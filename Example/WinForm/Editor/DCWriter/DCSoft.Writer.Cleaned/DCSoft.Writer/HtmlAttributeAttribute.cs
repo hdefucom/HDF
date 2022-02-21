@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       输出到HTML属性中的标记
 	///       </summary>
 	[AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public sealed class HtmlAttributeAttribute : Attribute
 	{

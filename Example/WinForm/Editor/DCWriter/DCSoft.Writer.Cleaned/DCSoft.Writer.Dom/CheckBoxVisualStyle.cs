@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       复选框显示样式
 	///       </summary>
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("8E334872-D3CD-49A3-9A05-88F82D6347A8")]
 	public enum CheckBoxVisualStyle
 	{

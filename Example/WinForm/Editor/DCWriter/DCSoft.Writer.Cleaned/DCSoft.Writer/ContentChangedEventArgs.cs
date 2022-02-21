@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
 	[Guid("00012345-6789-ABCD-EF01-23456789005D")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
@@ -48,7 +48,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件来源
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ContentChangedEventSource EventSource
 		{
 			get
@@ -64,7 +64,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       只是样式发生了改变
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool OnlyStyleChanged
 		{
 			get
@@ -80,13 +80,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       由于进行重做/撤销操作而引发了该事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool UndoRedoCause => EventSource == ContentChangedEventSource.UndoRedo;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -102,7 +102,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       正在加载文档标志
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool LoadingDocument
 		{
 			get
@@ -118,7 +118,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       额外的数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object Tag
 		{
 			get
@@ -134,7 +134,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       容器元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement Element
 		{
 			get
@@ -150,7 +150,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       发生操作时的元素位置序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int ElementIndex
 		{
 			get
@@ -166,7 +166,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       正要删除的元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList DeletedElements
 		{
 			get
@@ -182,7 +182,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       准备新增的元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList InsertedElements
 		{
 			get
@@ -198,7 +198,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       取消事件向上层元素冒泡传递
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CancelBubble
 		{
 			get
@@ -214,7 +214,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经被处理了，无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -230,7 +230,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ContentChangedEventArgs()
 		{
 		}

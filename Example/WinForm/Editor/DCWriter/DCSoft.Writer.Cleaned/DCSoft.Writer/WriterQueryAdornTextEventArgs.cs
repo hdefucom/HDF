@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[ComClass("FAA96BC5-3D0D-4352-81DB-C43204BAA58E", "55C507A8-806D-4930-BB2B-FE14C20E0765")]
 	[ComDefaultInterface(typeof(IWriterQueryAdornTextEventArgs))]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[Guid("FAA96BC5-3D0D-4352-81DB-C43204BAA58E")]
 	[ComVisible(true)]
@@ -28,7 +28,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       扩展标记文字
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string AdornText
 		{
 			get
@@ -50,7 +50,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="element">
 		/// </param>
-		[DCInternal]
+		
 		public WriterQueryAdornTextEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element)
 			: base(writerControl_0, document, element)
 		{

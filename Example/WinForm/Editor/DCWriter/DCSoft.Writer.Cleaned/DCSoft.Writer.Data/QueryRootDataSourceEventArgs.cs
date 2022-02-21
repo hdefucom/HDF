@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 namespace DCSoft.Writer.Data
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class QueryRootDataSourceEventArgs : EventArgs
 	{
 		private DataSourceTreeDocument _Document = null;

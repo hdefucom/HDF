@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Commands
 	///       本对象支持的用户界面控件有Button、TextBox、ComboBox、Menu、ToolStripItem、ToolStripButton、
 	///       ToolStripTextBox、ToolStripComboBox、ToolSTripMenuItem等等
 	///       编写 袁永福</remarks>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public abstract class WriterCommandExecuterBase
 	{

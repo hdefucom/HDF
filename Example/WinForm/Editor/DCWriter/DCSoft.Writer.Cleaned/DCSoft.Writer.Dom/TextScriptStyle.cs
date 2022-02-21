@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       文本标记样式
 	///       </summary>
 	[Guid("8D8791E6-60AF-46BC-BDFD-A6DF65AB3123")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum TextScriptStyle
 	{

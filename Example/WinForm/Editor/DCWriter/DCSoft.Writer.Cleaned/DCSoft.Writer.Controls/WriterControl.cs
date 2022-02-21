@@ -67,7 +67,7 @@ namespace DCSoft.Writer.Controls
 	///       处理键盘事件
 	///       </summary>
 	[DefaultEvent("DocumentContentChanged")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	[ToolboxItem(true)]
@@ -416,7 +416,7 @@ namespace DCSoft.Writer.Controls
 		///       当前子文档节元素
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		[XmlIgnore]
@@ -426,12 +426,12 @@ namespace DCSoft.Writer.Controls
 		///       文档中包含的子文档对象列表
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public XTextElementList SubDocuments => Document.SubDocuments;
 
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public override bool AllowDrop
 		{
@@ -449,7 +449,7 @@ namespace DCSoft.Writer.Controls
 		///       能否直接拖拽文档内容
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[Category("Behavior")]
 		public bool AllowDragContent
 		{
@@ -467,7 +467,7 @@ namespace DCSoft.Writer.Controls
 		///       编辑器控件能接受的数据格式，包括粘贴操作和OLE拖拽操作获得的数据
 		///       </summary>
 		[Description("编辑器控件能接受的数据格式，包括粘贴操作和OLE拖拽操作获得的数据")]
-		[DCPublishAPI]
+		
 		[DefaultValue(WriterDataFormats.All)]
 		[Category("Behavior")]
 		public WriterDataFormats AcceptDataFormats
@@ -486,7 +486,7 @@ namespace DCSoft.Writer.Controls
 		///       编辑器控件能创建的数据格式，这些数据将用于复制操作和OLE拖拽操作
 		///       </summary>
 		[DefaultValue(WriterDataFormats.All)]
-		[DCPublishAPI]
+		
 		[Description("编辑器控件能创建的数据格式，这些数据将用于复制操作和OLE拖拽操作")]
 		[Category("Behavior")]
 		public WriterDataFormats CreationDataFormats
@@ -505,7 +505,7 @@ namespace DCSoft.Writer.Controls
 		///       拖拽事件已经处理标记
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool DragEventHandled
 		{
@@ -523,13 +523,13 @@ namespace DCSoft.Writer.Controls
 		///       编辑器控件正在执行OLE拖拽事件
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public DragOperationState DragState => InnerViewControl.DragState;
 
 		/// <summary>
 		///       是否允许触发文档元素级事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[Category("Behavior")]
 		public bool EnabledElementEvent
@@ -554,7 +554,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素事件模板列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
@@ -575,7 +575,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public ElementEventTemlateMap GlobalEventTemplates
 		{
 			get
@@ -592,7 +592,7 @@ namespace DCSoft.Writer.Controls
 		///       文本域元素全局事件模板对象,是GlobalEventTemplates属性的封装。
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[Category("Behavior")]
 		public ElementEventTemplate GlobalEventTemplate_Field
 		{
@@ -611,7 +611,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Category("Behavior")]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public ElementEventTemplate GlobalEventTemplate_CheckBox
 		{
 			get
@@ -628,7 +628,7 @@ namespace DCSoft.Writer.Controls
 		///       表格元素全局事件模板对象,是GlobalEventTemplates属性的封装。
 		///       </summary>
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public ElementEventTemplate GlobalEventTemplate_Table
 		{
@@ -646,7 +646,7 @@ namespace DCSoft.Writer.Controls
 		///       表格行元素全局事件模板对象,是GlobalEventTemplates属性的封装。
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[Category("Behavior")]
 		public ElementEventTemplate GlobalEventTemplate_TableRow
 		{
@@ -664,7 +664,7 @@ namespace DCSoft.Writer.Controls
 		///       单元格元素全局事件模板对象,是GlobalEventTemplates属性的封装。
 		///       </summary>
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public ElementEventTemplate GlobalEventTemplate_Cell
 		{
@@ -681,7 +681,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       图片元素全局事件模板对象,是GlobalEventTemplates属性的封装。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Behavior")]
 		[DefaultValue(null)]
 		public ElementEventTemplate GlobalEventTemplate_Image
@@ -699,7 +699,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       所有类型元素全局事件模板对象,是GlobalEventTemplates属性的封装。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Behavior")]
 		[DefaultValue(null)]
 		public ElementEventTemplate GlobalEventTemplate_Element
@@ -718,14 +718,14 @@ namespace DCSoft.Writer.Controls
 		///       文档大纲层次的根节点列表
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public DocumentOutlineNodeList OutlineNodes => Document.OutlineNodes;
 
 		/// <summary>
 		///       当前文档大纲结构节点对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public DocumentOutlineNode CurrentOutlineNode => Document.CurrentOutlineNode;
@@ -737,7 +737,7 @@ namespace DCSoft.Writer.Controls
 		///       后台模式下，任何控件、文档只读和授权内容保护无效，可以任意修改文档内容。
 		///       但仍然会根据需要留下历史修改痕迹。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
@@ -758,7 +758,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool Modified
 		{
@@ -777,14 +777,14 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[ComVisible(true)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XTextElementList Tables => Document.Tables;
 
 		/// <summary>
 		///       文档中所有的图片对象
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public XTextElementList Images => Document.Images;
 
@@ -792,7 +792,7 @@ namespace DCSoft.Writer.Controls
 		///       文档中包含的文本输入域列表对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextElementList InputFields => Document.InputFields;
 
@@ -800,7 +800,7 @@ namespace DCSoft.Writer.Controls
 		///       文档中包含的内容被修改的文本输入域列表对象
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public XTextElementList ModifiedInputFields => Document.ModifiedInputFields;
 
@@ -808,14 +808,14 @@ namespace DCSoft.Writer.Controls
 		///       当前光标所在的字体名称
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string CurrentFontName => Document.CurrentStyleInfo.Content.FontName;
 
 		/// <summary>
 		///       当前光标所在的粗体样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public bool CurrentBold => Document.CurrentStyleInfo.Content.Bold;
@@ -825,14 +825,14 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[ComVisible(true)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public bool CurrentItalic => Document.CurrentStyleInfo.Content.Italic;
 
 		/// <summary>
 		///       当前光标所在的下划线样式
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool CurrentUnderline => Document.CurrentStyleInfo.Content.Underline;
 
@@ -840,14 +840,14 @@ namespace DCSoft.Writer.Controls
 		///       当前光标所在的上标样式
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool CurrentSuperscript => Document.CurrentStyleInfo.Content.Superscript;
 
 		/// <summary>
 		///       当前光标所在的下标样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		public bool CurrentSubscript => Document.CurrentStyleInfo.Content.Subscript;
@@ -856,7 +856,7 @@ namespace DCSoft.Writer.Controls
 		///       当前光标所在的字体大小
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public float CurrentFontSize => Document.CurrentStyleInfo.Content.FontSize;
 
@@ -864,14 +864,14 @@ namespace DCSoft.Writer.Controls
 		///       当前段落对齐方式
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public DocumentContentAlignment CurrentParagraphAlign => Document.CurrentStyleInfo.Paragraph.Align;
 
 		/// <summary>
 		///       当前段落对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public XTextParagraphFlagElement CurrentParagraphEOF => Document.CurrentParagraphEOF;
@@ -880,7 +880,7 @@ namespace DCSoft.Writer.Controls
 		///       文档基础路径
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string DocumentBaseUrl
 		{
@@ -904,7 +904,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public XTextDocument Document
@@ -930,7 +930,7 @@ namespace DCSoft.Writer.Controls
 		///       当前文档内容版本号，对文档内容的任何修改都会使得该版本号增加
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public int DocumentContentVersion
 		{
 			get
@@ -947,7 +947,7 @@ namespace DCSoft.Writer.Controls
 		///       当前元素样式
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		public DocumentContentStyle CurrentStyle
@@ -966,7 +966,7 @@ namespace DCSoft.Writer.Controls
 		///       当前插入点所在的元素
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
 		public XTextElement CurrentElement
@@ -988,7 +988,7 @@ namespace DCSoft.Writer.Controls
 		///       当只选中一个文档元素对象，则返回给文档元素对象，如果没有选中元素
 		///       或者选中多个元素，则返回空。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[ComVisible(true)]
@@ -1008,7 +1008,7 @@ namespace DCSoft.Writer.Controls
 		///       当前插入点所在的输入域元素
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public XTextInputFieldElement CurrentInputField
@@ -1027,7 +1027,7 @@ namespace DCSoft.Writer.Controls
 		[ComVisible(true)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public XTextTableCellElement CurrentTableCell
 		{
 			get
@@ -1042,7 +1042,7 @@ namespace DCSoft.Writer.Controls
 		///       当前插入点所在的表格行元素
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
 		public XTextTableRowElement CurrentTableRow
@@ -1058,7 +1058,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       当前插入点所在的表格元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
@@ -1076,7 +1076,7 @@ namespace DCSoft.Writer.Controls
 		///       当前用户信息
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[XmlIgnore]
 		[Browsable(false)]
@@ -1085,7 +1085,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       当前插入点所在的文档节对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -1105,7 +1105,7 @@ namespace DCSoft.Writer.Controls
 		[ComVisible(true)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public PageContentPartyStyle CurrentContentPartyStyle
 		{
 			get
@@ -1129,7 +1129,7 @@ namespace DCSoft.Writer.Controls
 		///       鼠标悬停的元素
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public XTextElement HoverElement
@@ -1148,7 +1148,7 @@ namespace DCSoft.Writer.Controls
 		///       当前文本行
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
 		public XTextLine CurrentLine
@@ -1169,7 +1169,7 @@ namespace DCSoft.Writer.Controls
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[DefaultValue(true)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public bool EnableCollectOuterReference
@@ -1188,7 +1188,7 @@ namespace DCSoft.Writer.Controls
 		///       文档中包含的所有的复选框元素列表
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[XmlIgnore]
 		public XTextElementList CheckBoxes => GetElementsByType(typeof(XTextCheckBoxElement));
@@ -1198,7 +1198,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[ComVisible(true)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public XTextElementList RadioBoxes => GetElementsByType(typeof(XTextRadioBoxElement));
 
@@ -1207,7 +1207,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[ComVisible(true)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XTextElementList Sections => Document.Sections;
 
 		/// <summary>
@@ -1229,7 +1229,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       当前文档批注对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public DocumentComment CurrentComment
@@ -1248,7 +1248,7 @@ namespace DCSoft.Writer.Controls
 		///       获得从1开始计算的当前列号
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int CurrentColumnIndex
 		{
@@ -1266,7 +1266,7 @@ namespace DCSoft.Writer.Controls
 		///       当前行号
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int CurrentLineIndex
 		{
@@ -1285,7 +1285,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public int CurrentLineIndexInPage
 		{
@@ -1302,7 +1302,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       获得从1开始计算的当前文本行在页中的内置序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -1322,7 +1322,7 @@ namespace DCSoft.Writer.Controls
 		///       获得从1开始计算的当前文本行所在的页码
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		public int CurrentLineOwnerPageIndex
@@ -1340,7 +1340,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档选择的部分
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -1359,7 +1359,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档中被选中的文字
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string SelectedText
 		{
@@ -1376,7 +1376,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       是否显示提示文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Category("Behavior")]
 		[DefaultValue(true)]
@@ -1396,7 +1396,7 @@ namespace DCSoft.Writer.Controls
 		///       内置的提示信息控件
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public ToolTip TooltipControl => InnerViewControl.TooltipControl;
 
@@ -1421,7 +1421,7 @@ namespace DCSoft.Writer.Controls
 		///       即使在只读状态下是否能编辑文档批注
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool CommentEditableWhenReadonly
 		{
 			get
@@ -1437,7 +1437,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       是否显示文档批注
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(FunctionControlVisibility.Auto)]
 		[Category("Appearance")]
 		public FunctionControlVisibility CommentVisibility
@@ -1462,7 +1462,7 @@ namespace DCSoft.Writer.Controls
 		///       鼠标双击来编辑文档批注
 		///       </summary>
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[Description("鼠标双击来编辑文档批注")]
 		[DefaultValue(true)]
 		public bool DoubleClickToEditComment
@@ -1480,7 +1480,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档批注管理器
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public GInterface9 CommentManager
@@ -1500,7 +1500,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <remarks>一般情况下，AxWriterControl会自动检测是否需要强制预处理消息。不排除在某些情况下
 		///       无法自动检测而导致出现堆栈溢出的错误，此时可以设置这个属性来强制预处理消息。</remarks>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[DefaultValue(false)]
 		public bool ForcePreProcessMessage
@@ -1518,7 +1518,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       布局停靠样式，仅仅向COM接口提供该属性
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(0)]
 		[Obsolete("仅提供兼容性")]
 		[Browsable(false)]
@@ -1542,7 +1542,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public WriterCommandControler CommandControler
 		{
 			get
@@ -1558,7 +1558,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       打开文件使用的文件名过滤字符串
 		///       </summary>
-		[DCInternal]
+		
 		public static string OpenFileFilter
 		{
 			get
@@ -1574,7 +1574,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       保存时使用的文件名过滤条件
 		///       </summary>
-		[DCInternal]
+		
 		public static string SaveFileFilter
 		{
 			get
@@ -1590,7 +1590,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       自动保存管理器
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[ComVisible(false)]
@@ -1615,7 +1615,7 @@ namespace DCSoft.Writer.Controls
 		///        </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string SpecifyLoadFileNameOnce
 		{
@@ -1634,7 +1634,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public override string Text
 		{
 			get
@@ -1658,7 +1658,7 @@ namespace DCSoft.Writer.Controls
 		///       RTF文本
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public string RTFText
 		{
@@ -1676,14 +1676,14 @@ namespace DCSoft.Writer.Controls
 		///       未格式化的XML文本
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public string XMLTextUnFormatted => InnerViewControl.XMLTextUnFormatted;
 
 		/// <summary>
 		///       XML文本
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string XMLText
 		{
@@ -1700,7 +1700,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       获得文档XML内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public string XMLTextWithDocumentState
@@ -1719,7 +1719,7 @@ namespace DCSoft.Writer.Controls
 		///       生成用于保存的XML字符串
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string XMLTextForSave
 		{
@@ -1736,7 +1736,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       加载文档时显示等待界面
 		///       </summary>
-		[DCInternal]
+		
 		[Category("Appearance")]
 		[DefaultValue(true)]
 		public bool ShowWaittingUIForLoadingDocument
@@ -1755,7 +1755,7 @@ namespace DCSoft.Writer.Controls
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(false)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public Image CustomLogoImage
 		{
 			get
@@ -1804,7 +1804,7 @@ namespace DCSoft.Writer.Controls
 		///       用户界面工具对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public DCUITools UITools
 		{
@@ -1821,7 +1821,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       编辑器正在显示某种用户界面
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ReadOnly(true)]
 		[Browsable(false)]
 		public bool ShowingUI
@@ -1840,7 +1840,7 @@ namespace DCSoft.Writer.Controls
 		///        允许执行StartEditContent事件
 		///       </summary>
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool EnableUIEventStartEditContent
 		{
@@ -1864,14 +1864,14 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档内容导航者
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public DocumentNavigator Navigator => InnerViewControl.Navigator;
 
 		/// <summary>
 		///       当前光标位置所在的导航节点对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public NavigateNode CurrentNavigateNode => InnerViewControl.CurrentNavigateNode;
@@ -1881,7 +1881,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public string StatusText
 		{
 			get
@@ -1897,14 +1897,14 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       配套的工具窗体列表
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public GClass255 ToolWindows => InnerViewControl.ToolWindows;
 
 		/// <summary>
 		///       销毁控件的时候是否自动销毁文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DefaultValue(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -1928,7 +1928,7 @@ namespace DCSoft.Writer.Controls
 		///       销毁控件的时候是否自动销毁快捷菜单
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -1956,7 +1956,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public ContextMenuStrip CommentContextMenuStrip
 		{
 			get
@@ -1973,7 +1973,7 @@ namespace DCSoft.Writer.Controls
 		///       快捷菜单管理器
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public IContextMenuStripManager ContextMenuManager
 		{
@@ -1991,7 +1991,7 @@ namespace DCSoft.Writer.Controls
 		///       允许启用ApplyLocalDocumentOptions功能。
 		///       </summary>
 		[DefaultValue(false)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(false)]
@@ -2012,7 +2012,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public int SelectionVersion
 		{
@@ -2029,7 +2029,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       全局调试设置
 		///       </summary>
-		[DCInternal]
+		
 		public GlobalDebugConfig DebugConfig
 		{
 			get
@@ -2045,7 +2045,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       授权信息显示模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(true)]
 		[DefaultValue(DCLicenceDisplayMode.PageHeader)]
@@ -2065,7 +2065,7 @@ namespace DCSoft.Writer.Controls
 		///       在进度等待界面中显示注册信息
 		///       </summary>
 		[DefaultValue(false)]
-		[DCInternal]
+		
 		[Obsolete("本属性已经废除了。")]
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
@@ -2086,7 +2086,7 @@ namespace DCSoft.Writer.Controls
 		///       最后一次操作产生的系统警告信息列表
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public SystemAlertInfoList LastAlertInfos => Document.LastAlertInfos;
 
@@ -2112,7 +2112,7 @@ namespace DCSoft.Writer.Controls
 		///       背景色
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public override Color BackColor
 		{
 			get
@@ -2129,7 +2129,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       时间提供者对象
 		///       </summary>
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
@@ -2150,7 +2150,7 @@ namespace DCSoft.Writer.Controls
 		///       开发者工具是否可见
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public bool DeveloperToolsVisible
 		{
@@ -2224,7 +2224,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       快键菜单
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public new ContextMenuStrip ContextMenuStrip
 		{
@@ -2249,7 +2249,7 @@ namespace DCSoft.Writer.Controls
 		///       快键菜单
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public new ContextMenu ContextMenu
 		{
 			get
@@ -2275,7 +2275,7 @@ namespace DCSoft.Writer.Controls
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public string CurrentPageBorderColorString
 		{
 			get
@@ -2291,7 +2291,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       当前页面边框线颜色
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		[DefaultValue(typeof(Color), "Black")]
 		public Color CurrentPageBorderColor
@@ -2309,7 +2309,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       绘图单位
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public GraphicsUnit GraphicsUnit
@@ -2327,7 +2327,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       移动光标时是否自动滚动到光标区域
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public bool MoveCaretWithScroll
@@ -2346,7 +2346,7 @@ namespace DCSoft.Writer.Controls
 		///       获取或设置一个值，该值指示在控件中按 TAB 键时，是否在控件中键入一个 TAB 字符，而不是按选项卡的顺序将焦点移动到下一个控件。
 		///       </summary>
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool AcceptsTab
 		{
@@ -2364,7 +2364,7 @@ namespace DCSoft.Writer.Controls
 		///       是否强制显示光标而不管控件是否获得输入焦点
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool ForceShowCaret
 		{
@@ -2382,7 +2382,7 @@ namespace DCSoft.Writer.Controls
 		///       标尺是否可见,为了提高兼容性，默认不显示标尺。
 		///       </summary>
 		[Category("Appearance")]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool RuleVisible
 		{
@@ -2403,7 +2403,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       标尺背景色
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		[DefaultValue(typeof(Color), "155, 187, 227")]
 		public Color RuleBackColor
@@ -2424,7 +2424,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DefaultValue(true)]
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		public bool RuleEnabled
 		{
 			get
@@ -2442,7 +2442,7 @@ namespace DCSoft.Writer.Controls
 		///       调试用的标记
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public int DebugFlag
 		{
@@ -2505,14 +2505,14 @@ namespace DCSoft.Writer.Controls
 		///       DCWriter内部使用。内置的文档视图控件
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public WriterViewControl InnerViewControl => myViewControl;
 
 		/// <summary>
 		///       正在更新用户界面，用户界面被锁定了。
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool IsUpdating
 		{
@@ -2530,7 +2530,7 @@ namespace DCSoft.Writer.Controls
 		///       知识库文件URL
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string KBLibraryUrl
 		{
@@ -2557,7 +2557,7 @@ namespace DCSoft.Writer.Controls
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public KBLibrary KBLibrary
 		{
 			get
@@ -2586,7 +2586,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       返回内核版本号的静态属性
 		///       </summary>
-		[DCPublishAPI]
+		
 		public static string StaticCoreVersion => FormatUtils.ToYYYY_MM_DD(DCPublishDateAttribute.ValueForCurrentDomain);
 
 		/// <summary>
@@ -2595,7 +2595,7 @@ namespace DCSoft.Writer.Controls
 		[Obsolete("请不要使用该属性")]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		public bool WaittingMode
 		{
 			get
@@ -2615,7 +2615,7 @@ namespace DCSoft.Writer.Controls
 		///       是否作为ActiveX控件的模式运行
 		///       </summary>
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
 		public virtual bool IsAxControl => false;
@@ -2627,7 +2627,7 @@ namespace DCSoft.Writer.Controls
 		///       到文档的默认字体和文本颜色。修改本属性值不会立即更新文档视图，
 		///       此时需要调用“UpdateDefaultFont( true )”来更新文档视图。</remarks>
 		[Category("Appearance")]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool AutoSetDocumentDefaultFont
 		{
@@ -2651,7 +2651,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       承载的控件管理器
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		public GInterface20 ControlHostManger
@@ -2669,7 +2669,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       移动焦点使用的快捷键
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(MoveFocusHotKeys.None)]
 		[Description("移动输入焦点使用的快捷键模式")]
 		[Category("Behavior")]
@@ -2696,7 +2696,7 @@ namespace DCSoft.Writer.Controls
 		///       初始化是用的参数列表，格式为“参数名:参数值;参数名:参数值;”。
 		///       </summary>
 		[DefaultValue(null)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[Category("Data")]
 		public string InitalizeParameterValues
@@ -2722,7 +2722,7 @@ namespace DCSoft.Writer.Controls
 		///       列表缓存对象
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public DCListItemCollectionBuffer ListItemsBuffer
 		{
@@ -2742,7 +2742,7 @@ namespace DCSoft.Writer.Controls
 		/// <remarks>这里的用户界面事件包括鼠标键盘事件、OLE拖拽事件，
 		///       应用程序可以根据这个属性值来实现超时锁定用户界面的功能。</remarks>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public DateTime LastUIEventTime
 		{
 			get
@@ -2759,7 +2759,7 @@ namespace DCSoft.Writer.Controls
 		///       文档内容只读标记
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[Category("Behavior")]
 		public bool Readonly
 		{
@@ -2783,7 +2783,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       运行时的控件内容只读设置
 		///       </summary>
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
 		public bool RuntimeReadonly
@@ -2803,7 +2803,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DefaultValue(false)]
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		public bool HeaderFooterReadonly
 		{
 			get
@@ -2826,7 +2826,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       控件是否处于调试模式
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool InDesignMode
 		{
@@ -2844,7 +2844,7 @@ namespace DCSoft.Writer.Controls
 		///       表单视图模式
 		///       </summary>
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[DefaultValue(FormViewMode.Disable)]
 		public FormViewMode FormView
 		{
@@ -2873,7 +2873,7 @@ namespace DCSoft.Writer.Controls
 		///       服务器对象
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public object ServerObject
@@ -2901,7 +2901,7 @@ namespace DCSoft.Writer.Controls
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public DocumentOptions DocumentOptions
 		{
 			get
@@ -2925,7 +2925,7 @@ namespace DCSoft.Writer.Controls
 		///       文档视图选项
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public DocumentViewOptions DocumentViewOptions
@@ -2943,7 +2943,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档行为选项
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
 		[Browsable(false)]
@@ -2963,7 +2963,7 @@ namespace DCSoft.Writer.Controls
 		///       文档编辑选项
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		public DocumentEditOptions DocumentEditOptions
@@ -2982,7 +2982,7 @@ namespace DCSoft.Writer.Controls
 		///       文档安全选项
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public DocumentSecurityOptions DocumentSecurityOptions
@@ -3001,7 +3001,7 @@ namespace DCSoft.Writer.Controls
 		///       文档设置XML字符串
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public string DocumentOptionsXML
@@ -3029,7 +3029,7 @@ namespace DCSoft.Writer.Controls
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string ExcludeKeywords
 		{
 			get
@@ -3054,7 +3054,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public DocumentControler DocumentControler
 		{
 			get
@@ -3078,7 +3078,7 @@ namespace DCSoft.Writer.Controls
 		///       编辑器宿主对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public WriterAppHost AppHost
 		{
@@ -3105,7 +3105,7 @@ namespace DCSoft.Writer.Controls
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public CurrentContentStyleInfo StyleInfoForFormatBrush
 		{
 			get
@@ -3122,7 +3122,7 @@ namespace DCSoft.Writer.Controls
 		///       获得将文档单位转换为屏幕像素单位的比率
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float RateOfDocumentUnitToPixel
 		{
 			get
@@ -3138,7 +3138,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档内容视图高度
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public float ContentViewHeight
 		{
@@ -3157,7 +3157,7 @@ namespace DCSoft.Writer.Controls
 		///       模仿HTML提交表单数据的字符串格式，遇到HTML特殊字符会进行转义处理。
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public string FormValuesString
@@ -3190,7 +3190,7 @@ namespace DCSoft.Writer.Controls
 		///       表单数据组成在字典
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public Hashtable FormValues
@@ -3210,7 +3210,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public string FormValuesXml
 		{
@@ -3229,7 +3229,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public string[] FormValuesArray
 		{
 			get
@@ -3253,7 +3253,7 @@ namespace DCSoft.Writer.Controls
 		///       当选择了文档内容时隐藏光标
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		public bool HideCaretWhenHasSelection
 		{
@@ -3278,7 +3278,7 @@ namespace DCSoft.Writer.Controls
 		///       文档中当前元素或被选择区域的开始位置在编辑器控件客户区中的坐标
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public Point SelectionStartPosition
 		{
 			get
@@ -3294,7 +3294,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///        表示当前插入点位置信息的字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string PositionInfoText
 		{
@@ -3311,7 +3311,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       正在编辑文档元素数值
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool IsEditingElementValue
 		{
@@ -3330,7 +3330,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		public XTextElement DragableElement
 		{
 			get
@@ -3355,7 +3355,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		public Rectangle DragableHandleBounds
 		{
 			get
@@ -3371,7 +3371,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       绝对的是否占有焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool AbsoluteFocused
 		{
@@ -3389,7 +3389,7 @@ namespace DCSoft.Writer.Controls
 		///       在控件的获得/失去焦点事件时是否触发文档的获得/失去焦点事件
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		public bool RaiseDocumentFoucsEventWhenControlFocusEvent
 		{
 			get
@@ -3412,7 +3412,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       编辑器宿主对象
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public TextWindowsFormsEditorHost EditorHost
 		{
@@ -3430,7 +3430,7 @@ namespace DCSoft.Writer.Controls
 		///       处于页面视图模式时各个页面间的距离，像素为单位
 		///       </summary>
 		[Category("Appearance")]
-		[DCPublishAPI]
+		
 		[DefaultValue(20)]
 		public int PageSpacing
 		{
@@ -3447,7 +3447,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       页面集合
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public PrintPageCollection Pages
@@ -3467,7 +3467,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public int PageIndex
 		{
 			get
@@ -3483,14 +3483,14 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       总页数
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int PageCount => InnerViewControl.PageCount;
 
 		/// <summary>
 		///       从1开始计算的当前页号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public int CurrentPageIndex
@@ -3509,7 +3509,7 @@ namespace DCSoft.Writer.Controls
 		///       当前页对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public PrintPage CurrentPage
 		{
@@ -3527,7 +3527,7 @@ namespace DCSoft.Writer.Controls
 		///       阅读版式视图模式
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool ReadViewMode
 		{
 			get
@@ -3544,7 +3544,7 @@ namespace DCSoft.Writer.Controls
 		///       页背景色
 		///       </summary>
 		[DefaultValue(typeof(Color), "Window")]
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		public Color PageBackColor
 		{
@@ -3563,7 +3563,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public string PageBackColorString
 		{
@@ -3580,7 +3580,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       是否显示页眉页脚标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(HeaderFooterFlagVisible.None)]
 		public HeaderFooterFlagVisible HeaderFooterFlagVisible
 		{
@@ -3599,7 +3599,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DefaultValue(PageViewMode.Page)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public PageViewMode ViewMode
 		{
 			get
@@ -3641,7 +3641,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       从0开始的计算的开始显示的页码号,只有处于分页视图模式下该属性才有效。小于0则不启用该设置。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		[DefaultValue(-1)]
 		public int StartPageIndex
@@ -3660,7 +3660,7 @@ namespace DCSoft.Writer.Controls
 		///       从0开始计算的最后显示的页码号,为0表示没有设置。只有处于分页视图模式下该属性才有效。小于0则不启用该设置。
 		///       </summary>
 		[DefaultValue(-1)]
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		public int EndPageIndex
 		{
@@ -3696,7 +3696,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public virtual bool InsertMode
 		{
 			get
@@ -3718,7 +3718,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       页面边框颜色值
 		///       </summary>
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
 		[Browsable(false)]
@@ -3739,7 +3739,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Category("Appearance")]
 		[DefaultValue(typeof(Color), "Black")]
-		[DCPublishAPI]
+		
 		public Color PageBorderColor
 		{
 			get
@@ -3757,7 +3757,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		public float XZoomRate
 		{
 			get
@@ -3773,7 +3773,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       Y方向缩放率
 		///       </summary>
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public float YZoomRate
@@ -3809,7 +3809,7 @@ namespace DCSoft.Writer.Controls
 		///       控件本地的Windows消息过滤器列表
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public DCWinMessageFilterList LocalMessageFilters
 		{
@@ -3833,7 +3833,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DefaultValue(PageTitlePosition.TopLeft)]
 		[Category("Appearance")]
-		[DCPublishAPI]
+		
 		public PageTitlePosition PageTitlePosition
 		{
 			get
@@ -3853,7 +3853,7 @@ namespace DCSoft.Writer.Controls
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Category("Data")]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string RegisterCodeFileUrl
 		{
@@ -3873,7 +3873,7 @@ namespace DCSoft.Writer.Controls
 		[ComVisible(true)]
 		[DefaultValue(null)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[Category("Data")]
 		public string RegisterCode
@@ -3893,7 +3893,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Category("Appearance")]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string AdditionPageTitle
 		{
 			get
@@ -3909,14 +3909,14 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       对话框标题前缀
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string DialogTitlePrefix => InnerViewControl.DialogTitlePrefix;
 
 		/// <summary>
 		///       标记图片
 		///       </summary>
-		[DCInternal]
+		
 		public static Bitmap DCLogonImage => WriterViewControl.DCLogonImage;
 
 		/// <summary>
@@ -3925,7 +3925,7 @@ namespace DCSoft.Writer.Controls
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public DCStdImageList DomImageList => InnerViewControl.DomImageList;
 
 		/// <summary>
@@ -3933,7 +3933,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public HighlightInfo HighlightRange
 		{
 			get
@@ -3949,7 +3949,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       高亮度显示区域
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public HighlightInfoList HighlightRanges
@@ -3968,7 +3968,7 @@ namespace DCSoft.Writer.Controls
 		///       页面设置
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public XPageSettings PageSettings
@@ -3988,7 +3988,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public BoundsSelectionPrintInfo BoundsSelection
 		{
 			get
@@ -4006,7 +4006,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[Category("Behavior")]
 		[DefaultValue(WriterControlExtViewMode.Normal)]
-		[DCPublishAPI]
+		
 		public WriterControlExtViewMode ExtViewMode
 		{
 			get
@@ -4022,7 +4022,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       全局的默认打印机名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public static string GlobalDefaultPrinterName
 		{
 			get
@@ -4038,7 +4038,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       默认打印机名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string DefaultPrinterName
 		{
@@ -4055,14 +4055,14 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       运行时用的默认打印机名称
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public string RuntimeDefaultPrinterName => string_2;
 
 		/// <summary>
 		///       最后一次打印结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -4086,7 +4086,7 @@ namespace DCSoft.Writer.Controls
 		///       比如在打印后存储该属性值,下次打开文档后,再设置JumpPrintPosition属性值.
 		///       能设置上次打印结束的位置为续打起始位置.
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
@@ -4107,7 +4107,7 @@ namespace DCSoft.Writer.Controls
 		///       续打信息
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public JumpPrintInfo JumpPrint
@@ -4125,7 +4125,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       是否允许续打
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public bool EnableJumpPrint
@@ -4143,7 +4143,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       续打位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public float JumpPrintPosition
@@ -4161,7 +4161,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       续打结束位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public float JumpPrintEndPosition
@@ -4179,7 +4179,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       用户修改痕迹信息列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public UserTrackInfoList UserTrackInfos
@@ -4198,7 +4198,7 @@ namespace DCSoft.Writer.Controls
 		///       是否以管理员模式运行
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(true)]
 		public bool IsAdministrator
@@ -4255,7 +4255,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <remarks>
 		/// </remarks>
-		[DCPublishAPI]
+		
 		[DefaultValue(WriterDataObjectRange.OS)]
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -4276,7 +4276,7 @@ namespace DCSoft.Writer.Controls
 		///       剪切板
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[DefaultValue(null)]
@@ -4296,7 +4296,7 @@ namespace DCSoft.Writer.Controls
 		///       取消下一次的KePress事件
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool IgnoreNextKeyPressEvent
 		{
@@ -4313,7 +4313,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       延时截屏使用的对话框,DCWriter内部使用.
 		///       </summary>
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(false)]
 		[Browsable(false)]
@@ -4335,7 +4335,7 @@ namespace DCSoft.Writer.Controls
 		[ComVisible(true)]
 		[Category("Data")]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string WebServiceUrl
 		{
 			get
@@ -4355,7 +4355,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       全局性的Web服务页面地址
 		///       </summary>
-		[DCPublishAPI]
+		
 		public static string GlobalWebServiceUrl
 		{
 			get
@@ -4417,7 +4417,7 @@ namespace DCSoft.Writer.Controls
 		/// <remarks>
 		///       如果本属性为false，则不触发任何编辑器的事件，不过System.Windows.Forms.Control中定义的事件仍然会触发。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[Browsable(true)]
 		[ComVisible(true)]
@@ -4443,7 +4443,7 @@ namespace DCSoft.Writer.Controls
 		///       最后一次获得的事件消息对象
 		///       </summary>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public WriterControlEventMessage LastEventMessage => writerControlEventMessage_0;
 
 		/// <summary>
@@ -4451,7 +4451,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public WriterControlEventTemplate ControlEventTemplate
 		{
 			get
@@ -4468,7 +4468,7 @@ namespace DCSoft.Writer.Controls
 		///       是否有加载和保存文件内容的事件
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public bool HasEventSaveFileContentForAutoSave => writerSaveFileContentEventHandler_0 != null;
 
 		/// <summary>
@@ -4476,7 +4476,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DefaultValue(true)]
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
@@ -4495,7 +4495,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       是否有加载和保存文件内容的事件
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool HasEventReadSaveFileContent
 		{
@@ -4664,7 +4664,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       触发刷新执行元素事件表达式功能
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterAfterExecuteEventExpressionEventHandler EventAfterExecuteEventExpression
 		{
 			add
@@ -4696,7 +4696,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       触发刷新DOM树事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterEventHandler EventRefreshDomTree
 		{
 			add
@@ -4728,7 +4728,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       展开文档节前触发的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterSectionElementCancelEventHandler EventBeforeCollapseSection
 		{
 			add
@@ -4760,7 +4760,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       收缩文档节后触发的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterSectionElementEventHandler EventAfterCollapseSection
 		{
 			add
@@ -4792,7 +4792,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       展开文档节前触发的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterSectionElementCancelEventHandler EventBeforeExpandSection
 		{
 			add
@@ -4824,7 +4824,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       展开文档节后触发的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterSectionElementEventHandler EventAfterExpandSection
 		{
 			add
@@ -4856,7 +4856,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       开始打印事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterPrintEventHandler EventBeginPrint
 		{
 			add
@@ -4888,7 +4888,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       打印时查询页面设置事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterPrintQueryPageSettingsEventHandler EventPrintQueryPageSettings
 		{
 			add
@@ -4920,7 +4920,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       打印页面事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterPrintPageEventHandler EventPrintPage
 		{
 			add
@@ -4952,7 +4952,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       结束打印事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterPrintEventHandler EventEndPrint
 		{
 			add
@@ -4984,7 +4984,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       通过数值编辑器修改输入域内容前触发的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterBeforeFieldContentEditEventHandler EventBeforeFieldContentEdit
 		{
 			add
@@ -5016,7 +5016,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       通过数值编辑器修改输入域内容前触发的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterAfterFieldContentEditEventHandler EventAfterFieldContentEdit
 		{
 			add
@@ -5048,7 +5048,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素内容校验事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementValidatingEventHandler EventElementValidating
 		{
 			add
@@ -5080,7 +5080,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       准备播放媒体事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterBeforePlayMediaEventHandler EventBeforePlayMedia
 		{
 			add
@@ -5112,7 +5112,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档大纲树状结构发生改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterEventHandler EventOutlineTreeChanged
 		{
 			add
@@ -5144,7 +5144,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       元素勾选状态发生改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterElementCheckedChangedEventHandler EventElementCheckedChanged
 		{
 			add
@@ -5176,7 +5176,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       查询辅助录入使用的字符串列表事件,注意：这个事件不是在UI线程中触发。不能在本事件处理中直接操作用UI控件。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterQueryAssistInputItemsEventHandler EventQueryAssistInputItems
 		{
 			add
@@ -5208,7 +5208,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       键盘输入字符串事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterBeforeUIKeyboardInputStringEventHandler EventBeforeUIKeyboardInputString
 		{
 			add
@@ -5240,7 +5240,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       表格行高度发生改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterTableRowHeightChangedEventHandler EventTableRowHeightChanged
 		{
 			add
@@ -5272,7 +5272,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       表格行高度正在发生改变事件，在这个事件中可以取消表格行高度修改操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterTableRowHeightChangingEventHandler EventTableRowHeightChanging
 		{
 			add
@@ -5304,7 +5304,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档内容的导航数据发生改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("文档内容的导航数据发生改变事件")]
 		public event WriterEventHandler DocumentNavigateContentChanged
 		{
@@ -5337,7 +5337,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       状态栏文本发生改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("状态栏文本发生改变事件")]
 		public event StatusTextChangedEventHandler StatusTextChanged
 		{
@@ -5370,7 +5370,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       自定义绘制图形内容事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterDrawShapeContentEventHandler EventDrawShapeContent
 		{
 			add
@@ -5402,7 +5402,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       报告错误内容的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterReportErrorEventHandler EventReportError
 		{
 			add
@@ -5434,7 +5434,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       加载文档DOM结构后的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterEventHandler EventAfterLoadRawDOM
 		{
 			add
@@ -5466,7 +5466,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       执行表达式函数功能事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterExpressionFunctionEventHandler EventExpressionFunction
 		{
 			add
@@ -5498,7 +5498,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       获得文档元素的扩展文本内容事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterGetAdornTextEventHandler EventGetAdornText
 		{
 			add
@@ -5530,7 +5530,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       编辑文档元素数值事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterEditElementValueEventHandler EventEditElementValue
 		{
 			add
@@ -5562,7 +5562,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       为自动保存功能而设置的保存文件内容事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterSaveFileContentEventHandler EventSaveFileContentForAutoSave
 		{
 			add
@@ -5594,7 +5594,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       保存文件内容事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterSaveFileContentEventHandler EventSaveFileContent
 		{
 			add
@@ -5626,7 +5626,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       读取文件内容事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterReadFileContentEventHandler EventReadFileContent
 		{
 			add
@@ -5658,7 +5658,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素鼠标点击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler EventElementMouseClick
 		{
 			add
@@ -5690,7 +5690,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素获取焦点事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementEventHandler EventElementGotFocus
 		{
 			add
@@ -5722,7 +5722,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素获取焦点事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementEventHandler EventElementLostFocus
 		{
 			add
@@ -5754,7 +5754,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素鼠标双击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler EventElementMouseDblClick
 		{
 			add
@@ -5786,7 +5786,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素鼠标双击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler EventElementMouseDown
 		{
 			add
@@ -5818,7 +5818,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素鼠标移动事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler EventElementMouseMove
 		{
 			add
@@ -5850,7 +5850,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档元素鼠标按键松开事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler EventElementMouseUp
 		{
 			add
@@ -5882,7 +5882,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       按钮点击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterButtonClickEventHandler EventButtonClick
 		{
 			add
@@ -5914,7 +5914,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       超链接点击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterLinkEventHandler EventLinkClick
 		{
 			add
@@ -5947,7 +5947,7 @@ namespace DCSoft.Writer.Controls
 		///       获得联动下拉列表事件
 		///       </summary>
 		[DCDescription(typeof(WriterControl), "EventGetLinkListItems")]
-		[DCPublishAPI]
+		
 		public event GetLinkListItemsEventHandler EventGetLinkListItems
 		{
 			add
@@ -5980,7 +5980,7 @@ namespace DCSoft.Writer.Controls
 		///       收集内容保护信息事件
 		///       </summary>
 		[DCDescription(typeof(WriterControl), "EventCollectProtectedElements")]
-		[DCPublishAPI]
+		
 		public event CollectProtectedElementsEventHandler EventCollectProtectedElements
 		{
 			add
@@ -6013,7 +6013,7 @@ namespace DCSoft.Writer.Controls
 		///       控件缩放事件
 		///       </summary>
 		[DCDescription(typeof(WriterControl), "EventZoomChanged")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler EventZoomChanged
 		{
 			add
@@ -6046,7 +6046,7 @@ namespace DCSoft.Writer.Controls
 		///       提示内容受保护的事件
 		///       </summary>
 		[DCDescription(typeof(WriterControl), "EventPromptProtectedContent")]
-		[DCPublishAPI]
+		
 		public event PromptProtectedContentEventHandler EventPromptProtectedContent
 		{
 			add
@@ -6079,7 +6079,7 @@ namespace DCSoft.Writer.Controls
 		///       使用TAB键新增表格行触发的事件
 		///       </summary>
 		[DCDescription(typeof(WriterControl), "EventTableAddNewRowWhenPressTabKey")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler EventTableAddNewRowWhenPressTabKey
 		{
 			add
@@ -6112,7 +6112,7 @@ namespace DCSoft.Writer.Controls
 		///       结束切换输入焦点事件
 		///       </summary>
 		[DCDescription(typeof(WriterControl), "EventEndTabStop")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler EventEndTabStop
 		{
 			add
@@ -6144,7 +6144,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       内容正在改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(WriterControl), "EventContentChanging")]
 		public event ContentChangingEventHandler EventContentChanging
 		{
@@ -6177,7 +6177,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       内容已经改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(WriterControl), "EventContentChanged")]
 		public event ContentChangedEventHandler EventContentChanged
 		{
@@ -6211,7 +6211,7 @@ namespace DCSoft.Writer.Controls
 		///       在显示对话框之前触发的事件
 		///       </summary>
 		[Description("在显示对话框之前触发的事件")]
-		[DCPublishAPI]
+		
 		public event WriterShowDialogEventHandler EventBeforeShowDialog
 		{
 			add
@@ -6243,7 +6243,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       自定义命令事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("自定义功能命令事件")]
 		public event CustomCommandEventHandler ComCustomCommand
 		{
@@ -6276,7 +6276,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       用户界面层的开始编辑文档内容事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("开始编辑文档内容事件")]
 		public event WriterStartEditEventHandler EventUIStartEditContent
 		{
@@ -6310,7 +6310,7 @@ namespace DCSoft.Writer.Controls
 		///       成功加载文档DOM结构触发的事件，此时文档虽然加载了DOM结构，但没有排版和显示。
 		///       </summary>
 		[Description("成功加载文档DOM结构触发的事件")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler AfterLoadDocumentDom
 		{
 			add
@@ -6343,7 +6343,7 @@ namespace DCSoft.Writer.Controls
 		///       创建对象实例事件
 		///       </summary>
 		[Description("创建对象实例事件")]
-		[DCPublishAPI]
+		
 		public event CreateInstanceEventHandler EventCreateInstance
 		{
 			add
@@ -6376,7 +6376,7 @@ namespace DCSoft.Writer.Controls
 		///       刷新分页后事件
 		///       </summary>
 		[Description("刷新分页后事件")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler AfterRefreshPages
 		{
 			add
@@ -6409,7 +6409,7 @@ namespace DCSoft.Writer.Controls
 		///       查询用户历史记录显示文本事件
 		///       </summary>
 		[Description("查询用户历史记录显示文本事件")]
-		[DCPublishAPI]
+		
 		public event QueryUserHistoryDisplayTextEventHandler QueryUserHistoryDisplayText
 		{
 			add
@@ -6442,7 +6442,7 @@ namespace DCSoft.Writer.Controls
 		///       解释列表项目的事件
 		///       </summary>
 		[Description("解释列表项目的事件")]
-		[DCPublishAPI]
+		
 		public event ParseSelectedItemsEventHandler EventParseSelectedItems
 		{
 			add
@@ -6474,7 +6474,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       获得列表显示文本事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("格式化输出列表显示文本事件")]
 		public event FormatListItemsEventHandler EventFormatListItems
 		{
@@ -6507,7 +6507,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       未知编辑器命令事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("未知编辑器命令事件")]
 		public event WriterCommandEventHandler EventUnknowCommand
 		{
@@ -6541,7 +6541,7 @@ namespace DCSoft.Writer.Controls
 		///       查询知识库节点列表事件
 		///       </summary>
 		[Description("查询知识库节点列表事件")]
-		[DCPublishAPI]
+		
 		public event QueryKBEntriesEventHandler QueryKBEntries
 		{
 			add
@@ -6573,7 +6573,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       增强型鼠标按下事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("增强型鼠标按下事件")]
 		public event WriterMouseEventHandler EventMouseDownExt
 		{
@@ -6607,7 +6607,7 @@ namespace DCSoft.Writer.Controls
 		///       增强型鼠标移动事件
 		///       </summary>
 		[Description("增强型鼠标移动事件")]
-		[DCPublishAPI]
+		
 		public event WriterMouseEventHandler EventMouseMoveExt
 		{
 			add
@@ -6639,7 +6639,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       增强型鼠标按键松开事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("增强型鼠标按键松开事件")]
 		public event WriterMouseEventHandler EventMouseUpExt
 		{
@@ -6672,7 +6672,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       扩展的键盘按键按下事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterKeyEventExtHandler EventKeyDownExt
 		{
 			add
@@ -6704,7 +6704,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       扩展的键盘按键松开事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterKeyEventExtHandler EventKeyUpExt
 		{
 			add
@@ -6736,7 +6736,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       扩展的键盘按键按下事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterKeyPressEventExtHandler EventKeyPressExt
 		{
 			add
@@ -6768,7 +6768,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       增强型鼠标按键单击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("增强型鼠标按键单击事件")]
 		public event WriterMouseEventHandler EventMouseClickExt
 		{
@@ -6801,7 +6801,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       增强型鼠标按键双击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("增强型鼠标按键双击事件")]
 		public event WriterMouseEventHandler EventMouseDblClickExt
 		{
@@ -6834,7 +6834,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       数据过滤事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("数据过滤事件")]
 		public event FilterValueEventHandler FilterValue
 		{
@@ -6868,7 +6868,7 @@ namespace DCSoft.Writer.Controls
 		///       根据知识库节点创建文档元素对象的事件
 		///       </summary>
 		[Description("根据知识库节点创建文档元素对象的事件")]
-		[DCPublishAPI]
+		
 		public event CreateElementsByKBEntryEventHandler EventCreateElementsByKBEntry
 		{
 			add
@@ -6901,7 +6901,7 @@ namespace DCSoft.Writer.Controls
 		///       当前鼠标悬浮的元素改变事件
 		///       </summary>
 		[Description("当前鼠标悬浮的元素改变事件")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler HoverElementChanged
 		{
 			add
@@ -6933,7 +6933,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       控件Readonly属性值发生改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event WriterEventHandler EventReadonlyChanged
 		{
 			add
@@ -6997,7 +6997,7 @@ namespace DCSoft.Writer.Controls
 		///       文档加载事件
 		///       </summary>
 		[Description("文档加载事件")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler DocumentLoad
 		{
 			add
@@ -7029,7 +7029,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       向文档插入对象事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("向文档插入对象事件")]
 		public event InsertObjectEventHandler EventInsertObject
 		{
@@ -7063,7 +7063,7 @@ namespace DCSoft.Writer.Controls
 		///       判断能否插入对象事件
 		///       </summary>
 		[Description("判断能否插入对象事件")]
-		[DCPublishAPI]
+		
 		public event CanInsertObjectEventHandler EventCanInsertObject
 		{
 			add
@@ -7096,7 +7096,7 @@ namespace DCSoft.Writer.Controls
 		///       文档选择状态正在发生改变事件
 		///       </summary>
 		[Description("文档选择状态正在发生改变事件")]
-		[DCPublishAPI]
+		
 		public event SelectionChangingEventHandler SelectionChanging
 		{
 			add
@@ -7128,7 +7128,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档选择状态发生改变后的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("文档选择状态发生改变后的事件")]
 		public event WriterEventHandler SelectionChanged
 		{
@@ -7193,7 +7193,7 @@ namespace DCSoft.Writer.Controls
 		///       文档内容发生改变事件
 		///       </summary>
 		[Description("文档内容发生改变事件")]
-		[DCPublishAPI]
+		
 		public event WriterEventHandler DocumentContentChanged
 		{
 			add
@@ -7256,7 +7256,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       查询下拉列表项目事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("查询下拉列表项目事件")]
 		public event QueryListItemsEventHandler QueryListItems
 		{
@@ -7289,7 +7289,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档内容中的用户修改痕迹列表信息发生改变事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("文档内容中的用户修改痕迹列表信息发生改变事件")]
 		public event WriterEventHandler UserTrackListChanged
 		{
@@ -7323,7 +7323,7 @@ namespace DCSoft.Writer.Controls
 		///       结束执行编辑器命令事件
 		///       </summary>
 		[Description("结束执行编辑器命令事件")]
-		[DCPublishAPI]
+		
 		public event WriterCommandEventHandler AfterExecuteCommand
 		{
 			add
@@ -7356,7 +7356,7 @@ namespace DCSoft.Writer.Controls
 		///       开始执行编辑器命令事件
 		///       </summary>
 		[Description("开始执行编辑器命令事件")]
-		[DCPublishAPI]
+		
 		public event WriterCommandEventHandler BeforeExecuteCommand
 		{
 			add
@@ -7388,7 +7388,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       脚本发生错误事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("脚本发生错误事件")]
 		public event WriterEventHandler ScriptError
 		{
@@ -7422,7 +7422,7 @@ namespace DCSoft.Writer.Controls
 		///       自定义处理命令错误的事件
 		///       </summary>
 		[Description("自定义处理命令错误的事件")]
-		[DCPublishAPI]
+		
 		public event CommandErrorEventHandler CommandError
 		{
 			add
@@ -7454,7 +7454,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档打印事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Description("文档打印事件")]
 		public event WriterDocumentPrintedEventHandler DocumentPrinted
 		{
@@ -7491,7 +7491,7 @@ namespace DCSoft.Writer.Controls
 		///       在控件的SelectionChanged事件中更新工具条和菜单的状态性能比较差，因为SelectionChanged事件触发的过于频繁。
 		///       而使用本事件能大幅降低更新频率。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[Description("通知更新工具条状态事件")]
 		public event WriterEventHandler EventUpdateToolarState
 		{
@@ -7526,7 +7526,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="id">子文档元素编号</param>
 		/// <returns>获得的XML字符串</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual string GetSubDoumentContentXmlByID(string string_5)
 		{
@@ -7538,7 +7538,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="newSubDoc">子文档对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void AppendSubDocument(XTextSubDocumentElement newSubDoc)
 		{
 			Document.AppendSubDocument(newSubDoc);
@@ -7555,7 +7555,7 @@ namespace DCSoft.Writer.Controls
 			Document.InsertSubDocuentAtCurrentPosition(newSubDoc, insertUp);
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_0(XTextElement xtextElement_0, XTextElement xtextElement_1)
 		{
 			InnerViewControl.method_151(xtextElement_0, xtextElement_1);
@@ -7568,7 +7568,7 @@ namespace DCSoft.Writer.Controls
 
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
-		[DCInternal]
+		
 		public bool method_0(string string_5, bool bool_12)
 		{
 			return InnerViewControl.method_155(string_5, bool_12);
@@ -7622,7 +7622,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <returns>事件模板列表</returns>
-		[DCPublishAPI]
+		
 		public virtual ElementEventTemplateList GetElementEventTemplates(XTextElement element)
 		{
 			return InnerViewControl.method_229(element);
@@ -7632,7 +7632,7 @@ namespace DCSoft.Writer.Controls
 		///       设置承载的原生态的控件。
 		///       </summary>
 		/// <param name="handle">控件句柄</param>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public bool SetNativeHostedControlHandle(string hostedElementID, IntPtr handle)
 		{
@@ -7645,7 +7645,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="styleString">样式字符串，比如“FontName:宋体;FontSize:9”</param>
 		/// <returns>编号</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public int GetStyleIndexByString(string styleString)
 		{
 			if (Document != null)
@@ -7661,7 +7661,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public ValueValidateResultList DocumentValueValidate()
 		{
 			if (InnerViewControl == null)
@@ -7676,7 +7676,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public ValueValidateResultList DocumentValueValidateWithCreateDocumentComments()
 		{
@@ -7692,7 +7692,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string DocumentValueValidateXML()
 		{
@@ -7707,8 +7707,8 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       重新设置OutlineNodes属性值
 		///       </summary>
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		public void ResetOutlineNodes()
 		{
 			Document.ResetOutlineNodes();
@@ -7719,7 +7719,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="xml">XML字符串</param>
 		/// <returns>创建的文档元素对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual XTextElement CreateElementByXMLFragment(string string_5)
 		{
@@ -7730,8 +7730,8 @@ namespace DCSoft.Writer.Controls
 		///        DCWriter内部使用。重置文档正文排版偏移量
 		///       </summary>
 		/// <returns>操作是否修改了数据</returns>
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		public bool ResetBodyLayoutOffset()
 		{
 			if (Document.BodyLayoutOffset != 0f)
@@ -7747,7 +7747,7 @@ namespace DCSoft.Writer.Controls
 		///       创建一个背景模式设置器
 		///       </summary>
 		/// <returns>创建的设置器</returns>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public IDisposable CreateBackgroundModeSetter()
 		{
@@ -7760,7 +7760,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">输入域编号</param>
 		/// <returns>获得的属性值</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual string GetInputFieldInnerValue(string string_5)
 		{
 			if (Document == null)
@@ -7777,7 +7777,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="newValue">新的属性值</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SetInputFieldInnerValue(string string_5, string newValue)
 		{
 			return Document.SetInputFieldInnerValue(string_5, newValue);
@@ -7789,7 +7789,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">元素编号</param>
 		/// <param name="text">文本值</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool SetElementTextByID(string string_5, string text)
 		{
@@ -7801,7 +7801,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="id">元素编号</param>
 		/// <returns>获得的文本</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetElementTextByID(string string_5)
 		{
@@ -7827,7 +7827,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">元素编号</param>
 		/// <returns>获得的文本</returns>
 		[Obsolete("请使用GetElementTextByID(id)")]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetElementText(string string_5)
 		{
@@ -7840,7 +7840,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">文档元素编号</param>
 		/// <returns>元素的勾选状态</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool GetElementChecked(string string_5)
 		{
 			return (GetElementById(string_5) as XTextCheckBoxElementBase)?.Checked ?? false;
@@ -7852,7 +7852,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">文档元素编号</param>
 		/// <param name="newChecked">新的勾选状态</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool SetElementChecked(string string_5, bool newChecked)
 		{
@@ -7870,7 +7870,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="id">元素编号</param>
 		/// <returns>可见性</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool GetElementVisible(string string_5)
 		{
@@ -7884,7 +7884,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="visible">可见性</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SetElementVisible(string string_5, bool visible)
 		{
 			return Document.SetElementVisible(string_5, visible);
@@ -7898,7 +7898,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="Value">项目的数值</param>
 		/// <param name="saveToXml">添加的项目是否保存在XML中</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool AddDropdownListItem(string string_5, string text, string Value, bool saveToXml)
 		{
 			return Document.AddDropdownListItem(string_5, text, Value, saveToXml);
@@ -7912,7 +7912,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="Value">属性值</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SetElementProperty(string string_5, string name, string Value)
 		{
 			return Document.SetElementProperty(string_5, name, Value);
@@ -7924,7 +7924,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">文档元素编号</param>
 		/// <param name="name">属性名</param>
 		/// <returns>属性值</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetElementProperty(string string_5, string name)
 		{
@@ -7937,7 +7937,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">元素编号</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool FocusElementById(string string_5)
 		{
 			XTextElement elementById = GetElementById(string_5);
@@ -7955,7 +7955,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">文档元素编号</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SelectElementById(string string_5)
 		{
 			XTextElement elementById = GetElementById(string_5);
@@ -7972,7 +7972,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="name">参数名</param>
 		/// <returns>参数值</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public object GetDocumnetParameterValue(string name)
 		{
@@ -7985,7 +7985,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="name">参数名</param>
 		/// <param name="Value">新的参数值</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetDocumentParameterValue(string name, object Value)
 		{
 			Document.Parameters.SetValue(name, Value);
@@ -7997,7 +7997,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="name">参数名</param>
 		/// <param name="xmlText">参数值</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetDocumentParameterValueXml(string name, string xmlText)
 		{
 			Document.Parameters.SetXmlValue(name, xmlText);
@@ -8008,7 +8008,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="name">参数名</param>
 		/// <returns>参数值</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetDocumentParameterValueXml(string name)
 		{
@@ -8021,7 +8021,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="parameterName">参数名</param>
 		/// <param name="enabled">是否有效</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetDocumentParameterEnabled(string parameterName, bool enabled)
 		{
 			Document.SetParameterEnabled(parameterName, enabled);
@@ -8033,7 +8033,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="parameterName">参数名</param>
 		/// <returns>是否有效</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool GetDocumentParameterEnabled(string parameterName)
 		{
 			return Document.GetParameterEnabled(parameterName);
@@ -8044,7 +8044,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>结果信息列表</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public DetectResultForValueBindingModifiedList DetectValueBindingModified()
 		{
 			if (Document == null)
@@ -8059,7 +8059,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>结果信息列表</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string GetDetectValueBindingModifiedMessage()
 		{
 			if (Document == null)
@@ -8084,7 +8084,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="elementType">指定的文档元素类型</param>
 		/// <returns>获得的文档元素对象</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public XTextElement GetCurrentElement(Type elementType)
 		{
 			if (Document == null)
@@ -8100,7 +8100,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="typeName">指定的文档元素类型的名称</param>
 		/// <returns>获得的文档元素对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextElement GetCurrentElementByTypeName(string typeName)
 		{
 			if (Document == null)
@@ -8118,7 +8118,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">元素编号</param>
 		/// <returns>生成的XML片段字符串</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual string GetElementXMLFragmentByID(string string_5)
 		{
 			return Document.GetElementXMLFragmentByID(string_5);
@@ -8130,7 +8130,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">文档元素对象</param>
 		/// <returns>获得的XML字符串</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual string GetElementOuterXmlByID(string string_5)
 		{
 			return Document.GetElementOuterXmlByID(string_5);
@@ -8142,7 +8142,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">元素编号</param>
 		/// <returns>XML字符串</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual string GetElementInnerXmlByID(string string_5)
 		{
 			return Document.GetElementInnerXmlByID(string_5);
@@ -8154,7 +8154,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="elementType">文档元素类型</param>
 		/// <returns>获得的文档元素对象</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public XTextElement GetFirstElementByType(Type elementType)
 		{
 			if (Document == null)
@@ -8170,7 +8170,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="elementTypeName">文档元素类型名称</param>
 		/// <returns>获得的文档元素对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextElement GetFirstElementByTypeName(string elementTypeName)
 		{
 			if (Document == null)
@@ -8187,7 +8187,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="name">字段名称</param>
 		/// <returns>获得的表单数值</returns>
-		[DCPublishAPI]
+		
 		public string GetFormValue(string name)
 		{
 			if (Document == null)
@@ -8202,7 +8202,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="IncludeSelectionOnly">是否只包含选择区域</param>
 		/// <returns>获得的RTF文本代码字符串</returns>
-		[DCPublishAPI]
+		
 		public string GetHtmlText(bool IncludeSelectionOnly)
 		{
 			if (Document == null)
@@ -8217,7 +8217,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="id">编号</param>
 		/// <returns>找到的文档元素对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextElement GetElementById(string string_5)
 		{
@@ -8230,13 +8230,13 @@ namespace DCSoft.Writer.Controls
 			return elementById;
 		}
 
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public virtual void CollectOuterReference(object instance)
 		{
 		}
 
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public virtual void CollectOuterReferences(IList instances)
 		{
@@ -8248,7 +8248,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">指定的编号</param>
 		/// <param name="idAttributeOnly">只匹配元素ID属性</param>
 		/// <returns>找到的元素对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual XTextElement GetElementByIdExt(string string_5, bool idAttributeOnly)
 		{
@@ -8267,7 +8267,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="name">指定的编号</param>
 		/// <returns>找到的元素对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextElementList GetElementsByName(string name)
 		{
 			if (Document == null)
@@ -8285,7 +8285,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="elementType">元素类型</param>
 		/// <returns>获得的元素列表</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public XTextElementList GetElementsByType(Type elementType)
 		{
 			if (Document == null)
@@ -8300,7 +8300,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="elementTypeName">元素类型名称</param>
 		/// <returns>获得的元素列表</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextElementList GetElementsByTypeName(string elementTypeName)
 		{
@@ -8319,7 +8319,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">指定的编号</param>
 		/// <returns>找到的元素对象列表</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextElementList GetElementsById(string string_5)
 		{
 			if (Document == null)
@@ -8336,7 +8336,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="id">ID号</param>
 		/// <returns>找到的输入域元素对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextInputFieldElement GetInputFieldElementById(string string_5)
 		{
@@ -8349,7 +8349,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">ID号</param>
 		/// <returns>找到的表格元素对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextTableElement GetTableElementById(string string_5)
 		{
 			return GetElementById(string_5) as XTextTableElement;
@@ -8362,7 +8362,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="attributeName">属性名称</param>
 		/// <returns>属性值</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string GetElementAttribute(string string_5, string attributeName)
 		{
 			if (Document == null)
@@ -8380,7 +8380,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="attributeValue">属性值</param>
 		/// <returns>操作是否完成</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SetElementAttribute(string string_5, string attributeName, string attributeValue)
 		{
 			if (Document == null)
@@ -8397,7 +8397,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="nextElementType">要查找的元素的类型</param>
 		/// <param name="includeHiddenElement">查找的时候是否查找隐藏的文档元素对象</param>
 		/// <returns>找到的元素</returns>
-		[DCPublishAPI]
+		
 		public XTextElement GetNextElement(XTextElement startElement, Type nextElementType, bool includeHiddenElement)
 		{
 			if (Document == null)
@@ -8413,7 +8413,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="startElement">开始查找的起始元素</param>
 		/// <param name="nextElementType">要查找的元素的类型</param>
 		/// <returns>找到的元素</returns>
-		[DCPublishAPI]
+		
 		public XTextElement GetNextElement(XTextElement startElement, Type nextElementType)
 		{
 			if (Document == null)
@@ -8428,7 +8428,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>日期事件</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public DateTime GetNowDateTime()
 		{
 			if (Document == null)
@@ -8444,7 +8444,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="startElement">开始查找的起始元素</param>
 		/// <param name="nextElementTypeName">要查找的元素的类型的名称</param>
 		/// <returns>找到的元素</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextElement GetNextElementByTypeName(XTextElement startElement, string nextElementTypeName)
 		{
@@ -8468,7 +8468,7 @@ namespace DCSoft.Writer.Controls
 		///       例如调用 document.GetCheckedValueList(";",true,true,true,true) 返回类似字符串
 		///       “xbzw;胸部正位;gpzw;骨盆正位;fbww;腹部卧位”
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetCheckedValueList(string spliter, bool includeCheckbox, bool includeRadio, bool includeElementID, bool includeElementName)
 		{
@@ -8486,7 +8486,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="rowIndex">从0开始计算的行号</param>
 		/// <param name="colIndex">从0开始计算的列号</param>
 		/// <returns>获得的单元格对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextTableCellElement GetTableCell(string tableID, int rowIndex, int colIndex)
 		{
@@ -8507,7 +8507,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="colIndex">从0开始计算的列号</param>
 		/// <returns>单元格文本</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual string GetTableCellText(string tableID, int rowIndex, int colIndex)
 		{
 			if (Document == null)
@@ -8525,7 +8525,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="colIndex">从0开始计算的列号</param>
 		/// <param name="newText">新文本值</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual bool SetTableCellText(string tableID, int rowIndex, int colIndex, string newText)
 		{
@@ -8544,7 +8544,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextElement GetElementByPosition(int int_4, int int_5)
 		{
 			if (InnerViewControl == null)
@@ -8561,7 +8561,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <returns>边界</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public Rectangle GetElementClientBounds(XTextElement element)
 		{
@@ -8612,7 +8612,7 @@ namespace DCSoft.Writer.Controls
 		///       清空重做/撤销操作信息
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ClearUndo()
 		{
 			int num = 9;
@@ -8631,7 +8631,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       清空文档内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void ClearContent()
 		{
 			method_5();
@@ -8641,7 +8641,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		internal void method_5()
 		{
 			if (Document != null && Document.HighlightManager != null)
@@ -8670,7 +8670,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="pageIndex">从1开始计算的页码号</param>
 		/// <param name="specifyLineHeight">指定的行高</param>
 		/// <returns>剩余的空白行数</returns>
-		[DCPublishAPI]
+		
 		public int GetSurplusLinesOfSpeifyPage(int pageIndex, float specifyLineHeight)
 		{
 			if (InnerViewControl == null)
@@ -8684,7 +8684,7 @@ namespace DCSoft.Writer.Controls
 		///       根据元素提示文本信息列表来更新用户界面
 		///       </summary>
 		/// <param name="checkVersion">是否检测提示信息版本号</param>
-		[DCInternal]
+		
 		public void UpdateToolTip(bool checkVersion)
 		{
 			InnerViewControl.method_95(checkVersion);
@@ -8765,7 +8765,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="paramters">参数</param>
 		/// <returns>方法返回值</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Obsolete("仅向COM公开，在.NET中不要调用")]
 		public object ComCallInstanceMethodByName(object instance, string name, string paramters)
@@ -8798,7 +8798,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="propertyName">属性名，不区分大小写</param>
 		/// <param name="valueTypeName">指定的属性值类型名称</param>
 		/// <returns>本操作是否创建了对象实例</returns>
-		[DCInternal]
+		
 		public bool CheckPropertyValue(object instance, string propertyName, string valueTypeName)
 		{
 			return InnerViewControl.method_236(instance, propertyName, valueTypeName);
@@ -8809,7 +8809,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="containerHandle">指定的窗体句柄对象</param>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		public bool AppendToContainerControl(int containerHandle)
 		{
 			GClass271 gClass = new GClass271();
@@ -8843,7 +8843,7 @@ namespace DCSoft.Writer.Controls
 		///       调用Win32API函数来设置控件获得焦点
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		public bool Win32SetFoucs()
 		{
@@ -8853,7 +8853,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       测试
 		///       </summary>
-		[DCInternal]
+		
 		public void TestFireComEventSelectionChanged()
 		{
 			int num = 12;
@@ -9097,7 +9097,7 @@ namespace DCSoft.Writer.Controls
 		///       获得所有支持的命令名称组成的字符串，各个名称之间用逗号分开
 		///       </summary>
 		/// <returns>字符串列表</returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public string GetCommandNameList()
 		{
@@ -9110,7 +9110,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="commandName">功能命令名称</param>
 		/// <returns>是否支持功能命令</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool IsCommandSupported(string commandName)
 		{
 			return InnerViewControl.method_66(commandName);
@@ -9121,7 +9121,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="commandName">功能命令名称</param>
 		/// <returns>功能命令是否可用</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool IsCommandEnabled(string commandName)
 		{
@@ -9133,7 +9133,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="commandName">功能命令名称</param>
 		/// <returns>功能命令是否处于勾选状态</returns>
-		[DCPublishAPI]
+		
 		public bool IsCommandChecked(string commandName)
 		{
 			return InnerViewControl.method_68(commandName);
@@ -9145,7 +9145,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="commandName">命令名称</param>
 		/// <param name="enable">是否有效</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool SetCommandEnabled(string commandName, bool enable)
 		{
@@ -9159,7 +9159,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="enable">底层是否有效</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SetCommandEnableLowLevel(string commandName, bool enable)
 		{
 			return InnerViewControl.method_69(commandName, enable);
@@ -9171,7 +9171,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="commandName">命令名称</param>
 		/// <param name="enableHotKey">是否启用快键键</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool SetCommandEnableHotKey(string commandName, bool enableHotKey)
 		{
@@ -9184,7 +9184,7 @@ namespace DCSoft.Writer.Controls
 		/// <remarks>命令字符串格式为“命令名称,是否显示UI,参数”,例如“fileopen,false,c:\a.xml”</remarks>
 		/// <param name="command">命令文本</param>
 		/// <returns>执行结果</returns>
-		[DCInternal]
+		
 		public object ExecuteStringCommand(string command)
 		{
 			return InnerViewControl.method_71(command);
@@ -9197,7 +9197,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="showUI">是否允许显示用户界面</param>
 		/// <param name="parameter">用户参数</param>
 		/// <returns>执行命令后的结果</returns>
-		[DCPublishAPI]
+		
 		public object ExecuteCommand(string commandName, bool showUI, object parameter)
 		{
 			return InnerViewControl.method_72(commandName, showUI, parameter);
@@ -9209,7 +9209,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="commandName">命令文本</param>
 		/// <param name="args">参数</param>
 		/// <returns>执行命令后的结果</returns>
-		[DCInternal]
+		
 		public object ExecuteCommandSpecifyArgs(string commandName, WriterCommandEventArgs args)
 		{
 			return InnerViewControl.method_73(commandName, args);
@@ -9223,7 +9223,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="parameter">用户参数</param>
 		/// <param name="raiseFromUI">用户界面操作而触发的命令</param>
 		/// <returns>执行命令后的结果</returns>
-		[DCInternal]
+		
 		public object ExecuteCommandSpecifyRaiseFromUI(string commandName, bool showUI, object parameter, bool raiseFromUI)
 		{
 			return InnerViewControl.method_74(commandName, showUI, parameter, raiseFromUI);
@@ -9234,7 +9234,7 @@ namespace DCSoft.Writer.Controls
 			return InnerViewControl.method_75(string_5);
 		}
 
-		[DCInternal]
+		
 		public static string smethod_0(IWin32Window iwin32Window_0, WriterAppHost writerAppHost_0, string string_5, ref string string_6, string string_7)
 		{
 			int num = 8;
@@ -9315,7 +9315,7 @@ namespace DCSoft.Writer.Controls
 			return null;
 		}
 
-		[DCInternal]
+		
 		public static string smethod_1(IWin32Window iwin32Window_0, WriterAppHost writerAppHost_0, string string_5, ref string string_6, string string_7)
 		{
 			int num = 9;
@@ -9403,7 +9403,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="ctl">控件</param>
 		/// <param name="args">事件参数</param>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		public static bool SaveFileContent(WriterControl writerControl_0, WriterSaveFileContentEventArgs args)
 		{
 			int num = 1;
@@ -9480,7 +9480,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="ctl">编辑器控件对象</param>
 		/// <param name="args">参数</param>
 		/// <returns>读取的二进制内容</returns>
-		[DCInternal]
+		
 		public static byte[] ReadFileContent(WriterControl writerControl_0, WriterReadFileContentEventArgs args)
 		{
 			int num = 13;
@@ -9551,7 +9551,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool StartLocalAutoSave()
 		{
 			ResetAutoSaveTask();
@@ -9565,7 +9565,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="fileID">文件编号</param>
 		/// <param name="confirm">是否提示用户</param>
 		/// <returns>是否存在自动保存的文件</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool AutoSaveExists(string fileID, bool confirm)
 		{
@@ -9580,7 +9580,7 @@ namespace DCSoft.Writer.Controls
 		///       删除自动保存的临时文件
 		///       </summary>
 		/// <param name="fileID">文件编号</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void AutoSaveDelete(string fileID)
 		{
@@ -9596,7 +9596,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="fileID">文件编号</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool AutoSaveLoadDocument(string fileID)
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_14))
@@ -9626,7 +9626,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       获得文档Html文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string GetHtmlText()
 		{
 			if (InnerViewControl == null)
@@ -9641,7 +9641,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="html">
 		/// </param>
-		[DCPublishAPI]
+		
 		public void SetHtmlText(string html)
 		{
 			if (InnerViewControl != null)
@@ -9656,7 +9656,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="text">文本</param>
 		/// <param name="format">格式</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool LoadDocumentFromString(string text, string format)
 		{
 			return InnerViewControl.method_112(text, format);
@@ -9668,7 +9668,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="stream">流对象</param>
 		/// <param name="format">格式</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public bool LoadDocumentFromStream(Stream stream, string format)
 		{
@@ -9681,7 +9681,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="text">BASE64字符串</param>
 		/// <param name="format">文件格式</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool LoadDocumentFromBase64String(string text, string format)
 		{
 			return InnerViewControl.method_113(text, format);
@@ -9693,7 +9693,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="url">文件地址</param>
 		/// <param name="format">文件格式</param>
 		/// <returns>是否成功加载文档</returns>
-		[DCPublishAPI]
+		
 		public bool LoadDocumentFromFile(string string_5, string format)
 		{
 			return InnerViewControl.method_114(string_5, format);
@@ -9705,7 +9705,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="bs">字节数组</param>
 		/// <param name="format">文件格式</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool LoadDocumentFromBinary(byte[] byte_0, string format)
 		{
 			return InnerViewControl.method_115(byte_0, format);
@@ -9744,14 +9744,14 @@ namespace DCSoft.Writer.Controls
 		/// <param name="reader">文件地址</param>
 		/// <param name="format">文件格式</param>
 		/// <returns>是否成功加载文档</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public bool LoadDocument(TextReader reader, string format)
 		{
 			return InnerViewControl.method_122(reader, format);
 		}
 
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public string GetFormatFormFileExtentsion(string fileName)
 		{
@@ -9786,7 +9786,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="strUrl">文件名</param>
 		/// <param name="format">文件格式</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool SaveDocument(string strUrl, string format)
 		{
 			bool result;
@@ -9803,7 +9803,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="url">文件名</param>
 		/// <param name="format">文件格式</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool SaveDocumentToFile(string string_5, string format)
 		{
 			bool result;
@@ -9821,7 +9821,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="format">文件格式</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public bool SaveDocumentToStream(Stream stream, string format)
 		{
 			bool result;
@@ -9837,7 +9837,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="format">文件格式</param>
 		/// <returns>输出的字符串</returns>
-		[DCPublishAPI]
+		
 		public string SaveDocumentToString(string format)
 		{
 			string text = InnerViewControl.method_125(format);
@@ -9853,7 +9853,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="format">文件格式</param>
 		/// <returns>输出的BASE64字符串</returns>
-		[DCPublishAPI]
+		
 		public string SaveDocumentToBase64String(string format)
 		{
 			string text = InnerViewControl.method_126(format);
@@ -9888,7 +9888,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="pageIndex">从0开始计算的页码</param>
 		/// <param name="showMarginLine">是否绘制表示页边距的灰线</param>
 		/// <returns>获得的图片对象</returns>
-		[DCPublishAPI]
+		
 		public Bitmap CreatePageBmp(int pageIndex, bool showMarginLine)
 		{
 			if (Document == null)
@@ -9903,7 +9903,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="showMarginLine">是否绘制表示页边距的虚线</param>
 		/// <returns>创建的位图对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public Bitmap CreateLongBmp(bool showMarginLine)
 		{
@@ -9919,7 +9919,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="fileName">文件名</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SaveLongImageFile(string fileName)
 		{
 			if (Document != null)
@@ -9934,7 +9934,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="fileName">文件名</param>
 		/// <param name="zoomRate">缩放比率</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SaveLongImageFileZoom(string fileName, float zoomRate)
 		{
 			if (Document != null)
@@ -9948,7 +9948,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="format">图片格式，可以为bmp,png,jpg</param>
 		/// <returns>生成的BASE64字符串</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string SaveLongImageToBase64String(string format)
 		{
@@ -9966,7 +9966,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="format">图片格式，可以为bmp,png,jpg</param>
 		/// <param name="zoomRate">缩放比率</param>
 		/// <returns>生成的BASE64字符串</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string SaveLongImageToBase64StringZoom(string format, float zoomRate)
 		{
@@ -9982,7 +9982,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="pageIndex">从0开始计算的页面序号</param>
 		/// <param name="fileName">文件名</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SavePageImageFile(int pageIndex, string fileName)
 		{
@@ -9999,7 +9999,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="zoomRate">缩放比率</param>
 		/// <param name="fileName">文件名</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SavePageImageFileZoom(int pageIndex, string fileName, float zoomRate)
 		{
 			if (Document != null)
@@ -10015,7 +10015,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="format">图片格式，可以为bmp,png,jpg</param>
 		/// <returns>生成的BASE64字符串</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string SavePageImageToBase64String(int pageIndex, string format)
 		{
 			if (Document == null)
@@ -10032,7 +10032,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="format">图片格式，可以为bmp,png,jpg</param>
 		/// <param name="zoomRate">缩放比率</param>
 		/// <returns>生成的BASE64字符串</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string SavePageImageToBase64StringZoom(int pageIndex, string format, float zoomRate)
 		{
@@ -10057,7 +10057,7 @@ namespace DCSoft.Writer.Controls
 		///       <br />}
 		///        </example>
 		/// <returns>获得的操作信息对象</returns>
-		[DCInternal]
+		
 		public IDisposable CreateWaittingUI(string string_5, int delayMilliseconds = 300)
 		{
 			GClass445 gClass = InnerViewControl.method_116(bool_47: false, null, delayMilliseconds);
@@ -10071,7 +10071,7 @@ namespace DCSoft.Writer.Controls
 		///       将控件设置成MS Word的显示样式。
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetToMSWordVisualStyle()
 		{
 			RuleBackColor = DCRulerControl.color_0;
@@ -10084,7 +10084,7 @@ namespace DCSoft.Writer.Controls
 		///       获得所有的字符串资源
 		///       </summary>
 		/// <returns>字符串资源列表</returns>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public Dictionary<string, string> GetAllResourceStringValue()
 		{
@@ -10102,7 +10102,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="name">字符串资源名称</param>
 		/// <param name="Value">字符串资源值</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SetResourceStringValue(string name, string Value)
 		{
@@ -10117,7 +10117,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="name">字符串资源名称</param>
 		/// <param name="Value">字符串资源值</param>
-		[DCPublishAPI]
+		
 		public static void StaticSetResourceStringValue(string name, string Value)
 		{
 			if (XTextDocument.smethod_13(GEnum6.const_151))
@@ -10131,7 +10131,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public new bool Focus()
 		{
 			if (InnerViewControl == null)
@@ -10144,7 +10144,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       重置检测文档内容编辑状态标记，使得可以再次进行判断。
 		///       </summary>
-		[DCInternal]
+		
 		public void ResetUIStartEditContentState()
 		{
 			InnerViewControl.method_131();
@@ -10168,7 +10168,7 @@ namespace DCSoft.Writer.Controls
 		///       本函数内部触发控件的EventUIStartEditContent事件，应用系统需要相应这个事件来判断文档
 		///       是否处于锁定状态，以及锁定文档的操作。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		public virtual bool UIStartEditContent()
 		{
 			if (InnerViewControl == null || !base.IsHandleCreated)
@@ -10201,7 +10201,7 @@ namespace DCSoft.Writer.Controls
 		///       本函数内部触发控件的EventUIStartEditContent事件，应用系统需要相应这个事件来判断文档
 		///       是否处于锁定状态，以及锁定文档的操作。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		public virtual bool UIStartEditContentSpecifyElement(XTextElement sourceElement)
 		{
 			if (InnerViewControl == null || !base.IsHandleCreated)
@@ -10224,7 +10224,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       显示关于对话框
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void ShowAboutDialog()
 		{
 			InnerViewControl.method_135();
@@ -10235,7 +10235,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetNavigateNodesString()
 		{
@@ -10247,7 +10247,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetNavigateNodesXMLString()
 		{
@@ -10260,7 +10260,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">节点编号</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool NavigateByNodeID(string string_5)
 		{
 			return InnerViewControl.method_137(string_5);
@@ -10271,7 +10271,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="node">节点</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool Navigate(NavigateNode node)
 		{
@@ -10282,13 +10282,13 @@ namespace DCSoft.Writer.Controls
 		///       设置状态栏文本，并触发事件
 		///       </summary>
 		/// <param name="text">新状态栏文本</param>
-		[DCPublishAPI]
+		
 		public virtual void SetStatusText(string text)
 		{
 			InnerViewControl.method_139(text);
 		}
 
-		[DCInternal]
+		
 		public static void UIShowForm(WriterControl writerControl_0, Form form_0)
 		{
 			try
@@ -10308,7 +10308,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="dlg">对话框对象</param>
 		/// <param name="sourceElement">相关文档元素对象</param>
 		/// <returns>对话框返回结果</returns>
-		[DCInternal]
+		
 		public static DialogResult UIShowDialog(WriterControl writerControl_0, Form form_0, XTextElement sourceElement)
 		{
 			if (!(writerControl_0?.IsHandleCreated ?? false))
@@ -10324,7 +10324,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="dlg">对话框对象</param>
 		/// <param name="sourceElement">相关文档元素对象</param>
 		/// <returns>返回的结果</returns>
-		[DCInternal]
+		
 		public virtual DialogResult UIShowDialog(Form form_0, XTextElement sourceElement)
 		{
 			int num = 7;
@@ -10368,7 +10368,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="text">菜单文本</param>
 		/// <param name="commandName">菜单命令名称</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void AddContextMenuItem(string text, string commandName)
 		{
@@ -10378,7 +10378,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       清空快捷菜单项目
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ClearContextMenuItem()
 		{
@@ -10389,7 +10389,7 @@ namespace DCSoft.Writer.Controls
 		///       主动的触发文档元素的内容发生改变事件
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public void RaiseElementContentChangedEvent(XTextElement element)
 		{
@@ -10400,7 +10400,7 @@ namespace DCSoft.Writer.Controls
 		///       向文档元素快键菜单添加一个分隔条
 		///       </summary>
 		/// <param name="elementTypeName">文档元素类型名称</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void AddContextMenuSeparatorByTypeName(string elementTypeName)
 		{
@@ -10412,7 +10412,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="elementType">文档元素类型</param>
 		/// <returns>分隔条对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public ToolStripSeparator AddContextMenuSeparator(Type elementType)
 		{
@@ -10424,7 +10424,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="elementTypeName">类型名称</param>
 		/// <param name="name">菜单名称</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void RemoveContextMenuItemByTypeName(string elementTypeName, string name)
 		{
@@ -10436,7 +10436,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="elementType">类型</param>
 		/// <param name="name">菜单名称</param>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public void RemoveContextMenuItem(Type elementType, string name)
 		{
@@ -10450,7 +10450,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="name">菜单项目名称</param>
 		/// <param name="commandName">绑定的编辑器命令</param>
 		/// <param name="text">菜单项目文本</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void AddContextMenuItemByTypeName(string elementTypeName, string name, string commandName, string text)
 		{
@@ -10464,7 +10464,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="text">文本</param>
 		/// <param name="clickHandler">自定义的功能函数委托</param>
 		/// <returns>生成的菜单项目对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public ToolStripMenuItem AddContextCustomMenuItem(Type elementType, string text, EventHandler clickHandler)
 		{
@@ -10482,7 +10482,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="clickHandler">菜单点击事件处理委托</param>
 		/// <returns>生成的菜单项目对象</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public ToolStripMenuItem AddContextMenuItem(Type elementType, string name, string commandName, string text, string iconBase64String, EventHandler clickHandler)
 		{
 			return InnerViewControl.method_150(elementType, name, commandName, text, iconBase64String, clickHandler);
@@ -10496,7 +10496,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="commandName">编辑器命令名</param>
 		/// <returns>生成的菜单项目对象</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public ToolStripMenuItem AddContextMenuItemByTypeTextCommandName(Type elementType, string text, string commandName)
 		{
 			return InnerViewControl.method_150(elementType, null, commandName, text, null, null);
@@ -10510,7 +10510,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="clickHandler">菜单点击事件处理委托</param>
 		/// <returns>生成的菜单项目对象</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public ToolStripMenuItem AddContextMenuItemByTypeTextHandler(Type elementType, string text, EventHandler clickHandler)
 		{
 			return InnerViewControl.method_150(elementType, null, null, text, null, clickHandler);
@@ -10532,7 +10532,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public bool EditLabelPageText(XTextLabelElement xtextLabelElement_0)
 		{
 			int num = 0;
@@ -10619,7 +10619,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void PreloadSystem()
 		{
@@ -10631,7 +10631,7 @@ namespace DCSoft.Writer.Controls
 			int_0++;
 		}
 
-		[DCInternal]
+		
 		protected override bool IsInputKey(Keys keyData)
 		{
 			if (InnerViewControl == null)
@@ -10641,7 +10641,7 @@ namespace DCSoft.Writer.Controls
 			return InnerViewControl.method_174(keyData);
 		}
 
-		[DCInternal]
+		
 		protected override void OnHandleDestroyed(EventArgs eventArgs_0)
 		{
 			base.OnHandleDestroyed(eventArgs_0);
@@ -10652,7 +10652,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <param name="Value">属性值</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SetCustomAttribute(string name, string Value)
 		{
@@ -10668,7 +10668,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="name">属性名</param>
 		/// <returns>属性值</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string GetCustomAttribute(string name)
 		{
 			if (dictionary_0.ContainsKey(name))
@@ -10697,7 +10697,7 @@ namespace DCSoft.Writer.Controls
 		///       重置表单元素默认值
 		///       </summary>
 		/// <returns>是否导致文档内容发生改变</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool ResetFormValue()
 		{
@@ -10716,7 +10716,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="Value">新的选项值</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool SetOptionValue(string name, string Value)
 		{
 			return DocumentOptions.SetOptionValue(name, Value);
@@ -10732,7 +10732,7 @@ namespace DCSoft.Writer.Controls
 		///       </remarks>
 		/// <param name="name">选项名称</param>
 		/// <returns>选项数值</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetOptionValue(string name)
 		{
@@ -10744,7 +10744,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="providerName">级联提供者名称</param>
 		/// <param name="xmlFileName">相关的XML文件名</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void AddXMLLinkListProvider(string providerName, string xmlFileName)
 		{
@@ -10786,7 +10786,7 @@ namespace DCSoft.Writer.Controls
 		///       因此建议定期（比如一分钟）来调用本函数同步服务器时间。
 		///       </remarks>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SynchroServerTime(DateTime serverTime)
 		{
 			if (XTextDocument.smethod_13(GEnum6.const_158))
@@ -10813,7 +10813,7 @@ namespace DCSoft.Writer.Controls
 		///       因此建议定期（比如一分钟）来调用本函数同步服务器时间。
 		///       </remarks>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SynchroServerTimeByParameters(int year, int month, int int_4, int hour, int minute, int second)
 		{
 			if (XTextDocument.smethod_13(GEnum6.const_158))
@@ -10828,7 +10828,7 @@ namespace DCSoft.Writer.Controls
 			(control_0 as GInterface18)?.imethod_2(bool_0: false);
 		}
 
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public void method_13()
 		{
@@ -10841,7 +10841,7 @@ namespace DCSoft.Writer.Controls
 		}
 
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public bool method_14(XTextElement xtextElement_0)
 		{
@@ -10907,7 +10907,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_16()
 		{
 			if (ctlHRule.Visible)
@@ -11087,7 +11087,7 @@ namespace DCSoft.Writer.Controls
 			base.OnLoad(eventArgs_0);
 		}
 
-		[DCInternal]
+		
 		protected virtual void vmethod_3()
 		{
 			if (InnerViewControl != null)
@@ -11100,7 +11100,7 @@ namespace DCSoft.Writer.Controls
 		///       添加服务对象
 		///       </summary>
 		/// <param name="instance">服务对象</param>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public void AddServiceInstance(object instance)
 		{
@@ -11114,7 +11114,7 @@ namespace DCSoft.Writer.Controls
 		///       更新文档的默认字体
 		///       </summary>
 		/// <param name="updateUI">是否更新用户界面</param>
-		[DCPublishAPI]
+		
 		public void UpdateDefaultFont(bool updateUI)
 		{
 			if (InnerViewControl != null)
@@ -11129,7 +11129,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">输入域编号</param>
 		/// <param name="indexs">从0开始的下拉项目序号，各个序号之间用逗号分开</param>
 		/// <returns>操作是否修改文档内容</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual bool SetInputFieldSelectedIndexs(string string_5, string indexs)
 		{
@@ -11148,7 +11148,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="updateUI">是否更新用户界面</param>
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
-		[DCInternal]
+		
 		public void EditorSetDefaultFont(XFontValue font, Color color, bool updateUI)
 		{
 			if (InnerViewControl != null)
@@ -11167,7 +11167,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="name">名称</param>
 		/// <param name="items">缓存的项目列表</param>
 		/// <param name="globalItems">是否为全局缓存</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void AddBufferedListItems(string name, ListItemCollection items, bool globalItems)
 		{
@@ -11181,7 +11181,7 @@ namespace DCSoft.Writer.Controls
 		///       本接口仅供保持兼容性，请改为使用WriteDataFromDocumentToDataSource()
 		///       </summary>
 		/// <returns>写入的数据条数</returns>
-		[DCInternal]
+		
 		[Obsolete("请使用WriteDataFromDocumentToDataSource()函数")]
 		public int WriteDataSource()
 		{
@@ -11194,7 +11194,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="clientX">控件客户区X坐标，像素单位</param>
 		/// <param name="clientY">控件客户区Y坐标，像素单位</param>
 		/// <returns>操作是否修改了插入点</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool MoveToClientPosition(int clientX, int clientY)
 		{
@@ -11210,7 +11210,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="target">移动的目标</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void MoveTo(MoveTarget target)
 		{
 			if (InnerViewControl != null)
@@ -11224,7 +11224,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="index">位置序号</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void MoveToPosition(int index)
 		{
 			if (InnerViewControl != null)
@@ -11236,7 +11236,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       向左移动光标
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void MoveLeft()
 		{
@@ -11250,7 +11250,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       向左移动光标
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void MoveRight()
 		{
@@ -11265,7 +11265,7 @@ namespace DCSoft.Writer.Controls
 		///       移动光标到行首
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void MoveHome()
 		{
 			if (Document != null)
@@ -11278,7 +11278,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       移动光标到行尾
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void MoveEnd()
 		{
@@ -11293,7 +11293,7 @@ namespace DCSoft.Writer.Controls
 		///       移动光标到上一行
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void MoveUpOneLine()
 		{
 			if (Document != null)
@@ -11307,7 +11307,7 @@ namespace DCSoft.Writer.Controls
 		///       移动光标到下一行
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void MoveDownOneLine()
 		{
 			if (Document != null)
@@ -11320,7 +11320,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       取消格式刷操作,DCWriter内部使用。
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		public void CancelFormatBrush()
@@ -11333,7 +11333,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <returns>承载的对象</returns>
-		[DCPublishAPI]
+		
 		public object GetHostedInstance(XTextControlHostElement element)
 		{
 			if (InnerViewControl == null)
@@ -11355,7 +11355,7 @@ namespace DCSoft.Writer.Controls
 		///       创建视图用的画布对象
 		///       </summary>
 		/// <returns>创建的画布对象</returns>
-		[DCInternal]
+		
 		public DCGraphics CreateDCViewGraphics()
 		{
 			if (InnerViewControl == null)
@@ -11368,7 +11368,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       刷新文档
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void RefreshDocument()
 		{
 			try
@@ -11389,7 +11389,7 @@ namespace DCSoft.Writer.Controls
 		///       刷新文档排版
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void RefreshDocumentLayout()
 		{
 			RefreshDocumentExt(refreshSize: false, executeLayout: true);
@@ -11400,7 +11400,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="refreshSize">是否重新计算元素大小</param>
 		/// <param name="executeLayout">是否进行文档内容重新排版</param>
-		[DCPublishAPI]
+		
 		public void RefreshDocumentExt(bool refreshSize, bool executeLayout)
 		{
 			if (InnerViewControl != null)
@@ -11416,7 +11416,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="fastMode">
 		/// </param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void RefreshInnerView(bool fastMode)
 		{
 			if (Document != null)
@@ -11428,7 +11428,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       更新文档页状态
 		///       </summary>
-		[DCInternal]
+		
 		public void UpdatePages()
 		{
 			if (InnerViewControl != null)
@@ -11443,7 +11443,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="scriptText">脚本代码</param>
 		/// <returns>执行结果</returns>
-		[DCInternal]
+		
 		public object ExecuteVBScript(string scriptText)
 		{
 			if (InnerViewControl == null)
@@ -11473,7 +11473,7 @@ namespace DCSoft.Writer.Controls
 		///       [/DCDataSourceBindingDescriptions]
 		///       </example>[System.Reflection.Obfuscation(Exclude = true, ApplyToMembers = true)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string GetDataSourceBindingDescriptionsXML()
 		{
 			if (Document == null)
@@ -11487,7 +11487,7 @@ namespace DCSoft.Writer.Controls
 		///       获得文档中绑定的数据源名称字符串列表。各个名称之间用逗号分开。
 		///       </summary>
 		/// <returns>数据源名称列表</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetBindingDataSources()
 		{
@@ -11503,7 +11503,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>描述信息列表</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public DataSourceBindingDescriptionList GetDataSourceBindingDescriptions()
 		{
 			if (Document == null)
@@ -11521,7 +11521,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="x">X值</param>
 		/// <param name="y">Y值</param>
 		/// <returns>新坐标</returns>
-		[DCInternal]
+		
 		public Point ViewPointToClient(int int_4, int int_5)
 		{
 			if (InnerViewControl == null)
@@ -11537,7 +11537,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="x">X值</param>
 		/// <param name="y">Y值</param>
 		/// <returns>新坐标</returns>
-		[DCPublishAPI]
+		
 		public Point ClientPointToView(int int_4, int int_5)
 		{
 			if (InnerViewControl == null)
@@ -11551,7 +11551,7 @@ namespace DCSoft.Writer.Controls
 		///       滚动视图到指定的视图坐标位置处
 		///       </summary>
 		/// <param name="viewPosition">视图Y坐标</param>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public void ScrollToViewPosition(float viewPosition)
 		{
@@ -11564,7 +11564,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       滚动视图到光标位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void ScrollToCaret()
 		{
 			if (InnerViewControl != null)
@@ -11577,7 +11577,7 @@ namespace DCSoft.Writer.Controls
 		///       滚动视图到光标位置
 		///       </summary>
 		/// <param name="style">滚动方式</param>
-		[DCPublishAPI]
+		
 		public void ScrollToCaretExt(ScrollToViewStyle style)
 		{
 			if (InnerViewControl != null)
@@ -11590,7 +11590,7 @@ namespace DCSoft.Writer.Controls
 		///       根据指定的文档元素对象更新光标
 		///       </summary>
 		/// <param name="element">指定的文档元素对象</param>
-		[DCPublishAPI]
+		
 		public void UpdateTextCaretByElement(XTextElement element)
 		{
 			if (InnerViewControl != null)
@@ -11602,7 +11602,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       根据当前元素更新光标
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void UpdateTextCaret()
 		{
 			if (InnerViewControl != null)
@@ -11614,7 +11614,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       根据当前元素更新光标，而且不会造成用户视图区域的滚动
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void UpdateTextCaretWithoutScroll()
 		{
 			if (InnerViewControl != null)
@@ -11626,7 +11626,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       选中文档所有内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void SelectAll()
 		{
 			if (InnerViewControl != null)
@@ -11638,7 +11638,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       剪切
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cut(bool showUI)
 		{
 			if (InnerViewControl == null)
@@ -11651,7 +11651,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       复制
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Copy()
 		{
 			if (InnerViewControl == null)
@@ -11664,7 +11664,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       粘贴
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Paste()
 		{
 			if (InnerViewControl != null)
@@ -11676,7 +11676,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       撤销操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Undo()
 		{
 			if (InnerViewControl != null)
@@ -11688,7 +11688,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       重复操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Redo()
 		{
 			if (InnerViewControl != null)
@@ -11700,7 +11700,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       删除选择区域
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void DeleteSelection(bool showUI)
 		{
 			if (InnerViewControl != null)
@@ -11713,7 +11713,7 @@ namespace DCSoft.Writer.Controls
 		///       执行文档元素默认方法
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
-		[DCPublishAPI]
+		
 		public void ExecuteElementDefaultMethod(XTextElement element)
 		{
 			if (InnerViewControl != null)
@@ -11726,7 +11726,7 @@ namespace DCSoft.Writer.Controls
 		///       取消当前的编辑元素内容的操作
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool CancelEditElementValue()
 		{
 			if (InnerViewControl == null)
@@ -11742,7 +11742,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">文档元素编号</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool BeginEditElementValueById(string string_5)
 		{
 			if (InnerViewControl == null)
@@ -11757,7 +11757,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool BeginEditElementValue(XTextElement element)
 		{
@@ -11781,7 +11781,7 @@ namespace DCSoft.Writer.Controls
 		///       显示插入知识库的弹出式列表
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool BeginInsertKB()
 		{
 			if (InnerViewControl == null)
@@ -11796,7 +11796,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="specifyText">指定的文本</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool BeginInsertKBSpecifyText(string specifyText)
 		{
 			if (InnerViewControl == null)
@@ -11815,7 +11815,7 @@ namespace DCSoft.Writer.Controls
 		///       设置缩放比率
 		///       </summary>
 		/// <param name="rate">缩放比率</param>
-		[DCInternal]
+		
 		public void SetZoomRate(float rate)
 		{
 			if (InnerViewControl != null)
@@ -11827,7 +11827,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       为自动缩放而更新控件状态
 		///       </summary>
-		[DCInternal]
+		
 		public void UpdateForAutoZoom(bool forceLayout)
 		{
 			if (InnerViewControl != null)
@@ -11857,7 +11857,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="interval">延时的毫秒数</param>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public void DelayFocus(int interval)
 		{
 			if (InnerViewControl != null)
@@ -11871,13 +11871,13 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="targetPageIndex">从0开始的页号</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool MoveToPage(int index)
 		{
 			return InnerViewControl.MoveToPage(index);
 		}
 
-		[DCInternal]
+		
 		public Graphics CreateViewGraphics()
 		{
 			return InnerViewControl.vmethod_15();
@@ -11886,7 +11886,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       开始更新内容，锁定用户界面
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void BeginUpdate()
 		{
 			InnerViewControl.BeginUpdate();
@@ -11895,7 +11895,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       结束更新内容，解锁用户界面
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void EndUpdate()
 		{
 			InnerViewControl.EndUpdate();
@@ -11904,7 +11904,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       将文档中的数据写入到数据源中
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public int WriteDataFromDocumentToDataSource()
 		{
@@ -11919,7 +11919,7 @@ namespace DCSoft.Writer.Controls
 		///       请改用WriteDataFromDocumentToDataSource().
 		///       </summary>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int UpdateDataSourceForView()
 		{
 			if (Document == null)
@@ -11935,7 +11935,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="parameterNames">指定的文档参数名称，各个名称之间用英文逗号分开。比如“姓名,性别,国籍”，如果为空则更新全部数据源。</param>
 		/// <returns>更新的数据点个数</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public int WriteDataFromDataSourceToDocumentSpecifyParameterNames(string parameterNames)
 		{
 			if (Document == null)
@@ -11972,7 +11972,7 @@ namespace DCSoft.Writer.Controls
 		///       将数据源中的数据写入到文档中。
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public int WriteDataFromDataSourceToDocument()
 		{
 			return WriteDataFromDataSourceToDocumentSpecifyParameterNames(null);
@@ -11982,7 +11982,7 @@ namespace DCSoft.Writer.Controls
 		///       请改用WriteDataFromDataSourceToDocument().
 		///       </summary>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int UpdateViewForDataSource()
 		{
 			return WriteDataFromDataSourceToDocumentSpecifyParameterNames(null);
@@ -11991,7 +11991,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       系统清理内存。这个过程是耗时间的。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void GCCollect()
 		{
@@ -12000,7 +12000,7 @@ namespace DCSoft.Writer.Controls
 			GC.WaitForFullGCComplete();
 		}
 
-		[DCInternal]
+		
 		public static void smethod_2(Form form_0, Control control_1)
 		{
 			WriterViewControl.CheckRegisteredWithDialog(64, form_0, control_1);
@@ -12010,7 +12010,7 @@ namespace DCSoft.Writer.Controls
 		///       设置注册码的静态方法
 		///       </summary>
 		/// <param name="regCode">注册码</param>
-		[DCPublishAPI]
+		
 		public static void StaticSetRegisterCode(string regCode)
 		{
 			XTextDocument.StaticRegisterCode = regCode;
@@ -12020,7 +12020,7 @@ namespace DCSoft.Writer.Controls
 		///       设置注册码
 		///       </summary>
 		/// <param name="regCode">注册码文本</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SetRegisterCode(string regCode)
 		{
@@ -12031,13 +12031,13 @@ namespace DCSoft.Writer.Controls
 		///       重新绘制文档
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void RedrawDocument()
 		{
 			Invalidate(invalidateChildren: true);
 		}
 
-		[DCInternal]
+		
 		public float method_24(float float_0)
 		{
 			if (float_0 > DocumentOptions.BehaviorOptions.MaxZoomRate)
@@ -12056,7 +12056,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="key">图标标号</param>
 		/// <param name="bmp">图片对象</param>
-		[DCPublishAPI]
+		
 		public void SetDomImage(DCStdImageKey dcstdImageKey_0, Bitmap bitmap_0)
 		{
 			DomImageList.SetBitmape(dcstdImageKey_0, bitmap_0);
@@ -12070,7 +12070,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="key">图标标号</param>
 		/// <param name="fileName">图片文件名</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetDomImageByFileName(DCStdImageKey dcstdImageKey_0, string fileName)
 		{
 			DomImageList.SetBitmapByFileName(dcstdImageKey_0, fileName);
@@ -12083,7 +12083,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="key">图标标号</param>
 		/// <param name="fileName">图片文件名</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SetDomImageByBase64String(DCStdImageKey dcstdImageKey_0, string base64String)
 		{
@@ -12098,7 +12098,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="element">文档元素对象</param>
 		/// <param name="autoScroll">是否自动滚动</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual void FlashElement(XTextElement element, bool autoScroll)
 		{
 			int num = 14;
@@ -12114,7 +12114,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="elements">文档元素对象</param>
 		/// <param name="autoScroll">是否自动滚动</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual void FlashElements(XTextElementList elements, bool autoScroll)
 		{
@@ -12130,7 +12130,7 @@ namespace DCSoft.Writer.Controls
 		///       添加被选择区域矩形
 		///       </summary>
 		/// <param name="rect">矩形</param>
-		[DCInternal]
+		
 		public void AddSelectionAreaRectangle(Rectangle rect)
 		{
 			InnerViewControl.method_98(rect);
@@ -12144,7 +12144,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="party">
 		/// </param>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		public void ViewInvalidate(XTextLine line, PageContentPartyStyle party)
 		{
 			InnerViewControl.method_99(line, party);
@@ -12155,7 +12155,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="rect">无效矩形</param>
 		/// <param name="party">文档区域</param>
-		[DCInternal]
+		
 		public void ViewInvalidate(RectangleF rect, PageContentPartyStyle party)
 		{
 			InnerViewControl.ViewInvalidate(rect, party);
@@ -12165,7 +12165,7 @@ namespace DCSoft.Writer.Controls
 		///       设置指定的区域视图无效
 		///       </summary>
 		/// <param name="range">文档区域</param>
-		[DCPublishAPI]
+		
 		public virtual void Invalidate(XTextRange range)
 		{
 			InnerViewControl.method_101(range);
@@ -12182,7 +12182,7 @@ namespace DCSoft.Writer.Controls
 		///       ctl.PrintDocumentExt( true , "1,3,5,7,9");
 		///       </remarks>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void PrintDocumentExt(bool showDialog, string specifyPageIndexs)
 		{
 			InnerViewControl.method_59(showDialog, specifyPageIndexs);
@@ -12191,7 +12191,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       打印整个文档
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void PrintDocument()
 		{
 			InnerViewControl.method_60();
@@ -12200,7 +12200,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       打印当前页
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void PrintCurrentPage()
 		{
 			InnerViewControl.method_61();
@@ -12213,7 +12213,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="autoSetStartPageIndex">自动设置开始显示页码</param>
 		/// <param name="useTopPosition">true:设置到文档元素的上边缘，false:设置到文档元素的下边缘</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool SetJumpPrintPositionTo(XTextElement element, bool autoSetStartPageIndex, bool useTopPosition)
 		{
 			return InnerViewControl.method_63(element, autoSetStartPageIndex, useTopPosition);
@@ -12226,7 +12226,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="autoSetEndPageIndex">自动设置开始显示页码</param>
 		/// <param name="useTopPosition">true:设置到文档元素的上边缘，false:设置到文档元素的下边缘</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool SetJumpPrintEndPositionTo(XTextElement element, bool autoSetEndPageIndex, bool useTopPosition)
 		{
 			return InnerViewControl.method_64(element, autoSetEndPageIndex, useTopPosition);
@@ -12242,7 +12242,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool LockContentByTableRow(string tableID, int rowIndexBase0, string userID, string authoriseUserIDList, bool logUndo)
 		{
 			return Document.LockContentByTableRow(tableID, rowIndexBase0, userID, authoriseUserIDList, logUndo);
@@ -12256,7 +12256,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="authoriseUserIDList">授权操作的用户ID列表，各个列表之间用英文逗号分开</param>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool LockContentByElementID(string elementID, string userID, string authoriseUserIDList, bool logUndo)
 		{
@@ -12276,7 +12276,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool LockContentByElement(XTextContainerElement element, string userID, string authoriseUserIDList, bool logUndo)
 		{
 			return Document.LockContentByElement(element, userID, authoriseUserIDList, logUndo);
@@ -12288,7 +12288,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="id">文档元素编号</param>
 		/// <returns>操作是否修改了文档内容</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool CommitContentUserTraceById(string string_5)
 		{
 			return InnerViewControl.method_76(string_5);
@@ -12299,7 +12299,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="element">容器文档元素对象</param>
 		/// <returns>操作是否修改了文档内容</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool CommitContentUserTrace(XTextContainerElement element)
 		{
@@ -12310,7 +12310,7 @@ namespace DCSoft.Writer.Controls
 		///       提交文档中所有的用户痕迹信息
 		///       </summary>
 		/// <returns>操作是否修改了文档内容</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool CommitDocumentUserTrace()
 		{
@@ -12322,7 +12322,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>操作是否修改了文档内容</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool RejectUserTrace()
 		{
 			bool result;
@@ -12340,7 +12340,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="info">用户痕迹信息对象</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool NavigateByUserTrackInfo(UserTrackInfo info)
 		{
@@ -12364,7 +12364,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="userName">用户名</param>
 		/// <param name="permissionLevel">用户等级</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool UserLogin(string userID, string userName, int permissionLevel)
 		{
 			return InnerViewControl.method_81(userID, userName, permissionLevel);
@@ -12379,7 +12379,7 @@ namespace DCSoft.Writer.Controls
 		/// <remarks>
 		///       本方法会自动启用授权控制，并以留痕模式显示文档内容。
 		///       </remarks>
-		[DCPublishAPI]
+		
 		public bool UserLogin(UserLoginInfo loginInfo, bool updateUI)
 		{
 			return InnerViewControl.method_82(loginInfo, updateUI);
@@ -12390,7 +12390,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Obsolete("请调用控件的UserLogin()/UserLoginByUserLoginInfo()/UserLoginByParameter()")]
 		public bool UserLoginByCurrentUserInfo()
 		{
@@ -12404,7 +12404,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="updateUI">是否更新用户界面</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool UserLoginByUserLoginInfo(UserLoginInfo loginInfo, bool updateUI)
 		{
 			return InnerViewControl.method_84(loginInfo, updateUI);
@@ -12418,7 +12418,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="permissionLevel">用户等级</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool UserLoginByParameter(string userID, string userName, int permissionLevel)
 		{
 			return InnerViewControl.method_85(userID, userName, permissionLevel);
@@ -12432,7 +12432,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       更新用户历史记录的时间
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void UpdateUserInfoSaveTime()
 		{
 			InnerViewControl.method_87();
@@ -12442,7 +12442,7 @@ namespace DCSoft.Writer.Controls
 		///       更新用户历史记录的时间
 		///       </summary>
 		/// <remarks>是否追加新的操作记录</remarks>
-		[DCPublishAPI]
+		
 		public void UpdateUserInfoSaveTimeExt(bool addNewHistoryInfo)
 		{
 			InnerViewControl.method_88(addNewHistoryInfo);
@@ -12471,7 +12471,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       清空内部的数据对象
 		///       </summary>
-		[DCInternal]
+		
 		public void ClearInnerDataObject()
 		{
 			InnerViewControl.method_92();
@@ -12493,13 +12493,13 @@ namespace DCSoft.Writer.Controls
 		///       若返回false，表示编辑器没有处理backspace事件，浏览器可按默认方式进行处理。
 		///       </remarks>
 		/// <returns>控件是否处理了backspace按键事件</returns>
-		[DCPublishAPI]
+		
 		public bool HandleBackspace()
 		{
 			return InnerViewControl.method_168();
 		}
 
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
 		public void method_27(Keys keys_0)
@@ -12509,31 +12509,31 @@ namespace DCSoft.Writer.Controls
 
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public void method_28(char char_0)
 		{
 			InnerViewControl.method_170(char_0);
 		}
 
-		[DCInternal]
+		
 		public new Point PointToClient(Point point_0)
 		{
 			return InnerViewControl.PointToClient(point_0);
 		}
 
-		[DCInternal]
+		
 		public new Point PointToScreen(Point point_0)
 		{
 			return InnerViewControl.PointToScreen(point_0);
 		}
 
-		[DCInternal]
+		
 		public new Rectangle RectangleToClient(Rectangle rectangle_0)
 		{
 			return InnerViewControl.RectangleToClient(rectangle_0);
 		}
 
-		[DCInternal]
+		
 		public new Rectangle RectangleToScreen(Rectangle rectangle_0)
 		{
 			return InnerViewControl.RectangleToScreen(rectangle_0);
@@ -12817,7 +12817,7 @@ namespace DCSoft.Writer.Controls
 		///       清空内部的编辑器控件事件消息队列
 		///       </summary>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public void ClearEventMessage()
 		{
 			writerControlEventMessage_0 = null;
@@ -12833,7 +12833,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public WriterControlEventMessage GetEventMessage()
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_157))
@@ -13248,7 +13248,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_55(WriterBeforeFieldContentEditEventArgs writerBeforeFieldContentEditEventArgs_0)
 		{
 			int num = 11;
@@ -13284,7 +13284,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_56(WriterAfterFieldContentEditEventArgs writerAfterFieldContentEditEventArgs_0)
 		{
 			int num = 4;
@@ -13355,7 +13355,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_11(WriterBeforePlayMediaEventArgs writerBeforePlayMediaEventArgs_0)
 		{
 			int num = 2;
@@ -13400,7 +13400,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_12()
 		{
 			int num = 10;
@@ -13471,7 +13471,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_57(WriterQueryAssistInputItemsEventArgs writerQueryAssistInputItemsEventArgs_0)
 		{
 			int num = 6;
@@ -13614,7 +13614,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_17(WriterEventArgs writerEventArgs_0)
 		{
 			int num = 18;
@@ -13770,7 +13770,7 @@ namespace DCSoft.Writer.Controls
 		///       这是一个比较底层的事件，在加载文档的DOM模型后触发，而且在AfterLoad之前触发。
 		///       </remarks>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnEventAfterLoadRawDOM(WriterEventArgs args)
 		{
 			int num = 19;
@@ -13802,7 +13802,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_58(WriterExpressionFunctionEventArgs writerExpressionFunctionEventArgs_0)
 		{
 			int num = 6;
@@ -13899,7 +13899,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       重置自动保存任务
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ResetAutoSaveTask()
 		{
@@ -14465,7 +14465,7 @@ namespace DCSoft.Writer.Controls
 		}
 
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public virtual void vmethod_35(CollectProtectedElementsEventArgs collectProtectedElementsEventArgs_0)
 		{
 			if (EnabledControlEvent && collectProtectedElementsEventHandler_0 != null)
@@ -14491,7 +14491,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_36(WriterEventArgs writerEventArgs_0)
 		{
 			int num = 10;
@@ -14551,7 +14551,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_62(WriterEventArgs writerEventArgs_0)
 		{
 			int num = 5;
@@ -14763,7 +14763,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual object vmethod_43(Type type_0, object object_0, string string_5)
 		{
 			if (!EnabledControlEvent)
@@ -14836,7 +14836,7 @@ namespace DCSoft.Writer.Controls
 		}
 
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		public void method_63(ParseSelectedItemsEventArgs parseSelectedItemsEventArgs_0)
 		{
 			if (EnabledControlEvent && parseSelectedItemsEventHandler_0 != null)
@@ -14863,7 +14863,7 @@ namespace DCSoft.Writer.Controls
 		}
 
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		public void method_64(FormatListItemsEventArgs formatListItemsEventArgs_0)
 		{
 			if (EnabledControlEvent && formatListItemsEventHandler_0 != null)
@@ -14917,7 +14917,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public WriterCommand method_65()
 		{
 			if (writerCommandEventHandler_0 != null)
@@ -14927,7 +14927,7 @@ namespace DCSoft.Writer.Controls
 			return null;
 		}
 
-		[DCInternal]
+		
 		public void method_66(QueryKBEntriesEventArgs queryKBEntriesEventArgs_0)
 		{
 			int num = 0;
@@ -15183,7 +15183,7 @@ namespace DCSoft.Writer.Controls
 		///       根据知识库节点创建文档元素
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCPublishAPI]
+		
 		public virtual void CreateElementsByKBEntry(CreateElementsByKBEntryEventArgs args)
 		{
 			int num = 13;
@@ -15275,7 +15275,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void OnDocumentLoad(WriterEventArgs writerEventArgs_0)
 		{
 			int num = 17;
@@ -15336,7 +15336,7 @@ namespace DCSoft.Writer.Controls
 		///       DCWriter内部使用。向文档插入对象数据
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnEventInsertObject(InsertObjectEventArgs args)
 		{
 			int num = 8;
@@ -15373,7 +15373,7 @@ namespace DCSoft.Writer.Controls
 		///       DCWriter内部使用。判断能否插入对象
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnEventCanInsertObject(CanInsertObjectEventArgs args)
 		{
 			int num = 4;
@@ -15466,7 +15466,7 @@ namespace DCSoft.Writer.Controls
 		///       DCWriter内部使用。触发文档选择状态发生改变后的事件
 		///       </summary>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnSelectionChanged(EventArgs args)
 		{
 			int num = 17;
@@ -15514,7 +15514,7 @@ namespace DCSoft.Writer.Controls
 		}
 
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -15527,7 +15527,7 @@ namespace DCSoft.Writer.Controls
 		///       触发文档内容发生改变事件
 		///       </summary>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnDocumentContentChanged(EventArgs args)
 		{
 			int num = 13;
@@ -15602,7 +15602,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="args">参数</param>
 		/// <returns>查询的内容</returns>
-		[DCInternal]
+		
 		public virtual void OnQueryListItems(QueryListItemsEventArgs args)
 		{
 			int num = 5;
@@ -15745,7 +15745,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_52(WriterCommandEventArgs writerCommandEventArgs_0)
 		{
 			int num = 16;
@@ -15775,7 +15775,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_53(WriterCommandEventArgs writerCommandEventArgs_0)
 		{
 			int num = 9;
@@ -15799,7 +15799,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_78()
 		{
 			int num = 10;
@@ -15829,7 +15829,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_54(WriterCommand writerCommand_0, WriterCommandEventArgs writerCommandEventArgs_0, Exception exception_0)
 		{
 			int num = 15;
@@ -15952,7 +15952,7 @@ namespace DCSoft.Writer.Controls
 		///       当编辑器控件嵌入在HTML页面中运行时，JavaScript可能无法响应控件事件，此时可以
 		///       调用定时器定期调用这个函数来获得已经触发的事件名称，然后进行事件处理。</remarks>
 		/// <returns>事件名称列表。</returns>
-		[DCPublishAPI]
+		
 		public string GetLastEventNames()
 		{
 			int num = 12;

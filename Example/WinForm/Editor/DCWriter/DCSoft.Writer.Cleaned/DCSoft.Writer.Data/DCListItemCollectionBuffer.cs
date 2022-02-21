@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	///       列表对象缓存对象
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class DCListItemCollectionBuffer
 	{
 		private Dictionary<string, ListItemCollection> _Items = new Dictionary<string, ListItemCollection>();

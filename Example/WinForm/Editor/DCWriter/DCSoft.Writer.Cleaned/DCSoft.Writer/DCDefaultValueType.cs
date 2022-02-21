@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       默认值类型
 	///       </summary>
 	[Guid("C195EDF6-D57E-4ABC-BFA5-88FADBE56B2F")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	public enum DCDefaultValueType

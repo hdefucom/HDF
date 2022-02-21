@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       文档内容排版方向
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[DocumentComment]
 	[Guid("4E19CE49-1EF3-4911-A72A-F58412F2F275")]

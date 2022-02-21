@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       检测区域的结果
 	///       </summary>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	public enum DetectRangeResult
 	{
 		/// <summary>

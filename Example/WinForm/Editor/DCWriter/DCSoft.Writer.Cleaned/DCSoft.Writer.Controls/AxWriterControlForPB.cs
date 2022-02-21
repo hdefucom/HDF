@@ -34,7 +34,7 @@ namespace DCSoft.Writer.Controls
     ///       本控件用于COM和B/S开发,不用于.NET开发.
     ///       编制 袁永福
     ///       </remarks>
-    [DCPublishAPI]
+    
     [ComSourceInterfaces(typeof(IAxWriterControlForPBComEvents))]
     [ToolboxItem(false)]
     [DocumentComment]
@@ -100,7 +100,7 @@ namespace DCSoft.Writer.Controls
         [EditorBrowsable(EditorBrowsableState.Never)]
         [ComVisible(false)]
         [Browsable(false)]
-        [DCInternal]
+        
         public override bool IsAxControl => true;
 
         /// <summary>
@@ -1188,7 +1188,7 @@ namespace DCSoft.Writer.Controls
         /// </param>
         /// <returns>
         /// </returns>
-        [DCInternal]
+        
         [ComVisible(true)]
         public int GetInterfaceSafetyOptions(ref Guid riid, ref int pdwSupportedOptions, ref int pdwEnabledOptions)
         {
@@ -1237,7 +1237,7 @@ namespace DCSoft.Writer.Controls
         /// <returns>
         /// </returns>
         [ComVisible(true)]
-        [DCInternal]
+        
         public int SetInterfaceSafetyOptions(ref Guid riid, int dwOptionSetMask, int dwEnabledOptions)
         {
             int num = 4;
@@ -1471,7 +1471,7 @@ namespace DCSoft.Writer.Controls
         /// <param name="text">文本</param>
         /// <param name="format">格式</param>
         /// <returns>操作是否成功</returns>
-        [DCInternal]
+        
         public bool NoneLoadDocumentFromString(string text, string format)
         {
             LoadDocumentFromFile("D:\\金山快盘\\项目文件\\浙江联众\\都昌控件稳定性测试3\\(呼吸科)(天医)入院记录copd_ver2.xml", null);
@@ -1588,7 +1588,7 @@ namespace DCSoft.Writer.Controls
         }
 
         [ComVisible(false)]
-        [DCInternal]
+        
         public override void CollectOuterReference(object instance)
         {
             if (instance != null && base.EnableCollectOuterReference)
@@ -1602,7 +1602,7 @@ namespace DCSoft.Writer.Controls
         }
 
         [ComVisible(false)]
-        [DCInternal]
+        
         public override void CollectOuterReferences(IList instances)
         {
             if (instances != null && base.EnableCollectOuterReference)
@@ -1838,7 +1838,7 @@ namespace DCSoft.Writer.Controls
         /// <param name="document">文档对象</param>
         /// <returns>字符串</returns>
         [Browsable(false)]
-        [DCInternal]
+        
         public static string SaveToAxContentBase64String(XTextDocument document)
         {
             int num = 11;

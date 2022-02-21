@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ComClass("07E8A3FA-1D49-4DCA-ABAB-9A03DB98F467", "AF81279D-7D75-4B2D-881B-FB2824C736FC")]
 	[ComDefaultInterface(typeof(IWriterBeforeFieldContentEditEventArgs))]
 	[Guid("07E8A3FA-1D49-4DCA-ABAB-9A03DB98F467")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
@@ -51,7 +51,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器类型名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string EditorTypeName
 		{
@@ -68,14 +68,14 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public WriterControl WriterControl => Element.WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public XTextDocument Document => Element.OwnerDocument;
 
@@ -83,14 +83,14 @@ namespace DCSoft.Writer
 		///       输入域元素对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextInputFieldElement Element => _Element;
 
 		/// <summary>
 		///       选择的项目集合
 		///       </summary>
 		[XmlArrayItem("Item", typeof(ListItem))]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public ListItemCollection SelectedItems
 		{
@@ -108,7 +108,7 @@ namespace DCSoft.Writer
 		///       元素编号
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string ElementID
 		{
 			get
@@ -124,7 +124,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       元素名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ElementName
 		{
@@ -142,7 +142,7 @@ namespace DCSoft.Writer
 		///       选择的下拉列表序号列表，从0开始计算，各个序号之间用逗号分开。
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string SelectedIndexs
 		{
 			get
@@ -159,7 +159,7 @@ namespace DCSoft.Writer
 		///       当前文本值
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string OldText
 		{
 			get
@@ -176,7 +176,7 @@ namespace DCSoft.Writer
 		///       当前数值
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string OldValue
 		{
 			get
@@ -193,7 +193,7 @@ namespace DCSoft.Writer
 		///       新文本
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string NewText
 		{
 			get
@@ -210,7 +210,7 @@ namespace DCSoft.Writer
 		///       新数值
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string NewValue
 		{
 			get
@@ -227,7 +227,7 @@ namespace DCSoft.Writer
 		///       用户取消操作标记
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -240,7 +240,7 @@ namespace DCSoft.Writer
 			}
 		}
 
-		[DCInternal]
+		
 		public WriterBeforeFieldContentEditEventArgs()
 		{
 			_EditorTypeName = null;
@@ -257,7 +257,7 @@ namespace DCSoft.Writer
 			
 		}
 
-		[DCInternal]
+		
 		public WriterBeforeFieldContentEditEventArgs(XTextInputFieldElement field, string selectedIndexs, ListItemCollection selectedItems, string editorTypeName)
 		{
 			int num = 0;

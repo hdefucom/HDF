@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Controls
 	///       OLE拖拽操作状态
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	[DocumentComment]
 	public enum DragOperationState
 	{

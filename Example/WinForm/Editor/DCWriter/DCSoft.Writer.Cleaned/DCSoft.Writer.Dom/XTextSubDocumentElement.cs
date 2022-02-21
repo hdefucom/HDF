@@ -28,7 +28,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XTextSubDocument")]
 	[DebuggerDisplay("SubDocument {ID}:{ PreviewString }")]
 	[ComClass("4E1D2614-2C87-467C-B5C3-72135EE54ABD", "D5CEBC74-0160-4898-BE6B-24F5F55744A1")]
-	[DCPublishAPI]
+	
 	public sealed class XTextSubDocumentElement : XTextSectionElement, IXTextSubDocumentElement
 	{
 		internal const string string_18 = "4E1D2614-2C87-467C-B5C3-72135EE54ABD";
@@ -68,7 +68,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       子文档编号，对应生成的文档的document.ID。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -90,7 +90,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[DefaultValue(false)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool Printed
 		{
 			get
@@ -109,7 +109,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[DefaultValue(-1)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public int PrintedPageIndex
 		{
 			get
@@ -125,7 +125,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       打印时元素在页面中的顶端位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(0f)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -144,7 +144,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容被锁定，不能再次修改,也不能设置可读写操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -163,7 +163,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档信息对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -189,7 +189,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string FileName
 		{
 			get
@@ -205,7 +205,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -224,7 +224,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       强制分页
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DefaultValue(false)]
 		[HtmlAttribute]
@@ -243,7 +243,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       已经处理的强制分页标记.DCWriter内部使用。
 		///       </summary>
-		[DCInternal]
+		
 		internal bool HandledNewPage
 		{
 			get
@@ -259,7 +259,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       加载文档时导入权限及用户痕迹信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DefaultValue(true)]
 		[HtmlAttribute]
@@ -280,7 +280,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(false)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool DelayLoadWhenExpand
 		{
@@ -297,11 +297,11 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件内容已经成功的加载了，无需再次加载了。
 		///       </summary>
-		[DCInternal]
+		
 		[HtmlAttribute]
 		[DefaultValue(false)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool ContentLoaded
 		{
 			get
@@ -339,7 +339,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextSubDocumentElement()
 		{
 			base.CompressOwnerLineSpacing = true;
@@ -357,7 +357,7 @@ namespace DCSoft.Writer.Dom
 		///       本函数是EditorSetState()函数的COM接口，可以如下方式调用
 		///       <br /> element.EditorSetStateCOM( true, "#0000ff","#ffffff");
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool EditorSetStateCOM(bool readOnly, string backgroundColor, string borderColor)
 		{
@@ -374,7 +374,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="borderColor">新的边框颜色</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool EditorSetState(bool readOnly, Color backgroundColor, Color borderColor)
 		{
 			if (Locked)
@@ -409,7 +409,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="fileName">文件名</param>
 		/// <param name="format">文件格式</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SaveDocumentToFileName(string fileName, string format)
 		{
 			try
@@ -429,7 +429,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="stream">文件流</param>
 		/// <param name="format">文件格式</param>
-		[DCPublishAPI]
+		
 		public void SaveDocumentToStream(Stream stream, string format)
 		{
 			try
@@ -449,7 +449,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="format">文件格式</param>
 		/// <returns>保存的数据</returns>
-		[DCPublishAPI]
+		
 		public byte[] SaveDocumentToBinary(string format)
 		{
 			using (MemoryStream memoryStream = new MemoryStream())
@@ -465,7 +465,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="format">文件格式</param>
 		/// <returns>生成的字符串</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string SaveDocumentToString(string format)
 		{
 			try
@@ -484,7 +484,7 @@ namespace DCSoft.Writer.Dom
 		///       创建单个病程记录文档对象
 		///       </summary>
 		/// <returns>创建的文档对象</returns>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public XTextDocument CreateRecordDocument()
 		{
@@ -508,7 +508,7 @@ namespace DCSoft.Writer.Dom
 			return xTextDocument;
 		}
 
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void LoadDocumentFromFileName(string fileName, string format)
 		{
@@ -528,7 +528,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public void LoadDocumentFromStream(Stream stream, string format)
 		{
 			try
@@ -547,7 +547,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void LoadDocumentFromString(string string_23, string format)
 		{

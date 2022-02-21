@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[Guid("A5BF86F0-CF22-4C9C-A900-9CE152F982ED")]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	public enum PromptProtectedContentMode

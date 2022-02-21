@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Controls
 	///       上下文快捷菜单管理器
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	[DocumentComment]
 	public class ContextMenuStripManager : IContextMenuStripManager
@@ -298,7 +298,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="elementType">文档元素类型</param>
 		/// <returns>获得的快捷菜单</returns>
-		[DCInternal]
+		
 		public ContextMenuStrip GetMenu(Type elementType)
 		{
 			int num = 18;
@@ -330,7 +330,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="commandNamesTexts">命令文本数组，偶数为命令名称，奇数为菜单文本</param>
 		/// <returns>创建的快捷菜单对象</returns>
-		[DCInternal]
+		
 		public ContextMenuStrip Build(string[] commandNamesTexts)
 		{
 			if (commandNamesTexts != null && commandNamesTexts.Length > 0)
@@ -378,7 +378,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public ContextMenuStrip GetCurrentContextMenu()
 		{
 			if (!Enabled || dictionary_0.Count == 0 || Control == null)

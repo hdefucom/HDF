@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IXTextDocumentHeaderElement))]
 	[DebuggerDisplay("Header :{ PreviewString }")]
 	[Guid("8B273384-82C3-4E23-8DA8-940CE19AB582")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComClass("8B273384-82C3-4E23-8DA8-940CE19AB582", "1F79E8C5-A034-4BE1-8E76-8A971466DF84")]
 	[XmlType("XTextHeader")]
@@ -28,29 +28,29 @@ namespace DCSoft.Writer.Dom
 
 		internal const string string_15 = "1F79E8C5-A034-4BE1-8E76-8A971466DF84";
 
-		[DCPublishAPI]
+		
 		public override PageContentPartyStyle ContentPartyStyle => PageContentPartyStyle.Header;
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "Header";
 
 		/// <summary>
 		///       返回预览文本
 		///       </summary>
-		[DCInternal]
+		
 		public override string PreviewString => "Header:" + base.PreviewString;
 
 		/// <summary>
 		///       返回Header
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public override PageContentPartyStyle PagePartyStyle => PageContentPartyStyle.Header;
 
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public XTextDocumentHeaderElement()
 		{
 		}
@@ -58,7 +58,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       修正元素内容
 		///       </summary>
-		[DCInternal]
+		
 		public override void FixElements()
 		{
 			if (Elements.Count == 0 || !(Elements.LastElement is XTextParagraphFlagElement))
@@ -76,7 +76,7 @@ namespace DCSoft.Writer.Dom
 		///       返回调试时显示的文本
 		///       </summary>
 		/// <returns>文本</returns>
-		[DCInternal]
+		
 		public override string ToDebugString()
 		{
 			int num = 14;

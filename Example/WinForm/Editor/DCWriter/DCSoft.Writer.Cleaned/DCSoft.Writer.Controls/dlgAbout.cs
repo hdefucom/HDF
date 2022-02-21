@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Controls
 	///       关于对话框
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class dlgAbout : Form
 	{
 		private IContainer icontainer_0 = null;

@@ -144,7 +144,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int GetInterfaceSafetyOptions(ref Guid riid, ref int pdwSupportedOptions, ref int pdwEnabledOptions)
 		{
 			int num = 15;
@@ -192,7 +192,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		public int SetInterfaceSafetyOptions(ref Guid riid, int dwOptionSetMask, int dwEnabledOptions)
 		{
 			int num = 15;

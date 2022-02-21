@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[ComClass("CB56C0AC-FB30-44EF-8067-9AD1726BC6BF", "61814E57-A693-4A00-BA18-CF959E2C68D0")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterEditElementValueEventArgs))]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[Guid("CB56C0AC-FB30-44EF-8067-9AD1726BC6BF")]
 	[ComVisible(true)]
@@ -31,19 +31,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       标配的元素数值编辑器
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ElementValueEditor Editor => _Editor;
 
 		/// <summary>
 		///       输入域文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextInputFieldElement FieldElement => base.Element as XTextInputFieldElement;
 
 		/// <summary>
 		///       事件已经处理了，无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -59,7 +59,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       处理结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ElementValueEditResult Result
 		{
 			get
@@ -79,7 +79,7 @@ namespace DCSoft.Writer
 		/// <param name="document">文档对象</param>
 		/// <param name="element">文档元素对象</param>
 		/// <param name="editor">编辑器对象</param>
-		[DCInternal]
+		
 		public WriterEditElementValueEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, ElementValueEditor editor)
 			: base(writerControl_0, document, element)
 		{

@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	/// <param name="args">参数</param>
 	[Guid("807C8050-C234-4A8D-90A7-196B1B970FC8")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public delegate void CommandErrorEventHandler(object sender, CommandErrorEventArgs e);
 }

@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public enum GEnum13
 	{
 		const_0,

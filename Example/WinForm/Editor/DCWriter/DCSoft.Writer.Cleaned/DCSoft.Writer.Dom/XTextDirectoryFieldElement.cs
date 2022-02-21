@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	///       目录域对象 
 	///       </summary>
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComClass("74D09E85-5AE3-4FCA-B2E5-BFEDDB96F69D", "1E1D65E3-591F-47D7-9172-DC10BF3119A5")]
 	[ComDefaultInterface(typeof(IXTextDirectoryFieldElement))]
@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	public class XTextDirectoryFieldElement : XTextInputFieldElementBase, IXTextDirectoryFieldElement
 	{
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		public class GClass4
@@ -114,7 +114,7 @@ namespace DCSoft.Writer.Dom
 		[NonSerialized]
 		private List<GClass4> list_0 = new List<GClass4>();
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "Directory:" + base.ID;
 
 		/// <summary>
@@ -122,7 +122,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[DefaultValue(3)]
-		[DCPublishAPI]
+		
 		public int DisplayLevel
 		{
 			get
@@ -140,7 +140,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		public bool ShowPageIndex
 		{
 			get
@@ -156,7 +156,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDirectoryFieldElement()
 		{
 			ContentReadonly = ContentReadonlyState.False;
@@ -164,7 +164,7 @@ namespace DCSoft.Writer.Dom
 			base.BorderVisible = DCVisibleState.Hidden;
 		}
 
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			base.AfterLoad(args);
@@ -189,7 +189,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_35(bool bool_21)
 		{
 			int num = 13;
@@ -280,8 +280,8 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		public void method_36()
 		{
 			if (ShowPageIndex)
@@ -325,13 +325,13 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_17(ReadHTMLEventArgs readHTMLEventArgs_0)
 		{
 			readHTMLEventArgs_0.ReadDCCustomAttributes(readHTMLEventArgs_0.HtmlElement, this);
 		}
 
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextDirectoryFieldElement xTextDirectoryFieldElement = (XTextDirectoryFieldElement)base.Clone(Deeply);

@@ -22,7 +22,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IDocumentNavigator))]
 	[Guid("EDD3C839-2F43-40D9-BDCF-63C4773AC1EB")]
-	[DCPublishAPI]
+	
 	public class DocumentNavigator : IDocumentNavigator
 	{
 		private class MyNodeEnumer : TreeNodeEnumerable
@@ -87,13 +87,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       根节点对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public NavigateNodeList Nodes => navigateNodeList_0;
 
 		/// <summary>
 		///       根据文档当前插入点的位置获得导航节点对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public NavigateNode CurrentNode
 		{
 			get
@@ -124,7 +124,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentNavigator()
 		{
 		}
@@ -133,7 +133,7 @@ namespace DCSoft.Writer
 		///       获得节点字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCPublishAPI]
+		
 		public string GetNodeString()
 		{
 			StringBuilder stringBuilder = new StringBuilder();
@@ -181,7 +181,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="id">节点编号</param>
 		/// <returns>节点对象</returns>
-		[DCPublishAPI]
+		
 		public NavigateNode GetNodeByID(string string_2)
 		{
 			if (string.IsNullOrEmpty(string_2))
@@ -215,7 +215,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       刷新导航信息结构
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Refresh()
 		{
 			if (XTextDocument.smethod_13(GEnum6.const_83))

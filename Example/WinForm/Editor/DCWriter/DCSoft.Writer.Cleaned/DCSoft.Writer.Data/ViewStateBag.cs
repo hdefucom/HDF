@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	[DocumentComment]
 	public class ViewStateBag : IDisposable, IDictionary

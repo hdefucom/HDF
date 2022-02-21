@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Data
 	[ComClass("00012345-6789-ABCD-EF01-234567890027", "04459E25-93E0-4256-8F3D-E7B1F4B1BD1D")]
 	[Guid("00012345-6789-ABCD-EF01-234567890027")]
 	[XmlType]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IKBEntry))]
 	[ComVisible(true)]
 	public class KBEntry : IKBEntry
@@ -91,7 +91,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       插入知识节点时是否复制列表项目到输入域元素中
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool CopyListItems
 		{
@@ -111,7 +111,7 @@ namespace DCSoft.Writer.Data
 		[Browsable(true)]
 		[XmlArrayItem("Attribute", typeof(XAttribute))]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public XAttributeList Attributes
 		{
 			get
@@ -132,7 +132,7 @@ namespace DCSoft.Writer.Data
 		///       编号
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string ID
 		{
 			get
@@ -153,7 +153,7 @@ namespace DCSoft.Writer.Data
 		///       节点名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Name
 		{
 			get
@@ -169,7 +169,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       应用范围掩码
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(0)]
 		public int RangeMask
 		{
@@ -188,7 +188,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public KBEntry Parent
 		{
@@ -210,7 +210,7 @@ namespace DCSoft.Writer.Data
 		///       父节点编号,DCWriter并不使用本属性，主要供应用程序组织成树状结构时临时使用,本属性值不保存到文件中。
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public string ParentID
 		{
 			get
@@ -235,7 +235,7 @@ namespace DCSoft.Writer.Data
 		///       拼音码
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string SpellCode
 		{
 			get
@@ -256,7 +256,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       拼音码
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string SpellCode2
 		{
@@ -278,7 +278,7 @@ namespace DCSoft.Writer.Data
 		///       拼音码
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string SpellCode3
 		{
 			get
@@ -317,7 +317,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       文本值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Text
 		{
 			get
@@ -338,7 +338,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       文本值2，一般用于多语言环境
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Text2
 		{
 			get
@@ -359,7 +359,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       数值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Value
 		{
 			get
@@ -379,7 +379,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       作废
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string EntryTemplateContent
 		{
@@ -396,7 +396,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       子节点
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlArrayItem("Entry", typeof(KBEntry))]
 		public KBEntryList SubEntries
@@ -422,7 +422,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       知识点样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(KBEntryStyle.List)]
 		public KBEntryStyle Style
 		{
@@ -443,7 +443,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       列表项目XML定义文件来源
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ListItemsSource
 		{
@@ -464,7 +464,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       列表序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(0)]
 		public int ListIndex
 		{
@@ -485,7 +485,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       对象是否可见
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool Visible
 		{
@@ -506,7 +506,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       附加数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public object Tag
@@ -524,7 +524,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       记录状态，在DCWriter中没有用处。仅为设计器提供支持。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		[XmlIgnore]
@@ -561,7 +561,7 @@ namespace DCSoft.Writer.Data
 		///       列表项目
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlArrayItem("Item", typeof(ListItem))]
 		public ListItemCollection ListItems
 		{
@@ -587,7 +587,7 @@ namespace DCSoft.Writer.Data
 		///       表示列表项目的文本,内部使用
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public string ListItemsText
 		{
@@ -604,7 +604,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       标准图标序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int StdImageIndex
 		{
@@ -629,7 +629,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       知识节点拥有者等级
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(EntryOwnerLevel.Global)]
 		public EntryOwnerLevel OwnerLevel
 		{
@@ -651,7 +651,7 @@ namespace DCSoft.Writer.Data
 		///       知识库节点拥有者编号
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string OwnerID
 		{
 			get
@@ -672,7 +672,7 @@ namespace DCSoft.Writer.Data
 		///       是否缓存列表数据
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		public bool BufferItems
 		{
 			get
@@ -688,7 +688,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public KBEntry()
 		{
 		}

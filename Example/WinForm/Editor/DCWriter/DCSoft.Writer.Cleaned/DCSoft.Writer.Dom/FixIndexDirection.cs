@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       插入点位置修正方向
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public enum FixIndexDirection
 	{
 		/// <summary>

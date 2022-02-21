@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[Guid("00012345-6789-ABCD-EF01-234567890073")]
 	[Editor(typeof(ValueEditorActiveModeEditor), typeof(UITypeEditor))]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Flags]
 	public enum ValueEditorActiveMode
 	{

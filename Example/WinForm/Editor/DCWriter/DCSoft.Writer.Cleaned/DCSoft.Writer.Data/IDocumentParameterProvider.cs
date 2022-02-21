@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Data
 	///       文档参数提供者接口 
 	///       </summary>
 	[DocumentComment]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public interface IDocumentParameterProvider
 	{

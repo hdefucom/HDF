@@ -33,7 +33,7 @@ namespace DCSoft.Writer.Controls
 	[DocumentComment]
 	[ToolboxBitmap(typeof(WriterControl))]
 	[Designer(typeof(WebWriterControlDesigner))]
-	[DCPublishAPI]
+	
 	public sealed class WebWriterControl : WebControl
 	{
 		/// <summary>

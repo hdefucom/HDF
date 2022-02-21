@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IDocumentOutlineNodeList))]
 	public class DocumentOutlineNodeList : List<DocumentOutlineNode>, IDocumentOutlineNodeList
 	{
@@ -43,7 +43,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentOutlineNodeList()
 		{
 		}

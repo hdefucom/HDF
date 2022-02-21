@@ -13,6 +13,6 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[Guid("611852F5-9124-4928-B55A-272B5EF856D7")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public delegate void WriterExpressionFunctionEventHandler(object sender, WriterExpressionFunctionEventArgs e);
 }

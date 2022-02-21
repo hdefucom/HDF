@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	/// <param name="args">参数</param>
 	[Guid("F886DD59-6F8D-4FEC-B1B5-34990D93B71D")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public delegate void SelectionChangingEventHandler(object sender, SelectionChangingEventArgs e);
 }

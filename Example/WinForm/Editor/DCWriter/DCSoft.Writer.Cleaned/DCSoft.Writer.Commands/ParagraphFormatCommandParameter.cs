@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Commands
 	[ComDefaultInterface(typeof(IParagraphFormatCommandParameter))]
 	[Guid("8D524B16-89EB-48E6-952E-7AEDF1B94DA5")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	public class ParagraphFormatCommandParameter : IParagraphFormatCommandParameter
 	{
 		internal const string CLASSID = "8D524B16-89EB-48E6-952E-7AEDF1B94DA5";

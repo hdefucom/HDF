@@ -101,7 +101,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="document">文档对象</param>
 		/// <param name="entry">知识库节点</param>
 		/// <param name="inputSource">输入来源</param>
-		[DCInternal]
+		
 		public CreateElementsByKBEntryEventArgs(XTextDocument document, KBEntry entry, InputValueSource inputSource)
 		{
 			_Host = document.AppHost;

@@ -301,7 +301,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       显示状态信息对话框
 		///       </summary>
-		[DCInternal]
+		
 		public void ShowDialog()
 		{
 			ShowDialog(null);
@@ -312,7 +312,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		/// <param name="owner">
 		/// </param>
-		[DCInternal]
+		
 		public void ShowDialog(IWin32Window owner)
 		{
 			if (UserCancel)

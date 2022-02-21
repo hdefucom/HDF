@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ToolboxItem(false)]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	internal class DeveloperToolsControl : UserControl, IMessageFilter, GInterface18
 	{
 		private IContainer icontainer_0 = null;

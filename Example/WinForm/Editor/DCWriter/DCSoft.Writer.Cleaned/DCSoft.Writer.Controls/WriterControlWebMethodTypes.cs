@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Controls
 	///       编辑器事件类型
 	///       </summary>
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("5699CA97-5A44-410E-BFC1-B736EA8F067E")]
 	[Flags]
 	public enum WriterControlWebMethodTypes

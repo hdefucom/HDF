@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	///       控件开始编辑文档事件参数
 	///       </summary>
 	[ComClass("07142DDF-C237-4185-8F34-CF965211B1C5", "2800DB6D-3FA6-4397-9723-35B24B6994BA")]
-	[DCPublishAPI]
+	
 	[Guid("07142DDF-C237-4185-8F34-CF965211B1C5")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IWriterStartEditEventArgs))]
@@ -37,7 +37,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[DefaultValue(null)]
 		public string DocumentID
@@ -71,7 +71,7 @@ namespace DCSoft.Writer
 		///       文档内容只读
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool Readonly
 		{
@@ -90,7 +90,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[DefaultValue(true)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		public bool CanDetectAgain
 		{
 			get
@@ -106,7 +106,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       重新加载了文档
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ReloadDocument
 		{
 			get
@@ -124,7 +124,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="ctl">编辑器控件对象</param>
 		/// <param name="doc">文档对象</param>
-		[DCInternal]
+		
 		public WriterStartEditEventArgs(WriterControl writerControl_0, XTextDocument xtextDocument_0)
 			: base(writerControl_0, xtextDocument_0, null)
 		{

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class GClass15
 	{
 		public virtual IImmProvider CreateImmProvider(WriterControl writerControl_0)

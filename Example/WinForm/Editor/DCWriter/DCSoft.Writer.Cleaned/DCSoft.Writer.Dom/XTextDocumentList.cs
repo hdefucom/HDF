@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(true)]
@@ -37,7 +37,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       额外的属性
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XAttributeList Attributes
 		{
 			get
@@ -53,7 +53,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       当前文档编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int CurrentDocumentIndex
 		{
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       第一个文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument FirstDocument
 		{
 			get
@@ -86,7 +86,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       最后一个文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument LastDocument
 		{
 			get
@@ -102,7 +102,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       所有文档对象的文档页集合
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PrintPageCollection AllPages
 		{
 			get
@@ -127,7 +127,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       标题
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string Title
 		{
@@ -163,7 +163,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocumentList()
 		{
 		}
@@ -173,7 +173,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="document">
 		/// </param>
-		[DCPublishAPI]
+		
 		public XTextDocumentList(XTextDocument document)
 		{
 			Add(document);
@@ -188,7 +188,7 @@ namespace DCSoft.Writer.Dom
 		/// </returns>
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCPublishAPI]
+		
 		public XTextDocument GetItem(int index)
 		{
 			return base[index];
@@ -198,7 +198,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public XTextDocumentList Clone()
 		{
 			XTextDocumentList xTextDocumentList = new XTextDocumentList();
@@ -217,7 +217,7 @@ namespace DCSoft.Writer.Dom
 		///       追加内容到本列表的最后一个文档对象
 		///       </summary>
 		/// <param name="document">文档对象</param>
-		[DCPublishAPI]
+		
 		public void MegeAddToLastDocument(XTextDocument document)
 		{
 			int num = 3;
@@ -242,7 +242,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextDocument ComGetItem(int index)
 		{
 			return base[index];
@@ -254,7 +254,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, XTextDocument item)
 		{
 			base[index] = item;

@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[DocumentComment]
 	[XmlType("DField")]
-	[DCInternal]
+	
 	[DebuggerDisplay("Field")]
 	[ComVisible(false)]
 	public class XTextDocumentFieldElement : XTextFieldElementBase

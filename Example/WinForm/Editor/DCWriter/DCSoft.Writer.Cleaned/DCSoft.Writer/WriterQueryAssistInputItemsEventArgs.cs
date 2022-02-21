@@ -15,7 +15,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("9CFCD4DB-9E8E-47D7-A63C-6DD4FE1E52D6", "3009CECC-4947-48D0-81D5-E94E5DDF77C6")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IWriterQueryAssistInputItemsEventArgs))]
 	[ComVisible(true)]
@@ -39,7 +39,7 @@ namespace DCSoft.Writer
 		///       插入点所在的容器元素
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextContainerElement ContainerElement => _ContainerElement;
 
 		/// <summary>
@@ -47,7 +47,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[XmlIgnore]
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public List<string> Items
 		{
 			get
@@ -67,7 +67,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       字符串个数
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public int Count => Items.Count;
 
@@ -76,7 +76,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[XmlElement]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string PreWord
 		{
 			get
@@ -93,7 +93,7 @@ namespace DCSoft.Writer
 		///       用户取消操作
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		public bool Cancel
 		{
@@ -107,7 +107,7 @@ namespace DCSoft.Writer
 			}
 		}
 
-		[DCInternal]
+		
 		public WriterQueryAssistInputItemsEventArgs(WriterControl writerControl_0, XTextDocument document, XTextContainerElement containerElement, string preWord, List<string> items)
 			: base(writerControl_0, document, containerElement)
 		{
@@ -127,7 +127,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public string GetItem(int index)
 		{
 			return Items[index];
@@ -138,7 +138,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="item">
 		/// </param>
-		[DCPublishAPI]
+		
 		public void AddItem(string item)
 		{
 			Items.Add(item);

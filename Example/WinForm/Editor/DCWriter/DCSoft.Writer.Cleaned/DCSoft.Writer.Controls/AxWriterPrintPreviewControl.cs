@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Controls
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[Guid("00012345-6789-ABCD-EF01-2345678900EE")]
 	[ToolboxItem(false)]
 	[ComDefaultInterface(typeof(IAxWriterPrintPreviewControl))]
@@ -466,7 +466,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public int GetInterfaceSafetyOptions(ref Guid riid, ref int pdwSupportedOptions, ref int pdwEnabledOptions)
 		{
@@ -514,7 +514,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public int SetInterfaceSafetyOptions(ref Guid riid, int dwOptionSetMask, int dwEnabledOptions)
 		{

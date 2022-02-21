@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 namespace DCSoft.Writer.Dom
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public interface IDCElementIDForEditableDependentExecuter
 	{

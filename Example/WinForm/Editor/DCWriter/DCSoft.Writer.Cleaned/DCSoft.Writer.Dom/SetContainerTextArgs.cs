@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComDefaultInterface(typeof(ISetContainerTextArgs))]
 	[ComClass("BA1506BC-CC0F-4683-B9C0-6CA1596EA4DB", "12D3C309-EADD-4676-A08A-BE94889047AC")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
@@ -49,7 +49,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       事件来源
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ContentChangedEventSource EventSource
 		{
 			get
@@ -65,7 +65,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       新文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string NewText
 		{
 			get
@@ -81,7 +81,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       忽略掉显示格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool IgnoreDisplayFormat
 		{
 			get
@@ -97,7 +97,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       访问标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DomAccessFlags AccessFlags
 		{
 			get
@@ -113,7 +113,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       禁止授权操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool DisablePermission
 		{
 			get
@@ -129,7 +129,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文本文档视图
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool UpdateContent
 		{
 			get
@@ -145,7 +145,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否记录撤销操作信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool LogUndo
 		{
 			get
@@ -161,7 +161,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       让容器获得输入焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool FocusContainer
 		{
 			get
@@ -177,7 +177,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否触发文档的DocumentContentChanged事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool RaiseDocumentContentChangedEvent
 		{
 			get
@@ -193,7 +193,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       新文本的样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentContentStyle NewTextStyle
 		{
 			get
@@ -209,7 +209,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       新的段落样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentContentStyle NewParagraphStyle
 		{
 			get
@@ -225,7 +225,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否触发事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool RaiseEvent
 		{
 			get
@@ -241,7 +241,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否显示用户界面
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ShowUI
 		{
 			get

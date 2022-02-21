@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public class GClass95 : IDisposable

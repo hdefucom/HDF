@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-234567890030")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum KBEntryStyle
 	{

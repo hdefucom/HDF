@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("149FA571-DB38-45CC-840A-B82B633998A3")]
-	[DCPublishAPI]
+	
 	public enum PrintVisibilityModeWhenUnchecked
 	{
 		/// <summary>

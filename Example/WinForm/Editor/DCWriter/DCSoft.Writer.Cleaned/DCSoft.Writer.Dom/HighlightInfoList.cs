@@ -132,7 +132,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public void ClearContent()
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -197,7 +197,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public void SortInfo()
 		{
 			float tickCountFloat = CountDown.GetTickCountFloat();

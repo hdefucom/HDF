@@ -15,7 +15,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
     [ComVisible(false)]
-    [DCInternal]
+    
     [ToolboxItem(false)]
     public class DCRulerControl : Control
     {

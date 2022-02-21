@@ -9,7 +9,7 @@ namespace DCSoft.WinForms
 	/// <summary>
 	///       系统消息框显示者
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class MessageBoxShower
 	{

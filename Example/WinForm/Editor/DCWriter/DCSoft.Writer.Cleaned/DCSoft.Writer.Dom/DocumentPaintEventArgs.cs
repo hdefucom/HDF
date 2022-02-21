@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       绘制文档内容事件参数
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	[DocumentComment]
 	public class DocumentPaintEventArgs : EventArgs, ICloneable
@@ -86,7 +86,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       允许绘制网格线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool EnabledDrawGridLine
 		{
 			get
@@ -102,7 +102,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       在计算元素大小时是否检查元素的SizeInvalidte属性值。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CheckSizeInvalidateWhenRefreshSize
 		{
 			get
@@ -118,7 +118,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       处于续打模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool JumpPrintMode
 		{
 			get
@@ -134,7 +134,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       视图模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PageViewMode ViewMode
 		{
 			get
@@ -150,7 +150,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       相关的文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -166,7 +166,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocumentContentElement DocumentContentElement
 		{
 			get
@@ -182,7 +182,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       要绘制的内容处于激活模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ActiveMode
 		{
 			get
@@ -198,7 +198,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       相关的文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement Element
 		{
 			get
@@ -214,7 +214,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档内容类型
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PageContentPartyStyle Type
 		{
 			get
@@ -230,7 +230,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       绘制文档内容使用的样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RuntimeDocumentContentStyle Style
 		{
 			get
@@ -246,7 +246,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       用户取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -262,7 +262,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       图形内容呈现器
 		///       </summary>
-		[DCInternal]
+		
 		public GClass95 Render
 		{
 			get
@@ -278,7 +278,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       正在呈现的文档样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentRenderMode RenderMode
 		{
 			get
@@ -294,13 +294,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       正在打印文档中被选中的区域的模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool PrintSelectionMode => Options != null && Options.PrintRange == PrintRange.Selection;
 
 		/// <summary>
 		///       正在为创建图片而绘制图形
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ForCreateImage
 		{
 			get
@@ -316,7 +316,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       绘图对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DCGraphics Graphics
 		{
 			get
@@ -332,7 +332,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       分页线位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int[] PageLinePositions
 		{
 			get
@@ -348,7 +348,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       页面剪切矩形
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF PageClipRectangle
 		{
 			get
@@ -364,7 +364,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       页面对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PrintPage Page
 		{
 			get
@@ -380,7 +380,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       从0开始计算的页码号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int PageIndex
 		{
 			get
@@ -396,7 +396,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       剪切矩形
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF ClipRectangle
 		{
 			get
@@ -413,7 +413,7 @@ namespace DCSoft.Writer.Dom
 		///       打印文档选项
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public DCPrintDocumentOptions Options
 		{
 			get
@@ -429,13 +429,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否处于区域选择显示模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool HasBoundSelection => Options != null && Options.HasBoundSelection;
 
 		/// <summary>
 		///       边界
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF Bounds
 		{
 			get
@@ -451,7 +451,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       绘图区域的矩形数组
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF[] DrawRectangles
 		{
 			get
@@ -467,7 +467,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       缩放比率
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float ScaleRate
 		{
 			get
@@ -483,7 +483,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象的区域
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF ViewBounds
 		{
 			get
@@ -499,7 +499,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象客户区的边界
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF ClientViewBounds
 		{
 			get
@@ -517,7 +517,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="g">绘图对象</param>
 		/// <param name="clipRectangle">剪切矩形</param>
-		[DCInternal]
+		
 		public DocumentPaintEventArgs(DCGraphics dcgraphics_0, RectangleF clipRectangle)
 		{
 			_Graphics = dcgraphics_0;
@@ -536,7 +536,7 @@ namespace DCSoft.Writer.Dom
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public bool IsVisible(RenderVisibility visi)
 		{
 			if (RenderMode == DocumentRenderMode.Print)

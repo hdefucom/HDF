@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Controls
 	///       授权信息显示模式
 	///       </summary>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[Guid("AB1ED97F-B476-49DF-AF30-937F344E05CD")]
 	public enum DCLicenceDisplayMode

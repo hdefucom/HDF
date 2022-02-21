@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class LinkClickEventArgs : EventArgs
 	{
 		private XTextDocument myDocument = null;
@@ -21,19 +21,19 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => myDocument;
 
 		/// <summary>
 		///       触发链接的文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement Element => myElement;
 
 		/// <summary>
 		///       链接目标地址
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Link => strLink;
 
 		/// <summary>
@@ -42,7 +42,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="e">元素</param>
 		/// <param name="link">链接目标</param>
-		[DCInternal]
+		
 		public LinkClickEventArgs(XTextDocument xtextDocument_0, XTextElement xtextElement_0, string link)
 		{
 			myDocument = xtextDocument_0;

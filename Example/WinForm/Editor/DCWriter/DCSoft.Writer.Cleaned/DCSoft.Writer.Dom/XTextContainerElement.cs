@@ -29,7 +29,7 @@ namespace DCSoft.Writer.Dom
 	///       </remarks>
 	[Serializable]
 	[ComDefaultInterface(typeof(IXTextContainerElement))]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890050", "20D11DD0-C872-4394-9B47-53C6BB2B5BC1")]
 	[Guid("00012345-6789-ABCD-EF01-234567890050")]
@@ -150,7 +150,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       最后一次绘制内容的结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
@@ -195,7 +195,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[ComVisible(true)]
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		public int MaxInputLength
 		{
 			get
@@ -227,7 +227,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[MemberExpressionable]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public virtual string DataName
 		{
 			get
@@ -247,7 +247,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(false)]
 		[ComVisible(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public bool CanBeReferenced
 		{
 			get
@@ -264,7 +264,7 @@ namespace DCSoft.Writer.Dom
 		///       保存文档时是否将该节点数据单独拿出来保存。需要应用程序支持。
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[HtmlAttribute]
 		[MemberExpressionable]
@@ -285,7 +285,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[MemberExpressionable]
 		public string ReferencedDataName
@@ -303,7 +303,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       提示文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[ComVisible(true)]
 		[MemberExpressionable]
@@ -339,7 +339,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(false)]
 		[HtmlAttribute]
 		[ReadOnly(true)]
-		[DCInternal]
+		
 		[DefaultValue(MoveFocusHotKeys.None)]
 		[XmlIgnore]
 		public virtual MoveFocusHotKeys RuntimeMoveFocusHotKey
@@ -357,7 +357,7 @@ namespace DCSoft.Writer.Dom
 		///       能否接受制表符，默认false。
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[MemberExpressionable]
 		public virtual bool AcceptTab
@@ -376,7 +376,7 @@ namespace DCSoft.Writer.Dom
 		///       获取或设置一个运行时的值，该值指示用户能否使用 Tab 键将焦点放到该元素中上。 
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual bool RuntimeTabStop => false;
 
 		/// <summary>
@@ -387,7 +387,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(false)]
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		public bool WebClientSelected
 		{
 			get
@@ -408,7 +408,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       客户端单击执行的javascript脚本。当Options.BehaviorOptions.EnableExpression为false时，本属性无效。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		public string JavaScriptForClick
@@ -428,7 +428,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public string JavaScriptForDoubleClick
 		{
 			get
@@ -445,7 +445,7 @@ namespace DCSoft.Writer.Dom
 		///       属性值表达式列表
 		///       </summary>
 		[XmlArrayItem("Item", typeof(PropertyExpressionInfo))]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[Browsable(true)]
 		[ComVisible(true)]
@@ -488,7 +488,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[DefaultValue(false)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool EnableValueValidate
 		{
 			get
@@ -506,13 +506,13 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public ValueValidateResult LastValidateResult => valueValidateResult_0;
 
 		/// <summary>
 		///       数据验证样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		public virtual ValueValidateStyle ValidateStyle
@@ -544,7 +544,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       包含了未分页处理的分页符号
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		internal virtual bool ContainsUnHandledPageBreak
 		{
@@ -564,7 +564,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       自动隐藏模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(ContainerAutoHideMode.None)]
 		public ContainerAutoHideMode AutoHideMode
 		{
@@ -581,7 +581,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       元素内容是否改变
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(true)]
@@ -605,22 +605,22 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否具有内容元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual bool HasContentElement => bool_13;
 
 		/// <summary>
 		///       是否具有数据源绑定信息对象实例
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool HasValueBinding => xdataBinding_0 != null;
 
 		/// <summary>
 		///       内容绑定对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[Browsable(true)]
 		[HtmlAttribute]
@@ -651,7 +651,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[ComVisible(true)]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public string DefaultValueForValueBinding
 		{
@@ -670,7 +670,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[Browsable(true)]
 		[XmlIgnore]
 		[DefaultValue(null)]
@@ -690,7 +690,7 @@ namespace DCSoft.Writer.Dom
 		///       使用了数据源节点的数值
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		[ComVisible(false)]
 		[Browsable(true)]
@@ -710,14 +710,14 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       最后一次执行数据源绑定时的内容版本号
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public int DataBindingContentVersion => int_7;
 
 		[XmlIgnore]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public override string FormulaValue
 		{
 			get
@@ -747,7 +747,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string ElementIDForEditableDependent
 		{
 			get
@@ -763,7 +763,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       元素内容只读性表达式。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DefaultValue(null)]
 		[HtmlAttribute]
@@ -798,7 +798,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public string VisibleExpression
 		{
 			get
@@ -824,7 +824,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       数值表达式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ValueExpression
 		{
@@ -854,7 +854,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public object TagValue
 		{
 			get
@@ -873,7 +873,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(0)]
 		[Browsable(false)]
 		public int UserFlags
@@ -895,7 +895,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[HtmlAttribute]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual DCBooleanValue EnablePermission
 		{
 			get
@@ -912,7 +912,7 @@ namespace DCSoft.Writer.Dom
 		///       运行时的内容是否启用授权控制
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual bool RuntimeEnablePermission
 		{
 			get
@@ -944,7 +944,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[HtmlAttribute]
 		public DCContentLockInfo ContentLock
@@ -986,7 +986,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(ContentReadonlyState.Inherit)]
 		[Browsable(true)]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
-		[DCPublishAPI]
+		
 		public virtual ContentReadonlyState ContentReadonly
 		{
 			get
@@ -1002,7 +1002,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       DCWriter内部使用。
 		///       </summary>
-		[DCInternal]
+		
 		[Obsolete("DCWriter内部使用，请勿调用。")]
 		[ComVisible(false)]
 		[Browsable(false)]
@@ -1026,7 +1026,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ReadOnly(true)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual bool RuntimeContentReadonly
 		{
 			get
@@ -1084,7 +1084,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public override XTextDocument OwnerDocument
 		{
 			get
@@ -1108,7 +1108,7 @@ namespace DCSoft.Writer.Dom
 		///       表达式列表
 		///       </summary>
 		[XmlArrayItem("Expression", typeof(DomExpression))]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public virtual DomExpressionList Expressions
 		{
@@ -1130,7 +1130,7 @@ namespace DCSoft.Writer.Dom
 		///       脚本项目列表
 		///       </summary>
 		[XmlArrayItem("Item", typeof(VBScriptItem))]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public virtual VBScriptItemList ScriptItems
 		{
@@ -1152,7 +1152,7 @@ namespace DCSoft.Writer.Dom
 		///       返回运行时使用的脚本信息对象列表
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		[ComVisible(false)]
 		public override VBScriptItemList RuntimeScriptItems => vbscriptItemList_0;
@@ -1163,7 +1163,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(true)]
 		[DefaultValue(null)]
 		[XmlArrayItem("Attribute", typeof(XAttribute))]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public override XAttributeList Attributes
 		{
@@ -1195,7 +1195,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		public virtual CopySourceInfo CopySource
 		{
 			get
@@ -1211,7 +1211,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档元素事件模板名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string EventTemplateName
 		{
@@ -1230,7 +1230,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public ContentBuilder ContentBuilder
 		{
@@ -1252,7 +1252,7 @@ namespace DCSoft.Writer.Dom
 		///       第一个子元素
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual XTextElement FirstChild
 		{
 			get
@@ -1269,7 +1269,7 @@ namespace DCSoft.Writer.Dom
 		///       最后一个子元素
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual XTextElement LastChild
 		{
 			get
@@ -1286,7 +1286,7 @@ namespace DCSoft.Writer.Dom
 		///       子元素列表
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public override XTextElementList Elements
 		{
@@ -1312,7 +1312,7 @@ namespace DCSoft.Writer.Dom
 		///       子元素的个数
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public int ElementsCount
 		{
 			get
@@ -1330,7 +1330,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		[DefaultValue(0)]
 		public int ElementsForSerializeCount
 		{
@@ -1351,7 +1351,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       为XML序列化/反序列化的子元素列表
 		///       </summary>
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		[XmlArray("XElements", IsNullable = true)]
@@ -1375,7 +1375,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       子孙元素中第一个显示在文档内容中的元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public override XTextElement FirstContentElement
 		{
@@ -1412,7 +1412,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       子孙元素中第一个显示在文档内容中的元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public override XTextElement LastContentElement
 		{
@@ -1461,8 +1461,8 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[ComVisible(true)]
-		[DCInternal]
-		[DCPublishAPI]
+		
+		
 		public override bool HasSelection
 		{
 			get
@@ -1487,7 +1487,7 @@ namespace DCSoft.Writer.Dom
 		///       允许接收的子元素类型
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public virtual ElementType RuntimeAcceptChildElementTypes => AcceptChildElementTypes2;
 
@@ -1495,7 +1495,7 @@ namespace DCSoft.Writer.Dom
 		///       能接收的子元素类型
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[DefaultValue(ElementType.All)]
 		public ElementType AcceptChildElementTypes2
@@ -1516,7 +1516,7 @@ namespace DCSoft.Writer.Dom
 		/// <returns>
 		/// </returns>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual string PreviewString
 		{
 			get
@@ -1541,7 +1541,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       容器元素中包含的所有的复选框元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(false)]
 		[XmlIgnore]
@@ -1550,7 +1550,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       容器元素中包含的所有的单选框元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[ComVisible(true)]
 		[Browsable(false)]
@@ -1714,7 +1714,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlElement]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[DefaultValue(ElementVisibility.Visible)]
 		public virtual ElementVisibility PrintVisibility
@@ -1736,7 +1736,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(true)]
 		[Browsable(true)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public override bool Visible
 		{
@@ -1754,7 +1754,7 @@ namespace DCSoft.Writer.Dom
 		///       元素占据排版位置，能参与文档内容排版。
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public override bool RuntimeLayoutable
 		{
 			get
@@ -1774,7 +1774,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[DefaultValue(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public bool Deleteable
 		{
 			get
@@ -1802,7 +1802,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		protected XTextContainerElement()
 		{
 			xtextElementList_0 = new XTextElementList();
@@ -1823,7 +1823,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(true)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public void ClearLastRenderResult()
 		{
@@ -1847,7 +1847,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="result">数据回填信息对象列表</param>
 		/// <param name="checkContentVersion">是否检查版本号</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual void CollectDataFeedback(DataFeedbackInfoList result, bool checkContentVersion)
 		{
@@ -1907,7 +1907,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override PropertyExpressionInfoList GetRuntimePropertyExpressions()
 		{
 			PropertyExpressionInfoList propertyExpressionInfoList = PropertyExpressions;
@@ -1919,7 +1919,7 @@ namespace DCSoft.Writer.Dom
 			return propertyExpressionInfoList;
 		}
 
-		[DCInternal]
+		
 		public virtual bool vmethod_23(bool bool_17)
 		{
 			if (valueValidateResult_0 != null)
@@ -1938,7 +1938,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCPublishAPI]
+		
 		public virtual ValueValidateResult vmethod_24(bool bool_17)
 		{
 			int num = 15;
@@ -2077,7 +2077,7 @@ namespace DCSoft.Writer.Dom
 			return valueValidateResult_0;
 		}
 
-		[DCInternal]
+		
 		public override HighlightInfoList vmethod_20()
 		{
 			if (EnableValueValidate && valueValidateResult_0 != null)
@@ -2097,7 +2097,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public override GClass96 GetToolTipInfo()
 		{
 			if (LastValidateResult != null)
@@ -2116,7 +2116,7 @@ namespace DCSoft.Writer.Dom
 			return base.GetToolTipInfo();
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_25()
 		{
 			if (valueValidateResult_0 == null)
@@ -2138,7 +2138,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		protected void method_13(ContentChangedEventArgs contentChangedEventArgs_0)
 		{
 			bool flag = false;
@@ -2169,7 +2169,7 @@ namespace DCSoft.Writer.Dom
 		///       提交所有用户的修改记录。删除被逻辑删除的内容，清除用户修改痕迹。
 		///       </summary>
 		/// <returns>操作是否修改了文档内容</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual bool CommitUserTrace()
 		{
@@ -2207,7 +2207,7 @@ namespace DCSoft.Writer.Dom
 			return result;
 		}
 
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Obsolete("已经不推荐使用了，跪求使用UpdateDataBindingSpecifyDataSource()")]
 		public int method_14(bool bool_17)
@@ -2224,7 +2224,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="dataSource">绑定的数据源对象</param>
 		/// <param name="fastMode">快速模式</param>
 		/// <returns>操作是否导致了文档内容发生改变的处数</returns>
-		[DCInternal]
+		
 		[Obsolete("!!!!已过时，请使用UpdateDataBindingExt(UpdateDataBindingArgs args)!!")]
 		public virtual int UpdateDataBindingSpecifyDataSource(object dataSource, bool fastMode)
 		{
@@ -2247,7 +2247,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="dataSource">绑定的数据源对象</param>
 		/// <param name="fastMode">快速模式</param>
 		/// <returns>操作是否导致了文档内容发生改变的处数</returns>
-		[DCInternal]
+		
 		public virtual int UpdateDataBindingExt(UpdateDataBindingArgs args)
 		{
 			int num = 9;
@@ -2351,7 +2351,7 @@ namespace DCSoft.Writer.Dom
 			return num2;
 		}
 
-		[DCInternal]
+		
 		protected virtual bool vmethod_26(string string_14, bool bool_17)
 		{
 			if (string.IsNullOrEmpty(string_14))
@@ -2384,7 +2384,7 @@ namespace DCSoft.Writer.Dom
 		///       使用当前用户信息锁定文档元素内容
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool SetContentLockByCurrentUser()
 		{
@@ -2411,7 +2411,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="authoriseUserIDList">授权操作的用户ID列表，各个列表之间用英文逗号分开</param>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool SetContentLock(string userID, string authoriseUserIDList, bool logUndo)
 		{
@@ -2436,7 +2436,7 @@ namespace DCSoft.Writer.Dom
 			return true;
 		}
 
-		[DCInternal]
+		
 		public virtual bool vmethod_27(GClass108 gclass108_0, int int_10)
 		{
 			if (OwnerDocument != null && OwnerDocument.EditorControl != null)
@@ -2488,7 +2488,7 @@ namespace DCSoft.Writer.Dom
 			return flag;
 		}
 
-		[DCInternal]
+		
 		public virtual RuntimeDocumentContentStyle vmethod_28(XTextElement xtextElement_0)
 		{
 			RuntimeDocumentContentStyle runtimeStyle = RuntimeStyle;
@@ -2505,7 +2505,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="name">属性名</param>
 		/// <returns>获得的属性值</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public override string GetAttribute(string name)
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_180))
@@ -2525,7 +2525,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="name">属性名</param>
 		/// <param name="Value">属性值</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public override bool SetAttribute(string name, string Value)
 		{
@@ -2546,7 +2546,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <returns>是否存在</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public override bool HasAttribute(string name)
 		{
@@ -2578,7 +2578,7 @@ namespace DCSoft.Writer.Dom
 		///       如果该选项为false，则没有任何痕迹信息，而且被标记为逻辑删除的内容会还原出来。
 		///       </remarks>
 		/// <returns>创建的文档对象</returns>
-		[DCPublishAPI]
+		
 		public override XTextDocument CreateContentDocument(bool includeThis)
 		{
 			XTextElementList xTextElementList = new XTextElementList();
@@ -2597,8 +2597,8 @@ namespace DCSoft.Writer.Dom
 		///       获得所有的文档元素对象,包括自己
 		///       </summary>
 		/// <returns>元素列表</returns>
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		[ComVisible(true)]
 		public virtual XTextElementList GetAllElements()
 		{
@@ -2611,9 +2611,9 @@ namespace DCSoft.Writer.Dom
 		///       获得所有的文档元素对象,包括自己,但不包括任何字符元素
 		///       </summary>
 		/// <returns>元素列表</returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual XTextElementList GetAllElementsWithoutCharElement()
 		{
 			XTextElementList xTextElementList = new XTextElementList();
@@ -2636,12 +2636,12 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		internal virtual void vmethod_29(XTextElementList xtextElementList_2)
 		{
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_21(string string_14)
 		{
 			int num = 13;
@@ -2663,7 +2663,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_22()
 		{
 			xtextElementList_1 = null;
@@ -2678,7 +2678,7 @@ namespace DCSoft.Writer.Dom
 		///       文档加载后的处理
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			if (propertyExpressionInfoList_0 != null && propertyExpressionInfoList_0.Count == 0)
@@ -2724,7 +2724,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		internal bool method_18(bool bool_17)
 		{
 			int num = 12;
@@ -2770,8 +2770,8 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对整个内容执行重新排版操作
 		///       </summary>
-		[DCInternal]
-		[DCPublishAPI]
+		
+		
 		public virtual void ExecuteLayout()
 		{
 		}
@@ -2782,7 +2782,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">指定的序号</param>
 		/// <param name="element">新添加的元素</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public virtual bool InsertChildElement(int index, XTextElement element)
 		{
 			if (element != null)
@@ -2803,7 +2803,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="newElement">新元素</param>
 		/// <param name="oldElement">已有的子元素</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool InsertBefore(XTextElement newElement, XTextElement oldElement)
 		{
@@ -2835,7 +2835,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="oldElement">已有的子元素</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool InsertAfter(XTextElement newElement, XTextElement oldElement)
 		{
 			int num = 3;
@@ -2861,9 +2861,9 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="element">新添加的元素</param>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual bool AppendChildElement(XTextElement element)
 		{
 			if (element is XTextDocument)
@@ -2910,7 +2910,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="element">要删除的子元素</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public virtual bool RemoveChild(XTextElement element)
 		{
 			if (element != null)
@@ -2923,7 +2923,7 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public virtual bool vmethod_30()
 		{
 			if (Parent != null && !Parent.RuntimeVisible)
@@ -2950,7 +2950,7 @@ namespace DCSoft.Writer.Dom
 			return true;
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_31(bool bool_17)
 		{
 			XTextDocument ownerDocument = OwnerDocument;
@@ -2997,7 +2997,7 @@ namespace DCSoft.Writer.Dom
 
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual int vmethod_32(XTextElementList xtextElementList_2, bool bool_17)
 		{
 			int num = 0;
@@ -3077,13 +3077,13 @@ namespace DCSoft.Writer.Dom
 			return num;
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_17(ReadHTMLEventArgs readHTMLEventArgs_0)
 		{
 			method_19(readHTMLEventArgs_0);
 		}
 
-		[DCInternal]
+		
 		protected void method_19(ReadHTMLEventArgs readHTMLEventArgs_0)
 		{
 			int num = 18;
@@ -3576,7 +3576,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_19(GClass103 gclass103_0)
 		{
 			XTextElementList xTextElementList = WriterUtils.smethod_59(Elements, gclass103_0.vmethod_0(), gclass103_0.method_12());
@@ -3603,7 +3603,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="Deeply">是否复制子孙节点</param>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextContainerElement xTextContainerElement = (XTextContainerElement)base.Clone(Deeply);
@@ -3677,7 +3677,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCInternal]
+		
 		public override void Dispose()
 		{
 			base.Dispose();
@@ -3753,7 +3753,7 @@ namespace DCSoft.Writer.Dom
 		///       遍历子孙文档元素
 		///       </summary>
 		/// <param name="handler">遍历过程的委托对象</param>
-		[DCInternal]
+		
 		public void Enumerate(ElementEnumerateEventHandler handler)
 		{
 			ElementEnumerateEventArgs args = new ElementEnumerateEventArgs();
@@ -3765,7 +3765,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="handler">遍历过程的委托对象</param>
 		/// <param name="includeSelfNode">是否包含节点本身</param>
-		[DCInternal]
+		
 		public void Enumerate(ElementEnumerateEventHandler handler, bool includeSelfNode)
 		{
 			ElementEnumerateEventArgs args = new ElementEnumerateEventArgs();
@@ -3778,7 +3778,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="handler">遍历过程的委托对象</param>
 		/// <param name="args">参数</param>
 		/// <param name="includeSelfNode">是否包含节点本身</param>
-		[DCInternal]
+		
 		public void Enumerate(ElementEnumerateEventHandler handler, ElementEnumerateEventArgs args, bool includeSelfNode)
 		{
 			int num = 5;
@@ -3884,7 +3884,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">指定的编号</param>
 		/// <returns>找到的元素对象</returns>
-		[DCPublishAPI]
+		
 		public virtual XTextElementList GetElementsByName(string name)
 		{
 			if (string.IsNullOrEmpty(name))
@@ -3920,7 +3920,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="styleIndex">样式编号</param>
 		/// <returns>找到的文档元素列表</returns>
-		[DCPublishAPI]
+		
 		public virtual XTextElementList GetElementsByStyleIndex(int styleIndex)
 		{
 			XTextElementList xTextElementList = new XTextElementList();
@@ -3943,7 +3943,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="dataSource">数据源名称</param>
 		/// <param name="bindingPath">绑定的路径</param>
 		/// <returns>获得的输入域元素</returns>
-		[DCPublishAPI]
+		
 		public virtual XTextInputFieldElement GetFirstFieldElementByDataSource(string dataSource, string bindingPath)
 		{
 			XTextElementList xTextElementList = method_21(dataSource, bindingPath);
@@ -3982,7 +3982,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="id">指定的编号</param>
 		/// <returns>找到的元素对象列表</returns>
-		[DCPublishAPI]
+		
 		public virtual XTextElementList GetElementsById(string string_14)
 		{
 			if (string.IsNullOrEmpty(string_14))
@@ -4025,7 +4025,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="id">指定的编号</param>
 		/// <returns>找到的元素对象</returns>
-		[DCPublishAPI]
+		
 		public virtual XTextElement GetElementById(string string_14)
 		{
 			return GetElementByIdExt(string_14, idAttributeOnly: false);
@@ -4037,7 +4037,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="id">指定的编号</param>
 		/// <param name="idAttributeOnly">只匹配元素ID属性</param>
 		/// <returns>找到的元素对象</returns>
-		[DCPublishAPI]
+		
 		public virtual XTextElement GetElementByIdExt(string string_14, bool idAttributeOnly)
 		{
 			if (string.IsNullOrEmpty(string_14))
@@ -4100,7 +4100,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="elementTypeName">元素类型名称</param>
 		/// <returns>获得的元素列表</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextElementList GetElementsByTypeName(string elementTypeName)
 		{
 			int num = 9;
@@ -4122,7 +4122,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="elementTypeName">文档元素类型名称</param>
 		/// <returns>获得的文档元素对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextElement GetFirstElementByTypeName(string elementTypeName)
 		{
 			int num = 12;
@@ -4143,7 +4143,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="elementType">元素类型</param>
 		/// <returns>获得的文档元素对象</returns>
-		[DCPublishAPI]
+		
 		public XTextElement GetLastElementByType(Type elementType)
 		{
 			int num = 2;
@@ -4193,7 +4193,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="elementType">文档元素类型</param>
 		/// <returns>获得的文档元素对象</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public XTextElement GetFirstElementByType(Type elementType)
 		{
 			int num = 10;
@@ -4233,7 +4233,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="elementType">元素类型</param>
 		/// <returns>获得的元素列表</returns>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public virtual XTextElementList GetElementsByType(Type elementType)
 		{
 			int num = 3;
@@ -4252,7 +4252,7 @@ namespace DCSoft.Writer.Dom
 		///       计算元素大小
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void RefreshSize(DocumentPaintEventArgs args)
 		{
 			if (Elements != null)
@@ -4276,7 +4276,7 @@ namespace DCSoft.Writer.Dom
 			SizeInvalid = false;
 		}
 
-		[DCInternal]
+		
 		public void method_22(ContentChangingEventArgs contentChangingEventArgs_0)
 		{
 			XTextContainerElement xTextContainerElement = this;
@@ -4292,7 +4292,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_33(ContentChangingEventArgs contentChangingEventArgs_0)
 		{
 			OwnerDocument.method_47(this, "ContentChanging", new object[2]
@@ -4313,7 +4313,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_23(ContentChangedEventArgs contentChangedEventArgs_0)
 		{
 			XTextContainerElement xTextContainerElement = this;
@@ -4337,7 +4337,7 @@ namespace DCSoft.Writer.Dom
 		///       处理文档消息事件
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void HandleDocumentEvent(DocumentEventArgs args)
 		{
 			base.HandleDocumentEvent(args);
@@ -4347,7 +4347,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void OnViewLostFocus(ElementEventArgs elementEventArgs_0)
 		{
 			if (OwnerDocument.Options.EditOptions.ValueValidateMode == DocumentValueValidateMode.LostFocus)
@@ -4357,7 +4357,7 @@ namespace DCSoft.Writer.Dom
 			base.OnViewLostFocus(elementEventArgs_0);
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_34(ContentChangedEventArgs contentChangedEventArgs_0)
 		{
 			int num = 10;
@@ -4466,7 +4466,7 @@ namespace DCSoft.Writer.Dom
 		///       结束设置文档元素样式，并设置所有的子孙节点元素
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		[Obsolete("请使用EditorSetStyleDeeply(style)")]
 		public virtual bool EndSetStyleDeeply()
 		{
@@ -4912,7 +4912,7 @@ namespace DCSoft.Writer.Dom
 		{
 		}
 
-		[DCInternal]
+		
 		public override bool vmethod_3(GInterface5 ginterface5_0)
 		{
 			if (base.OwnerLine == null)
@@ -4931,7 +4931,7 @@ namespace DCSoft.Writer.Dom
 			return base.OwnerLine.HtmlVisible;
 		}
 
-		[DCPublishAPI]
+		
 		public void method_25()
 		{
 			XTextContentElement contentElement = ContentElement;
@@ -5012,7 +5012,7 @@ namespace DCSoft.Writer.Dom
 		///       在编辑器中删除整个对象,但保留其内容
 		///       </summary>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
-		[DCPublishAPI]
+		
 		public virtual bool EditorDeletePreserveContent(bool logUndo)
 		{
 			if (this is XTextDocumentContentElement)
@@ -5047,7 +5047,7 @@ namespace DCSoft.Writer.Dom
 		///       在编辑器中删除整个对象
 		///       </summary>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
-		[DCPublishAPI]
+		
 		public virtual bool EditorDelete(bool logUndo)
 		{
 			if (this is XTextDocumentContentElement)
@@ -5087,7 +5087,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="newStyle">新样式</param>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual void EditorSetContentStyle(DocumentContentStyle newStyle, bool logUndo)
 		{
 			int num = 7;
@@ -5123,7 +5123,7 @@ namespace DCSoft.Writer.Dom
 		///       快速设置文档内容的样式，不记录撤销操作信息，不更新文档视图，不触发事件
 		///       </summary>
 		/// <param name="newStyle">新样式</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual bool EditorSetContentStyleFast(DocumentContentStyle newStyle)
 		{
@@ -5165,7 +5165,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       修复DOM结构状态
 		///       </summary>
-		[DCInternal]
+		
 		public override void FixDomState()
 		{
 			XTextDocument ownerDocument = OwnerDocument;

@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Controls
 	[Guid("00012345-6789-ABCD-EF01-234567890083")]
 	[ComVisible(true)]
 	[ToolboxBitmap(typeof(WriterPrintPreviewControl))]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ToolboxItem(true)]
 	public class WriterPrintPreviewControl : DCPrintPreviewControl
@@ -50,7 +50,7 @@ namespace DCSoft.Writer.Controls
 		///       销毁控件的时候自动销毁文档对象
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Category("Behavior")]
 		public bool AutoDisposeDocument
@@ -69,7 +69,7 @@ namespace DCSoft.Writer.Controls
 		///       是否启用续打
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool EnableJumpPrint
 		{
@@ -95,7 +95,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       最后一次打印的结果信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Data")]
 		[ComVisible(true)]
 		public PrintResult LastPrintResult => base.CurrentPrintResult;
@@ -108,7 +108,7 @@ namespace DCSoft.Writer.Controls
 		///       比如在打印后存储该属性值,下次打开文档后,再设置JumpPrintPosition属性值.
 		///       能设置上次打印结束的位置为续打起始位置.
 		///       </remarks>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[ComVisible(true)]
 		public int LastPrintPosition
@@ -126,7 +126,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       续打位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[ComVisible(true)]
@@ -166,7 +166,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public DocumentViewOptions SpecifyViewOptions
 		{
@@ -185,7 +185,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DefaultValue(false)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool CleanMode
 		{
 			get
@@ -204,7 +204,7 @@ namespace DCSoft.Writer.Controls
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XTextDocumentList TextDocuments
 		{
 			get
@@ -224,7 +224,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
@@ -248,7 +248,7 @@ namespace DCSoft.Writer.Controls
 		///       注册码
 		///       </summary>
 		[Category("Data")]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string RegisterCode
 		{
@@ -311,7 +311,7 @@ namespace DCSoft.Writer.Controls
 			xtextDocumentList_0 = null;
 		}
 
-		[DCInternal]
+		
 		protected override bool vmethod_0(string string_4)
 		{
 			int num = 8;
@@ -447,7 +447,7 @@ namespace DCSoft.Writer.Controls
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Obsolete("仅向COM公开，在.NET中不要调用")]
 		public object ComCallMethodByName(string name, string paramters)
@@ -463,7 +463,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="paramters">参数</param>
 		/// <returns>返回值</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Obsolete("仅向COM公开，在.NET中不要调用")]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public object ComCallInstanceMethodByName(object instance, string name, string paramters)
@@ -474,7 +474,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       清空文档
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ClearDocument()
 		{
@@ -507,7 +507,7 @@ namespace DCSoft.Writer.Controls
 		///       刷新打印预览显示
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public override void InvalidatePreview()
 		{
 			if (base.Options != null && base.Options.JumpPrint != null)
@@ -556,7 +556,7 @@ namespace DCSoft.Writer.Controls
 		///       已文档合并的方式刷新打印预览显示
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void InvalidatePreviewMegeDocument()
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_38))
@@ -622,7 +622,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="document">
 		/// </param>
-		[DCPublishAPI]
+		
 		public void AddDocument(XTextDocument document)
 		{
 			if (document != null)
@@ -637,7 +637,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="text">文本数据</param>
 		/// <param name="format">指定的文档格式</param>
-		[DCPublishAPI]
+		
 		public void AddDocumenByText(string text, string format)
 		{
 			if (!string.IsNullOrEmpty(text))
@@ -654,7 +654,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="bs">二进制数据</param>
 		/// <param name="format">文档格式</param>
-		[DCPublishAPI]
+		
 		public void AddDocumentByBinary(byte[] byte_0, string format)
 		{
 			if (byte_0 != null && byte_0.Length > 0)
@@ -672,7 +672,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="base64Text">BASE64文本数据</param>
 		/// <param name="format">指定的文档格式</param>
-		[DCPublishAPI]
+		
 		public void AddDocumentByBase64Text(string base64Text, string format)
 		{
 			if (!string.IsNullOrEmpty(base64Text))
@@ -691,7 +691,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="stream">文件流</param>
 		/// <param name="format">文件格式</param>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public void AddDocument(Stream stream, string format)
 		{
@@ -709,7 +709,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="url">文件地址</param>
 		/// <param name="format">文件格式</param>
-		[DCPublishAPI]
+		
 		public void AddDocumentByUrl(string string_4, string format)
 		{
 			if (!string.IsNullOrEmpty(string_4))
@@ -781,7 +781,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="containerHandle">指定的窗体句柄对象</param>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		public bool AppendToContainerControl(int containerHandle)
 		{
 			GClass271 gClass = new GClass271();
@@ -794,7 +794,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       显示关于对话框
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void ShowAbout()
 		{
 			using (dlgAbout dlgAbout = new dlgAbout())

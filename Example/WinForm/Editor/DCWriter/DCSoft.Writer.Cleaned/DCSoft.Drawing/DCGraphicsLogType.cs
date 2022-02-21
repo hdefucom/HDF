@@ -7,7 +7,7 @@ namespace DCSoft.Drawing
 	///       图形记录类型
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	[DocumentComment]
 	public enum DCGraphicsLogType
 	{

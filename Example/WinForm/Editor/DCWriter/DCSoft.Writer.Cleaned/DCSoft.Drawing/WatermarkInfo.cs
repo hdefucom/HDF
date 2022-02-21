@@ -17,7 +17,7 @@ namespace DCSoft.Drawing
 	[Guid("E57DF5C8-D3E1-405D-AACA-D41DB9590E17")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	public class WatermarkInfo : IDisposable, IWatermarkInfo
 	{
 		private bool bool_0 = true;
@@ -134,7 +134,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		[DefaultValue("black")]
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlElement]
 		public string ColorValue
 		{
@@ -176,7 +176,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       颜色值
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue("white")]
 		[XmlElement]
 		[Browsable(false)]
@@ -280,7 +280,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       DCWriter内部使用。
 		///       </summary>
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public Image RuntimeImage
 		{
@@ -320,7 +320,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		private void method_0()
 		{
 			if (image_0 != null)
@@ -352,7 +352,7 @@ namespace DCSoft.Drawing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public WatermarkInfo Clone()
 		{
 			WatermarkInfo watermarkInfo = (WatermarkInfo)MemberwiseClone();
@@ -429,7 +429,7 @@ namespace DCSoft.Drawing
 			return false;
 		}
 
-		[DCInternal]
+		
 		public bool method_4(RectangleF rectangleF_0, DCGraphics dcgraphics_0, RectangleF rectangleF_1)
 		{
 			if (dcgraphics_0 == null)
@@ -489,7 +489,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCInternal]
+		
 		public void Dispose()
 		{
 			method_0();

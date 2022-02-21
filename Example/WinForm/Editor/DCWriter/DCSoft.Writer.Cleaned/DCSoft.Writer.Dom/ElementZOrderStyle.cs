@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       元素Z坐标位置类型
 	///       </summary>
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("340FF3DC-F8DE-4666-9B15-8D91F854E9E1")]
 	public enum ElementZOrderStyle
 	{

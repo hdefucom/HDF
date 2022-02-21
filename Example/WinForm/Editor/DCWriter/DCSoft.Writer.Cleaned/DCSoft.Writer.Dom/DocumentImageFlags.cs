@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       文档图形对象标志
 	///       </summary>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	[Flags]
 	public enum DocumentImageFlags
 	{

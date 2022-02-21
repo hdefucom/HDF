@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       指定页码值信息
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[Guid("691BF3F0-0A7F-4612-978D-5C6E8CA0EAD7")]
 	[DocumentComment]
 	[ComVisible(true)]
@@ -66,7 +66,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public SpecifyPageIndexInfo Clone()
 		{
 			return (SpecifyPageIndexInfo)MemberwiseClone();

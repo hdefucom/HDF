@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class GClass300
 	{

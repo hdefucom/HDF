@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[Guid("00012345-6789-ABCD-EF01-234567890004")]
 	[ToolboxItem(false)]
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	public class TextPageViewControl : PageViewControl
@@ -126,7 +126,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       光标控制对象
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public virtual ICaretProvider Caret => null;
 
@@ -163,7 +163,7 @@ namespace DCSoft.Writer.Controls
 		}
 
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual IImmProvider vmethod_33()
 		{
 			return null;

@@ -12,6 +12,6 @@ namespace DCSoft.Writer
 	/// </param>
 	[ComVisible(true)]
 	[Guid("086516CA-6DBF-4F48-94A1-E34DA51E590D")]
-	[DCPublishAPI]
+	
 	public delegate void WriterButtonClickEventHandler(object sender, WriterButtonClickEventArgs e);
 }

@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("00012345-6789-ABCD-EF01-2345678900FA", "013C10FE-E70E-4E9E-98EB-440F1500F678")]
 	[DebuggerDisplay("Count={ Count }")]
 	[Guid("00012345-6789-ABCD-EF01-2345678900FA")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IDocumentCommentList))]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(true)]
@@ -60,7 +60,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       最大编号
 		///       </summary>
-		[DCInternal]
+		
 		public int MaxID
 		{
 			get
@@ -81,7 +81,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentCommentList()
 		{
 		}
@@ -91,7 +91,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public DocumentComment ComGetItem(int index)
 		{
@@ -103,7 +103,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ComSetItem(int index, DocumentComment item)
 		{
@@ -114,7 +114,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象，对元素不进行深度复制
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public DocumentCommentList Clone(bool deeply)
 		{
 			DocumentCommentList documentCommentList = new DocumentCommentList();
@@ -140,7 +140,7 @@ namespace DCSoft.Writer.Dom
 		///       内部使用：为视图进行排版
 		///       </summary>
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public void SortForView()
 		{
 			if (base.Count >= 2)
@@ -154,7 +154,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">指定的编号</param>
 		/// <returns>获得的批注对象</returns>
-		[DCInternal]
+		
 		public DocumentComment GetByCommentIndex(int index)
 		{
 			using (Enumerator enumerator = GetEnumerator())

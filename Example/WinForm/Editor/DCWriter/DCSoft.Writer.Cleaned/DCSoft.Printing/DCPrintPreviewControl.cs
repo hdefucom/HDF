@@ -20,7 +20,7 @@ namespace DCSoft.Printing
 	///       <seealso cref="!:http://www.codeproject.com/Articles/35838/An-Enhanced-PrintPreviewDialog" /></remarks>
 	[Guid("00012345-6789-ABCD-EF01-234567890082")]
 	[ToolboxItem(false)]
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	public class DCPrintPreviewControl : UserControl
@@ -166,7 +166,7 @@ namespace DCSoft.Printing
 		///       如果本属性为false，则不触发任何编辑器的事件，不过System.Windows.Forms.Control中定义的事件仍然会触发。
 		///       </remarks>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[Browsable(true)]
 		[DefaultValue(true)]
@@ -203,8 +203,8 @@ namespace DCSoft.Printing
 		///       主工具条
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
-		[DCPublishAPI]
+		
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public ToolStrip MainToolStrip => mainToolStrip;
 
@@ -227,7 +227,7 @@ namespace DCSoft.Printing
 			}
 		}
 
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public int TotalPages
@@ -263,7 +263,7 @@ namespace DCSoft.Printing
 		///       是否显示工具条
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		[ComVisible(true)]
 		public bool ToolbarVisible
@@ -319,7 +319,7 @@ namespace DCSoft.Printing
 		///       是否显示打印机设置对话框按钮
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		[ComVisible(true)]
 		public bool ShowPrinterSettingsButton
@@ -340,7 +340,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		[DefaultValue(true)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		public bool ShowPageSettingsButton
 		{
@@ -421,7 +421,7 @@ namespace DCSoft.Printing
 		[ComVisible(true)]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCPublishAPI]
+		
 		public Color PageBackColor
 		{
 			get
@@ -438,7 +438,7 @@ namespace DCSoft.Printing
 		///       打印预览区域的背景色
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public Color PreviewBackColor
@@ -474,7 +474,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       显示预览时是否启用抗锯齿效果
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		[ComVisible(true)]
 		public bool UseAntiAlias
@@ -495,7 +495,7 @@ namespace DCSoft.Printing
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[DefaultValue(-1)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public int StartPage
 		{
@@ -512,7 +512,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       打印前是否显示打印机设置对话框
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[ComVisible(true)]
 		[Category("Behavior")]
@@ -543,7 +543,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       成功的打印文档标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public bool IsPrintCompleted
@@ -572,7 +572,7 @@ namespace DCSoft.Printing
 		[Category("Behavior")]
 		[ComVisible(true)]
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool EnableSetJumpPrintPosition
 		{
 			get
@@ -988,7 +988,7 @@ namespace DCSoft.Printing
 			PrintDocument(showUI: true);
 		}
 
-		[DCInternal]
+		
 		protected virtual bool vmethod_0(string string_4)
 		{
 			return true;

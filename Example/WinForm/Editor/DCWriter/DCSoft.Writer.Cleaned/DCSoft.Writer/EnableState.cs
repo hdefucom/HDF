@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[Guid("CAD19059-056C-42B3-9348-79369F18A681")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	public enum EnableState

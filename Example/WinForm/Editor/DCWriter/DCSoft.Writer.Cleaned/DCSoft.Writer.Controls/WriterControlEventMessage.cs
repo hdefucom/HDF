@@ -572,7 +572,7 @@ namespace DCSoft.Writer.Controls
 		}
 
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public void method_0()
 		{
 			_FromElement = null;

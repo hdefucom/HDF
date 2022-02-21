@@ -28,7 +28,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("00012345-6789-ABCD-EF01-234567890058")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IXTextImageElement))]
 	[ComClass("00012345-6789-ABCD-EF01-234567890058", "F52F4335-C691-4DCD-BDBD-3D8E6DCC530A")]
 	[XmlType("XImage")]
@@ -211,7 +211,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时使用的垂直对齐方式
 		///       </summary>
-		[DCInternal]
+		
 		public override VerticalAlignStyle RuntimeVAlign => VAlign;
 
 		/// <summary>
@@ -239,7 +239,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       缺少图片数据时显示的文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[HtmlAttribute(AttributeName = "alt")]
 		public string Alt
@@ -273,7 +273,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public bool RuntimeKeepWidthHeightRate
 		{
 			get
@@ -331,7 +331,7 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[Browsable(false)]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public XImageValue ImageFromSource
 		{
 			get
@@ -429,7 +429,7 @@ namespace DCSoft.Writer.Dom
 		///       对象高度
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		public override float Height
 		{
@@ -446,7 +446,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       扩展图形的根页面对象
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public ShapeDocumentPage AdditionShapePage => AdditionShape?.FirstPage;
@@ -455,7 +455,7 @@ namespace DCSoft.Writer.Dom
 		///       附加图形对象
 		///       </summary>
 		[ComVisible(true)]
-		[DCInternal]
+		
 		[DefaultValue(null)]
 		public ShapeDocument AdditionShape
 		{
@@ -489,7 +489,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(false)]
 		[Browsable(false)]
 		[DefaultValue(false)]
-		[DCInternal]
+		
 		[HtmlAttribute]
 		public string InnerAdditionShape
 		{
@@ -527,7 +527,7 @@ namespace DCSoft.Writer.Dom
 		///       额外的图形数据
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlElement]
 		[DefaultValue(null)]
@@ -559,7 +559,7 @@ namespace DCSoft.Writer.Dom
 		///       额外的图形数据采用固定大小
 		///       </summary>
 		[HtmlAttribute]
-		[DCInternal]
+		
 		[DefaultValue(false)]
 		public bool AdditionShapeFixSize
 		{
@@ -595,7 +595,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       压缩保存模式,以实际大小来设置保存的数据，这会导致大图片数据的损失。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool CompressSaveMode
 		{
@@ -614,7 +614,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		public XImageValue RuntimeImage
 		{
 			get
@@ -671,7 +671,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内部的图像数据对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XImageValue Image
 		{
 			get
@@ -729,7 +729,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       图像数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[XmlIgnore]
@@ -807,7 +807,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       DCWriter内部使用.原始图片数据来源
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		[ComVisible(false)]
@@ -830,7 +830,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       DCWriter内部使用.原始图片数据来源
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		[Obsolete("DCWriter内部使用，请勿调用。")]
@@ -853,7 +853,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否有附加图形
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool HasAdditionalShape
 		{
@@ -885,7 +885,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public string PageImagesPreview
 		{
 			get
@@ -939,7 +939,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       自定义的额外图形数据
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(null)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -975,7 +975,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextImageElement()
 		{
 			base.WidthHeightRate = 0.0;
@@ -1076,7 +1076,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="updateView">操作是否更新视图</param>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public override bool EditorSetSize(float width, float height, bool updateView, bool logUndo)
 		{
 			bool result;
@@ -1088,7 +1088,7 @@ namespace DCSoft.Writer.Dom
 			return result;
 		}
 
-		[DCPublishAPI]
+		
 		public bool method_20(Image image_1, bool bool_17, bool bool_18)
 		{
 			int num = 9;
@@ -1151,7 +1151,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="base64">Base64字符串</param>
 		/// <param name="setSize">是否设置大小</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public bool LoadImageFromBase64String(string base64, bool setSize)
 		{
@@ -1178,7 +1178,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="img">图片对象</param>
 		/// <param name="setSize">是否设置大小</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public bool LoadImage(Image image_1, bool setSize)
 		{
@@ -1207,7 +1207,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="strUrl">图片资源地址</param>
 		/// <param name="setSize">是否设置对象大小</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool LoadImage(string strUrl, bool setSize)
 		{
 			if (ximageValue_2 == null)
@@ -1263,7 +1263,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       更新内容
 		///       </summary>
-		[DCInternal]
+		
 		public void UpdateImageContent()
 		{
 			if (!string.IsNullOrEmpty(RuntimeSource))
@@ -1289,7 +1289,7 @@ namespace DCSoft.Writer.Dom
 		///       根据图片内容更新元素的大小
 		///       </summary>
 		/// <param name="keepSizePossible">是否尽量保持大小不变或少变化</param>
-		[DCInternal]
+		
 		public void UpdateSize(bool keepSizePossible)
 		{
 			if (Image.HasContent)
@@ -1508,7 +1508,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="pageIndex">从0开始计算的页码</param>
 		/// <param name="img">图片对象</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SetPageImage(int pageIndex, Image image_1)
 		{
@@ -1521,7 +1521,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="pageIndex">从0开始计算的页码</param>
 		/// <param name="img">图片对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetPageImageByImageValue(int pageIndex, XImageValue ximageValue_3)
 		{
 			PageImages.SetImage(pageIndex, ximageValue_3);
@@ -1533,7 +1533,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="pageIndex">从0开始计算的页码</param>
 		/// <param name="base64">BASE64文本值</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetPageImageByBase64String(int pageIndex, string base64)
 		{
 			XImageValue xImageValue = new XImageValue();
@@ -1777,7 +1777,7 @@ namespace DCSoft.Writer.Dom
 		///       创建预览用的图片
 		///       </summary>
 		/// <returns>创建的图片对象</returns>
-		[DCPublishAPI]
+		
 		public override Image CreateContentImage()
 		{
 			if (RuntimeImage.HasContent && !HasAdditionalShape)

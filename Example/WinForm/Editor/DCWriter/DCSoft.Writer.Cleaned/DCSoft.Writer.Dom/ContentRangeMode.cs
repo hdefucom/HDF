@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Guid("3AC7F75D-30FA-4388-91E4-E56467461766")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum ContentRangeMode
 	{

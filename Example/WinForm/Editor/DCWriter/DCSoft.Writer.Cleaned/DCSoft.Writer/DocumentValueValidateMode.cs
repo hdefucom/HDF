@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       文档数据校验模式
 	///       </summary>
-	[DCPublishAPI]
+	
 	[Guid("DB64F685-B510-44C6-AFCB-3602E20F399A")]
 	[ComVisible(true)]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]

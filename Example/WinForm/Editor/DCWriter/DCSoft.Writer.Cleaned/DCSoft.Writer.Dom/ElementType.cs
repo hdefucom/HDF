@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       内容元素类型
 	///       </summary>
 	[Guid("00012345-6789-ABCD-EF01-234567890111")]
-	[DCPublishAPI]
+	
 	[Flags]
 	[ComVisible(true)]
 	[DocumentComment]

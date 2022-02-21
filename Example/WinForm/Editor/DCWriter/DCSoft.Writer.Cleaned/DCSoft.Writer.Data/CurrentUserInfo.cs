@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Data
 	[ComClass("00012345-6789-ABCD-EF01-234567890021", "49634361-A7BB-4BCB-9A43-75AEE9902914")]
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public class CurrentUserInfo : ICurrentUserInfo
 	{
 		internal const string CLASSID = "00012345-6789-ABCD-EF01-234567890021";
@@ -36,7 +36,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       用户编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ID
 		{
 			get
@@ -52,7 +52,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       用户姓名
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Name
 		{
 			get
@@ -68,7 +68,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       授权等级
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int PermissionLevel
 		{
 			get
@@ -84,7 +84,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       用户相关的说明
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Description
 		{
 			get
@@ -100,7 +100,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       签名图片
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public Image MarkImage
 		{
@@ -117,7 +117,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       客户端的名称,可以为电脑IP/计算机名等等。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ClientName
 		{
 			get
@@ -133,7 +133,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public CurrentUserInfo()
 		{
 		}

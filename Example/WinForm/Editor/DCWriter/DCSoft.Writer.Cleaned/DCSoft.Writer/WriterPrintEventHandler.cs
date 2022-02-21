@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <param name="args">
 	/// </param>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[Guid("B526EB58-AF98-407F-BDD5-B5D4F436DB6B")]
 	[ComVisible(true)]
 	public delegate void WriterPrintEventHandler(object sender, WriterPrintEventEventArgs e);

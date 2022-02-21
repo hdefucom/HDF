@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	///       页码文档元素对象
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-23456789001C", "632AB5E7-D689-4E60-BF9B-CE86E24C39A5")]
@@ -52,7 +52,7 @@ namespace DCSoft.Writer.Dom
 
 		private string string_12 = null;
 
-		[DCInternal]
+		
 		public override string DomDisplayName
 		{
 			get
@@ -69,14 +69,14 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档元素编号前缀
 		///       </summary>
-		[DCInternal]
+		
 		public override string ElementIDPrefix => "pi";
 
 		/// <summary>
 		///       指定页码值信息列表
 		///       </summary>
 		[XmlArrayItem("Index", typeof(SpecifyPageIndexInfo))]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[HtmlAttribute]
 		[DefaultValue(null)]
@@ -96,7 +96,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象宽度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[Browsable(true)]
 		[HtmlAttribute]
@@ -118,7 +118,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[DefaultValue(false)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
-		[DCPublishAPI]
+		
 		public bool AutoHeight
 		{
 			get
@@ -147,7 +147,7 @@ namespace DCSoft.Writer.Dom
 		///       对象高度
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[HtmlAttribute]
 		public override float Height
@@ -165,7 +165,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       用户能否改变对象大小
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public override ResizeableType Resizeable
@@ -206,7 +206,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool ChangePageIndexMidway
 		{
@@ -225,7 +225,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(PageInfoValueType.PageIndex)]
 		public PageInfoValueType ValueType
 		{
@@ -243,7 +243,7 @@ namespace DCSoft.Writer.Dom
 		///       显示样式
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(ParagraphListStyle.ListNumberStyle)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public ParagraphListStyle DisplayFormat
@@ -266,7 +266,7 @@ namespace DCSoft.Writer.Dom
 		///       支持[%PageIndex%]表示从1开始计算的页码，[%NumOfPages%]表示总页数。
 		///       </remarks>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public string FormatString
@@ -331,7 +331,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public string ContentText
 		{
@@ -382,7 +382,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextPageInfoElement()
 		{
 			Width = 100f;
@@ -572,7 +572,7 @@ namespace DCSoft.Writer.Dom
 			return "PageIndex:" + ToPlaintString();
 		}
 
-		[DCInternal]
+		
 		public string method_18()
 		{
 			int num = 7;

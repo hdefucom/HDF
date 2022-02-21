@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       知识库树状列表控件管理器
 	///       </summary>
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public class KBTreeViewController

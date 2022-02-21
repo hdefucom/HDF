@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	///       WEB服务对象必须实现的接口
 	///       </summary>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	public interface IWriterControlWebService
 	{
@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		WriterControlWebMethodTypes GetSupportedMethods();
 
 		/// <summary>
@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		KBLibrary GetKBLibrary();
 
 		/// <summary>
@@ -38,10 +38,10 @@ namespace DCSoft.Writer.Controls
 		/// <param name="specifyValue">指定的数值</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		ListItem[] QueryListItems(string listSourceName, string spellCode, string preText, string specifyValue);
 
-		[DCPublishAPI]
+		
 		ListItem[] QueryListItemsWithDocumentParameter(string listSourceName, string spellCode, string preText, string specifyValue, string documentParameters);
 
 		/// <summary>
@@ -50,7 +50,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="preWord">前置文本</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		string[] QueryAssistInputItems(string preWord);
 
 		/// <summary>
@@ -62,7 +62,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="fileContent">文件内容</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		bool SaveFileContent(string fileName, string fileSystemName, string fileFormat, byte[] fileContent);
 
 		/// <summary>
@@ -74,7 +74,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="fileContent">文件内容</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		bool SaveFileContentForAutoSave(string fileName, string fileSystemName, string fileFormat, byte[] fileContent);
 
 		/// <summary>
@@ -84,7 +84,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="fileSystemName">文件系统名称</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		byte[] ReadFileContent(string fileName, string fileSystemName);
 
 		/// <summary>
@@ -93,7 +93,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="documentID">文档编号</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		bool UIStartEditContent(string documentID);
 
 		/// <summary>
@@ -102,7 +102,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="errorCode">错误代码</param>
 		/// <param name="message">错误消息</param>
 		/// <param name="details">错误详细信息</param>
-		[DCPublishAPI]
+		
 		void ReportError(int errorCode, string message, string details);
 
 		/// <summary>
@@ -110,7 +110,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <param name="elementID">按钮元素名称</param>
 		/// <param name="commandName">按钮绑定的命令名称</param>
-		[DCPublishAPI]
+		
 		void ButtonClick(string elementID, string commandName);
 
 		/// <summary>
@@ -120,7 +120,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="states">打印状态</param>
 		/// <param name="printedPages">打印的页数</param>
 		/// <param name="message">消息</param>
-		[DCPublishAPI]
+		
 		void DocumentPrinted(string documentID, PrintResultStates states, int printedPages, string message);
 
 		/// <summary>
@@ -130,7 +130,7 @@ namespace DCSoft.Writer.Controls
 		/// <param name="elementID">文档元素编号</param>
 		/// <param name="sourceFileName">视频来源名</param>
 		/// <returns>实际播放视频使用的URL</returns>
-		[DCPublishAPI]
+		
 		string BeforePlayMedia(string documentID, string elementID, string sourceFileName);
 	}
 }

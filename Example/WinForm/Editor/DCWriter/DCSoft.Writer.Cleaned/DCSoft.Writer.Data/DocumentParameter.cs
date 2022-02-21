@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Data
 	[Serializable]
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class DocumentParameter
 	{
 		[NonSerialized]
@@ -42,9 +42,9 @@ namespace DCSoft.Writer.Data
 		///       文档对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
-		[DCInternal]
+		
 		public XTextDocument Document
 		{
 			get
@@ -60,7 +60,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       参数名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlAttribute]
 		[Category("Design")]
@@ -79,7 +79,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       参数说明
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Design")]
 		[XmlAttribute]
 		[DefaultValue(null)]
@@ -100,7 +100,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public string TypeName
 		{
 			get
@@ -119,7 +119,7 @@ namespace DCSoft.Writer.Data
 		[XmlAttribute]
 		[DefaultValue(DocumentParameterValueType.Object)]
 		[Category("Data")]
-		[DCPublishAPI]
+		
 		public DocumentParameterValueType ValueType
 		{
 			get
@@ -137,7 +137,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		public string SourceColumn
 		{
 			get
@@ -153,7 +153,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       数据类型
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public Type ValueDataType
 		{
@@ -188,7 +188,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[DefaultValue(null)]
 		[Category("Data")]
-		[DCPublishAPI]
+		
 		[XmlAttribute]
 		public string DefaultValue
 		{
@@ -207,7 +207,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[Browsable(false)]
 		[XmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ValueTypeFullName
 		{
@@ -224,7 +224,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       XML的数值序列化结果。DCWriter内部使用。
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(null)]
 		[Browsable(false)]
 		[XmlElement]
@@ -244,7 +244,7 @@ namespace DCSoft.Writer.Data
 		///       参数值
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public object Value
 		{
@@ -300,7 +300,7 @@ namespace DCSoft.Writer.Data
 		///       获得字符串值
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public string StringValue
 		{
@@ -339,7 +339,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentParameter()
 		{
 		}
@@ -348,7 +348,7 @@ namespace DCSoft.Writer.Data
 		///       初始化对象
 		///       </summary>
 		/// <param name="name">参数名称</param>
-		[DCPublishAPI]
+		
 		public DocumentParameter(string name)
 		{
 			strName = name;
@@ -390,7 +390,7 @@ namespace DCSoft.Writer.Data
 		///       返回表示对象的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCPublishAPI]
+		
 		public override string ToString()
 		{
 			return strName + "=" + _Value;
@@ -400,7 +400,7 @@ namespace DCSoft.Writer.Data
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public DocumentParameter Clone()
 		{
 			DocumentParameter documentParameter = (DocumentParameter)MemberwiseClone();

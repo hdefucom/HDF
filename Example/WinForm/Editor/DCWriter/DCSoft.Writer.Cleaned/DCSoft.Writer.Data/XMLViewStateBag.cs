@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Data
 	[Serializable]
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class XMLViewStateBag : List<XMLViewStateBagItem>, IDisposable
 	{
 		public object this[string name]

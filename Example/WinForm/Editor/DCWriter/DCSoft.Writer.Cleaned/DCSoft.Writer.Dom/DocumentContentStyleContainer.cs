@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	///       文档样式容器
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IDocumentContentStyleContainer))]
@@ -55,7 +55,7 @@ namespace DCSoft.Writer.Dom
 		///       默认样式
 		///       </summary>
 		[XmlElement("Default", typeof(DocumentContentStyle))]
-		[DCPublishAPI]
+		
 		public override ContentStyle Default
 		{
 			get
@@ -80,7 +80,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       样式列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlArrayItem("Style", typeof(DocumentContentStyle))]
 		public override ContentStyleList Styles
 		{
@@ -97,12 +97,12 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public DocumentContentStyleContainer()
 		{
 		}
 
-		[DCInternal]
+		
 		public RuntimeDocumentContentStyle method_3(int int_0)
 		{
 			DocumentContentStyle documentContentStyle = (DocumentContentStyle)GetStyle(int_0);
@@ -132,7 +132,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_0()
 		{
 			base.vmethod_0();
@@ -219,13 +219,13 @@ namespace DCSoft.Writer.Dom
 		///       创建文档样式信息对象
 		///       </summary>
 		/// <returns>创建的信息对象</returns>
-		[DCInternal]
+		
 		public override ContentStyle CreateStyleInstance()
 		{
 			return new DocumentContentStyle();
 		}
 
-		[DCInternal]
+		
 		public void method_8(DCGraphics dcgraphics_0)
 		{
 			int num = 17;

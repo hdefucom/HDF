@@ -137,7 +137,7 @@ namespace DCSoft.Drawing
 		///       运行时是否显示图形
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public bool RuntimeVisible
 		{
 			get
@@ -162,7 +162,7 @@ namespace DCSoft.Drawing
 		///       根据对象设置创建画笔对象
 		///       </summary>
 		/// <returns>创建的画笔对象</returns>
-		[DCInternal]
+		
 		public Pen CreatePen()
 		{
 			Pen pen = new Pen(Color, LineWidth);
@@ -174,7 +174,7 @@ namespace DCSoft.Drawing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public GridLineInfo Clone()
 		{
 			return (GridLineInfo)MemberwiseClone();

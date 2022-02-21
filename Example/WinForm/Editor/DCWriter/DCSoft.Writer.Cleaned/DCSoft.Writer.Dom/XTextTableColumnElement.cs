@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IXTextTableColumnElement))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890012", "03C90FA7-7002-4333-883F-D1E95C100A32")]
 	[XmlType("XTextTableColumn")]
 	[DebuggerDisplay("Column {Index}:{Width}")]
@@ -68,7 +68,7 @@ namespace DCSoft.Writer.Dom
 		///        元素是否可见
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ContentElementLayout)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[DefaultValue(true)]
 		[Browsable(true)]
@@ -128,7 +128,7 @@ namespace DCSoft.Writer.Dom
 		///       用户自定义属性列表
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		[XmlArrayItem("Attribute", typeof(XAttribute))]
@@ -153,7 +153,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(true)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public override float Width
 		{
@@ -171,7 +171,7 @@ namespace DCSoft.Writer.Dom
 		///       宽度是否为零
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public bool ZeroWidth => (double)Math.Abs(Width) < 0.01;
 
 		/// <summary>
@@ -214,7 +214,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XTextElementList Cells
 		{
 			get
@@ -239,7 +239,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextTableColumnElement()
 		{
 		}
@@ -264,7 +264,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <returns>获得的属性值</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public override string GetAttribute(string name)
 		{
@@ -281,7 +281,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="name">属性名</param>
 		/// <param name="Value">属性值</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public override bool SetAttribute(string name, string Value)
 		{
@@ -299,7 +299,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="name">属性名</param>
 		/// <returns>是否存在</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public override bool HasAttribute(string name)
 		{
 			if (xattributeList_0 != null)
@@ -328,7 +328,7 @@ namespace DCSoft.Writer.Dom
 		///       选择整个表格列
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public override bool Select()
 		{
 			XTextTableElement ownerTable = OwnerTable;
@@ -358,7 +358,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得输入焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void Focus()
 		{
 			XTextTableElement ownerTable = OwnerTable;
@@ -387,7 +387,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool EditorDelete(bool logUndo)
 		{
 			XTextTableElement ownerTable = OwnerTable;
@@ -399,7 +399,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="includeThis">是否包含本文档原始对象,对表格列该参数无作用</param>
 		/// <returns>创建的文档对象</returns>
-		[DCPublishAPI]
+		
 		public override XTextDocument CreateContentDocument(bool includeThis)
 		{
 			XTextTableElement ownerTable = OwnerTable;

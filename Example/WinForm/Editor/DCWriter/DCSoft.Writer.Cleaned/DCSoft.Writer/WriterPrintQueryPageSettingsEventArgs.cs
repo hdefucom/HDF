@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	///       打印时查询页面设置事件参数
 	///       </summary>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IWriterPrintQueryPageSettingsEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("6568A299-FEAB-4D02-AA97-2DD0EED28DAC")]
@@ -38,13 +38,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       从0开始计算的页码号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int PageIndex => _PageIndex;
 
 		/// <summary>
 		///       用户是否取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -57,43 +57,43 @@ namespace DCSoft.Writer
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public PageSettings PageSettings => _SrcArgs.PageSettings;
 
-		[DCPublishAPI]
+		
 		public PrintAction PrintAction => _SrcArgs.PrintAction;
 
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       默认页面设置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PageSettings DefaultPageSettings => _PrintDocument.DefaultPageSettings;
 
 		/// <summary>
 		///       默认打印机设置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PrinterSettings PrinterSettings => _PrintDocument.PrinterSettings;
 
 		/// <summary>
 		///       打印文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterPrintDocument PrintDocument => _PrintDocument;
 
-		[DCInternal]
+		
 		public WriterPrintQueryPageSettingsEventArgs(XTextDocument xtextDocument_0, WriterPrintDocument pDoc, QueryPageSettingsEventArgs srcArgs, int pageIndex)
 		{
 			int num = 5;

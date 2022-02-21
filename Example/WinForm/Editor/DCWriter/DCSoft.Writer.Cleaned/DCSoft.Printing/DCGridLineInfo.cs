@@ -97,7 +97,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		[XmlElement]
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		[DefaultValue(null)]
 		[Browsable(false)]
 		public string ColorValue
@@ -200,11 +200,11 @@ namespace DCSoft.Printing
 		///       运行时使用的网格线间距。DCWriter内部使用。
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public float RuntimeGridSpan => float_2;
 
-		[DCInternal]
+		
 		public void method_0(float float_3, GraphicsUnit graphicsUnit_0, float float_4)
 		{
 			if (Visible)
@@ -220,7 +220,7 @@ namespace DCSoft.Printing
 			}
 		}
 
-		[DCInternal]
+		
 		public float method_1(float float_3)
 		{
 			if (Visible && AlignToGridLine && RuntimeGridSpan > 0f)
@@ -241,7 +241,7 @@ namespace DCSoft.Printing
 			return float_3;
 		}
 
-		[DCInternal]
+		
 		public Pen method_3()
 		{
 			Pen pen = new Pen(Color, LineWidth);
@@ -249,31 +249,31 @@ namespace DCSoft.Printing
 			return pen;
 		}
 
-		[DCInternal]
+		
 		public XPenStyle method_4()
 		{
 			return new XPenStyle(Color, LineWidth, LineStyle);
 		}
 
-		[DCInternal]
+		
 		public DCGridLineInfo method_5()
 		{
 			return (DCGridLineInfo)MemberwiseClone();
 		}
 
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return DCWriteString();
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			return ValueTypeHelper.GetPropertiesAttributeString(this, detectDefaultValue: true);
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			ValueTypeHelper.SetPropertiesAttributeString(this, text);

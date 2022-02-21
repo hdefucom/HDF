@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ComVisible(true)]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
-	[DCPublishAPI]
+	
 	[Guid("7207CB9B-6DB7-4910-A098-0674B0B47628")]
 	[DocumentComment]
 	public enum DCBooleanValueHasDefault

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Commands
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("B1DF9D77-628C-4CBF-9710-488CD89172E6")]
-	[DCPublishAPI]
+	
 	public enum UIStateRefreshLevel
 	{
 		/// <summary>

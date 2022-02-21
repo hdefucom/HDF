@@ -12,6 +12,6 @@ namespace DCSoft.Writer
 	[Guid("98572E71-BE53-41B0-A527-EB250D66FBE2")]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public delegate void WriterQueryAdornTextEventHandler(object sender, WriterQueryAdornTextEventArgs e);
 }

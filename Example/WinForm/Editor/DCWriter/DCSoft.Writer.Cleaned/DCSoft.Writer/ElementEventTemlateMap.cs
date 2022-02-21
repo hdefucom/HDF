@@ -15,7 +15,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("291E3C96-4AEF-4912-A75C-035DC00A4571")]
 	[ComVisible(true)]
-	[DCInternal]
+	
 	[ComClass("291E3C96-4AEF-4912-A75C-035DC00A4571", "A06FC173-15D6-4EDF-AAC1-3373216F41E3")]
 	public class ElementEventTemlateMap : Dictionary<Type, ElementEventTemplate>, IElementEventTemlateMap
 	{

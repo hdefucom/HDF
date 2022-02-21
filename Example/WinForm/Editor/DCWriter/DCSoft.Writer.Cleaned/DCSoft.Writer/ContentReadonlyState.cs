@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       内容只读状态
 	///       </summary>
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[ComVisible(true)]

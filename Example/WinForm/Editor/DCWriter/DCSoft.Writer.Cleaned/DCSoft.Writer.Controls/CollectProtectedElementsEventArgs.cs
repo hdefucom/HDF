@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	[ComClass("11FAF693-4282-4EF8-A108-D657B392C6F3", "C663CDE8-C62E-41A5-AAE1-CC7C94816A0B")]
 	[Guid("11FAF693-4282-4EF8-A108-D657B392C6F3")]
 	[ComDefaultInterface(typeof(ICollectProtectedElementsEventArgs))]
-	[DCInternal]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	public class CollectProtectedElementsEventArgs : WriterEventArgs, ICollectProtectedElementsEventArgs
 	{
@@ -77,7 +77,7 @@ namespace DCSoft.Writer.Controls
 			}
 		}
 
-		[DCInternal]
+		
 		public CollectProtectedElementsEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElementList rootElements, GClass108 infos)
 			: base(writerControl_0, document, null)
 		{

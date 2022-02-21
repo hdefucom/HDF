@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace DCSoft.Printing
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class WatermarkInfoUITypeEditor : UITypeEditor
 	{

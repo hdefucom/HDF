@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Dom
     [Serializable]
     [Guid("00012345-6789-ABCD-EF01-234567890052")]
     [DocumentComment]
-    [DCPublishAPI]
+    
     public class XTextContentElement : XTextContainerElement
     {
         internal class Class11
@@ -176,7 +176,7 @@ namespace DCSoft.Writer.Dom
         [Browsable(true)]
         [DefaultValue(null)]
         [Editor(typeof(DCGridLineInfoUIEditor), typeof(UITypeEditor))]
-        [DCPublishAPI]
+        
         public virtual DCGridLineInfo GridLine
         {
             get
@@ -197,7 +197,7 @@ namespace DCSoft.Writer.Dom
         /// <remarks>
         ///       若该属性大于0，则本容器中所有文档行的高度为指定值，不受段落设置影响。
         ///       </remarks>
-        [DCPublishAPI]
+        
         [DefaultValue(0f)]
         [HtmlAttribute]
         public float SpecifyFixedLineHeight
@@ -236,7 +236,7 @@ namespace DCSoft.Writer.Dom
         ///       元素类型
         ///       </summary>
         [Browsable(false)]
-        [DCInternal]
+        
         public override ElementType _ElementType => ElementType.Object;
 
         /// <summary>
@@ -244,13 +244,13 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <returns>
         /// </returns>
-        [DCPublishAPI]
+        
         public bool HasFreeLayoutElements => dictionary_0 != null && dictionary_0.Count > 0;
 
         /// <summary>
         ///       采用相对布局模式的文档元素对象列表
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         [Browsable(false)]
         public List<XTextElement> FreeLayoutElements
@@ -307,7 +307,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       内容为空
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [DefaultValue(false)]
         public bool IsEmpty
@@ -326,7 +326,7 @@ namespace DCSoft.Writer.Dom
         ///       元素私有的文本行列表
         ///       </summary>
         [Browsable(true)]
-        [DCInternal]
+        
         [XmlIgnore]
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public XTextLineList PrivateLines
@@ -439,7 +439,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       文档内容管理对象
         ///       </summary>
-        [DCInternal]
+        
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         [XmlIgnore]
         [Browsable(false)]
@@ -488,9 +488,9 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       内容垂直对齐方式
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
-        [DCInternal]
+        
         public virtual VerticalAlignStyle ContentVertialAlign => VerticalAlignStyle.Top;
 
         /// <summary>
@@ -533,7 +533,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       DCWriter内部使用。自动缩放字体大小时计算出来的缩放比率,专门用于单元格的自动缩放字体的功能。
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         [Browsable(true)]
         [ReadOnly(true)]
@@ -602,7 +602,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       内容是否为空
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(false)]
         public override bool HasContentElement
         {
@@ -729,7 +729,7 @@ namespace DCSoft.Writer.Dom
         [XmlIgnore]
         [Browsable(false)]
         [EditorBrowsable(EditorBrowsableState.Never)]
-        [DCInternal]
+        
         public XTextElementList ParagraphsEOFs
         {
             get
@@ -753,7 +753,7 @@ namespace DCSoft.Writer.Dom
         ///       段落个数
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         public int ParagraphCount
         {
             get
@@ -774,7 +774,7 @@ namespace DCSoft.Writer.Dom
         ///       获得区间包含的段落对象列表
         ///       </summary>
         [XmlIgnore]
-        [DCPublishAPI]
+        
         [Browsable(false)]
         public XTextElementList ParagraphsFlags
         {
@@ -802,7 +802,7 @@ namespace DCSoft.Writer.Dom
         ///       对象所属文档对象
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         [XmlIgnore]
         public override XTextDocument OwnerDocument
         {
@@ -826,7 +826,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       返回表示对象的文本
         ///       </summary>
-        [DCPublishAPI]
+        
         [ReadOnly(true)]
         [XmlIgnore]
         [Browsable(true)]
@@ -870,7 +870,7 @@ namespace DCSoft.Writer.Dom
         ///       选中所有内容
         ///       </summary>
         /// <returns>操作是否成功</returns>
-        [DCPublishAPI]
+        
         public override bool Select()
         {
             OwnerDocument.method_124(this);
@@ -889,7 +889,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <returns>操作是否成功</returns>
         [ComVisible(true)]
-        [DCPublishAPI]
+        
         public bool SelectFirstLine()
         {
             if (xtextLineList_0 != null && xtextLineList_0.Count > 0)
@@ -947,7 +947,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="element">元素对象</param>
         /// <returns>操作是否成功</returns>
-        [DCPublishAPI]
+        
         public override bool AppendChildElement(XTextElement element)
         {
             if (base.AppendChildElement(element))
@@ -1018,7 +1018,7 @@ namespace DCSoft.Writer.Dom
             return xTextLine;
         }
 
-        [DCInternal]
+        
         protected internal int method_28(int int_13)
         {
             if (PrivateLines.Count == 0)
@@ -1066,7 +1066,7 @@ namespace DCSoft.Writer.Dom
 
         [Browsable(false)]
         [EditorBrowsable(EditorBrowsableState.Advanced)]
-        [DCInternal]
+        
         public void method_29(XTextLine xtextLine_1, XTextLine xtextLine_2)
         {
             if (xtextLine_1 == xtextLine_2 && xtextLine_1 != null)
@@ -1122,7 +1122,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="element">元素对象</param>
         /// <returns>操作是否成功</returns>
-        [DCPublishAPI]
+        
         public override bool RemoveChild(XTextElement element)
         {
             if (element == Elements.LastElement)
@@ -1140,7 +1140,7 @@ namespace DCSoft.Writer.Dom
             list_0 = null;
         }
 
-        [DCInternal]
+        
         public override void FixDomState()
         {
             base.FixDomState();
@@ -1150,7 +1150,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       修正元素内容
         ///       </summary>
-        [DCInternal]
+        
         public virtual void FixElements()
         {
             XTextElementList elements = Elements;
@@ -1169,8 +1169,8 @@ namespace DCSoft.Writer.Dom
         ///       添加内容元素
         ///       </summary>
         /// <param name="element">文档元素</param>
-        [DCInternal]
-        [DCPublishAPI]
+        
+        
         public virtual void AppendContentElement(XTextElement element)
         {
             int num = 8;
@@ -1185,8 +1185,8 @@ namespace DCSoft.Writer.Dom
         ///       添加内容元素
         ///       </summary>
         /// <param name="elements">文档元素列表</param>
-        [DCPublishAPI]
-        [DCInternal]
+        
+        
         public virtual void AppendContentElements(XTextElementList elements)
         {
             int num = 10;
@@ -1212,7 +1212,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_36(bool bool_22)
         {
             Class11 @class = new Class11();
@@ -1261,7 +1261,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         public XTextElementList method_30(XTextElementList xtextElementList_4)
         {
             int num = 13;
@@ -1300,19 +1300,19 @@ namespace DCSoft.Writer.Dom
             return xTextElementList;
         }
 
-        [DCInternal]
+        
         public bool method_31(int int_13)
         {
             return vmethod_38(int_13, -1, bool_22: false);
         }
 
-        [DCInternal]
+        
         public virtual bool vmethod_38(int int_13, int int_14, bool bool_22)
         {
             return vmethod_39(int_13, int_14, bool_22, bool_23: true);
         }
 
-        [DCInternal]
+        
         public virtual bool vmethod_39(int int_13, int int_14, bool bool_22, bool bool_23)
         {
             if (UIIsUpdating)
@@ -1497,7 +1497,7 @@ namespace DCSoft.Writer.Dom
             return true;
         }
 
-        [DCInternal]
+        
         public void method_32(XTextElementList xtextElementList_4, bool bool_22, bool bool_23)
         {
             int num = 18;
@@ -1548,7 +1548,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对整个内容执行重新排版操作
         ///       </summary>
-        [DCInternal]
+        
         public override void ExecuteLayout()
         {
             Width = OwnerDocument.PageSettings.ViewClientWidth;
@@ -1565,7 +1565,7 @@ namespace DCSoft.Writer.Dom
             vmethod_42(class121_);
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_40()
         {
             bool_21 = false;
@@ -1773,7 +1773,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         internal static bool smethod_0(XTextElement xtextElement_0)
         {
             DocumentBehaviorOptions behaviorOptions = xtextElement_0.OwnerDocument.Options.BehaviorOptions;
@@ -2874,13 +2874,13 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="element">元素对象</param>
         /// <returns>是否可见</returns>
-        [DCInternal]
+        
         public virtual bool IsVisible(XTextElement element)
         {
             return OwnerDocument.IsVisible(element);
         }
 
-        [DCInternal]
+        
         public void method_42(GClass128 gclass128_0)
         {
             if (PrivateLines.Count == 0)
@@ -3467,7 +3467,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         [Browsable(false)]
         public float method_45(PrintPage printPage_0)
         {
@@ -3479,7 +3479,7 @@ namespace DCSoft.Writer.Dom
             return float_8;
         }
 
-        [DCInternal]
+        
         private void method_46(DocumentPaintEventArgs documentPaintEventArgs_0)
         {
             GraphicsState graphicsState_ = documentPaintEventArgs_0.Graphics.Save();
@@ -3503,7 +3503,7 @@ namespace DCSoft.Writer.Dom
             documentPaintEventArgs_0.Graphics.Restore(graphicsState_);
         }
 
-        [DCInternal]
+        
         protected internal virtual void vmethod_43(DocumentPaintEventArgs documentPaintEventArgs_0)
         {
             if (!documentPaintEventArgs_0.EnabledDrawGridLine)
@@ -3892,7 +3892,7 @@ namespace DCSoft.Writer.Dom
             return listDictionary;
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_44(bool bool_22)
         {
             if (bool_22 && class124_0 != null && class124_0.Count > 0 && OwnerDocument.EditorControl != null)
@@ -4026,7 +4026,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         private void method_51(GInterface5 ginterface5_0)
         {
             int num = 5;
@@ -4369,7 +4369,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         public void method_52(GInterface5 ginterface5_0)
         {
             int num = 9;
@@ -4603,7 +4603,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         public XTextDocument method_53(int int_13)
         {
             int num = 0;
@@ -4668,7 +4668,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="pageBreak">分页符</param>
         /// <param name="lineBreak">换行符</param>
         /// <returns>操作删除的文档元素个数</returns>
-        [DCPublishAPI]
+        
         public int DeleteRedundant(bool whiteSpace, bool tabSpace, bool paragraphFlag, bool chineseWhitespace, bool pageBreak, bool lineBreak)
         {
             return DeleteRedundant(whiteSpace, tabSpace, paragraphFlag, chineseWhitespace, pageBreak, lineBreak, fastMode: false);
@@ -4685,7 +4685,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="lineBreak">换行符</param>
         /// <param name="fastMode">快速操作模式</param>
         /// <returns>操作删除的文档元素个数</returns>
-        [DCPublishAPI]
+        
         public int DeleteRedundant(bool whiteSpace, bool tabSpace, bool paragraphFlag, bool chineseWhitespace, bool pageBreak, bool lineBreak, bool fastMode)
         {
             int num = 0;

@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Controls
 	///       编辑器编辑模式
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public enum ElementValueEditorEditStyle
 	{
 		/// <summary>

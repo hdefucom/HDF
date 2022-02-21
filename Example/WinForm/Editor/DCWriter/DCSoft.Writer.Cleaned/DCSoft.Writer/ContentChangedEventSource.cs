@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	public enum ContentChangedEventSource
 	{
 		/// <summary>

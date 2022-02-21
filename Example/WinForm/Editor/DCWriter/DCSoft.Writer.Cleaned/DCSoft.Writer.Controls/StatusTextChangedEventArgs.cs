@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	[ComClass("8B2D88C4-1D59-4E6A-845C-E59F8E76A817", "AEF26CE0-0989-4320-A3F0-4FD86FBB179B")]
 	[ComDefaultInterface(typeof(IStatusTextChangedEventArgs))]
 	[Guid("8B2D88C4-1D59-4E6A-845C-E59F8E76A817")]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	public class StatusTextChangedEventArgs : EventArgs, IStatusTextChangedEventArgs
 	{
@@ -27,13 +27,13 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       编辑器控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       状态栏文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string StatusText => _StatusText;
 
 		/// <summary>
@@ -43,7 +43,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <param name="statusText">
 		/// </param>
-		[DCInternal]
+		
 		public StatusTextChangedEventArgs(WriterControl writerControl_0, string statusText)
 		{
 			_WriterControl = writerControl_0;

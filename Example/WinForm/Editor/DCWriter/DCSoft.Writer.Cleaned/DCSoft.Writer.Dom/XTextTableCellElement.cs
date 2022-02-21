@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[DocumentComment]
 	[DebuggerDisplay("Cell {CellID}:{ PreviewString }")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IXTextTableCellElement))]
 	[Guid("00012345-6789-ABCD-EF01-234567890011")]
 	[XmlType("XTextTableCell")]
@@ -124,7 +124,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable]
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public bool TabStop
 		{
@@ -148,7 +148,7 @@ namespace DCSoft.Writer.Dom
 		internal override bool RuntimeSupportValidateStyle => XTextDocument.smethod_13(GEnum6.const_105);
 
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public override bool Visible
 		{
@@ -184,7 +184,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(false)]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
-		[DCPublishAPI]
+		
 		public bool BorderPrintedWhenJumpPrint
 		{
 			get
@@ -227,7 +227,7 @@ namespace DCSoft.Writer.Dom
 		///       对象所属页码
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public override int OwnerPageIndex
 		{
 			get
@@ -243,7 +243,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       边框是重点突出的
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Category("Appearance")]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[HtmlAttribute]
@@ -263,7 +263,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       自动修改字体大小以适应内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[HtmlAttribute]
 		[DefaultValue(ContentAutoFixFontSizeMode.None)]
@@ -284,7 +284,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		private ContentAutoFixFontSizeMode RuntimeAutoFixFontSizeMode
 		{
 			get
@@ -307,7 +307,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       本属性已经被AutoFixFontSizeMode属性替换掉了。
 		///       </summary>
-		[DCInternal]
+		
 		[XmlElement]
 		[DefaultValue(false)]
 		[ComVisible(false)]
@@ -338,7 +338,7 @@ namespace DCSoft.Writer.Dom
 		///       移动焦点使用的快捷键
 		///       </summary>
 		[DefaultValue(MoveFocusHotKeys.Tab)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		[HtmlAttribute]
 		public MoveFocusHotKeys MoveFocusHotKey
@@ -382,7 +382,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象宽度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(true)]
 		public override float Width
@@ -400,7 +400,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象高度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(true)]
 		public override float Height
@@ -415,7 +415,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[XmlIgnore]
 		[Browsable(false)]
@@ -478,7 +478,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Category("Appearance")]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
-		[DCPublishAPI]
+		
 		[DefaultValue(RectangleSlantSplitStyle.None)]
 		[HtmlAttribute]
 		public RectangleSlantSplitStyle SlantSplitLineStyle
@@ -497,7 +497,7 @@ namespace DCSoft.Writer.Dom
 		///       对象所属表格对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public new XTextTableElement OwnerTable
 		{
@@ -516,20 +516,20 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XTextTableRowElement OwnerRow => (XTextTableRowElement)Parent;
 
 		/// <summary>
 		///       左端绝对坐标值
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public override float AbsLeft => OwnerRow.AbsLeft + Left;
 
 		/// <summary>
 		///       顶端绝对坐标值
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public override float AbsTop
 		{
@@ -555,7 +555,7 @@ namespace DCSoft.Writer.Dom
 		///       当纵向合并了单元格时( RowSpan 属性大于1)则该属性返回该单元格所跨过的
 		///       表格行中最下面的一个表格行对象</remarks>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public XTextTableRowElement LastOwnerRow
 		{
@@ -571,7 +571,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XTextTableColumnElement OwnerColumn
 		{
 			get
@@ -596,7 +596,7 @@ namespace DCSoft.Writer.Dom
 		///       对象所属的最右边的表格列对象
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public XTextTableColumnElement LastOwnerColumn => (XTextTableColumnElement)OwnerTable.Columns.SafeGet(ElementIndex + int_14 - 1);
 
@@ -605,14 +605,14 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextTableCellElement OverrideCell => xtextTableCellElement_0;
 
 		/// <summary>
 		///       单元格是否处于选择状态
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public bool IsSelected
 		{
 			get
@@ -630,7 +630,7 @@ namespace DCSoft.Writer.Dom
 		///       单元格在表格中的编号,这个编号是只读的，比如“A1”、“B2”、“C3”等。
 		///       </summary>
 		[Category("Design")]
-		[DCPublishAPI]
+		
 		public string CellID
 		{
 			get
@@ -662,7 +662,7 @@ namespace DCSoft.Writer.Dom
 		///       判断本单元格是否被其他单元格合并了
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public bool IsOverrided => xtextTableCellElement_0 != null;
 
@@ -676,7 +676,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.ContentElementLayout)]
 		[Category("Layout")]
 		[DefaultValue(1)]
-		[DCPublishAPI]
+		
 		public int RowSpan
 		{
 			get
@@ -708,13 +708,13 @@ namespace DCSoft.Writer.Dom
 		///       运行时的跨行数
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public int RuntimeRowSpan => int_13;
 
 		/// <summary>
 		///       本单元格跨越的表格行列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public XTextElementList SpanRows
@@ -733,7 +733,7 @@ namespace DCSoft.Writer.Dom
 		///       获得单元格中覆盖的单元格列表
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public XTextElementList SpanCells
 		{
@@ -754,7 +754,7 @@ namespace DCSoft.Writer.Dom
 		///       </remarks>
 		[Category("Layout")]
 		[MemberExpressionable(MemberEffectLevel.ContentElementLayout)]
-		[DCPublishAPI]
+		
 		[DefaultValue(1)]
 		public int ColSpan
 		{
@@ -788,21 +788,21 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public int RowIndex => int_15;
 
 		/// <summary>
 		///       从0开始的列号
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int ColIndex => int_16;
 
 		/// <summary>
 		///       设计时行号
 		///       </summary>
-		[DCInternal]
+		
 		[XmlElement]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
@@ -822,7 +822,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       设计时列号
 		///       </summary>
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[DefaultValue(0)]
 		[XmlElement]
@@ -843,7 +843,7 @@ namespace DCSoft.Writer.Dom
 		///       获得右边的可见单元格
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public XTextTableCellElement RightVisibleCell
 		{
@@ -873,7 +873,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextTableCellElement LeftVisibleCell
 		{
 			get
@@ -902,8 +902,8 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		public XTextTableCellElement TopVisibleCell
 		{
 			get
@@ -929,7 +929,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得下面的可见的单元格
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public XTextTableCellElement BottomVisibleCell
@@ -989,7 +989,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool MirrorViewForCrossPage
 		{
@@ -1018,7 +1018,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       复制方式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(TableRowCloneType.Default)]
 		public TableRowCloneType CloneType
@@ -1036,7 +1036,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextTableCellElement()
 		{
 		}
@@ -1070,7 +1070,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public void method_55()
 		{
 			if (xtextElementList_2 != null && xtextElementList_2.Count != 0)
@@ -1280,7 +1280,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public int method_58(int int_19)
 		{
 			if (int_19 < 1)
@@ -1294,7 +1294,7 @@ namespace DCSoft.Writer.Dom
 			return int_19;
 		}
 
-		[DCInternal]
+		
 		public int method_59(int int_19)
 		{
 			if (ColIndex + int_19 - 1 >= OwnerTable.Columns.Count)
@@ -1308,19 +1308,19 @@ namespace DCSoft.Writer.Dom
 			return int_19;
 		}
 
-		[DCInternal]
+		
 		public void method_60(int int_19)
 		{
 			int_14 = Math.Max(int_19, 1);
 		}
 
-		[DCInternal]
+		
 		public void method_61(int int_19)
 		{
 			int_13 = Math.Max(int_19, 1);
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_40()
 		{
 		}
@@ -1330,7 +1330,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="includeThis">是否包含本文档原始对象</param>
 		/// <returns>创建的文档对象</returns>
-		[DCPublishAPI]
+		
 		public override XTextDocument CreateContentDocument(bool includeThis)
 		{
 			if (OwnerTable == null)
@@ -1360,7 +1360,7 @@ namespace DCSoft.Writer.Dom
 			return base.CreateContentDocument(includeThis: false);
 		}
 
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
 		[ComVisible(false)]
@@ -1558,7 +1558,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       选择单元格
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override bool Select()
 		{
 			XTextTableElement ownerTable = OwnerTable;
@@ -1869,7 +1869,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="borderVisible">边框是否可见</param>
 		/// <param name="color">颜色</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool EditorSetBorderColor(DCDirection direction, bool borderVisible, Color color)
 		{
 			XTextTableCellElement xTextTableCellElement = this;
@@ -1959,7 +1959,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool EditorSetCellWidthSingle(float newWidth, bool logUndo)
 		{
 			float minTableColumnWidth = OwnerDocument.Options.ViewOptions.MinTableColumnWidth;
@@ -2154,7 +2154,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="newColsNum">新的纵向合并列数</param>
 		/// <param name="logUndo">是否记录撤销操作信息</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool EditorSplitCellExt(int newRowsNum, int newColsNum, bool logUndo)
 		{
 			if (newRowsNum < 1 || newColsNum < 1)
@@ -2549,7 +2549,7 @@ namespace DCSoft.Writer.Dom
 			return flag2;
 		}
 
-		[DCPublishAPI]
+		
 		public bool method_70(int int_19, int int_20, bool bool_26, Dictionary<XTextTableCellElement, XTextElementList> dictionary_1)
 		{
 			int_19 = method_58(int_19);
@@ -2735,7 +2735,7 @@ namespace DCSoft.Writer.Dom
 		///       为编辑器的上层操作而复制表格行对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public XTextTableCellElement EditorClone()
 		{
 			TableRowCloneType cloneType = CloneType;
@@ -2751,7 +2751,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="cloneType">复制模式</param>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public XTextTableCellElement EditorCloneSpecifyCloneType(TableRowCloneType cloneType)
 		{
 			switch (cloneType)

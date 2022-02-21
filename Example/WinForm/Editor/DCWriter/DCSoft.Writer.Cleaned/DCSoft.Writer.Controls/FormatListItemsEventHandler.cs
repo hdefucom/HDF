@@ -11,6 +11,6 @@ namespace DCSoft.Writer.Controls
 	[Guid("7ABE9097-75CF-4F59-B3DD-93361003992E")]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public delegate void FormatListItemsEventHandler(object sender, FormatListItemsEventArgs e);
 }

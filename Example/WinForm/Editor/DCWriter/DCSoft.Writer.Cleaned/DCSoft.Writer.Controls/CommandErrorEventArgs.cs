@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("8B447673-50B9-4B09-ADAC-DBECB64F90B0", "929F98CD-60F4-4940-85C7-C07B84A22B08")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(ICommandErrorEventArgs))]
 	[Guid("8B447673-50B9-4B09-ADAC-DBECB64F90B0")]
@@ -37,7 +37,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       编辑器控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl
 		{
 			get
@@ -53,7 +53,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       正在处理的文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -69,7 +69,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       命令名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string CommandName
 		{
 			get
@@ -85,7 +85,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       命令参数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public object CommmandParameter
 		{
 			get
@@ -101,7 +101,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       异常对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		public Exception Exception
 		{
@@ -118,7 +118,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       错误提示信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Message
 		{
 			get
@@ -134,7 +134,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public CommandErrorEventArgs()
 		{
 		}

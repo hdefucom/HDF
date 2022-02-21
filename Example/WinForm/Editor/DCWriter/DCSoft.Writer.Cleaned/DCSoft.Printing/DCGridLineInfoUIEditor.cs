@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace DCSoft.Printing
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class DCGridLineInfoUIEditor : UITypeEditor
 	{
 		public override UITypeEditorEditStyle GetEditStyle(ITypeDescriptorContext context)

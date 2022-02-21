@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[Guid("40642D54-E0E5-4E08-96FC-199A9A3D20D4")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public enum DCFastInputMode
 	{
 		/// <summary>

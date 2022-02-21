@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	///       显示错误内容对话框
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class dlgErrorViewSource : Form
 	{
 		private IContainer icontainer_0 = null;

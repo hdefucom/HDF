@@ -75,7 +75,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       首页标记
 		///       </summary>
-		[DCInternal]
+		
 		public bool FirstPageFlag
 		{
 			get
@@ -91,7 +91,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       页面所拥有的坐标转换项目
 		///       </summary>
-		[DCInternal]
+		
 		public List<SimpleRectangleTransform> OwneredTransformItems
 		{
 			get
@@ -287,7 +287,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       获得打印页的顶端位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float Top => _Top;
 
 		/// <summary>
@@ -308,7 +308,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       页高
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float Height
 		{
 			get
@@ -332,7 +332,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       设置,返回页面对象的底线
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float Bottom
 		{
 			get
@@ -476,7 +476,7 @@ namespace DCSoft.Printing
 			}
 		}
 
-		[DCInternal]
+		
 		public PrintPage(IPageDocument document, XPageSettings pageSettings, PrintPageCollection pages, float headerHeight, float footerHeight)
 		{
 			myDocument = document;
@@ -494,7 +494,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return "Page " + PageIndex;
@@ -504,7 +504,7 @@ namespace DCSoft.Printing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public PrintPage Clone()
 		{
 			return (PrintPage)MemberwiseClone();

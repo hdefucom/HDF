@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[ComVisible(true)]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
-	[DCPublishAPI]
+	
 	[Guid("EDB8DADE-CA21-4B15-8E97-0B78F6CF7CD8")]
 	public enum DCImageCompressSaveMode
 	{

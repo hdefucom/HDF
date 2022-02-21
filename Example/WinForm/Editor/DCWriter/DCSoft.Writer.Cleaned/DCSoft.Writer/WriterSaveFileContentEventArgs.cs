@@ -18,7 +18,7 @@ namespace DCSoft.Writer
 	[ComClass("63EAC939-B4AF-47C3-AB44-5634B299121A", "45B150B5-AE4F-4809-9AC4-32766FDEC5B3")]
 	[Guid("63EAC939-B4AF-47C3-AB44-5634B299121A")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public class WriterSaveFileContentEventArgs : WriterEventArgs, IWriterSaveFileContentEventArgs
 	{
@@ -49,7 +49,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户参数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string UserParameter
 		{
 			get
@@ -65,7 +65,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器宿主对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public WriterAppHost AppHost
 		{
@@ -82,7 +82,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文件名
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlElement]
 		public string FileName
@@ -135,7 +135,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[XmlIgnore]
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public byte[] BinaryContentToSave
 		{
 			get
@@ -152,7 +152,7 @@ namespace DCSoft.Writer
 		///       要保存的BASE64格式的二进制数据
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		public string Base64ContentToSave
 		{
 			get
@@ -181,7 +181,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		public string FileFormat
 		{
 			get
@@ -197,7 +197,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       操作是否成功
 		///        </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		[XmlElement]
 		public bool Result
@@ -215,7 +215,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经处理， 无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		[XmlElement]
 		public bool Handled
@@ -238,7 +238,7 @@ namespace DCSoft.Writer
 		/// <param name="element">相关的文档元素对象</param>
 		/// <param name="fileName">文件名</param>
 		/// <param name="fileSystemName">文件系统名称</param>
-		[DCInternal]
+		
 		public WriterSaveFileContentEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string fileName, string fileSystemName, byte[] content)
 			: base(writerControl_0, document, element)
 		{

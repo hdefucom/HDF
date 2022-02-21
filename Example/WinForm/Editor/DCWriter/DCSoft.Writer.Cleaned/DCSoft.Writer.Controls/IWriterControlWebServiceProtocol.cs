@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 namespace DCSoft.Writer.Controls
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	[DocumentComment]
 	public interface IWriterControlWebServiceProtocol : IDisposable, IWriterControlWebService
 	{

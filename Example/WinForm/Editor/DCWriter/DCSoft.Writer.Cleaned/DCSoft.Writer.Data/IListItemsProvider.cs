@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890025")]
 	public interface IListItemsProvider
 	{

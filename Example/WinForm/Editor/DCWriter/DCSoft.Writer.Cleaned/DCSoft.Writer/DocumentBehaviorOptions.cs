@@ -20,7 +20,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IDocumentBehaviorOptions))]
 	[Guid("00012345-6789-ABCD-EF01-234567890068")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	public class DocumentBehaviorOptions : ICloneable, IDocumentBehaviorOptions

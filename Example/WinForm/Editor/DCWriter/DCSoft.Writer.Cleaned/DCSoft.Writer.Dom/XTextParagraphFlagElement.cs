@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("00012345-6789-ABCD-EF01-23456789001B", "DD4653F9-509D-4AEE-A021-AD63E1A59A1C")]
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789001B")]
 	public sealed class XTextParagraphFlagElement : XTextEOFElement, IXTextParagraphFlagElement
 	{
@@ -98,7 +98,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       DCWriter内部使用。段落列表元素对象
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[ComVisible(false)]
 		[Browsable(false)]
@@ -140,7 +140,7 @@ namespace DCSoft.Writer.Dom
 		///       运行时的内容排版方向
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public ContentLayoutDirectionStyle RuntimeLayoutDirection
 		{
@@ -302,7 +302,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(0)]
 		[XmlIgnore]
 		[Browsable(true)]
-		[DCInternal]
+		
 		public int MaxListIndex
 		{
 			get
@@ -323,7 +323,7 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[ReadOnly(true)]
 		[DefaultValue(-1)]
-		[DCInternal]
+		
 		[Browsable(true)]
 		public int RTFListOverriedID
 		{
@@ -337,7 +337,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		[XmlIgnore]
 		[DefaultValue(-1)]
 		[ReadOnly(true)]
@@ -373,7 +373,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       本对象是否是自动产生的
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(false)]
 		public bool AutoCreate
 		{
@@ -407,7 +407,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(false)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public List<XTextParagraphFlagElement> ChildParagraphs
 		{
@@ -442,7 +442,7 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(true)]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[ReadOnly(true)]
 		internal float FontSizeZoomRate
@@ -552,7 +552,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement()
 		{
 		}
@@ -690,7 +690,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public XTextElementList GetParagraphElements()
 		{

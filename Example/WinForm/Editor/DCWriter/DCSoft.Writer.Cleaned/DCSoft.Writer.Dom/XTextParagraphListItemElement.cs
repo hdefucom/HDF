@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	public class XTextParagraphListItemElement : XTextElement
 	{
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public class GClass5
 		{
 			public string string_0;

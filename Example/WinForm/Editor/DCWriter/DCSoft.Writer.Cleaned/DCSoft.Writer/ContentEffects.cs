@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       影响文档内容的方式
 	///       </summary>
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	[Guid("00012345-6789-ABCD-EF01-234567890063")]

@@ -20,7 +20,7 @@ namespace DCSoft.Printing
 	/// <remarks>本打印文档对象专门用于实现报表文档的打印输出</remarks>
 	[Browsable(false)]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	[DocumentComment]
 	[ToolboxItem(false)]
 	public class XPrintDocument : PrintDocument
@@ -76,7 +76,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       使用POS打印机进行打印
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool ForPOSPrinter
 		{
@@ -112,7 +112,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       正在生成预览用的内容
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool GeneratingPreviewContent
 		{
@@ -129,7 +129,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       总页数
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int TotalPages
 		{
@@ -146,7 +146,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       打印任务
 		///       </summary>
-		[DCInternal]
+		
 		public PrintJob PrintJob => printJob_0;
 
 		/// <summary>
@@ -168,7 +168,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       当前文档页对象
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public PrintPage CurrentDocumentPage
 		{
@@ -185,7 +185,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       当前打印的页
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public PrintPage CurrentPrintingPage
 		{
@@ -202,7 +202,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       打印文档选项
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DCPrintDocumentOptions Options
 		{
 			get
@@ -222,13 +222,13 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       实际参与打印的文档页列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PrintPageCollection PrintedPages => printPageCollection_1;
 
 		/// <summary>
 		///       实际累计打印的总页数
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public int PrintedPageCount
 		{
@@ -245,7 +245,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       页面内容绘制器
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public DocumentPageDrawer PageDrawer
 		{
@@ -267,7 +267,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       是否打印水印
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool DrawWatermark
 		{
 			get
@@ -283,8 +283,8 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       正在执行打印预览
 		///       </summary>
-		[DCInternal]
-		[DCPublishAPI]
+		
+		
 		public bool ForPrintPreview
 		{
 			get
@@ -300,7 +300,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       各个页面的正文视图内容到打印内容的坐标转换信息字典
 		///       </summary>
-		[DCInternal]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		public Dictionary<PrintPage, SimpleRectangleTransform> PageBodyContentTransform => dictionary_1;
@@ -339,7 +339,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public XPrintDocument()
 		{
 			base.PrintController = new StandardPrintController();
@@ -371,7 +371,7 @@ namespace DCSoft.Printing
 		///       执行打印任务
 		///       </summary>
 		/// <param name="parent">弹出的对话框使用的父窗体</param>
-		[DCPublishAPI]
+		
 		public void DCPrint(IWin32Window parent)
 		{
 			smethod_0();
@@ -444,7 +444,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		/// <param name="showUI">是否显示等待对话框</param>
 		/// <returns>打印操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool WaitForExit(bool showUI)
 		{
 			if (printJob_0 == null)
@@ -469,7 +469,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       执行手动双面打印
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void PrintWithManualDuplex(IWin32Window promptParent)
 		{
 			try
@@ -523,7 +523,7 @@ namespace DCSoft.Printing
 		///       打印指定页
 		///       </summary>
 		/// <param name="vPageIndex">指定页号</param>
-		[DCPublishAPI]
+		
 		public void PrintSpecialPage(int vPageIndex)
 		{
 			base.PrinterSettings.PrintRange = PrintRange.CurrentPage;

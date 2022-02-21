@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	///       超链接事件参数
 	///       </summary>
 	[ComDefaultInterface(typeof(IWriterLinkEventArgs))]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
@@ -32,7 +32,7 @@ namespace DCSoft.Writer
 		///       链接引用的地址
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Reference => _Reference;
 
 		/// <summary>
@@ -43,7 +43,7 @@ namespace DCSoft.Writer
 		///       而HTML标签的target属性值就是本属性的值。一般可以为"_blank","_media","_parent","_search" ,"_self","_top"。
 		///       </remarks>
 		[TypeConverter(typeof(TargetConverter))]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public virtual string Target => _Target;
 
@@ -55,7 +55,7 @@ namespace DCSoft.Writer
 		/// <param name="element">文档元素对象</param>
 		/// <param name="reference">引用的路径</param>
 		/// <param name="target">目标框架</param>
-		[DCInternal]
+		
 		public WriterLinkEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string reference, string target)
 			: base(writerControl_0, document, element)
 		{

@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Commands
 	/// <remarks>本控件用于将用户界面控件的事件转换为对系统命令的调用，并提供设计时的支持。
 	///       本对象支持的用户界面控件有Button、TextBox、ComboBox、Menu、ToolStripItem、ToolStripButton、ToolStripTextBox、ToolStripComboBox、ToolSTripMenuItem等等
 	///       编写 袁永福</remarks>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class WriterCommandExecuter : WriterCommandExecuterBase
 	{

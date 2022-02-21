@@ -12,7 +12,7 @@ using System.Xml.Serialization;
 
 namespace DCSoft.Writer.Script
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public interface IDocumentScriptEngine : IDisposable
 	{

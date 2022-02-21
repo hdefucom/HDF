@@ -26,7 +26,7 @@ namespace DCSoft.Writer
 	///       </remarks>
 	[Serializable]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComClass("00012345-6789-ABCD-EF01-23456789006A", "71B9BF56-ABD2-441E-A401-0F36367A01AE")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ComVisible(true)]
@@ -57,7 +57,7 @@ namespace DCSoft.Writer
 		[Browsable(true)]
 		[ReadOnly(true)]
 		[DCDescription(typeof(DocumentOptions), "SecurityOptions")]
-		[DCPublishAPI]
+		
 		public DocumentSecurityOptions SecurityOptions
 		{
 			get
@@ -80,7 +80,7 @@ namespace DCSoft.Writer
 		[DCDescription(typeof(DocumentOptions), "ViewOptions")]
 		[ReadOnly(true)]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		public DocumentViewOptions ViewOptions
 		{
 			get
@@ -100,7 +100,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器行为方面的选项
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ReadOnly(true)]
 		[DCDescription(typeof(DocumentOptions), "BehaviorOptions")]
 		[Browsable(true)]
@@ -125,7 +125,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[DCDescription(typeof(DocumentOptions), "EditOptions")]
 		[ReadOnly(true)]
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		public DocumentEditOptions EditOptions
 		{
@@ -340,13 +340,13 @@ namespace DCSoft.Writer
 			return false;
 		}
 
-		[DCPublishAPI]
+		
 		public string ToXMLString()
 		{
 			return XMLHelper.SaveObjectToIndentXMLString(this);
 		}
 
-		[DCPublishAPI]
+		
 		public void FromXMLString(string string_0)
 		{
 			if (!string.IsNullOrEmpty(string_0))

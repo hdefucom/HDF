@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       容器元素自动隐藏模式
 	///       </summary>
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("E11C260F-BC7B-41A7-ACD8-8216AF0074AF")]
 	[DocumentComment]
 	public enum ContainerAutoHideMode

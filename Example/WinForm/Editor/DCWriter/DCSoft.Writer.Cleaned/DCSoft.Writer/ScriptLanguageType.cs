@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("CEC183CE-AFAC-4C51-AC10-1F7DADBCA46E")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public enum ScriptLanguageType
 	{
 		/// <summary>

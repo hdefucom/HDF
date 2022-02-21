@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       页面内容版本信息
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ComClass("7D01A5A7-DB33-4106-B19A-3632226D0AC2", "262854DB-5809-4058-A8D3-6473B5B4390B")]
 	[ComVisible(true)]
 	[Guid("7D01A5A7-DB33-4106-B19A-3632226D0AC2")]
@@ -34,7 +34,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       从0开始计算的页码编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlAttribute]
 		public int PageIndex
 		{
@@ -51,7 +51,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       版本号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlAttribute]
 		public string Version

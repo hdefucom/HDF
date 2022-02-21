@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	///       dlgError 的摘要说明。
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class dlgError : Form
 	{
 		private Panel panel1;

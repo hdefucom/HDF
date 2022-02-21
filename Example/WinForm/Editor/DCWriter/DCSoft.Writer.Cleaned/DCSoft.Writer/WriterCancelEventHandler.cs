@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[DocumentComment]
 	[Guid("5632A80E-F016-4F58-B795-9F0FF749DCEF")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public delegate void WriterCancelEventHandler(object sender, WriterCancelEventArgs e);
 }

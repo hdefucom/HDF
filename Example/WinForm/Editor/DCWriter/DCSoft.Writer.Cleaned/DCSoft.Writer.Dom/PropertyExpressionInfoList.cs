@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("1ECE76F8-B37E-46F7-9E2A-6B40AF9EDA9B", "A9022DCB-008A-4A3E-9504-3392A73C5FC7")]
-	[DCPublishAPI]
+	
 	[Guid("1ECE76F8-B37E-46F7-9E2A-6B40AF9EDA9B")]
 	[ComDefaultInterface(typeof(IPropertyExpressionInfoList))]
 	[ComVisible(true)]
@@ -43,7 +43,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public PropertyExpressionInfoList()
 		{
 		}
@@ -53,7 +53,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public PropertyExpressionInfo ComGetItem(int index)
 		{
@@ -65,21 +65,21 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ComSetItem(int index, PropertyExpressionInfo item)
 		{
 			base[index] = item;
 		}
 
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SetValue(string memberName, string expression)
 		{
 			SetValueExt(memberName, expression, allowChainReaction: true);
 		}
 
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void SetValueExt(string memberName, string expression, bool allowChainReaction)
 		{
@@ -120,13 +120,13 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public string GetValue(string memberName)
 		{
 			return GetItem(memberName)?.Expression;
 		}
 
-		[DCPublishAPI]
+		
 		public PropertyExpressionInfo GetItem(string memberName)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -143,7 +143,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			GClass340 gClass = new GClass340();
@@ -158,7 +158,7 @@ namespace DCSoft.Writer.Dom
 			return gClass.ToString();
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			GClass340 gClass = new GClass340(text);
@@ -168,7 +168,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return DCWriteString();
@@ -178,7 +178,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public PropertyExpressionInfoList Clone()
 		{
 			PropertyExpressionInfoList propertyExpressionInfoList = new PropertyExpressionInfoList();
@@ -197,7 +197,7 @@ namespace DCSoft.Writer.Dom
 		///       非深度复制
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public PropertyExpressionInfoList CloneNotDeeply()
 		{
 			PropertyExpressionInfoList propertyExpressionInfoList = new PropertyExpressionInfoList();

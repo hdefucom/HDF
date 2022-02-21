@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("0B72EF40-396C-4041-8C1E-072D7ECEE897", "F156FA30-D580-47B0-B870-C436D3BD9486")]
 	[XmlType("XBarcodeField")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Barcode:{Name}")]
 	[Guid("0B72EF40-396C-4041-8C1E-072D7ECEE897")]
 	public sealed class XTextBarcodeFieldElement : XTextShapeInputFieldElement, IXTextBarcodeFieldElement

@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
     ///       </remarks>
     [Serializable]
     [ComClass("00012345-6789-ABCD-EF01-234567890009", "26ABDEDB-D16C-3C3C-A699-34268D8C7D95")]
-    [DCPublishAPI]
+    
     [XmlType("Element")]
     [ComVisible(true)]
     [ClassInterface(ClassInterfaceType.None)]
@@ -103,26 +103,26 @@ namespace DCSoft.Writer.Dom
         ///       用户在用户界面上新输入的内容，这个状态不保存。
         ///       </remarks>
         [XmlIgnore]
-        [DCInternal]
+        
         public bool IsNewInputContent => bool_0;
 
         /// <summary>
         ///       对象运行时的位置排版模式
         ///       </summary>
-        [DCInternal]
+        
         public virtual ElementPositionStyle RuntimePositionStyle => ElementPositionStyle.Static;
 
         /// <summary>
         ///       运行时的Z方向位置类型
         ///       </summary>
-        [DCInternal]
+        
         public virtual ElementZOrderStyle RuntimeZOrderStyle => ElementZOrderStyle.Normal;
 
         /// <summary>
         ///       DCWriter内部使用。元素是否在一个收缩的文档节中
         ///       </summary>
         [Browsable(false)]
-        [DCInternal]
+        
         [EditorBrowsable(EditorBrowsableState.Never)]
         [ComVisible(false)]
         public bool IsInCollapsedSection
@@ -150,7 +150,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       DCWriter内部使用。是否是从右到左排版的元素
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         [DefaultValue(false)]
         public bool IsRightToLeft
@@ -168,7 +168,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       是否支持文档视图小把柄对象
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual bool SupportElementViewHandle => false;
 
@@ -176,14 +176,14 @@ namespace DCSoft.Writer.Dom
         ///       元素实例编号
         ///       </summary>
         [Browsable(true)]
-        [DCInternal]
+        
         [XmlIgnore]
         public int ElementInstanceIndex => int_1;
 
         /// <summary>
         ///       扩展标记文本
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         public virtual string RuntimeAdornText => null;
 
@@ -191,20 +191,20 @@ namespace DCSoft.Writer.Dom
         ///       返回运行时使用的脚本信息对象列表
         ///       </summary>
         [XmlIgnore]
-        [DCInternal]
+        
         [ComVisible(false)]
         public virtual VBScriptItemList RuntimeScriptItems => null;
 
         /// <summary>
         ///       能否被选中
         ///       </summary>
-        [DCInternal]
+        
         public virtual bool RuntimeSelectable => true;
 
         /// <summary>
         ///       自定义属性列表
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlArrayItem("Attribute", typeof(XAttribute))]
         [ComVisible(true)]
         [DefaultValue(null)]
@@ -223,20 +223,20 @@ namespace DCSoft.Writer.Dom
         ///       类型名称
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         public string TypeName => GetType().Name;
 
         /// <summary>
         ///       获得供显示的类型名称
         ///       </summary>
         [Browsable(false)]
-        [DCInternal]
+        
         public string DispalyTypeName => WriterUtils.smethod_17(GetType());
 
         /// <summary>
         ///       元素在DOM树中的显示名称
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual string DomDisplayName => GetType().Name + ":" + ID;
 
@@ -267,7 +267,7 @@ namespace DCSoft.Writer.Dom
         ///       对象编号
         ///       </summary>
         [ComVisible(true)]
-        [DCPublishAPI]
+        
         [HtmlAttribute(DetectDefaultValue = true, AttributeName = "id")]
         [DefaultValue(null)]
         public string ID
@@ -288,7 +288,7 @@ namespace DCSoft.Writer.Dom
         [DefaultValue(null)]
         [Browsable(false)]
         [ComVisible(false)]
-        [DCPublishAPI]
+        
         public string ClientID
         {
             get
@@ -306,7 +306,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       文档元素编号前缀
         ///       </summary>
-        [DCInternal]
+        
         public virtual string ElementIDPrefix => "element";
 
         /// <summary>
@@ -314,7 +314,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <remarks>某些元素具有影子元素，当修改和删除本元素等价于修改和删除影子元素</remarks>
         [Browsable(false)]
-        [DCInternal]
+        
         [XmlIgnore]
         public virtual XTextElement ShadowElement => null;
 
@@ -322,7 +322,7 @@ namespace DCSoft.Writer.Dom
         ///       对象所属的文档对象
         ///       </summary>
         [DefaultValue(null)]
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [XmlIgnore]
         [ComVisible(true)]
@@ -340,7 +340,7 @@ namespace DCSoft.Writer.Dom
         }
 
         [ComVisible(false)]
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual bool UIIsUpdating
         {
@@ -357,14 +357,14 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       快速的获得对象所属文档对象
         ///       </summary>
-        [DCInternal]
+        
         protected internal XTextDocument ElementOwnerDocument => xtextDocument_0;
 
         /// <summary>
         ///       文档元素所在的编辑器控件对象
         ///       </summary>
         [ComVisible(false)]
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [XmlIgnore]
         public virtual WriterControl WriterControl
@@ -384,7 +384,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         [ComVisible(true)]
         [XmlIgnore]
-        [DCPublishAPI]
+        
         [Browsable(false)]
         public virtual string InnerText
         {
@@ -404,7 +404,7 @@ namespace DCSoft.Writer.Dom
         [Browsable(false)]
         [ComVisible(true)]
         [XmlIgnore]
-        [DCPublishAPI]
+        
         public virtual string OuterText
         {
             get
@@ -421,7 +421,7 @@ namespace DCSoft.Writer.Dom
         ///       返回元素内置内容的文档XML字符串
         ///       </summary>
         [ComVisible(true)]
-        [DCPublishAPI]
+        
         [Browsable(false)]
         public virtual string InnerXML
         {
@@ -437,7 +437,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       返回元素内置内容的文档XML字符串,而且不包含任何用户痕迹信息。
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [ComVisible(true)]
         public virtual string InnerXMLWithoutTrack
@@ -459,7 +459,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       返回元素内置内容的文档XML字符串
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [ComVisible(true)]
         public virtual string OuterXML
@@ -477,7 +477,7 @@ namespace DCSoft.Writer.Dom
         ///       返回元素内置内容的文档XML字符串,而且不包含任何用户痕迹信息。
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         [ComVisible(true)]
         public virtual string OuterXMLWithoutTrack
         {
@@ -498,7 +498,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       元素所属的文档级内容元素对象
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         [Browsable(false)]
         public XTextDocumentContentElement DocumentContentElement
@@ -526,14 +526,14 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       元素所属的页面区域类型
         ///       </summary>
-        [DCInternal]
+        
         [ComVisible(true)]
         public PageContentPartyStyle OwnerPagePartyStyle => DocumentContentElement?.PagePartyStyle ?? PageContentPartyStyle.Body;
 
         /// <summary>
         ///       元素所属的内容元素对象
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         [Browsable(false)]
         public virtual XTextContentElement ContentElement
@@ -561,7 +561,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       获得该元素所在的表格单元格对象
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [Browsable(false)]
         public virtual XTextTableCellElement OwnerCell
@@ -589,7 +589,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       获得该元素所在的表格对象
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [XmlIgnore]
         public virtual XTextTableElement OwnerTable
@@ -617,7 +617,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       获得该元素所在的文档节对象
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [XmlIgnore]
         public virtual XTextSectionElement OwnerSection
@@ -645,7 +645,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       本属性已过期，请采用ContentIndex属性。
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(true)]
         [ComVisible(true)]
         public int ViewIndex => int_2;
@@ -657,8 +657,8 @@ namespace DCSoft.Writer.Dom
         ///       当文档包含大量的元素时,XTextContent中包含了大量的元素,此时它的 IndexOf 函数执行
         ///       缓慢,此处用该属性来预先设置到元素在 XTextContent中的序号,以此来代替或加速 IndexOf 函数
         ///       </remarks>
-        [DCInternal]
-        [DCPublishAPI]
+        
+        
         [Browsable(true)]
         [ComVisible(true)]
         public int ContentIndex => int_2;
@@ -670,7 +670,7 @@ namespace DCSoft.Writer.Dom
         ///       当文档包含大量的元素时,XTextContent中包含了大量的元素,此时它的 IndexOf 函数执行
         ///       缓慢,此处用该属性来预先设置到元素在 PrivateContent中的序号,以此来代替或加速 IndexOf 函数
         ///       </remarks>
-        [DCInternal]
+        
         [Browsable(true)]
         [ComVisible(true)]
         public int PrivateContentIndex => int_3;
@@ -678,7 +678,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       元素占据排版位置，能参与文档内容排版。
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual bool RuntimeLayoutable => RuntimeVisible;
 
@@ -703,7 +703,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///        设计时元素是否可见
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [Browsable(false)]
         public virtual bool Visible
@@ -720,7 +720,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       创建者权限许可等级
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [Browsable(false)]
         public int CreatorPermessionLevel
@@ -736,7 +736,7 @@ namespace DCSoft.Writer.Dom
         ///       逻辑删除者权限许可等级
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         [XmlIgnore]
         public int DeleterPermissionLevel
         {
@@ -779,7 +779,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         [Browsable(false)]
         [XmlIgnore]
-        [DCPublishAPI]
+        
         [ComVisible(true)]
         [DefaultValue(null)]
         public virtual XTextContainerElement Parent
@@ -822,7 +822,7 @@ namespace DCSoft.Writer.Dom
         ///       对象所在的文本行对象
         ///       </summary>
         [XmlIgnore]
-        [DCPublishAPI]
+        
         [DefaultValue(null)]
         [Browsable(false)]
         public XTextLine OwnerLine
@@ -840,7 +840,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对象在文本行中的从1开始的列号
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
         public int ColumnIndex
         {
@@ -857,7 +857,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       获得一个从0开始计算的当前元素所在的页码
         ///       </summary>
-        [DCPublishAPI]
+        
         public virtual int OwnerPageIndex
         {
             get
@@ -941,7 +941,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       文档显示样式
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(true)]
         [XmlIgnore]
         [ReadOnly(true)]
@@ -978,7 +978,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       使用的样式编号
         ///       </summary>
-        [DCPublishAPI]
+        
         [DefaultValue(-1)]
         [XmlAttribute]
         public virtual int StyleIndex
@@ -1002,7 +1002,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       子对象列表
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [XmlIgnore]
         public virtual XTextElementList Elements
@@ -1020,14 +1020,14 @@ namespace DCSoft.Writer.Dom
         ///       元素中第一个显示在文档正文内容中的元素 
         ///       </summary>
         [XmlIgnore]
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual XTextElement FirstContentElementInPublicContent => FirstContentElement;
 
         /// <summary>
         ///       元素中最后一个显示在文档正文内容中的元素 
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         [Browsable(false)]
         public virtual XTextElement LastContentElementInPublicContent => LastContentElement;
@@ -1036,7 +1036,7 @@ namespace DCSoft.Writer.Dom
         ///       元素中第一个显示在文档内容中的元素 
         ///       </summary>
         [XmlIgnore]
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual XTextElement FirstContentElement => this;
 
@@ -1044,7 +1044,7 @@ namespace DCSoft.Writer.Dom
         ///       元素中最后一个显示在文档内容中的元素 
         ///       </summary>
         [Browsable(false)]
-        [DCInternal]
+        
         [XmlIgnore]
         public virtual XTextElement LastContentElement => this;
 
@@ -1054,7 +1054,7 @@ namespace DCSoft.Writer.Dom
         /// <remarks>若设置该属性,则元素的大小发生改变,系统需要从该元素
         ///       开始重新进行文档排版和分页</remarks>
         [XmlIgnore]
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual bool SizeInvalid
         {
@@ -1075,7 +1075,7 @@ namespace DCSoft.Writer.Dom
         ///       绘制该元素</remarks>
         [Browsable(false)]
         [XmlIgnore]
-        [DCInternal]
+        
         public bool ViewInvalid
         {
             get
@@ -1091,7 +1091,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对象左端位置
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [Browsable(true)]
         public virtual float Left
@@ -1109,7 +1109,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对象顶端位置
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(true)]
         [XmlIgnore]
         public virtual float Top
@@ -1128,7 +1128,7 @@ namespace DCSoft.Writer.Dom
         ///       对象宽度
         ///       </summary>
         [XmlIgnore]
-        [DCPublishAPI]
+        
         [Browsable(true)]
         public virtual float Width
         {
@@ -1145,14 +1145,14 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       文档内容布局时使用的宽度
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual float LayoutWidth => float_2;
 
         /// <summary>
         ///       文档内容布局时使用的高度
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual float LayoutHeight => float_3;
 
@@ -1223,7 +1223,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对象客户区的宽度
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [Browsable(true)]
         [ReadOnly(true)]
@@ -1290,7 +1290,7 @@ namespace DCSoft.Writer.Dom
         [Browsable(true)]
         [XmlIgnore]
         [ReadOnly(true)]
-        [DCPublishAPI]
+        
         public virtual float ClientHeight
         {
             get
@@ -1389,20 +1389,20 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         [Browsable(false)]
         [XmlIgnore]
-        [DCPublishAPI]
+        
         public float Right => float_0 + float_2;
 
         /// <summary>
         ///       对象底端位置
         ///       </summary>
         [XmlIgnore]
-        [DCPublishAPI]
+        
         public float Bottom => float_1 + float_3;
 
         /// <summary>
         ///       对象宽度修正值
         ///       </summary>
-        [DCInternal]
+        
         [Browsable(true)]
         [XmlIgnore]
         public float WidthFix
@@ -1444,7 +1444,7 @@ namespace DCSoft.Writer.Dom
         ///       对象在文档中的绝对坐标位置
         ///       </summary>
         [XmlIgnore]
-        [DCPublishAPI]
+        
         [Browsable(false)]
         public virtual float AbsLeft
         {
@@ -1466,7 +1466,7 @@ namespace DCSoft.Writer.Dom
         ///       对象在文档中的绝对坐标位置
         ///       </summary>
         [Browsable(true)]
-        [DCPublishAPI]
+        
         [XmlIgnore]
         public virtual float AbsTop
         {
@@ -1487,7 +1487,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       绝对边界
         ///       </summary>
-        [DCPublishAPI]
+        
         [Browsable(false)]
         [XmlIgnore]
         public virtual RectangleF AbsBounds => new RectangleF(AbsLeft, AbsTop, Width, Height);
@@ -1496,7 +1496,7 @@ namespace DCSoft.Writer.Dom
         ///       客户区的绝对边界
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         [XmlIgnore]
         public virtual RectangleF AbsClientBounds
         {
@@ -1511,7 +1511,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       文档元素在视图中占据的边界
         ///       </summary>
-        [DCInternal]
+        
         [XmlIgnore]
         [Browsable(false)]
         public RectangleF ViewBounds
@@ -1530,7 +1530,7 @@ namespace DCSoft.Writer.Dom
         ///       对象所示段落符号元素
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         public XTextParagraphFlagElement OwnerParagraphEOF
         {
             get
@@ -1569,7 +1569,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       获得元素的同一层次的下一个元素
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [Browsable(false)]
         [ComVisible(true)]
@@ -1593,7 +1593,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       元素内容版本号，当元素内容发生任何改变时，该属性值都会改变
         ///       </summary>
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [Browsable(false)]
         public int ContentVersion => _ContentVersion;
@@ -1602,7 +1602,7 @@ namespace DCSoft.Writer.Dom
         ///       判断元素是否获得输入焦点
         ///       </summary>
         [Browsable(false)]
-        [DCPublishAPI]
+        
         public virtual bool Focused
         {
             get
@@ -1628,7 +1628,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       表示对象内容的纯文本数据
         ///       </summary>
-        [DCPublishAPI]
+        
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         [Browsable(false)]
         [XmlIgnore]
@@ -1647,7 +1647,7 @@ namespace DCSoft.Writer.Dom
         ///       表达式数值内容
         ///       </summary>
         [MemberExpressionable(MemberEffectLevel.ElementLayout)]
-        [DCPublishAPI]
+        
         [XmlIgnore]
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         [Browsable(false)]
@@ -1668,7 +1668,7 @@ namespace DCSoft.Writer.Dom
         ///       元素事件列表
         ///       </summary>
         [XmlIgnore]
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual ElementEventTemplateList Events
         {
@@ -1701,7 +1701,7 @@ namespace DCSoft.Writer.Dom
             bool_0 = bool_5;
         }
 
-        [DCInternal]
+        
         protected DataSourceTreeNode method_1(string string_3)
         {
             XTextDocument ownerDocument = OwnerDocument;
@@ -1736,7 +1736,7 @@ namespace DCSoft.Writer.Dom
             return result;
         }
 
-        [DCInternal]
+        
         public DataSourceTreeNode method_2(XDataBinding xdataBinding_0, UpdateDataBindingArgs updateDataBindingArgs_0, string string_3 = null)
         {
             if (xdataBinding_0 == null)
@@ -1754,7 +1754,7 @@ namespace DCSoft.Writer.Dom
             return method_3(xdataBinding_0.DataSource, string_3, updateDataBindingArgs_0);
         }
 
-        [DCInternal]
+        
         public DataSourceTreeNode method_3(string string_3, string string_4, UpdateDataBindingArgs updateDataBindingArgs_0)
         {
             if (!(OwnerDocument?.Options.BehaviorOptions.EnableDataBinding ?? false))
@@ -1779,7 +1779,7 @@ namespace DCSoft.Writer.Dom
             return DataSourceTreeNode.EmptyNode;
         }
 
-        [DCInternal]
+        
         [Browsable(false)]
         public Color method_4(Color color_0)
         {
@@ -1791,7 +1791,7 @@ namespace DCSoft.Writer.Dom
             return color_0;
         }
 
-        [DCInternal]
+        
         [Browsable(false)]
         public virtual bool vmethod_1(bool bool_5)
         {
@@ -1822,13 +1822,13 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <returns>
         /// </returns>
-        [DCInternal]
+        
         public virtual PropertyExpressionInfoList GetRuntimePropertyExpressions()
         {
             return null;
         }
 
-        [DCInternal]
+        
         public virtual GClass3 vmethod_2()
         {
             return null;
@@ -1839,7 +1839,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <returns>
         /// </returns>
-        [DCInternal]
+        
         public virtual GClass96 GetToolTipInfo()
         {
             XTextDocument ownerDocument = OwnerDocument;
@@ -1916,7 +1916,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="name">属性名</param>
         /// <returns>属性值</returns>
         [ComVisible(true)]
-        [DCPublishAPI]
+        
         public virtual string GetAttribute(string name)
         {
             return null;
@@ -1928,7 +1928,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="name">属性名</param>
         /// <param name="Value">属性值</param>
         /// <returns>操作是否成功</returns>
-        [DCPublishAPI]
+        
         [ComVisible(true)]
         public virtual bool SetAttribute(string name, string Value)
         {
@@ -1941,7 +1941,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="name">属性名</param>
         /// <returns>是否存在</returns>
         [ComVisible(true)]
-        [DCPublishAPI]
+        
         public virtual bool HasAttribute(string name)
         {
             return false;
@@ -1951,7 +1951,7 @@ namespace DCSoft.Writer.Dom
         ///       获得文档元素数值编辑器
         ///       </summary>
         /// <returns>获得的数值编辑器</returns>
-        [DCInternal]
+        
         public virtual ElementValueEditor GetValueEditor()
         {
             return null;
@@ -1997,7 +1997,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="includeThis">是否包含本文档原始对象</param>
         /// <returns>创建的文档对象</returns>
-        [DCPublishAPI]
+        
         public virtual XTextDocument CreateContentDocument(bool includeThis)
         {
             if (includeThis)
@@ -2015,7 +2015,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="document">文档对象</param>
         /// <param name="checkLogicDelete">检查逻辑删除标记</param>
         /// <returns>是否挂在DOM结构中</returns>
-        [DCInternal]
+        
         public virtual bool BelongToDocumentDom(XTextDocument document, bool checkLogicDelete)
         {
             if (document == null)
@@ -2059,7 +2059,7 @@ namespace DCSoft.Writer.Dom
             return false;
         }
 
-        [DCInternal]
+        
         protected void method_7()
         {
             XTextDocumentContentElement documentContentElement = DocumentContentElement;
@@ -2072,7 +2072,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       修正DOM结构信息
         ///       </summary>
-        [DCInternal]
+        
         public virtual void FixDomState()
         {
         }
@@ -2080,7 +2080,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       设置元素为选中状态
         ///       </summary>
-        [DCPublishAPI]
+        
         public virtual bool Select()
         {
             method_7();
@@ -2117,7 +2117,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="visible">新的可见性</param>
         /// <returns>操作是否成功</returns>
-        [DCPublishAPI]
+        
         public bool EditorSetVisible(bool visible)
         {
             return EditorSetVisibleExt(visible, logUndo: true, fastMode: false);
@@ -2131,7 +2131,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="fastMode">是否启用快速模式，当使用快速模式时，
         ///       只更新DOM结构，不更新用户界面视图</param>
         /// <returns>操作是否成功</returns>
-        [DCPublishAPI]
+        
         public virtual bool EditorSetVisibleExt(bool visible, bool logUndo, bool fastMode)
         {
             bool result = false;
@@ -2215,7 +2215,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="c">
         /// </param>
-        [DCInternal]
+        
         public void SetParentRaw(XTextContainerElement xtextContainerElement_1)
         {
             xtextContainerElement_0 = xtextContainerElement_1;
@@ -2226,7 +2226,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="parentElement">要判断的元素</param>
         /// <returns>是否是父节点或者更高级的父节点</returns>
-        [DCInternal]
+        
         public virtual bool IsParentOrSupParent(XTextElement parentElement)
         {
             XTextElement parent = Parent;
@@ -2253,7 +2253,7 @@ namespace DCSoft.Writer.Dom
         /// <returns>操作是否成功</returns>
         [Obsolete("请直接设置element.Style下面的属性值")]
         [ComVisible(true)]
-        [DCInternal]
+        
         public virtual bool EditorSetStyle(DocumentContentStyle style)
         {
             int num = 12;
@@ -2273,7 +2273,7 @@ namespace DCSoft.Writer.Dom
         ///       开始设置文档元素样式
         ///       </summary>
         /// <returns>操作是否成功</returns>
-        [DCInternal]
+        
         [Obsolete("请直接设置element.Style下面的属性值")]
         [EditorBrowsable(EditorBrowsableState.Never)]
         public virtual bool BeginSetStyle()
@@ -2286,7 +2286,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <returns>操作是否成功</returns>
         [Obsolete("请直接设置element.Style下面的属性值")]
-        [DCInternal]
+        
         [EditorBrowsable(EditorBrowsableState.Never)]
         public virtual bool EndSetStyle()
         {
@@ -2302,7 +2302,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <returns>操作是否成功</returns>
         [EditorBrowsable(EditorBrowsableState.Never)]
-        [DCInternal]
+        
         [Obsolete("请直接设置element.Style下面的属性值")]
         public virtual bool EndSetStyleWithLogUndo()
         {
@@ -2335,7 +2335,7 @@ namespace DCSoft.Writer.Dom
             return false;
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_4()
         {
         }
@@ -2343,7 +2343,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       声明元素的视图无效,需要重新绘制
         ///       </summary>
-        [DCPublishAPI]
+        
         public virtual void InvalidateView()
         {
             if (xtextDocument_0 != null)
@@ -2355,7 +2355,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       声明元素的高亮度显示信息无效
         ///       </summary>
-        [DCInternal]
+        
         public virtual void InvalidateHighlightInfo()
         {
             if (OwnerDocument != null && !OwnerDocument.IsLoadingDocument)
@@ -2408,7 +2408,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       修改元素内容版本号，这会导致所有父级元素的ContentVersion的值的改变。
         ///       </summary>
-        [DCInternal]
+        
         public virtual void UpdateContentVersion()
         {
             for (XTextElement xTextElement = this; xTextElement != null; xTextElement = xTextElement.Parent)
@@ -2422,7 +2422,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <returns>
         /// </returns>
-        [DCPublishAPI]
+        
         public virtual void EditorRefreshView()
         {
             EditorRefreshViewExt(fastMode: false);
@@ -2434,7 +2434,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="fastMode">快速模式</param>
         /// <returns>
         /// </returns>
-        [DCPublishAPI]
+        
         public virtual void EditorRefreshViewExt(bool fastMode)
         {
             SizeInvalid = true;
@@ -2557,7 +2557,7 @@ namespace DCSoft.Writer.Dom
         /// <param name="updateView">操作是否更新视图</param>
         /// <param name="logUndo">是否记录撤销操作信息</param>
         /// <returns>操作是否成功</returns>
-        [DCPublishAPI]
+        
         public virtual bool EditorSetSize(float width, float height, bool updateView, bool logUndo)
         {
             int num = 7;
@@ -2598,7 +2598,7 @@ namespace DCSoft.Writer.Dom
             return true;
         }
 
-        [DCInternal]
+        
         protected void method_10(bool bool_5)
         {
             if (OwnerLine != null)
@@ -2651,7 +2651,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         /// <param name="args">
         /// </param>
-        [DCInternal]
+        
         public virtual void HandleDocumentEvent(DocumentEventArgs args)
         {
             switch (args.Style)
@@ -2831,7 +2831,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         public virtual void OnViewGotFocus(ElementEventArgs elementEventArgs_0)
         {
             int num = 19;
@@ -2867,7 +2867,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void OnViewLostFocus(ElementEventArgs elementEventArgs_0)
         {
             int num = 4;
@@ -2906,7 +2906,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       获得输入焦点
         ///       </summary>
-        [DCPublishAPI]
+        
         public virtual void Focus()
         {
             if (!BelongToDocumentDom(OwnerDocument, checkLogicDelete: false))
@@ -2984,7 +2984,7 @@ namespace DCSoft.Writer.Dom
             return false;
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_7(ElementEventArgs elementEventArgs_0)
         {
             int num = 12;
@@ -3007,7 +3007,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_8(ElementEventArgs elementEventArgs_0)
         {
             int num = 14;
@@ -3030,7 +3030,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void OnViewMouseDown(ElementMouseEventArgs elementMouseEventArgs_0)
         {
             int num = 8;
@@ -3054,7 +3054,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void OnViewMouseMove(ElementMouseEventArgs elementMouseEventArgs_0)
         {
             if (OwnerDocument.Options.BehaviorOptions.EnableElementEvents)
@@ -3072,7 +3072,7 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         public virtual void OnViewMouseUp(ElementMouseEventArgs elementMouseEventArgs_0)
         {
             int num = 3;
@@ -3096,7 +3096,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void OnViewMouseClick(ElementMouseEventArgs elementMouseEventArgs_0)
         {
             int num = 9;
@@ -3120,7 +3120,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void OnViewMouseDblClick(ElementMouseEventArgs elementMouseEventArgs_0)
         {
             int num = 1;
@@ -3144,7 +3144,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void OnViewKeyDown(ElementKeyEventArgs elementKeyEventArgs_0)
         {
             int num = 2;
@@ -3167,7 +3167,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_15(ElementKeyEventArgs elementKeyEventArgs_0)
         {
             int num = 17;
@@ -3190,7 +3190,7 @@ namespace DCSoft.Writer.Dom
             });
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_16(ElementKeyEventArgs elementKeyEventArgs_0)
         {
             int num = 8;
@@ -3246,7 +3246,7 @@ namespace DCSoft.Writer.Dom
         ///       输出纯文本数据
         ///       </summary>
         /// <returns>纯文本数据</returns>
-        [DCInternal]
+        
         public virtual string ToPlaintString()
         {
             return ToString();
@@ -3256,26 +3256,26 @@ namespace DCSoft.Writer.Dom
         ///       输出调试用的文本数据
         ///       </summary>
         /// <returns>文本数据</returns>
-        [DCInternal]
+        
         public virtual string ToDebugString()
         {
             return GetType().Name + "(" + ID + ")";
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_17(ReadHTMLEventArgs readHTMLEventArgs_0)
         {
             ID = readHTMLEventArgs_0.HtmlElement.method_37();
             readHTMLEventArgs_0.ReadDCCustomAttributes(readHTMLEventArgs_0.HtmlElement, this);
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_18(GInterface5 ginterface5_0)
         {
             ginterface5_0.imethod_23(this);
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_19(GClass103 gclass103_0)
         {
         }
@@ -3284,7 +3284,7 @@ namespace DCSoft.Writer.Dom
         ///       绘制文档元素对象
         ///       </summary>
         /// <param name="args">事件参数</param>
-        [DCInternal]
+        
         public virtual void Draw(DocumentPaintEventArgs args)
         {
             args.Render.vmethod_3(this, args);
@@ -3295,7 +3295,7 @@ namespace DCSoft.Writer.Dom
         ///       绘制文档元素内容
         ///       </summary>
         /// <param name="args">事件参数</param>
-        [DCInternal]
+        
         public virtual void DrawContent(DocumentPaintEventArgs args)
         {
         }
@@ -3304,12 +3304,12 @@ namespace DCSoft.Writer.Dom
         ///       计算元素大小
         ///       </summary>
         /// <param name="args">参数</param>
-        [DCInternal]
+        
         public virtual void RefreshSize(DocumentPaintEventArgs args)
         {
         }
 
-        [DCInternal]
+        
         public virtual HighlightInfoList vmethod_20()
         {
             return null;
@@ -3319,7 +3319,7 @@ namespace DCSoft.Writer.Dom
         ///       创建包含元素内容的图片对象
         ///       </summary>
         /// <returns>图片对象</returns>
-        [DCPublishAPI]
+        
         public virtual Image CreateContentImage()
         {
             if (Width <= 0f || Height <= 0f)
@@ -3352,12 +3352,12 @@ namespace DCSoft.Writer.Dom
             return bitmap;
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_21(string string_3)
         {
         }
 
-        [DCInternal]
+        
         public virtual void vmethod_22()
         {
         }
@@ -3366,7 +3366,7 @@ namespace DCSoft.Writer.Dom
         ///       文档加载后的处理
         ///       </summary>
         /// <param name="args">事件参数</param>
-        [DCInternal]
+        
         public virtual void AfterLoad(ElementLoadEventArgs args)
         {
         }
@@ -3384,7 +3384,7 @@ namespace DCSoft.Writer.Dom
             documentContentStyle_0 = null;
         }
 
-        [DCInternal]
+        
         protected string method_12(string string_3)
         {
             int num = 19;

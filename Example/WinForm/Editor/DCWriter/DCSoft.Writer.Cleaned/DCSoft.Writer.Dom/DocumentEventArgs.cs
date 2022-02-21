@@ -314,7 +314,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="e">原始事件参数</param>
 		/// <returns>创建的参数</returns>
-		[DCInternal]
+		
 		public static DocumentEventArgs CreateMouseDown(XTextDocument xtextDocument_0, MouseEventArgs mouseEventArgs_0)
 		{
 			return CreateMouseEvent(xtextDocument_0, mouseEventArgs_0, DocumentEventStyles.MouseDown);
@@ -326,7 +326,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="e">原始事件参数</param>
 		/// <returns>创建的参数</returns>
-		[DCInternal]
+		
 		public static DocumentEventArgs CreateMouseMove(XTextDocument xtextDocument_0, MouseEventArgs mouseEventArgs_0)
 		{
 			return CreateMouseEvent(xtextDocument_0, mouseEventArgs_0, DocumentEventStyles.MouseMove);
@@ -338,7 +338,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="e">原始事件参数</param>
 		/// <returns>创建的参数</returns>
-		[DCInternal]
+		
 		public static DocumentEventArgs CreateMouseUp(XTextDocument xtextDocument_0, MouseEventArgs mouseEventArgs_0)
 		{
 			return CreateMouseEvent(xtextDocument_0, mouseEventArgs_0, DocumentEventStyles.MouseUp);
@@ -350,7 +350,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="e">原始事件参数</param>
 		/// <returns>创建的事件参数对象</returns>
-		[DCInternal]
+		
 		public static DocumentEventArgs CreateKeyDown(XTextDocument xtextDocument_0, KeyEventArgs keyEventArgs_0)
 		{
 			DocumentEventArgs documentEventArgs = new DocumentEventArgs();
@@ -370,7 +370,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="e">原始事件参数</param>
 		/// <returns>创建的事件参数对象</returns>
-		[DCInternal]
+		
 		public static DocumentEventArgs CreateKeyPress(XTextDocument xtextDocument_0, KeyPressEventArgs keyPressEventArgs_0)
 		{
 			DocumentEventArgs documentEventArgs = new DocumentEventArgs();
@@ -387,7 +387,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="chr">字符值</param>
 		/// <returns>创建的事件参数对象</returns>
-		[DCInternal]
+		
 		public static DocumentEventArgs CreateKeyPress(XTextDocument xtextDocument_0, char char_0)
 		{
 			DocumentEventArgs documentEventArgs = new DocumentEventArgs();
@@ -404,7 +404,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="doc">文档对象</param>
 		/// <param name="e">原始事件参数</param>
 		/// <returns>创建的事件参数对象</returns>
-		[DCInternal]
+		
 		public static DocumentEventArgs CreateKeyUp(XTextDocument xtextDocument_0, KeyEventArgs keyEventArgs_0)
 		{
 			DocumentEventArgs documentEventArgs = new DocumentEventArgs();
@@ -418,7 +418,7 @@ namespace DCSoft.Writer.Dom
 			return documentEventArgs;
 		}
 
-		[DCInternal]
+		
 		private static DocumentEventArgs CreateMouseEvent(XTextDocument xtextDocument_0, MouseEventArgs mouseEventArgs_0, DocumentEventStyles style)
 		{
 			DocumentEventArgs documentEventArgs = new DocumentEventArgs();
@@ -441,7 +441,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="document">文档对象</param>
 		/// <param name="element">文档元素对象</param>
 		/// <param name="style">事件类型</param>
-		[DCInternal]
+		
 		public DocumentEventArgs(XTextDocument document, XTextElement element, DocumentEventStyles style)
 		{
 			myDocument = document;
@@ -471,7 +471,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>对象复制品</returns>
-		[DCInternal]
+		
 		public DocumentEventArgs Clone()
 		{
 			return (DocumentEventArgs)MemberwiseClone();

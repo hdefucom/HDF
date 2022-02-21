@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Controls
 	///       元素值编辑操作结果
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCInternal]
+	
 	[ComVisible(true)]
 	[Guid("B96813EE-888D-49A5-BEBA-7442AE58352B")]
 	public enum ElementValueEditResult

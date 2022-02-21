@@ -110,7 +110,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="element">
 		/// </param>
-		[DCInternal]
+		
 		public ElementQueryStateEventArgs(XTextElement element)
 			: base(element)
 		{

@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Commands
 	/// <remarks>
 	/// </remarks>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class InputFieldUnderLineCommandParameter
 	{
 		/// <summary>

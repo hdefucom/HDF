@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IElementEventTemplateList))]
 	[Guid("D670F798-A4CE-40AC-8B42-37AFFBA4399D")]
 	[ComClass("D670F798-A4CE-40AC-8B42-37AFFBA4399D", "BB0F62C0-A161-4AEB-B3F9-262D156B483B")]
@@ -27,7 +27,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="name">名称</param>
 		/// <returns>获得的监听器对象</returns>
-		[DCPublishAPI]
+		
 		public ElementEventTemplate this[string name]
 		{
 			get
@@ -384,7 +384,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       判断是否存在BeforeDropDown事件
 		///       </summary>
-		[DCInternal]
+		
 		public bool HasBeforeDropDown
 		{
 			get
@@ -451,7 +451,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       判断是否存在文档元素执行表达式事件
 		///       </summary>
-		[DCInternal]
+		
 		public bool HasExpression
 		{
 			get
@@ -496,7 +496,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       判断是否存在准备绘制文档元素内容前事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasBeforePaint
 		{
 			get
@@ -519,7 +519,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       判断是否存在准备绘制文档元素内容前事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasAfterPaint
 		{
 			get
@@ -542,7 +542,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ElementEventTemplateList()
 		{
 		}
@@ -552,7 +552,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件参数</param>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnLoad(object sender, ElementLoadEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -577,7 +577,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseClick(object sender, ElementMouseEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -602,7 +602,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseDblClick(object sender, ElementMouseEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -627,7 +627,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseDown(object sender, ElementMouseEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -652,7 +652,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseMove(object sender, ElementMouseEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -677,7 +677,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseUp(object sender, ElementMouseEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -702,7 +702,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnKeyDown(object sender, ElementKeyEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -727,7 +727,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnKeyPress(object sender, ElementKeyEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -752,7 +752,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnKeyUp(object sender, ElementKeyEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -779,7 +779,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public virtual void OnContentChanged(object sender, ContentChangedEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -806,7 +806,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public virtual void OnContentChanging(object sender, ContentChangingEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -831,7 +831,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件发起者</param>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnGotFocus(object sender, ElementEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -856,7 +856,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件发起者</param>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnLostFocus(object sender, ElementEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -883,7 +883,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public virtual void OnValidating(object sender, ElementValidatingEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -908,7 +908,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件发起者</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnValidated(object sender, ElementEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -933,7 +933,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnBeforeDropDown(object sender, ElementCancelEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -958,7 +958,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseEnter(object sender, ElementEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -983,7 +983,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseLeave(object sender, ElementEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -1008,7 +1008,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnExpression(object sender, ElementExpressionEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -1033,7 +1033,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnQueryState(object sender, ElementQueryStateEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -1058,7 +1058,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnBeforePaint(object sender, ElementPaintEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -1083,7 +1083,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnAfterPaint(object sender, ElementPaintEventArgs e)
 		{
 			using (Enumerator enumerator = GetEnumerator())

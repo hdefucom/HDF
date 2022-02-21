@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       文档设置信息对象
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IDocumentInfo))]
 	[ClassInterface(ClassInterfaceType.None)]
@@ -103,7 +103,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       子文档模式下是设置
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public SubDocumentSettings SubDocumentSettings
 		{
@@ -120,7 +120,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档内容只读
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool Readonly
 		{
@@ -138,7 +138,7 @@ namespace DCSoft.Writer.Dom
 		///       刷新文档排版标记,DCWriter内部使用。
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
@@ -161,7 +161,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(false)]
 		[ComVisible(false)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public bool RefreshViewFlag
@@ -180,7 +180,7 @@ namespace DCSoft.Writer.Dom
 		///       是否显示页眉下面的横线
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "ShowHeaderBottomLine")]
-		[DCPublishAPI]
+		
 		[DefaultValue(DCBooleanValue.Inherit)]
 		[DCDescription(typeof(DocumentInfo), "ShowHeaderBottomLine")]
 		public DCBooleanValue ShowHeaderBottomLine
@@ -202,7 +202,7 @@ namespace DCSoft.Writer.Dom
 		[DCDescription(typeof(DocumentInfo), "FieldBorderElementWidth")]
 		[DefaultValue(1f)]
 		[DCDisplayName(typeof(DocumentInfo), "FieldBorderElementWidth")]
-		[DCPublishAPI]
+		
 		public float FieldBorderElementWidth
 		{
 			get
@@ -221,7 +221,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(0)]
 		[DCDisplayName(typeof(DocumentInfo), "KBEntryRangeMask")]
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "KBEntryRangeMask")]
 		public int KBEntryRangeMask
 		{
@@ -238,7 +238,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       实际使用的文档标题
 		///       </summary>
-		[DCPublishAPI]
+		
 		[ComVisible(false)]
 		[XmlIgnore]
 		[Browsable(false)]
@@ -257,7 +257,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档编号
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(DocumentInfo), "ID")]
 		[DCDescription(typeof(DocumentInfo), "ID")]
@@ -278,7 +278,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "IsTemplate")]
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "IsTemplate")]
 		public bool IsTemplate
 		{
@@ -298,7 +298,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[DCDescription(typeof(DocumentInfo), "MRID")]
 		[DCDisplayName(typeof(DocumentInfo), "MRID")]
-		[DCPublishAPI]
+		
 		public string MRID
 		{
 			get
@@ -318,7 +318,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(0)]
 		[DCDescription(typeof(DocumentInfo), "TimeoutHours")]
-		[DCPublishAPI]
+		
 		[DCDisplayName(typeof(DocumentInfo), "TimeoutHours")]
 		public int TimeoutHours
 		{
@@ -338,7 +338,7 @@ namespace DCSoft.Writer.Dom
 		[DCDescription(typeof(DocumentInfo), "Version")]
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(DocumentInfo), "Version")]
-		[DCPublishAPI]
+		
 		public string Version
 		{
 			get
@@ -356,7 +356,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "Title")]
 		[DCDescription(typeof(DocumentInfo), "Title")]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Title
 		{
@@ -375,7 +375,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDescription(typeof(DocumentInfo), "Description")]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[DCDisplayName(typeof(DocumentInfo), "Description")]
 		public string Description
 		{
@@ -394,7 +394,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "LicenseText")]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "LicenseText")]
 		public string LicenseText
 		{
@@ -413,7 +413,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "CreationTime")]
 		[DCDescription(typeof(DocumentInfo), "CreationTime")]
-		[DCPublishAPI]
+		
 		public DateTime CreationTime
 		{
 			get
@@ -431,7 +431,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDescription(typeof(DocumentInfo), "LastModifiedTime")]
 		[DCDisplayName(typeof(DocumentInfo), "LastModifiedTime")]
-		[DCPublishAPI]
+		
 		public DateTime LastModifiedTime
 		{
 			get
@@ -449,7 +449,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "EditMinute")]
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "EditMinute")]
 		public int EditMinute
 		{
@@ -467,7 +467,7 @@ namespace DCSoft.Writer.Dom
 		///       最后一次打印的时间
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "LastPrintTime")]
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "LastPrintTime")]
 		public DateTime LastPrintTime
 		{
@@ -484,7 +484,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       作者
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DCDisplayName(typeof(DocumentInfo), "Author")]
 		[DCDescription(typeof(DocumentInfo), "Author")]
 		[DefaultValue(null)]
@@ -503,7 +503,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       作者姓名
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(DocumentInfo), "AuthorName")]
 		[DCDescription(typeof(DocumentInfo), "AuthorName")]
@@ -523,7 +523,7 @@ namespace DCSoft.Writer.Dom
 		///       作者使用的授权等级
 		///       </summary>
 		[DCDescription(typeof(DocumentInfo), "AuthorPermissionLevel")]
-		[DCPublishAPI]
+		
 		[DCDisplayName(typeof(DocumentInfo), "AuthorPermissionLevel")]
 		[DefaultValue(0)]
 		public int AuthorPermissionLevel
@@ -544,7 +544,7 @@ namespace DCSoft.Writer.Dom
 		[DCDescription(typeof(DocumentInfo), "DepartmentID")]
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(DocumentInfo), "DepartmentID")]
-		[DCPublishAPI]
+		
 		public string DepartmentID
 		{
 			get
@@ -562,7 +562,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDescription(typeof(DocumentInfo), "DepartmentName")]
 		[DCDisplayName(typeof(DocumentInfo), "DepartmentName")]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string DepartmentName
 		{
@@ -579,7 +579,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DCDisplayName(typeof(DocumentInfo), "DocumentFormat")]
 		[DCDescription(typeof(DocumentInfo), "DocumentFormat")]
 		[DefaultValue(null)]
@@ -600,7 +600,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDisplayName(typeof(DocumentInfo), "DocumentType")]
 		[DCDescription(typeof(DocumentInfo), "DocumentType")]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string DocumentType
 		{
@@ -619,7 +619,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDescription(typeof(DocumentInfo), "DocumentProcessState")]
 		[DCDisplayName(typeof(DocumentInfo), "DocumentProcessState")]
-		[DCPublishAPI]
+		
 		[DefaultValue(0)]
 		public int DocumentProcessState
 		{
@@ -636,7 +636,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档编辑状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DCDisplayName(typeof(DocumentInfo), "DocumentEditState")]
 		[DefaultValue(0)]
 		[DCDescription(typeof(DocumentInfo), "DocumentEditState")]
@@ -655,7 +655,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容说明
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "Comment")]
 		[DCDisplayName(typeof(DocumentInfo), "Comment")]
 		[DefaultValue(null)]
@@ -677,7 +677,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[DCDescription(typeof(DocumentInfo), "Operator")]
 		[DCDisplayName(typeof(DocumentInfo), "Operator")]
-		[DCPublishAPI]
+		
 		public string Operator
 		{
 			get
@@ -696,7 +696,7 @@ namespace DCSoft.Writer.Dom
 		[DCDescription(typeof(DocumentInfo), "NumOfPage")]
 		[DCDisplayName(typeof(DocumentInfo), "NumOfPage")]
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		public int NumOfPage
 		{
 			get
@@ -714,7 +714,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(false)]
 		[DCDisplayName(typeof(DocumentInfo), "UseLanguage2")]
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "UseLanguage2")]
 		public bool UseLanguage2
 		{
@@ -734,7 +734,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(true)]
 		[DCDescription(typeof(DocumentInfo), "Printable")]
 		[DCDisplayName(typeof(DocumentInfo), "Printable")]
-		[DCPublishAPI]
+		
 		public bool Printable
 		{
 			get
@@ -753,7 +753,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(0)]
 		[DCDescription(typeof(DocumentInfo), "StartPositionInPringJob")]
 		[DCDisplayName(typeof(DocumentInfo), "StartPositionInPringJob")]
-		[DCPublishAPI]
+		
 		public int StartPositionInPringJob
 		{
 			get
@@ -769,7 +769,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档在打印任务中的打印高度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DCDescription(typeof(DocumentInfo), "HeightInPrintJob")]
 		[DefaultValue(0)]
 		[DCDisplayName(typeof(DocumentInfo), "HeightInPrintJob")]
@@ -789,7 +789,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public DocumentInfo Clone()
 		{
 			DocumentInfo documentInfo = (DocumentInfo)MemberwiseClone();
@@ -800,19 +800,19 @@ namespace DCSoft.Writer.Dom
 			return documentInfo;
 		}
 
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return ValueTypeHelper.GetPropertiesAttributeString(this, detectDefaultValue: true);
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			return ToString();
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			ValueTypeHelper.SetPropertiesAttributeString(this, text);

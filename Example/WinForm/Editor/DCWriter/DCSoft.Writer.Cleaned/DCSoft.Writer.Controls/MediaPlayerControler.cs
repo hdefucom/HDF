@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       播放器控件
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	[ToolboxItem(false)]
 	public class MediaPlayerControler : UserControl

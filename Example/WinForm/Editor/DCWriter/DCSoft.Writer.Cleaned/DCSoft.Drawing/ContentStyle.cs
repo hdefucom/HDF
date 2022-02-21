@@ -15,7 +15,7 @@ namespace DCSoft.Drawing
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890086")]
@@ -328,14 +328,14 @@ namespace DCSoft.Drawing
 		///       对象数据是否为空
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public virtual bool IsEmpty => base.InnerValues == null || base.InnerValues.Count == 0;
 
 		/// <summary>
 		///       运行时使用的样式列表
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public ContentStyle RuntimeStyle
@@ -424,7 +424,7 @@ namespace DCSoft.Drawing
 		///       字符串格式的背景色
 		///       </summary>
 		[XmlElement("BackgroundColor2")]
-		[DCInternal]
+		
 		[DefaultValue(null)]
 		[Browsable(false)]
 		public string BackgroundColor2String
@@ -573,7 +573,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		[Browsable(false)]
 		[XmlElement("Color")]
-		[DCInternal]
+		
 		[DefaultValue(null)]
 		public string ColorString
 		{
@@ -590,7 +590,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       是否存在可见的背景
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool HasVisibleBackground
 		{
@@ -616,7 +616,7 @@ namespace DCSoft.Drawing
 		///       字体对象
 		///       </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public XFontValue Font
 		{
@@ -1002,7 +1002,7 @@ namespace DCSoft.Drawing
 		///       从RTF文档中导入的绝对行间距值
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCInternal]
+		
 		public float RTFLineSpacing
 		{
 			get
@@ -1222,7 +1222,7 @@ namespace DCSoft.Drawing
 		[DefaultValue(null)]
 		[Browsable(false)]
 		[XmlElement("BorderLeftColor")]
-		[DCInternal]
+		
 		public string BorderLeftColorString
 		{
 			get
@@ -1275,7 +1275,7 @@ namespace DCSoft.Drawing
 		[DefaultValue(null)]
 		[XmlElement("BorderTopColor")]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public string BorderTopColorString
 		{
 			get
@@ -1311,7 +1311,7 @@ namespace DCSoft.Drawing
 		[XmlElement("BorderRightColor")]
 		[DefaultValue(null)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public string BorderRightColorString
 		{
 			get
@@ -1347,7 +1347,7 @@ namespace DCSoft.Drawing
 		[XmlElement("BorderBottomColor")]
 		[DefaultValue(null)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public string BorderBottomColorString
 		{
 			get
@@ -1383,7 +1383,7 @@ namespace DCSoft.Drawing
 		[ComVisible(true)]
 		[DefaultValue(0)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		[Obsolete("请使用BorderStyle属性值，本属性仅为COM公开使用。")]
 		public int BorderStyleValue
 		{
@@ -1480,7 +1480,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       是否存在完整的边框线
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool HasFullBorder => BorderLeft && BorderTop && BorderRight && BorderBottom;
 
@@ -1503,7 +1503,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       判断样式是否存在可见的边框效果
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool HasVisibleBorder
 		{
@@ -1528,7 +1528,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       左外边距
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(0f)]
 		public float MarginLeft
 		{
@@ -1546,7 +1546,7 @@ namespace DCSoft.Drawing
 		///       上外边距
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCInternal]
+		
 		public float MarginTop
 		{
 			get
@@ -1563,7 +1563,7 @@ namespace DCSoft.Drawing
 		///       右外边距
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCInternal]
+		
 		public float MarginRight
 		{
 			get
@@ -1580,7 +1580,7 @@ namespace DCSoft.Drawing
 		///       下外边距
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCInternal]
+		
 		public float MarginBottom
 		{
 			get
@@ -1660,7 +1660,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       缩放比例
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(1f)]
 		public float Zoom
 		{
@@ -1677,7 +1677,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       左端位置
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(0f)]
 		public float Left
 		{
@@ -1694,7 +1694,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       顶端位置
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(0f)]
 		public float Top
 		{
@@ -1712,7 +1712,7 @@ namespace DCSoft.Drawing
 		///       宽度
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCInternal]
+		
 		public float Width
 		{
 			get
@@ -1729,7 +1729,7 @@ namespace DCSoft.Drawing
 		///       高度
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCInternal]
+		
 		public float Height
 		{
 			get
@@ -1745,7 +1745,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       是否可见
 		///       </summary>
-		[DCInternal]
+		
 		[DefaultValue(true)]
 		public bool Visible
 		{
@@ -1858,22 +1858,22 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       判断是否是圆点列表方式
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool IsBulletedList => GClass470.smethod_6(ParagraphListStyle);
 
 		/// <summary>
 		///       判断是否是数字列表方式
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool IsListNumberStyle => GClass470.smethod_7(ParagraphListStyle);
 
 		[Browsable(false)]
-		[DCInternal]
+		
 		public string BulletedString => GClass470.smethod_2(ParagraphListStyle);
 
-		[DCInternal]
+		
 		GInterface22 PropertyLogger
 		{
 			get
@@ -1891,7 +1891,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		[XmlElement]
 		[DefaultValue(null)]
-		[DCInternal]
+		
 		public string DefaultValuePropertyNames
 		{
 			get
@@ -1916,19 +1916,19 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public int method_3(string string_73)
 		{
 			return GClass340.smethod_0(this, string_73);
 		}
 
-		[DCInternal]
+		
 		public bool method_4(ContentStyle contentStyle_1)
 		{
 			return XDependencyObject.smethod_9(this, contentStyle_1);
 		}
 
-		[DCInternal]
+		
 		public int method_5(ContentStyle contentStyle_1)
 		{
 			int num = 5;
@@ -1957,19 +1957,19 @@ namespace DCSoft.Drawing
 			return base.InnerValues.Count;
 		}
 
-		[DCInternal]
+		
 		public Brush method_6()
 		{
 			return method_7(GraphicsUnit.Pixel);
 		}
 
-		[DCInternal]
+		
 		public Brush method_7(GraphicsUnit graphicsUnit_0)
 		{
 			return method_8(new RectangleF(0f, 0f, 100f, 100f), graphicsUnit_0);
 		}
 
-		[DCInternal]
+		
 		public Brush method_8(RectangleF rectangleF_0, GraphicsUnit graphicsUnit_0)
 		{
 			XBrushStyle xBrushStyle = new XBrushStyle();
@@ -1984,7 +1984,7 @@ namespace DCSoft.Drawing
 			return xBrushStyle.method_4(rectangleF_0, graphicsUnit_0);
 		}
 
-		[DCInternal]
+		
 		public void method_9(Brush brush_0)
 		{
 			if (brush_0 != null)
@@ -2014,7 +2014,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public float method_10(float float_1, float float_2, GraphicsUnit graphicsUnit_0)
 		{
 			LineSpacingStyle lineSpacingStyle = LineSpacingStyle;
@@ -2048,7 +2048,7 @@ namespace DCSoft.Drawing
 			return result;
 		}
 
-		[DCInternal]
+		
 		public void method_11(StringFormat stringFormat_0)
 		{
 			if (stringFormat_0.LineAlignment == StringAlignment.Center)
@@ -2093,7 +2093,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public DrawStringFormatExt method_12()
 		{
 			DrawStringFormatExt drawStringFormatExt = new DrawStringFormatExt();
@@ -2141,7 +2141,7 @@ namespace DCSoft.Drawing
 			return drawStringFormatExt;
 		}
 
-		[DCInternal]
+		
 		public StringFormat method_13()
 		{
 			StringFormat stringFormat = new StringFormat();
@@ -2189,7 +2189,7 @@ namespace DCSoft.Drawing
 			return stringFormat;
 		}
 
-		[DCInternal]
+		
 		public Matrix method_14(Graphics graphics_0, Rectangle rectangle_0)
 		{
 			if (Rotate == 0f)
@@ -2204,7 +2204,7 @@ namespace DCSoft.Drawing
 			return transform;
 		}
 
-		[DCInternal]
+		
 		public Pen method_15()
 		{
 			Pen pen = new Pen(BorderTopColor, BorderWidth);
@@ -2212,7 +2212,7 @@ namespace DCSoft.Drawing
 			return pen;
 		}
 
-		[DCInternal]
+		
 		public XPenStyle method_16()
 		{
 			XPenStyle xPenStyle = new XPenStyle(BorderTopColor, BorderWidth);
@@ -2220,7 +2220,7 @@ namespace DCSoft.Drawing
 			return xPenStyle;
 		}
 
-		[DCInternal]
+		
 		public void method_17(Pen pen_0)
 		{
 			if (pen_0 != null)
@@ -2234,19 +2234,19 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_18(DCGraphics dcgraphics_0, Pen pen_0, RectangleF rectangleF_0)
 		{
 			smethod_12(dcgraphics_0, pen_0, rectangleF_0, BorderLeft, BorderTop, BorderRight, BorderBottom);
 		}
 
-		[DCInternal]
+		
 		public void method_19(Graphics graphics_0, RectangleF rectangleF_0)
 		{
 			method_20(new DCGraphics(graphics_0), rectangleF_0);
 		}
 
-		[DCInternal]
+		
 		public void method_20(DCGraphics dcgraphics_0, RectangleF rectangleF_0)
 		{
 			float borderWidth = BorderWidth;
@@ -2254,7 +2254,7 @@ namespace DCSoft.Drawing
 			smethod_13(dcgraphics_0, rectangleF_0, BorderLeft, BorderLeftColor, borderWidth, borderStyle, BorderTop, BorderTopColor, borderWidth, borderStyle, BorderRight, BorderRightColor, borderWidth, borderStyle, BorderBottom, BorderBottomColor, borderWidth, borderStyle);
 		}
 
-		[DCInternal]
+		
 		public static void smethod_12(DCGraphics dcgraphics_0, Pen pen_0, RectangleF rectangleF_0, bool bool_3, bool bool_4, bool bool_5, bool bool_6)
 		{
 			if (bool_3 && bool_4 && bool_5 && bool_6)
@@ -2280,7 +2280,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public static void smethod_13(DCGraphics dcgraphics_0, RectangleF rectangleF_0, bool bool_3, Color color_0, float float_1, DashStyle dashStyle_0, bool bool_4, Color color_1, float float_2, DashStyle dashStyle_1, bool bool_5, Color color_2, float float_3, DashStyle dashStyle_2, bool bool_6, Color color_3, float float_4, DashStyle dashStyle_3)
 		{
 			if (color_0 == color_1 && color_1 == color_2 && color_2 == color_3 && float_1 == float_2 && float_2 == float_3 && float_3 == float_4 && dashStyle_0 == dashStyle_1 && dashStyle_1 == dashStyle_2 && dashStyle_2 == dashStyle_3 && bool_3 && bool_4 && bool_5 && bool_6)
@@ -2309,7 +2309,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public bool method_21(ContentStyle contentStyle_1)
 		{
 			if (contentStyle_1 == null)
@@ -2327,31 +2327,31 @@ namespace DCSoft.Drawing
 			return false;
 		}
 
-		[DCInternal]
+		
 		public Rectangle method_22(int int_2, int int_3, int int_4, int int_5)
 		{
 			return new Rectangle(int_2 + (int)PaddingLeft, int_3 + (int)PaddingTop, (int)((float)int_4 - PaddingLeft - PaddingRight), (int)((float)int_5 - PaddingTop - PaddingBottom));
 		}
 
-		[DCInternal]
+		
 		public Rectangle method_23(Rectangle rectangle_0)
 		{
 			return new Rectangle(rectangle_0.Left + (int)PaddingLeft, rectangle_0.Top + (int)PaddingTop, (int)((float)rectangle_0.Width - PaddingLeft - PaddingRight), (int)((float)rectangle_0.Height - PaddingTop - PaddingBottom));
 		}
 
-		[DCInternal]
+		
 		public RectangleF method_24(float float_1, float float_2, float float_3, float float_4)
 		{
 			return new RectangleF(float_1 + PaddingLeft, float_2 + PaddingTop, float_3 - PaddingLeft - PaddingRight, float_4 - PaddingTop - PaddingBottom);
 		}
 
-		[DCInternal]
+		
 		public RectangleF method_25(RectangleF rectangleF_0)
 		{
 			return new RectangleF(rectangleF_0.Left + PaddingLeft, rectangleF_0.Top + PaddingTop, rectangleF_0.Width - PaddingLeft - PaddingRight, rectangleF_0.Height - PaddingTop - PaddingBottom);
 		}
 
-		[DCInternal]
+		
 		[Browsable(false)]
 		public string method_26(int int_2)
 		{
@@ -2367,7 +2367,7 @@ namespace DCSoft.Drawing
 			return contentStyle;
 		}
 
-		[DCInternal]
+		
 		public ContentStyle CloneEnableDefaultValue()
 		{
 			ContentStyle contentStyle = Clone();
@@ -2379,19 +2379,19 @@ namespace DCSoft.Drawing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public virtual ContentStyle Clone()
 		{
 			return (ContentStyle)((ICloneable)this).Clone();
 		}
 
-		[DCInternal]
+		
 		public void method_27(ContentStyle contentStyle_1)
 		{
 			XDependencyObject.smethod_7(contentStyle_1, this, bool_3: false);
 		}
 
-		[DCInternal]
+		
 		public void method_28(ContentStyle contentStyle_1, bool bool_3)
 		{
 			XDependencyObject.smethod_7(contentStyle_1, this, bool_3: true);
@@ -2402,7 +2402,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return XDependencyObject.smethod_3(this);
@@ -2411,7 +2411,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCInternal]
+		
 		public virtual void Dispose()
 		{
 			method_0();
@@ -2422,7 +2422,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_3()
 		{
 		}

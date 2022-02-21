@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       带标记的区域提供者对象
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	public class FlagXTextRangeProvider : XTextRangeProvider
 	{
@@ -18,7 +18,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       起始字符
 		///       </summary>
-		[DCPublishAPI]
+		
 		public char Prefix
 		{
 			get
@@ -38,7 +38,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       结尾字符
 		///       </summary>
-		[DCPublishAPI]
+		
 		public char Endfix
 		{
 			get

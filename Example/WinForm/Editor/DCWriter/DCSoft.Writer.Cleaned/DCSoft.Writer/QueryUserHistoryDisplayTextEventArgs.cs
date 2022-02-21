@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       查询用户历史痕迹显示文本事件参数
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IQueryUserHistoryDisplayTextEventArgs))]
 	[Guid("61FEFE37-46C2-4465-BF7D-25B204B9F6CF")]
@@ -32,19 +32,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户历史记录信息对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public UserHistoryInfo Info => _Info;
 
 		/// <summary>
 		///       true:逻辑删除内容 ， false:新增内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ForLogicDelete => _ForLogicDelete;
 
 		/// <summary>
 		///       返回的结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Result
 		{
 			get
@@ -65,7 +65,7 @@ namespace DCSoft.Writer
 		/// <param name="element">文档元素</param>
 		/// <param name="info">用户历史记录</param>
 		/// <param name="forLogicDelete">是否为逻辑删除内容</param>
-		[DCInternal]
+		
 		public QueryUserHistoryDisplayTextEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, UserHistoryInfo info, bool forLogicDelete)
 			: base(writerControl_0, document, element)
 		{

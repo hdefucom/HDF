@@ -9,7 +9,7 @@ using System.Text;
 namespace DCSoftDotfuscate
 {
 	[DebuggerDisplay("Count={ Count }")]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	public class GClass108 : List<ContentProtectedInfo>

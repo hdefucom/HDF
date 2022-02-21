@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[Guid("3154CB70-68C1-4203-8B4B-92CBEAE92443")]
 	[ComClass("3154CB70-68C1-4203-8B4B-92CBEAE92443", "9F6C58B6-5389-4561-A5D9-02DBE019FC07")]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(ISubDocumentSettings))]
 	[DocumentComment]
@@ -45,7 +45,7 @@ namespace DCSoft.Writer.Dom
 		///       子文档间距
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCPublishAPI]
+		
 		public float SubDocumentSpacing
 		{
 			get
@@ -61,7 +61,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       允许保存
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool AllowSave
 		{
@@ -78,7 +78,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档只读
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool Readonly
 		{
@@ -96,7 +96,7 @@ namespace DCSoft.Writer.Dom
 		///       文档被锁定.
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool Locked
 		{
 			get
@@ -112,7 +112,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否启用权限控制
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool EnablePermission
 		{
@@ -130,7 +130,7 @@ namespace DCSoft.Writer.Dom
 		///       是否强制分页
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool NewPage
 		{
 			get
@@ -147,7 +147,7 @@ namespace DCSoft.Writer.Dom
 		///       边框线颜色
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[DefaultValue(typeof(Color), "Transparent")]
 		public Color BorderColor
 		{
@@ -184,7 +184,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(typeof(Color), "Transparent")]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public Color BackColor
 		{
 			get
@@ -218,7 +218,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public SubDocumentSettings()
 		{
 		}

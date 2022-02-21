@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[ComVisible(true)]
 	[Guid("DBDB030A-DA13-46C7-8642-EA5B41DEE065")]
-	[DCPublishAPI]
+	
 	public enum InputValueType
 	{
 		/// <summary>

@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Commands
 	[ComClass("CFE9D9C3-ABCA-4ECC-8993-E85E69CCCB1F", "CFBE23B5-1A78-4061-A718-71712DD7B8EC")]
 	[ComVisible(true)]
 	[Guid("CFE9D9C3-ABCA-4ECC-8993-E85E69CCCB1F")]
-	[DCPublishAPI]
+	
 	public class SearchReplaceCommandArgs : ISearchReplaceCommandArgs
 	{
 		internal const string CLASSID = "CFE9D9C3-ABCA-4ECC-8993-E85E69CCCB1F";
@@ -48,7 +48,7 @@ namespace DCSoft.Writer.Commands
 		///       要查找的字符串
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string SearchString
 		{
 			get
@@ -65,7 +65,7 @@ namespace DCSoft.Writer.Commands
 		///       是否启用替换模式
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool EnableReplaceString
 		{
 			get
@@ -81,7 +81,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       要替换的字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ReplaceString
 		{
@@ -99,7 +99,7 @@ namespace DCSoft.Writer.Commands
 		///       True:向后查找；False:向前查找。
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool Backward
 		{
 			get
@@ -115,7 +115,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       不区分大小写
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool IgnoreCase
 		{
 			get
@@ -131,7 +131,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       搜索文档元素编号模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool SearchID
 		{
 			get
@@ -148,7 +148,7 @@ namespace DCSoft.Writer.Commands
 		///       替换的次数
 		///       </summary>
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		public int Result
 		{
 			get
@@ -164,7 +164,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       搜索到的文本元素在文档内容中的序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public List<int> MatchedIndexs
 		{
 			get
@@ -180,7 +180,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       搜索到的字符串的个数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int MatchedCount
 		{
 			get
@@ -197,7 +197,7 @@ namespace DCSoft.Writer.Commands
 		///       忽略掉背景文字
 		///       </summary>
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		public bool ExcludeBackgroundText
 		{
 			get
@@ -213,7 +213,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       记录撤销操作信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool LogUndo
 		{
 			get
@@ -229,7 +229,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public SearchReplaceCommandArgs()
 		{
 		}
@@ -238,7 +238,7 @@ namespace DCSoft.Writer.Commands
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public SearchReplaceCommandArgs Clone()
 		{
 			return (SearchReplaceCommandArgs)MemberwiseClone();

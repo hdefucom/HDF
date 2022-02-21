@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       文档参数值类型
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	public enum DocumentParameterValueType
 	{

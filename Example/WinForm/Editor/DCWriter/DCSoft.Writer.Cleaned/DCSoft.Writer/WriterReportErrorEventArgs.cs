@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       报告错误事件参数
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IWriterReportErrorEventArgs))]
 	[ComClass("63DDC6FD-585E-4B14-B076-4AEB652A3C58", "3E829F65-FB88-4B9F-933E-BDF855B4097A")]
 	[ComVisible(true)]
@@ -33,7 +33,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       错误信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[DefaultValue(null)]
 		public string Message
@@ -53,7 +53,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[XmlElement]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Details
 		{
 			get
@@ -70,7 +70,7 @@ namespace DCSoft.Writer
 		///       事件是否被处理了
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		public bool Handled
 		{
@@ -92,7 +92,7 @@ namespace DCSoft.Writer
 		/// <param name="element">文档元素对象</param>
 		/// <param name="msg">错误消息</param>
 		/// <param name="details">详细信息</param>
-		[DCInternal]
+		
 		public WriterReportErrorEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string string_0, string details)
 			: base(writerControl_0, document, element)
 		{

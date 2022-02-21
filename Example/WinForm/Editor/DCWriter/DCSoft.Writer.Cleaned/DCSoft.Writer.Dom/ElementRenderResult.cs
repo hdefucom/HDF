@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       文档元素打印结果
 	///       </summary>
-	[DCPublishAPI]
+	
 	public class ElementRenderResult
 	{
 		private RectangleF _ViewBounds = RectangleF.Empty;
@@ -64,7 +64,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档正在打印中
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Printing
 		{
 			get
@@ -80,7 +80,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档正在生成打印预览内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool PrintPreviewing
 		{
 			get

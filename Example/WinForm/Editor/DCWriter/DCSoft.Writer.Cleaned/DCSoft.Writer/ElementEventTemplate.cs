@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ComClass("00012345-6789-ABCD-EF01-23456789006C", "A7953E00-41A5-4841-9440-71BC417C914E", "2C834075-AF5D-46C2-9415-83E93EC39519")]
 	[ToolboxBitmap(typeof(ElementEventTemplate))]
 	[ComSourceInterfaces(typeof(IElementEventTemplateComEvents))]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-23456789006C")]
 	[ToolboxItem(false)]
@@ -58,7 +58,7 @@ namespace DCSoft.Writer
 		///       对象是否可用
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		public bool Enabled
 		{
 			get
@@ -84,265 +84,265 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否存在MouseClick事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasMouseClick => !IsCurrentType || this.MouseClick != null;
 
 		/// <summary>
 		///       是否存在MouseDblClick事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasMouseDblClick => !IsCurrentType || this.MouseDblClick != null;
 
 		/// <summary>
 		///       是否需要处理MouseDown事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasMouseDown => !IsCurrentType || this.MouseDown != null;
 
 		/// <summary>
 		///       是否需要处理MouseMove事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasMouseMove => !IsCurrentType || this.MouseMove != null;
 
 		/// <summary>
 		///       是否有MouseUp事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasMouseUp => !IsCurrentType || this.MouseUp != null;
 
 		/// <summary>
 		///       是否有KeyDown事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasKeyDown => !IsCurrentType || this.KeyDown != null;
 
 		/// <summary>
 		///       是否有KeyPress事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasKeyPress => !IsCurrentType || this.KeyPress != null;
 
 		/// <summary>
 		///       是否有KeyUp事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasKeyUp => !IsCurrentType || this.KeyUp != null;
 
 		/// <summary>
 		///       判断是否存在 ContentChanged 事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasContentChanged => !IsCurrentType || this.ContentChanged != null;
 
 		/// <summary>
 		///       判断是否存在 ContentChanging 事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasContentChanging => !IsCurrentType || this.ContentChanging != null;
 
 		/// <summary>
 		///       判断是否存在GetFocus事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasGotFocus => !IsCurrentType || this.GotFocus != null;
 
 		/// <summary>
 		///       判断是否存在失去输入焦点事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasLostFocus => !IsCurrentType || this.LostFocus != null;
 
 		/// <summary>
 		///       是否存在Validating事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasValidating => !IsCurrentType || this.Validating != null;
 
 		/// <summary>
 		///       是否存在数据验证结束事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasValidated => !IsCurrentType || this.Validated != null;
 
 		/// <summary>
 		///       判断是否存在BeforeDropDown事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasBeforeDropDown => !IsCurrentType || this.BeforeDropDown != null;
 
 		/// <summary>
 		///       判断是否存在鼠标进入事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasMouseEnter => !IsCurrentType || this.MouseEnter != null;
 
 		/// <summary>
 		///       判断是否存在鼠标离开事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasMouseLeave => !IsCurrentType || this.MouseLeave != null;
 
 		/// <summary>
 		///       判断是否存在文档元素执行表达式事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasExpression => !IsCurrentType || this.Expression != null;
 
 		/// <summary>
 		///       判断是否存在查询文档元素状态事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasQueryState => !IsCurrentType || this.QueryState != null;
 
 		/// <summary>
 		///       判断是否存在准备绘制文档元素内容前事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasBeforePaint => !IsCurrentType || this.BeforePaint != null;
 
 		/// <summary>
 		///       判断是否存在绘制文档元素内容后触发的事件
 		///       </summary>
-		[DCInternal]
+		
 		public virtual bool HasAfterPaint => !IsCurrentType || this.AfterPaint != null;
 
 		/// <summary>
 		///       文档元素加载事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementLoadEventHandler Load = null;
 
 		/// <summary>
 		///       文档元素鼠标点击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler MouseClick = null;
 
 		/// <summary>
 		///       文档元素鼠标双击事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler MouseDblClick = null;
 
 		/// <summary>
 		///       文档元素鼠标按键按下事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler MouseDown = null;
 
 		/// <summary>
 		///       文档元素鼠标移动事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler MouseMove = null;
 
 		/// <summary>
 		///       文档元素鼠标按键松开事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementMouseEventHandler MouseUp = null;
 
 		/// <summary>
 		///       文档元素键盘按键按下事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementKeyEventHandler KeyDown = null;
 
 		/// <summary>
 		///       文档元素键盘按键事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementKeyEventHandler KeyPress = null;
 
 		/// <summary>
 		///       文档元素键盘按键松开事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementKeyEventHandler KeyUp = null;
 
 		/// <summary>
 		///       文档内容发生改变后的事件，该事件用于通知情况，不能取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ContentChangedEventHandler ContentChanged = null;
 
 		/// <summary>
 		///       文档内容准备发生改变事件，可以使用该参数来取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ContentChangingEventHandler ContentChanging = null;
 
 		/// <summary>
 		///       文本域获得输入焦点事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementEventHandler GotFocus = null;
 
 		/// <summary>
 		///       文本域失去输入焦点事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementEventHandler LostFocus = null;
 
 		/// <summary>
 		///       数据正在验证事件,在该事件处理中可撤销相关操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementValidatingEventHandler Validating = null;
 
 		/// <summary>
 		///       数据验证结束的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementEventHandler Validated = null;
 
 		/// <summary>
 		///       鼠标进入事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementCancelEventHandler BeforeDropDown = null;
 
 		/// <summary>
 		///       鼠标进入事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementEventHandler MouseEnter = null;
 
 		/// <summary>
 		///       鼠标离开事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementEventHandler MouseLeave = null;
 
 		/// <summary>
 		///       文档元素执行表达式事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementExpressionEventHandler Expression = null;
 
 		/// <summary>
 		///       查询文档元素状态事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementQueryStateEventHandler QueryState = null;
 
 		/// <summary>
 		///       准备绘制文档元素内容前事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementPaintEventHandler BeforePaint = null;
 
 		/// <summary>
 		///       绘制文档元素内容后触发的事件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public event ElementPaintEventHandler AfterPaint = null;
 
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ElementEventTemplate()
 		{
 		}
@@ -361,7 +361,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件参数</param>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnLoad(object sender, ElementLoadEventArgs e)
 		{
 			int num = 2;
@@ -390,7 +390,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseClick(object sender, ElementMouseEventArgs e)
 		{
 			int num = 6;
@@ -419,7 +419,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseDblClick(object sender, ElementMouseEventArgs e)
 		{
 			int num = 7;
@@ -448,7 +448,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseDown(object sender, ElementMouseEventArgs e)
 		{
 			int num = 15;
@@ -477,7 +477,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseMove(object sender, ElementMouseEventArgs e)
 		{
 			int num = 0;
@@ -506,7 +506,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseUp(object sender, ElementMouseEventArgs e)
 		{
 			int num = 5;
@@ -535,7 +535,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnKeyDown(object sender, ElementKeyEventArgs e)
 		{
 			int num = 5;
@@ -564,7 +564,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnKeyPress(object sender, ElementKeyEventArgs e)
 		{
 			int num = 10;
@@ -593,7 +593,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnKeyUp(object sender, ElementKeyEventArgs e)
 		{
 			int num = 16;
@@ -624,7 +624,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public virtual void OnContentChanged(object sender, ContentChangedEventArgs e)
 		{
 			int num = 1;
@@ -655,7 +655,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public virtual void OnContentChanging(object sender, ContentChangingEventArgs e)
 		{
 			int num = 3;
@@ -684,7 +684,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件发起者</param>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnGotFocus(object sender, ElementEventArgs e)
 		{
 			int num = 3;
@@ -713,7 +713,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件发起者</param>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public virtual void OnLostFocus(object sender, ElementEventArgs e)
 		{
 			int num = 7;
@@ -744,7 +744,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public virtual void OnValidating(object sender, ElementValidatingEventArgs e)
 		{
 			int num = 9;
@@ -773,7 +773,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">事件发起者</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnValidated(object sender, ElementEventArgs e)
 		{
 			int num = 1;
@@ -802,7 +802,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnBeforeDropDown(object sender, ElementCancelEventArgs e)
 		{
 			int num = 2;
@@ -831,7 +831,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseEnter(object sender, ElementEventArgs e)
 		{
 			int num = 8;
@@ -860,7 +860,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnMouseLeave(object sender, ElementEventArgs e)
 		{
 			int num = 16;
@@ -889,7 +889,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnExpression(object sender, ElementExpressionEventArgs e)
 		{
 			int num = 3;
@@ -918,7 +918,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnQueryState(object sender, ElementQueryStateEventArgs e)
 		{
 			int num = 14;
@@ -947,7 +947,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnBeforePaint(object sender, ElementPaintEventArgs e)
 		{
 			int num = 7;
@@ -976,7 +976,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="eventSender">参数</param>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public virtual void OnAfterPaint(object sender, ElementPaintEventArgs e)
 		{
 			int num = 14;

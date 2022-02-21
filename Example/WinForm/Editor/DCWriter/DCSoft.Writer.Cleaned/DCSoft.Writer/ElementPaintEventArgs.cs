@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[ComClass("12CF1384-1786-471F-BF9A-7E370B9A484B", "BFB16C0A-B8AE-4ECA-AACE-BE43493221F5")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public class ElementPaintEventArgs : ElementEventArgs, IElementPaintEventArgs
 	{
 		internal new const string CLASSID = "12CF1384-1786-471F-BF9A-7E370B9A484B";
@@ -42,7 +42,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       从1开始计算的当前页码号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int PageIndex
 		{
 			get
@@ -58,19 +58,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       画布对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DCGraphics Graphics => _Graphics;
 
 		/// <summary>
 		///       剪切矩形
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF ClipRectangle => _ClipRectangle;
 
 		/// <summary>
 		///       文档元素视图区域
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RectangleF ViewBounds => _ViewBounds;
 
 		/// <summary>
@@ -81,7 +81,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       绘制文档内容使用的样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public RuntimeDocumentContentStyle Style
 		{
 			get
@@ -97,7 +97,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -113,7 +113,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       正在呈现的文档样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentRenderMode RenderMode
 		{
 			get
@@ -129,7 +129,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       正在为创建图片而绘制图形
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ForCreateImage
 		{
 			get
@@ -145,7 +145,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public ElementPaintEventArgs(XTextDocument document, XTextElement element, DocumentPaintEventArgs args)
 		{
 			base.Document = document;

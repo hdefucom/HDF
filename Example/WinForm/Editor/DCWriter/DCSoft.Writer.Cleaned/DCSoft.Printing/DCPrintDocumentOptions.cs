@@ -10,7 +10,7 @@ namespace DCSoft.Printing
 	/// <summary>
 	///       打印选项
 	///       </summary>
-	[DCInternal]
+	
 	[ComDefaultInterface(typeof(IDCPrintDocumentOptions))]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]

@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       表示可以设置内容是否只读的接口
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	[DocumentComment]
 	public interface IContentReadonlyable
 	{

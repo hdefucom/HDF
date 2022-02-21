@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("3603B80D-916C-42E2-B607-D64002C4FC39")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
@@ -29,7 +29,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PageContentVersionInfoList()
 		{
 		}

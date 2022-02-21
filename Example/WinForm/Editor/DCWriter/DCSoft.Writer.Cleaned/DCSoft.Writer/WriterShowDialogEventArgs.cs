@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[Guid("6FC8E3C7-4987-499C-A1D1-9BCBC40E425B")]
 	[ComClass("6FC8E3C7-4987-499C-A1D1-9BCBC40E425B", "F3ADC9B8-DFEE-4497-A454-74698A62051D")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IWriterShowDialogEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
@@ -34,7 +34,7 @@ namespace DCSoft.Writer
 		///       对话框对象
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public Form Dialog => _Dialog;
 
 		/// <summary>
@@ -42,7 +42,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[ComVisible(true)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public string DialogTypeName
 		{
 			get
@@ -58,7 +58,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经处理了，无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -74,7 +74,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       对话框返回状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DialogResult DialogResult
 		{
 			get
@@ -92,7 +92,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="ctl">编辑器控件对象</param>
 		/// <param name="dlg">对话框对象</param>
-		[DCInternal]
+		
 		public WriterShowDialogEventArgs(WriterControl writerControl_0, Form form_0, XTextDocument docuemnt, XTextElement element)
 			: base(writerControl_0, docuemnt, element)
 		{
@@ -102,7 +102,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       设置返回结果为确定
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void SetOKDialogResult()
 		{
 			_DialogResult = DialogResult.OK;
@@ -111,7 +111,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       设置返回结果为取消
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void SetCancelDialogResult()
 		{
 			_DialogResult = DialogResult.Cancel;

@@ -11,6 +11,6 @@ namespace DCSoft.Writer.Controls
 	[ComVisible(true)]
 	[DocumentComment]
 	[Guid("685235D1-6F04-43DF-87A7-2E11A8073F94")]
-	[DCInternal]
+	
 	public delegate void CollectProtectedElementsEventHandler(object sender, CollectProtectedElementsEventArgs e);
 }

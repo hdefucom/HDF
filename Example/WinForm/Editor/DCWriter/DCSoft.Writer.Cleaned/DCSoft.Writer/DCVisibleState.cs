@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[DocumentComment]
 	[Guid("4FE933CA-282D-4D3B-9905-4104C73ED62D")]
-	[DCPublishAPI]
+	
 	public enum DCVisibleState
 	{
 		/// <summary>

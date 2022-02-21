@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	[ComDefaultInterface(typeof(ISpecifyPageIndexInfoList))]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ComClass("CC5E620A-FAC6-4F82-9605-6E1B74AB45AC", "90DD9F88-9BAF-4F4B-AA06-D75BFF97BA93")]
 	[DocumentComment]
@@ -57,7 +57,7 @@ namespace DCSoft.Writer.Dom
 			Sort(new MyComparer());
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			int num = 9;
@@ -77,7 +77,7 @@ namespace DCSoft.Writer.Dom
 			return stringBuilder.ToString();
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			Clear();
@@ -109,7 +109,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public SpecifyPageIndexInfoList Clone()
 		{
 			SpecifyPageIndexInfoList specifyPageIndexInfoList = new SpecifyPageIndexInfoList();

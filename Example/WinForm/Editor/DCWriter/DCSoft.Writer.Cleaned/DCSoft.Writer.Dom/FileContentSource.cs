@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[Guid("2BAFD620-9591-4048-8198-8D3173BCD57B")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IFileContentSource))]
@@ -41,7 +41,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       使用的文件系统名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string FileSystemName
 		{
@@ -59,7 +59,7 @@ namespace DCSoft.Writer.Dom
 		///       文件名
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string FileName
 		{
 			get
@@ -75,7 +75,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Format
 		{
@@ -92,7 +92,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       实际加载文档使用的文件名
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public string RuntimeFileName
@@ -112,7 +112,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public string RuntimeFormat
 		{
 			get
@@ -132,7 +132,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件内容范围
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Range
 		{
@@ -149,12 +149,12 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public FileContentSource()
 		{
 		}
 
-		[DCInternal]
+		
 		object ICloneable.Clone()
 		{
 			return MemberwiseClone();
@@ -164,7 +164,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public FileContentSource Clone()
 		{
 			return (FileContentSource)MemberwiseClone();
@@ -174,19 +174,19 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象数据的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return ValueTypeHelper.GetPropertiesAttributeString(this, detectDefaultValue: true);
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			return ToString();
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			ValueTypeHelper.SetPropertiesAttributeString(this, text);

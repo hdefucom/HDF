@@ -20,7 +20,7 @@ namespace DCSoft.Printing
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public PrintPageResult ComGetItem(int index)
 		{
 			return base[index];
@@ -31,7 +31,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void ComSetItem(int index, PrintPageResult item)
 		{

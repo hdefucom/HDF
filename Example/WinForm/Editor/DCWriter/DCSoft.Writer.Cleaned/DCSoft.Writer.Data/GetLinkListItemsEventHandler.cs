@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	/// <param name="eventSender">事件发起者</param>
 	/// <param name="args">事件参数</param>
-	[DCPublishAPI]
+	
 	[Guid("C8DE77B7-7C93-4904-94CF-E61ADD5994DE")]
 	[DocumentComment]
 	[ComVisible(true)]

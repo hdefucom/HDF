@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IWriterBeforePlayMediaEventArgs))]
 	[Guid("ACDACF1B-140E-4BE2-81DC-0D7D60B30A65")]
 	[ComClass("ACDACF1B-140E-4BE2-81DC-0D7D60B30A65", "B5BFF735-5AA3-465A-887F-93ADE8A633AD")]
@@ -40,19 +40,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文件系统名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string FileSystemName => _FileSystemName;
 
 		/// <summary>
 		///       媒体文件名
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string FileName => _FileName;
 
 		/// <summary>
 		///       目标文件名
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string TargetFileName
 		{
 			get
@@ -68,25 +68,25 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       媒体文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement MediaElement => _MediaElement;
 
 		/// <summary>
 		///       用户取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -105,7 +105,7 @@ namespace DCSoft.Writer
 		/// <param name="ctl">编辑器控件对象</param>
 		/// <param name="document">文档对象</param>
 		/// <param name="element">媒体元素对象</param>
-		[DCInternal]
+		
 		public WriterBeforePlayMediaEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string fileName, string fileSystemName)
 		{
 			int num = 16;

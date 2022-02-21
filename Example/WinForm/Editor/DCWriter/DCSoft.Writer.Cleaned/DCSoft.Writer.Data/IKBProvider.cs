@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	/// <remarks>编制 袁永福</remarks>
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-234567890024")]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public interface IKBProvider
 	{

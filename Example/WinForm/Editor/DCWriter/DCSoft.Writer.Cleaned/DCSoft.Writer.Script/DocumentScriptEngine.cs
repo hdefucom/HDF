@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Script
 	/// <remarks>编写 袁永福</remarks>
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class DocumentScriptEngine : XVBAEngine, IDocumentScriptEngine
 	{
 		/// <summary>

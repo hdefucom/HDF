@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[ComDefaultInterface(typeof(IXTextLineBreakElement))]
-	[DCPublishAPI]
+	
 	[XmlType("XLineBreak")]
 	[ComClass("FF08F8F6-2524-455A-9F15-A9DBCF338E1C", "2245E560-B282-4C3C-97B0-D0947F2FAB88")]
 	[ComVisible(true)]
@@ -32,7 +32,7 @@ namespace DCSoft.Writer.Dom
 
 		private static Bitmap bitmap_1;
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "LineBreak";
 
 		static XTextLineBreakElement()
@@ -45,7 +45,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextLineBreakElement()
 		{
 		}
@@ -66,19 +66,19 @@ namespace DCSoft.Writer.Dom
 		///       返回对象包含的字符串数据
 		///       </summary>
 		/// <returns>字符串数据</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return Environment.NewLine;
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_19(GClass103 gclass103_0)
 		{
 			gclass103_0.method_44();
 		}
 
-		[DCInternal]
+		
 		public override void RefreshSize(DocumentPaintEventArgs args)
 		{
 			float num = Height = OwnerDocument.DefaultStyle.DefaultLineHeight;
@@ -86,7 +86,7 @@ namespace DCSoft.Writer.Dom
 			SizeInvalid = false;
 		}
 
-		[DCInternal]
+		
 		public override void Draw(DocumentPaintEventArgs args)
 		{
 			int num = 11;

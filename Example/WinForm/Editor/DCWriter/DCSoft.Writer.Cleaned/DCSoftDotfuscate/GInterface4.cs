@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public interface GInterface4
 	{
 		int imethod_0(XTextElementList xtextElementList_0, Dictionary<string, string> dictionary_0);

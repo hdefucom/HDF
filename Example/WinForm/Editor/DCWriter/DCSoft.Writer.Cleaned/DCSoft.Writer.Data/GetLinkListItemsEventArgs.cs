@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Data
 	[ComClass("5DEE4ED0-0C1B-43CF-9E76-65438B9D7459", "C1DF2846-0F00-4E73-970D-DD8EB84C6328")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IGetLinkListItemsEventArgs))]
-	[DCPublishAPI]
+	
 	[Guid("5DEE4ED0-0C1B-43CF-9E76-65438B9D7459")]
 	[DocumentComment]
 	public class GetLinkListItemsEventArgs : EventArgs, IGetLinkListItemsEventArgs
@@ -44,7 +44,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       所有关联的输入域元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList EffectElements
 		{
 			get
@@ -57,7 +57,7 @@ namespace DCSoft.Writer.Data
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public string ParentTextList
 		{
 			get
@@ -85,7 +85,7 @@ namespace DCSoft.Writer.Data
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public string ParentValueList
 		{
 			get
@@ -119,7 +119,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       父层次的文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement ParentElement
 		{
 			get
@@ -135,7 +135,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       父层次的绑定信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		public LinkListBindingInfo ParentBinding
 		{
 			get
@@ -151,7 +151,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       父层次元素值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ParentValue
 		{
 			get
@@ -167,7 +167,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       当前元素在联动中的等级，-1表示错误。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int CurrentLevelBase0
 		{
 			get
@@ -183,7 +183,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       当前处理的文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement CurrentElement
 		{
 			get
@@ -199,7 +199,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       当前层次绑定信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		public LinkListBindingInfo CurrentBinding
 		{
 			get
@@ -212,7 +212,7 @@ namespace DCSoft.Writer.Data
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public string ProviderName
 		{
 			get
@@ -228,7 +228,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       列表项目
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ListItemCollection Items
 		{
 			get
@@ -244,7 +244,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       事件已经处理了标记，若为true则表示无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -260,7 +260,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       用户取消操作标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get

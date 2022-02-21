@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	/// <remarks>编制 袁永福</remarks>
 	[Guid("D6138851-E2C4-4699-9EAD-D78CCA626573")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum FormViewMode
 	{

@@ -8,13 +8,13 @@ namespace DCSoft.Writer.Controls
 	///       剪切板功能提供者
 	///       </summary>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	public class ClipboardProvider
 	{
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ClipboardProvider()
 		{
 		}
@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       清空剪切板内容 
 		///       </summary>
-		[DCPublishAPI]
+		
 		public virtual void Clear()
 		{
 			Clipboard.Clear();
@@ -35,7 +35,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <param name="copy">
 		/// </param>
-		[DCPublishAPI]
+		
 		public virtual void SaveData(IDataObject data, bool copy)
 		{
 			Clipboard.SetDataObject(data, copy);
@@ -46,7 +46,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public virtual IDataObject GetDataObject(Control sourceControl)
 		{
 			return Clipboard.GetDataObject();
@@ -57,7 +57,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public virtual IDataObject CreateDataObject()
 		{
 			return new DataObject();
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Controls
 		/// </param>
 		/// <param name="title">
 		/// </param>
-		[DCPublishAPI]
+		
 		public virtual void SetDataTitle(IDataObject data, string title)
 		{
 		}

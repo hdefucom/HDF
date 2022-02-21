@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Commands
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class WriterCommandDelegate : WriterCommand
 	{
 		/// <summary>

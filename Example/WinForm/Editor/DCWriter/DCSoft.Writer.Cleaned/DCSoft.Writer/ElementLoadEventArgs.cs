@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	///       文档元素加载事件处理
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	[ComClass("147E4E00-93F4-4E81-A21E-4503060224C8", "F78AE1CA-23D7-4456-B38A-88F6685D8A41")]
 	[ComVisible(true)]
 	[DocumentComment]
@@ -30,7 +30,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文件格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Format
 		{
 			get
@@ -46,7 +46,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否更新数据源绑定
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool UpdateValueBinding
 		{
 			get
@@ -62,7 +62,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否更新数据源绑定
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool UpdateExpression
 		{
 			get
@@ -80,7 +80,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <param name="format">加载文档的文件格式</param>
-		[DCInternal]
+		
 		public ElementLoadEventArgs(XTextElement element, string format)
 			: base(element)
 		{

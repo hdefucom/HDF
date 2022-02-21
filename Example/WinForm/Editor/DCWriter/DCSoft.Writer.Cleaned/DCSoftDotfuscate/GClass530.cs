@@ -7,7 +7,7 @@ namespace DCSoftDotfuscate
 	[ComVisible(false)]
 	public class GClass530
 	{
-		[DCInternal]
+		
 		public static GEnum88 smethod_0(object object_0)
 		{
 			if (object_0 == null)

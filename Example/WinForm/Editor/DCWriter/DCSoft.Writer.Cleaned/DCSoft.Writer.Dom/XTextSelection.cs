@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890018")]
 	[ComClass("00012345-6789-ABCD-EF01-234567890018", "CD19358D-3EC4-4175-8ADF-489B694AC039")]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerDisplay("StartIndex={StartIndex},Length={Length}")]
 	[DocumentComment]
@@ -77,7 +77,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       所属的文档容器元素对象
 		///       </summary>
-		[DCInternal]
+		
 		public XTextDocumentContentElement DocumentContent => xtextDocumentContentElement_0;
 
 		/// <summary>
@@ -93,13 +93,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象包含的单元格对象列表，该列表包括被合并而隐藏的单元格
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList Cells => xtextElementList_0;
 
 		/// <summary>
 		///       对象包含的单元格对象列表，该列表不包含合并而隐藏的单元格
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList CellsWithoutOverried
 		{
 			get
@@ -123,7 +123,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList ContentElements => xtextElementList_1;
 
 		/// <summary>
@@ -207,13 +207,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       实际的起始位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int StartIndex => startIndex;
 
 		/// <summary>
 		///       实际的区域长度
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Length => length;
 
 		/// <summary>
@@ -274,7 +274,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得纯文本内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Text
 		{
 			get
@@ -329,7 +329,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public string TextExcludeLogicDeleted
 		{
 			get
@@ -408,13 +408,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得表示内容的XML文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string XMLText => GetContentText("xml");
 
 		/// <summary>
 		///       获得表示内容的RTF文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string RTFText => GetRTFText(excludeLogicDeleted: false);
 
 		/// <summary>
@@ -454,7 +454,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public XTextSelection(XTextDocumentContentElement xtextDocumentContentElement_1)
 		{
 			xtextDocumentContentElement_0 = xtextDocumentContentElement_1;
@@ -479,7 +479,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="element">元素对象</param>
 		/// <returns>是否包含在区域中</returns>
-		[DCPublishAPI]
+		
 		public bool Contains(XTextElement element)
 		{
 			if (element == null)
@@ -621,7 +621,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public void method_4()
 		{
 			method_6(nativeStartIndex, nativeLength, bool_1: true);
@@ -639,7 +639,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="startIndex">选择区域的起始位置</param>
 		/// <param name="length">选择区域的包含文档内容元素的个数</param>
 		/// <returns>成功的改变了选择区域状态</returns>
-		[DCInternal]
+		
 		public bool Refresh(int startIndex, int length)
 		{
 			return method_6(startIndex, length, bool_1: false);
@@ -1119,7 +1119,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="format">文件格式</param>
 		/// <returns>文本值</returns>
-		[DCPublishAPI]
+		
 		public string GetContentText(string format)
 		{
 			XTextDocument xTextDocument = CreateDocument();
@@ -1134,7 +1134,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="excludeLogicDeleted">不包含逻辑删除的内容</param>
 		/// <returns>获得的RTF字符串</returns>
-		[DCPublishAPI]
+		
 		public string GetRTFText(bool excludeLogicDeleted)
 		{
 			if (length == 0)
@@ -1180,7 +1180,7 @@ namespace DCSoft.Writer.Dom
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public XTextElementList SetParagraphStyle(DocumentContentStyle newStyle)
 		{
 			XTextDocument ownerDocument = xtextDocumentContentElement_0.OwnerDocument;
@@ -1227,7 +1227,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="includeCells">包含单元格</param>
 		/// <param name="commandName">命令名称</param>
 		/// <returns>是否修改了文档内容</returns>
-		[DCInternal]
+		
 		public bool SetElementStyle(DocumentContentStyle newStyle, bool causeUpdateLayout, bool includeCells, string commandName)
 		{
 			XTextElementList xTextElementList = new XTextElementList();
@@ -1258,7 +1258,7 @@ namespace DCSoft.Writer.Dom
 			return smethod_0(newStyle, newStyle, newStyle, xtextDocumentContentElement_0.OwnerDocument, xTextElementList, causeUpdateLayout, commandName, bool_2: true);
 		}
 
-		[DCInternal]
+		
 		public static bool smethod_0(DocumentContentStyle documentContentStyle_0, DocumentContentStyle documentContentStyle_1, DocumentContentStyle documentContentStyle_2, XTextDocument xtextDocument_0, IEnumerable ienumerable_0, bool bool_1, string string_2, bool bool_2)
 		{
 			int num = 19;
@@ -1404,7 +1404,7 @@ namespace DCSoft.Writer.Dom
 		///       根据内容创建一个新的文档对象
 		///       </summary>
 		/// <returns>创建的文档对象</returns>
-		[DCPublishAPI]
+		
 		public XTextDocument CreateDocument()
 		{
 			return CreateDocument(Document.Options.EditOptions.CloneWithoutLogicDeletedContent);
@@ -1415,7 +1415,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="excludeLogicDeleted">不包含逻辑删除的内容</param>
 		/// <returns>创建的文档对象</returns>
-		[DCPublishAPI]
+		
 		public XTextDocument CreateDocument(bool excludeLogicDeleted)
 		{
 			int num = 2;

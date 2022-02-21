@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace DCSoftDotfuscate
 {
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	[ToolboxItem(false)]
-	[DCInternal]
+	
 	public class GControl1 : UserControl
 	{
 		private const string string_0 = "都昌时间轴控件(DCTimeline)，是南京都昌信息科技有限公司开发的医疗行业使用的时间轴控件，适用于.NET平台。南京都昌信息科技有限公司专业研发医学数据可视化技术，并自主研发了电子病历编辑器软件、时间轴控件等等，公司网址 www.dcwriter.cn。";

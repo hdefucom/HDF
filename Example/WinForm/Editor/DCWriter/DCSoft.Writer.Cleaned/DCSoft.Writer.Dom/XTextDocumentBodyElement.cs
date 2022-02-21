@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IXTextDocumentBodyElement))]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Body :{ PreviewString }")]
 	[ComClass("0E4176E5-848F-4ECA-A911-47354EDBABD2", "8E21E3CD-581D-4A91-947F-DEFE29EDEE04")]
 	[XmlType("XTextBody")]
@@ -32,10 +32,10 @@ namespace DCSoft.Writer.Dom
 
 		internal const string string_15 = "8E21E3CD-581D-4A91-947F-DEFE29EDEE04";
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "Body";
 
-		[DCPublishAPI]
+		
 		public override PageContentPartyStyle ContentPartyStyle => PageContentPartyStyle.Body;
 
 		/// <summary>
@@ -44,7 +44,7 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[Editor(typeof(DCGridLineInfoForPageSettingsUIEditor), typeof(UITypeEditor))]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public override DCGridLineInfo GridLine
 		{
 			get
@@ -93,7 +93,7 @@ namespace DCSoft.Writer.Dom
 		///       高度
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public override float Height
 		{
 			get
@@ -112,13 +112,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得预览文本
 		///       </summary>
-		[DCInternal]
+		
 		public override string PreviewString => "Body:" + base.PreviewString;
 
 		/// <summary>
 		///       所有的文档节列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -142,13 +142,13 @@ namespace DCSoft.Writer.Dom
 		///       返回BODY样式
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public override PageContentPartyStyle PagePartyStyle => PageContentPartyStyle.Body;
 
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public XTextDocumentBodyElement()
 		{
 		}
@@ -159,14 +159,14 @@ namespace DCSoft.Writer.Dom
 		/// <returns>
 		/// </returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public float GetRemainSpacingInLastPage()
 		{
 			PrintPage lastPage = OwnerDocument.Pages.LastPage;
 			return lastPage.Top + lastPage.StandartPapeBodyHeight - base.Bottom;
 		}
 
-		[DCInternal]
+		
 		public bool method_75(DocumentRenderMode documentRenderMode_0)
 		{
 			if (RuntimeGridLine != null && RuntimeGridLine.Visible && RuntimeGridLine.RuntimeGridSpan > 0f)
@@ -322,7 +322,7 @@ namespace DCSoft.Writer.Dom
 		///       返回调试时显示的文本
 		///       </summary>
 		/// <returns>文本</returns>
-		[DCInternal]
+		
 		public override string ToDebugString()
 		{
 			int num = 1;

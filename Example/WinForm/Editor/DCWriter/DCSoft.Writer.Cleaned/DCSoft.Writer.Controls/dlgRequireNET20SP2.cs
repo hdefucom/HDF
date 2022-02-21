@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace DCSoft.Writer.Controls
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class dlgRequireNET20SP2 : Form
 	{
 		private IContainer icontainer_0 = null;

@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IWordCountResult))]
 	[Guid("CCC5A209-B177-4A6C-A148-2827004D4729")]
 	[ComClass("CCC5A209-B177-4A6C-A148-2827004D4729", "25BA178C-AE0A-42D4-AACF-FA8A106523C3")]
@@ -39,7 +39,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       页数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Pages
 		{
 			get
@@ -55,7 +55,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       段落数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Paragraphs
 		{
 			get
@@ -71,7 +71,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       单词数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Words
 		{
 			get
@@ -87,7 +87,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       不含空格的字符数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int CharsNoWhitespace
 		{
 			get
@@ -103,7 +103,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       含空格的字符数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Chars
 		{
 			get
@@ -119,7 +119,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文本行数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Lines
 		{
 			get
@@ -135,7 +135,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       图片个数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Images
 		{
 			get
@@ -151,7 +151,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WordCountResult()
 		{
 			_Pages = 0;
@@ -169,7 +169,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="document">文档对象</param>
 		/// <param name="content">要统计的文档内容</param>
-		[DCPublishAPI]
+		
 		public WordCountResult(XTextDocument document, IEnumerable content)
 		{
 			int num = 4;

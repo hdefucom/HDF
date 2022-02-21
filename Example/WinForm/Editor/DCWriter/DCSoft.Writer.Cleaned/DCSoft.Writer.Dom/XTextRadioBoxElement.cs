@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[DocumentComment]
 	[XmlType("XTextRadioBox")]
-	[DCPublishAPI]
+	
 	[ToolboxBitmap(typeof(XTextRadioBoxElement))]
 	[ComClass("CDCE6FD0-4D2A-4241-A9DD-52CEAFC909D8", "FA36AF8F-4188-4AAA-ABA2-621971228E34")]
 	[ComDefaultInterface(typeof(IXTextRadioBoxElement))]
@@ -75,7 +75,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextRadioBoxElement()
 		{
 		}

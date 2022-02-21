@@ -15,7 +15,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[DocumentComment]
 	[Editor(typeof(WriterDataFormatsUIEditor), typeof(UITypeEditor))]
-	[DCPublishAPI]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890075")]
 	public enum WriterDataFormats
 	{

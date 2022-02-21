@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	[XmlType("XBookMark")]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class XTextBookmark : XTextElement
 	{

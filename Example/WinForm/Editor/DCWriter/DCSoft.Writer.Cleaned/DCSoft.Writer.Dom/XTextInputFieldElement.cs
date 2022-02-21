@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[XmlType("XInputField")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComClass("00012345-6789-ABCD-EF01-234567890059", "7F013F6B-FFF8-3B8B-BD4E-4EB9FE965505")]
 	[ComDefaultInterface(typeof(IXTextInputFieldElement))]
@@ -99,7 +99,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       允许用户直接编辑内容而修改InnerValue值。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -121,7 +121,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(true)]
 		[DefaultValue(DCBooleanValue.Inherit)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		public DCBooleanValue ShowInputFieldStateTag
@@ -170,7 +170,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[HtmlAttribute]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public bool AutoSetSpellCodeInDropdownList
 		{
 			get
@@ -188,7 +188,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(DCDefaultValueType.None)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		public DCDefaultValueType DefaultValueType
 		{
@@ -207,7 +207,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(InputFieldAdornTextType.Default)]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public InputFieldAdornTextType AdornTextType
 		{
@@ -241,7 +241,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       自定义的扩展标记文字
 		///       </summary>
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		[DefaultValue(null)]
 		[HtmlAttribute]
@@ -306,7 +306,7 @@ namespace DCSoft.Writer.Dom
 		///       数据编辑器控件类型名称
 		///       </summary>
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		public string EditorControlTypeName
@@ -327,7 +327,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(true)]
 		[ComVisible(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public LinkListBindingInfo LinkListBinding
 		{
@@ -346,7 +346,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public bool EnableFieldTextColor
 		{
 			get
@@ -363,7 +363,7 @@ namespace DCSoft.Writer.Dom
 		///       数值编辑器激活模式
 		///       </summary>
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[HtmlAttribute(DetectDefaultValue = false)]
 		[DefaultValue(ValueEditorActiveMode.Program | ValueEditorActiveMode.F2 | ValueEditorActiveMode.MouseDblClick)]
 		public ValueEditorActiveMode EditorActiveMode
@@ -403,7 +403,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(-1)]
 		[ReadOnly(true)]
 		[XmlElement]
@@ -423,7 +423,7 @@ namespace DCSoft.Writer.Dom
 		///       默认的从0开始计算的下拉列表中选择的序号。
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[ComVisible(true)]
 		[DefaultValue(null)]
@@ -443,7 +443,7 @@ namespace DCSoft.Writer.Dom
 		///       是否启用LastSelectedListItems功能。
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool EnableLastSelectedListItems
 		{
@@ -460,7 +460,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       最后一次从下拉列表中被选择的项目列表。用户直接修改输入域的内容会设置该属性值为空。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlArrayItem("Item", typeof(ListItem))]
 		[DefaultValue(null)]
 		[ComVisible(true)]
@@ -479,7 +479,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       输入域设置
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[DefaultValue(null)]
 		public InputFieldSettings FieldSettings
@@ -507,7 +507,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		public string CustomValueEditorTypeName
 		{
 			get
@@ -524,7 +524,7 @@ namespace DCSoft.Writer.Dom
 		///       自定义的文档元素数值编辑器类型
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public Type CustomValueEditorType
 		{
@@ -541,7 +541,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否允许元素数值编辑器
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[HtmlAttribute]
 		public bool EnableValueEditor
@@ -560,7 +560,7 @@ namespace DCSoft.Writer.Dom
 		///       是否显示表单按钮
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[DefaultValue(DCBooleanValue.Inherit)]
 		public DCBooleanValue ShowFormButton
@@ -580,7 +580,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[DefaultValue(FormButtonStyle.Auto)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public FormButtonStyle FormButtonStyle
 		{
@@ -597,7 +597,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       表单按钮样式
 		///       </summary>
-		[DCInternal]
+		
 		internal FormButtonStyle RuntimeFormButtonStyle
 		{
 			get
@@ -669,7 +669,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       DCWriter内部使用
 		///       </summary>
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
 		[ComVisible(false)]
@@ -731,7 +731,7 @@ namespace DCSoft.Writer.Dom
 		///       DCWriter内部使用
 		///       </summary>
 		[Obsolete("DCWriter内部使用，请勿调用。")]
-		[DCInternal]
+		
 		[HtmlAttribute]
 		[Browsable(false)]
 		[DefaultValue(",")]
@@ -765,7 +765,7 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[HtmlAttribute]
 		[DefaultValue(null)]
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Obsolete("DCWriter内部使用，请勿调用。")]
 		[EditorBrowsable(EditorBrowsableState.Never)]
@@ -790,7 +790,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextInputFieldElement()
 		{
 		}
@@ -799,7 +799,7 @@ namespace DCSoft.Writer.Dom
 		///       根据DefaultValueType的属性值重置对象内容为默认值
 		///       </summary>
 		/// <returns>操作是否修改了输入域内容</returns>
-		[DCPublishAPI]
+		
 		public virtual bool ResetToDefaultValue()
 		{
 			int num = 14;
@@ -875,12 +875,12 @@ namespace DCSoft.Writer.Dom
 		///       勾选多个下拉项目
 		///       </summary>
 		/// <param name="indexs">从0开始计算的项目序号列表，各个序号之间用逗号分隔</param>
-		[DCInternal]
+		
 		public void EditorCheckItems(string indexs)
 		{
 		}
 
-		[DCInternal]
+		
 		public Color method_35(Color color_3, RuntimeDocumentContentStyle runtimeDocumentContentStyle_1, bool bool_26)
 		{
 			DocumentViewOptions viewOptions = OwnerDocument.Options.ViewOptions;
@@ -909,7 +909,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       确保下拉列表实例存在
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public void EnsureHasListItemsInstance()
 		{
@@ -932,7 +932,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>操作是否成功</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public virtual bool BeginEditValue()
 		{
 			if (OwnerDocument != null && OwnerDocument.EditorControl != null)
@@ -942,13 +942,13 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public ListItemCollection GetRuntimeListItems()
 		{
 			return method_36(null, bool_26: true, null);
 		}
 
-		[DCInternal]
+		
 		public ListItemCollection method_36(string string_29, bool bool_26, string string_30)
 		{
 			if (OwnerDocument == null)
@@ -1011,7 +1011,7 @@ namespace DCSoft.Writer.Dom
 		///       让输入域获得节点而且不激发数值编辑器
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void FocusWithoutActiveEditor()
 		{
 			bool_25 = true;
@@ -1062,7 +1062,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="indexs">从0开始计算的项目编号，各个编号之间用逗号分开</param>
 		/// <returns>操作是否修改了文档内容</returns>
-		[DCPublishAPI]
+		
 		public bool EditorSetSelectedIndexs(string indexs)
 		{
 			int[] indexs2 = StringConvertHelper.ToInt32Values(indexs);
@@ -1222,7 +1222,7 @@ namespace DCSoft.Writer.Dom
 		///       根据对象内容更新InnerValue值。
 		///       </summary>
 		/// <param name="updateParent">是否更新各级父输入域的值</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public virtual void UpdateInnerValue(bool updateParent)
 		{
@@ -1317,7 +1317,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="Deeply">是否深度复制</param>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextInputFieldElement xTextInputFieldElement = (XTextInputFieldElement)base.Clone(Deeply);

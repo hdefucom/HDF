@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("CA5222A8-8BA7-4D20-AB00-EFE3C2865400")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IXTextFieldBorderElement))]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComClass("CA5222A8-8BA7-4D20-AB00-EFE3C2865400", "7D241B15-732B-42D4-8C46-D37365E00837")]
 	[ComVisible(true)]

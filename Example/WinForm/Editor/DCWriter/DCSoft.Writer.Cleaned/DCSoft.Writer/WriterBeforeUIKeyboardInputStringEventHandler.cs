@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <remarks>
 	///       仅仅由于键盘操作输入字符串才会触发这个事件。由于粘帖操作而插入字符串不会触发事件。
 	///       </remarks>
-	[DCPublishAPI]
+	
 	[Guid("927BF770-67B6-4064-907E-5707BD4C75B2")]
 	[ComVisible(true)]
 	[DocumentComment]

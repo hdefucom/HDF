@@ -92,7 +92,7 @@ namespace DCSoft.Writer
 		///       初始化对象
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
-		[DCInternal]
+		
 		public ElementValidatingEventArgs(XTextElement element)
 			: base(element)
 		{

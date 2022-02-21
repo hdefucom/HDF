@@ -17,7 +17,7 @@ namespace DCSoft.Writer
 	[Guid("FF0166D8-6E3A-4ADB-BD81-BF83C078B4DA")]
 	[ComVisible(true)]
 	[ComClass("FF0166D8-6E3A-4ADB-BD81-BF83C078B4DA", "18A4C37F-F6AC-4617-B27F-DAE378CE8E13")]
-	[DCPublishAPI]
+	
 	public class GridLineSettings : IGridLineSettings
 	{
 		internal const string CLASSID = "FF0166D8-6E3A-4ADB-BD81-BF83C078B4DA";
@@ -35,7 +35,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否显示网格线
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool ShowGridLine
 		{
@@ -53,7 +53,7 @@ namespace DCSoft.Writer
 		///       网格线颜色
 		///       </summary>
 		[DefaultValue(typeof(Color), "Gray")]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public Color GridLineColor
 		{
@@ -88,7 +88,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否打印网格线
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool PrintGridLine
 		{
@@ -106,7 +106,7 @@ namespace DCSoft.Writer
 		///       线条样式
 		///       </summary>
 		[DefaultValue(DashStyle.Solid)]
-		[DCPublishAPI]
+		
 		public DashStyle LineStyle
 		{
 			get
@@ -122,7 +122,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public GridLineSettings()
 		{
 		}

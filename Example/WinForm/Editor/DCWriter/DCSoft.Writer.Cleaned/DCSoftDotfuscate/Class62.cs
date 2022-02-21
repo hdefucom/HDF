@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	internal class Class62 : GClass30
 	{

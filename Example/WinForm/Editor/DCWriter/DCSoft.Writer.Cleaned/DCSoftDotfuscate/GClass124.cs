@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class GClass124
 	{
 		private delegate void Delegate3(string string_0);

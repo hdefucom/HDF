@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       数据回填信息列表对象
 	///       </summary>
-	[DCPublishAPI]
+	
 	public class DataFeedbackInfoList : List<DataFeedbackInfo>
 	{
 		private class UpdateInfo

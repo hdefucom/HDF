@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	/// <param name="eventSender">参数</param>
 	/// <param name="args">参数</param>
 	[Guid("E368ACB7-14FA-42C3-993E-8B8AF86E56D0")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public delegate void QueryKBEntriesEventHandler(object sender, QueryKBEntriesEventArgs e);
 }

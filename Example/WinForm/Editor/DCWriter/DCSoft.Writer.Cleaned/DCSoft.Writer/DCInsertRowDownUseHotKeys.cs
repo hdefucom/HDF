@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       使用快捷键在下面插入表格行的模式
 	///       </summary>
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[Guid("461045B4-FE29-4A6C-9071-15474A9DA8EC")]
 	[DocumentComment]

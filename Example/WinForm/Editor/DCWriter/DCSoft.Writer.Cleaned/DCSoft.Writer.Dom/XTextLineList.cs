@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IXTextLineList))]
 	[Guid("00012345-6789-ABCD-EF01-23456789000E")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[DebuggerDisplay("Count={ Count }")]

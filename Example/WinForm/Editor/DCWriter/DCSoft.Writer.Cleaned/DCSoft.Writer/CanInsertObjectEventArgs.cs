@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-23456789005B")]
-	[DCPublishAPI]
+	
 	[ComClass("00012345-6789-ABCD-EF01-23456789005B", "D3361D0B-CBF6-41B8-8708-3719B96E9DF5")]
 	[ClassInterface(ClassInterfaceType.None)]
 	public class CanInsertObjectEventArgs : EventArgs, ICanInsertObjectEventArgs
@@ -50,7 +50,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -66,7 +66,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档控制器对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentControler DocumentControler
 		{
 			get
@@ -82,7 +82,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       允许接收的数据格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterDataFormats AllowDataFormats
 		{
 			get
@@ -113,7 +113,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       插入的位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Position
 		{
 			get
@@ -130,7 +130,7 @@ namespace DCSoft.Writer
 		///       服务对象容器
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public IServiceProvider Services
 		{
 			get
@@ -146,7 +146,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档中指定的位置序号
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int SpecifyPosition
 		{
 			get
@@ -163,7 +163,7 @@ namespace DCSoft.Writer
 		///       要插入的数据对象
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public IDataObject DataObject
 		{
 			get
@@ -179,7 +179,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户指定的数据格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string SpecifyFormat
 		{
 			get
@@ -195,7 +195,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       访问标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DomAccessFlags AccessFlags
 		{
 			get
@@ -211,7 +211,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经被处理了，无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -227,7 +227,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       判断结果,true为可以插入对象数据；false不可插入对象数据。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Result
 		{
 			get
@@ -264,7 +264,7 @@ namespace DCSoft.Writer
 		///       获得所有可用的数据格式名称
 		///       </summary>
 		/// <returns>数据格式名称数组</returns>
-		[DCPublishAPI]
+		
 		public string[] GetFormats()
 		{
 			if (DataObject == null)
@@ -279,7 +279,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="format">数据格式</param>
 		/// <returns>获得的数据</returns>
-		[DCPublishAPI]
+		
 		public object GetData(string format)
 		{
 			if (DataObject == null)
@@ -294,7 +294,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="format">数据格式</param>
 		/// <returns>是否存在</returns>
-		[DCPublishAPI]
+		
 		public bool GetDataPresent(string format)
 		{
 			if (DataObject == null)

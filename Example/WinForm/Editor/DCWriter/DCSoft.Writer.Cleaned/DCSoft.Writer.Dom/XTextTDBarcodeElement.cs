@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[Guid("9314359D-352C-4A83-860B-251C019C08C4")]
 	[ComClass("9314359D-352C-4A83-860B-251C019C08C4", "FD042381-D32A-4EFD-9104-95E069725336")]

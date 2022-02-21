@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       光标提供者接口
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public interface ICaretProvider
 	{
 		/// <summary>

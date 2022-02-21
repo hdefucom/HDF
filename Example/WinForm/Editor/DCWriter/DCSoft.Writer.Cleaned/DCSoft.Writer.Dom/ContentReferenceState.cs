@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("F30838E4-0974-4EB7-98D9-170A6463CEFA")]
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public enum ContentReferenceState
 	{
 		/// <summary>

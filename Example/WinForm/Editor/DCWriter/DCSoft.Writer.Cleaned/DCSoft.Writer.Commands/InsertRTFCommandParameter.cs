@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Commands
 	[Serializable]
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class InsertRTFCommandParameter
 	{
 		private string _RTFText = null;

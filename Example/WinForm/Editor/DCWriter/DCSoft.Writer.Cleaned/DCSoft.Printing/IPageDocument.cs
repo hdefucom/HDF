@@ -9,7 +9,7 @@ namespace DCSoft.Printing
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCInternal]
+	
 	public interface IPageDocument
 	{
 		/// <summary>

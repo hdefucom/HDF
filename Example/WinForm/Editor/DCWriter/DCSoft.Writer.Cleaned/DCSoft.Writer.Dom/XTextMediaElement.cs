@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XMedia")]
 	[Guid("135815B3-44F3-44CA-9395-7EBF4385E4CA")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IXTextMediaElement))]
 	public sealed class XTextMediaElement : XTextControlHostElement, IXTextMediaElement

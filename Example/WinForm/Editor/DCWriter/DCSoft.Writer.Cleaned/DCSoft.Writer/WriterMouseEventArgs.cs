@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IWriterMouseEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("0359C21A-D8EF-45F4-897C-CDF89E0B965D", "6D63CD6E-F5BB-498C-9DD0-092238DDC8B1")]
-	[DCPublishAPI]
+	
 	[Guid("0359C21A-D8EF-45F4-897C-CDF89E0B965D")]
 	[DocumentComment]
 	[ComVisible(true)]
@@ -51,7 +51,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经被处理了。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -67,19 +67,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       鼠标光标在屏幕中的X坐标
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int ScreenX => _ScreenX;
 
 		/// <summary>
@@ -90,26 +90,26 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       鼠标悬停下的文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement HoverElement => _HoverElement;
 
 		/// <summary>
 		///       鼠标按钮
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public MouseButtons Button => _Button;
 
 		/// <summary>
 		///       判断是否是有鼠标左键
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool HasLeftButton => (_Button & MouseButtons.Left) == MouseButtons.Left;
 
 		/// <summary>
 		///       判断是否是有鼠标右键
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool HasRightButton => (_Button & MouseButtons.Right) == MouseButtons.Right;
 
 		/// <summary>
@@ -117,31 +117,31 @@ namespace DCSoft.Writer
 		///       </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public int ButtonValue => (int)_Button;
 
 		/// <summary>
 		///       滚轮值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Delta => _Delta;
 
 		/// <summary>
 		///       鼠标点击次数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Clicks => _Clicks;
 
 		/// <summary>
 		///       鼠标光标X坐标值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int X => _X;
 
 		/// <summary>
 		///       鼠标光标Y坐标值
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Y => _Y;
 
 		/// <summary>
@@ -151,7 +151,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public WriterMouseEventArgs(WriterControl writerControl_0, MouseEventArgs args)
 		{
 			_WriterControl = writerControl_0;

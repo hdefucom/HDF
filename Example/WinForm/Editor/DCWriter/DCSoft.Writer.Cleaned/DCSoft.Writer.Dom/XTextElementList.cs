@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IXTextElementList))]
 	[ComVisible(true)]
 	[ComClass("00012345-6789-ABCD-EF01-23456789000D", "F8FC43D5-EE32-3BE2-86E3-30332E3AFBA7")]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Count={ Count }")]
 	public class XTextElementList : List<XTextElement>, IEnumerable, ICloneable, IXTextElementList
 	{
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       列表中的第一个元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement FirstElement
 		{
 			get
@@ -86,7 +86,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       列表中的最后一个元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement LastElement
 		{
 			get
@@ -285,7 +285,7 @@ namespace DCSoft.Writer.Dom
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Browsable(false)]
 		public XTextElement GetItem(int index)
@@ -638,7 +638,7 @@ namespace DCSoft.Writer.Dom
 		///       向列表添加对象
 		///       </summary>
 		/// <param name="element">对象</param>
-		[DCPublishAPI]
+		
 		public new void Add(XTextElement element)
 		{
 			if (element != null)
@@ -1023,7 +1023,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextElement ComGetItem(int index)
 		{
@@ -1036,7 +1036,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, XTextElement item)
 		{
 			base[index] = item;
@@ -1048,7 +1048,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComAddItem(XTextElement item)
 		{
 			Add(item);

@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
     /// <summary>
     ///       文本行对象
     ///       </summary>
-    [DCPublishAPI]
+    
     [DebuggerDisplay("Count={ Count }")]
     [DebuggerTypeProxy(typeof(ListDebugView))]
     [Guid("00012345-6789-ABCD-EF01-23456789000F")]
@@ -130,7 +130,7 @@ namespace DCSoft.Writer.Dom
         ///       </summary>
         [Browsable(true)]
         [DefaultValue(true)]
-        [DCPublishAPI]
+        
         public bool Visible
         {
             get
@@ -259,7 +259,7 @@ namespace DCSoft.Writer.Dom
         ///       在整个文档中的从1开始的行号
         ///       </summary>
         [DefaultValue(0)]
-        [DCPublishAPI]
+        
         public int GlobalIndex
         {
             get
@@ -276,7 +276,7 @@ namespace DCSoft.Writer.Dom
         ///       在所在文档页中的从1开始的行号
         ///       </summary>
         [DefaultValue(0)]
-        [DCPublishAPI]
+        
         public int IndexInPage
         {
             get
@@ -390,7 +390,7 @@ namespace DCSoft.Writer.Dom
         ///       对象左端位置
         ///       </summary>
         [DefaultValue(0f)]
-        [DCPublishAPI]
+        
         public float Left
         {
             get
@@ -422,7 +422,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对象顶端位置
         ///       </summary>
-        [DCPublishAPI]
+        
         [DefaultValue(0f)]
         public float Top
         {
@@ -528,7 +528,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对象宽度
         ///       </summary>
-        [DCPublishAPI]
+        
         [DefaultValue(0f)]
         public float Width
         {
@@ -567,7 +567,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       对象高度
         ///       </summary>
-        [DCPublishAPI]
+        
         [DefaultValue(0f)]
         public float Height
         {
@@ -933,7 +933,7 @@ namespace DCSoft.Writer.Dom
         /// <summary>
         ///       初始化对象
         ///       </summary>
-        [DCInternal]
+        
         internal XTextLine()
         {
         }
@@ -979,14 +979,14 @@ namespace DCSoft.Writer.Dom
             }
         }
 
-        [DCInternal]
+        
         public static float smethod_0(Graphics graphics_0, XFontValue xfontValue_0)
         {
             float height = xfontValue_0.Value.GetHeight(graphics_0);
             return height + float_15;
         }
 
-        [DCInternal]
+        
         public void method_17()
         {
             method_16(-1f);
@@ -1654,7 +1654,7 @@ namespace DCSoft.Writer.Dom
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Browsable(false)]
         [ComVisible(false)]
-        [DCInternal]
+        
         public ContentLayoutDirectionStyle method_21(XTextElement xtextElement_0)
         {
             ContentLayoutDirectionStyle runtimeLayoutDirection = RuntimeLayoutDirection;
@@ -1675,7 +1675,7 @@ namespace DCSoft.Writer.Dom
             return runtimeLayoutDirection;
         }
 
-        [DCInternal]
+        
         public bool method_22()
         {
             if (LayoutInvalidate)

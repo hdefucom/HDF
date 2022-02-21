@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[Guid("EF6EAA22-1372-4776-B72D-1CDE7DEA08DD")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public enum MoveTarget
 	{

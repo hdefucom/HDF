@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Commands
 	[DocumentComment]
 	[ComVisible(false)]
 	[Flags]
-	[DCPublishAPI]
+	
 	public enum StyleApplyRanges
 	{
 		/// <summary>

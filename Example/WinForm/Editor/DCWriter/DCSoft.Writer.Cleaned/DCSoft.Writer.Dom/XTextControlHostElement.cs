@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 	///       </remarks>
 	[Serializable]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Host:{TypeFullName}")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-234567890054")]
@@ -40,7 +40,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(false)]
 		[ToolboxItem(false)]
 		[ComVisible(false)]
-		[DCInternal]
+		
 		public class GClass1 : AxHost
 		{
 			private XTextControlHostElement xtextControlHostElement_0 = null;
@@ -134,7 +134,7 @@ namespace DCSoft.Writer.Dom
 
 		private string string_15 = null;
 
-		[DCInternal]
+		
 		public override string DomDisplayName
 		{
 			get
@@ -172,7 +172,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(false)]
 		[XmlIgnore]
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		[DCInternal]
+		
 		public int ManageID
 		{
 			get
@@ -189,7 +189,7 @@ namespace DCSoft.Writer.Dom
 		///       承载的控件的类型
 		///       </summary>
 		[DefaultValue(HostedControlType.AutoDetect)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public virtual HostedControlType ControlType
@@ -207,7 +207,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时使用的承载的控件类型
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public virtual HostedControlType RuntimeControlType
 		{
@@ -307,7 +307,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ContentElementLayout)]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public virtual string TypeFullName
 		{
@@ -336,7 +336,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       承载的对象类型
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public Type HostedType
@@ -354,7 +354,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       控件的数值属性名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string ValuePropertyName
 		{
@@ -373,7 +373,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(ObjectHostMode.Dynamic)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public virtual ObjectHostMode HostMode
 		{
 			get
@@ -391,7 +391,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public bool EnableViewState
 		{
 			get
@@ -410,7 +410,7 @@ namespace DCSoft.Writer.Dom
 		[XmlArrayItem("Item", typeof(XMLViewStateBagItem))]
 		[DefaultValue(null)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public XMLViewStateBag ViewState
 		{
 			get
@@ -427,7 +427,7 @@ namespace DCSoft.Writer.Dom
 		///       能否让用户修改元素的大小
 		///       </summary>
 		[DefaultValue(ResizeableType.WidthAndHeight)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public virtual ResizeableType AllowUserResize
 		{
@@ -444,7 +444,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       控件参数值
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlArrayItem("Parameter", typeof(ObjectParameter))]
 		[DefaultValue(null)]
 		public virtual ObjectParameterList Parameters
@@ -532,7 +532,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(true)]
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[ReadOnly(true)]
 		public string ErrorMessage
 		{
@@ -554,7 +554,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[Browsable(true)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		public override float Width
 		{
 			get
@@ -570,7 +570,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象高度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[Browsable(true)]
 		public override float Height
@@ -589,7 +589,7 @@ namespace DCSoft.Writer.Dom
 		///       承载对象的选项属性名
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string OptionsPropertyName
 		{
 			get
@@ -605,7 +605,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       承载的对象实例的选项信息对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[Browsable(true)]
 		public object InstanceOptions
@@ -624,7 +624,7 @@ namespace DCSoft.Writer.Dom
 		///       用户指定的承载的对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public object SpecifyHostedInstance
 		{
@@ -642,7 +642,7 @@ namespace DCSoft.Writer.Dom
 		///       元素承载的对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public object HostedInstance
 		{
@@ -662,7 +662,7 @@ namespace DCSoft.Writer.Dom
 		protected virtual string MessageToDelayLoadControl => WriterStringsCore.ClickToLoadControl;
 
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[Browsable(true)]
 		[XmlElement]
@@ -681,13 +681,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextControlHostElement()
 		{
 			PrintVisibility = ElementVisibility.None;
 		}
 
-		[DCInternal]
+		
 		public static bool smethod_0(string string_16)
 		{
 			int num = 13;
@@ -741,7 +741,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public void method_16(string string_16, Exception exception_0)
 		{
 			ErrorMessage = string_16 + Environment.NewLine + exception_0.ToString();
@@ -761,7 +761,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public override void HandleDocumentEvent(DocumentEventArgs args)
 		{
 			if (args.Style == DocumentEventStyles.MouseClick && ControlHostManger != null && DelayLoadControl && ControlHostManger.GetControl(this) == null)
@@ -772,7 +772,7 @@ namespace DCSoft.Writer.Dom
 			base.HandleDocumentEvent(args);
 		}
 
-		[DCInternal]
+		
 		public virtual Image vmethod_26()
 		{
 			ErrorMessage = null;
@@ -903,7 +903,7 @@ namespace DCSoft.Writer.Dom
 			return WriterUtils.smethod_42((int)sizeF.Width, (int)sizeF.Height, string_16, XFontValue.font_0, Color.Black, Color.White);
 		}
 
-		[DCPublishAPI]
+		
 		public virtual void vmethod_27()
 		{
 			if (ControlHostManger != null)
@@ -920,7 +920,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public SizeF method_18(object object_4)
 		{
 			SizeF result = SizeF.Empty;
@@ -963,7 +963,7 @@ namespace DCSoft.Writer.Dom
 			return result;
 		}
 
-		[DCPublishAPI]
+		
 		public virtual object vmethod_28()
 		{
 			if (RuntimeControlType == HostedControlType.Control)
@@ -1012,7 +1012,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public virtual object vmethod_29()
 		{
 			HostedControlType runtimeControlType = RuntimeControlType;
@@ -1076,7 +1076,7 @@ namespace DCSoft.Writer.Dom
 		///       绘制对象
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void Draw(DocumentPaintEventArgs args)
 		{
 			if (args.RenderMode == DocumentRenderMode.PDF)
@@ -1135,7 +1135,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public override void DrawContent(DocumentPaintEventArgs args)
 		{
 			int num = 19;
@@ -1296,7 +1296,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_21(string string_16)
 		{
 			int num = 3;
@@ -1350,7 +1350,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_22()
 		{
 			if (PreviewImage != null)
@@ -1360,7 +1360,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_30(object object_4)
 		{
 			try
@@ -1459,7 +1459,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       承载的对象加载完毕后处理
 		///       </summary>
-		[DCInternal]
+		
 		public virtual void AfterHostedControlLoaded()
 		{
 		}
@@ -1580,7 +1580,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCPublishAPI]
+		
 		public object method_23()
 		{
 			if (ControlHostManger != null)
@@ -1595,7 +1595,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_23()
 		{
 			if (ControlHostManger == null)
@@ -1636,14 +1636,14 @@ namespace DCSoft.Writer.Dom
 		///       文档加载后处理
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			object_2 = object_3;
 			base.AfterLoad(args);
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_17(ReadHTMLEventArgs readHTMLEventArgs_0)
 		{
 			int num = 6;
@@ -1676,7 +1676,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="Deeply">是否深度复制</param>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextControlHostElement xTextControlHostElement = (XTextControlHostElement)base.Clone(Deeply);

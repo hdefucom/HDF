@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       页码标签文本列表
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ComClass("FF125BB9-0498-48FF-90C4-158CEEB0CDC3", "A190D93A-F50F-4A36-87BE-863F35186D04")]
 	[DocumentComment]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
@@ -41,7 +41,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="pageIndex">从0开始的页码号</param>
 		/// <param name="text">文本值</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void SetPageText(int pageIndex, string text)
 		{
 			PageLabelText pageLabelText = method_0(pageIndex);
@@ -69,7 +69,7 @@ namespace DCSoft.Writer.Dom
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public string GetText(int pageIndex, bool strickMatchPageIndex)
 		{
 			if (strickMatchPageIndex)
@@ -124,7 +124,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public PageLabelTextList Clone()
 		{
 			PageLabelTextList pageLabelTextList = new PageLabelTextList();
@@ -168,7 +168,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public PageLabelText ComGetItem(int index)
 		{
@@ -181,7 +181,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, PageLabelText item)
 		{
 			base[index] = item;

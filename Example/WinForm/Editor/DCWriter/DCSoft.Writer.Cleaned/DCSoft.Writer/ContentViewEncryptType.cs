@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       内容视图加密方式
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DCPublishAPI]
+	
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[DocumentComment]
 	[ComVisible(true)]

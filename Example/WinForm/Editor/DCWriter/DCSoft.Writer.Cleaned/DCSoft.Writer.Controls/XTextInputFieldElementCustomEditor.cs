@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       使用自定义控件的文本输入域内容编辑器对象
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class XTextInputFieldElementCustomEditor : ElementValueEditor
 	{

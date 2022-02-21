@@ -10,7 +10,7 @@ using System.Xml;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class GClass114
 	{
 		private static List<GClass114> list_0 = new List<GClass114>();

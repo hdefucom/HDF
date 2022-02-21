@@ -8,7 +8,7 @@ namespace DCSoftDotfuscate
 {
 	[DefaultMember("Item")]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public interface GInterface6
 	{
 		HighlightInfo imethod_0();

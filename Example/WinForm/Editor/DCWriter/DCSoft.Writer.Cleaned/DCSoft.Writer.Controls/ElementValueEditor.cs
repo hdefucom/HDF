@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       文档元素内容编辑器
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public abstract class ElementValueEditor
 	{

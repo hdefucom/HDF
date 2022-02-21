@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace DCSoftDotfuscate
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class GStream0 : Stream
 	{

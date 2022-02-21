@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <param name="args">参数</param>
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[Guid("0DE77369-D8AB-4D06-902B-FF6A9ED613F9")]
 	public delegate void WriterBeforePlayMediaEventHandler(object sender, WriterBeforePlayMediaEventArgs e);
 }

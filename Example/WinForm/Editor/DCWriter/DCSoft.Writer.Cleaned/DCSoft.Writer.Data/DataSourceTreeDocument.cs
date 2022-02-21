@@ -14,7 +14,7 @@ using System.Xml.Serialization;
 namespace DCSoft.Writer.Data
 {
 	[Serializable]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class DataSourceTreeDocument : DataSourceTreeNode
 	{

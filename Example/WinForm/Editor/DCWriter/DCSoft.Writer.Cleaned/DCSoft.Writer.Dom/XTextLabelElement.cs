@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ComClass("00012345-6789-ABCD-EF01-23456789008F", "AB8B3F31-C36E-4EF5-8A73-84397555E16C")]
 	[Guid("00012345-6789-ABCD-EF01-23456789008F")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IXTextLabelElement))]
 	[DebuggerDisplay("Label:{Text}")]
@@ -50,7 +50,7 @@ namespace DCSoft.Writer.Dom
 
 		private bool bool_13 = true;
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "Label:" + base.ID;
 
 		/// <summary>
@@ -61,7 +61,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool AllowUserEditCurrentPageLabelText
 		{
 			get
@@ -97,7 +97,7 @@ namespace DCSoft.Writer.Dom
 		///       文本连接模式
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(LabelTextContactActionMode.Disable)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[HtmlAttribute]
@@ -119,7 +119,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable]
 		[ComVisible(true)]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public string AttributeNameForContactAction
 		{
@@ -139,7 +139,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[HtmlAttribute]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string LinkTextForContactAction
 		{
 			get
@@ -161,7 +161,7 @@ namespace DCSoft.Writer.Dom
 		///       内容对齐方式
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(DCContentAlignment.MiddleCenter)]
 		public DCContentAlignment Alignment
@@ -181,7 +181,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public bool Multiline
 		{
@@ -213,7 +213,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(true)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public bool AutoSize
 		{
 			get
@@ -229,7 +229,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时的是否自动设置大小
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public override bool RuntimeAutoSize
 		{
@@ -246,7 +246,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextLabelElement()
 		{
 			Width = 100f;
@@ -258,7 +258,7 @@ namespace DCSoft.Writer.Dom
 			return true;
 		}
 
-		[DCInternal]
+		
 		public override void OnViewMouseDblClick(ElementMouseEventArgs elementMouseEventArgs_0)
 		{
 			base.OnViewMouseDblClick(elementMouseEventArgs_0);
@@ -268,7 +268,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public bool UpdateContactAction()
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_197))
@@ -473,7 +473,7 @@ namespace DCSoft.Writer.Dom
 		///       文档元素加载后处理
 		///       </summary>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			base.AfterLoad(args);
@@ -483,7 +483,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void RefreshSize(DocumentPaintEventArgs args)
 		{
 			if (RuntimeAutoSize)
@@ -514,7 +514,7 @@ namespace DCSoft.Writer.Dom
 			SizeInvalid = false;
 		}
 
-		[DCInternal]
+		
 		public override void DrawContent(DocumentPaintEventArgs args)
 		{
 			_ = AbsBounds;

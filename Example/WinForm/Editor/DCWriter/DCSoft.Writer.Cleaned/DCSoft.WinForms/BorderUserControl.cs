@@ -16,7 +16,7 @@ namespace DCSoft.WinForms
 	///       新增属性 BorderStyle 可让控件不显示边框,显示简单的细边框或3D下陷式的粗边框 
 	///       新增事件 Scroll ,当用户滚动控件时会触发该事件</remarks>
 	[Guid("00012345-6789-ABCD-EF01-234567890007")]
-	[DCInternal]
+	
 	[DocumentComment]
 	[Browsable(false)]
 	[ComVisible(true)]

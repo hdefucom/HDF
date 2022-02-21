@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	///       显示内容保护信息的对话框
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class dlgPromptProtectedContent : Form
 	{
 		private GClass108 gclass108_0 = null;

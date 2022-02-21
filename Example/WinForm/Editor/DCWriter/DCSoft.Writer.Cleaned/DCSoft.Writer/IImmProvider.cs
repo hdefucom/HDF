@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       输入法操作器接口
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public interface IImmProvider
 	{
 		/// <summary>

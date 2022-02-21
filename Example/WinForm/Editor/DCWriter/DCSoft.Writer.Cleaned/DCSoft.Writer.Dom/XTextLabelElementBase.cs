@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCInternal]
+	
 	public class XTextLabelElementBase : XTextObjectElement, IUpdateDataBindingExt
 	{
 		[NonSerialized]
@@ -35,7 +35,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       绑定的数据源对象
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[DefaultValue(null)]
 		[Browsable(true)]
@@ -57,7 +57,7 @@ namespace DCSoft.Writer.Dom
 		///       使用了数据源节点的数值
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[DefaultValue(false)]
 		[Browsable(true)]
@@ -77,7 +77,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容绑定对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		public XDataBinding ValueBinding
@@ -99,7 +99,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时的是否自动设置大小
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		public virtual bool RuntimeAutoSize => true;
 
@@ -127,7 +127,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(false)]
 		[XmlIgnore]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
-		[DCPublishAPI]
+		
 		public override string FormulaValue
 		{
 			get
@@ -152,7 +152,7 @@ namespace DCSoft.Writer.Dom
 		///       对象宽度
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[XmlElement]
 		public override float Width
@@ -171,7 +171,7 @@ namespace DCSoft.Writer.Dom
 		///       对象高度
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[HtmlAttribute]
 		public override float Height
@@ -190,7 +190,7 @@ namespace DCSoft.Writer.Dom
 		///       文本值
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[XmlElement]
 		public override string Text
@@ -209,7 +209,7 @@ namespace DCSoft.Writer.Dom
 		///       各个页面的文本
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlArrayItem("PageText", typeof(PageLabelText))]
 		public PageLabelTextList PageTexts
 		{
@@ -235,7 +235,7 @@ namespace DCSoft.Writer.Dom
 		///       </remarks>
 		[Browsable(true)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		[ComVisible(true)]
@@ -255,7 +255,7 @@ namespace DCSoft.Writer.Dom
 		///       分页文本的预览文本
 		///       </summary>
 		[Browsable(true)]
-		[DCInternal]
+		
 		public string PageTextsPreview
 		{
 			get
@@ -272,7 +272,7 @@ namespace DCSoft.Writer.Dom
 		///       文档加载后的处理
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void AfterLoad(ElementLoadEventArgs args)
 		{
 			base.AfterLoad(args);
@@ -282,7 +282,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public int UpdateDataBindingExt(UpdateDataBindingArgs args)
 		{
 			DataBoundNodeValueUsed = false;
@@ -339,7 +339,7 @@ namespace DCSoft.Writer.Dom
 			PageTexts.SetPageText(pageIndex, text);
 		}
 
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public string method_16(int int_8)
 		{
@@ -372,7 +372,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="Deeply">是否深度复制</param>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public override XTextElement Clone(bool Deeply)
 		{
 			XTextLabelElementBase xTextLabelElementBase = (XTextLabelElementBase)base.Clone(Deeply);
@@ -391,7 +391,7 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象的字符串
 		///       </summary>
 		/// <returns>返回的文本</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return Text;

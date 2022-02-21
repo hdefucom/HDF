@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerDisplay("Count={ Count }")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[Editor(typeof(XAttributeListEditor), typeof(UITypeEditor))]
 	public class XAttributeList : List<XAttribute>, ICloneable, IDCStringSerializable, IXAttributeList
@@ -37,7 +37,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <returns>属性值</returns>
-		[DCPublishAPI]
+		
 		public XAttribute this[string name]
 		{
 			get
@@ -60,7 +60,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XAttributeList()
 		{
 		}
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">指定的属性名</param>
 		/// <returns>是否存在指定的属性</returns>
-		[DCPublishAPI]
+		
 		public bool ContainsByName(string name)
 		{
 			return this[name] != null;
@@ -80,7 +80,7 @@ namespace DCSoft.Writer.Dom
 		///       删除指定名称的属性
 		///       </summary>
 		/// <param name="name">指定的属性名</param>
-		[DCPublishAPI]
+		
 		public void RemoveByName(string name)
 		{
 			XAttribute xAttribute = this[name];
@@ -95,7 +95,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <returns>属性值</returns>
-		[DCPublishAPI]
+		
 		public string GetValue(string name)
 		{
 			return this[name]?.Value;
@@ -106,7 +106,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="name">属性名</param>
 		/// <param name="Value">属性值</param>
-		[DCPublishAPI]
+		
 		public void SetValue(string name, string Value)
 		{
 			XAttribute xAttribute = this[name];
@@ -128,7 +128,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		object ICloneable.Clone()
 		{
 			XAttributeList xAttributeList = new XAttributeList();
@@ -147,7 +147,7 @@ namespace DCSoft.Writer.Dom
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public XAttributeList Clone()
 		{
 			return (XAttributeList)((ICloneable)this).Clone();
@@ -157,7 +157,7 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象内容的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			int num = 12;
@@ -184,7 +184,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="element">文档元素</param>
 		/// <param name="create">是否自动创建</param>
 		/// <returns>获得的属性列表</returns>
-		[DCInternal]
+		
 		public static XAttributeList GetAttributes(XTextElement element, bool create)
 		{
 			if (element == null)
@@ -212,7 +212,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			GClass338 gClass = new GClass338();
@@ -227,7 +227,7 @@ namespace DCSoft.Writer.Dom
 			return gClass.ToString();
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			Clear();
@@ -247,7 +247,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public XAttribute ComGetItem(int index)
 		{
 			return base[index];
@@ -259,7 +259,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, XAttribute item)
 		{
 			base[index] = item;

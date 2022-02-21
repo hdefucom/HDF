@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	///       复选框控件
 	///       </summary>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerDisplay("CheckBox:Group={GroupName} , Checked={Checked}")]
 	[XmlType("XTextCheckBox")]
@@ -30,19 +30,19 @@ namespace DCSoft.Writer.Dom
 
 		internal const string string_18 = "B66A5465-A0A1-4766-BEB8-2C42080D1916";
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "CheckBox:" + base.ID;
 
 		/// <summary>
 		///       文档元素编号前缀
 		///       </summary>
-		[DCInternal]
+		
 		public override string ElementIDPrefix => "chk";
 
 		/// <summary>
 		///       控件类型
 		///       </summary>
-		[DCInternal]
+		
 		[XmlElement]
 		[Browsable(false)]
 		[DefaultValue(CheckBoxControlStyle.CheckBox)]
@@ -58,7 +58,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void vmethod_29(object sender, ContentChangedEventArgs e)
 		{
 			int num = 4;

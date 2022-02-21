@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       文档打印事件参数
 	///       </summary>
 	[Guid("595277B8-083B-40DE-8FF4-A85DA2DD48C5")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IWriterDocumentPrintedEventArgs))]
@@ -28,7 +28,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       打印结果
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PrintResult PrintResult => _PrintResult;
 
 		/// <summary>
@@ -36,7 +36,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="ctl">控件对象</param>
 		/// <param name="document">文档对象</param>
-		[DCInternal]
+		
 		public WriterDocumentPrintedEventArgs(WriterControl writerControl_0, XTextDocument document)
 			: base(writerControl_0, document, document)
 		{

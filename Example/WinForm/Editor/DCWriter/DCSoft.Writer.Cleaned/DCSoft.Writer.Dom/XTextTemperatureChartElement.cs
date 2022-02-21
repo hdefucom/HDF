@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[XmlType("XTemperatureChart")]
 	[DebuggerDisplay("TemperatureChart:{Name}")]

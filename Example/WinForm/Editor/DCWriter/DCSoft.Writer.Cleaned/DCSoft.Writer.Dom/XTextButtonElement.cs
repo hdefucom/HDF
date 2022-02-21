@@ -27,14 +27,14 @@ namespace DCSoft.Writer.Dom
 	[DebuggerDisplay("Button:ID={ID} , Text={Text}")]
 	[ComDefaultInterface(typeof(IXTextButtonElement))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class XTextButtonElement : XTextObjectElement, IXTextButtonElement
 	{
 		internal const string string_9 = "3ED207D7-E972-4C88-93BE-8C96ABF60E0C";
 
 		internal const string string_10 = "24096F15-6E09-4FA0-B4F6-25F11EB422B1";
 
-		[DCInternal]
+		
 		public const float float_8 = 199f;
 
 		private bool bool_9 = false;
@@ -62,7 +62,7 @@ namespace DCSoft.Writer.Dom
 		///       以文本方式打印
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[XmlElement]
 		public bool PrintAsText
@@ -80,7 +80,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       自动大小 
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		[XmlElement]
 		[ComVisible(true)]
@@ -100,7 +100,7 @@ namespace DCSoft.Writer.Dom
 		///       按钮图片
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DefaultValue(null)]
 		public XImageValue Image
@@ -118,7 +118,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       按下状态时的图片
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlElement]
 		public XImageValue ImageForDown
@@ -137,7 +137,7 @@ namespace DCSoft.Writer.Dom
 		///       鼠标悬停时的图片
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		public XImageValue ImageForMouseOver
 		{
@@ -151,13 +151,13 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "Button:" + base.ID;
 
 		/// <summary>
 		///       文档元素编号前缀
 		///       </summary>
-		[DCInternal]
+		
 		public override string ElementIDPrefix => "button";
 
 		[Browsable(false)]
@@ -179,7 +179,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象能否被选中
 		///       </summary>
-		[DCInternal]
+		
 		public override bool RuntimeSelectable
 		{
 			get
@@ -196,7 +196,7 @@ namespace DCSoft.Writer.Dom
 		///       对象宽度
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
@@ -218,7 +218,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[XmlElement]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public override float Height
 		{
@@ -239,7 +239,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[Browsable(true)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		public override string Text
 		{
 			get
@@ -256,7 +256,7 @@ namespace DCSoft.Writer.Dom
 		///       按钮点击时使用的脚本
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public string ScriptTextForClick
 		{
@@ -274,7 +274,7 @@ namespace DCSoft.Writer.Dom
 		///       命令名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public string CommandName
 		{
@@ -311,7 +311,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       返回运行时使用的脚本信息对象列表
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		[XmlIgnore]
@@ -349,7 +349,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextButtonElement()
 		{
 			Width = 199f;
@@ -360,7 +360,7 @@ namespace DCSoft.Writer.Dom
 		///       从图片文件加载ImageForUp属性值
 		///       </summary>
 		/// <param name="fileName">文件名</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void LoadImageFromFile(string fileName)
 		{
@@ -380,7 +380,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="fileName">文件名</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void LoadImageFromBase64String(string base64)
 		{
 			XImageValue xImageValue = new XImageValue();
@@ -398,7 +398,7 @@ namespace DCSoft.Writer.Dom
 		///       从图片文件加载ImageForDown属性值
 		///       </summary>
 		/// <param name="fileName">文件名</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void LoadImageForDownFromFile(string fileName)
 		{
@@ -417,7 +417,7 @@ namespace DCSoft.Writer.Dom
 		///       从图片的Base64字符串加载ImageForDown属性值
 		///       </summary>
 		/// <param name="fileName">文件名</param>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public void LoadImageForDownFromBase64String(string base64)
 		{
@@ -437,7 +437,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="fileName">文件名</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void LoadImageForMouseOverFromFile(string fileName)
 		{
 			XImageValue xImageValue = new XImageValue();
@@ -456,7 +456,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="fileName">文件名</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void LoadImageForMouseOverFromBase64String(string base64)
 		{
 			XImageValue xImageValue = new XImageValue();
@@ -479,7 +479,7 @@ namespace DCSoft.Writer.Dom
 		///       处理文档事件
 		///       </summary>
 		/// <param name="args">事件参数</param>
-		[DCInternal]
+		
 		public override void HandleDocumentEvent(DocumentEventArgs args)
 		{
 			int num = 3;
@@ -614,7 +614,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override void RefreshSize(DocumentPaintEventArgs args)
 		{
 			if (AutoSize)
@@ -629,7 +629,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public SizeF method_16(DCGraphics dcgraphics_0)
 		{
 			GClass522 gClass = method_17();
@@ -694,7 +694,7 @@ namespace DCSoft.Writer.Dom
 			OwnerDocument.method_114(this, args, GEnum6.const_202);
 		}
 
-		[DCPublishAPI]
+		
 		public override Image CreateContentImage()
 		{
 			if (Image != null && Image.HasContent)

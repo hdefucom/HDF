@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       文档内容创建者
 	///       </summary>
 	/// <remarks>编制 袁永福 2012-8-23</remarks>
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComClass("0325F407-D5D9-46F5-8D7E-977E2AC27767", "D1FEBAAC-A1F4-4B20-8A1D-A20E4A172106")]
@@ -37,7 +37,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -53,25 +53,25 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       容器对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextContainerElement Container => _Container;
 
 		/// <summary>
 		///       文档内容样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentContentStyle ContentStyle => _ContentStyle;
 
 		/// <summary>
 		///       段落样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentContentStyle ParagraphStyle => _ParagraphStyle;
 
 		/// <summary>
 		///       新增的文档内容添加授权标志信息
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool EnableAddPermissionFlag
 		{
 			get
@@ -87,7 +87,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       原生态添加模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool AppendRawMode
 		{
 			get
@@ -104,7 +104,7 @@ namespace DCSoft.Writer
 		///       初始化对象
 		///       </summary>
 		/// <param name="container">容器对象</param>
-		[DCPublishAPI]
+		
 		public ContentBuilder(XTextContainerElement container)
 		{
 			int num = 18;
@@ -135,7 +135,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       清空内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Clear()
 		{
 			Container.Elements.Clear();
@@ -149,7 +149,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       底层的清空内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void RawClear()
 		{
 			Container.Elements.Clear();
@@ -160,7 +160,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="style">
 		/// </param>
-		[DCPublishAPI]
+		
 		public void SetParagraphStyle(DocumentContentStyle style)
 		{
 			_ParagraphStyle = style;
@@ -183,7 +183,7 @@ namespace DCSoft.Writer
 		/// <param name="style">样式</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public XTextElementList AppendTextWithStyle(string text, DocumentContentStyle style)
 		{
 			if (style == null)
@@ -203,7 +203,7 @@ namespace DCSoft.Writer
 		/// <param name="style">样式</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public XTextElementList InsertTextWithStyle(int index, string text, DocumentContentStyle style)
 		{
 			if (style == null)
@@ -222,7 +222,7 @@ namespace DCSoft.Writer
 		/// <param name="styleString">表示样式的字符串</param>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public XTextElementList AppendTextWithStyleString(string text, string styleString)
 		{
 			if (string.IsNullOrEmpty(text))
@@ -243,7 +243,7 @@ namespace DCSoft.Writer
 		/// <param name="text">文本内容</param>
 		/// <param name="styleString">样式字符串</param>
 		/// <returns>操作生成的文档元素列表</returns>
-		[DCPublishAPI]
+		
 		public XTextElementList InsertTextWithStyleString(int index, string text, string styleString)
 		{
 			if (string.IsNullOrEmpty(text))
@@ -262,7 +262,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="text">文本内容</param>
 		/// <returns>产生的元素对象</returns>
-		[DCPublishAPI]
+		
 		public XTextElementList AppendText(string text)
 		{
 			return AppendTextWithStyle(text, null);
@@ -274,7 +274,7 @@ namespace DCSoft.Writer
 		/// <param name="index">插入的文本</param>
 		/// <param name="text">文本内容</param>
 		/// <returns>产生的元素对象</returns>
-		[DCPublishAPI]
+		
 		public XTextElementList InsertText(int index, string text)
 		{
 			return InsertTextWithStyle(index, text, null);
@@ -285,7 +285,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="styleString">段落样式</param>
 		/// <returns>生成的段落符号元素对象</returns>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement AppendParagraphFlagWithStyleString(string styleString)
 		{
 			DocumentContentStyle documentContentStyle = (DocumentContentStyle)ContentStyle.Clone();
@@ -299,7 +299,7 @@ namespace DCSoft.Writer
 		/// <param name="index">序号</param>
 		/// <param name="styleString">段落样式</param>
 		/// <returns>生成的段落符号元素对象</returns>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement InsertParagraphFlagWithStyleString(int index, string styleString)
 		{
 			DocumentContentStyle documentContentStyle = (DocumentContentStyle)ContentStyle.Clone();
@@ -312,7 +312,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="style">段落样式</param>
 		/// <returns>新增的段落标记元素</returns>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement AppendParagraphFlagWithStyle(DocumentContentStyle style)
 		{
 			XTextParagraphFlagElement xTextParagraphFlagElement = new XTextParagraphFlagElement();
@@ -336,7 +336,7 @@ namespace DCSoft.Writer
 		/// <param name="index">序号</param>
 		/// <param name="style">段落样式</param>
 		/// <returns>新增的段落标记元素</returns>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement InsertParagraphFlagWithStyle(int index, DocumentContentStyle style)
 		{
 			XTextParagraphFlagElement xTextParagraphFlagElement = new XTextParagraphFlagElement();
@@ -358,7 +358,7 @@ namespace DCSoft.Writer
 		///       添加段落符号
 		///       </summary>
 		/// <returns>创建的段落符号</returns>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement AppendParagraphFlag()
 		{
 			return AppendParagraphFlagWithStyle(null);
@@ -368,7 +368,7 @@ namespace DCSoft.Writer
 		///       添加段落符号
 		///       </summary>
 		/// <returns>创建的段落符号</returns>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement InsertParagraphFlag(int index)
 		{
 			return InsertParagraphFlagWithStyle(index, null);
@@ -378,7 +378,7 @@ namespace DCSoft.Writer
 		///       添加文档元素
 		///       </summary>
 		/// <param name="element">要添加的内容</param>
-		[DCPublishAPI]
+		
 		public void Append(XTextElement element)
 		{
 			AppendWithStyle(element, null);
@@ -399,7 +399,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="element">要添加的内容</param>
 		/// <param name="style">新文档元素的样式</param>
-		[DCPublishAPI]
+		
 		public void AppendWithStyle(XTextElement element, DocumentContentStyle style)
 		{
 			int num = 9;
@@ -437,7 +437,7 @@ namespace DCSoft.Writer
 		/// <param name="index">序号</param>
 		/// <param name="element">要添加的内容</param>
 		/// <param name="style">新文档元素的样式</param>
-		[DCPublishAPI]
+		
 		public void InsertWithStyle(int index, XTextElement element, DocumentContentStyle style)
 		{
 			int num = 11;
@@ -464,7 +464,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="elements">
 		/// </param>
-		[DCPublishAPI]
+		
 		public void AppendRange(XTextElementList elements)
 		{
 			AppendRangeWithStyle(elements, null);
@@ -475,7 +475,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="index">插入的位置</param>
 		/// <param name="elements">文档元素对象列表</param>
-		[DCPublishAPI]
+		
 		public void InsertRange(int index, XTextElementList elements)
 		{
 			InsertRangeWithStyle(index, elements, null);
@@ -486,7 +486,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="elements">文档元素对象</param>
 		/// <param name="style">元素的样式</param>
-		[DCPublishAPI]
+		
 		public void AppendRangeWithStyle(XTextElementList elements, DocumentContentStyle style)
 		{
 			int num = 7;
@@ -533,7 +533,7 @@ namespace DCSoft.Writer
 		/// <param name="index">序号</param>
 		/// <param name="elements">文档元素对象</param>
 		/// <param name="style">样式</param>
-		[DCPublishAPI]
+		
 		public void InsertRangeWithStyle(int index, XTextElementList elements, DocumentContentStyle style)
 		{
 			int num = 2;
@@ -572,7 +572,7 @@ namespace DCSoft.Writer
 		/// <param name="removeComments">清除批注</param>
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
-		[DCPublishAPI]
+		
 		public int AppendDocumentContentByBase64String(string base64String, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			XTextDocument xTextDocument = new XTextDocument();
@@ -590,7 +590,7 @@ namespace DCSoft.Writer
 		/// <param name="removeComments">清除批注</param>
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
-		[DCPublishAPI]
+		
 		public int AppendDocumentContentByStream(Stream stream, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			XTextDocument xTextDocument = new XTextDocument();
@@ -608,7 +608,7 @@ namespace DCSoft.Writer
 		/// <param name="removeComments">清除批注</param>
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
-		[DCPublishAPI]
+		
 		public int AppendDocumentContentByFileName(string fileName, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			XTextDocument xTextDocument = new XTextDocument();
@@ -625,7 +625,7 @@ namespace DCSoft.Writer
 		/// <param name="removeComments">清除批注</param>
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
-		[DCPublishAPI]
+		
 		public int AppendDocumentContent(XTextDocument document, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			return InsertDocumentContent(Container.Elements.Count, document, removeLogicDeletedContent, clearUserTrack, removeComments, deleteRedundant);
@@ -643,7 +643,7 @@ namespace DCSoft.Writer
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public int AppendDocumentContentByString(string text, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			return InsertDocumentContentByString(Container.Elements.Count, text, fileFormat, removeLogicDeletedContent, clearUserTrack, removeComments, deleteRedundant);
@@ -660,7 +660,7 @@ namespace DCSoft.Writer
 		/// <param name="removeComments">清除批注</param>
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
-		[DCPublishAPI]
+		
 		public int InsertDocumentContentByBase64String(int index, string base64String, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			XTextDocument xTextDocument = new XTextDocument();
@@ -680,7 +680,7 @@ namespace DCSoft.Writer
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public int InsertDocumentContentByString(int index, string text, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			XTextDocument xTextDocument = new XTextDocument();
@@ -700,7 +700,7 @@ namespace DCSoft.Writer
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public int InsertDocumentContentByStream(int index, Stream stream, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			XTextDocument xTextDocument = new XTextDocument();
@@ -719,7 +719,7 @@ namespace DCSoft.Writer
 		/// <param name="removeComments">清除批注</param>
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
-		[DCPublishAPI]
+		
 		public int InsertDocumentContentByFileName(int index, string fileName, string fileFormat, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			XTextDocument xTextDocument = new XTextDocument();
@@ -737,7 +737,7 @@ namespace DCSoft.Writer
 		/// <param name="removeComments">清除批注</param>
 		/// <param name="deleteRedundant">是否删除末尾的空白内容</param>
 		/// <remarks>导入的文档元素个数</remarks>
-		[DCPublishAPI]
+		
 		public int InsertDocumentContent(int index, XTextDocument document, bool removeLogicDeletedContent, bool clearUserTrack, bool removeComments, bool deleteRedundant)
 		{
 			if (removeLogicDeletedContent)

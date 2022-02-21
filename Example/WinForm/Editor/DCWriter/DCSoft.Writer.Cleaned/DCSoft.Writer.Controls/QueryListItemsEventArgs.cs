@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Controls
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IQueryListItemsEventArgs))]
 	[Guid("71E132AA-7B9A-4268-8500-580CD14FE145")]
 	[ComClass("71E132AA-7B9A-4268-8500-580CD14FE145", "4D942086-7734-4F28-98AB-AA2069DDA552")]
@@ -61,7 +61,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       发出请求的页面名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string PageName
 		{
 			get
@@ -85,7 +85,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       发出请求的控件名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ControlName
 		{
 			get
@@ -122,7 +122,7 @@ namespace DCSoft.Writer.Controls
 		///       关联的知识节点
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public KBEntry KBEntry
 		{
 			get
@@ -139,13 +139,13 @@ namespace DCSoft.Writer.Controls
 		///       编辑器控件
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public XTextDocument Document => _Document;
 
@@ -153,14 +153,14 @@ namespace DCSoft.Writer.Controls
 		///       文档元素对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public XTextElement Element => _Element;
 
 		/// <summary>
 		///       列表来源名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		public string ListSourceName
 		{
@@ -179,7 +179,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		public string SpellCode
 		{
 			get
@@ -196,7 +196,7 @@ namespace DCSoft.Writer.Controls
 		///       要查询的列表项目的前缀文本
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string PreText
 		{
@@ -215,7 +215,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[XmlElement]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string SpecifyValue
 		{
 			get
@@ -232,7 +232,7 @@ namespace DCSoft.Writer.Controls
 		///       是否缓存数据
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[XmlElement]
 		public bool BufferItems
 		{
@@ -251,7 +251,7 @@ namespace DCSoft.Writer.Controls
 		///       </summary>
 		[XmlIgnore]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public ListItemCollection Result
 		{
 			get
@@ -272,7 +272,7 @@ namespace DCSoft.Writer.Controls
 		///       本事件已经处理了，无需后续处理
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool Handled
 		{
@@ -289,7 +289,7 @@ namespace DCSoft.Writer.Controls
 		/// <summary>
 		///       无参数的构造函数
 		///       </summary>
-		[DCInternal]
+		
 		public QueryListItemsEventArgs()
 		{
 		}
@@ -310,7 +310,7 @@ namespace DCSoft.Writer.Controls
 			_Element = element;
 		}
 
-		[DCPublishAPI]
+		
 		public void AddResultItem(ListItem item)
 		{
 			if (_Result == null)
@@ -320,7 +320,7 @@ namespace DCSoft.Writer.Controls
 			_Result.Add(item);
 		}
 
-		[DCPublishAPI]
+		
 		public void AddResultItemByTextValue(string strText, string strValue)
 		{
 			ListItem listItem = new ListItem();
@@ -333,7 +333,7 @@ namespace DCSoft.Writer.Controls
 			_Result.Add(listItem);
 		}
 
-		[DCPublishAPI]
+		
 		public void AddResultItemByTextValueTextInList(string strText, string strValue, string strTextInList)
 		{
 			ListItem listItem = new ListItem();

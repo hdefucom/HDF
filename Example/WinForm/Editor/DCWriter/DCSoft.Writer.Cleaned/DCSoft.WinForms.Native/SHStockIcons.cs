@@ -342,7 +342,7 @@ namespace DCSoft.WinForms.Native
 			dictionary_0.Clear();
 		}
 
-		[DCInternal]
+		
 		public static void smethod_1(string string_0)
 		{
 			int num = 2;

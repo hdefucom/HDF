@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Commands
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	public class InjectCommandHandlerList
 	{
@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public InjectCommandHandlerList()
 		{
 		}
@@ -28,7 +28,7 @@ namespace DCSoft.Writer.Commands
 		///       </summary>
 		/// <param name="commandName">命令名称</param>
 		/// <param name="handler">委托对象</param>
-		[DCPublishAPI]
+		
 		public void AddBefore(string commandName, WriterCommandEventHandler handler)
 		{
 			InjectCommandHandlerInfo info = GetInfo(commandName, create: true);
@@ -40,7 +40,7 @@ namespace DCSoft.Writer.Commands
 		///       </summary>
 		/// <param name="commandName">命令名称</param>
 		/// <param name="handler">委托对象</param>
-		[DCPublishAPI]
+		
 		public void AddAfter(string commandName, WriterCommandEventHandler handler)
 		{
 			InjectCommandHandlerInfo info = GetInfo(commandName, create: true);
@@ -92,7 +92,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       删除所有注入的委托对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Clear()
 		{
 			_infos.Clear();

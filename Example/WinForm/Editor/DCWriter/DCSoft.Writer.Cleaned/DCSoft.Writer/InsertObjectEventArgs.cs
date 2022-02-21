@@ -15,7 +15,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-23456789006E", "C8B8395D-3AF2-4502-A9A9-79A7D8FE48F2")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789006E")]
 	[ComDefaultInterface(typeof(IInsertObjectEventArgs))]
 	[ComVisible(true)]
@@ -70,7 +70,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否检测MaxTextLengthForCopyPaste设置.
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool CheckMaxTextLengthForCopyPaste
 		{
 			get
@@ -86,7 +86,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       指定插入位置的文档元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement CurrentElement
 		{
 			get
@@ -117,7 +117,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl
 		{
 			get
@@ -133,7 +133,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document
 		{
 			get
@@ -149,7 +149,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档控制器对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentControler DocumentControler
 		{
 			get
@@ -165,7 +165,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       允许的数据格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterDataFormats AllowDataFormats
 		{
 			get
@@ -182,7 +182,7 @@ namespace DCSoft.Writer
 		///       服务对象容器
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public IServiceProvider Services
 		{
 			get
@@ -198,7 +198,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       容器元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextContainerElement ContainerElement
 		{
 			get
@@ -214,7 +214,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       插入点位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Position
 		{
 			get
@@ -230,7 +230,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       允许的拖拽样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DragDropEffects AllowedEffect
 		{
 			get
@@ -246,7 +246,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       拖拽样式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DragDropEffects DragEffect
 		{
 			get
@@ -263,7 +263,7 @@ namespace DCSoft.Writer
 		///       要插入的对象
 		///       </summary>
 		[ComVisible(false)]
-		[DCPublishAPI]
+		
 		public IDataObject DataObject
 		{
 			get
@@ -279,7 +279,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       指定的数据格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string SpecifyFormat
 		{
 			get
@@ -295,7 +295,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否显示用户界面
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ShowUI
 		{
 			get
@@ -311,7 +311,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经处理过了标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Handled
 		{
 			get
@@ -327,7 +327,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       数据操作来源
 		///       </summary>
-		[DCPublishAPI]
+		
 		public InputValueSource InputSource
 		{
 			get
@@ -343,7 +343,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       自动选择插入的内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool AutoSelectContent
 		{
 			get
@@ -359,7 +359,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       新增的文档元素列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList NewElements
 		{
 			get
@@ -375,7 +375,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       操作是否成功
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Result
 		{
 			get
@@ -391,7 +391,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       拒绝的数据格式名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public List<string> RejectFormats
 		{
 			get
@@ -430,7 +430,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public string[] GetFormats()
 		{
 			if (DataObject == null)
@@ -445,7 +445,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="format">数据格式名称</param>
 		/// <returns>数据</returns>
-		[DCPublishAPI]
+		
 		public object GetData(string format)
 		{
 			if (DataObject == null)
@@ -460,7 +460,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="format">数据格式名称</param>
 		/// <returns>是否存在</returns>
-		[DCPublishAPI]
+		
 		public bool GetDataPresent(string format)
 		{
 			if (DataObject == null)

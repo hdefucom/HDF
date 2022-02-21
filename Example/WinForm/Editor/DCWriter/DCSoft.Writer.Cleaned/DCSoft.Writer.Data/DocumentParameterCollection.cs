@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	[Serializable]
 	[DebuggerDisplay("Count={ Count }")]
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	public class DocumentParameterCollection : List<DocumentParameter>, ICloneable
@@ -25,7 +25,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">参数名称</param>
 		/// <returns>获得的参数对象</returns>
-		[DCPublishAPI]
+		
 		public DocumentParameter this[string name]
 		{
 			get
@@ -48,7 +48,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       所有参数名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string[] Names
 		{
 			get
@@ -65,7 +65,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentParameterCollection()
 		{
 		}
@@ -76,7 +76,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public DocumentParameter ComGetItem(int index)
 		{
 			return base[index];
@@ -88,7 +88,7 @@ namespace DCSoft.Writer.Data
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, DocumentParameter item)
 		{
 			base[index] = item;
@@ -118,7 +118,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">参数名称</param>
 		/// <returns>参数值</returns>
-		[DCPublishAPI]
+		
 		public object GetValue(string name)
 		{
 			return this[name]?.Value;
@@ -129,7 +129,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">参数名</param>
 		/// <param name="Value">参数值</param>
-		[DCPublishAPI]
+		
 		public void SetValue(string name, object Value)
 		{
 			DocumentParameter documentParameter = this[name];
@@ -151,7 +151,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">参数名</param>
 		/// <param name="xmlText">XML字符串</param>
-		[DCPublishAPI]
+		
 		public void SetXmlValue(string name, string xmlText)
 		{
 			int num = 0;
@@ -180,7 +180,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">参数名</param>
 		/// <returns>XML值</returns>
-		[DCPublishAPI]
+		
 		public string GetXmlValue(string name)
 		{
 			object value = GetValue(name);
@@ -196,7 +196,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">参数名</param>
 		/// <returns>是否有指定名称的参数</returns>
-		[DCPublishAPI]
+		
 		public bool Contains(string name)
 		{
 			return this[name] != null;
@@ -206,7 +206,7 @@ namespace DCSoft.Writer.Data
 		///       删除指定名称的参数
 		///       </summary>
 		/// <param name="name">参数名</param>
-		[DCPublishAPI]
+		
 		public void Remove(string name)
 		{
 			DocumentParameter documentParameter = this[name];
@@ -216,7 +216,7 @@ namespace DCSoft.Writer.Data
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public string ToValueString()
 		{
 			int num = 8;
@@ -241,7 +241,7 @@ namespace DCSoft.Writer.Data
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCPublishAPI]
+		
 		public DocumentParameterCollection Clone()
 		{
 			return (DocumentParameterCollection)((ICloneable)this).Clone();

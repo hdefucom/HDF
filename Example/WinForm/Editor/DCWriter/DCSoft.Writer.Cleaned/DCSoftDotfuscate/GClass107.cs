@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[Serializable]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class GClass107
 	{

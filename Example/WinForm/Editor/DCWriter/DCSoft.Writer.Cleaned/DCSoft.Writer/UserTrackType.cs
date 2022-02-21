@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	[Guid("BEC7CF45-F27F-45E0-8AD8-4CBBCE6EF3E2")]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public enum UserTrackType
 	{
 		/// <summary>

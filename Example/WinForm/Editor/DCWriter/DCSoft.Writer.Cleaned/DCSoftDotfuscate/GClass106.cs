@@ -8,7 +8,7 @@ namespace DCSoftDotfuscate
 {
 	[Serializable]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class GClass106
 	{
 		private static GClass106 gclass106_0 = null;

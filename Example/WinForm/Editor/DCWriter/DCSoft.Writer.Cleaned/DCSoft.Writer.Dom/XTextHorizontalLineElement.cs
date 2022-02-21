@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IXTextHorizontalLineElement))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890057", "9AA99A18-54AF-4077-B44A-23CC42EEAE04")]
@@ -50,7 +50,7 @@ namespace DCSoft.Writer.Dom
 		[XmlElement]
 		[HtmlAttribute]
 		[DefaultValue(0f)]
-		[DCPublishAPI]
+		
 		public float LineLengthInCM
 		{
 			get
@@ -67,7 +67,7 @@ namespace DCSoft.Writer.Dom
 		///       线条高度
 		///       </summary>
 		[DefaultValue(1f)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public float LineSize
 		{
@@ -84,7 +84,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       高度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[DefaultValue(20f)]
 		public override float Height

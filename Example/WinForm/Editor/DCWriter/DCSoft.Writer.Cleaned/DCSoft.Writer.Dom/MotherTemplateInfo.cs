@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IMotherTemplateInfo))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ComClass("66872296-99A7-486C-A93E-58EAEE5013C6", "E9616384-7887-4071-B773-157F5E594590")]
 	public class MotherTemplateInfo : IMotherTemplateInfo
@@ -41,7 +41,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件名
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string FileName
 		{
@@ -59,7 +59,7 @@ namespace DCSoft.Writer.Dom
 		///       文件系统名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string FileSystemName
 		{
 			get
@@ -75,7 +75,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文件格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string Format
 		{
@@ -92,7 +92,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       导入页面设置
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool ImportPageSettings
 		{
@@ -110,7 +110,7 @@ namespace DCSoft.Writer.Dom
 		///       导入页眉
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		public bool ImportHeader
 		{
 			get
@@ -126,7 +126,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       导入页脚
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		public bool ImportFooter
 		{

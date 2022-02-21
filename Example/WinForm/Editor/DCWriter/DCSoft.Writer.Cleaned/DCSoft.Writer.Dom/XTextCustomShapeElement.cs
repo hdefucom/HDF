@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("C865D7BE-6061-4E8A-8E9B-7E25F2B9ACF9")]
 	[DebuggerDisplay("CustomShape:{Name}")]
 	[ComClass("C865D7BE-6061-4E8A-8E9B-7E25F2B9ACF9", "EDAC2210-DEF9-46DD-8431-A11DE7765F1B")]
-	[DCPublishAPI]
+	
 	public sealed class XTextCustomShapeElement : XTextObjectElement, IXTextCustomShapeElement
 	{
 		internal const string string_9 = "C865D7BE-6061-4E8A-8E9B-7E25F2B9ACF9";
@@ -38,19 +38,19 @@ namespace DCSoft.Writer.Dom
 		[NonSerialized]
 		private WriterDrawShapeContentEventHandler writerDrawShapeContentEventHandler_0 = null;
 
-		[DCInternal]
+		
 		public override string DomDisplayName => "CustomShape:" + base.ID;
 
 		/// <summary>
 		///       文档元素编号前缀
 		///       </summary>
-		[DCInternal]
+		
 		public override string ElementIDPrefix => "shape";
 
 		/// <summary>
 		///       对象宽度
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[XmlElement]
 		public override float Width
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[XmlElement]
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		public override float Height
 		{
 			get
@@ -87,7 +87,7 @@ namespace DCSoft.Writer.Dom
 		///       从0开始计算的图标页码
 		///       </summary>
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		public int ChartPageIndex
 		{
 			get
@@ -104,7 +104,7 @@ namespace DCSoft.Writer.Dom
 		///       绘制内容使用的委托对象参数名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string DrawContentHandlerName
 		{
 			get
@@ -120,7 +120,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       绘制内容使用的委托对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public WriterDrawShapeContentEventHandler DrawContentHandler
@@ -138,7 +138,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextCustomShapeElement()
 		{
 		}
@@ -147,7 +147,7 @@ namespace DCSoft.Writer.Dom
 		///       绘制元素内容
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCInternal]
+		
 		public override void DrawContent(DocumentPaintEventArgs args)
 		{
 			int num = 16;

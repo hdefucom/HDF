@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class dlgCrosssPrecessHost : Form
 	{
 		private IContainer icontainer_0 = null;

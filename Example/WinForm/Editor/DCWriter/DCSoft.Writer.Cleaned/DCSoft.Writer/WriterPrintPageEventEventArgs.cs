@@ -17,7 +17,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterPrintPageEventEventArgs))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ComClass("9CA7B12E-75CD-420E-B340-4DDC61DBAB14", "9E285C5F-A5A2-4351-8E00-691CAB35CB1E")]
 	public class WriterPrintPageEventEventArgs : EventArgs, IWriterPrintPageEventEventArgs
@@ -39,13 +39,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       当前的从0开始计算的页码数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int PageIndex => _PageIndex;
 
 		/// <summary>
 		///       用户是否取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -58,19 +58,19 @@ namespace DCSoft.Writer
 			}
 		}
 
-		[DCPublishAPI]
+		
 		public Graphics Graphics => _SrcArgs.Graphics;
 
-		[DCPublishAPI]
+		
 		public PageSettings PageSettings => _SrcArgs.PageSettings;
 
-		[DCPublishAPI]
+		
 		public Rectangle PageBounds => _SrcArgs.PageBounds;
 
-		[DCPublishAPI]
+		
 		public Rectangle MarginBounds => _SrcArgs.MarginBounds;
 
-		[DCPublishAPI]
+		
 		public bool HasMorePages
 		{
 			get
@@ -86,34 +86,34 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       编辑器控件
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterControl WriterControl => _WriterControl;
 
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Document => _Document;
 
 		/// <summary>
 		///       默认页面设置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PageSettings DefaultPageSettings => _PrintDocument.DefaultPageSettings;
 
 		/// <summary>
 		///       默认打印机设置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public PrinterSettings PrinterSettings => _PrintDocument.PrinterSettings;
 
 		/// <summary>
 		///       打印文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterPrintDocument PrintDocument => _PrintDocument;
 
-		[DCInternal]
+		
 		public WriterPrintPageEventEventArgs(XTextDocument xtextDocument_0, WriterPrintDocument pDoc, PrintPageEventArgs srcArgs, int pageIndex)
 		{
 			int num = 13;

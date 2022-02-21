@@ -19,7 +19,7 @@ namespace DCSoft.Writer
 	[Guid("6A078F46-F943-482A-9332-0FC59C502CD8")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DCPublishAPI]
+	
 	[DebuggerDisplay("Count={ Count }")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComClass("6A078F46-F943-482A-9332-0FC59C502CD8", "41CAB7D0-1773-4965-9193-62F421392D66")]
@@ -102,7 +102,7 @@ namespace DCSoft.Writer
 		}
 
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public bool IncludeComment
 		{
 			get
@@ -119,7 +119,7 @@ namespace DCSoft.Writer
 		///       获得当前信息
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public UserTrackInfo Current
 		{
 			get
@@ -150,7 +150,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public UserTrackInfoList()
 		{
 		}
@@ -166,7 +166,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       刷新状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Refresh()
 		{
 			if (XTextDocument.smethod_13(GEnum6.const_129) && xtextDocument_0 != null)
@@ -311,7 +311,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public UserTrackInfo ComGetItem(int index)
 		{
@@ -324,7 +324,7 @@ namespace DCSoft.Writer
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, UserTrackInfo item)
 		{
 			base[index] = item;

@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       查询扩展文本事件参数
 	///       </summary>
 	[ComClass("97C93BCE-E2CA-4A4D-A24C-97391F30DCC7", "610763F6-2E8C-4B1C-8528-31B7AE863009")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[DocumentComment]
 	[ClassInterface(ClassInterfaceType.None)]
@@ -27,7 +27,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       扩展文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string AdornText
 		{
 			get
@@ -47,7 +47,7 @@ namespace DCSoft.Writer
 		/// <param name="document">文档对象</param>
 		/// <param name="element">文档元素对象</param>
 		/// <param name="txt">文本</param>
-		[DCInternal]
+		
 		public WriterGetAdornTextEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string string_0)
 			: base(writerControl_0, document, element)
 		{

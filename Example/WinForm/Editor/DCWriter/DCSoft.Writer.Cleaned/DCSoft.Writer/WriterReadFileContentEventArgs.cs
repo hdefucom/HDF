@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[DocumentComment]
 	[ComClass("F833B59C-C3B4-4E36-97C5-0F1AA9433419", "6ACA5A24-7F1F-430A-B028-6DF89C54A4A7")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IWriterReadFileContentEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]
@@ -56,7 +56,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户强制制定的文档标题
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string SpecifyTitle
 		{
 			get
@@ -72,7 +72,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       用户取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -89,7 +89,7 @@ namespace DCSoft.Writer
 		///       编辑器宿主对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public WriterAppHost AppHost
 		{
 			get
@@ -106,7 +106,7 @@ namespace DCSoft.Writer
 		///       文件名
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string FileName
 		{
@@ -123,7 +123,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文件格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlElement]
 		public string FileFormat
@@ -141,7 +141,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文件系统名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[XmlElement]
 		public string FileSystemName
@@ -160,7 +160,7 @@ namespace DCSoft.Writer
 		///       指定的虚拟文件系统对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public IFileSystem FileSystem
 		{
 			get
@@ -177,7 +177,7 @@ namespace DCSoft.Writer
 		///       文件是否存在
 		///       </summary>
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool FileExisted
 		{
@@ -195,7 +195,7 @@ namespace DCSoft.Writer
 		///       已BASE64表示的读取到的文件内容
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		public string ResultBase64String
 		{
 			get
@@ -211,7 +211,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文本编码格式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public Encoding ResultEncoding
 		{
@@ -228,7 +228,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       结果文本编码名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string ResultEncodingName
 		{
 			get
@@ -255,7 +255,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       读取到的二进制内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		public byte[] ResultBinary
 		{
@@ -272,7 +272,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       事件已经被处理了，无需后续处理
 		///       </summary>
-		[DCPublishAPI]
+		
 		[XmlElement]
 		[DefaultValue(false)]
 		public bool Handled
@@ -295,7 +295,7 @@ namespace DCSoft.Writer
 		/// <param name="element">相关的文档元素对象</param>
 		/// <param name="fileName">文件名</param>
 		/// <param name="fileSystemName">文件系统名称</param>
-		[DCInternal]
+		
 		public WriterReadFileContentEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string fileName, string fileSystemName)
 			: base(writerControl_0, document, element)
 		{
@@ -324,7 +324,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCPublishAPI]
+		
 		public byte[] GetResultBinary()
 		{
 			if (!string.IsNullOrEmpty(_ResultBase64String))

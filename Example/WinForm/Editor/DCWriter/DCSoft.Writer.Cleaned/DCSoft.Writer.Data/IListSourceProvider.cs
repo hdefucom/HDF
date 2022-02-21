@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[DocumentComment]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	[Obsolete("!!!请使用WriterControl.OnQueryListItems事件")]
 	[Guid("00012345-6789-ABCD-EF01-234567890026")]

@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	/// <param name="eventSender">参数</param>
 	/// <param name="args">参数</param>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	[Guid("F4333861-7499-46F1-9459-2276D5B94B52")]
 	[DocumentComment]
 	public delegate void DocumentPaintEventHandler(object sender, DocumentPaintEventArgs e);

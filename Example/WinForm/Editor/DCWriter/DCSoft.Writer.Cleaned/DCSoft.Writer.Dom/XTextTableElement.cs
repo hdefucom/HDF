@@ -36,7 +36,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IXTextTableElement))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890013", "56FB6F65-8B16-36B3-854B-A69FF648795D")]
 	[XmlType("XTextTable")]
 	public sealed class XTextTableElement : XTextContainerElement, IXTextTableElement
@@ -224,7 +224,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[Category("Layout")]
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool CompressOwnerLineSpacing
 		{
 			get
@@ -279,7 +279,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       允许用户删除表格行
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(true)]
 		[ComVisible(true)]
 		[MemberExpressionable]
@@ -297,7 +297,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		[Browsable(false)]
 		[ComVisible(false)]
 		public bool RuntimeAllowUserDeleteRow
@@ -319,7 +319,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[DefaultValue(true)]
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		public bool AllowUserInsertRow
 		{
@@ -334,7 +334,7 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool RuntimeAllowUserInsertRow
 		{
@@ -352,7 +352,7 @@ namespace DCSoft.Writer.Dom
 		///       即使在表单模式下用户仍然可以拖拽修改表格大小
 		///       </summary>
 		[Category("Behavior")]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		[ComVisible(true)]
 		[DefaultValue(false)]
@@ -374,7 +374,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(true)]
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[MemberExpressionable]
 		public bool AllowUserToResizeColumns
@@ -405,7 +405,7 @@ namespace DCSoft.Writer.Dom
 		///       是否允许用户鼠标拖拽操作改变表格行高度
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DefaultValue(true)]
 		[MemberExpressionable]
@@ -460,7 +460,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否显示无边框的单元格的边框。当本属性设置为Inherit值时系统采用Options.ViewOptions.ShowCellNoneBorder的值。
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(DCBooleanValue.Inherit)]
 		[ComVisible(true)]
 		public DCBooleanValue ShowCellNoneBorder
@@ -663,7 +663,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       表格列对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElementList Columns
 		{
 			get
@@ -679,7 +679,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       表格行对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public XTextElementList Rows
@@ -697,20 +697,20 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       表格行数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int RowsCount => Elements.Count;
 
 		/// <summary>
 		///       表格列数
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int ColumnsCount => Columns.Count;
 
 		/// <summary>
 		///       获得所有的单元格对象
 		///       </summary>
 		[XmlIgnore]
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public XTextElementList Cells
 		{
@@ -756,7 +756,7 @@ namespace DCSoft.Writer.Dom
 		///       表格中第一个单元格
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		[XmlIgnore]
 		[ComVisible(true)]
 		public XTextTableCellElement FirstCell
@@ -929,7 +929,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       表格套嵌层次，文档中第一层表格的层次为1，子表格为2,再内部的子表格为3，以此类推.
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int NeastLevel
 		{
 			get
@@ -985,7 +985,7 @@ namespace DCSoft.Writer.Dom
 		///       返回表示对象的文本
 		///       </summary>
 		[ReadOnly(true)]
-		[DCPublishAPI]
+		
 		[Browsable(true)]
 		[XmlIgnore]
 		public override string Text
@@ -1030,7 +1030,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[DefaultValue(TableSubfieldMode.None)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public TableSubfieldMode SubfieldMode
 		{
 			get
@@ -1046,7 +1046,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       分栏数量
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(1)]
 		[ComVisible(true)]
 		[HtmlAttribute]
@@ -1063,13 +1063,13 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[Browsable(false)]
-		[DCInternal]
+		
 		public override bool SupportElementViewHandle => true;
 
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextTableElement()
 		{
 		}
@@ -1079,13 +1079,13 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="rowsCount">总行数</param>
 		/// <param name="columnsCount">总列数</param>
-		[DCPublishAPI]
+		
 		public XTextTableElement(int int_11, int int_12)
 		{
 			Reset(int_11, int_12);
 		}
 
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public void ResetWithCellStyle(int rowsCount, int columnsCount, DocumentContentStyle cellStyle)
 		{
@@ -1096,7 +1096,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		[ComVisible(true)]
 		public void Reset(int rowsCount, int columnsCount)
 		{
@@ -1134,7 +1134,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       重置续打单元格边框的状态
 		///       </summary>
-		[DCInternal]
+		
 		public void ResetPrintBorderStateForJumPrint()
 		{
 			foreach (XTextTableCellElement cell in Cells)
@@ -1149,7 +1149,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="rowCount">总行数</param>
 		/// <param name="colCount">总列数</param>
 		/// <param name="colWidth">表格列宽度</param>
-		[DCPublishAPI]
+		
 		public void Build(int rowCount, int colCount, float colWidth)
 		{
 			int num = 7;
@@ -1189,7 +1189,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="rowsCount">要处理的表格行数</param>
 		/// <param name="updateView">是否更新文档视图</param>
 		/// <returns>操作是否修改了文档内容</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public bool SplitRowsByContentLines(int startRowIndexBase0, int rowsCount, bool updateView)
 		{
@@ -1350,7 +1350,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       获得输入焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void Focus()
 		{
 			XTextTableCellElement firstCell = FirstCell;
@@ -1378,7 +1378,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       设置文档元素为选中
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override bool Select()
 		{
 			XTextTableCellElement firstCell = FirstCell;
@@ -1620,7 +1620,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_29(DocumentPaintEventArgs documentPaintEventArgs_0)
 		{
 			method_30(documentPaintEventArgs_0, bool_26: true, bool_27: true, bool_28: false);
@@ -2126,7 +2126,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       刷新视图
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void EditorRefreshView()
 		{
 			if (UIIsUpdating)
@@ -2800,7 +2800,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="strCellIndex">单元格序号字符串</param>
 		/// <param name="throwException">若未找到单元格是否抛出异常</param>
 		/// <returns>找的单元格对象，若未找到而且不抛出异常则返回空引用</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public XTextTableCellElement GetCellByCellIndex(string strCellIndex, bool throwException)
 		{
@@ -2815,7 +2815,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="throwException">若未找到单元格是否抛出异常</param>
 		/// <returns>单元格文本内容</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public string GetCellTextByCellIndex(string strCellIndex, bool throwException)
 		{
 			XTextTableCellElement cellByCellIndex = GetCellByCellIndex(strCellIndex, throwException);
@@ -2833,7 +2833,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="colIndex">从0开始的列号</param>
 		/// <param name="throwException">若未找到单元格是否抛出异常</param>
 		/// <returns>获得的单元格文本内容</returns>
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		public string GetCellText(int rowIndex, int colIndex, bool throwException)
 		{
@@ -2914,7 +2914,7 @@ namespace DCSoft.Writer.Dom
 			return GetRange(rowIndex1, colIndex1, rowIndex2 - rowIndex1 + 1, colIndex2 - colIndex1 + 1, includeOverriedCell: true);
 		}
 
-		[DCPublishAPI]
+		
 		public XTextTableCellElement method_42(float float_6, float float_7)
 		{
 			if (base.IsInCollapsedSection)
@@ -3098,7 +3098,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="rowIndex">从0开始计算的行号</param>
 		/// <param name="colIndex">从0开始计算的列号</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public bool EditorGotoCell(int rowIndex, int colIndex)
 		{
 			XTextTableCellElement xTextTableCellElement = GetCell(rowIndex, colIndex, throwException: false);
@@ -3115,7 +3115,7 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[Browsable(false)]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		public void method_45(int int_11, XTextElementList xtextElementList_4, bool bool_26, Dictionary<XTextTableCellElement, int> dictionary_0, bool bool_27)
 		{
@@ -3235,7 +3235,7 @@ namespace DCSoft.Writer.Dom
 
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
-		[DCInternal]
+		
 		public bool method_46(int int_11, int int_12, bool bool_26, Dictionary<XTextTableCellElement, int> dictionary_0)
 		{
 			int num = 17;
@@ -3330,7 +3330,7 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public void method_47(int int_11, XTextElementList xtextElementList_4, XTextElementList xtextElementList_5, bool bool_26, Dictionary<XTextTableCellElement, int> dictionary_0, bool bool_27, Dictionary<XTextTableColumnElement, float> dictionary_1)
 		{
@@ -3509,7 +3509,7 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool method_48(int int_11, int int_12, bool bool_26, Dictionary<XTextTableCellElement, int> dictionary_0, bool bool_27, Dictionary<XTextTableColumnElement, float> dictionary_1)
 		{
@@ -4031,7 +4031,7 @@ namespace DCSoft.Writer.Dom
 			return xTextTableElement;
 		}
 
-		[DCPublishAPI]
+		
 		public bool Subfield(bool updateView)
 		{
 			if ((SubfieldMode == TableSubfieldMode.LeftRightAndUpDown || SubfieldMode == TableSubfieldMode.UpDownAndLeftRight) && SubfieldNumber > 1)
@@ -4044,7 +4044,7 @@ namespace DCSoft.Writer.Dom
 			return false;
 		}
 
-		[DCInternal]
+		
 		public bool SubfieldSpecify(TableSubfieldMode mode, int number, bool updateView)
 		{
 			if (!XTextDocument.smethod_13(GEnum6.const_95))
@@ -4186,7 +4186,7 @@ namespace DCSoft.Writer.Dom
 		}
 
 		[Browsable(false)]
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public void method_51(out XTextElementList xtextElementList_4, out XTextElementList xtextElementList_5)
 		{

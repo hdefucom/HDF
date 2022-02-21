@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       运行时的样式值
 	///       </summary>
-	[DCInternal]
+	
 	public class RuntimeDocumentContentStyle
 	{
 		public readonly float Zoom;
@@ -469,7 +469,7 @@ namespace DCSoft.Writer.Dom
 		///       根据设置创建绘制背景的画刷对象
 		///       </summary>
 		/// <returns>创建的画刷对象</returns>
-		[DCInternal]
+		
 		public Brush CreateBackgroundBrush()
 		{
 			return CreateBackgroundBrush(GraphicsUnit.Pixel);
@@ -480,7 +480,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="unit">单位</param>
 		/// <returns>创建的画刷对象</returns>
-		[DCInternal]
+		
 		public Brush CreateBackgroundBrush(GraphicsUnit unit)
 		{
 			return CreateBackgroundBrush(new RectangleF(0f, 0f, 100f, 100f), unit);
@@ -492,26 +492,26 @@ namespace DCSoft.Writer.Dom
 		/// <param name="rect">矩形区域</param>
 		/// <param name="unit">单位</param>
 		/// <returns>创建的画刷对象</returns>
-		[DCInternal]
+		
 		public Brush CreateBackgroundBrush(RectangleF rect, GraphicsUnit unit)
 		{
 			XBrushStyle xBrushStyle = CreateBackgroundBrush2(rect, unit);
 			return xBrushStyle.method_4(rect, unit);
 		}
 
-		[DCInternal]
+		
 		public XBrushStyle CreateBackgroundBrush2()
 		{
 			return CreateBackgroundBrush2(new RectangleF(0f, 0f, 100f, 100f), GraphicsUnit.Pixel);
 		}
 
-		[DCInternal]
+		
 		public XBrushStyle CreateBackgroundBrush2(RectangleF rect)
 		{
 			return CreateBackgroundBrush2(rect, GraphicsUnit.Pixel);
 		}
 
-		[DCInternal]
+		
 		public XBrushStyle CreateBackgroundBrush2(RectangleF rect, GraphicsUnit unit)
 		{
 			XBrushStyle xBrushStyle = new XBrushStyle();
@@ -536,7 +536,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="style">另外一个样式对象</param>
 		/// <returns>边框设置是否一样</returns>
-		[DCInternal]
+		
 		public bool EqualsBorderStyle(RuntimeDocumentContentStyle style)
 		{
 			if (style == null)
@@ -558,7 +558,7 @@ namespace DCSoft.Writer.Dom
 		///       根据设置创建绘制边框的画笔对象
 		///       </summary>
 		/// <returns>创建的画笔对象</returns>
-		[DCInternal]
+		
 		public Pen CreateBorderPen()
 		{
 			Pen pen = new Pen(BorderTopColor, BorderWidth);
@@ -570,7 +570,7 @@ namespace DCSoft.Writer.Dom
 		///       根据设置创建绘制边框的画笔对象
 		///       </summary>
 		/// <returns>创建的画笔对象</returns>
-		[DCInternal]
+		
 		public XPenStyle CreateBorderPen2()
 		{
 			return new XPenStyle(BorderTopColor, BorderWidth, BorderStyle);
@@ -583,7 +583,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="maxFontHeight">文本行中最大的字体高度</param>
 		/// <param name="documentUnit">文档采用的度量单位</param>
 		/// <returns>使用的行间距</returns>
-		[DCInternal]
+		
 		public float GetLineSpacing(float contentHeight, float maxFontHeight, GraphicsUnit documentUnit)
 		{
 			LineSpacingStyle lineSpacingStyle = LineSpacingStyle;
@@ -639,7 +639,7 @@ namespace DCSoft.Writer.Dom
 		/// </param>
 		/// <param name="rectangle">
 		/// </param>
-		[DCInternal]
+		
 		public void DrawBorder(DCGraphics dcgraphics_0, RectangleF rectangle)
 		{
 			float borderWidth = BorderWidth;
@@ -647,7 +647,7 @@ namespace DCSoft.Writer.Dom
 			DrawBorder(dcgraphics_0, rectangle, BorderLeft, BorderLeftColor, borderWidth, borderStyle, BorderTop, BorderTopColor, borderWidth, borderStyle, BorderRight, BorderRightColor, borderWidth, borderStyle, BorderBottom, BorderBottomColor, borderWidth, borderStyle);
 		}
 
-		[DCInternal]
+		
 		public static void DrawBorder(DCGraphics dcgraphics_0, Pen pen_0, RectangleF rectangle, bool leftBorder, bool topBorder, bool rightBorder, bool bottomBorder)
 		{
 			if (leftBorder && topBorder && rightBorder && bottomBorder)
@@ -673,7 +673,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public static void DrawBorder(DCGraphics dcgraphics_0, RectangleF bounds, bool leftBorder, Color leftColor, float leftWidth, DashStyle leftStyle, bool topBorder, Color topColor, float topWidth, DashStyle topStyle, bool rightBorder, Color rightColor, float rightWidth, DashStyle rightStyle, bool bottomBorder, Color bottomColor, float bottomWidth, DashStyle bottomStyle)
 		{
 			if (leftColor == topColor && topColor == rightColor && rightColor == bottomColor && leftWidth == topWidth && topWidth == rightWidth && rightWidth == bottomWidth && leftStyle == topStyle && topStyle == rightStyle && rightStyle == bottomStyle && leftBorder && topBorder && rightBorder && bottomBorder)
@@ -717,7 +717,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="bounds">原始边界</param>
 		/// <returns>获得的客户区边界</returns>
-		[DCInternal]
+		
 		public RectangleF GetClientRectangleF(RectangleF bounds)
 		{
 			return new RectangleF(bounds.Left + PaddingLeft, bounds.Top + PaddingTop, bounds.Width - PaddingLeft - PaddingRight, bounds.Height - PaddingTop - PaddingBottom);
@@ -731,7 +731,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="width">原始边界宽度</param>
 		/// <param name="height">原始边界高度</param>
 		/// <returns>获得的客户区边界</returns>
-		[DCInternal]
+		
 		public RectangleF GetClientRectangleF(float left, float float_0, float width, float height)
 		{
 			return new RectangleF(left + PaddingLeft, float_0 + PaddingTop, width - PaddingLeft - PaddingRight, height - PaddingTop - PaddingBottom);

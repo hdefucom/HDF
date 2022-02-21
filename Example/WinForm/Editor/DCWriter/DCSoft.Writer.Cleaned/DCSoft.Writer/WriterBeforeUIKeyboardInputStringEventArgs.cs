@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[ComClass("B1B4A42B-B0EE-438C-B380-65DFD9937A07", "E2FBA882-B5E9-4B78-BFD5-5278268C5F04")]
 	[Guid("B1B4A42B-B0EE-438C-B380-65DFD9937A07")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterBeforeUIKeyboardInputStringEventArgs))]
 	public class WriterBeforeUIKeyboardInputStringEventArgs : WriterEventArgs, IWriterBeforeUIKeyboardInputStringEventArgs
@@ -31,13 +31,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       输入的字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string InputString => _InputString;
 
 		/// <summary>
 		///       输出的字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string OutputString
 		{
 			get
@@ -53,7 +53,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       取消输入字符串操作标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -74,7 +74,7 @@ namespace DCSoft.Writer
 		/// <param name="element">文档元素对象</param>
 		/// <param name="inputString">原始输入的字符串对象</param>
 		/// <param name="outputString">预计输出的字符串对象</param>
-		[DCInternal]
+		
 		public WriterBeforeUIKeyboardInputStringEventArgs(WriterControl writerControl_0, XTextDocument document, XTextElement element, string inputString, string outputString)
 			: base(writerControl_0, document, element)
 		{

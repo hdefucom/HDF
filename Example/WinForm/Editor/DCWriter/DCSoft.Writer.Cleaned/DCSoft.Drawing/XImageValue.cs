@@ -35,7 +35,7 @@ namespace DCSoft.Drawing
 	[ComDefaultInterface(typeof(IXImageValue))]
 	[Guid("00012345-6789-ABCD-EF01-23456789008C")]
 	[ToolboxItem(false)]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[DefaultProperty("ImageData")]
 	public class XImageValue : ICloneable, IComponent, IXImageValue
@@ -144,7 +144,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public static string string_0 = "Image";
 
 		private static int int_0 = 0;
@@ -176,7 +176,7 @@ namespace DCSoft.Drawing
 		private ISite isite_0;
 
 		[XmlIgnore]
-		[DCInternal]
+		
 		public int InstanceIndex => int_1;
 
 		/// <summary>
@@ -514,7 +514,7 @@ namespace DCSoft.Drawing
 		[Browsable(false)]
 		[XmlIgnore]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		public ISite Site
 		{
 			get
@@ -530,7 +530,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       对象销毁事件
 		///       </summary>
-		[DCInternal]
+		
 		public event EventHandler Disposed
 		{
 			add
@@ -700,7 +700,7 @@ namespace DCSoft.Drawing
 			int_2 = GetHashCode();
 		}
 
-		[DCInternal]
+		
 		public bool method_0(XImageValue ximageValue_0)
 		{
 			if (ximageValue_0 == null)
@@ -744,7 +744,7 @@ namespace DCSoft.Drawing
 		///       修改图片格式
 		///       </summary>
 		/// <param name="format">新的图片格式</param>
-		[DCInternal]
+		
 		public void ChangeImageFormat(ImageFormat format)
 		{
 			int num = 3;
@@ -772,7 +772,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public static void smethod_0()
 		{
 			class25_0.method_0();
@@ -818,7 +818,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="unit">System.Drawing.GraphicsUnit 值之一，指示边框的测量单位。</param>
 		/// <returns>System.Drawing.RectangleF，以指定的单位表示图像的界限。</returns>
-		[DCInternal]
+		
 		public RectangleF GetBounds(ref GraphicsUnit unit)
 		{
 			if (Value != null)
@@ -834,7 +834,7 @@ namespace DCSoft.Drawing
 		/// <param name="thumbWidth">缩略图宽度</param>
 		/// <param name="thumbHeight">缩略图高度</param>
 		/// <returns>生成的缩略图对象</returns>
-		[DCInternal]
+		
 		public XImageValue GetThumbnailImage(int thumbWidth, int thumbHeight)
 		{
 			Image value = Value;
@@ -853,7 +853,7 @@ namespace DCSoft.Drawing
 		/// <param name="thumbHeight">缩略图高度</param>
 		/// <param name="backColor">背景色</param>
 		/// <returns>生成的缩略图对象</returns>
-		[DCInternal]
+		
 		public XImageValue GetThumbnailImage(int thumbWidth, int thumbHeight, Color backColor)
 		{
 			Image value = Value;
@@ -879,7 +879,7 @@ namespace DCSoft.Drawing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制后的对象</returns>
-		[DCInternal]
+		
 		public XImageValue Clone()
 		{
 			XImageValue xImageValue = (XImageValue)MemberwiseClone();
@@ -906,7 +906,7 @@ namespace DCSoft.Drawing
 		///       通过这种模式复制出来的对象，其引用的原始图片对象和字节数组是相同的。
 		///       而Clone()方法复制出来的对象，其原始图片对象和字节数组也是完全复制的。
 		///       </remarks>
-		[DCInternal]
+		
 		public XImageValue CloneImageDataOnly()
 		{
 			XImageValue xImageValue = new XImageValue();
@@ -1021,7 +1021,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="fileName">文件名</param>
 		/// <returns>图片格式</returns>
-		[DCInternal]
+		
 		public static ImageFormat GetFormat(string fileName)
 		{
 			int num = 12;
@@ -1081,7 +1081,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			int num = 18;
@@ -1098,7 +1098,7 @@ namespace DCSoft.Drawing
 			return Convert.ToInt32(byte_0.Length / 1024) + "KB " + value.Width + "*" + value.Height;
 		}
 
-		[DCInternal]
+		
 		public void method_3(XImageValue ximageValue_0)
 		{
 			if (ximageValue_0 != null && ximageValue_0 != this)

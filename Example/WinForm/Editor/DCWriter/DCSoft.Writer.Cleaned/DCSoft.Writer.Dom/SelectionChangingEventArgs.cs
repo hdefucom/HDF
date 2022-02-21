@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("C0CC596D-25F3-40D7-B808-66A8388F5AF6")]
 	[ComDefaultInterface(typeof(ISelectionChangingEventArgs))]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public class SelectionChangingEventArgs : EventArgs, ISelectionChangingEventArgs
 	{
@@ -41,7 +41,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextDocument Documnent
 		{
 			get
@@ -57,7 +57,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       旧的行尾标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool OldLineEndFlag
 		{
 			get
@@ -73,7 +73,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       旧的选择区域开始位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int OldSelectionIndex
 		{
 			get
@@ -89,7 +89,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       旧的选择区域长度
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int OldSelectionLength
 		{
 			get
@@ -105,7 +105,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       新的行尾标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool NewLineEndFlag
 		{
 			get
@@ -121,7 +121,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       新的选择区域开始位置
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int NewSelectionIndex
 		{
 			get
@@ -137,7 +137,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       新的选择区域长度
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int NewSelectionLength
 		{
 			get
@@ -153,7 +153,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       用户取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -169,7 +169,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public SelectionChangingEventArgs()
 		{
 		}

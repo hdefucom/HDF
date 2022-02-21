@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Data
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IXMLLinkListProvider))]
-	[DCPublishAPI]
+	
 	[Guid("284D3F38-30EA-428B-B310-7E6C46270664")]
 	[ComClass("284D3F38-30EA-428B-B310-7E6C46270664", "CEFF447F-988C-437C-BFB3-3E4725D186A1")]
 	public class XMLLinkListProvider : LinkListProvider, IXMLLinkListProvider
@@ -34,7 +34,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XMLLinkListProvider()
 		{
 		}
@@ -44,7 +44,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">提供者名称</param>
 		/// <param name="xmlFileName">XML文件名</param>
-		[DCPublishAPI]
+		
 		public XMLLinkListProvider(string string_2, string string_3)
 		{
 			base.Name = string_2;
@@ -57,7 +57,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="name">名称</param>
 		/// <param name="doc">XML文档对象</param>
-		[DCPublishAPI]
+		
 		public XMLLinkListProvider(string string_2, XmlDocument xmlDocument_1)
 		{
 			base.Name = string_2;
@@ -68,7 +68,7 @@ namespace DCSoft.Writer.Data
 		///       加载XML文件
 		///       </summary>
 		/// <param name="fileName">文件名</param>
-		[DCPublishAPI]
+		
 		public void LoadXMLDocument(string fileName)
 		{
 			xmlDocument_0 = new XmlDocument();
@@ -79,7 +79,7 @@ namespace DCSoft.Writer.Data
 		///       加载XML字符串
 		///       </summary>
 		/// <param name="xml">XML字符串</param>
-		[DCPublishAPI]
+		
 		public void LoadXMLString(string string_2)
 		{
 			xmlDocument_0 = new XmlDocument();
@@ -90,7 +90,7 @@ namespace DCSoft.Writer.Data
 		///       获得联动列表项目
 		///       </summary>
 		/// <param name="args">参数</param>
-		[DCPublishAPI]
+		
 		public override void GetListItems(GetLinkListItemsEventArgs args)
 		{
 			int num = 15;

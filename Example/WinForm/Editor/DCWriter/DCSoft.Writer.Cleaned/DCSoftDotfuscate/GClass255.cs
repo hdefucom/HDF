@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
 	[DefaultMember("Item")]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class GClass255 : List<Form>
 	{

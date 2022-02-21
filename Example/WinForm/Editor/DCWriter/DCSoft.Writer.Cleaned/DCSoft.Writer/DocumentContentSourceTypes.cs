@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[DocumentComment]
 	[Guid("7C8C595D-9625-437A-926C-75B9A477E8C1")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum DocumentContentSourceTypes
 	{

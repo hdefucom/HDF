@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Commands.Design
 	/// <summary>
 	///       编辑器命令简单的说明信息
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class WriterCommandSimpleInfo : IComparable<WriterCommandSimpleInfo>
 	{

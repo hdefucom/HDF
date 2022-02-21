@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Controls
 	///       元素属性值编辑相关的上下文
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class ElementValueEditContext
 	{
 		private XTextDocument _Document = null;

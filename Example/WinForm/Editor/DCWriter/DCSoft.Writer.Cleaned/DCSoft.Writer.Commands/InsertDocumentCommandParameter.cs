@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Commands
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComClass("F46D03D5-533E-4CC5-A312-D2FC7395B38B", "841C8CC1-8171-4F31-AF4F-708FBE765BD7")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IInsertDocumentCommandParameter))]
 	[Guid("F46D03D5-533E-4CC5-A312-D2FC7395B38B")]
 	public class InsertDocumentCommandParameter : IInsertDocumentCommandParameter

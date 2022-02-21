@@ -21,7 +21,7 @@ namespace DCSoft.Printing
 	[ComDefaultInterface(typeof(IXPageSettings))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[TypeConverter(typeof(GClass156))]
 	[Editor(typeof(GClass155), typeof(UITypeEditor))]
 	[ComVisible(true)]
@@ -100,7 +100,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       MS Word使用的默认页面设置
 		///       </summary>
-		[DCInternal]
+		
 		public static XPageSettings WordDefault
 		{
 			get
@@ -122,7 +122,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       IE使用的默认页面设置
 		///       </summary>
-		[DCInternal]
+		
 		public static XPageSettings IEDefault
 		{
 			get
@@ -558,7 +558,7 @@ namespace DCSoft.Printing
 		///       </remarks>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public PaperSize PaperSize
@@ -667,7 +667,7 @@ namespace DCSoft.Printing
 		///       采用视图单位的页眉距离
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float ViewHeaderDistance
 		{
 			get
@@ -684,7 +684,7 @@ namespace DCSoft.Printing
 		///       获得页眉视图高度
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float ViewHeaderHeight
 		{
 			get
@@ -717,7 +717,7 @@ namespace DCSoft.Printing
 		///       采用视图单位的页眉距离
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float ViewFooterDistance
 		{
 			get
@@ -734,7 +734,7 @@ namespace DCSoft.Printing
 		///       获得页脚视图高度
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float ViewFooterHeight
 		{
 			get
@@ -751,7 +751,7 @@ namespace DCSoft.Printing
 		///       设计器纸张宽度,单位百分之一英寸
 		///       </summary>
 		[DefaultValue(0)]
-		[DCInternal]
+		
 		public int DesignerPaperWidth
 		{
 			get
@@ -793,7 +793,7 @@ namespace DCSoft.Printing
 		///       设计器纸张高度
 		///       </summary>
 		[DefaultValue(0)]
-		[DCInternal]
+		
 		public int DesignerPaperHeight
 		{
 			get
@@ -1011,7 +1011,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       设置或返回标准的页面设置对象
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public PageSettings StdPageSettings
@@ -1077,7 +1077,7 @@ namespace DCSoft.Printing
 		///       视图区域使用的度量单位
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public GraphicsUnit ViewUnit
 		{
@@ -1094,7 +1094,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       视图单位的左页边距
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public float ViewLeftMargin
@@ -1113,7 +1113,7 @@ namespace DCSoft.Printing
 		///       视图单位的顶页边距
 		///       </summary>
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public float ViewTopMargin
 		{
@@ -1132,7 +1132,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		public float ViewRightMargin
 		{
 			get
@@ -1148,7 +1148,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       视图单位的下页边距
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public float ViewBottomMargin
@@ -1166,7 +1166,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       纸张的视图宽度
 		///       </summary>
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Browsable(false)]
 		public float ViewPaperWidth
@@ -1192,7 +1192,7 @@ namespace DCSoft.Printing
 		///       纸张的视图高度
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		public float ViewPaperHeight
 		{
@@ -1219,7 +1219,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float ViewClientWidth
 		{
 			get
@@ -1247,7 +1247,7 @@ namespace DCSoft.Printing
 		///       纸张可打印的客户区域的高度
 		///       </summary>
 		[Browsable(false)]
-		[DCInternal]
+		
 		public float ViewClientHeight
 		{
 			get
@@ -1267,7 +1267,7 @@ namespace DCSoft.Printing
 			GClass380.smethod_4(typeof(PrintingResources));
 		}
 
-		[DCInternal]
+		
 		public void method_0(GEnum25 genum25_1)
 		{
 			genum25_0 = genum25_1;
@@ -1278,7 +1278,7 @@ namespace DCSoft.Printing
 			return (genum25_0 & genum25_1) == genum25_1;
 		}
 
-		[DCInternal]
+		
 		public void method_2(PrinterSettings printerSettings_0)
 		{
 			switch (SpecifyDuplex)
@@ -1304,7 +1304,7 @@ namespace DCSoft.Printing
 		/// <param name="vPaperWidth">纸张宽度</param>
 		/// <param name="vPaperHeight">纸张高度</param>
 		/// <param name="vLandscape">是否横向打印</param>
-		[DCInternal]
+		
 		public void SetPageSize(int vPaperWidth, int vPaperHeight, bool vLandscape)
 		{
 			Landscape = vLandscape;
@@ -1341,7 +1341,7 @@ namespace DCSoft.Printing
 			}
 		}
 
-		[DCInternal]
+		
 		public bool method_3(int int_7)
 		{
 			if (!EnableHeaderFooter)
@@ -1374,7 +1374,7 @@ namespace DCSoft.Printing
 			return true;
 		}
 
-		[DCInternal]
+		
 		object ICloneable.Clone()
 		{
 			XPageSettings xPageSettings = new XPageSettings();
@@ -1386,13 +1386,13 @@ namespace DCSoft.Printing
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public XPageSettings Clone()
 		{
 			return (XPageSettings)((ICloneable)this).Clone();
 		}
 
-		[DCInternal]
+		
 		public void method_4(PageSettings pageSettings_0)
 		{
 			int num = 9;
@@ -1473,7 +1473,7 @@ namespace DCSoft.Printing
 			return result;
 		}
 
-		[DCInternal]
+		
 		public void method_5(XPageSettings xpageSettings_2)
 		{
 			if (xpageSettings_2 != null)
@@ -1524,7 +1524,7 @@ namespace DCSoft.Printing
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_6(string string_3)
 		{
 			int num = 0;
@@ -1708,7 +1708,7 @@ namespace DCSoft.Printing
 			return GraphicsUnitConvert.ConvertToCM(float_2 * 3f, GraphicsUnit.Document);
 		}
 
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			int num = 5;
@@ -1777,7 +1777,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCInternal]
+		
 		public void Dispose()
 		{
 			if (ximageValue_0 != null)

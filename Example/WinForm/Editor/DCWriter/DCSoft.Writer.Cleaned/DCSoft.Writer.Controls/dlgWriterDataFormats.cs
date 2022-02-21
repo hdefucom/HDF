@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace DCSoft.Writer.Controls
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class dlgWriterDataFormats : Form
 	{

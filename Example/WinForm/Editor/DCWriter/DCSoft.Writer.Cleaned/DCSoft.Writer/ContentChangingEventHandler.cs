@@ -12,6 +12,6 @@ namespace DCSoft.Writer
 	[Guid("00012345-6789-ABCD-EF01-234567890060")]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public delegate void ContentChangingEventHandler(object sender, ContentChangingEventArgs e);
 }

@@ -67,7 +67,7 @@ namespace DCSoft.Drawing
 			contentStyle_0 = CreateStyleInstance();
 		}
 
-		[DCInternal]
+		
 		public void HandleAfterLoad()
 		{
 			int num = 6;
@@ -91,7 +91,7 @@ namespace DCSoft.Drawing
 			Styles.FixFontName();
 		}
 
-		[DCInternal]
+		
 		public void method_0()
 		{
 			contentStyle_0.Index = -1;
@@ -106,7 +106,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="styleIndex">样式编号</param>
 		/// <returns>获得的样式对象</returns>
-		[DCInternal]
+		
 		public ContentStyle GetStyle(int styleIndex)
 		{
 			return Styles.SafeGet(styleIndex, contentStyle_0);
@@ -117,7 +117,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="styleString">样式字符串，比如“FontName:宋体;FontSize:9”</param>
 		/// <returns>编号</returns>
-		[DCInternal]
+		
 		public int GetStyleIndexByString(string styleString)
 		{
 			ContentStyle contentStyle = CreateStyleInstance();
@@ -130,7 +130,7 @@ namespace DCSoft.Drawing
 		///       </summary>
 		/// <param name="style">样式</param>
 		/// <returns>获得的编号</returns>
-		[DCInternal]
+		
 		public int GetStyleIndex(ContentStyle style)
 		{
 			if (XDependencyObject.smethod_0(style) == 0)
@@ -162,7 +162,7 @@ namespace DCSoft.Drawing
 			return num;
 		}
 
-		[DCInternal]
+		
 		public virtual void vmethod_0()
 		{
 		}
@@ -171,7 +171,7 @@ namespace DCSoft.Drawing
 		///       创建一个样式对象实例
 		///       </summary>
 		/// <returns>创建的对象</returns>
-		[DCInternal]
+		
 		public virtual ContentStyle CreateStyleInstance()
 		{
 			return new ContentStyle();
@@ -180,7 +180,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       清空对象
 		///       </summary>
-		[DCInternal]
+		
 		public void Clear()
 		{
 			contentStyle_0 = CreateStyleInstance();
@@ -190,7 +190,7 @@ namespace DCSoft.Drawing
 			vmethod_0();
 		}
 
-		[DCInternal]
+		
 		public void method_1()
 		{
 			foreach (ContentStyle style in Styles)
@@ -206,7 +206,7 @@ namespace DCSoft.Drawing
 		/// </param>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public ContentStyle GetRuntimeStyle(int styleIndex)
 		{
 			ContentStyle style = GetStyle(styleIndex);
@@ -217,7 +217,7 @@ namespace DCSoft.Drawing
 			return style;
 		}
 
-		[DCInternal]
+		
 		object ICloneable.Clone()
 		{
 			ContentStyleContainer contentStyleContainer = (ContentStyleContainer)MemberwiseClone();
@@ -231,7 +231,7 @@ namespace DCSoft.Drawing
 			return contentStyleContainer;
 		}
 
-		[DCInternal]
+		
 		public ContentStyleContainer method_2()
 		{
 			return (ContentStyleContainer)((ICloneable)this).Clone();
@@ -240,7 +240,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCInternal]
+		
 		public virtual void Dispose()
 		{
 			if (contentStyle_0 != null)

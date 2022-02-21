@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	/// <remarks>编制 袁永福</remarks>
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class WriterServiceContainer : DefaultServiceContainer
 	{
 		internal IKBProvider KBProivder

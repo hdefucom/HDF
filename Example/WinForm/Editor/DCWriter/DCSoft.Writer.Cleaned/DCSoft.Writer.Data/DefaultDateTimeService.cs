@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Data
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IDateTimeService))]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class DefaultDateTimeService : IDateTimeService
 	{
 		/// <summary>

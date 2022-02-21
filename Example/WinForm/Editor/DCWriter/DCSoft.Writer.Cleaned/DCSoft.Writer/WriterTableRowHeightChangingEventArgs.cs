@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("29EED07E-FF09-48A2-AF4B-87260903429A")]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IWriterTableRowHeightChangingEventArgs))]
 	public class WriterTableRowHeightChangingEventArgs : WriterEventArgs, IWriterTableRowHeightChangingEventArgs
@@ -29,19 +29,19 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       表格行元素对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextTableRowElement RowElement => (XTextTableRowElement)base.Element;
 
 		/// <summary>
 		///       旧的高度
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float OldHeight => base.Element.Height;
 
 		/// <summary>
 		///       新的高度
 		///       </summary>
-		[DCPublishAPI]
+		
 		public float NewHeight
 		{
 			get
@@ -57,7 +57,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       是否取消操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Cancel
 		{
 			get
@@ -77,7 +77,7 @@ namespace DCSoft.Writer
 		/// <param name="document">文档对象</param>
 		/// <param name="row">表格行元素对象</param>
 		/// <param name="newHeight">新的高度</param>
-		[DCInternal]
+		
 		public WriterTableRowHeightChangingEventArgs(WriterControl writerControl_0, XTextDocument document, XTextTableRowElement xtextTableRowElement_0, float newHeight)
 			: base(writerControl_0, document, xtextTableRowElement_0)
 		{

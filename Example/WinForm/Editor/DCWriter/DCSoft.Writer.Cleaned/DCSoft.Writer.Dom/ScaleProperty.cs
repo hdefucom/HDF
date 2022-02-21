@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 宋建明</remarks>
 	[XmlType("ScaleProperty")]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class ScaleProperty
 	{
 		private float _Value = 0f;

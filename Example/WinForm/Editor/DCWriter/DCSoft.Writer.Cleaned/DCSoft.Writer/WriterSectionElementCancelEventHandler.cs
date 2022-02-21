@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <param name="args">参数</param>
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[Guid("C9C216D6-71E5-4DDB-8366-1E6A68E21C44")]
 	public delegate void WriterSectionElementCancelEventHandler(object sender, WriterSectionElementCancelEventArgs e);
 }

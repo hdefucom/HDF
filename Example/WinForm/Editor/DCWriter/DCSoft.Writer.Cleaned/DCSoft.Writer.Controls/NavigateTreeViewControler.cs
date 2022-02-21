@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ComVisible(false)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public class NavigateTreeViewControler
 	{
 		private TreeView treeView_0 = null;

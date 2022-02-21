@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[DocumentComment]
 	[Guid("D8CF88BA-5B56-4FB8-BCD1-5F2F58A2E607")]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IDocumentOutlineNode))]
 	[ComVisible(true)]
@@ -36,7 +36,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       节点是否可见
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Visible
 		{
 			get
@@ -52,7 +52,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       节点等级，根节点的Level值为0。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public int Level
 		{
 			get
@@ -71,7 +71,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       表示层次的文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string LevelText
 		{
 			get
@@ -87,7 +87,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string Text
 		{
 			get
@@ -103,13 +103,13 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       所属段落符号元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextParagraphFlagElement ParagraphFlag => _ParagraphFlag;
 
 		/// <summary>
 		///       开始元素
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XTextElement StartElement
 		{
 			get
@@ -125,7 +125,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       父节点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentOutlineNode Parent
 		{
 			get
@@ -141,7 +141,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       子节点列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentOutlineNodeList ChildNodes
 		{
 			get
@@ -157,7 +157,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public DocumentOutlineNode()
 		{
 		}
@@ -165,7 +165,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       让节点获得焦点
 		///       </summary>
-		[DCPublishAPI]
+		
 		public void Focus()
 		{
 			if (_ParagraphFlag != null)
@@ -184,7 +184,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			int num = 9;

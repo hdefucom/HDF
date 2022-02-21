@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Commands
 	///       </summary>
 	[DocumentComment]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	public class WriterCommandList : List<WriterCommand>
 	{

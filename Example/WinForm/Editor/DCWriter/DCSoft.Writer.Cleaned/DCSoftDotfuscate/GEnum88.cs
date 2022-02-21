@@ -6,7 +6,7 @@ namespace DCSoftDotfuscate
 {
 	[Flags]
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public enum GEnum88
 	{
 		flag_0 = 0x1,

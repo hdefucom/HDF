@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Controls
 	[ComVisible(true)]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public enum FunctionControlVisibility
 	{
 		/// <summary>

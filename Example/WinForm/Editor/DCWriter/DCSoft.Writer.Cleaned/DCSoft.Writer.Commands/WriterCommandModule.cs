@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Commands
 	/// <summary>
 	///       功能模块对象
 	///       </summary>
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[ComVisible(false)]
 	public class WriterCommandModule : IDisposable
@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       模块名称
 		///       </summary>
-		[DCPublishAPI]
+		
 		public virtual string Name
 		{
 			get
@@ -50,7 +50,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       模块是否可用
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Enabled
 		{
 			get
@@ -66,7 +66,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       本模块包含的动作对象列表
 		///       </summary>
-		[DCPublishAPI]
+		
 		public virtual WriterCommandList Commands
 		{
 			get
@@ -84,7 +84,7 @@ namespace DCSoft.Writer.Commands
 		///       </summary>
 		/// <param name="args">事件参数</param>
 		/// <returns>操作是否成功</returns>
-		[DCPublishAPI]
+		
 		public virtual bool Start(WriterCommandEventArgs args)
 		{
 			return true;
@@ -95,7 +95,7 @@ namespace DCSoft.Writer.Commands
 		///       </summary>
 		/// <param name="args">
 		/// </param>
-		[DCPublishAPI]
+		
 		public virtual void Close(WriterCommandEventArgs args)
 		{
 		}
@@ -103,7 +103,7 @@ namespace DCSoft.Writer.Commands
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public virtual void Dispose()
 		{
 		}

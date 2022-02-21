@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[DefaultMember("Item")]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class GClass97
 	{

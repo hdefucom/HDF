@@ -11,6 +11,6 @@ namespace DCSoft.Writer
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-23456789005A")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public delegate void CanInsertObjectEventHandler(object sender, CanInsertObjectEventArgs e);
 }

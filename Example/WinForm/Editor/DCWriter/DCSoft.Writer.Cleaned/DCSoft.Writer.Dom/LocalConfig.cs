@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[ComDefaultInterface(typeof(ILocalConfig))]
 	[Guid("00012345-6789-ABCD-EF01-23456789009F")]
-	[DCPublishAPI]
+	
 	[ComClass("00012345-6789-ABCD-EF01-23456789009F", "BE183319-C54A-4B39-97C4-2D38075CBF77")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]

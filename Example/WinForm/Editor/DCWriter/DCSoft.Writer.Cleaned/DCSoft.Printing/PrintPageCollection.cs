@@ -34,7 +34,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       自定义绘制页眉页脚
 		///       </summary>
-		[DCInternal]
+		
 		public bool CustomDrawHeadFooter
 		{
 			get
@@ -50,7 +50,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       度量单位
 		///       </summary>
-		[DCInternal]
+		
 		public GraphicsUnit GraphicsUnit
 		{
 			get
@@ -66,7 +66,7 @@ namespace DCSoft.Printing
 		/// <summary>
 		///       最小页高
 		///       </summary>
-		[DCInternal]
+		
 		public int MinPageHeight
 		{
 			get
@@ -150,7 +150,7 @@ namespace DCSoft.Printing
 		/// <param name="startPageIndex">从0开始计算的开始页码号</param>
 		/// <param name="endPageIndex">从0开始计算的结束页码号</param>
 		/// <returns>获得的页面信息对象列表</returns>
-		[DCInternal]
+		
 		public PrintPageCollection GetVisiblePages(int startPageIndex, int endPageIndex)
 		{
 			if (startPageIndex < 0 && endPageIndex < 0)
@@ -171,7 +171,7 @@ namespace DCSoft.Printing
 			return printPageCollection;
 		}
 
-		[DCInternal]
+		
 		public PrintPage SafeGet(int index)
 		{
 			if (index >= 0 && index < base.Count)
@@ -181,7 +181,7 @@ namespace DCSoft.Printing
 			return null;
 		}
 
-		[DCInternal]
+		
 		public bool ContainsTop(int vTop)
 		{
 			float num = _Top;
@@ -205,7 +205,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		/// <returns>
 		/// </returns>
-		[DCInternal]
+		
 		public float GetPageMaxWidth()
 		{
 			float num = 0f;
@@ -228,7 +228,7 @@ namespace DCSoft.Printing
 		///       </summary>
 		/// <param name="y">指定的垂直位置</param>
 		/// <returns>页面对象</returns>
-		[DCInternal]
+		
 		public PrintPage GetPage(int int_0)
 		{
 			using (Enumerator enumerator = GetEnumerator())
@@ -245,7 +245,7 @@ namespace DCSoft.Printing
 			return null;
 		}
 
-		[DCInternal]
+		
 		public PrintPage GetPageByViewPosition(int int_0)
 		{
 			using (Enumerator enumerator = GetEnumerator())

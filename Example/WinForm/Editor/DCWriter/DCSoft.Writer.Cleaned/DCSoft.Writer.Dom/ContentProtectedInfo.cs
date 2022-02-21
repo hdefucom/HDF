@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       内容保护信息对象
 	///       </summary>
 	[ComVisible(false)]
-	[DCInternal]
+	
 	public class ContentProtectedInfo
 	{
 		private XTextElement _Element = null;

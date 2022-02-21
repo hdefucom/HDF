@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <param name="args">事件参数</param>
 	/// <remarks>编写 袁永福</remarks>
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789005C")]
 	[ComVisible(true)]
 	public delegate void ContentChangedEventHandler(object sender, ContentChangedEventArgs e);

@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("38E6EE4E-6AF9-4F69-831F-764398B76531")]
 	[ComVisible(true)]
 	[XmlType("XAccountingNumber")]
-	[DCPublishAPI]
+	
 	[ComDefaultInterface(typeof(IXTextAccountingNumberElement))]
 	[ComClass("38E6EE4E-6AF9-4F69-831F-764398B76531", "87BA328F-7682-49DC-A732-6DEAD74BD635")]
 	[ClassInterface(ClassInterfaceType.None)]

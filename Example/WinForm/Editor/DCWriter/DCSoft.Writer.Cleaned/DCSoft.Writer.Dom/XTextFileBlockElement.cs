@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XFileBlock")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IXTextFileBlockElement))]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	[DebuggerDisplay("File block:{ID} {ContentSourceValue}")]
 	[ComClass("00012345-6789-ABCD-EF01-234567890056", "9E74F75D-3D57-45FA-929E-99E7E912987D")]
@@ -45,7 +45,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       对象大小是固定的
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public override ResizeableType Resizeable
@@ -63,7 +63,7 @@ namespace DCSoft.Writer.Dom
 		///       文档内容来源
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public FileContentSource ContentSource
 		{
 			get
@@ -80,7 +80,7 @@ namespace DCSoft.Writer.Dom
 		///       内容来源值
 		///       </summary>
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public string ContentSourceValue
 		{
 			get
@@ -98,7 +98,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="args">
 		/// </param>
-		[DCInternal]
+		
 		public override void HandleDocumentEvent(DocumentEventArgs args)
 		{
 			switch (args.Style)
@@ -120,7 +120,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual XTextElementList vmethod_26(bool bool_9)
 		{
 			_ = OwnerDocument;

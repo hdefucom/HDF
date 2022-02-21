@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Data
 {
 	[Serializable]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class DataSourceTreeNode
 	{

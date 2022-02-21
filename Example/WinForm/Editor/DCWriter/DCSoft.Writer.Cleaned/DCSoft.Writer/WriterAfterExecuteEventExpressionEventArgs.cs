@@ -5,7 +5,7 @@ using System;
 
 namespace DCSoft.Writer
 {
-	[DCPublishAPI]
+	
 	public class WriterAfterExecuteEventExpressionEventArgs : EventArgs
 	{
 		private XTextDocument _Document = null;

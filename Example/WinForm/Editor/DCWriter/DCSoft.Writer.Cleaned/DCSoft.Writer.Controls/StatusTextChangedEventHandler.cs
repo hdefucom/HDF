@@ -12,6 +12,6 @@ namespace DCSoft.Writer.Controls
 	/// </param>
 	[Guid("1945D863-62B6-482B-BF89-A2D5CF9890C5")]
 	[ComVisible(true)]
-	[DCPublishAPI]
+	
 	public delegate void StatusTextChangedEventHandler(object sender, StatusTextChangedEventArgs e);
 }

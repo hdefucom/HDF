@@ -11,6 +11,6 @@ namespace DCSoft.Writer
 	[Guid("1B856029-ED44-4864-B5A8-CB62D5FB34BF")]
 	[ComVisible(true)]
 	[DocumentComment]
-	[DCPublishAPI]
+	
 	public delegate void WriterShowDialogEventHandler(object sender, WriterShowDialogEventArgs e);
 }

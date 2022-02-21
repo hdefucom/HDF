@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       插入参数对话框
 	///       </summary>
-	[DCInternal]
+	
 	[ComVisible(false)]
 	public class dlgInsertParameter : Form
 	{

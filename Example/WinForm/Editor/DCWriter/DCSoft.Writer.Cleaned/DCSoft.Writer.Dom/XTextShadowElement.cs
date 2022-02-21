@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
 	[DebuggerDisplay("Shadow:{EntryElementTypeName}")]
-	[DCInternal]
+	
 	public class XTextShadowElement : XTextElement
 	{
 		private XTextElement xtextElement_0 = null;

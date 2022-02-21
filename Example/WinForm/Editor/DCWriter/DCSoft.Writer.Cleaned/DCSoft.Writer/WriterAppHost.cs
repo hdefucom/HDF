@@ -24,7 +24,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[DocumentComment]
 	[Guid("00012345-6789-ABCD-EF01-234567890074")]
-	[DCPublishAPI]
+	
 	public class WriterAppHost
 	{
 		private static string string_0;
@@ -56,7 +56,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       授权文件名
 		///       </summary>
-		[DCInternal]
+		
 		public static string LicenseFileName
 		{
 			get
@@ -72,13 +72,13 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       判断PreloadSystemAsync()启动的后台操作是否完成。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public static bool IsPreloadSystemAsyncCompleted => !bool_0;
 
 		/// <summary>
 		///       默认对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public static WriterAppHost Default
 		{
 			get
@@ -102,7 +102,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       剪切版功能提供者
 		///       </summary>
-		[DCPublishAPI]
+		
 		public ClipboardProvider Clipboard
 		{
 			get
@@ -124,7 +124,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		[Browsable(false)]
 		[ComVisible(false)]
-		[DCInternal]
+		
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public bool DisableFinalize
 		{
@@ -192,7 +192,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       时间服务器对象
 		///       </summary>
-		[DCInternal]
+		
 		public IDateTimeService DateTimeService => (IDateTimeService)Services.GetService(typeof(IDateTimeService));
 
 		/// <summary>
@@ -282,7 +282,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       宿主使用的UI层工具集,内部会检索Services列表，若没有找到则自动添加默认的UI工具集。
 		///       </summary>
-		[DCInternal]
+		
 		public GClass15 Tools
 		{
 			get
@@ -304,7 +304,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       宿主使用的UI层工具集,内部会检索Services列表，若没有找到则自动添加默认的UI工具集。
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DCUITools UITools
 		{
 			get
@@ -346,7 +346,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       服务器对象容器
 		///       </summary>
-		[DCPublishAPI]
+		
 		public IServiceContainer Services
 		{
 			get
@@ -366,7 +366,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       系统使用的文件系统列表
 		///       </summary>
-		[DCInternal]
+		
 		public FileSystemDictionary FileSystems
 		{
 			get
@@ -388,7 +388,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       数据源绑定路径处理提供者
 		///       </summary>
-		[DCInternal]
+		
 		public DataBindingPathProvider DataBindingPathProvider
 		{
 			get
@@ -421,7 +421,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       文档序列号器列表
 		///       </summary>
-		[DCInternal]
+		
 		public ContentSerializerList ContentSerializers => contentSerializerList_0;
 
 		/// <summary>
@@ -459,13 +459,13 @@ namespace DCSoft.Writer
 			}
 		}
 
-		[DCInternal]
+		
 		public static string smethod_0()
 		{
 			return GClass143.smethod_32();
 		}
 
-		[DCInternal]
+		
 		public static void smethod_1()
 		{
 			XTextDocument.StaticRegisterCode = null;
@@ -511,7 +511,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       异步的预先加载一些系统数据
 		///       </summary>
-		[DCPublishAPI]
+		
 		public static void PreloadSystemAsync()
 		{
 			bool_0 = true;
@@ -524,7 +524,7 @@ namespace DCSoft.Writer
 		///       异步的预先加载一些系统数据
 		///       </summary>
 		/// <remarks>使用预先加载一些数据，可以提高今后编辑器的运行速度，特别是第一次打开文件的速度。</remarks>
-		[DCPublishAPI]
+		
 		public static void PreloadSystem()
 		{
 			int num = 4;
@@ -584,7 +584,7 @@ namespace DCSoft.Writer
 			}
 		}
 
-		[DCInternal]
+		
 		public static void smethod_2()
 		{
 			lock (typeof(WriterAppHost))
@@ -600,7 +600,7 @@ namespace DCSoft.Writer
 		///       注册自定义文档元素类型
 		///       </summary>
 		/// <param name="elementType">自定义的文档元素对象</param>
-		[DCPublishAPI]
+		
 		public static void RegisterElementType(Type elementType)
 		{
 			int num = 19;
@@ -615,7 +615,7 @@ namespace DCSoft.Writer
 		///       注册自定义文档元素类型
 		///       </summary>
 		/// <param name="elementType">自定义的文档元素对象</param>
-		[DCPublishAPI]
+		
 		public static void RegisterElementType(Type elementType, string typeDisplayName)
 		{
 			int num = 16;
@@ -627,7 +627,7 @@ namespace DCSoft.Writer
 			WriterUtils.smethod_16(elementType, typeDisplayName);
 		}
 
-		[DCPublishAPI]
+		
 		public static Type smethod_3(string string_2)
 		{
 			Type[] array = Class109.smethod_0();
@@ -650,7 +650,7 @@ namespace DCSoft.Writer
 			return type;
 		}
 
-		[DCInternal]
+		
 		public static bool smethod_4(WriterCommandEventArgs writerCommandEventArgs_0, XTextElement xtextElement_0, ElementPropertiesEditMethod elementPropertiesEditMethod_0)
 		{
 			ElementPropertiesEditor editor = writerCommandEventArgs_0.Host.ElementPropertiesEditors.GetEditor(xtextElement_0.GetType());
@@ -672,7 +672,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public WriterAppHost()
 		{
 			Services.AddService(typeof(WriterAppHost), this);
@@ -683,7 +683,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       销毁对象
 		///       </summary>
-		[DCInternal]
+		
 		~WriterAppHost()
 		{
 			if (bool_3)
@@ -696,7 +696,7 @@ namespace DCSoft.Writer
 		/// <summary>
 		///       检测开始所有功能模块
 		///       </summary>
-		[DCInternal]
+		
 		public void CheckStartAllModule()
 		{
 			if (!ModuleStarter.Started)
@@ -710,7 +710,7 @@ namespace DCSoft.Writer
 		///       </summary>
 		/// <param name="elementType">文档元素类型</param>
 		/// <returns>创建的文档元素属性对象</returns>
-		[DCInternal]
+		
 		public virtual GClass8 CreateProperties(Type elementType)
 		{
 			GAttribute0 gAttribute = GAttribute0.smethod_0(elementType);
@@ -728,7 +728,7 @@ namespace DCSoft.Writer
 		/// </param>
 		/// <param name="instance">
 		/// </param>
-		[DCInternal]
+		
 		[Obsolete("仅保留对旧代码的兼容性，不推荐使用，请使用 Services.AddService")]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public void AddService(Type type, object instance)

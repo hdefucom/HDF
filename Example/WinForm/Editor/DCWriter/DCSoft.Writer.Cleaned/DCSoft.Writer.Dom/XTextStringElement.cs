@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>本对象只是在加载或保存文档时临时生成。</remarks>
 	[XmlType("XString")]
-	[DCPublishAPI]
+	
 	[ComVisible(false)]
 	public class XTextStringElement : XTextContainerElement
 	{
@@ -36,7 +36,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[ComVisible(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		[Browsable(false)]
 		public bool MergeForPrintHtml
 		{
@@ -56,7 +56,7 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[ComVisible(false)]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public XTextCharElement StartElement
 		{
 			get
@@ -75,7 +75,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(false)]
 		[XmlIgnore]
 		[Browsable(false)]
-		[DCInternal]
+		
 		public XTextCharElement EndElement
 		{
 			get
@@ -91,7 +91,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       是否为背景文字模式
 		///       </summary>
-		[DCInternal]
+		
 		[ComVisible(false)]
 		[Browsable(false)]
 		[XmlIgnore]

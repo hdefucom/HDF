@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	///       提示内容保护事件参数
 	///       </summary>
 	[Guid("0ED2A2B5-189C-4CCC-A5F1-93D333254B0A")]
-	[DCInternal]
+	
 	[DocumentComment]
 	[ComDefaultInterface(typeof(IPromptProtectedContentEventArgs))]
 	[ComClass("0ED2A2B5-189C-4CCC-A5F1-93D333254B0A", "E1D27491-21C8-44EF-B44D-3DFE63E3CBEB")]

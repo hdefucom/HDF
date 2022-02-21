@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[Browsable(false)]
 	[XmlType("XParagraph")]
-	[DCInternal]
+	
 	[DebuggerDisplay("<P>:{ PreviewString }")]
 	public class XTextParagraphElement : XTextContainerElement
 	{
@@ -70,7 +70,7 @@ namespace DCSoft.Writer.Dom
 			return null;
 		}
 
-		[DCInternal]
+		
 		[ComVisible(false)]
 		public XTextParagraphElement method_27(bool bool_18)
 		{

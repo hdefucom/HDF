@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace DCSoft.Writer.Controls
 {
-	[DCInternal]
+	
 	[ComVisible(false)]
 	[DocumentComment]
 	public class DOMTreeManager : IDisposable

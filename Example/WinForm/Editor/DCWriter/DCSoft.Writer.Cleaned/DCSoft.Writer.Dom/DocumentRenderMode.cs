@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       正在呈现的的文档模式
 	///       </summary>
 	[Guid("BA6217FB-9AE9-4C6A-9941-F63E8DC12EF4")]
-	[DCPublishAPI]
+	
 	[ComVisible(true)]
 	public enum DocumentRenderMode
 	{

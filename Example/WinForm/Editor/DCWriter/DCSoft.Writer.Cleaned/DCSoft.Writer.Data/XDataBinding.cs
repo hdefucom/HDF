@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Data
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ComClass("180935CE-71A7-4C64-9988-E481182814EF", "D862B3A3-5160-4386-8EB6-1A58A2A3D1C0")]
 	[ComDefaultInterface(typeof(IXDataBinding))]
-	[DCPublishAPI]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DocumentComment]
 	[ComVisible(true)]
@@ -52,7 +52,7 @@ namespace DCSoft.Writer.Data
 		///       对象是否可用
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		public bool Enabled
 		{
 			get
@@ -69,7 +69,7 @@ namespace DCSoft.Writer.Data
 		///       数据源名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string DataSource
 		{
 			get
@@ -85,7 +85,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       格式化字符串
 		///       </summary>
-		[DCPublishAPI]
+		
 		public string FormatString
 		{
 			get
@@ -101,7 +101,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       绑定路径
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string BindingPath
 		{
@@ -120,7 +120,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		public string BindingPathForText
 		{
 			get
@@ -136,7 +136,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       文本值绑定路径，仅对XTextInputFieldElement有效
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		public string WriteTextBindingPath
 		{
@@ -155,7 +155,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		[DCInternal]
+		
 		[XmlIgnore]
 		[Obsolete("本属性已作废,请使用BindingPathForInnerValue属性。")]
 		[DefaultValue(null)]
@@ -174,14 +174,14 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       是空白的数据绑定信息
 		///       </summary>
-		[DCPublishAPI]
-		[DCInternal]
+		
+		
 		public bool IsEmptyBinding => string.IsNullOrEmpty(_DataSource) && string.IsNullOrEmpty(_BindingPath) && string.IsNullOrEmpty(_ValueBindingPath) && string.IsNullOrEmpty(_BindingPathForText);
 
 		/// <summary>
 		///       操作状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(DCProcessStates.Always)]
 		public DCProcessStates ProcessState
 		{
@@ -199,7 +199,7 @@ namespace DCSoft.Writer.Data
 		///       自动更新内容
 		///       </summary>
 		[DefaultValue(false)]
-		[DCPublishAPI]
+		
 		public bool AutoUpdate
 		{
 			get
@@ -215,7 +215,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       只读标记
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(false)]
 		public bool Readonly
 		{
@@ -248,7 +248,7 @@ namespace DCSoft.Writer.Data
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCPublishAPI]
+		
 		public XDataBinding()
 		{
 		}
@@ -258,7 +258,7 @@ namespace DCSoft.Writer.Data
 		///       </summary>
 		/// <param name="binding">要比较的值</param>
 		/// <returns>比较结果，如果两者设置一样则返回true，否则返回false.</returns>
-		[DCInternal]
+		
 		public bool CompareSettings(XDataBinding binding)
 		{
 			if (binding == null)
@@ -276,13 +276,13 @@ namespace DCSoft.Writer.Data
 		///       复制对象
 		///       </summary>
 		/// <returns>复制品</returns>
-		[DCInternal]
+		
 		public XDataBinding Clone()
 		{
 			return (XDataBinding)((ICloneable)this).Clone();
 		}
 
-		[DCInternal]
+		
 		object ICloneable.Clone()
 		{
 			return (XDataBinding)MemberwiseClone();
@@ -292,19 +292,19 @@ namespace DCSoft.Writer.Data
 		///       获得 表示对象内容的字符串
 		///       </summary>
 		/// <returns>字符串</returns>
-		[DCInternal]
+		
 		public override string ToString()
 		{
 			return ValueTypeHelper.GetPropertiesAttributeString(this, detectDefaultValue: true);
 		}
 
-		[DCInternal]
+		
 		public string DCWriteString()
 		{
 			return ValueTypeHelper.GetPropertiesAttributeString(this, detectDefaultValue: true);
 		}
 
-		[DCInternal]
+		
 		public void DCReadString(string text)
 		{
 			ValueTypeHelper.SetPropertiesAttributeString(this, text);

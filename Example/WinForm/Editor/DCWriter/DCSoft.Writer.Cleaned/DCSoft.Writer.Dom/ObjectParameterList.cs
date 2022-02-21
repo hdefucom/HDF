@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[DebuggerDisplay("Count={ Count }")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	public class ObjectParameterList : List<ObjectParameter>
 	{
 		/// <summary>
@@ -61,7 +61,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <returns>获得的列表成员对象</returns>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public ObjectParameter ComGetItem(int index)
 		{
 			return base[index];
@@ -73,7 +73,7 @@ namespace DCSoft.Writer.Dom
 		/// <param name="index">从0开始的序号</param>
 		/// <param name="item">新的列表成员对象</param>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		public void ComSetItem(int index, ObjectParameter item)
 		{
 			base[index] = item;

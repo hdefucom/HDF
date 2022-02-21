@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	///       文本块
 	///       </summary>
 	[Serializable]
-	[DCInternal]
+	
 	public class XTextBlockElement : XTextObjectElement
 	{
 		private string string_9 = null;

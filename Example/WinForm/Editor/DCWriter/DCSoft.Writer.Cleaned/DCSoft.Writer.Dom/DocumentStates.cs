@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       文档状态
 	///       </summary>
 	[ComVisible(false)]
-	[DCPublishAPI]
+	
 	[DocumentComment]
 	public class DocumentStates
 	{
@@ -35,7 +35,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       当前页使用的续打方式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public JumpPrintMode JumpPrintModeForCurrentPage
 		{
 			get
@@ -51,7 +51,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档内容已经经过排版了
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Layouted
 		{
 			get
@@ -67,7 +67,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档当前使用的呈现模式
 		///       </summary>
-		[DCPublishAPI]
+		
 		public DocumentRenderMode RenderMode
 		{
 			get
@@ -83,7 +83,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档正在打印中
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool Printing
 		{
 			get
@@ -99,7 +99,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档正在生成打印预览内容
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool PrintPreviewing
 		{
 			get
@@ -115,7 +115,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       正在执行全局文档内容布局
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ExecuteingGlobalLayout
 		{
 			get
@@ -131,7 +131,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       正在执行UNDO操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ExecutingUndo
 		{
 			get
@@ -147,7 +147,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       正在执行REDO操作
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool ExecutingRedo
 		{
 			get
@@ -163,7 +163,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       正在生成长图片
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool GenerateLongBmp
 		{
 			get
@@ -179,7 +179,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       正在生成文档内容图片
 		///       </summary>
-		[DCPublishAPI]
+		
 		public bool GenerateBmp
 		{
 			get
@@ -195,7 +195,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       文档状态
 		///       </summary>
-		[DCInternal]
+		
 		public DocumentStates()
 		{
 		}

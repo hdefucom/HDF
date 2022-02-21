@@ -87,7 +87,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       运行时使用的字体对象
 		///       </summary>
-		[DCInternal]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public XFontValue RuntimeFont
@@ -127,7 +127,7 @@ namespace DCSoft.Drawing
 		/// <summary>
 		///       颜色值
 		///       </summary>
-		[DCInternal]
+		
 		[XmlElement]
 		[DefaultValue(null)]
 		public string ColorValue
@@ -158,13 +158,13 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public void method_0(DCGraphics dcgraphics_0, RectangleF rectangleF_0, RectangleF rectangleF_1)
 		{
 			method_6(TextInMiddlePage, dcgraphics_0, rectangleF_0, rectangleF_1);
 		}
 
-		[DCInternal]
+		
 		public void method_1(DCGraphics dcgraphics_0, RectangleF rectangleF_0, RectangleF rectangleF_1)
 		{
 			method_6(Text, dcgraphics_0, rectangleF_0, rectangleF_1);
@@ -263,7 +263,7 @@ namespace DCSoft.Drawing
 			}
 		}
 
-		[DCInternal]
+		
 		public DocumentTerminalTextInfo method_7()
 		{
 			DocumentTerminalTextInfo documentTerminalTextInfo = (DocumentTerminalTextInfo)MemberwiseClone();

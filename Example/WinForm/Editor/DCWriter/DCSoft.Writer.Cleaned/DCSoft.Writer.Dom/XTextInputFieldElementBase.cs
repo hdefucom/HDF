@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	///       基础的纯文本数据输入域,DCWriter内部使用。
 	///       </summary>
 	[Serializable]
-	[DCInternal]
+	
 	[DebuggerDisplay("Base Input Name:{Name}")]
 	[Guid("00012345-6789-ABCD-EF01-23456789001F")]
 	[XmlType("XInputFieldBase")]
@@ -82,7 +82,7 @@ namespace DCSoft.Writer.Dom
 		[NonSerialized]
 		[Browsable(false)]
 		[XmlIgnore]
-		[DCInternal]
+		
 		public EventHandler eventHandler_0 = null;
 
 		private DCVisibleState dcvisibleState_0 = DCVisibleState.Default;
@@ -95,7 +95,7 @@ namespace DCSoft.Writer.Dom
 		[XmlIgnore]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[Browsable(false)]
-		[DCPublishAPI]
+		
 		public override string FormulaValue
 		{
 			get
@@ -117,7 +117,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[ComVisible(true)]
 		[DefaultValue(DCBorderTextPosition.Middle)]
 		public DCBorderTextPosition BorderTextPosition
@@ -136,7 +136,7 @@ namespace DCSoft.Writer.Dom
 		///       快速录入方式
 		///       </summary>
 		[ComVisible(true)]
-		[DCPublishAPI]
+		
 		[DefaultValue(DCFastInputMode.NextField)]
 		[HtmlAttribute]
 		[MemberExpressionable]
@@ -157,7 +157,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[HtmlAttribute]
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		public bool TabStop
 		{
@@ -180,7 +180,7 @@ namespace DCSoft.Writer.Dom
 		///       移动焦点使用的快捷键
 		///       </summary>
 		[MemberExpressionable]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(MoveFocusHotKeys.Default)]
 		public MoveFocusHotKeys MoveFocusHotKey
@@ -235,7 +235,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[MemberExpressionable]
 		[DefaultValue(0)]
-		[DCPublishAPI]
+		
 		public int TabIndex
 		{
 			get
@@ -252,7 +252,7 @@ namespace DCSoft.Writer.Dom
 		///       输入域指定宽度,若大于0则输入域宽度不小于该值，而且当内容很多时，自动变宽。
 		///       </summary>
 		[DefaultValue(0f)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[HtmlAttribute]
 		public float SpecifyWidth
@@ -282,7 +282,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容对齐方式
 		///       </summary>
-		[DCPublishAPI]
+		
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[ComVisible(true)]
 		[DefaultValue(StringAlignment.Near)]
@@ -309,7 +309,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(false)]
 		[Obsolete("!!!!请使用 ContentReadonly 或 RuntimeContentReadonly 属性。")]
-		[DCPublishAPI]
+		
 		public bool Readonly
 		{
 			get
@@ -332,7 +332,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内容是否可编辑
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		public override bool ContentEditable => !RuntimeContentReadonly;
 
@@ -341,7 +341,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		public string DefaultEventExpression
 		{
 			get
@@ -358,7 +358,7 @@ namespace DCSoft.Writer.Dom
 		///       事件表达式列表
 		///       </summary>
 		[Browsable(true)]
-		[DCPublishAPI]
+		
 		[XmlArrayItem("Expression", typeof(EventExpressionInfo))]
 		[DefaultValue(null)]
 		public EventExpressionInfoList EventExpressions
@@ -409,7 +409,7 @@ namespace DCSoft.Writer.Dom
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[HtmlAttribute]
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string UnitText
 		{
 			get
@@ -438,7 +438,7 @@ namespace DCSoft.Writer.Dom
 		///       标签文本
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		public string LabelText
@@ -469,7 +469,7 @@ namespace DCSoft.Writer.Dom
 		///       用户可以直接修改文本域中的内容
 		///       </summary>
 		[DefaultValue(true)]
-		[DCPublishAPI]
+		
 		[MemberExpressionable]
 		[HtmlAttribute]
 		public bool UserEditable
@@ -500,7 +500,7 @@ namespace DCSoft.Writer.Dom
 		///       对象名称
 		///       </summary>
 		[DefaultValue(null)]
-		[DCPublishAPI]
+		
 		public string Name
 		{
 			get
@@ -519,7 +519,7 @@ namespace DCSoft.Writer.Dom
 		[Browsable(true)]
 		[XmlIgnore]
 		[ReadOnly(true)]
-		[DCPublishAPI]
+		
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public override string OuterText
 		{
@@ -574,7 +574,7 @@ namespace DCSoft.Writer.Dom
 		[HtmlAttribute]
 		[DefaultValue(null)]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
-		[DCPublishAPI]
+		
 		public ValueFormater DisplayFormat
 		{
 			get
@@ -620,11 +620,11 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		[Browsable(false)]
 		public virtual bool HasDisplayTextFormat => RuntimeDisplayFormat != null && !RuntimeDisplayFormat.IsEmpty;
 
-		[DCInternal]
+		
 		internal DataSourceTreeNode DataSourceNodeForWriteText
 		{
 			get
@@ -637,7 +637,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		internal DataSourceTreeNode DataSourceNodeForText
 		{
 			get
@@ -656,7 +656,7 @@ namespace DCSoft.Writer.Dom
 		[ComVisible(true)]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
 		[XmlElement]
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[ReadOnly(true)]
 		public string SelectedSpellCode
@@ -674,7 +674,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       内置的数值
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.DOM)]
@@ -693,7 +693,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       打印背景文字
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(DCBooleanValue.Inherit)]
 		[HtmlAttribute]
 		public DCBooleanValue PrintBackgroundText
@@ -711,7 +711,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       运行时的是否打印背景文字
 		///       </summary>
-		[DCInternal]
+		
 		public override bool RuntimePrintBackgroundText
 		{
 			get
@@ -735,7 +735,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       背景文本
 		///       </summary>
-		[DCPublishAPI]
+		
 		[DefaultValue(null)]
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
@@ -772,7 +772,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		[Category("Appearance")]
-		[DCPublishAPI]
+		
 		[DefaultValue(ContentViewEncryptType.None)]
 		[HtmlAttribute]
 		public ContentViewEncryptType ViewEncryptType
@@ -827,7 +827,7 @@ namespace DCSoft.Writer.Dom
 		///       边框元素是否可见
 		///       </summary>
 		[DefaultValue(DCVisibleState.Default)]
-		[DCPublishAPI]
+		
 		[HtmlAttribute]
 		[MemberExpressionable(MemberEffectLevel.ElementLayout)]
 		public DCVisibleState BorderVisible
@@ -846,7 +846,7 @@ namespace DCSoft.Writer.Dom
 		///       是否允许高亮度显示状态
 		///       </summary>
 		[HtmlAttribute]
-		[DCPublishAPI]
+		
 		[DefaultValue(EnableState.Enabled)]
 		[MemberExpressionable(MemberEffectLevel.ElementView)]
 		public virtual EnableState EnableHighlight
@@ -886,7 +886,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       当前高亮度状态
 		///       </summary>
-		[DCPublishAPI]
+		
 		[Browsable(false)]
 		[XmlIgnore]
 		public bool CurrentHighlightState
@@ -1044,13 +1044,13 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public virtual string vmethod_38(string string_23)
 		{
 			return string_23;
 		}
 
-		[DCInternal]
+		
 		public virtual string vmethod_39(string string_23, bool bool_20)
 		{
 			return string_23;
@@ -1201,7 +1201,7 @@ namespace DCSoft.Writer.Dom
 			return base.UpdateDataBindingExt(args);
 		}
 
-		[DCInternal]
+		
 		private bool method_30(string string_23, string string_24, bool bool_20)
 		{
 			if (string.IsNullOrEmpty(string_24))
@@ -1257,7 +1257,7 @@ namespace DCSoft.Writer.Dom
 			return true;
 		}
 
-		[DCInternal]
+		
 		protected override bool vmethod_26(string string_23, bool bool_20)
 		{
 			if (string.IsNullOrEmpty(string_23))
@@ -1268,7 +1268,7 @@ namespace DCSoft.Writer.Dom
 			return method_30(string_24, string_23, bool_20);
 		}
 
-		[DCPublishAPI]
+		
 		public virtual FieldValueDescriptor vmethod_41()
 		{
 			FieldValueDescriptor fieldValueDescriptor = null;
@@ -1288,7 +1288,7 @@ namespace DCSoft.Writer.Dom
 			return fieldValueDescriptor;
 		}
 
-		[DCInternal]
+		
 		public virtual bool vmethod_42(FieldValueDescriptor fieldValueDescriptor_0, bool bool_20)
 		{
 			if (fieldValueDescriptor_0 != null)
@@ -1307,7 +1307,7 @@ namespace DCSoft.Writer.Dom
 		///       保持字段域数据到数据源中
 		///       </summary>
 		/// <returns>操作是否成功</returns>
-		[DCInternal]
+		
 		[Obsolete("本方法已废除")]
 		public virtual bool WriteDataSource()
 		{
@@ -1339,7 +1339,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		/// <param name="element">文档元素对象</param>
 		/// <returns>是否需要加密显示</returns>
-		[DCInternal]
+		
 		public bool IsEncrypt(XTextElement element)
 		{
 			ContentViewEncryptType contentViewEncryptType = ViewEncryptType;
@@ -1404,7 +1404,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       刷新视图
 		///       </summary>
-		[DCPublishAPI]
+		
 		public override void EditorRefreshView()
 		{
 			if (base.InnerBackgroundTextElements != null && OwnerDocument.HighlightManager != null)
@@ -1767,7 +1767,7 @@ namespace DCSoft.Writer.Dom
 			}
 		}
 
-		[DCInternal]
+		
 		public override ValueValidateResult vmethod_24(bool bool_20)
 		{
 			ValueValidateResult result = base.vmethod_24(bool_20);
@@ -1920,7 +1920,7 @@ namespace DCSoft.Writer.Dom
 			return result;
 		}
 
-		[DCInternal]
+		
 		public override bool vmethod_23(bool bool_20)
 		{
 			if (base.vmethod_23(bool_20))

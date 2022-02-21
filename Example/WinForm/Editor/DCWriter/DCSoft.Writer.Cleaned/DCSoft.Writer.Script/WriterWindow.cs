@@ -71,7 +71,7 @@ namespace DCSoft.Writer.Script
 		/// <summary>
 		///       初始化对象
 		///       </summary>
-		[DCInternal]
+		
 		public WriterWindow()
 		{
 			base.systemName = "DCWriter";
