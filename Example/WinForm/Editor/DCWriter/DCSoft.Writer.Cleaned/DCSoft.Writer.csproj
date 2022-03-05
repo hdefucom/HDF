@@ -2841,7 +2841,9 @@
     <EmbeddedResource Include="DCSoft.Writer.Commands\dlgEventBindingVBScript.resx" />
     <EmbeddedResource Include="DCSoft.Writer.Commands\dlgFileContentSource.resx" />
     <EmbeddedResource Include="DCSoft.Writer.Commands\dlgHorizontalLine.resx" />
-    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgImageElementEditor.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Commands\dlgImageElementEditor.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="DCSoft.Writer.Commands\dlgImagePartitionEditor.resx" />
     <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputFieldEditor.resx" />
     <EmbeddedResource Include="DCSoft.Writer.Commands\dlgInputFieldSettings.resx" />
@@ -2921,7 +2923,9 @@
     <EmbeddedResource Include="DCSoft.Writer.Controls\VB.bmp" />
     <EmbeddedResource Include="DCSoft.Writer.Controls\WriterCalculateControl.resx" />
     <EmbeddedResource Include="DCSoft.Writer.Controls\WriterControl.bmp" />
-    <EmbeddedResource Include="DCSoft.Writer.Controls\WriterControlExt.resx" />
+    <EmbeddedResource Include="DCSoft.Writer.Controls\WriterControlExt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="DCSoft.Writer.Controls\WriterPrintPreviewControl.bmp" />
     <EmbeddedResource Include="DCSoft.Writer.Controls\WriterPrintPreviewControl.resx" />
     <EmbeddedResource Include="DCSoft.Writer.Controls\XTreeListBoxEditControl2.resx" />

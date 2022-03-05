@@ -50,9 +50,11 @@
             this.textBox1.Size = new System.Drawing.Size(94, 21);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "💩";
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(475, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -64,6 +66,7 @@
             // glControl1
             // 
             this.glControl1.BackColor = System.Drawing.Color.Black;
+            this.glControl1.Enabled = false;
             this.glControl1.Location = new System.Drawing.Point(356, 201);
             this.glControl1.Name = "glControl1";
             this.glControl1.Size = new System.Drawing.Size(332, 138);
@@ -81,6 +84,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form6";
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.Form6_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form6_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

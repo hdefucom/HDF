@@ -16,6 +16,7 @@ public partial class Form6 : Form
     public Form6()
     {
         InitializeComponent();
+
     }
 
 
@@ -60,7 +61,7 @@ public partial class Form6 : Form
 
 
 
-		//List<Order> list.Where(o=>r.Desc.Contain(txtbox.text))
+        //List<Order> list.Where(o=>r.Desc.Contain(txtbox.text))
 
         var str = textBox1.Text;
 
@@ -102,6 +103,21 @@ public partial class Form6 : Form
     private void button1_Click(object sender, EventArgs e)
     {
         this.Invalidate();
+    }
+
+    private void textBox1_KeyDown(object sender, KeyEventArgs e)
+    {
+        Debug.WriteLineIf(e.KeyData.HasFlag(Keys.Shift), e.KeyData);
+    }
+
+    private void Form6_KeyDown(object sender, KeyEventArgs e)
+    {
+
+    }
+
+
+    private void Form6_Load(object sender, EventArgs e)
+    {
     }
 }
 

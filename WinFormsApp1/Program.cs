@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using PaddleOCRSharp;
+using System.ComponentModel;
 using System.IO.Compression;
 using System.Net;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -9,7 +10,6 @@ namespace WinFormsApp1;
 
 static class Program
 {
-
 
 
 
@@ -396,21 +396,81 @@ struct AAA
         }
 
 
+        if (false)
+        {//图像文本识别
+
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "*.*|*.bmp;*.jpg;*.jpeg;*.tiff;*.tiff;*.png";
+            if (ofd.ShowDialog() != DialogResult.OK)
+                return;
+
+            var imagebyte = File.ReadAllBytes(ofd.FileName);
+            Bitmap bitmap = new Bitmap(new MemoryStream(imagebyte));
+
+            OCRModelConfig config = null;
+            OCRParameter oCRParameter = new OCRParameter();
+
+            using PaddleOCREngine engine = new PaddleOCREngine(config, oCRParameter);
+
+            var ocrResult = engine.DetectText(bitmap);
+
+
+
+            var str = ocrResult.Text;
+
+        }
 
         {
 
-            var res = 1f.Convert(GraphicsUnit.Document, GraphicsUnit.Millimeter);
+
+
+            var s = default((string, string));
+
+            //var ps = Process.GetProcesses();
+
+            //var p = ps.First(p => p.Id == 50592);
+
+            //var c = Control.FromHandle(p.MainWindowHandle);
+
+
+            //
 
 
 
 
+
+            var list = Enumerable.Range(0, 100)
+                .Select(i => new { Age = i })
+
+
+
+                 .GroupBy(
+                a => a.Age / 10,
+                a => a,
+                (key, l) => l.ToList()
+                ).ToList()
+
+
+                 ;
+
+
+
+            var list2 = Enumerable.Range(0, 100)
+                .Select(i => new { Age = i })
+
+
+
+                 .GroupBy(
+                a => a.Age / 10
+                ).ToList()
+
+
+                 ;
 
 
 
 
         }
-
-
 
 
 
