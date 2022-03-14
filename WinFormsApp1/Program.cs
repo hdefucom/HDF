@@ -1,27 +1,19 @@
-﻿using PaddleOCRSharp;
-using System.ComponentModel;
-using System.IO.Compression;
-using System.Net;
+﻿using Microsoft.CSharp;
+using PaddleOCRSharp;
+using System.CodeDom.Compiler;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
-using System.Windows.Media.Imaging;
 
 namespace WinFormsApp1;
 
-static class Program
+internal static class Program
 {
-
-
-
     /// <summary>
     ///  The main entry point for the application.
     /// </summary>
     [STAThread]
-    //[MTAThread]
-    static unsafe void Main()
+    private static unsafe void Main()
     {
-
-
         /** Metrics global to the font, i.e. not specific to single
             glyphs. The font height is defined as
             ascent+descent+internalLeading, and therefore not explicitly
@@ -45,15 +37,11 @@ static class Program
             @since OpenOffice 2.0
          */
 
-
         if (false)
         {
-
             var obj = Clipboard.GetDataObject();
 
             var formats = obj.GetFormats();
-
-
 
             var stream = (MemoryStream)obj.GetData("Kingsoft Data Descriptor");
 
@@ -63,29 +51,21 @@ static class Program
 
             BinaryFormatter fm = new BinaryFormatter();
             var res = fm.Deserialize(stream);
-
-
         }
 
         if (false)
         {
-
             var obj = new { Name = "hdf", Age = 22 };
-
 
             var stream = File.Open(@"C:\Users\12131\Desktop\1.hcf", FileMode.OpenOrCreate, FileAccess.ReadWrite);
 
             var bytes = new byte[stream.Length];
 
             stream.Read(bytes, 0, bytes.Length);
-
-
-
         }
 
         if (false)
         {
-
             //C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
 
             {
@@ -93,7 +73,7 @@ static class Program
                 fixed (int* p = array)
                 {
                     //C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
-                    //由于int占用4字节，long占用8字节，所以要转成long*进行 long*-1 或者使用 int*-2 
+                    //由于int占用4字节，long占用8字节，所以要转成long*进行 long*-1 或者使用 int*-2
                     var len = *((long*)p - 1);
                     var len2 = *(p - 2);
                     var res = len == len2;//true
@@ -102,7 +82,6 @@ static class Program
                     var last = *(p + len - 1);//99
 
                     p[0] = 'h';//最后array[0]==104，h的ASCII码为104
-
                 }
             }
 
@@ -117,12 +96,9 @@ static class Program
 
                     p[0] = 'h';
                 }
-
-
             }
 
             {
-
                 /*
 struct AAA
 {
@@ -142,11 +118,9 @@ struct AAA
             }
 
             {
-
                 /*
                  对于基础数据类型都有明确的内存占用大小
                  */
-
 
                 var s1 = sizeof(sbyte);
                 var s2 = sizeof(short);
@@ -165,10 +139,8 @@ struct AAA
                 var s12 = sizeof(char);
                 var s13 = sizeof(bool);
 
-
                 var s14 = sizeof(nint);
                 var s15 = sizeof(nuint);
-
 
                 /*
                  基础值类型的可空类型大小为基础类型的双倍
@@ -184,13 +156,7 @@ struct AAA
                 var s41 = sizeof(double?);//16
                 var s42 = sizeof(decimal?);//20  ??? decimal为16
 
-
-
-
-
-
                 var s16 = sizeof(ValueTuple);
-
 
                 var s18 = sizeof(Point);
 
@@ -201,35 +167,23 @@ struct AAA
                 var s21 = IntPtr.Size;
                 var s22 = UIntPtr.Size;
 
-
                 var s23 = sizeof(ValueTuple<int>);
                 var s24 = sizeof(ValueTuple<int?>);
                 var s25 = sizeof(bool?);
                 var s26 = sizeof(Nullable<int>);
 
-
-
-
                 var s29 = sizeof(Rectangle);
                 var s30 = sizeof(Rectangle?);
                 var s31 = sizeof(Point?);
 
-
-
                 var s32 = sizeof(ValueTuple<int>?);
                 var s33 = sizeof(ValueTuple<int?>?);
-
 
                 var s34 = sizeof(ValueTuple<int, bool>?);
                 var s35 = sizeof(ValueTuple<int?, bool>?);
 
-
                 var s36 = sizeof(ValueTuple<int, bool>);
                 var s37 = sizeof(ValueTuple<int?, bool?>?);
-
-
-
-
 
                 //fixed (string* p = array)
                 //{
@@ -239,15 +193,10 @@ struct AAA
                 //    var last = *(p + len - 1);// 'c'
                 //}
             }
-
-
-
         }
 
         if (false)
         {
-
-
             var obj = Clipboard.GetDataObject();
 
             if (obj.GetDataPresent(DataFormats.Text))
@@ -266,16 +215,11 @@ struct AAA
             {
                 var data = obj.GetData(DataFormats.UnicodeText);
             }
-
         }
 
-
         {
-
-
             if (false)
             {
-
                 Stopwatch stopwatch = Stopwatch.StartNew();
 
                 int j = 0;
@@ -293,18 +237,14 @@ struct AAA
                     j += i;
                 }
 
-
                 stopwatch.Stop();
 
                 Console.WriteLine($"Output took {stopwatch.ElapsedMilliseconds} ms.");
-
             }
 
             if (false)
             {
-
                 Stopwatch stopwatch = Stopwatch.StartNew();
-
 
                 using FileStream stream = File.Open("1.txt", FileMode.OpenOrCreate, FileAccess.Write);
 
@@ -317,16 +257,11 @@ struct AAA
                 stopwatch.Stop();
 
                 Console.WriteLine($"Output took {stopwatch.ElapsedMilliseconds} ms.");
-
             }
-
         }
-
-
 
         if (false)
         {
-
             int rowColCount = 16;
             int tileSize = 128;
 
@@ -358,47 +293,33 @@ struct AAA
             watch.Stop();
             Console.WriteLine($"Output took {watch.ElapsedMilliseconds} ms.");
 
-
             //Rectangle rect = new Rectangle(0, 0, bitmap.Width, bitmap.Height);
             //BitmapData bmpData = bitmap.LockBits(rect, ImageLockMode.ReadWrite, bitmap.PixelFormat);
-
         }
 
-
         {
-
-
             var str = "你好";
 
             var res1 = string.Join(" ", Encoding.GetEncoding("gb2312").GetBytes(str).Select(b => Convert.ToString(b, 2)));
 
-
             var res2 = string.Join(" ", Encoding.UTF8.GetBytes(str).Select(b => Convert.ToString(b, 2)));
             var res3 = string.Join(" ", Encoding.UTF8.GetBytes(str).Select(b => Convert.ToString(b, 16)));
-
 
             var res4 = string.Join(" ", Encoding.Unicode.GetBytes(str).Select(b => Convert.ToString(b, 16)));
             // 60 4f 7d 59 //Encoding返回的byte数组和下方明文编码相反，byte为网络字节序（大端），明文为主机字节序（小端）
 
-
-
             var str2 = "\u4f60 \u597d";
-
 
             //sdfsdfsdf
 
             var str3 = "💩";
 
-
             var res5 = string.Join(" ", Encoding.Unicode.GetBytes(str3).Select(b => Convert.ToString(b, 16)));
             var res6 = string.Join(" ", Encoding.UTF8.GetBytes(str3).Select(b => Convert.ToString(b, 16)));
-
         }
-
 
         if (false)
         {//图像文本识别
-
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "*.*|*.bmp;*.jpg;*.jpeg;*.tiff;*.tiff;*.png";
             if (ofd.ShowDialog() != DialogResult.OK)
@@ -414,133 +335,142 @@ struct AAA
 
             var ocrResult = engine.DetectText(bitmap);
 
-
-
             var str = ocrResult.Text;
-
         }
 
         {
 
 
-
-            var s = default((string, string));
-
-            //var ps = Process.GetProcesses();
-
-            //var p = ps.First(p => p.Id == 50592);
-
-            //var c = Control.FromHandle(p.MainWindowHandle);
+            //CSharpCodeProvider cs = new CSharpCodeProvider();
 
 
-            //
+
+            //CodeCompileUnit compileUnit = new CodeCompileUnit();
 
 
 
 
 
-            var list = Enumerable.Range(0, 100)
-                .Select(i => new { Age = i })
 
 
 
-                 .GroupBy(
-                a => a.Age / 10,
-                a => a,
-                (key, l) => l.ToList()
-                ).ToList()
+
+            //var parser = cs.CreateParser();
 
 
-                 ;
+            //parser.Parse();
 
 
 
-            var list2 = Enumerable.Range(0, 100)
-                .Select(i => new { Age = i })
 
 
 
-                 .GroupBy(
-                a => a.Age / 10
-                ).ToList()
+
+            //var res = AnalysisCSharpExpression("\"HDF\"");
 
 
-                 ;
+
 
 
 
 
         }
-
-
 
         //if (false)
         {
-
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
             Application.Run(new Form6());
-
         }
-
-
-
     }
 
 
 
+
+
+    private static string AnalysisCSharpExpression(string code)
+    {
+
+        //每次都要编译，性能太差 有ExpressionEvaluator
+        try
+        {
+            CSharpCodeProvider cs = new CSharpCodeProvider();
+
+
+            ICodeCompiler cc = cs.CreateCompiler();
+
+
+
+            CompilerParameters cp = new CompilerParameters();
+
+
+
+
+            cp.GenerateInMemory = true;//设定在内存中创建程序集
+            cp.GenerateExecutable = false;//设定是否创建可执行文件,也就是exe文件或者dll文件
+            cp.ReferencedAssemblies.Add("System.dll");//此处代码是添加对应dll文件的引用
+            cp.ReferencedAssemblies.Add("System.Core.dll");//System.Linq存在于System.Core.dll文件中
+
+            string strExpre = "using System;";
+            strExpre += "      using System.Collections.Generic;                     ";
+            strExpre += "      using System.Linq;                                    ";
+            strExpre += "      using System.Text;                                    ";
+            strExpre += "      using System.Threading.Tasks;                         ";
+
+            strExpre += "      namespace HDFText{                                    ";
+            strExpre += "          public class TestClass{                           ";
+            strExpre += "              public string ExecuteCode(){                  ";
+            strExpre += "                  var obj = default(string);                ";
+            strExpre += "                  obj ??= \"Test:\";                        ";
+            strExpre += "                  Func<string> func = ()=> obj + " + code + ";    ";
+            strExpre += "                  return func.Invoke();                     ";
+            strExpre += "              }                                             ";
+            strExpre += "          }                                                 ";
+            strExpre += "      }";
+            CompilerResults cr = cc.CompileAssemblyFromSource(cp, strExpre);
+            if (cr.Errors.HasErrors)
+            {
+                Func<string> func = () => "" + "(" + "".Replace("公司", "").Replace("有限", "") + ")";
+                throw new Exception(cr.Errors.ToString());
+            }
+            else
+            {
+                //5.创建一个Assembly对象
+                Assembly ass = cr.CompiledAssembly;//动态编译程序集
+                object obj = ass.CreateInstance("HDFText.TestClass");
+                MethodInfo mi = obj.GetType().GetMethod("ExecuteCode");
+                return mi.Invoke(obj, null).ToString();
+            }
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+
+        return "";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
-record BBB();
 
-class AAA
-{
-    public int MyProperty { get; set; }
 
-    public void Test() { }
-}
 
 
 
 
 #region EventBus Test
-
-
-
-
-
-
-
-
-class Test1 : IInputData<int>
-{
-    //[Conditional("NET40")]
-    public void InputData(int data)
-    {
-        throw new NotImplementedException();
-    }
-}
-
-
-class Test2 : IInputData<string>
-{
-    public void InputData(string data)
-    {
-        throw new NotImplementedException();
-    }
-}
-
-
-
-
-
-
-
-
-
 
 public interface IInputData<in T>
 {
@@ -564,36 +494,17 @@ public interface IOutputData<out T>
     event Action<T> OutputData;
 }
 
-
-
-
-
 public class EventBus
 {
     private static EventBus _instance;
 
-    public static EventBus Instance => _instance ??= new EventBus();
-
-
-
     private Dictionary<Type, IInputData<object>> dict = new Dictionary<Type, IInputData<object>>();
-
-
-
-
 
     private EventBus()
     {
-
-
-
     }
 
-    public void Register<T>(IInputData<T> input)
-    {
-        //dict[input.GetType()] = input;
-
-    }
+    public static EventBus Instance => _instance ??= new EventBus();
 
     public void Publish<T>(T data)
     {
@@ -601,33 +512,16 @@ public class EventBus
             input.InputData(data);
     }
 
-
-
-
-
-
-
-
-
-}
-
-
-class Test : IInputData<int>
-{
-    public void InputData(int data)
+    public void Register<T>(IInputData<T> input)
     {
-
+        //dict[input.GetType()] = input;
     }
 }
 
-
-
-
-class Publisher
+internal class Publisher
 {
     public void PublishTeatAEvent(string value)
     {
-
         //EventBus.Instance.Register();
 
         //EventBus.Instance.GetEvent<TestAEvent>().Publish(this, new TestAEventArgs() { Value = value });
@@ -639,25 +533,43 @@ class Publisher
     }
 }
 
-class ScbscriberA
+internal class ScbscriberA
 {
-    public string Name { get; set; }
-
     public ScbscriberA(string name)
     {
         Name = name;
         //EventBus.Instance.GetEvent<TestAEvent>().Subscribe(TeatAEventHandler);
     }
 
+    public string Name { get; set; }
     //public void TeatAEventHandler(object sender, TestAEventArgs e)
     //{
     //    //Console.WriteLine(Name + ":" + e.Value);
     //}
 }
 
-#endregion
+internal class Test : IInputData<int>
+{
+    public void InputData(int data)
+    {
+    }
+}
 
+internal class Test1 : IInputData<int>
+{
+    //[Conditional("NET40")]
+    public void InputData(int data)
+    {
+        throw new NotImplementedException();
+    }
+}
 
+internal class Test2 : IInputData<string>
+{
+    public void InputData(string data)
+    {
+        throw new NotImplementedException();
+    }
+}
 
-
-
+#endregion EventBus Test

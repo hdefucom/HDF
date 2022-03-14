@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Windows.Forms;
+﻿using System.Text;
 
 namespace WinFormsApp1;
 
@@ -17,8 +8,36 @@ public partial class Form6 : Form
     {
         InitializeComponent();
 
-    }
 
+        var control = new TableRowColumnSelect()
+        {
+            Dock = DockStyle.Fill,
+            Size = new Size(100, 100),
+        };
+
+        ToolStripControlHost host = new ToolStripControlHost(control);
+
+
+        control.Selected += (_, e) =>
+        {
+            //toolStripDropDownButton1.HideDropDown();
+
+
+            if (host.OwnerItem is ToolStripDropDownItem dropdown)
+                dropdown.HideDropDown();
+
+
+        };
+
+
+
+
+
+        toolStripDropDownButton1.DropDownItems.Add(host);
+
+
+
+    }
 
 
 
@@ -116,13 +135,154 @@ public partial class Form6 : Form
     }
 
 
-    private void Form6_Load(object sender, EventArgs e)
-    {
-    }
 }
 
 
 
+
+internal class TableRowColumnSelect : Control
+{
+
+    const int CellSize = 15;
+    const int CellSpacing = 4;
+
+    int StartX;
+    int StartY;
+
+    int Row;
+    int Column;
+
+    int SelectRow;
+    int SelectColumn;
+
+
+
+    public TableRowColumnSelect()
+    {
+        this.DoubleBuffered = true;
+    }
+
+
+
+
+    protected override void OnSizeChanged(EventArgs e)
+    {
+        base.OnSizeChanged(e);
+
+        RefreshRowColumnCount();
+    }
+
+    private void RefreshRowColumnCount()
+    {
+        var cs = CellSize + CellSpacing;
+
+        var w = this.Width - CellSpacing;
+        var h = this.Height - CellSpacing;
+
+        Column = w / cs;
+        Row = h / cs;
+
+        if (Column < 1 || Row < 1)
+            return;
+
+
+        var ws = w % cs;
+        var hs = h % cs;
+
+
+        StartX = ws / 2 + CellSpacing;
+        StartY = hs / 2 + CellSpacing;
+    }
+
+    protected override void OnMouseMove(MouseEventArgs e)
+    {
+
+        var realr = 0;
+        var realc = 0;
+
+
+        if (e.X <= StartX || e.Y <= StartY)
+            goto Refresh;
+
+
+        var x = e.X - this.StartX;
+        var y = e.Y - this.StartX;
+
+
+        var cs = CellSize + CellSpacing;
+
+        realc = x / cs;
+        realr = y / cs;
+
+        var sw = x % cs;
+        var sh = y % cs;
+
+        if (sw > CellSpacing)
+            realc++;
+        if (sh > CellSpacing)
+            realr++;
+
+        if (realc > Column)
+            realc = Column;
+        if (realr > Row)
+            realr = Row;
+
+        Refresh:
+
+        if (realr != SelectRow || realc != SelectColumn)
+        {
+            SelectRow = realr;
+            SelectColumn = realc;
+            this.Invalidate();
+        }
+    }
+
+    public class TableRowColumnSelectedEventArgs : EventArgs
+    {
+        public int Row { get; }
+        public int Column { get; }
+
+        public TableRowColumnSelectedEventArgs(int row, int column)
+        {
+            this.Row = row;
+            this.Column = column;
+        }
+    }
+
+    public event EventHandler<TableRowColumnSelectedEventArgs> Selected;
+
+    protected override void OnMouseClick(MouseEventArgs e)
+    {
+        if (this.SelectRow < 1 || this.SelectColumn < 1)
+            return;
+
+        Selected?.Invoke(this, new TableRowColumnSelectedEventArgs(this.SelectRow, this.SelectColumn));
+    }
+
+
+    protected override void OnPaint(PaintEventArgs e)
+    {
+        var cs = CellSize + CellSpacing;
+
+        for (int i = 0; i < Row; i++)
+        {
+            for (int j = 0; j < Column; j++)
+            {
+                if (!this.DesignMode && i < SelectRow && j < SelectColumn)
+                {
+                    e.Graphics.DrawRectangle(Pens.Orange, StartX + j * cs, StartY + i * cs, CellSize, CellSize);
+                    e.Graphics.DrawRectangle(Pens.Red, StartX + j * cs - 1, StartY + i * cs - 1, CellSize + 2, CellSize + 2);
+                }
+                else
+                    e.Graphics.DrawRectangle(Pens.Black, StartX + j * cs, StartY + i * cs, CellSize, CellSize);
+            }
+        }
+
+    }
+
+
+
+}
 
 
 
