@@ -1,6 +1,8 @@
-﻿using Microsoft.CSharp;
+﻿using Microsoft.AspNet.SignalR.Client;
+using Microsoft.CSharp;
 using PaddleOCRSharp;
 using System.CodeDom.Compiler;
+using System.Dynamic;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 
@@ -12,7 +14,7 @@ internal static class Program
     ///  The main entry point for the application.
     /// </summary>
     [STAThread]
-    private static unsafe void Main()
+    private static /*unsafe*/ async Task Main()
     {
         /** Metrics global to the font, i.e. not specific to single
             glyphs. The font height is defined as
@@ -66,37 +68,37 @@ internal static class Program
 
         if (false)
         {
-            //C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
+            ////C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
 
-            {
-                var array = Enumerable.Range(0, 100).ToArray();
-                fixed (int* p = array)
-                {
-                    //C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
-                    //由于int占用4字节，long占用8字节，所以要转成long*进行 long*-1 或者使用 int*-2
-                    var len = *((long*)p - 1);
-                    var len2 = *(p - 2);
-                    var res = len == len2;//true
+            //{
+            //    var array = Enumerable.Range(0, 100).ToArray();
+            //    fixed (int* p = array)
+            //    {
+            //        //C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
+            //        //由于int占用4字节，long占用8字节，所以要转成long*进行 long*-1 或者使用 int*-2
+            //        var len = *((long*)p - 1);
+            //        var len2 = *(p - 2);
+            //        var res = len == len2;//true
 
-                    var first = *p;//0
-                    var last = *(p + len - 1);//99
+            //        var first = *p;//0
+            //        var last = *(p + len - 1);//99
 
-                    p[0] = 'h';//最后array[0]==104，h的ASCII码为104
-                }
-            }
+            //        p[0] = 'h';//最后array[0]==104，h的ASCII码为104
+            //    }
+            //}
 
-            {
-                var array = Enumerable.Range(0, 100).Select(i => (char)i).ToArray();
-                fixed (char* p = array)
-                {
-                    var len = *((long*)p - 1);
+            //{
+            //    var array = Enumerable.Range(0, 100).Select(i => (char)i).ToArray();
+            //    fixed (char* p = array)
+            //    {
+            //        var len = *((long*)p - 1);
 
-                    var first = *p;
-                    var last = *(p + len - 1);// 'c'
+            //        var first = *p;
+            //        var last = *(p + len - 1);// 'c'
 
-                    p[0] = 'h';
-                }
-            }
+            //        p[0] = 'h';
+            //    }
+            //}
 
             {
                 /*
@@ -139,51 +141,51 @@ struct AAA
                 var s12 = sizeof(char);
                 var s13 = sizeof(bool);
 
-                var s14 = sizeof(nint);
-                var s15 = sizeof(nuint);
+                //var s14 = sizeof(nint);
+                //var s15 = sizeof(nuint);
 
                 /*
                  基础值类型的可空类型大小为基础类型的双倍
                  */
 
-                var s38 = sizeof(bool?);//2
-                var s39 = sizeof(byte?);//2
-                var s40 = sizeof(short?);//4
-                var s17 = sizeof(int?);//8
-                var s27 = sizeof(long?);//16
-                var s28 = sizeof(char?);//4
-                var s43 = sizeof(float?);//8
-                var s41 = sizeof(double?);//16
-                var s42 = sizeof(decimal?);//20  ??? decimal为16
+                //var s38 = sizeof(bool?);//2
+                //var s39 = sizeof(byte?);//2
+                //var s40 = sizeof(short?);//4
+                //var s17 = sizeof(int?);//8
+                //var s27 = sizeof(long?);//16
+                //var s28 = sizeof(char?);//4
+                //var s43 = sizeof(float?);//8
+                //var s41 = sizeof(double?);//16
+                //var s42 = sizeof(decimal?);//20  ??? decimal为16
 
-                var s16 = sizeof(ValueTuple);
+                //var s16 = sizeof(ValueTuple);
 
-                var s18 = sizeof(Point);
+                //var s18 = sizeof(Point);
 
-                var s19 = sizeof(IntPtr);
+                //var s19 = sizeof(IntPtr);
 
-                var s20 = sizeof(UIntPtr);
+                //var s20 = sizeof(UIntPtr);
 
-                var s21 = IntPtr.Size;
-                var s22 = UIntPtr.Size;
+                //var s21 = IntPtr.Size;
+                //var s22 = UIntPtr.Size;
 
-                var s23 = sizeof(ValueTuple<int>);
-                var s24 = sizeof(ValueTuple<int?>);
-                var s25 = sizeof(bool?);
-                var s26 = sizeof(Nullable<int>);
+                //var s23 = sizeof(ValueTuple<int>);
+                //var s24 = sizeof(ValueTuple<int?>);
+                //var s25 = sizeof(bool?);
+                //var s26 = sizeof(Nullable<int>);
 
-                var s29 = sizeof(Rectangle);
-                var s30 = sizeof(Rectangle?);
-                var s31 = sizeof(Point?);
+                //var s29 = sizeof(Rectangle);
+                //var s30 = sizeof(Rectangle?);
+                //var s31 = sizeof(Point?);
 
-                var s32 = sizeof(ValueTuple<int>?);
-                var s33 = sizeof(ValueTuple<int?>?);
+                //var s32 = sizeof(ValueTuple<int>?);
+                //var s33 = sizeof(ValueTuple<int?>?);
 
-                var s34 = sizeof(ValueTuple<int, bool>?);
-                var s35 = sizeof(ValueTuple<int?, bool>?);
+                //var s34 = sizeof(ValueTuple<int, bool>?);
+                //var s35 = sizeof(ValueTuple<int?, bool>?);
 
-                var s36 = sizeof(ValueTuple<int, bool>);
-                var s37 = sizeof(ValueTuple<int?, bool?>?);
+                //var s36 = sizeof(ValueTuple<int, bool>);
+                //var s37 = sizeof(ValueTuple<int?, bool?>?);
 
                 //fixed (string* p = array)
                 //{
@@ -339,35 +341,34 @@ struct AAA
         }
 
         {
+            //dynamic obj = new TestDynamic();
+
+            //obj.Test();
+
+            //var a = obj.A;
+
+            //foreach (var item in obj)
+            //{
+
+            //}
 
 
-            //CSharpCodeProvider cs = new CSharpCodeProvider();
+        }
 
+        if (false)
+        {
 
-
-            //CodeCompileUnit compileUnit = new CodeCompileUnit();
-
-
-
-
-
-
-
-
-
-            //var parser = cs.CreateParser();
-
-
-            //parser.Parse();
-
+            var i = 1;
 
 
 
+            var str1 = Convert.ToString(i, 2);
+
+            i <<= 1;
 
 
 
-            //var res = AnalysisCSharpExpression("\"HDF\"");
-
+            var str2 = Convert.ToString(i, 2);
 
 
 
@@ -375,6 +376,69 @@ struct AAA
 
 
         }
+
+        if (false)
+        {
+
+            /*
+             * Asp.Net SignalR 和 Asp.Net Core SignalR 不兼容
+             * 但是 Asp.Net SignalR 的客户端可以支持 .NetFramework4.0 和 .NetStandard2.0
+             * 所以 .Net6 的客户端可以连接 .NetFramework4.5 的 Service
+             * 但是 .NetFramework4.0 的客户端任然无法连接 .Net6 的 Service ,
+             * 因为 Asp.Net SignalR 并不只支持 .NetStandard2.0 
+             
+
+            
+
+
+             */
+
+
+
+            HubConnection connection = new HubConnection("http://localhost:5000/test", false);
+
+
+            connection.ConnectionSlow += () => Console.WriteLine("ConnectionSlow");
+            connection.Closed += () => Console.WriteLine("Closed");
+            connection.Error += e => Console.WriteLine(e);
+            connection.Received += s => Console.WriteLine("Received:" + s);
+            connection.Reconnected += () => Console.WriteLine("Reconnected");
+            connection.Reconnecting += () => Console.WriteLine("Reconnecting");
+            connection.StateChanged += s => Console.WriteLine("StateChanged");
+
+
+
+            var hubProxy = connection.CreateHubProxy("test");
+
+            hubProxy.On<string, string>("TestMessage", (s1, s2) => Console.WriteLine("hubProxy-->On"));
+
+
+
+            await connection.Start();
+
+
+
+
+
+            Console.WriteLine("Please type 'Y' key to rate");
+            var input = Console.ReadKey().Key;
+            while (input == ConsoleKey.Y)
+            {
+                await hubProxy.Invoke("SendMessage", "hdf", DateTime.Now.ToString());
+
+                input = Console.ReadKey().Key;
+            }
+
+
+
+
+
+        }
+
+
+
+
+
 
         //if (false)
         {
@@ -452,21 +516,54 @@ struct AAA
     }
 
 
+}
+
+
+
+public class TestDynamic : DynamicObject
+{
+
+    public override IEnumerable<string> GetDynamicMemberNames()
+    {
+        return new List<string>() { "A", "B" };
+    }
+
+
+
+    public override bool TryGetMember(GetMemberBinder binder, out object result)
+    {
+
+
+        return base.TryGetMember(binder, out result);
+    }
+
+
+
+
+    public override bool TrySetMember(SetMemberBinder binder, object value)
+    {
+        return base.TrySetMember(binder, value);
+    }
 
 
 
 
 
+
+    public void Test([CallerFilePath] string str = "")
+    {
+        dynamic obj = this;
+
+        var res = obj.A;
+
+
+    }
 
 
 
 
 
 }
-
-
-
-
 
 
 
