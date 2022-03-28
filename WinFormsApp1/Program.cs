@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNet.SignalR.Client;
-using Microsoft.CSharp;
+﻿using Microsoft.CSharp;
 using PaddleOCRSharp;
 using System.CodeDom.Compiler;
 using System.Dynamic;
@@ -14,7 +13,7 @@ internal static class Program
     ///  The main entry point for the application.
     /// </summary>
     [STAThread]
-    private static /*unsafe*/ async Task Main()
+    private static /*unsafe*/ /*async*/ /*Task*/ void Main()
     {
         /** Metrics global to the font, i.e. not specific to single
             glyphs. The font height is defined as
@@ -393,7 +392,7 @@ struct AAA
 
              */
 
-
+            /*
 
             HubConnection connection = new HubConnection("http://localhost:5000/test", false);
 
@@ -413,10 +412,7 @@ struct AAA
             hubProxy.On<string, string>("TestMessage", (s1, s2) => Console.WriteLine("hubProxy-->On"));
 
 
-
             await connection.Start();
-
-
 
 
 
@@ -430,11 +426,18 @@ struct AAA
             }
 
 
-
+            */
 
 
         }
 
+
+
+        {
+
+
+
+        }
 
 
 
@@ -445,7 +448,7 @@ struct AAA
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Form6());
+            Application.Run(new Form7());
         }
     }
 
@@ -517,6 +520,28 @@ struct AAA
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
