@@ -379,6 +379,9 @@ struct AAA
         if (false)
         {
 
+
+
+
             /*
              * Asp.Net SignalR 和 Asp.Net Core SignalR 不兼容
              * 但是 Asp.Net SignalR 的客户端可以支持 .NetFramework4.0 和 .NetStandard2.0
@@ -434,6 +437,10 @@ struct AAA
 
 
         {
+
+
+
+
 
 
 
