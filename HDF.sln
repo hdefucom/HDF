@@ -128,9 +128,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wasm.Test", "Example\Web\Wa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{EAFA31DD-F444-406B-B980-0A88EA3FAEE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.SignalR.Test", "Example\Web\SignalR\HDF.SignalR.Test\HDF.SignalR.Test.csproj", "{2C4023FF-C6B0-4AC6-B085-097B93CC5741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.SignalR.Test", "Example\Web\SignalR\HDF.SignalR.Test\HDF.SignalR.Test.csproj", "{2C4023FF-C6B0-4AC6-B085-097B93CC5741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.SignalR.Client.Console", "Example\Web\SignalR\HDF.SignalR.Client.Console\HDF.SignalR.Client.Console.csproj", "{00EA0AB7-B39F-40D5-A69F-15412BD951F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.SignalR.Client.Console", "Example\Web\SignalR\HDF.SignalR.Client.Console\HDF.SignalR.Client.Console.csproj", "{00EA0AB7-B39F-40D5-A69F-15412BD951F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp3", "WinFormsApp3\WinFormsApp3.csproj", "{F6F6A608-38C4-4906-A9FD-51F33D540120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -536,6 +538,18 @@ Global
 		{00EA0AB7-B39F-40D5-A69F-15412BD951F2}.Release|x64.Build.0 = Release|Any CPU
 		{00EA0AB7-B39F-40D5-A69F-15412BD951F2}.Release|x86.ActiveCfg = Release|Any CPU
 		{00EA0AB7-B39F-40D5-A69F-15412BD951F2}.Release|x86.Build.0 = Release|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Debug|x64.Build.0 = Debug|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Debug|x86.Build.0 = Debug|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Release|x64.ActiveCfg = Release|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Release|x64.Build.0 = Release|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Release|x86.ActiveCfg = Release|Any CPU
+		{F6F6A608-38C4-4906-A9FD-51F33D540120}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
