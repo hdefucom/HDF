@@ -15,6 +15,7 @@ namespace WinFormsApp3
         static void Main()
         {
 
+            if (false)
             {
 
                 //https://github.com/cefsharp/CefSharp/issues/1714
@@ -27,10 +28,10 @@ namespace WinFormsApp3
             }
 
 
-            if (false)
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
+
 
                 Application.Run(new Form_WebView2());
             }

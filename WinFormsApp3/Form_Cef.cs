@@ -8,7 +8,7 @@ namespace WinFormsApp3
         {
             InitializeComponent();
 
-            chromiumWebBrowser1.LoadUrl("https://www.baidu.com");
+            chromiumWebBrowser1.LoadUrl("http://192.168.0.13/his/#/login");
         }
     }
 }
