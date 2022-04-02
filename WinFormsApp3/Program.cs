@@ -1,4 +1,7 @@
+using CefSharp;
+using CefSharp.WinForms;
 using System;
+using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
 namespace WinFormsApp3
@@ -12,12 +15,41 @@ namespace WinFormsApp3
         static void Main()
         {
 
+            CefRuntime.SubscribeAnyCpuAssemblyResolver();
+
+
+            LoadApp();
+
+
+
+
 
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Form1());
+            Application.Run(new Form2());
         }
+
+
+
+
+
+        [MethodImpl(MethodImplOptions.NoInlining)]
+        private static void LoadApp()
+        {
+            var settings = new CefSettings();
+
+            Cef.Initialize(settings, performDependencyCheck: true, browserProcessHandler: null);
+
+            //var browser = new BrowserForm();
+            //Application.Run(browser);
+        }
+
+
+
+
+
+
     }
 }

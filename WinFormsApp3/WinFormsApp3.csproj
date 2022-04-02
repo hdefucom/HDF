@@ -8,6 +8,10 @@
 		<!--没有指定平台，WebView2无法初始化成功-->
 		<PlatformTarget>AnyCPU</PlatformTarget>
 
+
+		<CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+		
+		
 	</PropertyGroup>
 
 	<!--<PropertyGroup Condition="'$(Platform)'=='x64'">
@@ -23,6 +27,7 @@
 
 
 	<ItemGroup>
+		<PackageReference Include="CefSharp.WinForms" Version="99.2.140" />
 		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1189-prerelease" />
 	</ItemGroup>
 
