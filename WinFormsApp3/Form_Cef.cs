@@ -2,9 +2,9 @@
 
 namespace WinFormsApp3
 {
-    public partial class Form2 : Form
+    public partial class Form_Cef : Form
     {
-        public Form2()
+        public Form_Cef()
         {
             InitializeComponent();
 

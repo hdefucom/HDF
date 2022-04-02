@@ -15,20 +15,29 @@ namespace WinFormsApp3
         static void Main()
         {
 
-            CefRuntime.SubscribeAnyCpuAssemblyResolver();
+            {
+
+                //https://github.com/cefsharp/CefSharp/issues/1714
+                //如需支持AnyCpu，可采用调用前连接
+                //添加项目文件配置<CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>和下面这行代码
+                CefRuntime.SubscribeAnyCpuAssemblyResolver();
 
 
-            LoadApp();
+                LoadApp();
+            }
+
+
+            if (false)
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+
+                Application.Run(new Form_WebView2());
+            }
 
 
 
 
-
-
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-
-            Application.Run(new Form2());
         }
 
 
@@ -42,8 +51,7 @@ namespace WinFormsApp3
 
             Cef.Initialize(settings, performDependencyCheck: true, browserProcessHandler: null);
 
-            //var browser = new BrowserForm();
-            //Application.Run(browser);
+            Application.Run(new Form_Cef());
         }
 
 

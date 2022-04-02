@@ -2,9 +2,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp3
 {
-    public partial class Form1 : Form
+    public partial class Form_WebView2 : Form
     {
-        public Form1()
+        public Form_WebView2()
         {
             InitializeComponent();
             HandleResize();

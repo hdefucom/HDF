@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp3
 {
-    partial class Form2
+    partial class Form_Cef
     {
         /// <summary>
         /// Required designer variable.
