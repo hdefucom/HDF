@@ -6,10 +6,11 @@
 		<UseWindowsForms>true</UseWindowsForms>
 
 		<!--没有指定平台，WebView2无法初始化成功-->
-		<PlatformTarget>AnyCPU</PlatformTarget>
+		<!--<PlatformTarget>AnyCPU</PlatformTarget>-->
 
+		<PlatformTarget>x86</PlatformTarget>
 
-		<CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+		<!--<CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>-->
 		
 		
 	</PropertyGroup>

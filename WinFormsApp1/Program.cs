@@ -537,22 +537,6 @@ struct AAA
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class TestDynamic : DynamicObject
 {
 
@@ -703,3 +687,12 @@ internal class Test2 : IInputData<string>
 }
 
 #endregion EventBus Test
+
+
+
+
+
+
+
+
+
