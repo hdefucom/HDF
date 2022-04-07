@@ -17,8 +17,6 @@ namespace WinFormsApp3
 
 
 
-
-
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
