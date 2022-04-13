@@ -31,14 +31,13 @@ namespace WinFormsApp1
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // Form_ClickAnimation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Form_ClickAnimation";
             this.Text = "Form1";
             this.ResumeLayout(false);
 

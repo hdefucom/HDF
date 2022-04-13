@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
-using System.Net.Mail;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -13,7 +12,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Test;
+using WinFormsApp1;
 
 namespace HDF.Framework.Text
 {
@@ -33,7 +32,7 @@ namespace HDF.Framework.Text
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form5());
+            Application.Run(new Form_ClickAnimation());
 
 
             Console.WriteLine("this is hdf's first project!");
@@ -667,39 +666,39 @@ namespace HDF.Framework.Text
 
 
             {
-                string server = "smtp.qq.com";
+                //string server = "smtp.qq.com";
 
-                MailMessage message = new MailMessage(
-                    "1213159982@qq.com",
-                    "2389131181@qq.com",
-                    "HDF Test.",
-                    "The Body for HDF to CB Email.");
+                //MailMessage message = new MailMessage(
+                //    "1213159982@qq.com",
+                //    "2389131181@qq.com",
+                //    "HDF Test.",
+                //    "The Body for HDF to CB Email.");
 
-                string pwd = "atxgjeyaaofyjcfd";
-
-
-
-                SmtpClient client = new SmtpClient(server);
-
-                client.Credentials = new NetworkCredential("1213159982@qq.com", pwd);//smtp用户名密码
+                //string pwd = "atxgjeyaaofyjcfd";
 
 
+
+                //SmtpClient client = new SmtpClient(server);
+
+                //client.Credentials = new NetworkCredential("1213159982@qq.com", pwd);//smtp用户名密码
 
 
 
 
-                //client.DeliveryMethod = SmtpDeliveryMethod.Network;
 
 
-                try
-                {
-                    client.Send(message);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Exception caught in CreateMessageWithAttachment(): {0}",
-                        ex.ToString());
-                }
+                ////client.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+
+                //try
+                //{
+                //    client.Send(message);
+                //}
+                //catch (Exception ex)
+                //{
+                //    Console.WriteLine("Exception caught in CreateMessageWithAttachment(): {0}",
+                //        ex.ToString());
+                //}
 
             }
 
@@ -770,9 +769,7 @@ namespace HDF.Framework.Text
             }
 
             {
-                List<int> list = new List<int>();
 
-                //var a = list[0..1];
 
 
             }

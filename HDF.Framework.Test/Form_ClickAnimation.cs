@@ -38,7 +38,7 @@ namespace WinFormsApp1
 
         }
 
-        Timer timer = new Timer() { Interval = 5, Enabled = false };
+        Timer timer = new Timer() { Interval = 1, Enabled = false };
 
 
         private int width;
@@ -54,7 +54,7 @@ namespace WinFormsApp1
             e.Graphics.TextRenderingHint = TextRenderingHint.ClearTypeGridFit;
             e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
 
-            var bursh = new SolidBrush(Color.FromArgb(50, 100, 100, 100));
+            var bursh = new SolidBrush(Color.FromArgb(80, 100, 100, 100));
 
             var rect = new Rectangle(clickpoint.X - width, clickpoint.Y - width, 2 * width, 2 * width);
 
