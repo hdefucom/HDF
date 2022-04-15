@@ -1,6 +1,7 @@
 ﻿using Microsoft.CSharp;
 using PaddleOCRSharp;
 using System.CodeDom.Compiler;
+using System.Drawing.Printing;
 using System.Dynamic;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
@@ -15,6 +16,11 @@ internal static class Program
     [STAThread]
     private static /*unsafe*/ /*async*/ /*Task*/ void Main()
     {
+
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+
+
         /** Metrics global to the font, i.e. not specific to single
             glyphs. The font height is defined as
             ascent+descent+internalLeading, and therefore not explicitly
@@ -439,11 +445,66 @@ struct AAA
         {
 
 
+            PageSettings docsetting = new PageSettings();
+
+            using PrintDocument print = new PrintDocument();
+
+            var pst = print.PrinterSettings;
+
+            var setting = pst.DefaultPageSettings;
+            setting.PaperSize = docsetting.PaperSize;
+            setting.Margins = docsetting.Margins;
+            setting.Landscape = docsetting.Landscape;
+
+
+            print.PrintPage += (_, pe) =>
+            {
+                var g = pe.Graphics;
+
+                g.DrawString("HDF", Control.DefaultFont, Brushes.Black, 0, 0);
+            };
+
+            {
+                //PrintPreviewDialog dialog = new PrintPreviewDialog();
+
+                //dialog.Document = print;
+
+                //var res = dialog.ShowDialog();
 
 
 
+            }
+
+            {
+                PrintDialog dialog = new PrintDialog();
 
 
+
+                //dialog.AllowCurrentPage = true;  //默认false，
+                //dialog.AllowSelection = true;    //默认false，允许选定范围
+                //dialog.AllowSomePages = true;    //默认false，允许选择页码范围
+
+                //dialog.AllowPrintToFile = false; //默认true，显示打印到文件复选框
+                //dialog.ShowHelp = true;          //默认false，显示帮助按钮
+                dialog.ShowNetwork = false;         //默认true，
+
+                //dialog.UseEXDialog = true;       //默认false，打印对话框的样式
+
+                var res = dialog.ShowDialog();
+
+
+
+            }
+
+            {
+
+                //PageSetupDialog dialog = new();
+
+                //dialog.Document = print;
+
+                //var res = dialog.ShowDialog();
+
+            }
 
         }
 
@@ -453,9 +514,6 @@ struct AAA
 
         //if (false)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-
             Application.Run(new Form7());
         }
     }
@@ -531,7 +589,16 @@ struct AAA
 
 
 
+public class TestPrint : PrintDocument
+{
 
+    protected override void OnPrintPage(PrintPageEventArgs e)
+    {
+        base.OnPrintPage(e);
+    }
+
+
+}
 
 
 

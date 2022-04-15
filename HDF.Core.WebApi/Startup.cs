@@ -26,6 +26,7 @@ namespace HDF.Core.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
 
+
             services.AddControllers();
 
             services.AddSwaggerGen(option =>

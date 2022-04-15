@@ -13,6 +13,7 @@ namespace WinFormsApp3
         {
 
 
+
             //I Enum er able
 
 
@@ -22,8 +23,18 @@ namespace WinFormsApp3
                 Application.SetCompatibleTextRenderingDefault(false);
 
 
+
+
+
+
+
+
                 Application.Run(new Form3());
             }
+
+
+
+
 
 
 

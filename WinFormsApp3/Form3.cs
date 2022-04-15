@@ -1,5 +1,7 @@
 ﻿using AForge.Video;
 using AForge.Video.DirectShow;
+using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -16,6 +18,14 @@ public partial class Form3 : Form
     private void Form3_Load(object sender, System.EventArgs e)
     {
 
+        this.listBox1.DisplayMember = "Key";
+        this.listBox1.ValueMember = "Value";
+
+        this.listBox1.DataSource = new List<KeyValuePair<string, Type>> {
+        new ("数字", typeof(double)),
+        new ("日期时间", typeof(DateTime)),
+        new ("字符", typeof(string)),
+        };
     }
 
     private void button5_Click(object sender, System.EventArgs e)
@@ -57,10 +67,13 @@ public partial class Form3 : Form
     private void button1_Click(object sender, System.EventArgs e)
     {
         pz = true;
+
+
+        var obj = this.listBox1.SelectedValue;
     }
 
+    private void button2_Click(object sender, EventArgs e)
+    {
 
-
-
-
+    }
 }
