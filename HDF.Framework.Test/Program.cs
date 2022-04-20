@@ -1,4 +1,5 @@
-﻿using Microsoft.CSharp;
+﻿using HDF.Framework.Text.LeetCode;
+using Microsoft.CSharp;
 using System;
 //using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -12,7 +13,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WinFormsApp1;
 
 namespace HDF.Framework.Text
 {
@@ -32,7 +32,7 @@ namespace HDF.Framework.Text
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_ClickAnimation());
+            //Application.Run(new Form_ClickAnimation());
 
 
             Console.WriteLine("this is hdf's first project!");
@@ -770,7 +770,7 @@ namespace HDF.Framework.Text
 
             {
 
-
+                new Solution_9_回文数().Test();
 
             }
 
@@ -1627,9 +1627,224 @@ namespace HDF.Framework.Text
 
         }
 
+        public class Solution_8_字符串转换整数atoi
+        {
+
+            /*
+             * 
+             * 
+请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
+
+函数 myAtoi(string s) 的算法如下：
+
+1.读入字符串并丢弃无用的前符（假设还未到字符末尾）为正还是负号导空格
+2.检查下一个字，读取该字符（如果有）。 确定最终结果是负数还是正数。 如果两者都不存在，则假定结果为正。
+3.读入下一个字符，直到到达下一个非数字字符或到达输入的结尾。字符串的其余部分将被忽略。
+4.将前面步骤读入的这些数字转换为整数（即，"123" -> 123， "0032" -> 32）。如果没有读入数字，则整数为 0 。必要时更改符号（从步骤 2 开始）。
+5.如果整数数超过 32 位有符号整数范围 [−231,  231 − 1] ，需要截断这个整数，使其保持在这个范围内。具体来说，小于 −231 的整数应该被固定为 −231 ，大于 231 − 1 的整数应该被固定为 231 − 1 。
+6.返回整数作为最终结果。
+
+             
+             */
+
+
+            /// <summary>
+            /// 原始版本
+            /// </summary>
+            /// <param name="s"></param>
+            /// <returns></returns>
+            public int MyAtoi1(string s)
+            {
+                if (s == null || s == String.Empty)
+                    return 0;
+
+                int res = 0;
+
+                bool start = false;
+
+                bool isf = false;
+
+
+                for (int i = 0; i < s.Length; i++)
+                {
+                    if (!start && s[i] == ' ') { }
+                    else if (!start && s[i] == '-')
+                    {
+                        isf = true;
+                        start = true;
+
+
+                    }
+                    else if (!start && s[i] == '+')
+                    {
+                        start = true;
+
+                    }
+                    else if (char.IsDigit(s[i]))
+                    {
+
+                        if (res > (int.MaxValue - s[i] + '0') / 10)
+                            return isf ? int.MinValue : int.MaxValue;
+
+
+                        start = true;
+
+
+                        res *= 10;
+                        res += s[i] - '0';
+
+                    }
+                    else
+                        break;
+
+
+                }
+
+                return isf ? 0 - res : res; ;
+            }
+
+
+            /// <summary>
+            /// 优化版本
+            /// </summary>
+            /// <param name="s"></param>
+            /// <returns></returns>
+            public int MyAtoi(string s)
+            {
+                if (s == null || s == String.Empty)
+                    return 0;
+
+                int res = 0;
+
+                int i = 0;
+                //去除前置空格
+                while (i < s.Length && s[i] == ' ')
+                    i++;
+                if (i == s.Length)
+                    return 0;
+
+                //判断正负号
+                bool isf = s[i] == '-';
+                if (s[i] == '-' || s[i] == '+')
+                    i++;
+
+
+                while (i < s.Length && char.IsDigit(s[i]))
+                {
+                    if (res > (int.MaxValue - s[i] + '0') / 10)
+                        return isf ? int.MinValue : int.MaxValue;
+
+                    res *= 10;
+                    res += s[i] - '0';
+
+                    i++;
+                }
+
+                return isf ? 0 - res : res; ;
+            }
 
 
 
+            public void Test()
+            {
+
+                var res1 = MyAtoi("42");
+                var res2 = MyAtoi("   -42");
+                var res3 = MyAtoi("4193 with words");
+                var res4 = MyAtoi("words and 987");
+                var res5 = MyAtoi("-91283472332");
+                var res6 = MyAtoi("2147483646");
+                var res7 = MyAtoi("");
+                var res8 = MyAtoi(" ");
+
+            }
+
+
+
+
+
+        }
+
+
+        public class Solution_9_回文数
+        {
+            public bool IsPalindrome(int x)
+            {
+                if (x < 0)
+                    return false;
+                if (x < 10)
+                    return true;
+                if (x % 10 == 0)
+                    return false;
+
+                //计算数字的位数
+                int i = 10;
+                while (x / 10 >= i)
+                    i *= 10;
+
+                //i为左边索引，j为右边索引
+                int j = 1;
+
+                //如果左右索引相同或相邻，退出循环
+                while (i != j && i / 10 != j)
+                {
+                    if (x / i % 10 != x / j % 10)
+                        return false;
+
+                    //判断相同后，左右各往中间移动一位
+                    i /= 10;
+                    j *= 10;
+                }
+
+                //如果左右索引相邻，判断结果
+                if (i / 10 == j)
+                    return x / i % 10 == x / j % 10;
+
+                return true;
+            }
+
+
+            /// <summary>
+            /// 简洁实现方法，但是性能貌似比第一种差
+            /// </summary>
+            /// <param name="x"></param>
+            /// <returns></returns>
+            public bool IsPalindrome2(int x)
+            {
+
+                if (x < 0)
+                    return false;
+                int rem = 0, y = 0;
+                int quo = x;
+                while (quo != 0)
+                {
+                    rem = quo % 10;
+                    y = y * 10 + rem;
+                    quo = quo / 10;
+                }
+                return y == x;
+            }
+
+
+            public void Test()
+            {
+                var res1 = IsPalindrome(121);
+                var res2 = IsPalindrome(-121);
+                var res3 = IsPalindrome(10);
+                var res4 = IsPalindrome(10101);
+                var res5 = IsPalindrome(101101);
+
+
+                var res6 = IsPalindrome(123454321);
+                var res7 = IsPalindrome(1234554321);
+                var res8 = IsPalindrome(134554321);
+                var res9 = IsPalindrome(100);
+                var res10 = IsPalindrome(1410110141);
+            }
+
+
+
+        }
 
 
     }
