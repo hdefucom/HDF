@@ -3,6 +3,7 @@ using AForge.Video.DirectShow;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormsApp3;
@@ -72,8 +73,37 @@ public partial class Form3 : Form
         var obj = this.listBox1.SelectedValue;
     }
 
-    private void button2_Click(object sender, EventArgs e)
+    private async void button2_Click(object sender, EventArgs e)
     {
+        button2.Enabled = false;
+
+        await Task.Delay(2000);
+
+        this.listBox1.SelectedIndex = (this.listBox1.SelectedIndex + 1) % 3;
+
+        button2.Enabled = true;
 
     }
+}
+
+
+public class Test
+{
+
+
+    public async Task M1()
+    {
+        await Task.Delay(1000);
+    }
+
+
+    public async Task<string> M2()
+    {
+        await Task.Delay(1000);
+
+
+        //AsyncTaskMethodBuilder<>
+        return "HDF";
+    }
+
 }
