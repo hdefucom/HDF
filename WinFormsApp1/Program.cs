@@ -1,4 +1,6 @@
-﻿using Microsoft.CSharp;
+﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+using Microsoft.CSharp;
 using PaddleOCRSharp;
 using System.CodeDom.Compiler;
 using System.Drawing.Printing;
@@ -16,6 +18,7 @@ internal static class Program
     [STAThread]
     private static /*unsafe*/ /*async*/ /*Task*/ void Main()
     {
+
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
@@ -445,6 +448,12 @@ struct AAA
         {
 
 
+        }
+
+        if (false)
+        {
+
+
             PageSettings docsetting = new PageSettings();
 
             using PrintDocument print = new PrintDocument();
@@ -589,12 +598,46 @@ struct AAA
 
 
 
-public class TestPrint : PrintDocument
+
+public class TestFor
 {
 
-    protected override void OnPrintPage(PrintPageEventArgs e)
+    List<int> list = Enumerable.Range(0, 10000).ToList();
+
+
+
+
+    [Benchmark]
+    public void Foreach()
     {
-        base.OnPrintPage(e);
+        foreach (var item in list)
+        {
+            Console.WriteLine(item);
+        }
+    }
+
+    [Benchmark]
+    public void For()
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            Console.WriteLine(list[i]);
+        }
+    }
+
+
+    [Benchmark]
+    public void List()
+    {
+        list.ForEach(item => Console.WriteLine(item));
+    }
+
+
+    public void Linq()
+    {
+
+
+
     }
 
 
