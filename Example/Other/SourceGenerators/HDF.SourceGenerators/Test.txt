@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace HDF.SourceGenerators
+{
+    public class Test
+    {
+
+
+
+        public void TestMethod()
+        {
+
+            Console.WriteLine(DateTime.Now);
+
+        }
+    }
+}
