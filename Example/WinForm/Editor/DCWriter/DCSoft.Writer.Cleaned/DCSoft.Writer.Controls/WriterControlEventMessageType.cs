@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[Guid("66DBBBBB-8B44-456B-A263-5223916A0CD9")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum WriterControlEventMessageType
 	{
 		/// <summary>

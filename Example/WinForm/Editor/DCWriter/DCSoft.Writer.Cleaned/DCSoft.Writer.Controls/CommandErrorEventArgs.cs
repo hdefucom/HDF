@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("8B447673-50B9-4B09-ADAC-DBECB64F90B0", "929F98CD-60F4-4940-85C7-C07B84A22B08")]
-	[DocumentComment]
+	
 	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(ICommandErrorEventArgs))]

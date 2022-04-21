@@ -18,7 +18,7 @@ namespace DCSoft.Printing
     ///       </summary>
     [ToolboxItem(false)]
     [ComVisible(true)]
-    [DocumentComment]
+    
     [Guid("00012345-6789-ABCD-EF01-234567890005")]
     public class PageViewControl : DocumentViewControl
     {

@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace DCSoftDotfuscate
 {
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public enum GEnum19
 	{

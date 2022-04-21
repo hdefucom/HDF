@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       比较两个表格行对象的接口
 	///       </summary>
 	[Guid("1BF4326F-88E9-48AD-8D8E-15571D01B09F")]
-	[DocumentComment]
+	
 	
 	[ComVisible(false)]
 	public interface IDCTableRowComparer

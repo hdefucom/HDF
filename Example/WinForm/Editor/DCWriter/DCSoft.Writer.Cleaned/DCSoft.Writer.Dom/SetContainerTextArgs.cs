@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[Guid("BA1506BC-CC0F-4683-B9C0-6CA1596EA4DB")]
 	public class SetContainerTextArgs : ISetContainerTextArgs
 	{

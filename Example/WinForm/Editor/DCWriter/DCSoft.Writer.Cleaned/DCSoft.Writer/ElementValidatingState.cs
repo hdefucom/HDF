@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("867346C4-E109-4322-92EF-4ED2E454AF5A")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum ElementValidatingState
 	{
 		/// <summary>

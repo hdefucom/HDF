@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public static class GClass438
 	{
 		private static Dictionary<Color, SolidBrush> dictionary_0 = new Dictionary<Color, SolidBrush>();

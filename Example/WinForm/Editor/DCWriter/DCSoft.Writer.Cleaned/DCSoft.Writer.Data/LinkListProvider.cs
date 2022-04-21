@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Data
 	[ComDefaultInterface(typeof(ILinkListProvider))]
 	
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComClass("188C7BB8-B137-4F7A-8783-43A7CF0F0379", "6271A999-743F-4068-80B4-E3D48EB288B3")]
 	[Guid("188C7BB8-B137-4F7A-8783-43A7CF0F0379")]
 	[ComVisible(true)]

@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Commands
 	///       </summary>
 	[Serializable]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class InsertRTFCommandParameter
 	{

@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("29EED07E-FF09-48A2-AF4B-87260903429A")]
 	
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IWriterTableRowHeightChangingEventArgs))]
 	public class WriterTableRowHeightChangingEventArgs : WriterEventArgs, IWriterTableRowHeightChangingEventArgs
 	{

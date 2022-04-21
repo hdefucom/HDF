@@ -33,7 +33,7 @@ namespace DCSoft.Writer.Controls
 	///       本控件用于COM和B/S开发,不用于.NET开发.
 	///       编制 袁永福
 	///       </remarks>
-	[DocumentComment]
+	
 	[ComClass("00012345-6789-ABCD-EF01-2345678900FF", "FCA69A82-5224-4AF5-BA57-C3E41F61806E", "2638F759-6C8F-4758-8A5C-D0436A76E4FC")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IAxWriterControl))]

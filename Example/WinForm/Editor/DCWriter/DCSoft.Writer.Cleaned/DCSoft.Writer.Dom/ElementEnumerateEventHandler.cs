@@ -11,6 +11,6 @@ namespace DCSoft.Writer.Dom
 	/// <param name="args">
 	/// </param>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public delegate void ElementEnumerateEventHandler(object sender, ElementEnumerateEventArgs e);
 }

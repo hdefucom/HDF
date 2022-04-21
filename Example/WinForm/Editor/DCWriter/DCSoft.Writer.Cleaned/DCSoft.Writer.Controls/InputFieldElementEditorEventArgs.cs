@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Controls
 	///       自定义输入域数值编辑器事件参数
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class InputFieldElementEditorEventArgs
 	{

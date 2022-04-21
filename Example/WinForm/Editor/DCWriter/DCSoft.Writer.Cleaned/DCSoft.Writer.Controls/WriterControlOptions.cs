@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	///       编辑器控件选项
 	///       </summary>
 	
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class WriterControlOptions
 	{

@@ -7,7 +7,7 @@ namespace DCSoft.Drawing
 	///       垂直对齐方式
 	///       </summary>
 	[Guid("E8B4C28E-25C8-451E-A4B1-D7475FDCC3FB")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public enum VerticalAlignStyle
 	{

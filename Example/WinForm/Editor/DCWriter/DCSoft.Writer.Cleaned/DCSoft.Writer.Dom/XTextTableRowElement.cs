@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IXTextTableRowElement))]
 	[ComClass("00012345-6789-ABCD-EF01-234567890014", "CBD69042-B2BA-38CB-9480-49D68053C72D")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-234567890014")]
 	public sealed class XTextTableRowElement : XTextContainerElement, IXTextTableRowElement

@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("AE4DE1EA-C96F-4B53-9C22-F0EEA4FCF89E")]
 	public enum InputFieldEditStyle
 	{

@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[Guid("F30838E4-0974-4EB7-98D9-170A6463CEFA")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	public enum ContentReferenceState

@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[Guid("92556870-2C63-4F8D-AF25-6A64BC82C702")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum MeasureMode
 	{
 		/// <summary>

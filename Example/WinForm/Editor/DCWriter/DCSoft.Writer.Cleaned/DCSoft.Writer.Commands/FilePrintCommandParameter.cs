@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Commands
 	[ComDefaultInterface(typeof(IFilePrintCommandParameter))]
 	[Guid("EEB8F948-7465-4EE8-BA0E-90DBCA2A89E7")]
 	[ComClass("EEB8F948-7465-4EE8-BA0E-90DBCA2A89E7", "4840FBE8-F48F-4D45-8ED9-E9915FCE0D9D")]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	
 	public class FilePrintCommandParameter : IFilePrintCommandParameter

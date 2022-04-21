@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DocumentComment]
+	
 	[Guid("38E6EE4E-6AF9-4F69-831F-764398B76531")]
 	[ComVisible(true)]
 	[XmlType("XAccountingNumber")]

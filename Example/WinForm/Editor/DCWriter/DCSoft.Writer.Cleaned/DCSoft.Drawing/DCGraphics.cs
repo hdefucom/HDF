@@ -16,7 +16,7 @@ namespace DCSoft.Drawing
 	///       画布对象
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DCGraphics : IDisposable
 	{
 		private enum DCMetaRecordType

@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[Guid("00012345-6789-ABCD-EF01-234567890061")]
 	[ComDefaultInterface(typeof(IContentChangingEventArgs))]
 	
-	[DocumentComment]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890061", "61FB9A1D-AB49-4AFC-BCCC-0216AA64C328")]
 	[ClassInterface(ClassInterfaceType.None)]
 	public class ContentChangingEventArgs : EventArgs, IContentChangingEventArgs

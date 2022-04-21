@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       可取消的文档节元素事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("69939F69-03B7-4747-BD2C-0E186C1D0AB1")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterSectionElementCancelEventArgs))]

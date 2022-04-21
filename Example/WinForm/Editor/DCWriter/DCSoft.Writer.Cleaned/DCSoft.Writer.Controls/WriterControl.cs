@@ -68,7 +68,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[DefaultEvent("DocumentContentChanged")]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ToolboxItem(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890000")]

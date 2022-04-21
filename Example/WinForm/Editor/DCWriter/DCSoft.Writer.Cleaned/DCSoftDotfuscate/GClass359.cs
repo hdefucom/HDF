@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public static class GClass359
 	{
 		public const string string_0 = "_Description";

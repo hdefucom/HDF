@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	///       文档级内容对象
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789000B")]
 	public class XTextDocumentContentElement : XTextContentElement
 	{

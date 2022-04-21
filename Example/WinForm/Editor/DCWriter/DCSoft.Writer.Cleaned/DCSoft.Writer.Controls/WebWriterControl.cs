@@ -30,7 +30,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ControlBuilder(typeof(WebWriterControlBuilder))]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	[ToolboxBitmap(typeof(WriterControl))]
 	[Designer(typeof(WebWriterControlDesigner))]
 	

@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 {
 	[Flags]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("1DF09627-2854-4A67-9005-2A0BFE23F76D")]
 	public enum ElementEventConsts
 	{

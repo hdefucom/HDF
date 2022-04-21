@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[ComDefaultInterface(typeof(IXTextBarcodeFieldElement))]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ComClass("0B72EF40-396C-4041-8C1E-072D7ECEE897", "F156FA30-D580-47B0-B870-C436D3BD9486")]
 	[XmlType("XBarcodeField")]

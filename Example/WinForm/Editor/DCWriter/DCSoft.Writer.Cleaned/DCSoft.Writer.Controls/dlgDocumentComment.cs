@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       文档批注文本编辑对话框
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class dlgDocumentComment : Form
 	{

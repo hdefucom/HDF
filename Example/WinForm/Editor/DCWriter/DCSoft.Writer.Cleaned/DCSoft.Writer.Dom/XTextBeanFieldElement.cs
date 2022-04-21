@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	[XmlType("XBean")]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	[DebuggerDisplay("Bean:{ID}:{DataSource}")]

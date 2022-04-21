@@ -6,7 +6,7 @@ namespace DCSoft.WinForms
 	/// <summary>
 	///       滚动到视图的样式
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("F95F03FF-AA45-421E-A210-954986DD8B4E")]
 	[ComVisible(true)]
 	public enum ScrollToViewStyle

@@ -8,7 +8,7 @@ namespace DCSoft.WinForms.Controls
 	///       绘制卡片列表项目事件参数
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DCCardContentItemPaintEventArgs
 	{
 		private DCCardListViewControl _ListView = null;

@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	///       上下文快捷菜单管理器
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	
 	[ComVisible(false)]
 	public interface IContextMenuStripManager : IDisposable

@@ -9,7 +9,7 @@ namespace DCSoft.WinForms.Controls
 	/// <summary>
 	///       OLE拖拽事件参数类型
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCCardListViewDragEventArgs : EventArgs
 	{

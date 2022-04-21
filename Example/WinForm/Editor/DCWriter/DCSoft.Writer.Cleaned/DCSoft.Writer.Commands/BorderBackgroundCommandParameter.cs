@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Commands
 	///       边框命令参数对象
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComClass("B2916388-F487-4031-BF1C-499330DC0AD9", "685ABB26-D0E5-414C-8ED3-EC6F349D7966")]
 	[ComDefaultInterface(typeof(IBorderBackgroundCommandParameter))]
 	[ComVisible(true)]

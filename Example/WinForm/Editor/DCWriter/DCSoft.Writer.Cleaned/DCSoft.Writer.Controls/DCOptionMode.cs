@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       选项状态
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("72317938-F0CD-430D-8730-C9ED807F91BC")]
 	[ComVisible(true)]
 	public enum DCOptionMode

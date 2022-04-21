@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IXTextContent))]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public class XTextContent : XTextElementList, IXTextContent
 	{
 		private enum Enum1

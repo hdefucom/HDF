@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       文档大纲节点列表
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComClass("1406C5C0-0A17-4D71-AF7E-32AD55E497F3", "8F4FD322-682A-427A-8157-58766B58BE7C")]
 	[Guid("1406C5C0-0A17-4D71-AF7E-32AD55E497F3")]
 	[DebuggerDisplay("Count={ Count }")]

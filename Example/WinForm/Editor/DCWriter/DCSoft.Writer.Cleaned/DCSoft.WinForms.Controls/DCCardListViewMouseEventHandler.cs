@@ -10,7 +10,7 @@ namespace DCSoft.WinForms.Controls
 	/// </param>
 	/// <param name="args">
 	/// </param>
-	[DocumentComment]
+	
 	[Guid("C7C8AA9F-23ED-4DE4-83E1-6D29EAFB7430")]
 	[ComVisible(true)]
 	public delegate void DCCardListViewMouseEventHandler(object sender, DCCardListViewMouseEventArgs e);

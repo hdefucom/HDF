@@ -13,7 +13,7 @@ using System.Web.UI.Design;
 namespace DCSoftDotfuscate
 {
 	[Serializable]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	internal class Class61
 	{

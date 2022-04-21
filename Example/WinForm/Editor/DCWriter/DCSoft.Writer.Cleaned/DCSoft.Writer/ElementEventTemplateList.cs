@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	
 	[ComDefaultInterface(typeof(IElementEventTemplateList))]
 	[Guid("D670F798-A4CE-40AC-8B42-37AFFBA4399D")]

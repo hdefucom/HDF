@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[Guid("9CA7B12E-75CD-420E-B340-4DDC61DBAB14")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterPrintPageEventEventArgs))]
-	[DocumentComment]
+	
 	
 	[ComVisible(true)]
 	[ComClass("9CA7B12E-75CD-420E-B340-4DDC61DBAB14", "9E285C5F-A5A2-4351-8E00-691CAB35CB1E")]

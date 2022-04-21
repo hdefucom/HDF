@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerDisplay("Footer :{ PreviewString }")]
-	[DocumentComment]
+	
 	
 	[ComClass("2F703FDA-076E-4F9E-84EF-42C81AC42F15", "BF7E4F23-D792-4A4F-822E-B770CF526A4E")]
 	[Guid("2F703FDA-076E-4F9E-84EF-42C81AC42F15")]

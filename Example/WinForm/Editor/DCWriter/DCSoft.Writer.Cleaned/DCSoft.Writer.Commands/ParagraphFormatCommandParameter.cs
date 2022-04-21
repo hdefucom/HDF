@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Commands
 	[Serializable]
 	[ComClass("8D524B16-89EB-48E6-952E-7AEDF1B94DA5", "D148ADCD-EB51-493A-A009-44AB73BEFAF4")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IParagraphFormatCommandParameter))]
 	[Guid("8D524B16-89EB-48E6-952E-7AEDF1B94DA5")]
 	[ClassInterface(ClassInterfaceType.None)]

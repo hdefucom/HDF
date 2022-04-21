@@ -9,7 +9,7 @@ namespace DCSoft.Printing
 	
 	[Guid("0C5AB15E-88BC-41A4-9FD5-534351F0A04C")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum PrintResultStates
 	{
 		/// <summary>

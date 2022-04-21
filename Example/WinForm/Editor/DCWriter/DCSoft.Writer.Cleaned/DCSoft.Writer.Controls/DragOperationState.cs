@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public enum DragOperationState
 	{
 		/// <summary>

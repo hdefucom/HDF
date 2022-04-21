@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	///       执行数据源绑定路径项目事件参数
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DataBindingPathEventArgs : EventArgs
 	{
 		private string _Name = null;

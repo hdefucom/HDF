@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       查询文档元素状态信息事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComClass("3F3FE584-4C2E-42D7-A880-F7F06CBC59A1", "BE39D42D-7CC5-4108-BE75-ECD43B32B170")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IElementQueryStateEventArgs))]

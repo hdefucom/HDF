@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("4E19CE49-1EF3-4911-A72A-F58412F2F275")]
 	public enum ContentLayoutDirectionStyle
 	{

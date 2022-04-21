@@ -11,7 +11,7 @@ namespace DCSoft.WinForms
 	///       用户界面工具箱
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DCUITools
 	{
 		/// <summary>

@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	///       打印事件参数
 	///       </summary>
 	
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("432F8499-A989-4CE0-A23F-27DF60A92496", "6A6AA3C0-2F4D-4D61-B319-3949DF34037E")]
 	[Guid("432F8499-A989-4CE0-A23F-27DF60A92496")]

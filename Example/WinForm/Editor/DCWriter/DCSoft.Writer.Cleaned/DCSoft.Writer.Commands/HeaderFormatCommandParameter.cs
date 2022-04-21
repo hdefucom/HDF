@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Commands
 	///       </summary>
 	[ComClass("659E2B27-CBC2-4B6A-95E8-7611ABCBB8D0", "C1D39294-3BDF-4E1E-99BB-A64842326881")]
 	[Guid("659E2B27-CBC2-4B6A-95E8-7611ABCBB8D0")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IHeaderFormatCommandParameter))]
 	

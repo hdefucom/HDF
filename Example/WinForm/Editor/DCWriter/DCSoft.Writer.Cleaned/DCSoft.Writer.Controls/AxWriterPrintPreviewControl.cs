@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Controls
 	[ComClass("00012345-6789-ABCD-EF01-2345678900EE", "61FDA393-EBA5-47BD-A456-05FE1DEECE78", "6FEE3DDC-D761-46E5-8FBC-E9C3658CCBBD")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	
 	[Guid("00012345-6789-ABCD-EF01-2345678900EE")]
 	[ToolboxItem(false)]

@@ -7,7 +7,7 @@ namespace DCSoft.WinForms.Controls
 	/// <summary>
 	///       卡片列表项目的集合
 	///       </summary>
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("95AF2711-7AB2-489A-9C8B-FD3509C043DF")]
 	[ComVisible(true)]

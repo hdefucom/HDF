@@ -21,7 +21,7 @@ namespace DCSoft.Printing
 	[Browsable(false)]
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	[ToolboxItem(false)]
 	public class XPrintDocument : PrintDocument
 	{

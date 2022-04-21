@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("ABE3650A-071D-4F43-A3A9-8BE7C8D06A32")]
-	[DocumentComment]
+	
 	public class WriterControlState
 	{
 		private PageViewMode pageViewMode_0;

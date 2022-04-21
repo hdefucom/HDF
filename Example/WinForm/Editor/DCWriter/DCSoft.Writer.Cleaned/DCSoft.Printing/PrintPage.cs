@@ -18,7 +18,7 @@ namespace DCSoft.Printing
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IPrintPage))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[DCPublishAPI(ApplyToMembers = false)]
 	[Guid("ACF76829-6768-439A-A792-672A8DE377EA")]
 	public class PrintPage : IPrintPage

@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890011", "27BA9E41-2E8E-408F-B95A-0709630742AB")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[DebuggerDisplay("Cell {CellID}:{ PreviewString }")]
 	
 	[ComDefaultInterface(typeof(IXTextTableCellElement))]

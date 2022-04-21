@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       系统警告信息对象
 	///       </summary>
 	[ComDefaultInterface(typeof(ISystemAlertInfoList))]
-	[DocumentComment]
+	
 	[ComClass("71F15190-595D-40FA-B552-A307D2985381", "6B532050-E4CD-4C85-83D1-705F2C533682")]
 	[ComVisible(true)]
 	[Guid("71F15190-595D-40FA-B552-A307D2985381")]

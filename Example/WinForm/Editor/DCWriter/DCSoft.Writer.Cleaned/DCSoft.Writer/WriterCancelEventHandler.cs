@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <param name="eventSender">参数</param>
 	/// <param name="args">参数</param>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[Guid("5632A80E-F016-4F58-B795-9F0FF749DCEF")]
 	
 	[ComVisible(true)]

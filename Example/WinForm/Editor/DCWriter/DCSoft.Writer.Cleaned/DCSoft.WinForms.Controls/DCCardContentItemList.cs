@@ -8,7 +8,7 @@ namespace DCSoft.WinForms.Controls
 	/// <summary>
 	///       卡片内容项目列表
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCCardContentItemList : List<DCCardContentItem>
 	{

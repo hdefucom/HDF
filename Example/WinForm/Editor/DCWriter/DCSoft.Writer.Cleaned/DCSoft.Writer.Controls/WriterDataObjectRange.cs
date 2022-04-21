@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Controls
 	///       编辑器数据对象应用范围
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("7D4D97D1-BA82-4DBA-AE09-9EE704CCD603")]
 	
 	public enum WriterDataObjectRange

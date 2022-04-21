@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Data
 	///       知识库提供者对象
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890024")]
 	
 	[ComVisible(false)]

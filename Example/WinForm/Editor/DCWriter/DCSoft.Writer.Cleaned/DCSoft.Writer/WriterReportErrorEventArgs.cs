@@ -17,7 +17,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("63DDC6FD-585E-4B14-B076-4AEB652A3C58")]
-	[DocumentComment]
+	
 	public class WriterReportErrorEventArgs : WriterEventArgs, IWriterReportErrorEventArgs
 	{
 		internal new const string CLASSID = "63DDC6FD-585E-4B14-B076-4AEB652A3C58";

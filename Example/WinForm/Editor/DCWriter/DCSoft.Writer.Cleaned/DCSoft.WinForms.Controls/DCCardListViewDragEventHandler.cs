@@ -9,6 +9,6 @@ namespace DCSoft.WinForms.Controls
 	/// <param name="sender">参数</param>
 	/// <param name="args">参数</param>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public delegate void DCCardListViewDragEventHandler(object sender, DCCardListViewDragEventArgs e);
 }

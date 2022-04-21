@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       应用程序错误处理模式
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("0597BC05-6B99-45B3-AD46-7C45B9FAB4CD")]
 	[ComVisible(true)]
 	public enum AppErrorHandleModeConsts

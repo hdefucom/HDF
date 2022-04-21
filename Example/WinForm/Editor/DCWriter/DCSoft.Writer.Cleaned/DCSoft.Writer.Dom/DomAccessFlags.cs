@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("A41F518E-269C-4E18-B444-CFA723A00998")]
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	public enum DomAccessFlags
 	{
 		/// <summary>

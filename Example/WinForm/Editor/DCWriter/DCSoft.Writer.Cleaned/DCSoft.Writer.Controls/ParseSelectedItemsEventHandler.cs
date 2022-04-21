@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	/// <param name="args">参数</param>
 	[ComVisible(true)]
 	[Guid("6D275326-F335-447D-8109-989CF9EB5D45")]
-	[DocumentComment]
+	
 	
 	public delegate void ParseSelectedItemsEventHandler(object sender, ParseSelectedItemsEventArgs e);
 }

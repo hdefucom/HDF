@@ -22,7 +22,7 @@ namespace DCSoft.Writer
 	[Serializable]
 	[Guid("00012345-6789-ABCD-EF01-23456789006B")]
 	[ComClass("00012345-6789-ABCD-EF01-23456789006B", "D9CF1866-B246-40C7-BA6F-CAB856CEDEA8")]
-	[DocumentComment]
+	
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]

@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	
 	[ComVisible(true)]
 	[ComClass("CC5E620A-FAC6-4F82-9605-6E1B74AB45AC", "90DD9F88-9BAF-4F4B-AA06-D75BFF97BA93")]
-	[DocumentComment]
+	
 	[Guid("CC5E620A-FAC6-4F82-9605-6E1B74AB45AC")]
 	[ClassInterface(ClassInterfaceType.None)]
 	public class SpecifyPageIndexInfoList : List<SpecifyPageIndexInfo>, IDCStringSerializable, ISpecifyPageIndexInfoList

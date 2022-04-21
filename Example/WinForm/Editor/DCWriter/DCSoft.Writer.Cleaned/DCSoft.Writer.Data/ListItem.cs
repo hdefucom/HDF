@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Data
 	[ComVisible(true)]
 	
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IListItem))]
 	[Guid("00012345-6789-ABCD-EF01-234567890031")]
 	[ComClass("00012345-6789-ABCD-EF01-234567890031", "1B5A7174-A133-4613-8DE9-BA77C1706664")]

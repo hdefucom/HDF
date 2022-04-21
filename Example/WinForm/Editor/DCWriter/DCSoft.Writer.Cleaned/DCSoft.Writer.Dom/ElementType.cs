@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	
 	[Flags]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Editor(typeof(ElementTypeEditor), typeof(UITypeEditor))]
 	public enum ElementType
 	{

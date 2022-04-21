@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	
 	[Guid("E11C260F-BC7B-41A7-ACD8-8216AF0074AF")]
-	[DocumentComment]
+	
 	public enum ContainerAutoHideMode
 	{
 		/// <summary>

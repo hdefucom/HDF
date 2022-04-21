@@ -27,7 +27,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[Guid("00012345-6789-ABCD-EF01-234567890058")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	
 	[ComDefaultInterface(typeof(IXTextImageElement))]
 	[ComClass("00012345-6789-ABCD-EF01-234567890058", "F52F4335-C691-4DCD-BDBD-3D8E6DCC530A")]

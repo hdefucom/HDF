@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("595277B8-083B-40DE-8FF4-A85DA2DD48C5")]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IWriterDocumentPrintedEventArgs))]
 	[ComClass("595277B8-083B-40DE-8FF4-A85DA2DD48C5", "A491F121-1D53-41AC-9AE4-76687867EEB6")]

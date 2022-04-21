@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("34F37673-BF4C-4F24-B9AC-23443C17C058")]
-	[DocumentComment]
+	
 	public class PageImageInfo : IPageImageInfo
 	{
 		internal const string string_0 = "34F37673-BF4C-4F24-B9AC-23443C17C058";

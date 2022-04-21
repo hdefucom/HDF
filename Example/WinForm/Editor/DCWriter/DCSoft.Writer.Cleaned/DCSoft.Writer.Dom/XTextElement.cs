@@ -32,7 +32,7 @@ namespace DCSoft.Writer.Dom
     [ClassInterface(ClassInterfaceType.None)]
     [Guid("00012345-6789-ABCD-EF01-234567890009")]
     [ComDefaultInterface(typeof(IXTextElement))]
-    [DocumentComment]
+    
     public abstract class XTextElement : IDisposable, IXTextElement, IGetSetAttribute//, GInterface0
     {
         internal const string string_0 = "00012345-6789-ABCD-EF01-234567890009";

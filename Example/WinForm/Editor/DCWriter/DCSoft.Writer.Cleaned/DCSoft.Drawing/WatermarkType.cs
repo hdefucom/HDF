@@ -8,7 +8,7 @@ namespace DCSoft.Drawing
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("47CC1028-C10B-4105-84A6-E8A0AE488444")]
-	[DocumentComment]
+	
 	
 	public enum WatermarkType
 	{

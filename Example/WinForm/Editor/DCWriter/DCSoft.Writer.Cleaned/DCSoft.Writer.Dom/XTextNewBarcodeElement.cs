@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[XmlType("NewBarcode")]
 	
-	[DocumentComment]
+	
 	[DebuggerDisplay("NewBarcode:{Name}")]
 	public sealed class XTextNewBarcodeElement : XTextLabelElementBase
 	{

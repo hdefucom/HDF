@@ -28,7 +28,7 @@ namespace DCSoft.Writer.Data
 	[Guid("00012345-6789-ABCD-EF01-234567890028")]
 	[ComDefaultInterface(typeof(IKBLibrary))]
 	[ComClass("00012345-6789-ABCD-EF01-234567890028", "5685CEC6-0C2C-40BE-9152-DA6B0CCCA36C")]
-	[DocumentComment]
+	
 	
 	[XmlType]
 	public class KBLibrary : IKBLibrary

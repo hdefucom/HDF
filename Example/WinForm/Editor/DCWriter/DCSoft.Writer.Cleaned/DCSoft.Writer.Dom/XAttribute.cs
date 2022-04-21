@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890049", "1AECE4DB-7387-44DD-836F-D8CD8A6AAB3B")]
-	[DocumentComment]
+	
 	public class XAttribute : ICloneable, IXAttribute
 	{
 		internal const string CLASSID = "00012345-6789-ABCD-EF01-234567890049";

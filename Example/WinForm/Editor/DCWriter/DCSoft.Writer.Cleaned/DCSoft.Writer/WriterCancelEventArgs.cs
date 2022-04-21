@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[ComClass("2868B0A2-C98D-4127-9273-B0F9635C3C8E", "D1F9A947-10B8-492A-98D4-382A2B52CA4F")]
 	
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("2868B0A2-C98D-4127-9273-B0F9635C3C8E")]
 	[ComDefaultInterface(typeof(IWriterCancelEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]

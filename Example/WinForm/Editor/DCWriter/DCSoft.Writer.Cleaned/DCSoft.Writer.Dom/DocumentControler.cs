@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890046")]
 	
 	public class DocumentControler

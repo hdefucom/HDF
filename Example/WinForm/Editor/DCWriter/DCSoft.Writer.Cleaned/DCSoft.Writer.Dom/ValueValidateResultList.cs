@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890047")]
 	
 	[ComDefaultInterface(typeof(IValueValidateResultList))]

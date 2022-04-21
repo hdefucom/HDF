@@ -8,7 +8,7 @@ namespace DCSoft.Drawing
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Guid("731602F9-E5E1-4ABD-BD3B-44A4FF03D3AB")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public enum RectangleSlantSplitStyle
 	{

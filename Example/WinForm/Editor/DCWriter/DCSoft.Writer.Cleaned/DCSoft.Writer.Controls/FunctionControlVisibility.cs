@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	[Guid("61D497C3-E076-4C7B-81B3-60E48FE2C1AE")]
 	[ComVisible(true)]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
-	[DocumentComment]
+	
 	
 	public enum FunctionControlVisibility
 	{

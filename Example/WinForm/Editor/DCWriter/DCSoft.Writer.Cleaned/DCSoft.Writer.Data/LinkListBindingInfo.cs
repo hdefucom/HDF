@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	[Serializable]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComClass("65D47CDE-B18B-4AFD-A20D-B3A94B50CB0B", "65A1AF66-AFF6-4C62-86E4-37E18958CAFA")]
 	[ComVisible(true)]
 	[Guid("65D47CDE-B18B-4AFD-A20D-B3A94B50CB0B")]

@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	///       文档节元素
 	///       </summary>
 	[ComClass("00012345-6789-ABCD-EF01-234567890019", "EEE04FE8-950D-4D23-8F0C-1CE6A0DDFC64")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IXTextSectionElement))]
 	[DebuggerDisplay("Section {ID}:{ PreviewString }")]
 	[Guid("00012345-6789-ABCD-EF01-234567890019")]
@@ -497,7 +497,7 @@ namespace DCSoft.Writer.Dom
 		/// <returns>操作是否导致文档视图修改</returns>
 		
 		[ComVisible(true)]
-		[DocumentComment]
+		
 		public virtual bool Collapse()
 		{
 			if (RuntimeEnableCollapse && !IsCollapsed)
@@ -546,7 +546,7 @@ namespace DCSoft.Writer.Dom
 		/// <returns>操作是否导致文档视图修改</returns>
 		[ComVisible(true)]
 		
-		[DocumentComment]
+		
 		public virtual bool Expand()
 		{
 			if (RuntimeEnableCollapse && IsCollapsed)

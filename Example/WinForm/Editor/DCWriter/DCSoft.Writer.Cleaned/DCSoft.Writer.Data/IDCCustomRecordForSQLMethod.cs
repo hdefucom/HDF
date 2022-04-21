@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       为SQL方法提供自定义信息的记录对象接口
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public interface IDCCustomRecordForSQLMethod
 	{

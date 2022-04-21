@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[Flags]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Editor(typeof(WriterDataFormatsUIEditor), typeof(UITypeEditor))]
 	
 	[Guid("00012345-6789-ABCD-EF01-234567890075")]

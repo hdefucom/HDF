@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Controls
 	[ToolboxItem(false)]
 	[Guid("00012345-6789-ABCD-EF01-234567890001")]
 	[ToolboxBitmap(typeof(WriterControl))]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class WriterControlExt : UserControl, IObjectSafety
 	{

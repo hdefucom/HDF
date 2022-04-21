@@ -12,7 +12,7 @@ namespace DCSoft.Drawing
 	///       内间距信息
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[TypeConverter(typeof(GClass448))]
 	[ComDefaultInterface(typeof(IXPaddingF))]
 	[Guid("00012345-6789-ABCD-EF01-23456789008E")]

@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	
-	[DocumentComment]
+	
 	[XmlType("XTemperatureChart")]
 	[DebuggerDisplay("TemperatureChart:{Name}")]
 	[ToolboxBitmap(typeof(XTextTemperatureChartElement))]

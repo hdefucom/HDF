@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Commands
 	/// <param name="args">参数</param>
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	[Guid("707FBF79-4B03-4D77-90A0-91FCF72B577C")]
 	public delegate void WriterCommandEventHandler(object sender, WriterCommandEventArgs e);
 }

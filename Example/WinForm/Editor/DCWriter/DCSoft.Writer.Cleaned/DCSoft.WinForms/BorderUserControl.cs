@@ -17,7 +17,7 @@ namespace DCSoft.WinForms
 	///       新增事件 Scroll ,当用户滚动控件时会触发该事件</remarks>
 	[Guid("00012345-6789-ABCD-EF01-234567890007")]
 	
-	[DocumentComment]
+	
 	[Browsable(false)]
 	[ComVisible(true)]
 	[ToolboxItem(false)]

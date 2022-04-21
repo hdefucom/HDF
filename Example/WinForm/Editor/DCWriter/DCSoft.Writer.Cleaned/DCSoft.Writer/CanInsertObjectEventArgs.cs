@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       判断能否插入对象事件参数
 	///       </summary>
 	[ComDefaultInterface(typeof(ICanInsertObjectEventArgs))]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-23456789005B")]
 	

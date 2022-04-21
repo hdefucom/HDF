@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Commands
 	///       基于委托的动态命令对象
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class WriterCommandDelegate : WriterCommand
 	{

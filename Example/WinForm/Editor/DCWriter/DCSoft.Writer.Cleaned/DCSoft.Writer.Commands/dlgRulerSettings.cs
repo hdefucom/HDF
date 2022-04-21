@@ -11,7 +11,7 @@ using System.Xml.Serialization;
 namespace DCSoft.Writer.Commands
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class dlgRulerSettings : Form
 	{
 		/// <summary>

@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890067")]
 	public enum ContentViewEncryptType

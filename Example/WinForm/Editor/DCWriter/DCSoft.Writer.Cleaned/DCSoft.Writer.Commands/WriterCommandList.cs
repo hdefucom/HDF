@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Commands
 	/// <summary>
 	///       文本编辑器动作列表
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	[DebuggerTypeProxy(typeof(ListDebugView))]

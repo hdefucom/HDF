@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       用户界面键盘输入的字符串之前的事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComClass("B1B4A42B-B0EE-438C-B380-65DFD9937A07", "E2FBA882-B5E9-4B78-BFD5-5278268C5F04")]
 	[Guid("B1B4A42B-B0EE-438C-B380-65DFD9937A07")]
 	[ComVisible(true)]

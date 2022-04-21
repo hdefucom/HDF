@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
     /// <remarks>编制 袁永福</remarks>
     [Serializable]
     [Guid("00012345-6789-ABCD-EF01-234567890052")]
-    [DocumentComment]
+    
     
     public class XTextContentElement : XTextContainerElement
     {

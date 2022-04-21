@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Data
 	/// </param>
 	/// <param name="args">
 	/// </param>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("D86B02F9-36FF-4FEA-B61E-3043471DCC85")]
 	public delegate void CreateElementsByKBEntryEventHandler(object sender, CreateElementsByKBEntryEventArgs e);

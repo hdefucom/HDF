@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <remarks>编写 袁永福</remarks>
 	
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class StandardCommandNames
 	{
 		public const string GCCollect = "GCCollect";

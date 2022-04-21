@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890090")]
 	
 	public enum MoveUnit

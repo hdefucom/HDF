@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("85C8C8E4-68CC-4228-9736-6926ED9F6ECD")]
 	[ComClass("85C8C8E4-68CC-4228-9736-6926ED9F6ECD", "B453DD01-FEEE-4126-9625-F64885E82BB9")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[XmlType("XTextRuler")]
 	[ComDefaultInterface(typeof(IXTextRulerElement))]
 	[ClassInterface(ClassInterfaceType.None)]
@@ -84,7 +84,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DCDisplayName(typeof(XTextRulerElement), "Width")]
 		[XmlAttribute]
-		[DocumentComment]
+		
 		[DefaultValue(null)]
 		[Browsable(true)]
 		public override float Width
@@ -103,7 +103,7 @@ namespace DCSoft.Writer.Dom
 		///       对象高度
 		///       </summary>
 		[XmlAttribute]
-		[DocumentComment]
+		
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(XTextRulerElement), "Height")]
 		[Browsable(true)]
@@ -126,7 +126,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(XTextRulerElement), "RulerValue")]
 		[XmlAttribute]
-		[DocumentComment]
+		
 		public float RulerValue
 		{
 			get
@@ -144,7 +144,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(XTextRulerElement), "Scales")]
-		[DocumentComment]
+		
 		[XmlArrayItem("Scale", typeof(ScaleProperty))]
 		[Browsable(true)]
 		public ScalePropertyList Scales
@@ -172,7 +172,7 @@ namespace DCSoft.Writer.Dom
 		///       最低标尺刻度，默认为0。
 		///       </summary>
 		[XmlAttribute]
-		[DocumentComment]
+		
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(XTextRulerElement), "MinScale")]
 		[Browsable(true)]
@@ -194,7 +194,7 @@ namespace DCSoft.Writer.Dom
 		[XmlAttribute]
 		[DCDisplayName(typeof(XTextRulerElement), "MaxScale")]
 		[Browsable(true)]
-		[DocumentComment]
+		
 		[DefaultValue(null)]
 		public int MaxScale
 		{
@@ -229,7 +229,7 @@ namespace DCSoft.Writer.Dom
 		///       字体
 		///       </summary>
 		[XmlAttribute]
-		[DocumentComment]
+		
 		public XFontValue Font
 		{
 			get
@@ -247,7 +247,7 @@ namespace DCSoft.Writer.Dom
 		///       </summary>
 		[DefaultValue(null)]
 		[XmlAttribute]
-		[DocumentComment]
+		
 		[DCDisplayName(typeof(XTextRulerElement), "Precision")]
 		[Browsable(true)]
 		public string Precision
@@ -269,7 +269,7 @@ namespace DCSoft.Writer.Dom
 		[DefaultValue(null)]
 		[DCDisplayName(typeof(XTextRulerElement), "LineColor")]
 		[XmlAttribute]
-		[DocumentComment]
+		
 		public Color LineColor
 		{
 			get

@@ -7,7 +7,7 @@ namespace DCSoft.Drawing
 	///       表单按钮样式
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("E0A60CF1-6D96-4462-AD04-DAF464C7EBCB")]
 	public enum FormButtonStyle
 	{

@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       编辑器的一些工具方法
 	///       </summary>
-	[DocumentComment]
+	
 	
 	[ComVisible(false)]
 	public class WriterTools : GClass15

@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("64C6D8E7-A63C-4D86-9F69-42F107CB1660", "760F4A6D-1A63-4E49-844B-743406573313")]
 	[Guid("64C6D8E7-A63C-4D86-9F69-42F107CB1660")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
-	[DocumentComment]
+	
 	public class DocumentInfo : IDCStringSerializable, IDocumentInfo
 	{
 		internal const string CLASSID = "64C6D8E7-A63C-4D86-9F69-42F107CB1660";

@@ -6,7 +6,7 @@ namespace DCSoft.Drawing
 	/// <summary>
 	///       段落列表样式
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("004E0478-A0A6-4D1D-9BB1-46A24B1DC567")]
 	public enum ParagraphListStyle

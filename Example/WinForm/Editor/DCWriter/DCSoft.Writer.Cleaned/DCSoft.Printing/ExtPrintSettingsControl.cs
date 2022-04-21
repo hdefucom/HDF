@@ -9,7 +9,7 @@ namespace DCSoft.Printing
 	/// <summary>
 	///       打印设置对话框扩展控件
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	[ToolboxItem(false)]
 	

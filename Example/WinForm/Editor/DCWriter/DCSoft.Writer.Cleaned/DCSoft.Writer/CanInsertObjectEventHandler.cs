@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	/// <param name="eventSender">参数</param>
 	/// <param name="args">参数</param>
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789005A")]
 	[ComVisible(true)]
 	

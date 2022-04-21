@@ -19,7 +19,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[ComClass("EDD3C839-2F43-40D9-BDCF-63C4773AC1EB", "D9642920-1041-4B9A-8EC3-FAE9760D7F08")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IDocumentNavigator))]
 	[Guid("EDD3C839-2F43-40D9-BDCF-63C4773AC1EB")]
 	

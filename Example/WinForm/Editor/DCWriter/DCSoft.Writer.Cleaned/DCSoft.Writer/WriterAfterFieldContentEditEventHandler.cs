@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <param name="eventSender">事件发起者</param>
 	/// <param name="args">事件参数</param>
 	[Guid("76E9B91C-C1D8-455E-815E-DF9F542EDB89")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	public delegate void WriterAfterFieldContentEditEventHandler(object sender, WriterAfterFieldContentEditEventArgs e);

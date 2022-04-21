@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       知识点类型
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890030")]
 	
 	[ComVisible(true)]

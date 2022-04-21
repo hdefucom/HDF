@@ -10,7 +10,7 @@ namespace DCSoft.Printing
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IPrintPageResult))]
 	[Guid("2CB5443F-42FF-4F6B-82B4-E3FA045C8B66")]
-	[DocumentComment]
+	
 	public class PrintPageResult : IPrintPageResult
 	{
 		private int _TickSpan = 0;

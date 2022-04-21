@@ -37,7 +37,7 @@ namespace DCSoft.Writer.Controls
     
     [ComSourceInterfaces(typeof(IAxWriterControlForPBComEvents))]
     [ToolboxItem(false)]
-    [DocumentComment]
+    
     [ComVisible(true)]
     [ComDefaultInterface(typeof(IAxWriterControlForPB))]
     [ClassInterface(ClassInterfaceType.None)]

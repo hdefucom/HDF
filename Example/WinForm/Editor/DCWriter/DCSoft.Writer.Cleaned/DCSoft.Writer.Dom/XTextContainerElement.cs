@@ -34,7 +34,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("00012345-6789-ABCD-EF01-234567890050", "20D11DD0-C872-4394-9B47-53C6BB2B5BC1")]
 	[Guid("00012345-6789-ABCD-EF01-234567890050")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public class XTextContainerElement : XTextElement, IDeleteable, IUpdateDataBindingExt, IMemberPropertyExpressions, IXTextContainerElement
 	{
 		internal const string string_3 = "00012345-6789-ABCD-EF01-234567890050";

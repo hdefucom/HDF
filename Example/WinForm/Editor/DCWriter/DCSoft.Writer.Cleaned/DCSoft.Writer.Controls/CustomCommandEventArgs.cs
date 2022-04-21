@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Controls
 	[Guid("237AFCB8-41E9-4277-90F2-171069A3E971")]
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	public class CustomCommandEventArgs : ICustomCommandEventArgs
 	{
 		internal const string CLASSID = "237AFCB8-41E9-4277-90F2-171069A3E971";

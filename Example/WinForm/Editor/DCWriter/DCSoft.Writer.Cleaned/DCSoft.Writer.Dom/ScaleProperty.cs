@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 宋建明</remarks>
 	[XmlType("ScaleProperty")]
-	[DocumentComment]
+	
 	
 	public class ScaleProperty
 	{

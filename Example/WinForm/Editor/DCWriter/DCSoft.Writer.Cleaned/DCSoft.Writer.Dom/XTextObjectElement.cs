@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	///       嵌入在文档中的对象基础类型
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789001E")]
 	
 	public abstract class XTextObjectElement : XTextElement, IDeleteable, IMemberPropertyExpressions

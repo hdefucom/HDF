@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[XmlType("XTextRadioBox")]
 	
 	[ToolboxBitmap(typeof(XTextRadioBoxElement))]

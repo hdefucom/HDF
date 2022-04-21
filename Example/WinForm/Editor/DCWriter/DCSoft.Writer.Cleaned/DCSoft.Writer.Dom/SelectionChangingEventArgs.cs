@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	///       选择区域正在发生改变事件参数类型
 	///       </summary>
 	/// <remarks> 编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[ComClass("C0CC596D-25F3-40D7-B808-66A8388F5AF6", "6BA3090C-6F53-46E5-AC8D-25932D32893C")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("C0CC596D-25F3-40D7-B808-66A8388F5AF6")]

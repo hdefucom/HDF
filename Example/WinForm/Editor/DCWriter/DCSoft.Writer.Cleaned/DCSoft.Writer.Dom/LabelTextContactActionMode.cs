@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Guid("218A3274-BEF8-4E2E-9D2C-14917B843110")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum LabelTextContactActionMode
 	{
 		/// <summary>

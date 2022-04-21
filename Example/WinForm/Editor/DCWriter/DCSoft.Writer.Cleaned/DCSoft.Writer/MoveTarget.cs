@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	[Guid("EF6EAA22-1372-4776-B72D-1CDE7DEA08DD")]
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	public enum MoveTarget
 	{
 		/// <summary>

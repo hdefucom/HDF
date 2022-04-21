@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Data
 	[ComClass("00012345-6789-ABCD-EF01-234567890029", "AE551F76-B49D-4EEE-980B-15CDB1C5AEF7")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[DebuggerDisplay("Count={ Count }")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComDefaultInterface(typeof(IKBEntryList))]

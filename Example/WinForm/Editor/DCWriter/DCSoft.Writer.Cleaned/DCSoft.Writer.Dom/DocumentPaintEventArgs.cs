@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DocumentPaintEventArgs : EventArgs, ICloneable
 	{
 		private bool _EnabledDrawGridLine = true;

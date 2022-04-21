@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Data
 	[ComDefaultInterface(typeof(IGetLinkListItemsEventArgs))]
 	
 	[Guid("5DEE4ED0-0C1B-43CF-9E76-65438B9D7459")]
-	[DocumentComment]
+	
 	public class GetLinkListItemsEventArgs : EventArgs, IGetLinkListItemsEventArgs
 	{
 		internal const string CLASSID = "5DEE4ED0-0C1B-43CF-9E76-65438B9D7459";

@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	/// <param name="args">参数</param>
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	[Guid("E0C25BFF-79B9-4BB2-8BC9-2FCD2BFF99A5")]
 	public delegate void CreateInstanceEventHandler(object sender, CreateInstanceEventArgs e);
 }

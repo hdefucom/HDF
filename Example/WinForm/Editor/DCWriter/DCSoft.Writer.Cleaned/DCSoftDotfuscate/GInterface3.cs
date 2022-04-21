@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public interface GInterface3
 	{
 		bool imethod_0();

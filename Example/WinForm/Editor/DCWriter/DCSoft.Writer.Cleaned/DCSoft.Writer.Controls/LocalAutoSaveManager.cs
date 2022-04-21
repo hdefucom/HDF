@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       基于本地文件系统的自动保存管理器
 	///       </summary>
-	[DocumentComment]
+	
 	
 	[ComVisible(false)]
 	public class LocalAutoSaveManager : IAutoSaveManager

@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	[DebuggerDisplay("Base Input Name:{Name}")]
 	[Guid("00012345-6789-ABCD-EF01-23456789001F")]
 	[XmlType("XInputFieldBase")]
-	[DocumentComment]
+	
 	public class XTextInputFieldElementBase : XTextFieldElementBase, IContentReadonlyable
 	{
 		private DCBorderTextPosition dcborderTextPosition_0 = DCBorderTextPosition.Middle;

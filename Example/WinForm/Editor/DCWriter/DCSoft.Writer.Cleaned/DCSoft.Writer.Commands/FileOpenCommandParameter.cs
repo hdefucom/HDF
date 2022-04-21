@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Commands
 	[Serializable]
 	[ComClass("B74C8612-CD72-4BEF-9FE7-476AA93A7155", "5B1E164D-B3DE-4645-96DA-420C994AFAE0")]
 	[Guid("B74C8612-CD72-4BEF-9FE7-476AA93A7155")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IFileOpenCommandParameter))]
 	[ComVisible(true)]
 	

@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("FF08F8F6-2524-455A-9F15-A9DBCF338E1C", "2245E560-B282-4C3C-97B0-D0947F2FAB88")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[Guid("FF08F8F6-2524-455A-9F15-A9DBCF338E1C")]
 	public sealed class XTextLineBreakElement : XTextElement, IXTextLineBreakElement
 	{

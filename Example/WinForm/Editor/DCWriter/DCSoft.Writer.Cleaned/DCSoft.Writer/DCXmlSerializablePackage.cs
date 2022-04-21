@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       XML序列化数据封装包
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCXmlSerializablePackage : IXmlSerializable
 	{

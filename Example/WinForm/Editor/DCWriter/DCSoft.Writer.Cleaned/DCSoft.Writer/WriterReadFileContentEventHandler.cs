@@ -11,6 +11,6 @@ namespace DCSoft.Writer
 	
 	[Guid("7B080AF5-93F3-4D7C-90C7-AA06A7DDB43D")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public delegate void WriterReadFileContentEventHandler(object sender, WriterReadFileContentEventArgs e);
 }

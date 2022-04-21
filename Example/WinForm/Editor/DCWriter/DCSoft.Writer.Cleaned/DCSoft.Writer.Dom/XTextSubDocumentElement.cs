@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>
 	///       本类型在文档节(XTextSectionElement)的基础上实现了子文档操作
 	///       </remarks>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IXTextSubDocumentElement))]
 	[Guid("4E1D2614-2C87-467C-B5C3-72135EE54ABD")]

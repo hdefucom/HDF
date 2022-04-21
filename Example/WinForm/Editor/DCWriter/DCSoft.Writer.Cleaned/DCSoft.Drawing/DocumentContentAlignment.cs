@@ -6,7 +6,7 @@ namespace DCSoft.Drawing
 	/// <summary>
 	///       文档内容对齐方式
 	///        </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("78F2DCA9-61DB-4498-B877-42A5B762B091")]
 	public enum DocumentContentAlignment

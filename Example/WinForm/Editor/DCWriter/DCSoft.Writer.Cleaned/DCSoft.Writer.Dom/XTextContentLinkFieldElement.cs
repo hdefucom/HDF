@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("00012345-6789-ABCD-EF01-234567890053", "C9D4A84C-019B-4B0F-9917-5AD2F4E56109")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890053")]
 	[XmlType("XContentLinkField")]
 	

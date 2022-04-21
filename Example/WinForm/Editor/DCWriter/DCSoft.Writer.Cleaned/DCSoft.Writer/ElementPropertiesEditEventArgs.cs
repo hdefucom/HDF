@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public class ElementPropertiesEditEventArgs : EventArgs
 	{
 		private bool _SimpleElementProperties = false;

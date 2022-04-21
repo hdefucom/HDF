@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Script
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
 	
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class ScriptGlobalObjectContainer : XVBAScriptGlobalObjectList
 	{

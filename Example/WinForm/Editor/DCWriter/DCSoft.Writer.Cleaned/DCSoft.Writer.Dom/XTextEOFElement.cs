@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       文档结束标记
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class XTextEOFElement : XTextElement
 	{

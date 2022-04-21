@@ -25,7 +25,7 @@ namespace DCSoft.Writer.Dom
 	///       注意，当承载OCX控件时，会自动设置编辑器控件的Font.Unit属性值为GraphicsUnit.Point。
 	///       </remarks>
 	[Serializable]
-	[DocumentComment]
+	
 	
 	[DebuggerDisplay("Host:{TypeFullName}")]
 	[ClassInterface(ClassInterfaceType.None)]

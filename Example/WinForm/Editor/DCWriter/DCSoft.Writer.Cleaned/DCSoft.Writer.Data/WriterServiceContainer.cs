@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Data
 	///       服务容器对象
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	public class WriterServiceContainer : DefaultServiceContainer

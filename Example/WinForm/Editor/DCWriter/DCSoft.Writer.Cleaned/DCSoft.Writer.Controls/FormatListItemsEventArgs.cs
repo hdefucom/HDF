@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("25A73252-2775-4BDB-9124-712D34C50879")]
 	[ComDefaultInterface(typeof(IFormatListItemsEventArgs))]
-	[DocumentComment]
+	
 	
 	public class FormatListItemsEventArgs : EventArgs, IFormatListItemsEventArgs
 	{

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       数据标尺刻度信息列表
 	///       </summary>
-	[DocumentComment]
+	
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[XmlType("ScalePropertyList")]
 	[DebuggerDisplay("Count={ Count }")]

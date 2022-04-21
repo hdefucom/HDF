@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       页码图片信息对象列表
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("E91BCB9D-9FD4-4478-8779-C7F37966C4B6", "26CA71E1-18BD-4532-A9BD-A1111A93F003")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]

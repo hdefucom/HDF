@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class GEventArgs4 : EventArgs
 	{
 		private bool bool_0 = false;

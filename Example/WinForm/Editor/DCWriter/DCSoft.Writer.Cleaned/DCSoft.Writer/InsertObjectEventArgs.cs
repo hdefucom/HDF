@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-23456789006E", "C8B8395D-3AF2-4502-A9A9-79A7D8FE48F2")]
-	[DocumentComment]
+	
 	
 	[Guid("00012345-6789-ABCD-EF01-23456789006E")]
 	[ComDefaultInterface(typeof(IInsertObjectEventArgs))]

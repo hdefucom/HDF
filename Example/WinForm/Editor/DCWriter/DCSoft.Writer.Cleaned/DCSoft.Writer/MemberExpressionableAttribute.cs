@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       允许设置表达式的类型成员
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	[AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
 	public sealed class MemberExpressionableAttribute : Attribute
 	{

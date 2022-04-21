@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class XTextLabelElementBase : XTextObjectElement, IUpdateDataBindingExt
 	{

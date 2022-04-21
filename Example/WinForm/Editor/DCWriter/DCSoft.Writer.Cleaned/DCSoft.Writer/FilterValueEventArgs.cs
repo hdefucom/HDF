@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("BF643322-78BA-46FD-96AC-0FFB69E9CC71")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IFilterValueEventArgs))]
 	[ComClass("BF643322-78BA-46FD-96AC-0FFB69E9CC71", "3031DB88-078B-46EB-A94A-5691D9F70A25")]

@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       背景文字输出模式
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public enum DCBackgroundTextOutputMode
 	{

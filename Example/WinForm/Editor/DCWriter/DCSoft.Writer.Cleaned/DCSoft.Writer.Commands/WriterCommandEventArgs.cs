@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Commands
 	/// <summary>
 	///       编辑器命令事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComClass("6AD3FF4B-9742-46A9-8136-ACCCF5F37825", "BFEFA60E-5F2D-4590-B8AA-5B9C9EF0D198")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]

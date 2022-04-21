@@ -13,6 +13,6 @@ namespace DCSoft.Writer
 	
 	[Guid("212AA263-7237-488A-AD74-AE965E31C7E9")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public delegate void WriterStartEditEventHandler(object sender, WriterStartEditEventArgs e);
 }

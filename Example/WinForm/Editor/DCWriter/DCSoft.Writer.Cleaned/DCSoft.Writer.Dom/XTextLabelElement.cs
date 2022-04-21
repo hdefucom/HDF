@@ -25,7 +25,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("00012345-6789-ABCD-EF01-23456789008F", "AB8B3F31-C36E-4EF5-8A73-84397555E16C")]
 	[Guid("00012345-6789-ABCD-EF01-23456789008F")]
 	
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IXTextLabelElement))]
 	[DebuggerDisplay("Label:{Text}")]
 	public sealed class XTextLabelElement : XTextLabelElementBase, IXTextLabelElement

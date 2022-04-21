@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-23456789004E")]
 	[ComDefaultInterface(typeof(IXTextCheckBoxElement))]
-	[DocumentComment]
+	
 	public sealed class XTextCheckBoxElement : XTextCheckBoxElementBase, IXTextCheckBoxElement
 	{
 		internal const string string_17 = "00012345-6789-ABCD-EF01-23456789004E";

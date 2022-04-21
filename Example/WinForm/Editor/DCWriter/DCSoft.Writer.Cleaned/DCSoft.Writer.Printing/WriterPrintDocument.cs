@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Printing
 	///       打印文档对象
 	///       </summary>
 	
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public sealed class WriterPrintDocument : XPrintDocument
 	{

@@ -8,7 +8,7 @@ namespace DCSoft.Printing
 	/// <summary>
 	///       区域选择打印信息对象集合
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	public class BoundsSelectionPrintInfo : List<BoundsSelectionPrintInfoItem>

@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("4FD7A359-E071-41E7-8EA2-52D8338802AF", "8A8EDE39-9B6A-4A5A-945A-82F4E8FA1997")]
 	[ComDefaultInterface(typeof(IXTextDocumentFooterForFirstPageElement))]
 	
-	[DocumentComment]
+	
 	[XmlType("XTextFooterForFirstPage")]
 	[ComVisible(true)]
 	[DebuggerDisplay("FooterForFirstPage :{ PreviewString }")]

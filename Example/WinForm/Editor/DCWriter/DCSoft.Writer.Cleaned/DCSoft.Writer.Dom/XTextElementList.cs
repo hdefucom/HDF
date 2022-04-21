@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	///       </remarks>
 	[Serializable]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789000D")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComDefaultInterface(typeof(IXTextElementList))]

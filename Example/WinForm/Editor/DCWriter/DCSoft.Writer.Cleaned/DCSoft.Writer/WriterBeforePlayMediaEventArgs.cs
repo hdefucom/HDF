@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       准备播放多媒体事件参数
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	[ComDefaultInterface(typeof(IWriterBeforePlayMediaEventArgs))]

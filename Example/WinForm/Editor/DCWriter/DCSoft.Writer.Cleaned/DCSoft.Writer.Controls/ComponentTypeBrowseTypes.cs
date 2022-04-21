@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       浏览操作类型
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public enum ComponentTypeBrowseTypes
 	{

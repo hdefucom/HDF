@@ -11,7 +11,7 @@ namespace DCSoft.Drawing
 	[Guid("00012345-6789-ABCD-EF01-234567890071")]
 	[Flags]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum PageTitlePosition
 	{
 		/// <summary>

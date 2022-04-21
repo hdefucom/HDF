@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	///       文档元素内容验证中事件参数
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ComClass("DA9464B8-8122-4491-9A9D-BF4C848AFEC1", "449CBD6E-6383-4D0B-8F5D-6FD44067E790")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IElementValidatingEventArgs))]

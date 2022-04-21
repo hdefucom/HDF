@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("7D01A5A7-DB33-4106-B19A-3632226D0AC2", "262854DB-5809-4058-A8D3-6473B5B4390B")]
 	[ComVisible(true)]
 	[Guid("7D01A5A7-DB33-4106-B19A-3632226D0AC2")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IPageContentVersionInfo))]
 	[ClassInterface(ClassInterfaceType.None)]
 	public class PageContentVersionInfo : IPageContentVersionInfo

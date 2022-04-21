@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
 	
-	[DocumentComment]
+	
 	[DebuggerDisplay("Index={StartIndex},Length={Length}")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(false)]

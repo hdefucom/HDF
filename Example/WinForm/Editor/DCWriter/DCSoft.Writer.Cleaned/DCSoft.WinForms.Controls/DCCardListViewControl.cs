@@ -24,7 +24,7 @@ namespace DCSoft.WinForms.Controls
 	[ToolboxBitmap(typeof(DCCardListViewControl))]
 	public class DCCardListViewControl : UserControl
 	{
-		[DocumentComment]
+		
 		[ComVisible(false)]
 		public static class GClass13
 		{

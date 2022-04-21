@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("00012345-6789-ABCD-EF01-234567890095")]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public interface IErrorReporter
 	{
 		/// <summary>

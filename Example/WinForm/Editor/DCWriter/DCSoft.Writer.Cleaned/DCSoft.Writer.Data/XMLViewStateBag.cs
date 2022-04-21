@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	public class XMLViewStateBag : List<XMLViewStateBagItem>, IDisposable

@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 	[ComClass("3ED207D7-E972-4C88-93BE-8C96ABF60E0C", "24096F15-6E09-4FA0-B4F6-25F11EB422B1")]
 	[DebuggerDisplay("Button:ID={ID} , Text={Text}")]
 	[ComDefaultInterface(typeof(IXTextButtonElement))]
-	[DocumentComment]
+	
 	
 	public class XTextButtonElement : XTextObjectElement, IXTextButtonElement
 	{

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       标尺刻度对象
 	///       </summary>
-	[DocumentComment]
+	
 	public class RuleScaleItem
 	{
 		private string _Text = null;

@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       页码信息类型
 	///       </summary>
-	[DocumentComment]
+	
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[ComVisible(true)]
 	[Guid("3612109D-856D-47E7-96A9-1350245AB061")]

@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Controls
 	///       本控件用于COM和B/S开发,不用于.NET开发.
 	///       编制 袁永福
 	///       </remarks>
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IAxDCCardListViewControl))]
 	[ComClass("00DF110D-DF3E-4D54-A5B9-663D432B71BA", "4AA75334-A12F-4529-9CBE-A2C3E82F298E", "39655E71-F969-4804-B3B9-A43B0CD30AA2")]
 	[ToolboxBitmap(typeof(AxDCCardListViewControl))]

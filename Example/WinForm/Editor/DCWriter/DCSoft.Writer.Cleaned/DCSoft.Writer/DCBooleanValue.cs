@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       布尔状态值
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[Guid("4B7880E2-FAE1-46B7-860A-9AFD6F62BE24")]
 	

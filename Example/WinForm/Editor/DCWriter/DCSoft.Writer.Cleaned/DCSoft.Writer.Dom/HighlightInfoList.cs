@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       高亮度显示区域列表
 	///       </summary>
-	[DocumentComment]
+	
 	[DebuggerDisplay("Count={ Count }")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComVisible(false)]
@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 		/// <summary>
 		///       两个高亮度显示区域位置的比较器
 		///       </summary>
-		[DocumentComment]
+		
 		private class HighlighInfoComparer : IComparer<HighlightInfo>
 		{
 			public int Compare(HighlightInfo highlightInfo_0, HighlightInfo highlightInfo_1)

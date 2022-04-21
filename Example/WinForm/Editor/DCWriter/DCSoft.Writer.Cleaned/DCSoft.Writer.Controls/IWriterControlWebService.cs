@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       WEB服务对象必须实现的接口
 	///       </summary>
-	[DocumentComment]
+	
 	
 	[ComVisible(false)]
 	public interface IWriterControlWebService

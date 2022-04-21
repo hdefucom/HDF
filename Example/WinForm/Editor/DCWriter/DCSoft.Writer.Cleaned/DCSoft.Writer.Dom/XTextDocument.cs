@@ -60,7 +60,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XTextDocument")]
 	[XmlInclude(typeof(XTextParagraphFlagElement))]
 	[XmlInclude(typeof(XTextObjectElement))]
-	[DocumentComment]
+	
 	
 	[XmlInclude(typeof(XTextImageElement))]
 	[XmlInclude(typeof(XTextLineBreakElement))]

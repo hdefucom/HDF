@@ -22,7 +22,7 @@ namespace DCSoft.Writer
 	///       文本编辑器宿主对象
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890074")]
 	
 	public class WriterAppHost

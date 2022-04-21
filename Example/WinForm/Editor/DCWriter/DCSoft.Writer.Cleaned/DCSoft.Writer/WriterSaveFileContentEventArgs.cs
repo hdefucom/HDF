@@ -17,7 +17,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IWriterSaveFileContentEventArgs))]
 	[ComClass("63EAC939-B4AF-47C3-AB44-5634B299121A", "45B150B5-AE4F-4809-9AC4-32766FDEC5B3")]
 	[Guid("63EAC939-B4AF-47C3-AB44-5634B299121A")]
-	[DocumentComment]
+	
 	
 	[ComVisible(true)]
 	public class WriterSaveFileContentEventArgs : WriterEventArgs, IWriterSaveFileContentEventArgs

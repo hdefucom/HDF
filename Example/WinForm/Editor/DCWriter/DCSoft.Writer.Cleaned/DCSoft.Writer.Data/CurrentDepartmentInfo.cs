@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Data
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(ICurrentDepartmentInfo))]
 	[ComClass("00012345-6789-ABCD-EF01-234567890020", "B9C0BC20-EBAF-4C3E-B134-DF1BC5DC9D38")]
-	[DocumentComment]
+	
 	public class CurrentDepartmentInfo : ICurrentDepartmentInfo
 	{
 		internal const string CLASSID = "00012345-6789-ABCD-EF01-234567890020";

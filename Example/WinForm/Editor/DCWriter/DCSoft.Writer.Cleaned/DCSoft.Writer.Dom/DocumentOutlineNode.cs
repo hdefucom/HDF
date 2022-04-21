@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	///       文档大纲节点
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[Guid("D8CF88BA-5B56-4FB8-BCD1-5F2F58A2E607")]
 	
 	[ClassInterface(ClassInterfaceType.None)]

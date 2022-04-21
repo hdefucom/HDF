@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("3603B80D-916C-42E2-B607-D64002C4FC39")]

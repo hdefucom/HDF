@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	
 	[Guid("8B3654D5-CE8E-4E54-A85C-C4478F5563BD")]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public enum ElementPropertiesEditMethod
 	{

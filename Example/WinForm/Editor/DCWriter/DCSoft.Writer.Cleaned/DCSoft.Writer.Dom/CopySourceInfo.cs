@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("17946D6F-DE3C-4D07-93E1-B99CFC2EB713")]
 	[ComDefaultInterface(typeof(ICopySourceInfo))]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
-	[DocumentComment]
+	
 	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]

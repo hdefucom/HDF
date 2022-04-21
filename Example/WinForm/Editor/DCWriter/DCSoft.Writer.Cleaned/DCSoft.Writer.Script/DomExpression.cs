@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Script
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DomExpression
 	{

@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-23456789001C", "632AB5E7-D689-4E60-BF9B-CE86E24C39A5")]
 	[ComVisible(true)]

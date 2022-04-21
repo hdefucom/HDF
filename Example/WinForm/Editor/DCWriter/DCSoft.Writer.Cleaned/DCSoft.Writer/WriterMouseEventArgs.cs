@@ -18,7 +18,7 @@ namespace DCSoft.Writer
 	[ComClass("0359C21A-D8EF-45F4-897C-CDF89E0B965D", "6D63CD6E-F5BB-498C-9DD0-092238DDC8B1")]
 	
 	[Guid("0359C21A-D8EF-45F4-897C-CDF89E0B965D")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public class WriterMouseEventArgs : EventArgs, IWriterMouseEventArgs
 	{

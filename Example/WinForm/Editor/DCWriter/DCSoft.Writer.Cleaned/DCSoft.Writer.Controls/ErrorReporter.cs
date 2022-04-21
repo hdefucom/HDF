@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Controls
 	///       应用程序错误报告者
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class ErrorReporter
 	{

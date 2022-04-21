@@ -7,7 +7,7 @@ namespace DCSoft.Drawing
 	///       布局对齐方式
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[Guid("21A1E44C-8A61-4060-9C2A-731DE391A7D6")]
 	[ComVisible(true)]
 	public enum ContentLayoutAlign

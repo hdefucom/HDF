@@ -10,7 +10,7 @@ namespace DCSoft.WinForms.Controls
 	///       </summary>
 	/// <remarks>袁永福到此一游</remarks>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DCCardContentItem
 	{
 		private string _DataField = null;

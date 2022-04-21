@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       输入的数据类型
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("DBDB030A-DA13-46C7-8642-EA5B41DEE065")]
 	

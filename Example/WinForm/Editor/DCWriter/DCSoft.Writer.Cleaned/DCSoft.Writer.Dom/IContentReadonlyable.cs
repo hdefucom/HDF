@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public interface IContentReadonlyable
 	{
 		/// <summary>

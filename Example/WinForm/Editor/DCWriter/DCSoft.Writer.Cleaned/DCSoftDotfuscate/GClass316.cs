@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	[DefaultMember("Item")]
 	public class GClass316 : List<GClass315>
 	{

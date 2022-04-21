@@ -8,7 +8,7 @@ namespace DCSoft.WinForms
 	/// <summary>
 	///       窗体状态栏信息对象
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class WindowStatusInfo
 	{

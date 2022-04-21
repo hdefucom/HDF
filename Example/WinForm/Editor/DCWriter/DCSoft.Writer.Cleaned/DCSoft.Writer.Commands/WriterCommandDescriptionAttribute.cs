@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Commands
 	/// <summary>
 	///       动作方法声明特性
 	///       </summary>
-	[DocumentComment]
+	
 	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false)]
 	[ComVisible(false)]
 	public class WriterCommandDescriptionAttribute : Attribute

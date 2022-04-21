@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Controls
 	[Guid("00012345-6789-ABCD-EF01-234567890004")]
 	[ToolboxItem(false)]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public class TextPageViewControl : PageViewControl
 	{

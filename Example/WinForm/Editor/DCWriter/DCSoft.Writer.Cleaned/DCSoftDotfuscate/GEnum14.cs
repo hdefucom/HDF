@@ -6,7 +6,7 @@ namespace DCSoftDotfuscate
 {
 	[Flags]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public enum GEnum14
 	{
 		flag_0 = 0x0,

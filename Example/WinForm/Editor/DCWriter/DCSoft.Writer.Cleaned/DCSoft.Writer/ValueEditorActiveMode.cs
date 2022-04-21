@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       元素数值编辑器激活模式
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-234567890073")]
 	[Editor(typeof(ValueEditorActiveModeEditor), typeof(UITypeEditor))]
 	[ComVisible(true)]

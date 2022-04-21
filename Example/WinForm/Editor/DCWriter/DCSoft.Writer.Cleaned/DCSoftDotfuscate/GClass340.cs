@@ -10,7 +10,7 @@ namespace DCSoftDotfuscate
 	[Serializable]
 	[DefaultMember("Item")]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class GClass340 : List<GClass341>, ICloneable
 	{
 		public GClass340()

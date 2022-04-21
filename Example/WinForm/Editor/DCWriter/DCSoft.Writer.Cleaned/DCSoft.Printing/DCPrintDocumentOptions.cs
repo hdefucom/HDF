@@ -15,7 +15,7 @@ namespace DCSoft.Printing
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("4557EA58-A58B-4DE4-9E20-22BB58E95777")]
-	[DocumentComment]
+	
 	public class DCPrintDocumentOptions : IDCPrintDocumentOptions
 	{
 		private bool _DisableRefreshDocumentLayout = false;

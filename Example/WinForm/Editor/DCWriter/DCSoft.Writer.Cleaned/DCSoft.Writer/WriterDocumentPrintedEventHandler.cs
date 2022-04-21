@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// </param>
 	/// <param name="args">
 	/// </param>
-	[DocumentComment]
+	
 	[Guid("BC2EB288-F656-4DB6-B75A-FCE3DBC90A23")]
 	[ComVisible(true)]
 	

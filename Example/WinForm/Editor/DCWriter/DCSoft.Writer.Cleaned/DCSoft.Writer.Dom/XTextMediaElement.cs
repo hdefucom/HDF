@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	///       音频信息文档元素对象
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComClass("135815B3-44F3-44CA-9395-7EBF4385E4CA", "D492C04E-0037-481C-B291-F772FA1DFB97")]
 	[DebuggerDisplay("Media:FileName={FileName}")]
 	[ToolboxBitmap(typeof(XTextMediaElement))]

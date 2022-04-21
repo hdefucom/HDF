@@ -14,6 +14,6 @@ namespace DCSoft.Writer
 	[Guid("999FC432-FBB2-4D41-91D2-E7FE9BE0CFC9")]
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	public delegate void WriterElementCheckedChangedEventHandler(string elementID, string elementName, string elementValue, XTextElement element);
 }

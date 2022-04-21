@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Data
 	///       SQL方法参数数据类型
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public enum DCSQLMethodParameterType
 	{
 		/// <summary>

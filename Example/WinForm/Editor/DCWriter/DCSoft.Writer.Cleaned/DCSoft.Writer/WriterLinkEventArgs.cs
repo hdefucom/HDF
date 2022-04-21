@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ComDefaultInterface(typeof(IWriterLinkEventArgs))]
 	
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[Guid("A7EA3FF9-EF4C-46DC-A8F6-DDA4978E80CF")]

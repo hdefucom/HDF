@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IElementCancelEventArgs))]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("B4DF21C4-9740-48F4-A366-AF6DB3B7548F", "84568825-E006-4F84-83A5-4A60E996B332")]
 	[Guid("B4DF21C4-9740-48F4-A366-AF6DB3B7548F")]

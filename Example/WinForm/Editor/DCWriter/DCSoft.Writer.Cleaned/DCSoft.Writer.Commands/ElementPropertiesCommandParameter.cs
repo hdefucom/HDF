@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Commands
 	/// <summary>
 	///       编辑文档元素命令参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class ElementPropertiesCommandParameter
 	{

@@ -16,7 +16,7 @@ namespace DCSoft.Drawing
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[Guid("C934F62D-4CFE-46C7-82AB-DD1E385219C5")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IGridLineInfo))]
 	public class GridLineInfo : ICloneable, IGridLineInfo

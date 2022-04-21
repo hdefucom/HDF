@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890027", "04459E25-93E0-4256-8F3D-E7B1F4B1BD1D")]
 	[Guid("00012345-6789-ABCD-EF01-234567890027")]
 	[XmlType]

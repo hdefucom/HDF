@@ -8,7 +8,7 @@ namespace DCSoft.Drawing
 	///       </summary>
 	[Guid("CB265D0A-2180-4DEE-AE49-4A9EE222F0C8")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum PageContentPartyStyle
 	{
 		/// <summary>

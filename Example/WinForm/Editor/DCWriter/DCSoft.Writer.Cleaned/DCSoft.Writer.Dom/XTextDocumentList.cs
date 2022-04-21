@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("00012345-6789-ABCD-EF01-23456789000C")]
 	[ComClass("00012345-6789-ABCD-EF01-23456789000C", "18CD21C5-CCC7-48D8-B3E4-F5B37B75959F")]
 	[DebuggerDisplay("Count={ Count }")]
-	[DocumentComment]
+	
 	public class XTextDocumentList : List<XTextDocument>, IXTextDocumentList
 	{
 		internal const string CLASSID = "00012345-6789-ABCD-EF01-23456789000C";

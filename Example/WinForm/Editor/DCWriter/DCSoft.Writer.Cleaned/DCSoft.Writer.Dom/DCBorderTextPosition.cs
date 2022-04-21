@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       边框文本对齐方式
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("991F57A7-B51F-4E39-91BC-B2969A783B54")]
 	[ComVisible(true)]
 	public enum DCBorderTextPosition

@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890016", "635A3879-B2B2-4299-92B2-523E6790E133")]
 	[XmlType("XTextLock")]
-	[DocumentComment]
+	
 	
 	public sealed class XTextSignElement : XTextElement, IXTextSignElement
 	{

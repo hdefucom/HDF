@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Controls
 	[Guid("C97D2F61-FAA0-4677-9C1B-275BB4A21EC5")]
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	public class ParseSelectedItemsEventArgs : EventArgs, IParseSelectedItemsEventArgs
 	{
 		internal const string CLASSID = "C97D2F61-FAA0-4677-9C1B-275BB4A21EC5";

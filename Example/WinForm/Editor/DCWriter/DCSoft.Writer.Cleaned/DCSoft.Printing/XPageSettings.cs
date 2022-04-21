@@ -20,7 +20,7 @@ namespace DCSoft.Printing
 	[Guid("E859E92D-DC9A-45C8-B834-9B0B9F8EFD02")]
 	[ComDefaultInterface(typeof(IXPageSettings))]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	
 	[TypeConverter(typeof(GClass156))]
 	[Editor(typeof(GClass155), typeof(UITypeEditor))]

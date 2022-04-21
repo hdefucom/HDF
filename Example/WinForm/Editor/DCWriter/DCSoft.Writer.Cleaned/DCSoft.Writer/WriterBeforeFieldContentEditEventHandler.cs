@@ -11,6 +11,6 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	
 	[Guid("FA97BCFB-CE87-4889-855D-7899262BBFEF")]
-	[DocumentComment]
+	
 	public delegate void WriterBeforeFieldContentEditEventHandler(object sender, WriterBeforeFieldContentEditEventArgs e);
 }

@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       高亮度激活模式
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public enum HighlightActiveStyle
 	{
 		/// <summary>

@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Controls
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("2219FC85-1715-4B7E-B674-95637E1D3E88", "69ECCB7E-4595-4202-BD44-1C6EFF6237C7", "9BBA47B8-3E76-4D24-BD80-54E148043797")]
 	
-	[DocumentComment]
+	
 	[ToolboxItem(false)]
 	[ToolboxBitmap(typeof(AxTemperatureControl))]
 	[ComSourceInterfaces(typeof(IAxTemperatureControlComEvents))]

@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[ComVisible(true)]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
-	[DocumentComment]
+	
 	
 	[Guid("2BAFD620-9591-4048-8198-8D3173BCD57B")]
 	[ClassInterface(ClassInterfaceType.None)]

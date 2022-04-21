@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IXTextLineList))]
 	[Guid("00012345-6789-ABCD-EF01-23456789000E")]
 	
-	[DocumentComment]
+	
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[DebuggerDisplay("Count={ Count }")]
 	[ComVisible(true)]

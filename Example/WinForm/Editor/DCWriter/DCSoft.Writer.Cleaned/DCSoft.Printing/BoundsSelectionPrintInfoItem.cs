@@ -8,7 +8,7 @@ namespace DCSoft.Printing
 	///       区域选择信息对象
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class BoundsSelectionPrintInfoItem
 	{
 		private RectangleF _ViewBounds = RectangleF.Empty;

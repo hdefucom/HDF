@@ -21,7 +21,7 @@ namespace DCSoft.Printing
 	[Guid("00012345-6789-ABCD-EF01-234567890082")]
 	[ToolboxItem(false)]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public class DCPrintPreviewControl : UserControl
 	{

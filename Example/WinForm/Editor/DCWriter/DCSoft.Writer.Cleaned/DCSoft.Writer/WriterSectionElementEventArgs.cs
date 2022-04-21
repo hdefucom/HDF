@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       文档节元素事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	
 	[ComVisible(true)]

@@ -10,7 +10,7 @@ namespace DCSoft.WinForms.Controls
 	/// <summary>
 	///       图片型的卡片内容项目
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCCardImageItem : DCCardContentItem
 	{

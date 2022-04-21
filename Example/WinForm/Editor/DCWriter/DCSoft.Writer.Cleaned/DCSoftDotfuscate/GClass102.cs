@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace DCSoftDotfuscate
 {
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class GClass102
 	{

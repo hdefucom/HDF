@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	///       文档元素事件参数
 	///       </summary>
 	[ComClass("D1DB1F7B-F1DC-461E-9E0B-7DC46CF5D513", "E480A97E-8DB9-45AF-8207-31C19D079B93")]
-	[DocumentComment]
+	
 	[Guid("D1DB1F7B-F1DC-461E-9E0B-7DC46CF5D513")]
 	[ComDefaultInterface(typeof(IElementEventArgs))]
 	[ComVisible(true)]

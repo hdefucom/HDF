@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	[ComClass("97C93BCE-E2CA-4A4D-A24C-97391F30DCC7", "610763F6-2E8C-4B1C-8528-31B7AE863009")]
 	
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("97C93BCE-E2CA-4A4D-A24C-97391F30DCC7")]
 	[ComDefaultInterface(typeof(IWriterGetAdornTextEventArgs))]

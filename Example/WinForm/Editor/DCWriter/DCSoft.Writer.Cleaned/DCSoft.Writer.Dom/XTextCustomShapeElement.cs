@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XCustomShape")]
 	[ComDefaultInterface(typeof(IXTextCustomShapeElement))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ToolboxBitmap(typeof(XTextCustomShapeElement))]
 	[Guid("C865D7BE-6061-4E8A-8E9B-7E25F2B9ACF9")]

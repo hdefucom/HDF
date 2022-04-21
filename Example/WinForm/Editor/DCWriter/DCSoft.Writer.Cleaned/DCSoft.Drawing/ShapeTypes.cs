@@ -13,7 +13,7 @@ namespace DCSoft.Drawing
 	/// </remarks>
 	[ComVisible(false)]
 	[Editor("DCSoft.WinForms.Design.ShapeTypesEditor", typeof(UITypeEditor))]
-	[DocumentComment]
+	
 	public enum ShapeTypes
 	{
 		/// <summary>

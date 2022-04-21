@@ -17,7 +17,7 @@ namespace DCSoft.WinForms
     [ToolboxItem(false)]
     [ComVisible(true)]
     [Guid("00012345-6789-ABCD-EF01-234567890006")]
-    [DocumentComment]
+    
     public class DocumentViewControl : BorderUserControl
     {
         protected class MyCapturer : MouseCapturer

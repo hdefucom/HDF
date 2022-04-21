@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[Guid("0102B4ED-75A1-4CCB-A963-0E77E30A30D8")]
 	[ComDefaultInterface(typeof(IFieldValueDescriptor))]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	public class FieldValueDescriptor : IFieldValueDescriptor
 	{

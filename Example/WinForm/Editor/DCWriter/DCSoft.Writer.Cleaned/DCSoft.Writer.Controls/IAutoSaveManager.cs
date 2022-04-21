@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Controls
 	///       自动更新管理器
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public interface IAutoSaveManager
 	{

@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[ComClass("8D66F0D9-4377-4B60-B9C6-E71DAF0A6033", "BA509B64-EFC1-461C-B61A-6AACADA7D836")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IFieldValueDescriptorList))]
 	public class FieldValueDescriptorList : List<FieldValueDescriptor>, IFieldValueDescriptorList
 	{

@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       内容修改事件来源
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	public enum ContentChangedEventSource

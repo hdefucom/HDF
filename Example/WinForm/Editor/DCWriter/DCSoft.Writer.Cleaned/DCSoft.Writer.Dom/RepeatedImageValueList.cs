@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       重复引用的图片数据信息列表，DCWriter内部使用。
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class RepeatedImageValueList : List<RepeatedImageValue>, IDisposable
 	{

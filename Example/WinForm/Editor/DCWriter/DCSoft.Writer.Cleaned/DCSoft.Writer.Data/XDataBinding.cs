@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Data
 	[ComDefaultInterface(typeof(IXDataBinding))]
 	
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("180935CE-71A7-4C64-9988-E481182814EF")]
 	public class XDataBinding : ICloneable, IDCStringSerializable, IXDataBinding

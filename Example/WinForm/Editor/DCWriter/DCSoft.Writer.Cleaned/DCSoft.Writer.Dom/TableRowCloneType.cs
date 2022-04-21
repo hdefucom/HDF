@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(true)]
 	[Guid("7981C946-F761-4990-A19B-4F368873BF56")]
-	[DocumentComment]
+	
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	public enum TableRowCloneType
 	{

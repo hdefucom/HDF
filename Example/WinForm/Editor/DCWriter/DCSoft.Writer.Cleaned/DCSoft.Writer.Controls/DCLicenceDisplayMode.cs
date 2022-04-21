@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       授权信息显示模式
 	///       </summary>
-	[DocumentComment]
+	
 	
 	[ComVisible(true)]
 	[Guid("AB1ED97F-B476-49DF-AF30-937F344E05CD")]

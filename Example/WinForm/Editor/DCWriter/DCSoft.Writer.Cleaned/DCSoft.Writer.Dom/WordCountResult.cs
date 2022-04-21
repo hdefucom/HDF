@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	///       文档内容统计信息对象
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	
 	[ComDefaultInterface(typeof(IWordCountResult))]
 	[Guid("CCC5A209-B177-4A6C-A148-2827004D4729")]

@@ -11,7 +11,7 @@ namespace DCSoft.WinForms.Controls
 	[ComDefaultInterface(typeof(IDCCardListViewEventArgs))]
 	[Guid("D4B88894-CCD7-49A0-814E-FCB7DD5D8DD4")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	public class DCCardListViewEventArgs : EventArgs, IDCCardListViewEventArgs
 	{
 		private DCCardListViewItem _Item = null;

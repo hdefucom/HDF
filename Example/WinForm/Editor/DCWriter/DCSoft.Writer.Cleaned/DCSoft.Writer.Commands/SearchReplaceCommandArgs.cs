@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Commands
 	///       </summary>
 	[Serializable]
 	[ComDefaultInterface(typeof(ISearchReplaceCommandArgs))]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("CFE9D9C3-ABCA-4ECC-8993-E85E69CCCB1F", "CFBE23B5-1A78-4061-A718-71712DD7B8EC")]
 	[ComVisible(true)]

@@ -11,7 +11,7 @@ namespace DCSoft.WinForms.Controls
 	///       矩形的卡片内容项目
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DCCardRectangleItem : DCCardContentItem
 	{
 		private Color _BackColor = Color.Transparent;

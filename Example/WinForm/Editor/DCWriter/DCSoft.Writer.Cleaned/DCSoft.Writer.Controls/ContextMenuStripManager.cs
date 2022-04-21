@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Controls
 	/// <remarks>编制 袁永福</remarks>
 	
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class ContextMenuStripManager : IContextMenuStripManager
 	{
 		private WriterControl _Control = null;

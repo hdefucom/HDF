@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	///       被SQL方法引擎忽略的对象
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	[AttributeUsage(AttributeTargets.All, AllowMultiple = false)]
 	public class DCSQLMethodIgnoreAttriubte : Attribute
 	{

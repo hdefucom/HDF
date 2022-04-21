@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IPageLabelText))]
 	[Guid("E960B21E-3731-43F5-9AB2-3BA46E67463F")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public class PageLabelText : IPageLabelText
 	{

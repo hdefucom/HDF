@@ -18,7 +18,7 @@ namespace DCSoft.Printing
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[XmlType]
-	[DocumentComment]
+	
 	[Guid("76B93F60-DB26-4EF0-81EB-E236A32A1EC9")]
 	[ComDefaultInterface(typeof(IDCGridLineInfo))]
 	[Editor(typeof(DCGridLineInfoUIEditor), typeof(UITypeEditor))]

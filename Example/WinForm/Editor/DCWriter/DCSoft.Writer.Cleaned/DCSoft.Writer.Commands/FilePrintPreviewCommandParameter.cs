@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Commands
 	///       打印预览命令参数
 	///       </summary>
 	
-	[DocumentComment]
+	
 	public class FilePrintPreviewCommandParameter
 	{
 		private bool _AllowUserChangePrintArea = true;

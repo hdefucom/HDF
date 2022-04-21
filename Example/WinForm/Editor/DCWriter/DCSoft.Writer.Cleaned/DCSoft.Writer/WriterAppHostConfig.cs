@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Serializable]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class WriterAppHostConfig
 	{
 		private bool _EnableScript = true;

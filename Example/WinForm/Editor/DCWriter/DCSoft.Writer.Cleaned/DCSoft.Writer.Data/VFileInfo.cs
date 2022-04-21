@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Data
 	[Serializable]
 	
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class VFileInfo : ICloneable
 	{
 		private string _Name;

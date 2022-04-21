@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       文档域对象
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[XmlType("DField")]
 	
 	[DebuggerDisplay("Field")]

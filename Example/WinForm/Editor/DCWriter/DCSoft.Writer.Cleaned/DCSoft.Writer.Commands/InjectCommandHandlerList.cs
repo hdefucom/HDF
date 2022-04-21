@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Commands
 	///       注入到命令系统的处理委托对象列表
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	
 	[ComVisible(false)]
 	public class InjectCommandHandlerList

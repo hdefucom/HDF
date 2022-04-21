@@ -7,7 +7,7 @@ namespace DCSoft.Printing
 	///       打印模式
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("AC92DAA8-D94E-4B4B-899F-37D1028FDB06")]
 	public enum DCPrintMode
 	{

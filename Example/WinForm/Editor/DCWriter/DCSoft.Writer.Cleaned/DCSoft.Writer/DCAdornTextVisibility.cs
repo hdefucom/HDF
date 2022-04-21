@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       扩展文本显示方式
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("63AD161B-4BA6-4A39-952D-56BE7C0F0AA3")]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	

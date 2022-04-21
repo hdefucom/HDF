@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       重复引用的图片对象
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class RepeatedImageValue : XImageValue
 	{

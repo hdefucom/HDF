@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       文档事件参数
 	///       </summary>
 	[ComClass("04F413CE-CC37-4489-9353-A608D7E8BB04", "693A4F9F-5DE9-4AB8-A630-FA40E11379DC")]
-	[DocumentComment]
+	
 	[Guid("04F413CE-CC37-4489-9353-A608D7E8BB04")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IDocumentEventArgs))]

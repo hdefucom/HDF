@@ -18,7 +18,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[ComClass("46A44BC6-CF39-466D-B3EC-90FD812F103C", "2B8A0CD5-CF6B-4EEF-BA74-E4C62D39D469")]
-	[DocumentComment]
+	
 	public class NavigateNode : INavigateNode
 	{
 		internal const string CLASSID = "46A44BC6-CF39-466D-B3EC-90FD812F103C";

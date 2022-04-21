@@ -19,7 +19,7 @@ namespace DCSoft.Drawing
 	///       字体信息类型，本对象可以参与XML和二进制的序列化及反序列化。
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[Guid("00012345-6789-ABCD-EF01-23456789008D")]
 	
 	[Editor(typeof(GClass439), typeof(UITypeEditor))]

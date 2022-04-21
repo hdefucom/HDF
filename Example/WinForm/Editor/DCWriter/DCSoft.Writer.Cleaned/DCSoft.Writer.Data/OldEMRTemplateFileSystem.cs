@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Data
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class OldEMRTemplateFileSystem : IFileSystem
 	{
 		private string string_0 = "ET_Document";

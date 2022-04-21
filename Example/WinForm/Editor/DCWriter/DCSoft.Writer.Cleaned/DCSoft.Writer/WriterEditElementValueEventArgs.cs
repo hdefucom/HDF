@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterEditElementValueEventArgs))]
 	
-	[DocumentComment]
+	
 	[Guid("CB56C0AC-FB30-44EF-8067-9AD1726BC6BF")]
 	[ComVisible(true)]
 	public class WriterEditElementValueEventArgs : WriterEventArgs, IWriterEditElementValueEventArgs

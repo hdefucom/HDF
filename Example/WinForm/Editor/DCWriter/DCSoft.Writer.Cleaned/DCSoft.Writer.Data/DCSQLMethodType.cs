@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       SQL方法执行类型
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public enum DCSQLMethodType
 	{

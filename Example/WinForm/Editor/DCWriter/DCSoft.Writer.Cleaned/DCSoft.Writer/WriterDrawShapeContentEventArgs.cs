@@ -17,7 +17,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IWriterDrawShapeContentEventArgs))]
 	[ComClass("00576813-1CAF-48CF-BE6E-FC54C6F2469B", "B6973757-A464-4AED-8C69-D1859AA4EDDC")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	public class WriterDrawShapeContentEventArgs : WriterEventArgs, IWriterDrawShapeContentEventArgs
 	{
 		internal new const string CLASSID = "00576813-1CAF-48CF-BE6E-FC54C6F2469B";

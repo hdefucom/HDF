@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	///       文档元素事件模板
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
-	[DocumentComment]
+	
 	[ComClass("00012345-6789-ABCD-EF01-23456789006C", "A7953E00-41A5-4841-9440-71BC417C914E", "2C834075-AF5D-46C2-9415-83E93EC39519")]
 	[ToolboxBitmap(typeof(ElementEventTemplate))]
 	[ComSourceInterfaces(typeof(IElementEventTemplateComEvents))]

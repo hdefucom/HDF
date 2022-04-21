@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Dom
 	///       数值校验结果信息对象
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComClass("CC401D0B-A5D8-4FCC-86B5-D5606F4EF4AD", "0C3BFAF9-A7AD-4618-B0C3-ED9807B116DF")]
 	[ComDefaultInterface(typeof(IValueValidateResult))]
 	[Guid("CC401D0B-A5D8-4FCC-86B5-D5606F4EF4AD")]

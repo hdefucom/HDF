@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       SQL方法
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCSQLMethodInfo
 	{

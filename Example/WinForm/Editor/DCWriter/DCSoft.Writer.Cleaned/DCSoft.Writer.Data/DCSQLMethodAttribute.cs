@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	///       SQL方法标记特性
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	[AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
 	public class DCSQLMethodAttribute : Attribute
 	{

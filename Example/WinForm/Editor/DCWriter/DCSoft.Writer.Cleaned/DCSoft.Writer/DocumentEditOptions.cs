@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[ComClass("00012345-6789-ABCD-EF01-234567890069", "9D5FE97A-2FFB-4F2E-80A1-8D6A63E80497")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IDocumentEditOptions))]

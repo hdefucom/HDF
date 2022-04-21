@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("9A5DBD4B-5389-4D6C-941B-3E2F139795F4")]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public enum DCValidateIDRepeatMode
 	{

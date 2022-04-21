@@ -13,7 +13,7 @@ namespace DCSoft.WinForms.Controls
 	/// <summary>
 	///       字符串的卡片内容
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCCardStringItem : DCCardContentItem
 	{

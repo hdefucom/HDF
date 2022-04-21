@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(ISubDocumentSettings))]
-	[DocumentComment]
+	
 	public class SubDocumentSettings : ISubDocumentSettings
 	{
 		internal const string CLASSID = "3154CB70-68C1-4203-8B4B-92CBEAE92443";

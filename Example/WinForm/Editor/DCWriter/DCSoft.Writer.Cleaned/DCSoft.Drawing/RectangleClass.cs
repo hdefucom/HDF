@@ -12,7 +12,7 @@ namespace DCSoft.Drawing
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IRectangleClass))]
-	[DocumentComment]
+	
 	
 	public class RectangleClass : IRectangleClass
 	{

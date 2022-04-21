@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Commands
 	///       编辑器命令容器对象
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class WriterCommandContainer
 	{
 		private class CommandNameComparer : IComparer<WriterCommand>

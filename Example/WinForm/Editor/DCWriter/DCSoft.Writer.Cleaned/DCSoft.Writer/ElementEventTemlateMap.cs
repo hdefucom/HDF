@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       文档元素事件模板字典
 	///       </summary>
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IElementEventTemlateMap))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("291E3C96-4AEF-4912-A75C-035DC00A4571")]

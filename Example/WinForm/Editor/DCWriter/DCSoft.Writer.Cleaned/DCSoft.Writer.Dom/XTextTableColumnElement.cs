@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IXTextTableColumnElement))]
-	[DocumentComment]
+	
 	
 	[ComClass("00012345-6789-ABCD-EF01-234567890012", "03C90FA7-7002-4333-883F-D1E95C100A32")]
 	[XmlType("XTextTableColumn")]

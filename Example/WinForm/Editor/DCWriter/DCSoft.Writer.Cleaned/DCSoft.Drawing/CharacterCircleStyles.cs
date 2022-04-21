@@ -8,7 +8,7 @@ namespace DCSoft.Drawing
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[Guid("9BA67798-F22C-487E-BE98-305C14241484")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	public enum CharacterCircleStyles

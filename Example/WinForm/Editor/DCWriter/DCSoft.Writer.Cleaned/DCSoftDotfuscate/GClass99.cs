@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace DCSoftDotfuscate
 {
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class GClass99
 	{

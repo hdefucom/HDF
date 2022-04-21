@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class GClass358 : TraceListener
 	{
 		private delegate void Delegate6(string string_0);

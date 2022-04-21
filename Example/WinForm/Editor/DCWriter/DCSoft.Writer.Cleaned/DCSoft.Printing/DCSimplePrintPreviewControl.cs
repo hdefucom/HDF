@@ -21,7 +21,7 @@ namespace DCSoft.Printing
 	///       </remarks>
 	[ToolboxItem(false)]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class DCSimplePrintPreviewControl : UserControl
 	{

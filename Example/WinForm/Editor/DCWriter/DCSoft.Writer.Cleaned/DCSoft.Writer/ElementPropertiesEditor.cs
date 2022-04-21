@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       文档元素编辑器
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public abstract class ElementPropertiesEditor
 	{
 		/// <summary>

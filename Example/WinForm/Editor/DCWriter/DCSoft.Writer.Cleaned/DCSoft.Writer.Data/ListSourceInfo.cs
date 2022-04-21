@@ -22,7 +22,7 @@ namespace DCSoft.Writer.Data
 	[Editor(typeof(ListSourceInfoEditor), typeof(UITypeEditor))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-234567890032")]
-	[DocumentComment]
+	
 	
 	[ComClass("00012345-6789-ABCD-EF01-234567890032", "C3F5C68B-53B5-48D5-A352-46ADD435CC72")]
 	[ComVisible(true)]

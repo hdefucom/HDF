@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       数据源绑定信息列表
 	///       </summary>
-	[DocumentComment]
+	
 	
 	[ComDefaultInterface(typeof(IDataSourceBindingDescriptionList))]
 	[ComVisible(true)]

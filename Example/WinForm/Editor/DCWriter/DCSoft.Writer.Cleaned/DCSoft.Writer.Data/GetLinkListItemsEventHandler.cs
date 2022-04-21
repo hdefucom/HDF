@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Data
 	/// <param name="args">事件参数</param>
 	
 	[Guid("C8DE77B7-7C93-4904-94CF-E61ADD5994DE")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public delegate void GetLinkListItemsEventHandler(object sender, GetLinkListItemsEventArgs e);
 }

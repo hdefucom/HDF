@@ -25,7 +25,7 @@ namespace DCSoft.Writer.Dom
 	[DebuggerDisplay("Body :{ PreviewString }")]
 	[ComClass("0E4176E5-848F-4ECA-A911-47354EDBABD2", "8E21E3CD-581D-4A91-947F-DEFE29EDEE04")]
 	[XmlType("XTextBody")]
-	[DocumentComment]
+	
 	public sealed class XTextDocumentBodyElement : XTextDocumentContentElement, IXTextDocumentBodyElement
 	{
 		internal const string string_14 = "0E4176E5-848F-4ECA-A911-47354EDBABD2";

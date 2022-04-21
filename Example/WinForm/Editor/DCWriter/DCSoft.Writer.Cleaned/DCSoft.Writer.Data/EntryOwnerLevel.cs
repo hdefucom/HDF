@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       实体拥有者等级层次
 	///       </summary>
-	[DocumentComment]
+	
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[Guid("00012345-6789-ABCD-EF01-234567890022")]
 	[ComVisible(true)]

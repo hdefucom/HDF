@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	
 	[ComClass("147E4E00-93F4-4E81-A21E-4503060224C8", "F78AE1CA-23D7-4456-B38A-88F6685D8A41")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IElementLoadEventArgs))]
 	[Guid("147E4E00-93F4-4E81-A21E-4503060224C8")]
 	public class ElementLoadEventArgs : ElementEventArgs, IElementLoadEventArgs

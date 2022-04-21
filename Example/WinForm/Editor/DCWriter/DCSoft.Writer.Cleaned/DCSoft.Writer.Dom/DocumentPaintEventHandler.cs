@@ -11,6 +11,6 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(false)]
 	
 	[Guid("F4333861-7499-46F1-9459-2276D5B94B52")]
-	[DocumentComment]
+	
 	public delegate void DocumentPaintEventHandler(object sender, DocumentPaintEventArgs e);
 }

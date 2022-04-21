@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       表格行高度改变事件
 	///       </summary>
 	[ComClass("E575EB08-55B4-435F-B17F-D2D538F70E5A", "FC83CB1D-B2DF-47FB-9404-0473E15477EB")]
-	[DocumentComment]
+	
 	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("E575EB08-55B4-435F-B17F-D2D538F70E5A")]

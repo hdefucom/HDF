@@ -18,7 +18,7 @@ namespace DCSoft.Writer.Dom
 	///       文档样式信息对象
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890044", "3FAB6739-C339-45D9-930F-153F8BFF7CEA")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("00012345-6789-ABCD-EF01-234567890044")]

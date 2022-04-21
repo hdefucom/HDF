@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Dom
 	///       表格分栏模式
 	///       </summary>
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("3B4D501C-EA0A-438B-88DD-5472BBD4DC82")]
 	public enum TableSubfieldMode

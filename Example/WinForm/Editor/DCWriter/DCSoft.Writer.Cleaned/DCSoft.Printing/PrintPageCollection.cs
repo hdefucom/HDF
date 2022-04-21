@@ -13,7 +13,7 @@ namespace DCSoft.Printing
 	[Serializable]
 	[ComDefaultInterface(typeof(IPrintPageCollection))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("C9298742-0307-44F3-9FC8-2E6F27AC4246")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]

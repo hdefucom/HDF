@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("9D9BA649-62D3-41AC-9A34-CAFC92267FF0")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IDataSourceBindingDescription))]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ComClass("9D9BA649-62D3-41AC-9A34-CAFC92267FF0", "1C702A9E-7C16-40DF-AC7A-E57A1002714D")]

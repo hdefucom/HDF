@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       默认的知识库提供者对象
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DefaultKBProvider : IKBProvider
 	{

@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       标尺元素
 	///       </summary>
-	[DocumentComment]
+	
 	public class XTextRuleElement : XTextObjectElement
 	{
 		private string string_9 = null;

@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("00012345-6789-ABCD-EF01-234567890064")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum ContentGridLineType
 	{
 		/// <summary>

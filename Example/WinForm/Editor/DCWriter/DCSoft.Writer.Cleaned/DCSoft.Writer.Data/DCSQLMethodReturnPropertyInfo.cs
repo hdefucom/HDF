@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       SQL方法的返回属性
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCSQLMethodReturnPropertyInfo
 	{

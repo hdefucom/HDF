@@ -35,7 +35,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IXTextTableElement))]
-	[DocumentComment]
+	
 	
 	[ComClass("00012345-6789-ABCD-EF01-234567890013", "56FB6F65-8B16-36B3-854B-A69FF648795D")]
 	[XmlType("XTextTable")]

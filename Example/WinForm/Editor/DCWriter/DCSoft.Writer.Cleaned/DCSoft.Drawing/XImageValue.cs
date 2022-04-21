@@ -36,7 +36,7 @@ namespace DCSoft.Drawing
 	[Guid("00012345-6789-ABCD-EF01-23456789008C")]
 	[ToolboxItem(false)]
 	
-	[DocumentComment]
+	
 	[DefaultProperty("ImageData")]
 	public class XImageValue : ICloneable, IComponent, IXImageValue
 	{

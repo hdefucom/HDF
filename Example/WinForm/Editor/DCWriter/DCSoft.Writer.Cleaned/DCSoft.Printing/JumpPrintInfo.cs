@@ -9,7 +9,7 @@ namespace DCSoft.Printing
 	///       续打信息
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[Guid("FCD1C6AA-5912-4667-A224-4EBD97DE0E59")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IJumpPrintInfo))]

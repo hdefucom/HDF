@@ -23,7 +23,7 @@ namespace DCSoft.Writer
 	[DebuggerDisplay("Count={ Count }")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComClass("6A078F46-F943-482A-9332-0FC59C502CD8", "41CAB7D0-1773-4965-9193-62F421392D66")]
-	[DocumentComment]
+	
 	public class UserTrackInfoList : List<UserTrackInfo>, IUserTrackInfoList
 	{
 		private class Class45 : IComparer<UserTrackInfo>

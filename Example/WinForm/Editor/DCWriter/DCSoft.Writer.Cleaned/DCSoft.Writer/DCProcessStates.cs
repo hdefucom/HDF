@@ -6,7 +6,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       操作状态
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("D6DE82F0-456E-47A2-AB9F-D0D393D6C923")]
 	
 	[ComVisible(true)]

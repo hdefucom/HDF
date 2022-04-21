@@ -23,7 +23,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("00012345-6789-ABCD-EF01-23456789001D")]
 	[ComClass("00012345-6789-ABCD-EF01-23456789001D", "BC40D9FD-B2AD-462C-9C9F-9B8EC5D612CC")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public sealed class XTextPageBreakElement : XTextElement, IXTextPageBreakElement
 	{
 		internal const string string_3 = "00012345-6789-ABCD-EF01-23456789001D";

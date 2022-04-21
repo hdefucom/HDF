@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Controls
 	[ComVisible(true)]
 	[ToolboxBitmap(typeof(WriterPrintPreviewControl))]
 	
-	[DocumentComment]
+	
 	[ToolboxItem(true)]
 	public class WriterPrintPreviewControl : DCPrintPreviewControl
 	{

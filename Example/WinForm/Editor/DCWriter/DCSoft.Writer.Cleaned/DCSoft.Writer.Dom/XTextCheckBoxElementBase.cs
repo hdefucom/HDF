@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("00012345-6789-ABCD-EF01-23456789004F")]
 	[DebuggerDisplay("CheckBox:Group={GroupName} , Checked={Checked}")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public class XTextCheckBoxElementBase : XTextObjectElement, IUpdateDataBindingExt
 	{
 		private DataFeedbackInfo dataFeedbackInfo_0 = null;

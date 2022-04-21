@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       默认的时间日期服务器对象
 	///       </summary>
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IDateTimeService))]
 	[ComVisible(false)]
 	

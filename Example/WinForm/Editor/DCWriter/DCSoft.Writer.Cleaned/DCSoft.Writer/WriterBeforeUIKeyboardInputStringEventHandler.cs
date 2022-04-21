@@ -14,6 +14,6 @@ namespace DCSoft.Writer
 	
 	[Guid("927BF770-67B6-4064-907E-5707BD4C75B2")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public delegate void WriterBeforeUIKeyboardInputStringEventHandler(object sender, WriterBeforeUIKeyboardInputStringEventArgs e);
 }

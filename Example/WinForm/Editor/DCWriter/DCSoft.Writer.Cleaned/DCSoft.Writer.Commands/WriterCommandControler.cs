@@ -25,7 +25,7 @@ namespace DCSoft.Writer.Commands
 	
 	[ToolboxItem(true)]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	[ProvideProperty("EventName", typeof(Component))]
 	public class WriterCommandControler : Component, ISupportInitialize, IExtenderProvider
 	{

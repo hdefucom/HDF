@@ -8,7 +8,7 @@ namespace DCSoft.Printing
 	///       支持分页显示的文档接口类型
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public interface IPageDocument
 	{

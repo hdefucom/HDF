@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Commands
 	///       功能模块对象
 	///       </summary>
 	
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class WriterCommandModule : IDisposable
 	{

@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       内容只读状态
 	///       </summary>
 	
-	[DocumentComment]
+	
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[ComVisible(true)]
 	[Guid("D26AA5C4-47D8-426F-A228-9F6CEB1A46B9")]

@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ComClass("06C64259-FD97-4BC8-8492-80AABF778200", "A9888526-AAAD-417A-A5F5-91DC0518415B")]
 	[ComDefaultInterface(typeof(IAppErrorInfo))]
 	[Guid("06C64259-FD97-4BC8-8492-80AABF778200")]
-	[DocumentComment]
+	
 	public class AppErrorInfo : IAppErrorInfo
 	{
 		internal const string CLASSID = "06C64259-FD97-4BC8-8492-80AABF778200";

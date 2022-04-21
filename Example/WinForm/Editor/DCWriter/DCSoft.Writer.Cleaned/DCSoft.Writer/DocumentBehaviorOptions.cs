@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[Serializable]
 	[ComClass("00012345-6789-ABCD-EF01-234567890068", "BAC6B1D5-40D2-4CA5-A09C-C11C595C06B7")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IDocumentBehaviorOptions))]
 	[Guid("00012345-6789-ABCD-EF01-234567890068")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("09B6190F-475F-4599-AD23-F95C9A57D798")]
-	[DocumentComment]
+	
 	public enum DCTDBarcodeType
 	{
 		QR

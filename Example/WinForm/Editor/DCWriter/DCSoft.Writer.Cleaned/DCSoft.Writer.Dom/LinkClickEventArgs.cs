@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       文档链接点击事件参数类型
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class LinkClickEventArgs : EventArgs
 	{

@@ -27,7 +27,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[XmlType("XInputField")]
 	
-	[DocumentComment]
+	
 	[ComClass("00012345-6789-ABCD-EF01-234567890059", "7F013F6B-FFF8-3B8B-BD4E-4EB9FE965505")]
 	[ComDefaultInterface(typeof(IXTextInputFieldElement))]
 	public class XTextInputFieldElement : XTextInputFieldElementBase, IXTextInputFieldElement

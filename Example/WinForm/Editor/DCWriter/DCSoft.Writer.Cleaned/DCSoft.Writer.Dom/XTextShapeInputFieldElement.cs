@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	///       </remarks>
 	[Serializable]
 	[Guid("00012345-6789-ABCD-EF01-234567890017")]
-	[DocumentComment]
+	
 	
 	public class XTextShapeInputFieldElement : XTextInputFieldElementBase
 	{

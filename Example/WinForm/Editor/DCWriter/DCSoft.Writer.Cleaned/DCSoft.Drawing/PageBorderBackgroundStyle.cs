@@ -12,7 +12,7 @@ namespace DCSoft.Drawing
 	[Guid("B4103AA3-524C-4E7A-98D2-4E34CFDE7AD0")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IPageBorderBackgroundStyle))]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public class PageBorderBackgroundStyle : ContentStyle, IPageBorderBackgroundStyle
 	{

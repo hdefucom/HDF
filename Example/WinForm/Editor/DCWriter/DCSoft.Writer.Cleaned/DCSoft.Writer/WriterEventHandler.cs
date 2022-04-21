@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(true)]
 	[Guid("E2CA6971-3F9B-4995-80EF-B99065098394")]
-	[DocumentComment]
+	
 	
 	public delegate void WriterEventHandler(object sender, WriterEventArgs e);
 }

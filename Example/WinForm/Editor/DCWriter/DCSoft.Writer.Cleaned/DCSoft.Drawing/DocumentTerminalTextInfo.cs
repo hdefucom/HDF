@@ -13,7 +13,7 @@ namespace DCSoft.Drawing
 	///       文档结束标记信息
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[TypeConverter(typeof(TypeConverterSupportProperties))]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]

@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       WEB控件内容呈现模式
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public enum WebWriterControlRenderMode
 	{

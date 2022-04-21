@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	///       支持对图像进行分区标识与定义的图片文档元素
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[XmlInclude(typeof(ArrayList))]
 	[XmlType("XPartitionImage")]
 	[XmlInclude(typeof(Color))]

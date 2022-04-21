@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	[ComClass("74D09E85-5AE3-4FCA-B2E5-BFEDDB96F69D", "1E1D65E3-591F-47D7-9172-DC10BF3119A5")]
 	[ComDefaultInterface(typeof(IXTextDirectoryFieldElement))]
 	[Guid("74D09E85-5AE3-4FCA-B2E5-BFEDDB96F69D")]

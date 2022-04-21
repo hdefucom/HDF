@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerDisplay("StartIndex={StartIndex},Length={Length}")]
-	[DocumentComment]
+	
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ComDefaultInterface(typeof(IXTextSelection))]
 	public class XTextSelection : IEnumerable, IXTextSelection

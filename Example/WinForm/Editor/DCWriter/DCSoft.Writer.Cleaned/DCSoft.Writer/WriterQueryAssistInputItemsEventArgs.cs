@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("9CFCD4DB-9E8E-47D7-A63C-6DD4FE1E52D6", "3009CECC-4947-48D0-81D5-E94E5DDF77C6")]
 	
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IWriterQueryAssistInputItemsEventArgs))]
 	[ComVisible(true)]
 	[Guid("9CFCD4DB-9E8E-47D7-A63C-6DD4FE1E52D6")]

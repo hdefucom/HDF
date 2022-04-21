@@ -12,7 +12,7 @@ namespace DCSoft.Drawing
 	[ComVisible(true)]
 	[Guid("AA61783C-53EB-42B1-A989-C094A963F8A4")]
 	
-	[DocumentComment]
+	
 	public enum DCContentAlignment
 	{
 		/// <summary>

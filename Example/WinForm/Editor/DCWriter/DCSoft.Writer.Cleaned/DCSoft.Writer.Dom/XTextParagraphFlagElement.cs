@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IXTextParagraphFlagElement))]
 	[XmlType("XParagraphFlag")]
 	[ComClass("00012345-6789-ABCD-EF01-23456789001B", "DD4653F9-509D-4AEE-A021-AD63E1A59A1C")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	[Guid("00012345-6789-ABCD-EF01-23456789001B")]

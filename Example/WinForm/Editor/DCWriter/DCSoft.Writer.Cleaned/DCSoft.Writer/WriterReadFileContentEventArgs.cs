@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       读取文件内容事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComClass("F833B59C-C3B4-4E36-97C5-0F1AA9433419", "6ACA5A24-7F1F-430A-B028-6DF89C54A4A7")]
 	
 	[ComVisible(true)]

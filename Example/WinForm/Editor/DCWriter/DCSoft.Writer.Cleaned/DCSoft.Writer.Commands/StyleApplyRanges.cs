@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Commands
 	/// <summary>
 	///       样式应用范围
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	[Flags]
 	

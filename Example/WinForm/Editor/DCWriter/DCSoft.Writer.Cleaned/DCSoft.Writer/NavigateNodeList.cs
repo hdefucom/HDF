@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       导航节点列表
 	///       </summary>
 	[Guid("018F2C51-DA77-4E16-A92E-C5C1D6D8BA78")]
-	[DocumentComment]
+	
 	[ComClass("018F2C51-DA77-4E16-A92E-C5C1D6D8BA78", "2609A1FB-AA59-4BC3-81D7-823A18BBFF44")]
 	
 	[ComVisible(true)]

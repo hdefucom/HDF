@@ -8,7 +8,7 @@ namespace DCSoft.Printing
 	///       </summary>
 	[ComVisible(true)]
 	[Guid("B1A2715F-5307-4B38-8D87-3B9FCC9E257B")]
-	[DocumentComment]
+	
 	public enum JumpPrintMode
 	{
 		/// <summary>

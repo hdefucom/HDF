@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Script
 	///       VB脚本项目列表
 	///       </summary>
 	[Serializable]
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class VBScriptItemList : List<VBScriptItem>
 	{

@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	///       文档区域选择提供者
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class XTextRangeProvider
 	{
 		private List<XTextRange> _Ranges = new List<XTextRange>();

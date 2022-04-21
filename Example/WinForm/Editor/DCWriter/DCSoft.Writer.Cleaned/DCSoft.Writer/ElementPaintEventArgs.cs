@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("12CF1384-1786-471F-BF9A-7E370B9A484B")]
 	[ComDefaultInterface(typeof(IElementPaintEventArgs))]
-	[DocumentComment]
+	
 	[ComClass("12CF1384-1786-471F-BF9A-7E370B9A484B", "BFB16C0A-B8AE-4ECA-AACE-BE43493221F5")]
 	[ComVisible(true)]
 	

@@ -26,7 +26,7 @@ namespace DCSoft.Writer.Controls
 	[Guid("BE5A816C-0337-4B9C-8935-E2CA67007A3E")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	
 	public class InstanceFactoryForCOM : IInstanceFactoryForCOM
 	{

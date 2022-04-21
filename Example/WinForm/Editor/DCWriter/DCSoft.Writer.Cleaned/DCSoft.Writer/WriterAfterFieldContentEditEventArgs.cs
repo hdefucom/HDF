@@ -19,7 +19,7 @@ namespace DCSoft.Writer
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IWriterAfterFieldContentEditEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	public class WriterAfterFieldContentEditEventArgs : IWriterAfterFieldContentEditEventArgs
 	{
 		internal const string CLASSID = "BE8FB62C-F76E-4F18-AE0B-0FF2034C250D";

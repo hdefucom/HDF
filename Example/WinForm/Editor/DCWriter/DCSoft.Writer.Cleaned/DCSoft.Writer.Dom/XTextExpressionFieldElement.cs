@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	[XmlType("XTextExpressionField")]
 	[DebuggerDisplay("Expression:{ID}")]
 	[Guid("00012345-6789-ABCD-EF01-2345678900bb")]
-	[DocumentComment]
+	
 	public class XTextExpressionFieldElement : XTextInputFieldElementBase
 	{
 		private string string_23 = null;

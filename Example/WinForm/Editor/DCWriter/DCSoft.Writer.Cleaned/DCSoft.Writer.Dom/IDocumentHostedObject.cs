@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public interface IDocumentHostedObject
 	{

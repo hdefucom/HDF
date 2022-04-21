@@ -8,7 +8,7 @@ namespace DCSoft.Drawing
 	///       文档元素可见性配置
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[Flags]
 	[ComVisible(true)]
 	[Guid("9F8DD933-DCE4-4E00-B595-443043D64D7D")]

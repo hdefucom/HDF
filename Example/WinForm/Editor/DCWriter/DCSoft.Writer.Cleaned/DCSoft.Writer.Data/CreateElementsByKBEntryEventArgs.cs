@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       根据知识库创建文档元素事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(ICreateElementsByKBEntryEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("88B73E03-E559-447A-AF8D-1BE9372D250B")]

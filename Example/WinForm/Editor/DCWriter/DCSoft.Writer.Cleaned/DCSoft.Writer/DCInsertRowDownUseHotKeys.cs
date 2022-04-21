@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	
 	[ComVisible(true)]
 	[Guid("461045B4-FE29-4A6C-9071-15474A9DA8EC")]
-	[DocumentComment]
+	
 	public enum DCInsertRowDownUseHotKeys
 	{
 		/// <summary>

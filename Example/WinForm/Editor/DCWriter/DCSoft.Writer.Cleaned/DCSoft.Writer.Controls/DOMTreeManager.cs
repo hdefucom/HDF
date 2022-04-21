@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Controls
 {
 	
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DOMTreeManager : IDisposable
 	{
 		private TreeViewCancelEventHandler _HandlerBeforeExpand;

@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	
 	[Guid("691BF3F0-0A7F-4612-978D-5C6E8CA0EAD7")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("691BF3F0-0A7F-4612-978D-5C6E8CA0EAD7", "B552FEBF-3035-42DF-8FA5-FEC99E4EF75B")]

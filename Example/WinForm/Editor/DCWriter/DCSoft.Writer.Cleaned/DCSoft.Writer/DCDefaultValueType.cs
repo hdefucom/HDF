@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("C195EDF6-D57E-4ABC-BFA5-88FADBE56B2F")]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public enum DCDefaultValueType
 	{

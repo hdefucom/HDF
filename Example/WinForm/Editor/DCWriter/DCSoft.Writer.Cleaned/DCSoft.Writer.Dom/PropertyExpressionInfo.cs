@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[Serializable]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IPropertyExpressionInfo))]
 	[ComClass("10B4CBFE-618D-470D-9ED0-883CE63F6F90", "BD628F91-A17B-4DBF-9519-DA77C9A252D0")]
 	

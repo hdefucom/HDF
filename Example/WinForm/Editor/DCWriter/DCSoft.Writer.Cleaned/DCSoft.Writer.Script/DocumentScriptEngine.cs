@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Script
 	///       文档脚本引擎
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	public class DocumentScriptEngine : XVBAEngine, IDocumentScriptEngine

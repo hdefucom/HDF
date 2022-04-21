@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	///       用于获得列表项目的提供者接口
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	
 	[ComVisible(false)]
 	[Obsolete("!!!请使用WriterControl.OnQueryListItems事件")]

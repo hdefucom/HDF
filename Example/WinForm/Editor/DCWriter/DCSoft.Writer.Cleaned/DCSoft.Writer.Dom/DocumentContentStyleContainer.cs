@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IDocumentContentStyleContainer))]
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890045")]

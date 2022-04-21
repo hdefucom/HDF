@@ -12,7 +12,7 @@ namespace DCSoft.Drawing.Design
 	///       简单的图片数值编辑器
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class SimpleImageValueEditor : UITypeEditor
 	{
 		/// <summary>

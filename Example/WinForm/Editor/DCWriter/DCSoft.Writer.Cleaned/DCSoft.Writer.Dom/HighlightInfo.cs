@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编写 袁永福</remarks>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class HighlightInfo
 	{

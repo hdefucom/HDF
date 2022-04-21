@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class GException0 : Exception
 	{
 		public GException0()

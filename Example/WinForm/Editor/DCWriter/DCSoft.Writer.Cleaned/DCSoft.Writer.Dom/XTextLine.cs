@@ -25,7 +25,7 @@ namespace DCSoft.Writer.Dom
     [ComVisible(true)]
     [ComClass("00012345-6789-ABCD-EF01-23456789000F", "88F6BACA-29E0-465E-AC26-710AC3AF1050")]
     [ClassInterface(ClassInterfaceType.None)]
-    [DocumentComment]
+    
     public class XTextLine : XTextElementList, IXTextLine
     {
         internal const string string_2 = "00012345-6789-ABCD-EF01-23456789000F";

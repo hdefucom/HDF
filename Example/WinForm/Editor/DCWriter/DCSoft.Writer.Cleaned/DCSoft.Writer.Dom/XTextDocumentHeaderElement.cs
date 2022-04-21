@@ -19,7 +19,7 @@ namespace DCSoft.Writer.Dom
 	[DebuggerDisplay("Header :{ PreviewString }")]
 	[Guid("8B273384-82C3-4E23-8DA8-940CE19AB582")]
 	
-	[DocumentComment]
+	
 	[ComClass("8B273384-82C3-4E23-8DA8-940CE19AB582", "1F79E8C5-A034-4BE1-8E76-8A971466DF84")]
 	[XmlType("XTextHeader")]
 	public sealed class XTextDocumentHeaderElement : XTextDocumentContentElement, IXTextDocumentHeaderElement

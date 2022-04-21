@@ -14,7 +14,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("BB04154D-8AFE-413A-A5F3-608DC2C5E345")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IElementMouseEventArgs))]
 	

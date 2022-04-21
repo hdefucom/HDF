@@ -12,7 +12,7 @@ using System.Windows.Forms;
 namespace DCSoftDotfuscate
 {
 	
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	internal class Class53 : GInterface3
 	{

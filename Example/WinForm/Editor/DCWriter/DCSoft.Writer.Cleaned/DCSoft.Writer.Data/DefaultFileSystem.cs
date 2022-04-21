@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class DefaultFileSystem : IFileSystem
 	{
 		private string string_0 = null;

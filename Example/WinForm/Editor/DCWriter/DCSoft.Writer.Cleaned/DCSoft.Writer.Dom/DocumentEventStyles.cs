@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("A2D0E773-6E11-4B93-9583-0A20A2810E47")]
 	
 	public enum DocumentEventStyles

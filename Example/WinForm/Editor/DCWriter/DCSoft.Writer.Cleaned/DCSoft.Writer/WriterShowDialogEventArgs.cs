@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       显示对话框事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("6FC8E3C7-4987-499C-A1D1-9BCBC40E425B")]
 	[ComClass("6FC8E3C7-4987-499C-A1D1-9BCBC40E425B", "F3ADC9B8-DFEE-4497-A454-74698A62051D")]
 	

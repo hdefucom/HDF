@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	/// <summary>
 	///       CanInsert函数参数类型
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[Guid("C26BF7C1-77E3-49B2-94E7-1FD7843FE6CE")]

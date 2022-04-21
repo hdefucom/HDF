@@ -12,7 +12,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       打印时查询页面设置事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	
 	[ComDefaultInterface(typeof(IWriterPrintQueryPageSettingsEventArgs))]
 	[ClassInterface(ClassInterfaceType.None)]

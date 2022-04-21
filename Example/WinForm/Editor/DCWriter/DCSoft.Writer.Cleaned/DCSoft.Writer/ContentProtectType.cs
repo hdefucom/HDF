@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890065")]
-	[DocumentComment]
+	
 	public enum ContentProtectType
 	{
 		/// <summary>

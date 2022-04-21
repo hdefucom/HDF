@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Controls
 {
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public interface IWriterControlWebServiceProtocol : IDisposable, IWriterControlWebService
 	{
 		string Url

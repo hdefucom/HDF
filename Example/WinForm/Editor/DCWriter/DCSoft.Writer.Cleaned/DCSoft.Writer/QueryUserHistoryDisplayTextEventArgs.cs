@@ -15,7 +15,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IQueryUserHistoryDisplayTextEventArgs))]
 	[Guid("61FEFE37-46C2-4465-BF7D-25B204B9F6CF")]
 	[ComClass("61FEFE37-46C2-4465-BF7D-25B204B9F6CF", "D8F880B4-FEB7-4E32-ADA2-24D603BD5527")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public class QueryUserHistoryDisplayTextEventArgs : WriterEventArgs, IQueryUserHistoryDisplayTextEventArgs
 	{

@@ -11,7 +11,7 @@ namespace DCSoftDotfuscate
 {
 	[Serializable]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class GClass133 : IComparable
 	{
 		private GEnum6 genum6_0 = GEnum6.const_0;

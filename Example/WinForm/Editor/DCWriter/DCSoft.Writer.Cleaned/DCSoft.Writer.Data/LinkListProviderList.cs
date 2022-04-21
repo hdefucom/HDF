@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Data
 	[DebuggerDisplay("Count={ Count }")]
 	[ComClass("D030F4E0-C4EF-4370-9F07-4FA1AFC62C7D", "36702F82-E65E-4F65-8CE8-8A9F8BF7CC5C")]
 	[DebuggerTypeProxy(typeof(ListDebugView))]
-	[DocumentComment]
+	
 	
 	public class LinkListProviderList : List<LinkListProvider>, ILinkListProviderList
 	{

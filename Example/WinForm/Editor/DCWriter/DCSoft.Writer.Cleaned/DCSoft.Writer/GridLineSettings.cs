@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IGridLineSettings))]
-	[DocumentComment]
+	
 	[Guid("FF0166D8-6E3A-4ADB-BD81-BF83C078B4DA")]
 	[ComVisible(true)]
 	[ComClass("FF0166D8-6E3A-4ADB-BD81-BF83C078B4DA", "18A4C37F-F6AC-4617-B27F-DAE378CE8E13")]

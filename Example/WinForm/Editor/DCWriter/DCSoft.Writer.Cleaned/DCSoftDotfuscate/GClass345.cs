@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public static class GClass345
 	{
 		public static object[] smethod_0(GDelegate18 gdelegate18_0, object object_0)

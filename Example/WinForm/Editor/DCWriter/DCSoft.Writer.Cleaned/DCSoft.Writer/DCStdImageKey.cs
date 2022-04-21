@@ -8,7 +8,7 @@ namespace DCSoft.Writer
 	///       </summary>
 	[Guid("48A5A9F8-F984-4EF1-9D22-2555CC28571C")]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public enum DCStdImageKey
 	{

@@ -11,7 +11,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("F282869A-E275-4B5B-9440-2F0B8DFAD6DE", "AE1A9ED0-0194-4A97-A116-5A4A508995DD")]
 	[Guid("F282869A-E275-4B5B-9440-2F0B8DFAD6DE")]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(ISystemAlertInfo))]
 	public class SystemAlertInfo : ISystemAlertInfo
 	{

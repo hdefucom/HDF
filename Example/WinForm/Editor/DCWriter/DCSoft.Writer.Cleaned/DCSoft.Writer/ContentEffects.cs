@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       影响文档内容的方式
 	///       </summary>
 	
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	[Guid("00012345-6789-ABCD-EF01-234567890063")]
 	public enum ContentEffects

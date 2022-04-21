@@ -16,7 +16,7 @@ namespace DCSoft.Writer
 	[Guid("07142DDF-C237-4185-8F34-CF965211B1C5")]
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IWriterStartEditEventArgs))]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	public class WriterStartEditEventArgs : WriterEventArgs, IWriterStartEditEventArgs
 	{

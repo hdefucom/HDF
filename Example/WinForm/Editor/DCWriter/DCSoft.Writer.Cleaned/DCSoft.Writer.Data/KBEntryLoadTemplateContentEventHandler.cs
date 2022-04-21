@@ -11,6 +11,6 @@ namespace DCSoft.Writer.Data
 	[Guid("8C9EC181-9B3E-4870-AC59-AEC10D1476BA")]
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	public delegate void KBEntryLoadTemplateContentEventHandler(object sender, KBEntryLoadTemplateContentEventArgs e);
 }

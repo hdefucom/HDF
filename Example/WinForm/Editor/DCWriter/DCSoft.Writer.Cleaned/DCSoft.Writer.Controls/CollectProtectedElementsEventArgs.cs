@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       收集内容保护信息事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[ComClass("11FAF693-4282-4EF8-A108-D657B392C6F3", "C663CDE8-C62E-41A5-AAE1-CC7C94816A0B")]
 	[Guid("11FAF693-4282-4EF8-A108-D657B392C6F3")]

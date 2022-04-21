@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Controls
 	///       组件类型控制器
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class ComponentTypeControler
 	{
 		private static Dictionary<string, ComponentTypeInfo[]> _buffer = null;

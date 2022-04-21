@@ -21,7 +21,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IXTextFileBlockElement))]
 	
-	[DocumentComment]
+	
 	[DebuggerDisplay("File block:{ID} {ContentSourceValue}")]
 	[ComClass("00012345-6789-ABCD-EF01-234567890056", "9E74F75D-3D57-45FA-929E-99E7E912987D")]
 	[Guid("00012345-6789-ABCD-EF01-234567890056")]

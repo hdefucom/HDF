@@ -24,7 +24,7 @@ namespace DCSoft.Writer.Dom
 	[ClassInterface(ClassInterfaceType.None)]
 	[DebuggerDisplay("Count={ Count }")]
 	
-	[DocumentComment]
+	
 	[Editor(typeof(XAttributeListEditor), typeof(UITypeEditor))]
 	public class XAttributeList : List<XAttribute>, ICloneable, IDCStringSerializable, IXAttributeList
 	{

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       遍历元素事件参数
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class ElementEnumerateEventArgs : EventArgs
 	{
 		private bool _ReverseMode = false;

@@ -9,7 +9,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       图片的压缩存储模式
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	

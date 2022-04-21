@@ -18,7 +18,7 @@ namespace DCSoft.Writer
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IWriterEventArgs))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ComClass("5CA02A4C-914F-4CB2-83D2-D6B350004F2D", "DC50DF91-E87E-47ED-9AA4-6CF16530B4AB")]
 	public class WriterEventArgs : EventArgs, IWriterEventArgs
 	{

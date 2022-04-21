@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	///       受保护内容的提示方式
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	
 	[Guid("A5BF86F0-CF22-4C9C-A900-9CE152F982ED")]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]

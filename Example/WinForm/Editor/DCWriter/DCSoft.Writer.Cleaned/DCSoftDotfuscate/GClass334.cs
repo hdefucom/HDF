@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public static class GClass334
 	{
 		public static string smethod_0(string string_0, string string_1)

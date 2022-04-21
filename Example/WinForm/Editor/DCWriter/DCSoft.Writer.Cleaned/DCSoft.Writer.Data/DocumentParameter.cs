@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Data
 	///       </summary>
 	[Serializable]
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class DocumentParameter
 	{

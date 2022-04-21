@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Dom
 	[ComDefaultInterface(typeof(IXTextDocumentHeaderForFirstPageElement))]
 	[ComClass("942F72BF-930D-43B9-BFE5-0BDA614FFD97", "13244198-8DD8-4652-9D52-2AEF315D6FA5")]
 	[Guid("942F72BF-930D-43B9-BFE5-0BDA614FFD97")]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	
 	[XmlType("XTextHeaderForFirstPage")]

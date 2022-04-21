@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Data
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public class DataBindingPathProvider
 	{
 		private static Dictionary<string, string[]> dictionary_0 = new Dictionary<string, string[]>();

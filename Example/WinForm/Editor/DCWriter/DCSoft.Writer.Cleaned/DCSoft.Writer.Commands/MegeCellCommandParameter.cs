@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Commands
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("C4AF866C-5004-4591-8453-DEC639D99923", "656D6F74-BFE0-4C7E-9B9B-829FA3270DBC")]
 	
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("C4AF866C-5004-4591-8453-DEC639D99923")]
 	public class MegeCellCommandParameter : IMegeCellCommandParameter

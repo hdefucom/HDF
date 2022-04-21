@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	///       </summary>
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public class DocumentStates
 	{
 		private JumpPrintMode _JumpPrintModeForCurrentPage = JumpPrintMode.Disable;

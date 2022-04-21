@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	///       用户痕迹信息列表控制器
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class TrackListBoxControler
 	{

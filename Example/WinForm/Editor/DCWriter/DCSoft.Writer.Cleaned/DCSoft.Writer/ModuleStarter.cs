@@ -25,7 +25,7 @@ namespace DCSoft.Writer
 	/// <summary>
 	///       自动化模块启动器
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class ModuleStarter
 	{

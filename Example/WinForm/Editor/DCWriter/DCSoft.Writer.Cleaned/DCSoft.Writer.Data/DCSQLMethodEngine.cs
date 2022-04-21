@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       SQL方法执行器 
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCSQLMethodEngine
 	{

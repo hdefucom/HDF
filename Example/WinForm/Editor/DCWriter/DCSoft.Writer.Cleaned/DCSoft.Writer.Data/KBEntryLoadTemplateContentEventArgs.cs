@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Data
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("589660D3-A76E-4413-97C1-6E9E34336292", "98302397-4E8A-4679-953E-9837FF4C666C")]
 	[Guid("589660D3-A76E-4413-97C1-6E9E34336292")]
-	[DocumentComment]
+	
 	public class KBEntryLoadTemplateContentEventArgs : IKBEntryLoadTemplateContentEventArgs
 	{
 		internal const string CLASSID = "589660D3-A76E-4413-97C1-6E9E34336292";

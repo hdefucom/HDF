@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Controls
 	///       查询列表项目事件参数
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	[ComDefaultInterface(typeof(IQueryListItemsEventArgs))]

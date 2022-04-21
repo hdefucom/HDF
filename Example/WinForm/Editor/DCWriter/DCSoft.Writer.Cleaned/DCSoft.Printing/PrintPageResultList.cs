@@ -9,7 +9,7 @@ namespace DCSoft.Printing
 	///       </summary>
 	[ComDefaultInterface(typeof(IPrintPageResultList))]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[Guid("5B4C4495-4625-4982-A53E-1D2AA773255E")]
 	[ComVisible(true)]
 	public class PrintPageResultList : List<PrintPageResult>, IPrintPageResultList

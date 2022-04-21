@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Commands
 	[ComVisible(true)]
 	[Flags]
 	[Guid("E41771FA-DF00-48D1-B81F-7CB8164367E9")]
-	[DocumentComment]
+	
 	public enum PrintPreviewZoomRate
 	{
 		/// <summary>

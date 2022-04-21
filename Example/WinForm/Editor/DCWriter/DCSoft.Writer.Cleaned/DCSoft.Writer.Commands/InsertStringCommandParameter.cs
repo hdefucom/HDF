@@ -16,7 +16,7 @@ namespace DCSoft.Writer.Commands
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IInsertStringCommandParameter))]
 	
-	[DocumentComment]
+	
 	[Guid("2B1E25B5-25B4-4DC5-8E4F-1B460A22FE72")]
 	public class InsertStringCommandParameter : IInsertStringCommandParameter
 	{

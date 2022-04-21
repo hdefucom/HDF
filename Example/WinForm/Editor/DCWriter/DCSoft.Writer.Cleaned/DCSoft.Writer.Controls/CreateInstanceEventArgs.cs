@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Controls
 	/// <summary>
 	///       创建对象实例事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("3CFD2E1C-72C2-4330-8D1F-56D8E72554F0", "2DE060E8-A2EB-4879-9383-7387E7952DD7")]
 	

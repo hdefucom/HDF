@@ -6,7 +6,7 @@ namespace DCSoft.Drawing
 	/// <summary>
 	///       行间距样式
 	///       </summary>
-	[DocumentComment]
+	
 	[Guid("A444A5D5-D16B-4454-B210-C1F9603636E9")]
 	[ComVisible(true)]
 	public enum LineSpacingStyle

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Controls
 	///       文档导航树控制器
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public class NavigateTreeViewControler
 	{

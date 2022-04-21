@@ -10,7 +10,7 @@ namespace DCSoft.Writer.Script
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class WriterWindow : XVBAWindowObject
 	{
 		private WriterControl _WriterControl = null;

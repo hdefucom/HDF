@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[Serializable]
 	
 	[ComClass("FF125BB9-0498-48FF-90C4-158CEEB0CDC3", "A190D93A-F50F-4A36-87BE-863F35186D04")]
-	[DocumentComment]
+	
 	[DebuggerTypeProxy(typeof(ListDebugView))]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]

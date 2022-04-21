@@ -17,7 +17,7 @@ namespace DCSoft.Writer.Printing
 	/// <remarks>编制 袁永福</remarks>
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public class DocumentPrinter
 	{
 		private DCPrintDocumentOptions dcprintDocumentOptions_0 = new DCPrintDocumentOptions();

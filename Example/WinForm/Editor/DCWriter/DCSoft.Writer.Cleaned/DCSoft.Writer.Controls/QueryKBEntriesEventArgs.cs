@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Controls
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("FA368EE3-71FC-439F-AE18-0D99E7CA8783", "12D0A287-D6D3-4C7F-94B9-A9D8405FE2B3")]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IQueryKBEntriesEventArgs))]
 	[Guid("FA368EE3-71FC-439F-AE18-0D99E7CA8783")]
 	public class QueryKBEntriesEventArgs : EventArgs, IQueryKBEntriesEventArgs

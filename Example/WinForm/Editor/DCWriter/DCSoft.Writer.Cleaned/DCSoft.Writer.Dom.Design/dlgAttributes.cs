@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom.Design
 	/// <summary>
 	///       文档元素附加的属性对话框
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class dlgAttributes : Form
 	{

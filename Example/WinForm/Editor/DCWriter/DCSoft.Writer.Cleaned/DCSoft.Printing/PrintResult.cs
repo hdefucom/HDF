@@ -17,7 +17,7 @@ namespace DCSoft.Printing
 	///       编制 袁永福
 	///       </remarks>
 	[ComDefaultInterface(typeof(IPrintResult))]
-	[DocumentComment]
+	
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComVisible(true)]
 	[Guid("00012345-6789-ABCD-EF01-234567890080")]

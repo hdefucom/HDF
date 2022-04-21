@@ -10,7 +10,7 @@ namespace DCSoft.Writer
 	/// <param name="args">参数</param>
 	[ComVisible(true)]
 	
-	[DocumentComment]
+	
 	[Guid("769AE107-E6BA-49E3-8298-1F5A654D15DF")]
 	public delegate void ElementEventHandler(object sender, ElementEventArgs e);
 }

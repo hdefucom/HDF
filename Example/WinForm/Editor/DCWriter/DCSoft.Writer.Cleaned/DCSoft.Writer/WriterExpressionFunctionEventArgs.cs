@@ -15,7 +15,7 @@ namespace DCSoft.Writer
 	[ComClass("C4B8B1C8-94D0-4F97-8EF0-578CBBD3DB47", "92FB3A91-1D68-4200-8AA8-B399F5070341")]
 	
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComDefaultInterface(typeof(IWriterExpressionFunctionEventArgs))]
 	public class WriterExpressionFunctionEventArgs : WriterEventArgs, IWriterExpressionFunctionEventArgs
 	{

@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       SQL方法的参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class DCSQLMethodParameterInfo
 	{

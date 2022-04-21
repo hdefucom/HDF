@@ -9,7 +9,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("8A20F8C0-2D0D-48DA-B6C4-ADBC21405606")]
 	
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum ContentAutoFixFontSizeMode
 	{
 		/// <summary>

@@ -6,7 +6,7 @@ namespace DCSoft.Printing
 	/// <summary>
 	///       页面显示方式
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("281A2321-AC73-44B7-BD0E-D6031832B55F")]
 	public enum PageViewMode

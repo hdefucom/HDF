@@ -12,7 +12,7 @@ namespace DCSoft.Writer.Data
 	[Guid("00012345-6789-ABCD-EF01-234567890021")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("00012345-6789-ABCD-EF01-234567890021", "49634361-A7BB-4BCB-9A43-75AEE9902914")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	public class CurrentUserInfo : ICurrentUserInfo

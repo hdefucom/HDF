@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Commands
 	[ComDefaultInterface(typeof(IFileSaveCommandParameter))]
 	[ComClass("3F6AB3E3-E126-468F-A4B5-238EE4131403", "346F30F2-6835-48BA-AADF-CEE0330D3739")]
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	
 	[Guid("3F6AB3E3-E126-468F-A4B5-238EE4131403")]

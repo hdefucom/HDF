@@ -18,7 +18,7 @@ namespace DCSoft.Writer
 	[ComDefaultInterface(typeof(IUserTrackInfo))]
 	
 	[ComClass("34D18984-C9E4-4E16-AABA-1089841AFDFF", "7D641D73-509A-4ABE-BCEA-55876B322AC9")]
-	[DocumentComment]
+	
 	[Guid("34D18984-C9E4-4E16-AABA-1089841AFDFF")]
 	public class UserTrackInfo : IUserTrackInfo
 	{

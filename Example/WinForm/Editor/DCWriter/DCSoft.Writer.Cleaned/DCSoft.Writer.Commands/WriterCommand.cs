@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Commands
 	///       编辑器动作基础类型
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public abstract class WriterCommand
 	{
 		private GEnum6 _FunctionID = GEnum6.const_0;

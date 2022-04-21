@@ -8,7 +8,7 @@ namespace DCSoft.WinForms.Controls
 	/// <summary>
 	///       卡片视图列表控件事件参数
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	[Guid("64B26D75-131F-4B05-A130-2C7D390388DC")]
 	[ClassInterface(ClassInterfaceType.None)]

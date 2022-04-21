@@ -15,7 +15,7 @@ namespace DCSoft.Writer
 	[Guid("00012345-6789-ABCD-EF01-234567890070")]
 	[Editor(typeof(EnumEditorSupportDescription), typeof(UITypeEditor))]
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public enum MoveFocusHotKeys
 	{
 		/// <summary>

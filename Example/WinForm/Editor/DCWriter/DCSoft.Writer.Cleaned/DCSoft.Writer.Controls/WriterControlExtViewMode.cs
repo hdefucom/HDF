@@ -7,7 +7,7 @@ namespace DCSoft.Writer.Controls
 	///       编辑器控件视图状态
 	///       </summary>
 	[Guid("A7315728-F85B-40B0-861C-84CA2B1F0FA8")]
-	[DocumentComment]
+	
 	[ComVisible(true)]
 	public enum WriterControlExtViewMode
 	{

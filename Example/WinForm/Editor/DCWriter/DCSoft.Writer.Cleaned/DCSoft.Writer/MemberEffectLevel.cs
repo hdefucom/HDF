@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       类型成员影响等级特性
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public enum MemberEffectLevel
 	{
 		/// <summary>

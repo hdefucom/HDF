@@ -8,7 +8,7 @@ namespace DCSoft.Writer.Dom
 	///       表示文档中图像
 	///       </summary>
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	
 	public interface IDocumentImage
 	{

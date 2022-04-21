@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Dom
 	
 	[ComVisible(false)]
 	[XmlType("XSpaces")]
-	[DocumentComment]
+	
 	public sealed class XTextWhiteSpacesElement : XTextElement
 	{
 		private int int_6 = 0;

@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[Guid("495A2C79-9C36-4CA1-9AF2-E6B793ECC7F1")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("495A2C79-9C36-4CA1-9AF2-E6B793ECC7F1", "678CD509-93EC-4184-B543-2247D344A688")]
-	[DocumentComment]
+	
 	
 	[ComDefaultInterface(typeof(IDCContentLockInfo))]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]

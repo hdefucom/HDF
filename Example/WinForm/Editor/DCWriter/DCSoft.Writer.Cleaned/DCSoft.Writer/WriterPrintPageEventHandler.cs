@@ -13,6 +13,6 @@ namespace DCSoft.Writer
 	[Guid("64EDF32F-CFD9-46ED-9B5A-B5927D1C978C")]
 	
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	public delegate void WriterPrintPageEventHandler(object sender, WriterPrintPageEventEventArgs e);
 }

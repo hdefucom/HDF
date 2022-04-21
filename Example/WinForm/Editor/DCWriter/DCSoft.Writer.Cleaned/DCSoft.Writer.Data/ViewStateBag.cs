@@ -15,7 +15,7 @@ namespace DCSoft.Writer.Data
 	[Serializable]
 	
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public class ViewStateBag : IDisposable, IDictionary
 	{
 		private Dictionary<string, object> _values = new Dictionary<string, object>();

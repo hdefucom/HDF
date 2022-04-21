@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Commands
 	/// <remarks>编制 袁永福</remarks>
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(ITableCommandArgs))]
-	[DocumentComment]
+	
 	
 	[Guid("5152B8CA-C29B-4609-A2EA-79BBE8B99667")]
 	[ComClass("5152B8CA-C29B-4609-A2EA-79BBE8B99667", "EC482230-315B-42F4-9ABF-58A573F70AF8")]

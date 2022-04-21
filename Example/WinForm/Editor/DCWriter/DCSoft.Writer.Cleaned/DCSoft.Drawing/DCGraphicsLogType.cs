@@ -8,7 +8,7 @@ namespace DCSoft.Drawing
 	///       </summary>
 	[ComVisible(false)]
 	
-	[DocumentComment]
+	
 	public enum DCGraphicsLogType
 	{
 		/// <summary>

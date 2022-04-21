@@ -6,7 +6,7 @@ namespace DCSoft.Writer.Data
 	/// <summary>
 	///       知识库节点下拉列表项目提供者
 	///       </summary>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	
 	[Guid("00012345-6789-ABCD-EF01-234567890025")]

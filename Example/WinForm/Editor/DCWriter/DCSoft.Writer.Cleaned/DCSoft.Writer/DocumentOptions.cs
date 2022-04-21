@@ -25,7 +25,7 @@ namespace DCSoft.Writer
 	///       编写 袁永福
 	///       </remarks>
 	[Serializable]
-	[DocumentComment]
+	
 	
 	[ComClass("00012345-6789-ABCD-EF01-23456789006A", "71B9BF56-ABD2-441E-A401-0F36367A01AE")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]

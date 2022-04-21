@@ -14,7 +14,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(ICurrentContentStyleInfo))]
-	[DocumentComment]
+	
 	
 	[Guid("A89F9DB2-E6BA-4B1E-BF50-17CC9C1D12E4")]
 	public class CurrentContentStyleInfo : ICurrentContentStyleInfo

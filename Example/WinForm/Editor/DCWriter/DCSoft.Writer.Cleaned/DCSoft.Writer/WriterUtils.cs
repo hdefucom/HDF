@@ -28,7 +28,7 @@ namespace DCSoft.Writer
 	///       DCWriter内部使用。编辑器帮助类，定义了一些常用例程
 	///       </summary>
 	/// <remarks>编制 袁永福</remarks>
-	[DocumentComment]
+	
 	[ComVisible(false)]
 	public class WriterUtils
 	{

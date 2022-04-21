@@ -20,7 +20,7 @@ namespace DCSoft.Writer.Dom
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComDefaultInterface(typeof(IInputFieldSettings))]
-	[DocumentComment]
+	
 	public class InputFieldSettings : ICloneable, IInputFieldSettings
 	{
 		internal const string CLASSID = "3D3A82BF-14AB-4560-A022-C3C88C7377E4";

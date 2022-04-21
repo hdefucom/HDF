@@ -11,7 +11,7 @@ namespace DCSoft.Writer.Dom
 	/// <remarks>
 	///       本元素用于在文档中创建一个空白文档行，而且该文档行的高度不受段落行间距和段落间距的影响。
 	///       </remarks>
-	[DocumentComment]
+	
 	
 	[XmlType("BlankLine")]
 	public class XTextBlankLineElement : XTextObjectElement

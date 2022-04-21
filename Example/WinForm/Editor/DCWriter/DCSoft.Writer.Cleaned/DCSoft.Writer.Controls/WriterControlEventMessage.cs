@@ -13,7 +13,7 @@ namespace DCSoft.Writer.Controls
 	///       </summary>
 	[ComVisible(true)]
 	[ComDefaultInterface(typeof(IWriterControlEventMessage))]
-	[DocumentComment]
+	
 	[Guid("C1C0450D-2691-4113-8605-190666E5E599")]
 	[ClassInterface(ClassInterfaceType.None)]
 	[ComClass("C1C0450D-2691-4113-8605-190666E5E599", "69AC547F-860C-4E11-8D79-95442A0C06EA")]

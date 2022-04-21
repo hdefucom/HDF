@@ -13,7 +13,7 @@ namespace DCSoft.Writer
 	///       编辑器控件选项
 	///       </summary>
 	[ClassInterface(ClassInterfaceType.None)]
-	[DocumentComment]
+	
 	[ComClass("8E445C4C-1EC3-4D48-A158-A632827EA688", "64724F79-BCEA-4324-9019-0183EE7C984E")]
 	[Guid("8E445C4C-1EC3-4D48-A158-A632827EA688")]
 	[TypeConverter(typeof(TypeConverterSupportProperties))]

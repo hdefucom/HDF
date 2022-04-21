@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	[DocumentComment]
+	
 	public struct GStruct20
 	{
 		private bool bool_0;

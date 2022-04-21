@@ -7,7 +7,7 @@ namespace DCSoft.Writer
 	///       元素可见性
 	///       </summary>
 	[ComVisible(true)]
-	[DocumentComment]
+	
 	[Guid("6F0E093B-A161-4B1F-80A2-4DB4BE69C574")]
 	
 	public enum ElementVisibility
