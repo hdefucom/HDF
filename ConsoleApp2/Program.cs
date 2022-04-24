@@ -15,6 +15,26 @@ internal class Program
 
 
         Console.WriteLine("Hello World!");
+
+
+
+
+
+
+
+
+
+
+        //int[] arr = default;
+
+        //var a = arr[1..];
+
+
+
+
+
+
+
     }
 
 

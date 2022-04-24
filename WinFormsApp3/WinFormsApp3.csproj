@@ -19,6 +19,7 @@
 		<!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
 		<VersionPrefix>1.1.1</VersionPrefix>
 
+		
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -27,6 +28,9 @@
 		</Compile>
 
 
+		<AssemblyAttribute Include="System.CLSCompliantAttribute">
+			<_Parameter1>true</_Parameter1>
+		</AssemblyAttribute>
 
 	</ItemGroup>
 
@@ -61,10 +65,13 @@
 		<PackageReference Include="AForge.Controls" Version="2.2.5" />
 		<PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
 		<PackageReference Include="CefSharp.WinForms" Version="99.2.140" />
-		<PackageReference Include="DevExpress.Win" Version="21.2.6" />
+		<PackageReference Include="DevExpress.Win" Version="18.1.15" />
 		<PackageReference Include="EO.WebBrowser" Version="22.0.68" />
 		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1189-prerelease" />
+		<PackageReference Include="System.Memory" Version="4.5.4" />
 		<PackageReference Include="System.Resources.Extensions" Version="6.0.0" />
+		<PackageReference Include="Tnelab.MiniBlink" Version="1.0.0" />
+		<PackageReference Include="Tnelab.MiniblinkCore" Version="2022.4.5.2" />
 	</ItemGroup>
 
 
