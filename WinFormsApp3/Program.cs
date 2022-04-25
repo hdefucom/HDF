@@ -1,5 +1,7 @@
+using Microsoft.Playwright;
 using System;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -13,15 +15,20 @@ namespace WinFormsApp3
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static async Task Main()
         {
+            if (false)
+            {
 
 
-            int[] arr = default;
+                using var playwright = await Playwright.CreateAsync();
 
-            var a = arr[^1];
+                await using var browser = await playwright.Chromium.LaunchAsync(new() { Headless = false });
+                var page = await browser.NewPageAsync();
+                await page.GotoAsync("https://www.baidu.com/");
+                await page.ScreenshotAsync(new() { Path = "screenshot.png" });
 
-
+            }
 
 
             {
