@@ -38,6 +38,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.testMonthCalendar1 = new WinFormsApp3.TestMonthCalendar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -136,12 +138,29 @@
             this.panel2.Size = new System.Drawing.Size(37, 100);
             this.panel2.TabIndex = 7;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("宋体", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dateTimePicker1.Font = new System.Drawing.Font("宋体", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(544, 176);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 38);
+            this.dateTimePicker1.TabIndex = 8;
+            // 
+            // testMonthCalendar1
+            // 
+            this.testMonthCalendar1.Location = new System.Drawing.Point(340, 235);
+            this.testMonthCalendar1.Name = "testMonthCalendar1";
+            this.testMonthCalendar1.TabIndex = 9;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.testMonthCalendar1);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox1);
@@ -171,5 +190,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private TestMonthCalendar testMonthCalendar1;
     }
 }

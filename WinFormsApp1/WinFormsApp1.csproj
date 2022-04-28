@@ -11,10 +11,10 @@
 		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 
-		
+
 		<Deterministic>false</Deterministic>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		
+
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -31,8 +31,9 @@
 		<PackageReference Include="PaddleOCRSharp" Version="1.2.2" />
 		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
 		<PackageReference Include="TinyIoC" Version="1.4.0-alpha3">
-		  <PrivateAssets>all</PrivateAssets>
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<ExcludeAssets></ExcludeAssets>
 		</PackageReference>
 		<PackageReference Include="TinyMapper" Version="3.0.3" />
 		<PackageReference Include="zlib.net" Version="1.0.4" />

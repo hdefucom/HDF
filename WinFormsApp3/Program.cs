@@ -4,19 +4,23 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace WinFormsApp3
 {
 
 
     internal static class Program
     {
+
+
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
         static async Task Main()
         {
+
+
+
             if (false)
             {
 
@@ -29,7 +33,7 @@ namespace WinFormsApp3
                 await page.ScreenshotAsync(new() { Path = "screenshot.png" });
 
             }
-
+            //AppDomain.CurrentDomain.
 
             {
                 Application.EnableVisualStyles();
@@ -40,7 +44,16 @@ namespace WinFormsApp3
 
         }
 
+
+
+
+
+
+
     }
+
+
+
 
 }
 

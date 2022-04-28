@@ -14,6 +14,12 @@ public partial class Form3 : Form
     {
         InitializeComponent();
         this.DoubleBuffered = true;
+
+
+        var a = HDF.Common.StringExtensions.IsNullOrEmpty("");
+
+        //AxWMPLib.AxWindowsMediaPlayer
+
     }
 
     private void Form3_Load(object sender, System.EventArgs e)
@@ -36,11 +42,19 @@ public partial class Form3 : Form
         if (videoDevices.Count != 0)
         {
 
-
             var videoSource = new VideoCaptureDevice(videoDevices[0].MonikerString);
             videoSource.NewFrame += new NewFrameEventHandler(videoSource_NewFrame); //新建事件
+
+
+
+
+            FileVideoSource fileVideoSource = new FileVideoSource();
+            fileVideoSource.Source = @"C:\Users\12131\Desktop\111.mp4";
+            //fileVideoSource.FramesReceived
+
             videoSourcePlayer1.VideoSource = videoSource;
             videoSourcePlayer1.Start();
+
 
 
         }
@@ -87,23 +101,14 @@ public partial class Form3 : Form
 }
 
 
-public class Test
+public class TestMonthCalendar : MonthCalendar
 {
 
 
-    public async Task M1()
+    protected override void OnPaint(PaintEventArgs e)
     {
-        await Task.Delay(1000);
-    }
-
-
-    public async Task<string> M2()
-    {
-        await Task.Delay(1000);
-
-
-        //AsyncTaskMethodBuilder<>
-        return "HDF";
+        e.Graphics.Transform.Scale(2, 2);
+        base.OnPaint(e);
     }
 
 }

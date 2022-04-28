@@ -19,7 +19,6 @@
 		<!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
 		<VersionPrefix>1.1.1</VersionPrefix>
 
-		
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -33,8 +32,6 @@
 		</AssemblyAttribute>
 
 	</ItemGroup>
-
-
 
 	<!--<ItemGroup>
 		<Compile Include="..\WinFormsApp1\新文件夹\*.cs" Link="new\%(Filename).cs" />
@@ -62,10 +59,15 @@
 
 
 	<ItemGroup>
-		<PackageReference Include="AForge.Controls" Version="2.2.5" />
-		<PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+		<PackageReference Include="HDF.Common" Version="1.4.1">
+		</PackageReference>
+		<PackageReference Include="DevExpress.Win" Version="18.1.15">
+		</PackageReference>
+		<PackageReference Include="AForge.Controls" Version="2.2.5">
+		</PackageReference>
+		<PackageReference Include="AForge.Video.DirectShow" Version="2.2.5">
+		</PackageReference>
 		<PackageReference Include="CefSharp.WinForms" Version="99.2.140" />
-		<PackageReference Include="DevExpress.Win" Version="18.1.15" />
 		<PackageReference Include="EO.WebBrowser" Version="22.0.68" />
 		<PackageReference Include="Microsoft.Playwright" Version="1.21.0" />
 		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1189-prerelease" />
@@ -73,6 +75,10 @@
 		<PackageReference Include="System.Resources.Extensions" Version="6.0.0" />
 		<PackageReference Include="Tnelab.MiniBlink" Version="1.0.0" />
 		<PackageReference Include="Tnelab.MiniblinkCore" Version="2022.4.5.2" />
+		<PackageReference Include="WMPLib" Version="1.0.0">
+		  <!--<PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>-->
+		</PackageReference>
 	</ItemGroup>
 
 
