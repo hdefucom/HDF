@@ -1,5 +1,7 @@
 using Microsoft.Playwright;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +20,24 @@ namespace WinFormsApp3
         [STAThread]
         static async Task Main()
         {
+
+
+
+            List<int> list = Enumerable.Range(0, 10).ToList();
+
+
+            var res1 = list.Aggregate((a, b) => a + b);
+
+            var res2 = list.Aggregate("start", (a, b) => a + b);
+
+
+            var res3 = list.Aggregate("start", (a, b) => a + b, a => a + "end");
+
+
+
+
+
+
 
 
 
