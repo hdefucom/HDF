@@ -59,6 +59,7 @@
 
 
 	<ItemGroup>
+		<PackageReference Include="HDF.DotNet.Features.IndexRange" Version="1.0.0" />
 		<PackageReference Include="HDF.Common" Version="1.4.1">
 		</PackageReference>
 		<PackageReference Include="DevExpress.Win" Version="18.1.15">
@@ -69,6 +70,7 @@
 		</PackageReference>
 		<PackageReference Include="CefSharp.WinForms" Version="99.2.140" />
 		<PackageReference Include="EO.WebBrowser" Version="22.0.68" />
+		<PackageReference Include="HDF.DotNet.Features.IndexRange" Version="1.0.1" />
 		<PackageReference Include="Microsoft.Playwright" Version="1.21.0" />
 		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1189-prerelease" />
 		<PackageReference Include="System.Memory" Version="4.5.4" />

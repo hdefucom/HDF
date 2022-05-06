@@ -447,6 +447,16 @@ struct AAA
 
         {
 
+            var array = new int[10];
+
+            var a = ^1;
+            var a2 = ^1..;
+
+            var b = 1..2;
+
+            var c = array[a];
+            var d = array[b];
+
 
         }
 
@@ -613,7 +623,6 @@ struct AAA
 
 
 }
-
 
 
 

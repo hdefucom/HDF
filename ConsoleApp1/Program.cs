@@ -9,28 +9,6 @@ internal class Program
 
 
 
-        //Stopwatch stopwatch = Stopwatch.StartNew();
-
-        //int j = 0;
-        //for (int i = 0; i < 1_0000_0000; i++)
-        //{
-        //    j += i;
-        //}
-
-        //stopwatch.Stop();
-
-        //Console.WriteLine($"Output took {stopwatch.ElapsedMilliseconds} ms.");
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -44,10 +22,5 @@ internal class Program
 
 
 
-//public class Test
-//{
-
-//    public static string GetString(string key) => $"data:{key}";
 
 
-//}

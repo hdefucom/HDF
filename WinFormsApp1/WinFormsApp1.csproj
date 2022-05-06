@@ -18,11 +18,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Gocent.Library.Editor" Version="0.3.0-dev-20220506-172617" />
 		<PackageReference Include="BenchmarkDotNet" Version="0.9.7" />
 		<PackageReference Include="CS-Script" Version="3.24.2" />
 		<PackageReference Include="Dirkster.AvalonDock" Version="4.60.0" />
-		<PackageReference Include="Gocent.Library.Editor" Version="0.3.0-dev-*" />
 		<PackageReference Include="HDF.Common" Version="1.4.1" />
+		<PackageReference Include="HDF.DotNet.Features.IndexRange" Version="1.0.1" />
+		<PackageReference Include="HDF.DotNet.Features.PropertyInitAccessor" Version="1.0.0" />
 		<PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.3" />
 		<PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
 		<!--<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />-->
