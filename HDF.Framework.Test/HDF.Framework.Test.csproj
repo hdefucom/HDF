@@ -12,21 +12,15 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Castle.Core" Version="4.4.1" />
 		<PackageReference Include="ExpressionEvaluator" Version="2.0.4" />
 		<PackageReference Include="HtmlAgilityPack" Version="1.11.36" />
 		<PackageReference Include="HDF.Common" Version="1.4.1" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<Reference Include="Microsoft.CSharp" />
 		<Reference Include="System.Design" />
 		<Reference Include="System.Management" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="Form_SyncfusionEdit.cs">
-	    <SubType>Form</SubType>
-	  </Compile>
 	</ItemGroup>
 
 </Project>
