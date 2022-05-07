@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <OutputType>WinExe</OutputType>
+	  <TargetFramework>net48</TargetFramework>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <LangVersion>10.0</LangVersion>
+
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AForge.Controls" Version="2.2.5" />
+		<PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+	</ItemGroup>
+
+
+
+</Project>
