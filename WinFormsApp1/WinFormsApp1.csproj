@@ -8,10 +8,12 @@
 		<PlatformTarget>AnyCPU</PlatformTarget>
 
 		<LangVersion>10.0</LangVersion>
-		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+		
+	    <!--允许不安全代码块，启用指针操作-->
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 
-
+		
+		<!--自定义AssemblyInfo特性，使用用*通配符随时间递增版本号-->
 		<Deterministic>false</Deterministic>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 
