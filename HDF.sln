@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{47
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		.gitpod.yml = .gitpod.yml
+		Directory.Build.props = Directory.Build.props
 		LICENSE = LICENSE
 		NuGet.Config = NuGet.Config
 		README.md = README.md
@@ -162,7 +163,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.Web.UITest", "Example\W
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm宿主混合开发", "WinForm宿主混合开发", "{2120C4F3-FDF0-4B55-A856-CA64192369BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.WinForm.WebHost", "Example\WinForm\WinForm宿主混合开发\HDF.WinForm.WebHost\HDF.WinForm.WebHost.csproj", "{02F53CF0-21BD-4D99-94E1-1146D5442C31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.WinForm.WebHost", "Example\WinForm\WinForm宿主混合开发\HDF.WinForm.WebHost\HDF.WinForm.WebHost.csproj", "{02F53CF0-21BD-4D99-94E1-1146D5442C31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UpdateProgram", "UpdateProgram", "{8E49F1C2-1F02-42B1-BCF0-9B17546E2215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Example\Other\UpdateProgram\Client\Client.csproj", "{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.UpdateProgram.Test", "Example\Other\UpdateProgram\HDF.UpdateProgram.Test\HDF.UpdateProgram.Test.csproj", "{789665CF-356F-4594-BFF3-6B4114498DE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -664,6 +671,30 @@ Global
 		{02F53CF0-21BD-4D99-94E1-1146D5442C31}.Release|x64.Build.0 = Release|Any CPU
 		{02F53CF0-21BD-4D99-94E1-1146D5442C31}.Release|x86.ActiveCfg = Release|Any CPU
 		{02F53CF0-21BD-4D99-94E1-1146D5442C31}.Release|x86.Build.0 = Release|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Debug|x64.Build.0 = Debug|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Release|x64.ActiveCfg = Release|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Release|x64.Build.0 = Release|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}.Release|x86.Build.0 = Release|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Debug|x64.Build.0 = Debug|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Debug|x86.Build.0 = Debug|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|x64.ActiveCfg = Release|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|x64.Build.0 = Release|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|x86.ActiveCfg = Release|Any CPU
+		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -739,6 +770,9 @@ Global
 		{D8688B2C-6813-4FC3-AE7F-8B03817D0D43} = {4BB1FB17-7462-4450-AFD8-F11D947DAB9F}
 		{2120C4F3-FDF0-4B55-A856-CA64192369BE} = {C0379448-4EC5-4C27-AA41-67E317A69CA9}
 		{02F53CF0-21BD-4D99-94E1-1146D5442C31} = {2120C4F3-FDF0-4B55-A856-CA64192369BE}
+		{8E49F1C2-1F02-42B1-BCF0-9B17546E2215} = {CEEC9CD1-BAD9-4A13-837B-F52143BF7BBB}
+		{D0A4E6A4-260A-462F-B5EA-A036BD3AA045} = {8E49F1C2-1F02-42B1-BCF0-9B17546E2215}
+		{789665CF-356F-4594-BFF3-6B4114498DE0} = {8E49F1C2-1F02-42B1-BCF0-9B17546E2215}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69BA65DC-DAA2-4F9B-BFB4-7CAF5191180F}

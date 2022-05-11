@@ -3,6 +3,10 @@ using System.Text;
 
 namespace WinFormsApp1;
 
+public static class Test
+{
+    public static string Text { get; set; }
+}
 internal static class Program
 {
     /// <summary>
@@ -11,6 +15,8 @@ internal static class Program
     [STAThread]
     private static /*unsafe*/ /*async*/ /*Task*/ void Main()
     {
+
+
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
@@ -227,10 +233,43 @@ struct AAA
 
         }
 
+        if (false)
+        {
+            //多进程中数据是隔离的，相同程序集多个进程的静态变量不会互通
+            while (true)
+            {
+                var key = Console.ReadLine();
+                if (key == "exit")
+                    break;
+                else if (key == "input")
+                {
+                    Console.WriteLine("请输入：");
+                    Test.Text = Console.ReadLine();
+                    Console.WriteLine("录入成功");
+                }
+                else if (key == "show")
+                {
+                    Console.WriteLine("当前值：" + Test.Text);
+                }
+            }
+
+        }
+
+        {
+
+
+
+
+        }
+
+
+
+
+
 
         //if (false)
         {
-            //Application.Run(new Form7());
+            Application.Run(new Form1());
         }
     }
 
@@ -238,9 +277,10 @@ struct AAA
 
 
 
-
-
 }
+
+
+
 
 
 
