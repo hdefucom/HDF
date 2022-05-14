@@ -167,9 +167,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.WinForm.WebHost", "Exam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UpdateProgram", "UpdateProgram", "{8E49F1C2-1F02-42B1-BCF0-9B17546E2215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Example\Other\UpdateProgram\Client\Client.csproj", "{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Example\Other\UpdateProgram\Client\Client.csproj", "{D0A4E6A4-260A-462F-B5EA-A036BD3AA045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.UpdateProgram.Test", "Example\Other\UpdateProgram\HDF.UpdateProgram.Test\HDF.UpdateProgram.Test.csproj", "{789665CF-356F-4594-BFF3-6B4114498DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.UpdateProgram.Test", "Example\Other\UpdateProgram\HDF.UpdateProgram.Test\HDF.UpdateProgram.Test.csproj", "{789665CF-356F-4594-BFF3-6B4114498DE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDefu.Test", "HDefu.Test\HDefu.Test.csproj", "{5BFA4254-A4E4-4704-A169-A486D8182736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp3", "WinFormsApp3\WinFormsApp3.csproj", "{B9116DA4-6260-40AF-8339-36FC51B6E944}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -695,6 +699,30 @@ Global
 		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|x64.Build.0 = Release|Any CPU
 		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|x86.ActiveCfg = Release|Any CPU
 		{789665CF-356F-4594-BFF3-6B4114498DE0}.Release|x86.Build.0 = Release|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Debug|x64.Build.0 = Debug|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Debug|x86.Build.0 = Debug|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Release|x64.ActiveCfg = Release|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Release|x64.Build.0 = Release|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BFA4254-A4E4-4704-A169-A486D8182736}.Release|x86.Build.0 = Release|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Debug|x64.Build.0 = Debug|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Debug|x86.Build.0 = Debug|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Release|x64.ActiveCfg = Release|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Release|x64.Build.0 = Release|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Release|x86.ActiveCfg = Release|Any CPU
+		{B9116DA4-6260-40AF-8339-36FC51B6E944}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

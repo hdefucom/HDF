@@ -17,6 +17,13 @@ internal static class Program
     {
 
 
+        var table = new bool[5, 2];
+
+
+        var aaa = new int[5][];
+
+        aaa[0] = new int[2];
+
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
