@@ -29,7 +29,6 @@ internal static class Program
 
 
 
-
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
 
@@ -268,7 +267,7 @@ struct AAA
         }
 
         {
-
+            IEnumerable<Element> a = default(IEnumerable<ContainerElement>);
 
 
 
@@ -294,6 +293,45 @@ struct AAA
 
 
 
+public class Element { }
 
 
 
+public class ContainerElement : Element
+{
+    public virtual IEnumerable<Element> ChildElements { get; set; }
+}
+
+public class TableElement : ContainerElement
+{
+    public override IEnumerable<Element> ChildElements { get; set; }
+
+}
+
+public class RowElement : Element
+{
+    public void TTT()
+    {
+        var table = new TableElement();
+
+
+        unsafe void AAAA()
+        {
+            int i = 0;
+
+            void* a = &i;
+
+
+            var pi = &i;
+
+            var i2 = *pi;
+
+
+
+
+
+        }
+
+    }
+
+}
