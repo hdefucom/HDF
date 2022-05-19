@@ -1,60 +1,23 @@
 ﻿using HDF.Common.Windows;
+using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Drawing;
 using System.Drawing.Printing;
+using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
-namespace WinFormsApp1;
+namespace HDF.Test.Winform;
 
-public static class Test
-{
-    public static string Text { get; set; }
-}
 internal static class Program
 {
     /// <summary>
     ///  The main entry point for the application.
     /// </summary>
     [STAThread]
-    private static /*unsafe*/ /*async*/ /*Task*/ void Main()
+    static void Main()
     {
-
-
-        var dataobj = Clipboard.GetDataObject();
-
-        var formats = dataobj.GetFormats();
-
-        var data = dataobj.GetData(DataFormats.Text);
-
-
-        var ele = new Element();
-        ele.Bounds = new Rectangle(2, 2, 100, 100);
-
-
-
-        var container = new ContainerElement();
-
-        container.ChildElements.Add(new Element());
-        container.ChildElements.Add(new Element());
-        container.ChildElements.Add(new Element());
-        container.ChildElements.Add(new Element());
-
-
-
-
-        foreach (var item in container)
-        {
-
-        }
-
-
-
-
-
-
-
-        Application.EnableVisualStyles();
-        Application.SetCompatibleTextRenderingDefault(false);
-
 
         if (false)
         {
@@ -267,30 +230,22 @@ struct AAA
 
         }
 
-        if (false)
-        {
-            //多进程中数据是隔离的，相同程序集多个进程的静态变量不会互通
-            while (true)
-            {
-                var key = Console.ReadLine();
-                if (key == "exit")
-                    break;
-                else if (key == "input")
-                {
-                    Console.WriteLine("请输入：");
-                    Test.Text = Console.ReadLine();
-                    Console.WriteLine("录入成功");
-                }
-                else if (key == "show")
-                {
-                    Console.WriteLine("当前值：" + Test.Text);
-                }
-            }
-
-        }
 
         {
-            IEnumerable<Element> a = default(IEnumerable<ContainerElement>);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -298,20 +253,17 @@ struct AAA
 
 
 
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
 
-
-
-        //if (false)
-        {
-            Application.Run(new Form1());
-        }
+        Application.Run(new Form1());
     }
-
-
-
-
-
 }
+
+
+
+
+
 
 
 
@@ -340,13 +292,14 @@ public class ContainerElement : Element, IEnumerable<Element>
     public virtual List<Element> ChildElements { get; set; } = new List<Element>();
     public IEnumerator<Element> GetEnumerator()
     {
-        return this.ChildElements.GetEnumerator();
+        return ChildElements.GetEnumerator();
     }
 
     IEnumerator IEnumerable.GetEnumerator()
     {
-        return this.ChildElements.GetEnumerator();
+        return ChildElements.GetEnumerator();
     }
+
 }
 
 public class TableElement : ContainerElement, IEnumerable<Element>
@@ -362,23 +315,13 @@ public class RowElement : Element
         var table = new TableElement();
 
 
-        unsafe void AAAA()
-        {
-            int i = 0;
-
-            void* a = &i;
-
-
-            var pi = &i;
-
-            var i2 = *pi;
-
-
-
-
-
-        }
-
     }
 
 }
+
+
+
+
+
+
+

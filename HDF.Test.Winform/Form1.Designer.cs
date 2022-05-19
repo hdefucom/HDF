@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp3
+﻿namespace HDF.Test.Winform
 {
     partial class Form1
     {
@@ -39,6 +39,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.ResumeLayout(false);
 
         }
