@@ -1,4 +1,6 @@
-﻿using System.Drawing.Printing;
+﻿using HDF.Common.Windows;
+using System.Collections;
+using System.Drawing.Printing;
 using System.Text;
 
 namespace WinFormsApp1;
@@ -22,6 +24,27 @@ internal static class Program
         var formats = dataobj.GetFormats();
 
         var data = dataobj.GetData(DataFormats.Text);
+
+
+        var ele = new Element();
+        ele.Bounds = new Rectangle(2, 2, 100, 100);
+
+
+
+        var container = new ContainerElement();
+
+        container.ChildElements.Add(new Element());
+        container.ChildElements.Add(new Element());
+        container.ChildElements.Add(new Element());
+        container.ChildElements.Add(new Element());
+
+
+
+
+        foreach (var item in container)
+        {
+
+        }
 
 
 
@@ -293,18 +316,42 @@ struct AAA
 
 
 
-public class Element { }
-
-
-
-public class ContainerElement : Element
+public class Element
 {
-    public virtual IEnumerable<Element> ChildElements { get; set; }
+    public int Left { get; set; }
+    public int Top { get; set; }
+    public int Width { get; set; }
+    public int Height { get; set; }
+
+    public Rectangle Bounds
+    {
+        get => new Rectangle(Left, Top, Width, Height);
+        set => (Left, Top, Width, Height) = value;
+    }
+
+
+
 }
 
-public class TableElement : ContainerElement
+
+
+public class ContainerElement : Element, IEnumerable<Element>
 {
-    public override IEnumerable<Element> ChildElements { get; set; }
+    public virtual List<Element> ChildElements { get; set; } = new List<Element>();
+    public IEnumerator<Element> GetEnumerator()
+    {
+        return this.ChildElements.GetEnumerator();
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return this.ChildElements.GetEnumerator();
+    }
+}
+
+public class TableElement : ContainerElement, IEnumerable<Element>
+{
+    //public override List<Element> ChildElements { get; set; }
 
 }
 
