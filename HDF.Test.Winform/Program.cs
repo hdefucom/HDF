@@ -1,14 +1,22 @@
-﻿using HDF.Common.Windows;
+﻿using Autofac;
+using HDF.Common.Windows;
+using HDF.Test.Winform.Helper;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Printing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
 namespace HDF.Test.Winform;
+
+
 
 internal static class Program
 {
@@ -18,6 +26,13 @@ internal static class Program
     [STAThread]
     static void Main()
     {
+
+        var services = new ServiceCollection();
+        ConfigureServices(services);
+        using var provider = services.BuildServiceProvider();
+        ServiceProviderHelper.InitServiceProvider(provider);
+
+
 
         if (false)
         {
@@ -231,20 +246,43 @@ struct AAA
         }
 
 
-        {
+        {//IOC容器，依赖注入
+            var t = ServiceProviderHelper.ServiceProvider.GetServices<Test>();
+
+            var builder = new ContainerBuilder();
+
+            builder.RegisterType<Test>();
+            builder.RegisterType<Test>().SingleInstance().Named<Test>("a");
+
+
+            IContainer container = builder.Build();
+
+            var t1 = container.Resolve<Test>();
+            var a = container.ResolveNamed<Test>("a");
+
+
+        }
+
+
+        {//NetCore配置
 
 
 
+            var config = ServiceProviderHelper.ServiceProvider.GetService<IConfiguration>();
+            var s = config.GetValue<string>("Name");
 
 
 
+            //ado.net
+            //System.Data.SqlClient.SqlConnection
+            //sql语句
 
 
+            //EF/EF Core/Freesql/Dapper/SqlSuger ......
+            //            ORM框架
 
 
-
-
-
+            //Directory.CreateDirectory("").
 
 
 
@@ -255,17 +293,141 @@ struct AAA
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
-
         Application.Run(new Form1());
+    }
+
+
+
+    /// <summary>
+    /// 注入服务
+    /// </summary>
+    /// <param name="services"></param>
+    public static void ConfigureServices(IServiceCollection services)
+    {
+        ////批量注入可以使用Scrutor或者自己封装
+        //services.AddScoped<IUserservice, UserService>();
+        //services.AddScoped<IOrderService, OrderService>();
+
+        ////其他的窗体也可以注入在此处
+        //services.AddSingleton(typeof(Form1));
+        //services.AddTransient(typeof(Form2));
+
+
+        services.AddTransient<Test>();
+
+
+
+        services.AddOptions();
+        services.ConfigureOptions<MyConfig>();
+
+
+        //register configuration
+        IConfigurationBuilder cfgBuilder = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", false, true)
+            .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT")}.json", true, false)
+            ;
+        IConfiguration configuration = cfgBuilder.Build();
+
+        //var c = new MyConfig();
+
+        //configuration.Bind(c);
+
+        services.AddSingleton<IConfiguration>(configuration);
+        //services.AddSingleton<MyConfig>(c);
+
+        services.Configure<MyConfig>(configuration);
+
+
+
+    }
+
+}
+
+
+public class MyConfig
+{
+    public string Name { get; set; }
+
+
+}
+
+public class Test
+{
+    public Test()
+    {
+    }
+
+
+    public void Bind(string str)
+    {
+
+
     }
 }
 
 
 
 
+#region LoggerTest
 
 
+public class MyLoggerTest
+{
 
+    public static void Test()
+    {
+        var factory = LoggerFactory.Create(builder =>
+        {
+            builder.AddConsole();
+            builder.AddProvider(new MyLoggerProvider());
+        });
+
+
+        var logger = factory.CreateLogger(typeof(Program));
+
+        logger.LogError("error msg");
+        logger.LogWarning("warning msg");
+        logger.LogInformation("info msg");
+
+    }
+}
+
+
+public class MyLoggerProvider : ILoggerProvider
+{
+    public ILogger CreateLogger(string categoryName)
+    {
+        return new MyLogger();
+    }
+
+    public void Dispose()
+    {
+
+    }
+}
+
+
+public class MyLogger : ILogger
+{
+    public IDisposable BeginScope<TState>(TState state)
+    {
+        return null;
+    }
+
+    public bool IsEnabled(LogLevel logLevel)
+    {
+        return true;
+    }
+
+    public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func<TState, Exception, string> formatter)
+    {
+        Console.WriteLine("bbbbbbbbbbbb+");
+    }
+}
+
+
+#endregion
 
 
 public class Element
