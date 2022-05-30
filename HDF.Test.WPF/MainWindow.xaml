@@ -5,10 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HDF.Test.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Expander HorizontalAlignment="Left" Height="100" Header="Expander" Margin="115,174,0,0" VerticalAlignment="Top" Width="100">
-            <Grid Background="#FFE5E5E5"/>
-        </Expander>
-    </Grid>
+        Title="MainWindow" Height="200" Width="400">
+    <StackPanel Margin="0,0,0,0" RenderTransformOrigin="0.51,0.522">
+    </StackPanel>
 </Window>

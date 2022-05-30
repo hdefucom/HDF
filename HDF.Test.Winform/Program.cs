@@ -17,7 +17,6 @@ using System.Windows.Forms;
 namespace HDF.Test.Winform;
 
 
-
 internal static class Program
 {
     /// <summary>
@@ -26,7 +25,6 @@ internal static class Program
     [STAThread]
     static void Main()
     {
-
         var services = new ServiceCollection();
         ConfigureServices(services);
         using var provider = services.BuildServiceProvider();
@@ -246,6 +244,16 @@ struct AAA
         }
 
 
+        {
+
+
+
+
+
+
+
+        }
+
         {//IOC容器，依赖注入
             var t = ServiceProviderHelper.ServiceProvider.GetServices<Test>();
 
@@ -263,6 +271,7 @@ struct AAA
 
 
 
+
         }
 
 
@@ -272,6 +281,8 @@ struct AAA
 
             var config = ServiceProviderHelper.ServiceProvider.GetService<IConfiguration>();
             var s = config.GetValue<string>("Name");
+
+
 
 
 
@@ -288,6 +299,8 @@ struct AAA
 
 
 
+
+            Console.Write("");
 
         }
 
@@ -320,7 +333,7 @@ struct AAA
 
 
         services.AddOptions();
-        services.ConfigureOptions<MyConfig>();
+        //services.ConfigureOptions<MyConfig>();
 
 
         //register configuration
