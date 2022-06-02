@@ -1,4 +1,4 @@
-using HDF.Test.Winform.Helper;
+ï»¿using HDF.Test.Winform.Helper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -22,7 +22,7 @@ public partial class Form1 : Form
     {
 
         /*
-         StringFormat.Trimming  Ó¦¸Ã²»Ó°Ïì²âÁ¿×Ö·û´óĞ¡
+         StringFormat.Trimming  åº”è¯¥ä¸å½±å“æµ‹é‡å­—ç¬¦å¤§å°
          
          
          
@@ -33,16 +33,18 @@ public partial class Form1 : Form
 
         var g = e.Graphics;
 
-        var str1 = "»ÆµÂ¸»";
+        var str1 = "é»„å¾·å¯Œ";
         var str2 = "123";
 
-        var font = new Font("ËÎÌå", 9f);
+        var font = new Font("å®‹ä½“", 9f);
 
 
         var y = 10;
 
 
 
+        str1 = "ğŸ˜‚ğŸ˜‚ğŸ˜‚";
+        font = new Font("Segoe UI Emoji", 9f);
 
 
         if (false)

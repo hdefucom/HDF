@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
+            this.printPreviewControl1 = new System.Windows.Forms.PrintPreviewControl();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.SuspendLayout();
             // 
             // button1
@@ -42,11 +44,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // printPreviewControl1
+            // 
+            this.printPreviewControl1.Location = new System.Drawing.Point(400, 185);
+            this.printPreviewControl1.Name = "printPreviewControl1";
+            this.printPreviewControl1.Size = new System.Drawing.Size(339, 193);
+            this.printPreviewControl1.TabIndex = 1;
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.printPreviewControl1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -59,5 +73,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PrintPreviewControl printPreviewControl1;
+        private System.Windows.Forms.PrintDialog printDialog1;
     }
 }

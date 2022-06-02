@@ -1,17 +1,15 @@
 ﻿using Autofac;
-using HDF.Common.Windows;
 using HDF.Test.Winform.Helper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace HDF.Test.Winform;
@@ -246,6 +244,8 @@ struct AAA
 
         {
 
+            //判断字符是否存在emoji
+            var res = Regex.IsMatch("", @"\p{Cs}");
 
 
 
@@ -445,60 +445,36 @@ public class MyLogger : ILogger
 #endregion
 
 
-public class Element
+
+public class A
 {
-    public int Left { get; set; }
-    public int Top { get; set; }
-    public int Width { get; set; }
-    public int Height { get; set; }
-
-    public Rectangle Bounds
-    {
-        get => new Rectangle(Left, Top, Width, Height);
-        set => (Left, Top, Width, Height) = value;
-    }
-
-
 
 }
 
 
+//public interface ISingle<T>
+//{
 
-public class ContainerElement : Element, IEnumerable<Element>
-{
-    public virtual List<Element> ChildElements { get; set; } = new List<Element>();
-    public IEnumerator<Element> GetEnumerator()
-    {
-        return ChildElements.GetEnumerator();
-    }
+//    private static T _instance = null;
+//    static T Instance
+//    {
+//        get
+//        {
+//            if (_instance == null)
+//            {
+//                lock (typeof(T))
+//                {
+//                    if (_instance == null)
+//                    {
+//                        _instance = (T)Activator.CreateInstance(typeof(T), true);
+//                    }
+//                }
+//            }
+//            return _instance;
+//        }
+//    }
 
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return ChildElements.GetEnumerator();
-    }
-
-}
-
-public class TableElement : ContainerElement, IEnumerable<Element>
-{
-    //public override List<Element> ChildElements { get; set; }
-
-}
-
-public class RowElement : Element
-{
-    public void TTT()
-    {
-        var table = new TableElement();
-
-
-    }
-
-}
-
-
-
-
+//}
 
 
 
