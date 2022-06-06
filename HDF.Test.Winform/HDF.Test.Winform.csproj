@@ -21,6 +21,7 @@
 		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
 		<PackageReference Include="HDF.Common" Version="1.4.1" />
 		<PackageReference Include="HDF.DotNet.Features.PropertyInitAccessor" Version="1.0.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.2.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-preview.4.22229.4" />

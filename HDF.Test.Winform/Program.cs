@@ -1,5 +1,7 @@
 ﻿using Autofac;
 using HDF.Test.Winform.Helper;
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -8,6 +10,7 @@ using System.Drawing;
 using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
@@ -250,9 +253,69 @@ struct AAA
 
 
 
+        }
+
+
+
+
+
+
+        if (false)
+        {
+
+            var sourceText = "";
+
+
+            var syntaxTree = CSharpSyntaxTree.ParseText(sourceText, new CSharpParseOptions(LanguageVersion.Latest));
+
+            // 配置引用
+            var references = new[]
+            {
+    typeof(object).Assembly,
+    Assembly.Load("netstandard"),
+    Assembly.Load("System.Runtime"),
+}
+            .Select(assembly => assembly.Location)
+                .Distinct()
+                .Select(l => MetadataReference.CreateFromFile(l))
+                .Cast<MetadataReference>()
+                .ToArray();
+
+            //var assemblyName = $"DbTool.DynamicGenerated.{GuidIdGenerator.Instance.NewId()}";
+            var assemblyName = $"DbTool.DynamicGenerated.{DateTime.Now:yyyyMMddHHmmss}";
+
+
+            // 获取编译
+            var compilation = CSharpCompilation.Create(assemblyName)
+                .WithOptions(new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary))
+                .AddReferences(references)
+                .AddSyntaxTrees(syntaxTree);
+
+            using var ms = new MemoryStream();
+            // 生成编译结果并导出程序集信息到 stream 中
+            var compilationResult = compilation.Emit(ms);
+            if (compilationResult.Success)
+            {
+                var assemblyBytes = ms.ToArray();
+                // 加载程序集
+                var assembly = Assembly.Load(assemblyBytes);
+            }
+
+            var error = new StringBuilder();
+            foreach (var t in compilationResult.Diagnostics)
+            {
+                error.AppendLine($"{t.GetMessage()}");
+            }
+
+
+
+
+
 
 
         }
+
+
 
         {//IOC容器，依赖注入
             var t = ServiceProviderHelper.ServiceProvider.GetServices<Test>();
