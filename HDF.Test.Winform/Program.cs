@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Buffers;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.IO;
@@ -26,7 +27,9 @@ internal static class Program
     [STAThread]
     static void Main()
     {
+
         var services = new ServiceCollection();
+
         ConfigureServices(services);
         using var provider = services.BuildServiceProvider();
         ServiceProviderHelper.InitServiceProvider(provider);
@@ -255,6 +258,36 @@ struct AAA
 
         }
 
+
+        {
+
+            //ArrayPool
+
+
+
+
+            var a = GC.GetAllocatedBytesForCurrentThread();
+
+
+
+            var str = "123😊😊话法撒旦";
+
+            var bytecount = Encoding.Unicode.GetByteCount(str);
+            var bytecount2 = Encoding.UTF8.GetByteCount(str);
+            var bytecount3 = Encoding.UTF32.GetByteCount(str);
+
+
+            //😊😊
+            //བོད་ཡིག
+            //𐓏𐓘𐓻𐓘𐓻𐓟 𐒻𐓟
+
+
+            Console.OutputEncoding = Encoding.UTF8;
+
+
+            Console.WriteLine("😊");
+
+        }
 
 
 
