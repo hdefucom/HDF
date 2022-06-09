@@ -85,11 +85,15 @@ namespace WinFormsApp1
             hwndRenderTarget.BeginDraw();
             hwndRenderTarget.Clear(new RawColor4(0, 0, 0, 255));
 
+
+
             for (int i = 0; i < 10000; i++)
-                hwndRenderTarget.DrawText("safasdf",
-                    new SharpDX.DirectWrite.TextFormat(new SharpDX.DirectWrite.Factory(), "宋体", 24f),
+                hwndRenderTarget.DrawText("😂😂😂",
+                    new SharpDX.DirectWrite.TextFormat(new SharpDX.DirectWrite.Factory(), "Segoe UI Emoji", 24f),
                     new RawRectangleF(0, 0, 1000, 1000),
-                    new SolidColorBrush(hwndRenderTarget, new RawColor4(255, 255, 255, 255)));
+                    new SolidColorBrush(hwndRenderTarget, new RawColor4(255, 255, 255, 255)),
+                    DrawTextOptions.EnableColorFont //启用彩色emoji的关键
+                    );
 
             hwndRenderTarget.EndDraw();
             s.Stop();

@@ -4,8 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HDF.Test.WPF"
+            xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="400">
+
+    <Window.Resources>
+        <DrawingImage x:Key="MyImageSource" emoji:Image.Source="👻"/>
+    </Window.Resources>
+    
     <StackPanel Margin="0,0,0,0" RenderTransformOrigin="0.51,0.522">
+        <Label FontFamily="Segoe UI Emoji">😂😂😂</Label>
+        <TextBlock FontFamily="Segoe UI Emoji" >😂😂😂</TextBlock>
+        <emoji:TextBlock FontSize="24" Text="Hello! 💖😁🐨🐱‍🐉👩🏿‍👩🏻‍👦🏽 lol"/>
     </StackPanel>
 </Window>
