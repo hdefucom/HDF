@@ -5,12 +5,16 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Buffers;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -21,6 +25,100 @@ namespace HDF.Test.Winform;
 
 internal static class Program
 {
+
+
+    public class DtoInfo
+    {
+
+        public string Field { get; set; }
+        public string Value { get; set; }
+
+
+    }
+
+    public class DtoInfoConverter : JsonConverter
+    {
+
+        public override bool CanConvert(Type t)
+        {
+            return typeof(DtoInfo).IsAssignableFrom(t);
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            DtoInfo dto = (DtoInfo)value;
+
+            JObject obj = new JObject();
+
+            obj[dto.Field] = dto.Value;
+
+            obj.WriteTo(writer);
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            var obj = (JObject)JObject.ReadFrom(reader);
+
+
+            JProperty property = obj.Properties().FirstOrDefault();
+
+            return new DtoInfo
+            {
+                Field = property.Name,
+                Value = property.Value.Value<string>()
+            };
+        }
+
+        public override bool CanRead
+        {
+            get { return true; }
+        }
+    }
+
+
+    public class ListoConverter : JsonConverter
+    {
+
+        public override bool CanConvert(Type t)
+        {
+            return typeof(List<DtoInfo>).IsAssignableFrom(t);
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            List<DtoInfo> dto = (List<DtoInfo>)value;
+
+            JObject obj = new JObject();
+
+            foreach (var item in dto)
+            {
+                obj[item.Field] = item.Value;
+            }
+
+            obj.WriteTo(writer);
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            var obj = (JObject)JObject.ReadFrom(reader);
+
+
+            return obj.Properties().Select(a => new DtoInfo
+            {
+                Field = a.Name,
+                Value = a.Value.Value<string>()
+            }).ToList();
+        }
+
+        public override bool CanRead
+        {
+            get { return true; }
+        }
+    }
+
+
+
+
     /// <summary>
     ///  The main entry point for the application.
     /// </summary>
@@ -72,10 +170,10 @@ internal static class Program
 
             {
                 /*
-struct AAA
-{
+    struct AAA
+    {
     public int MyProperty { get; set; }
-}
+    }
                  */
 
                 //var array = Enumerable.Range(0, 100).Select(i => new AAA() { MyProperty = i }).ToArray();
@@ -249,11 +347,31 @@ struct AAA
 
 
         {
+            var list = new List<DtoInfo>() {
+            new DtoInfo(){Field="Name",Value="HDF" },
+            new DtoInfo(){Field="Age",Value="18" },
+            new DtoInfo(){Field="Address",Value="jx" },
+            };
+
+            var str = JsonConvert.SerializeObject(list, new ListoConverter());
+
+
+
+            HttpClient client = new HttpClient();
+            var content = new StringContent("");
+            content.Headers.Add("", "");
+            var res = client.PostAsync("", content).Result;
+
+        }
+
+
+
+
+
+        {
 
             //判断字符是否存在emoji
             var res = Regex.IsMatch("", @"\p{Cs}");
-
-
 
 
         }

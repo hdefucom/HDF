@@ -63,7 +63,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_RecordDetail_DataGenerat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.Nuget.Server", "Example\Web\Nuget.Server\HDF.Nuget.Server\HDF.Nuget.Server.csproj", "{317C4C86-337B-4EF2-AC53-576F85B105DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeChaty.Test", "Example\Web\WeChaty\WeChaty.Test\WeChaty.Test.csproj", "{6BF53DB5-EE64-47EC-8667-18F2E2542C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeChaty.Test", "Example\Web\WeChaty\WeChaty.Test\WeChaty.Test.csproj", "{6BF53DB5-EE64-47EC-8667-18F2E2542C7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCSoft.Writer", "Example\WinForm\Editor\DCWriter\DCSoft.Writer.Cleaned\DCSoft.Writer.csproj", "{4ED3CDE9-FF3A-4461-9282-D42737D8CFEA}"
 EndProject
@@ -111,7 +111,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{20
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vueproject1", "Example\Web\FrontEnd\vueproject1\vueproject1.esproj", "{07AE61BA-3761-49C3-A5D6-809E654F6486}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "Example\Web\Blazor\BlazorApp1\BlazorApp1.csproj", "{CE14154D-EA40-4910-B1A7-BDFE136A02F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "Example\Web\Blazor\BlazorApp1\BlazorApp1.csproj", "{CE14154D-EA40-4910-B1A7-BDFE136A02F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grpc", "Grpc", "{0DAA82E4-AEBD-43C1-A6D6-9BE07A6BBA48}"
 EndProject
@@ -121,7 +121,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.Framework.Test", "HDF.F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wasm", "Wasm", "{EBD4DEAC-6E1E-4180-8602-297D2137A67E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wasm.Test", "Example\Web\Wasm\Wasm.Test\Wasm.Test.csproj", "{2A245883-3ECF-4D08-AECC-BF482D5A82FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wasm.Test", "Example\Web\Wasm\Wasm.Test\Wasm.Test.csproj", "{2A245883-3ECF-4D08-AECC-BF482D5A82FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{EAFA31DD-F444-406B-B980-0A88EA3FAEE7}"
 EndProject
@@ -141,11 +141,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.SourceGenerators.Caller
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "性能测试", "性能测试", "{698312E2-2D4A-4F21-869D-7638DEF039C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.BenchmarkDotNet", "Example\Other\性能测试\HDF.BenchmarkDotNet\HDF.BenchmarkDotNet.csproj", "{7FA10C38-ED1B-49E1-B077-523EB4C18D0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.BenchmarkDotNet", "Example\Other\性能测试\HDF.BenchmarkDotNet\HDF.BenchmarkDotNet.csproj", "{7FA10C38-ED1B-49E1-B077-523EB4C18D0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebBrowser", "WebBrowser", "{4109CB82-764C-4AE8-834D-52207FE13D90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.WebBrowser.Test", "Example\WinForm\WebBrowser\HDF.WebBrowser.Test\HDF.WebBrowser.Test.csproj", "{14B3A950-70A6-407B-9C32-C79826255443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.WebBrowser.Test", "Example\WinForm\WebBrowser\HDF.WebBrowser.Test\HDF.WebBrowser.Test.csproj", "{14B3A950-70A6-407B-9C32-C79826255443}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "图像识别", "图像识别", "{CB558F22-C5BD-48AC-BFDB-7A9886CECAA4}"
 EndProject
@@ -153,11 +153,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.OCR.Test", "Example\Oth
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AForge", "AForge", "{16B20EC5-703D-4617-A309-CF9997FDBD1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.AForge.Test", "Example\WinForm\AForge\HDF.AForge.Test\HDF.AForge.Test.csproj", "{0038695C-9C44-4442-894C-E007E9590F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.AForge.Test", "Example\WinForm\AForge\HDF.AForge.Test\HDF.AForge.Test.csproj", "{0038695C-9C44-4442-894C-E007E9590F13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UITest", "UITest", "{4BB1FB17-7462-4450-AFD8-F11D947DAB9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.Web.UITest", "Example\Web\UITest\HDF.Web.UITest\HDF.Web.UITest.csproj", "{D8688B2C-6813-4FC3-AE7F-8B03817D0D43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.Web.UITest", "Example\Web\UITest\HDF.Web.UITest\HDF.Web.UITest.csproj", "{D8688B2C-6813-4FC3-AE7F-8B03817D0D43}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm宿主混合开发", "WinForm宿主混合开发", "{2120C4F3-FDF0-4B55-A856-CA64192369BE}"
 EndProject
@@ -177,7 +177,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetSystemStatusGUI", "Examp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.Test.Winform", "HDF.Test.Winform\HDF.Test.Winform.csproj", "{D0178B79-90B8-4D6E-82C1-02AA4D505D22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.Test.WPF", "HDF.Test.WPF\HDF.Test.WPF.csproj", "{6D8DDB75-117C-4E20-8E29-50A09E7DCCB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.Test.WPF", "HDF.Test.WPF\HDF.Test.WPF.csproj", "{6D8DDB75-117C-4E20-8E29-50A09E7DCCB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

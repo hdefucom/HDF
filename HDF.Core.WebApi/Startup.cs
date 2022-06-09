@@ -95,7 +95,7 @@ namespace HDF.Core.WebApi
 
             //Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
-            //Enable middleware to serve swagger-ui (HTML, JS, CSS etc.), specifying the Swagger JSON endpoint
+            //Enable middleware to serve swagger - ui(HTML, JS, CSS etc.), specifying the Swagger JSON endpoint
             app.UseSwaggerUI(option =>
             {
                 option.SwaggerEndpoint("/swagger/v1/swagger.json", "HDF.Core.WebApi API v1");
@@ -103,7 +103,6 @@ namespace HDF.Core.WebApi
                 //option.RoutePrefix = string.Empty;
                 option.DocumentTitle = "HDF API";
             });
-
 
             app.UseHttpsRedirection();//Https÷ÿ∂®œÚ
 
