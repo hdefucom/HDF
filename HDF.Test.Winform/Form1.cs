@@ -167,4 +167,14 @@ public partial class Form1 : Form
 
 
     }
+
+
+    int rate = 100;
+
+    private void trackBar1_ValueChanged(object sender, EventArgs e)
+    {
+
+        panel1.Scale(100f / rate * trackBar1.Value / 100f);
+        rate = trackBar1.Value;
+    }
 }

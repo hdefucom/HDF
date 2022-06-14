@@ -14,27 +14,28 @@ using System.Drawing;
 using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
-using System.Net.Http;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace HDF.Test.Winform;
 
 
+
+[Serializable]
+public class DtoInfo
+{
+    public string Field { get; set; }
+    public string Value { get; set; }
+
+
+}
+
 internal static class Program
 {
-
-
-    public class DtoInfo
-    {
-
-        public string Field { get; set; }
-        public string Value { get; set; }
-
-
-    }
 
     public class DtoInfoConverter : JsonConverter
     {
@@ -346,6 +347,49 @@ internal static class Program
         }
 
 
+
+        if (false)
+        {
+            /*
+
+            public class AiToolbarConfig
+            {
+                public bool Open { get; set; }
+            }
+
+             
+
+            var user = "admin";
+            var file = $"{Application.UserAppDataPath}\\{user}\\Config\\AiToolbar.json";
+
+            //start
+            {
+                if (File.Exists(file))
+                {
+                    var json = File.ReadAllText(file);
+                    var cfg = JsonConvert.DeserializeObject<AiToolbarConfig>(json);
+                    if (cfg != null)
+                    {
+                        //dock = cfg.Open;
+                    }
+                }
+            }
+
+            //close
+            {
+                var cfg = new AiToolbarConfig();
+                //cfg.Open = dock;
+
+                var json = JsonConvert.SerializeObject(cfg);
+
+                File.WriteAllText(file, json);
+            }
+
+             */
+
+        }
+
+
         {
             var list = new List<DtoInfo>() {
             new DtoInfo(){Field="Name",Value="HDF" },
@@ -357,14 +401,64 @@ internal static class Program
 
 
 
-            HttpClient client = new HttpClient();
-            var content = new StringContent("");
-            content.Headers.Add("", "");
-            var res = client.PostAsync("", content).Result;
+            //HttpClient client = new HttpClient();
+            //var content = new StringContent("");
+            //content.Headers.Add("", "");
+            //var res = client.PostAsync("", content).Result;
 
         }
 
 
+
+        {
+
+
+
+            XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
+            ns.Add("", "");
+            var setting = new XmlWriterSettings() { OmitXmlDeclaration = true };
+
+
+
+
+            //var list = new List<DtoInfo>() {
+            //new DtoInfo(){Field="Name",Value="HDF" },
+            //new DtoInfo(){Field="Age",Value="18" },
+            //new DtoInfo(){Field="Address",Value="jx" },
+            //};
+
+            var list = "ssss";
+
+            //using StringWriter sw = new StringWriter();
+
+            //XmlSerializer xz = new XmlSerializer(list.GetType());
+
+            //xz.Serialize(sw, list);
+
+            //var str = sw.ToString();
+
+
+            StringBuilder sb = new StringBuilder();
+            using XmlWriter xw = XmlWriter.Create(sb, setting);
+            XmlSerializer xz = new XmlSerializer(list.GetType());
+            xz.Serialize(xw, list, ns);
+            var str = sb.ToString();
+
+
+
+
+            var aaa = xz.Deserialize(new StringReader(str));
+
+
+
+
+
+
+
+
+
+
+        }
 
 
 
@@ -372,6 +466,11 @@ internal static class Program
 
             //判断字符是否存在emoji
             var res = Regex.IsMatch("", @"\p{Cs}");
+
+
+
+
+
 
 
         }
