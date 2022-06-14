@@ -6,6 +6,7 @@
 		<UseWPF>true</UseWPF>
 		<LangVersion>10.0</LangVersion>
 		<StartupObject>HDF.Test.WPF.Program</StartupObject>
+		<PlatformTarget>AnyCPU</PlatformTarget>
 
 	</PropertyGroup>
 

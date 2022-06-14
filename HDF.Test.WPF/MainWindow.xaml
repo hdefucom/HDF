@@ -9,11 +9,11 @@
         Title="MainWindow" Height="200" Width="400">
 
     <Window.Resources>
-        <DrawingImage x:Key="MyImageSource" emoji:Image.Source="👻"/>
+        <!--<DrawingImage x:Key="MyImageSource" emoji:Image.Source="👻"/>-->
     </Window.Resources>
-    
+
     <StackPanel Margin="0,0,0,0" RenderTransformOrigin="0.51,0.522">
-        <Label FontFamily="Segoe UI Emoji">😂😂😂</Label>
+        <Label x:Name="label1"  FontFamily="Segoe UI Emoji">😂😂😂</Label>
         <TextBlock FontFamily="Segoe UI Emoji" >😂😂😂</TextBlock>
         <emoji:TextBlock FontSize="24" Text="Hello! 💖😁🐨🐱‍🐉👩🏿‍👩🏻‍👦🏽 lol"/>
     </StackPanel>

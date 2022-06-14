@@ -18,6 +18,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.Windows.Forms.Integration;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -505,6 +506,12 @@ internal static class Program
             Console.WriteLine("😊");
 
 
+            //ElementHost.EnableModelessKeyboardInterop(myWpfWindow);
+
+
+            var host = new ElementHost();
+
+
 
 
 
@@ -628,7 +635,7 @@ internal static class Program
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
-        Application.Run(new Form1());
+        Application.Run(new Form2());
     }
 
 
