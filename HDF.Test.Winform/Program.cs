@@ -127,6 +127,8 @@ internal static class Program
     [STAThread]
     static void Main()
     {
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
 
         var services = new ServiceCollection();
 
@@ -346,6 +348,8 @@ internal static class Program
 
 
         }
+
+
 
 
 
@@ -633,8 +637,6 @@ internal static class Program
 
 
 
-        Application.EnableVisualStyles();
-        Application.SetCompatibleTextRenderingDefault(false);
         Application.Run(new Form2());
     }
 
