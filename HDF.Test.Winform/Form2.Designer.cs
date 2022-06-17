@@ -128,6 +128,7 @@
             this.button98 = new System.Windows.Forms.Button();
             this.button99 = new System.Windows.Forms.Button();
             this.button100 = new System.Windows.Forms.Button();
+            this.button101 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -1031,10 +1032,20 @@
             this.button100.Text = "button1";
             this.button100.UseVisualStyleBackColor = true;
             // 
+            // button101
+            // 
+            this.button101.Location = new System.Drawing.Point(141, 615);
+            this.button101.Name = "button101";
+            this.button101.Size = new System.Drawing.Size(75, 23);
+            this.button101.TabIndex = 0;
+            this.button101.Text = "button1";
+            this.button101.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button100);
             this.Controls.Add(this.button80);
@@ -1042,6 +1053,7 @@
             this.Controls.Add(this.button79);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button99);
+            this.Controls.Add(this.button101);
             this.Controls.Add(this.button78);
             this.Controls.Add(this.button39);
             this.Controls.Add(this.button77);
@@ -1138,6 +1150,8 @@
             this.Controls.Add(this.button1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);
             this.ResumeLayout(false);
 
         }
@@ -1244,5 +1258,6 @@
         private System.Windows.Forms.Button button98;
         private System.Windows.Forms.Button button99;
         private System.Windows.Forms.Button button100;
+        private System.Windows.Forms.Button button101;
     }
 }
