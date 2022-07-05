@@ -514,6 +514,30 @@ internal static class Program
             }
 
 
+            void SelectXml(OracleConnection con, string dir, string sql, string namefield, string typefield, string contentfield)
+            {
+                if (!Directory.Exists(dir))
+                    Directory.CreateDirectory(dir);
+
+                var cmd = con.CreateCommand();
+
+                cmd.CommandText = sql;
+
+                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+
+                while (reader.Read())
+                {
+                    var name = reader[namefield].ToString();
+
+                    var xml = reader[contentfield].ToString();
+
+                    var type = reader[typefield].ToString();
+
+                    SaveXml(name, xml, dir, type);
+                }
+            }
+
+
 
             #region sql
 
@@ -557,11 +581,6 @@ SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2;
             {
                 var dir = Application.StartupPath + "\\旧电子病历模板\\普通模板";
 
-                if (!Directory.Exists(dir))
-                    Directory.CreateDirectory(dir);
-
-                var cmd = con.CreateCommand();
-
                 var sql = @"
 SELECT 
 mr_class ,
@@ -572,20 +591,7 @@ from emrtemplet a
 where  a.templet_id in (select c.templateid  from recorddetail c )
 ";
 
-                cmd.CommandText = sql;
-
-                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-
-                while (reader.Read())
-                {
-                    var name = reader["mr_name"].ToString();
-
-                    var xml = reader["xml_doc_new"].ToString();
-
-                    var type = reader["mr_class"].ToString();
-
-                    SaveXml(name, xml, dir, type);
-                }
+                SelectXml(con, dir, sql, "mr_name", "mr_class", "xml_doc_new");
 
             }
 
@@ -594,31 +600,9 @@ where  a.templet_id in (select c.templateid  from recorddetail c )
 
                 var dir = Application.StartupPath + "\\旧电子病历模板\\科室";
 
-                if (!Directory.Exists(dir))
-                    Directory.CreateDirectory(dir);
+                var sql = @"SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2";
 
-
-                var cmd = con.CreateCommand();
-
-                var sql = @"
-SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2
-";
-
-                cmd.CommandText = sql;
-
-                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-
-                while (reader.Read())
-                {
-                    var name = reader["name"].ToString();
-
-                    var xml = reader["content"].ToString();
-
-                    var type = reader["DEPTID"].ToString();
-
-                    SaveXml(name, xml, dir, type);
-                }
-
+                SelectXml(con, dir, sql, "name", "DEPTID", "content");
 
             }
 
@@ -627,31 +611,11 @@ SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2
 
                 var dir = Application.StartupPath + "\\旧电子病历模板\\个人";
 
-                if (!Directory.Exists(dir))
-                    Directory.CreateDirectory(dir);
-
-
-                var cmd = con.CreateCommand();
-
                 var sql = @"
 SELECT userid,name,content FROM template_person WHERE valid='1' AND TYPE=1
 ";
 
-                cmd.CommandText = sql;
-
-                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-
-                while (reader.Read())
-                {
-                    var name = reader["name"].ToString();
-
-                    var xml = reader["content"].ToString();
-
-                    var type = reader["userid"].ToString();
-
-                    SaveXml(name, xml, dir, type);
-                }
-
+                SelectXml(con, dir, sql, "name", "userid", "content");
 
             }
 
