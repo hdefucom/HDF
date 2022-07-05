@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Buffers;
 using System.Collections.Generic;
@@ -466,6 +467,269 @@ internal static class Program
 
 
         }
+
+
+
+        if (false)
+        {
+
+
+            /* 
+             
+             
+SELECT * FROM RECORDDETAIL --病历表
+
+
+SELECT * from template_person --type ：2科室 1个人
+
+select* from emrtemplet  a where  a.templet_id in (select c.templateid  from recorddetail c )
+
+
+SELECT 
+mr_class ,
+mr_name,
+xml_doc_new
+
+from emrtemplet a --模板表
+where  a.templet_id in (select c.templateid  from recorddetail c )
+
+
+SELECT userid,name,content FROM template_person WHERE valid='1' AND TYPE=1;
+
+SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2;
+
+             
+             */
+
+
+
+            var constr = @"";
+
+            using OracleConnection con = new OracleConnection(constr);
+
+            con.Open();
+
+            {
+                var dir = Application.StartupPath + "\\旧电子病历模板\\普通模板";
+
+                if (!Directory.Exists(dir))
+                    Directory.CreateDirectory(dir);
+
+
+                var cmd = con.CreateCommand();
+
+                var sql = @"
+SELECT 
+mr_class ,
+mr_name,
+xml_doc_new
+
+from emrtemplet a
+where  a.templet_id in (select c.templateid  from recorddetail c )
+";
+
+                cmd.CommandText = sql;
+
+                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+
+                while (reader.Read())
+                {
+                    var type = reader["mr_class"].ToString();
+
+                    if (type.IsNullOrWhiteSpace())
+                    {
+                        continue;
+                    }
+                    var tdir = $"{dir}\\{type}";
+
+                    if (!Directory.Exists(tdir))
+                        Directory.CreateDirectory(tdir);
+
+                    var xml = reader["xml_doc_new"].ToString();
+
+                    if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
+                        xml = xml.GZipDecompressString(Encoding.UTF8);
+
+
+                    var name = reader["mr_name"].ToString();
+
+                    name = name.Replace("\\", "")
+                        .Replace("/", "")
+                        .Replace(":", "")
+                        .Replace("*", "")
+                        .Replace("?", "")
+                        .Replace("\"", "")
+                        .Replace("|", "")
+                        .Replace(">", "")
+                        .Replace("<", "");
+
+                    var file = $"{tdir}\\{name}.xml";
+
+                    if (File.Exists(file))
+                    {
+                        var dddd = Directory.GetFiles(tdir, name + "*");
+
+                        file = $"{tdir}\\{name}({dddd.Length}).xml";
+                    }
+
+
+
+
+                    File.WriteAllText(file, xml);
+
+
+                }
+
+
+            }
+
+
+            {
+
+                var dir = Application.StartupPath + "\\旧电子病历模板\\科室";
+
+                if (!Directory.Exists(dir))
+                    Directory.CreateDirectory(dir);
+
+
+                var cmd = con.CreateCommand();
+
+                var sql = @"
+SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2
+";
+
+                cmd.CommandText = sql;
+
+                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+
+                while (reader.Read())
+                {
+                    var type = reader["DEPTID"].ToString();
+
+                    if (type.IsNullOrWhiteSpace())
+                    {
+                        continue;
+                    }
+                    var tdir = $"{dir}\\{type}";
+
+                    if (!Directory.Exists(tdir))
+                        Directory.CreateDirectory(tdir);
+
+                    var xml = reader["content"].ToString();
+
+                    if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
+                        xml = xml.GZipDecompressString(Encoding.UTF8);
+
+
+                    var name = reader["name"].ToString();
+
+                    name = name.Replace("\\", "")
+                        .Replace("/", "")
+                        .Replace(":", "")
+                        .Replace("*", "")
+                        .Replace("?", "")
+                        .Replace("\"", "")
+                        .Replace("|", "")
+                        .Replace(">", "")
+                        .Replace("<", "");
+
+                    var file = $"{tdir}\\{name}.xml";
+
+                    if (File.Exists(file))
+                    {
+                        var dddd = Directory.GetFiles(tdir, name + "*");
+
+                        file = $"{tdir}\\{name}({dddd.Length}).xml";
+                    }
+
+
+
+
+                    File.WriteAllText(file, xml);
+
+
+                }
+
+
+            }
+
+
+            {
+
+                var dir = Application.StartupPath + "\\旧电子病历模板\\个人";
+
+                if (!Directory.Exists(dir))
+                    Directory.CreateDirectory(dir);
+
+
+                var cmd = con.CreateCommand();
+
+                var sql = @"
+SELECT userid,name,content FROM template_person WHERE valid='1' AND TYPE=1
+";
+
+                cmd.CommandText = sql;
+
+                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+
+                while (reader.Read())
+                {
+                    var type = reader["userid"].ToString();
+
+                    if (type.IsNullOrWhiteSpace())
+                    {
+                        continue;
+                    }
+                    var tdir = $"{dir}\\{type}";
+
+                    if (!Directory.Exists(tdir))
+                        Directory.CreateDirectory(tdir);
+
+                    var xml = reader["content"].ToString();
+
+                    if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
+                        xml = xml.GZipDecompressString(Encoding.UTF8);
+
+
+                    var name = reader["name"].ToString();
+
+                    name = name.Replace("\\", "")
+                        .Replace("/", "")
+                        .Replace(":", "")
+                        .Replace("*", "")
+                        .Replace("?", "")
+                        .Replace("\"", "")
+                        .Replace("|", "")
+                        .Replace(">", "")
+                        .Replace("<", "");
+
+                    var file = $"{tdir}\\{name}.xml";
+
+                    if (File.Exists(file))
+                    {
+                        var dddd = Directory.GetFiles(tdir, name + "*");
+
+                        file = $"{tdir}\\{name}({dddd.Length}).xml";
+                    }
+
+
+
+
+                    File.WriteAllText(file, xml);
+
+
+                }
+
+
+            }
+
+
+
+
+        }
+
+        Console.WriteLine("完成");
+
 
 
 

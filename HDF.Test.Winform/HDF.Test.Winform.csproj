@@ -27,6 +27,7 @@
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-preview.4.22229.4" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Oracle.ManagedDataAccess" Version="21.6.1" />
 	</ItemGroup>
 
 	<ItemGroup>
