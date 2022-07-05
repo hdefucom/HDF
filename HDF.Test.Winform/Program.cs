@@ -470,9 +470,52 @@ internal static class Program
 
 
 
-        if (false)
+        //if (false)
         {
 
+
+
+            void SaveXml(string name, string xml, string dir, string type)
+            {
+                if (type.IsNullOrWhiteSpace())
+                    return;
+
+                var tdir = $"{dir}\\{type}";
+
+                if (!Directory.Exists(tdir))
+                    Directory.CreateDirectory(tdir);
+
+                if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
+                    xml = xml.GZipDecompressString(Encoding.UTF8);
+
+
+                name = name.Replace("\\", "")
+                        .Replace("/", "")
+                        .Replace(":", "")
+                        .Replace("*", "")
+                        .Replace("?", "")
+                        .Replace("\"", "")
+                        .Replace("|", "")
+                        .Replace(">", "")
+                        .Replace("<", "");
+
+                var file = $"{tdir}\\{name}.xml";
+
+                if (File.Exists(file))
+                {
+                    var dddd = Directory.GetFiles(tdir, name + "*");
+
+                    file = $"{tdir}\\{name}({dddd.Length}).xml";
+                }
+
+
+                File.WriteAllText(file, xml);
+
+            }
+
+
+
+            #region sql
 
             /* 
              
@@ -501,9 +544,11 @@ SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2;
              
              */
 
+            #endregion
 
 
             var constr = @"";
+
 
             using OracleConnection con = new OracleConnection(constr);
 
@@ -514,7 +559,6 @@ SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2;
 
                 if (!Directory.Exists(dir))
                     Directory.CreateDirectory(dir);
-
 
                 var cmd = con.CreateCommand();
 
@@ -534,52 +578,14 @@ where  a.templet_id in (select c.templateid  from recorddetail c )
 
                 while (reader.Read())
                 {
-                    var type = reader["mr_class"].ToString();
-
-                    if (type.IsNullOrWhiteSpace())
-                    {
-                        continue;
-                    }
-                    var tdir = $"{dir}\\{type}";
-
-                    if (!Directory.Exists(tdir))
-                        Directory.CreateDirectory(tdir);
+                    var name = reader["mr_name"].ToString();
 
                     var xml = reader["xml_doc_new"].ToString();
 
-                    if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
-                        xml = xml.GZipDecompressString(Encoding.UTF8);
+                    var type = reader["mr_class"].ToString();
 
-
-                    var name = reader["mr_name"].ToString();
-
-                    name = name.Replace("\\", "")
-                        .Replace("/", "")
-                        .Replace(":", "")
-                        .Replace("*", "")
-                        .Replace("?", "")
-                        .Replace("\"", "")
-                        .Replace("|", "")
-                        .Replace(">", "")
-                        .Replace("<", "");
-
-                    var file = $"{tdir}\\{name}.xml";
-
-                    if (File.Exists(file))
-                    {
-                        var dddd = Directory.GetFiles(tdir, name + "*");
-
-                        file = $"{tdir}\\{name}({dddd.Length}).xml";
-                    }
-
-
-
-
-                    File.WriteAllText(file, xml);
-
-
+                    SaveXml(name, xml, dir, type);
                 }
-
 
             }
 
@@ -604,50 +610,13 @@ SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2
 
                 while (reader.Read())
                 {
-                    var type = reader["DEPTID"].ToString();
-
-                    if (type.IsNullOrWhiteSpace())
-                    {
-                        continue;
-                    }
-                    var tdir = $"{dir}\\{type}";
-
-                    if (!Directory.Exists(tdir))
-                        Directory.CreateDirectory(tdir);
+                    var name = reader["name"].ToString();
 
                     var xml = reader["content"].ToString();
 
-                    if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
-                        xml = xml.GZipDecompressString(Encoding.UTF8);
+                    var type = reader["DEPTID"].ToString();
 
-
-                    var name = reader["name"].ToString();
-
-                    name = name.Replace("\\", "")
-                        .Replace("/", "")
-                        .Replace(":", "")
-                        .Replace("*", "")
-                        .Replace("?", "")
-                        .Replace("\"", "")
-                        .Replace("|", "")
-                        .Replace(">", "")
-                        .Replace("<", "");
-
-                    var file = $"{tdir}\\{name}.xml";
-
-                    if (File.Exists(file))
-                    {
-                        var dddd = Directory.GetFiles(tdir, name + "*");
-
-                        file = $"{tdir}\\{name}({dddd.Length}).xml";
-                    }
-
-
-
-
-                    File.WriteAllText(file, xml);
-
-
+                    SaveXml(name, xml, dir, type);
                 }
 
 
@@ -674,50 +643,13 @@ SELECT userid,name,content FROM template_person WHERE valid='1' AND TYPE=1
 
                 while (reader.Read())
                 {
-                    var type = reader["userid"].ToString();
-
-                    if (type.IsNullOrWhiteSpace())
-                    {
-                        continue;
-                    }
-                    var tdir = $"{dir}\\{type}";
-
-                    if (!Directory.Exists(tdir))
-                        Directory.CreateDirectory(tdir);
+                    var name = reader["name"].ToString();
 
                     var xml = reader["content"].ToString();
 
-                    if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
-                        xml = xml.GZipDecompressString(Encoding.UTF8);
+                    var type = reader["userid"].ToString();
 
-
-                    var name = reader["name"].ToString();
-
-                    name = name.Replace("\\", "")
-                        .Replace("/", "")
-                        .Replace(":", "")
-                        .Replace("*", "")
-                        .Replace("?", "")
-                        .Replace("\"", "")
-                        .Replace("|", "")
-                        .Replace(">", "")
-                        .Replace("<", "");
-
-                    var file = $"{tdir}\\{name}.xml";
-
-                    if (File.Exists(file))
-                    {
-                        var dddd = Directory.GetFiles(tdir, name + "*");
-
-                        file = $"{tdir}\\{name}({dddd.Length}).xml";
-                    }
-
-
-
-
-                    File.WriteAllText(file, xml);
-
-
+                    SaveXml(name, xml, dir, type);
                 }
 
 
