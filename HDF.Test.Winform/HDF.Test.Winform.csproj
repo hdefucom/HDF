@@ -28,6 +28,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="Oracle.ManagedDataAccess" Version="21.6.1" />
+		<PackageReference Include="GHIS.Service" Version="1.2.8224.34124" />
 	</ItemGroup>
 
 	<ItemGroup>

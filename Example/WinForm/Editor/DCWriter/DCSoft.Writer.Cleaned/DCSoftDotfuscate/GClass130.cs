@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	public class GClass130 : GInterface1
+	public class GClass130 : IXTextUndo
 	{
 		private bool bool_0 = false;
 

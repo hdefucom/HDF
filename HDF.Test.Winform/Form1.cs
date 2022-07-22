@@ -1,7 +1,6 @@
 ﻿using HDF.Test.Winform.Helper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -161,9 +160,9 @@ public partial class Form1 : Form
 
         var s = config.GetValue(typeof(string), "Serilog:MinimumLevel");
 
-        var c = ServiceProviderHelper.ServiceProvider.GetService<IOptionsSnapshot<MyConfig>>();
+        //var c = ServiceProviderHelper.ServiceProvider.GetService<IOptionsSnapshot<MyConfig>>();
 
-        Console.WriteLine(c?.Value?.Name);
+        //Console.WriteLine(c?.Value?.Name);
 
 
     }

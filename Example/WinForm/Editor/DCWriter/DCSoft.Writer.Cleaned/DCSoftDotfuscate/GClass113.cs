@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 namespace DCSoftDotfuscate
 {
 	[ComVisible(false)]
-	public class GClass113 : GInterface1
+	public class GClass113 : IXTextUndo
 	{
-		protected List<GInterface1> list_0 = new List<GInterface1>();
+		protected List<IXTextUndo> list_0 = new List<IXTextUndo>();
 
 		private bool bool_0 = false;
 
@@ -22,7 +22,7 @@ namespace DCSoftDotfuscate
 			}
 		}
 
-		public virtual void vmethod_0(GInterface1 ginterface1_0)
+		public virtual void vmethod_0(IXTextUndo ginterface1_0)
 		{
 			ginterface1_0.InGroup = true;
 			list_0.Add(ginterface1_0);
@@ -32,7 +32,7 @@ namespace DCSoftDotfuscate
 		{
 			for (int num = list_0.Count - 1; num >= 0; num--)
 			{
-				GInterface1 gInterface = list_0[num];
+				IXTextUndo gInterface = list_0[num];
 				gInterface.InGroup = true;
 				gInterface.Undo(args);
 			}
@@ -40,7 +40,7 @@ namespace DCSoftDotfuscate
 
 		public virtual void Redo(GEventArgs3 args)
 		{
-			foreach (GInterface1 item in list_0)
+			foreach (IXTextUndo item in list_0)
 			{
 				item.InGroup = true;
 				item.Redo(args);

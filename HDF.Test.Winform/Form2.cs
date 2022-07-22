@@ -11,6 +11,7 @@ namespace HDF.Test.Winform
             InitializeComponent();
 
 
+
         }
 
 
@@ -36,5 +37,13 @@ namespace HDF.Test.Winform
 
             Debug.WriteLine("Form2_MouseClick" + p);
         }
+
+
+        protected override void OnMouseWheel(MouseEventArgs e)
+        {
+            base.OnMouseWheel(e);
+        }
+
+
     }
 }

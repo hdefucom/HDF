@@ -37,16 +37,16 @@ namespace DCSoftDotfuscate
 			return int_1;
 		}
 
-		public GInterface1 method_3(int int_2)
+		public IXTextUndo method_3(int int_2)
 		{
-			return (GInterface1)base.List[int_2];
+			return (IXTextUndo)base.List[int_2];
 		}
 
-		public GInterface1 method_4()
+		public IXTextUndo method_4()
 		{
 			if (int_1 >= 0 && int_1 < base.Count)
 			{
-				return (GInterface1)base.List[int_1];
+				return (IXTextUndo)base.List[int_1];
 			}
 			return null;
 		}
@@ -95,7 +95,7 @@ namespace DCSoftDotfuscate
 			bool_0 = true;
 			try
 			{
-				GInterface1 gInterface = method_4();
+				IXTextUndo gInterface = method_4();
 				int_1--;
 				if (gInterface != null)
 				{
@@ -122,7 +122,7 @@ namespace DCSoftDotfuscate
 			try
 			{
 				int_1++;
-				GInterface1 gInterface = method_4();
+				IXTextUndo gInterface = method_4();
 				if (gInterface != null)
 				{
 					gInterface.Redo(geventArgs3_0);
@@ -211,12 +211,12 @@ namespace DCSoftDotfuscate
 				}
 				if (arrayList_0.Count == 1 && !ForceUseGroup)
 				{
-					base.List.Add((GInterface1)arrayList_0[0]);
+					base.List.Add((IXTextUndo)arrayList_0[0]);
 				}
 				else
 				{
 					GClass113 gClass = vmethod_3();
-					foreach (GInterface1 item in arrayList_0)
+					foreach (IXTextUndo item in arrayList_0)
 					{
 						gClass.vmethod_0(item);
 					}
@@ -241,7 +241,7 @@ namespace DCSoftDotfuscate
 			return flag;
 		}
 
-		public void method_14(GInterface1 ginterface1_0)
+		public void method_14(IXTextUndo ginterface1_0)
 		{
 			if (ginterface1_0 != null && arrayList_0 != null && !arrayList_0.Contains(ginterface1_0) && arrayList_0 != null)
 			{
