@@ -39,6 +39,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -149,12 +150,22 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(373, 102);
+            this.textBox1.Location = new System.Drawing.Point(524, 47);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(100, 21);
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(119, 65);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "fdsafadsfasfasfadsf";
+            this.textBox1.Text = "fdsafadsfasfasfadsf\r\ndasd\r\nassdas\r\ndas\r\ndasd\r\nasdasd\r\nassdasd\r\nas\r\ndasdad\r\nas\r\nda" +
+    "sdasd";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(337, 62);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.TabIndex = 5;
             // 
             // Form2
             // 
@@ -162,6 +173,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.comboBox1);
@@ -177,6 +189,7 @@
             this.Text = "Form2";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseMove);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,5 +208,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

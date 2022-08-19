@@ -1,4 +1,8 @@
-﻿using HDF.Common;
+﻿using GHIS.Service.Common;
+using GHIS.Service.Modules.Emr.EmrSmallTemplateCatagory;
+using GHIS.Service.Modules.Emr.EmrSmallTemplateCatagory.Gen;
+using GHIS.Service.Modules.System.Oauth;
+using HDF.Common;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Newtonsoft.Json;
@@ -7,12 +11,15 @@ using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Buffers;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace HDF.Test.Winform;
 
@@ -602,8 +609,143 @@ VALUES(:id, '360009083103360923', '1',
 
 
 
+
+        if (false)
+        {
+
+
+
+            Configuration configuration = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            configuration.AppSettings.Settings.Clear();
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("HisBaseUrl", "http://192.168.117.50:9090/his"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("MsgUrl", "http://192.168.117.50:9090/his/websocket"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("LoginTitle", "国讯股份一体化医院信息系统"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("RequestMode", "Rest"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("ClientSettingsProvider", ""));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("EnableWindowsFormsHighDpiAutoResizing", "true"));
+            configuration.Save();
+
+            ServiceFactory.GetService<IOAuth2Service>().Login("360009083103360923", "admin", "");
+
+            var service = ServiceFactory.GetService<IEmrSmallTemplateCatagoryService>();
+
+
+
+            var c1 = new EmrSmallTemplateCatagoryCriteria();
+
+            var catagoryList = service.SelectList(c1);
+
+
+
+
+            var c = new EmrSmallTemplateCriteria();
+            c.And().CatagoryType().IsNull();
+            var tempList = service.SelectEmrSmallTemplateList(c);
+
+
+
+            var list2 = new List<EmrSmallTemplateDto>();
+
+            foreach (var item in tempList)
+            {
+
+                var cata = catagoryList.FirstOrDefault(c => c.TempCatagoryId == item.TempCatagoryId);
+                if (cata != null)
+                {
+                    item.CatagoryType = cata.CatagoryType;
+                    item.DeptCode = cata.DeptCode;
+                    item.DeptName = cata.DeptName;
+                    item.EmpCode = cata.EmpCode;
+                    item.EmpName = cata.EmpName;
+
+                    list2.Add(item);
+                }
+
+            }
+
+
+            var res = list2.GroupBy(t => t.TempCatagoryId);
+
+            foreach (var item in res)
+            {
+
+                // service.UpdateEmrSmallTemplateList(item.ToList(), false);
+            }
+
+
+
+
+
+        }
+
+
+        if (false)
+        {
+
+
+            var xml = @" <FabrikamCustomer>
+                              <Id>0001</Id>
+                              <FirstName>John</FirstName>
+                              <LastName>Dow</LastName>
+                          </FabrikamCustomer>";
+
+            Enumerable.Range(0, 30000)
+                 .Select(i => GetCustomer(i, "FabrikamCustomer", xml))
+                 .ToList();
+
+            Console.WriteLine("处理完成！");
+            Console.ReadLine();
+        }
+
+
+
+
+
+
+
+
+
+
         Application.Run(new Form2());
     }
+
+
+
+
+    public static Customer GetCustomer(int i, string rootElementName, string xml)
+    {
+        var xmlSerializer = new XmlSerializer(typeof(Customer),
+                        new XmlRootAttribute(rootElementName));
+
+        using (var textReader = new StringReader(xml))
+        {
+            using (var xmlReader = XmlReader.Create(textReader))
+            {
+                Console.WriteLine(i);
+
+                return (Customer)xmlSerializer.Deserialize(xmlReader);
+            }
+        }
+
+    }
+
+
+
+
+    public class Customer
+    {
+        public string Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
+
+
+
+
+
+
+
+
 
 
 
