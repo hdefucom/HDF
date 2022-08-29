@@ -697,8 +697,39 @@ VALUES(:id, '360009083103360923', '1',
             Console.ReadLine();
         }
 
+        while (true)
+        {
+
+            var exdict = new Dictionary<string, Exception>();
+
+            var data = Clipboard.GetDataObject();
+
+            var formats = data.GetFormats();
 
 
+            var dict = new Dictionary<string, object>();
+
+            foreach (var f in formats)
+            {
+                if (f == "EnhancedMetafile")//此格式获取剪切板数据报错
+                    continue;
+                try
+                {
+                    dict[f] = data.GetData(f);
+                }
+                catch (Exception ex)
+                {
+                    exdict[f] = ex;
+                }
+
+            }
+
+
+
+
+
+
+        }
 
 
 
@@ -737,6 +768,10 @@ VALUES(:id, '360009083103360923', '1',
         public string Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+
+
+
     }
 
 

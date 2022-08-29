@@ -36,6 +36,8 @@ namespace HDF.Test.Winform
 
 
 
+
+
             Debug.WriteLine("Form2_MouseClick" + p);
         }
 

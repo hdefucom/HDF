@@ -1,14 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace HDF.Core.WebApi
 {
@@ -22,7 +14,7 @@ namespace HDF.Core.WebApi
 
         public static void Main(string[] args)
         {
-
+            //WebApplication.CreateBuilder(args).Build().Run
 
             CreateHostBuilder(args).Build().Run();
         }
