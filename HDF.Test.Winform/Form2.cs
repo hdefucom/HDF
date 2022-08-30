@@ -154,11 +154,12 @@ namespace HDF.Test.Winform
 
         }
 
+        private void button45_Click(object sender, EventArgs e)
+        {
+            this.ScrollControlIntoView(button101);
 
 
 
-
-
-
+        }
     }
 }
