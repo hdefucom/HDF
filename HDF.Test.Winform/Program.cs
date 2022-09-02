@@ -760,7 +760,7 @@ VALUES(:id, '360009083103360923', '1',
         }
 
 
-        Application.Run(new Form3());
+        Application.Run(new Form4());
     }
 
 
@@ -782,8 +782,6 @@ VALUES(:id, '360009083103360923', '1',
         }
 
     }
-
-
 
 
     public class Customer
