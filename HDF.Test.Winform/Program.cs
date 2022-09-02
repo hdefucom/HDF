@@ -18,7 +18,6 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using System.Xml;
 using System.Xml.Serialization;
 
 namespace HDF.Test.Winform;
@@ -606,10 +605,6 @@ VALUES(:id, '360009083103360923', '1',
 
         }
 
-
-
-
-
         if (false)
         {
 
@@ -678,28 +673,6 @@ VALUES(:id, '360009083103360923', '1',
 
         }
 
-
-        if (false)
-        {
-
-
-            var xml = @" <FabrikamCustomer>
-                              <Id>0001</Id>
-                              <FirstName>John</FirstName>
-                              <LastName>Dow</LastName>
-                          </FabrikamCustomer>";
-
-            Enumerable.Range(0, 30000)
-                 .Select(i => GetCustomer(i, "FabrikamCustomer", xml))
-                 .ToList();
-
-            Console.WriteLine("处理完成！");
-            Console.ReadLine();
-        }
-
-
-
-
         if (false)
         {
             //DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Tahoma", 9);
@@ -717,13 +690,6 @@ VALUES(:id, '360009083103360923', '1',
 
 
         }
-
-
-
-
-
-
-
 
         while (false)
         {
@@ -759,47 +725,15 @@ VALUES(:id, '360009083103360923', '1',
 
         }
 
-        //sdfsdfsf
-        //b1 branch test
 
-        //111
-        //222
-        //333
+
+
 
         Application.Run(new Form4());
     }
 
 
 
-
-    public static Customer GetCustomer(int i, string rootElementName, string xml)
-    {
-        var xmlSerializer = new XmlSerializer(typeof(Customer),
-                        new XmlRootAttribute(rootElementName));
-
-        using (var textReader = new StringReader(xml))
-        {
-            using (var xmlReader = XmlReader.Create(textReader))
-            {
-                Console.WriteLine(i);
-
-                return (Customer)xmlSerializer.Deserialize(xmlReader);
-            }
-        }
-
-    }
-
-
-    public class Customer
-    {
-        public string Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-
-
-
-
-    }
 
 
 
@@ -821,6 +755,24 @@ VALUES(:id, '360009083103360923', '1',
 
 
 
+
+
+[XmlRoot("Customer")]
+public class Customer
+{
+    public string Id { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+
+
+
+    public Customer()
+    {
+
+    }
+
+
+}
 
 
 
