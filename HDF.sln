@@ -179,6 +179,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.Test.Winform", "HDF.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.Test.WPF", "HDF.Test.WPF\HDF.Test.WPF.csproj", "{6D8DDB75-117C-4E20-8E29-50A09E7DCCB2}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HDF.Share", "HDF.Share\HDF.Share.shproj", "{A4EE2EEB-D91C-479F-8039-432CB192BC6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -822,5 +824,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69BA65DC-DAA2-4F9B-BFB4-7CAF5191180F}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HDF.Share\HDF.Share.projitems*{a4ee2eeb-d91c-479f-8039-432cb192bc6c}*SharedItemsImports = 13
+		HDF.Share\HDF.Share.projitems*{d0178b79-90b8-4d6e-82c1-02aa4d505d22}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

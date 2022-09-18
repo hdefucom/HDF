@@ -1,6 +1,6 @@
 ﻿using GHIS.Service.Common;
-using GHIS.Service.Modules.Emr.EmrSmallTemplateCatagory;
-using GHIS.Service.Modules.Emr.EmrSmallTemplateCatagory.Gen;
+using GHIS.Service.Modules.Pub.EmrCatalog;
+using GHIS.Service.Modules.Pub.EmrCatalog.Gen;
 using GHIS.Service.Modules.System.Oauth;
 using HDF.Common;
 using Microsoft.CodeAnalysis;
@@ -18,10 +18,8 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using System.Xml.Serialization;
 
 namespace HDF.Test.Winform;
-
 
 
 [Serializable]
@@ -128,6 +126,10 @@ internal static class Program
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
 
+
+
+#pragma warning disable CS0162 // 检测到无法访问的代码
+#pragma warning disable CS0219 // 变量已被赋值，但从未使用过它的值
 
         if (false)
         {
@@ -274,6 +276,7 @@ internal static class Program
 
             var str2 = "\u4f60 \u597d";
 
+
             //sdfsdfsdf
 
             var str3 = "💩";
@@ -396,8 +399,8 @@ internal static class Program
             #region sql
 
             /* 
-             
-             
+
+
 SELECT * FROM RECORDDETAIL --病历表
 
 
@@ -419,7 +422,7 @@ SELECT userid,name,content FROM template_person WHERE valid='1' AND TYPE=1;
 
 SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2;
 
-             
+
              */
 
             #endregion
@@ -561,9 +564,9 @@ VALUES(:id, '360009083103360923', '1',
             // 配置引用
             var references = new[]
             {
-    typeof(object).Assembly,
-    Assembly.Load("netstandard"),
-    Assembly.Load("System.Runtime"),
+typeof(object).Assembly,
+Assembly.Load("netstandard"),
+Assembly.Load("System.Runtime"),
 }
             .Select(assembly => assembly.Location)
                 .Distinct()
@@ -605,67 +608,37 @@ VALUES(:id, '360009083103360923', '1',
 
         }
 
-        if (false)
+        //if (false)
         {
 
 
 
             Configuration configuration = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             configuration.AppSettings.Settings.Clear();
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("HisBaseUrl", "http://192.168.117.50:9090/his"));
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("MsgUrl", "http://192.168.117.50:9090/his/websocket"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("HisBaseUrl", "http://dev.gocent.com.cn:9090/his"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("MsgUrl", "http://dev.gocent.com.cn:9090/his/websocket"));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("LoginTitle", "国讯股份一体化医院信息系统"));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("RequestMode", "Rest"));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("ClientSettingsProvider", ""));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("EnableWindowsFormsHighDpiAutoResizing", "true"));
             configuration.Save();
 
-            ServiceFactory.GetService<IOAuth2Service>().Login("360009083103360923", "admin", "");
+            ServiceFactory.GetService<IOAuth2Service>().Login("360009083103360923", "admin", "1");
 
-            var service = ServiceFactory.GetService<IEmrSmallTemplateCatagoryService>();
+            var service = ServiceFactory.GetService<IEmrCatalogService>();
 
-
-
-            var c1 = new EmrSmallTemplateCatagoryCriteria();
-
-            var catagoryList = service.SelectList(c1);
-
-
-
-
-            var c = new EmrSmallTemplateCriteria();
-            c.And().CatagoryType().IsNull();
-            var tempList = service.SelectEmrSmallTemplateList(c);
-
-
-
-            var list2 = new List<EmrSmallTemplateDto>();
-
-            foreach (var item in tempList)
+            var dto = new EmrCatalogDto()
             {
-
-                var cata = catagoryList.FirstOrDefault(c => c.TempCatagoryId == item.TempCatagoryId);
-                if (cata != null)
-                {
-                    item.CatagoryType = cata.CatagoryType;
-                    item.DeptCode = cata.DeptCode;
-                    item.DeptName = cata.DeptName;
-                    item.EmpCode = cata.EmpCode;
-                    item.EmpName = cata.EmpName;
-
-                    list2.Add(item);
-                }
-
-            }
+                CatalogCode = "ZY_LCLJ",
+                CatalogName = "临床路径",
 
 
-            var res = list2.GroupBy(t => t.TempCatagoryId);
+            };
 
-            foreach (var item in res)
-            {
 
-                // service.UpdateEmrSmallTemplateList(item.ToList(), false);
-            }
+
+
+            var res = service.Insert(dto);
 
 
 
@@ -677,7 +650,7 @@ VALUES(:id, '360009083103360923', '1',
         {
             //DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Tahoma", 9);
             System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CHS");//使用DEV汉化资源文件
-            //设置程序区域语言设置中日期格式
+                                                                                                                    //设置程序区域语言设置中日期格式
             System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("zh-CHS");
             System.Globalization.DateTimeFormatInfo di = (System.Globalization.DateTimeFormatInfo)System.Threading.Thread.CurrentThread.CurrentCulture.DateTimeFormat.Clone();
             di.DateSeparator = "-";
@@ -747,29 +720,6 @@ VALUES(:id, '360009083103360923', '1',
 
 
 
-
-
-}
-
-
-
-
-
-
-
-[XmlRoot("Customer")]
-public class Customer
-{
-    public string Id { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-
-
-
-    public Customer()
-    {
-
-    }
 
 
 }
