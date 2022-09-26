@@ -1,106 +1,21 @@
-﻿using System;
+﻿using HDF.Common;
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+
+
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace HDF.Test.Winform;
 
-
-[Serializable]
-public class DtoInfo
-{
-    public string Field { get; set; }
-    public string Value { get; set; }
-
-
-}
-
 internal static class Program
 {
-
-    public class DtoInfoConverter : JsonConverter
-    {
-
-        public override bool CanConvert(Type t)
-        {
-            return typeof(DtoInfo).IsAssignableFrom(t);
-        }
-
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-        {
-            DtoInfo dto = (DtoInfo)value;
-
-            JObject obj = new JObject();
-
-            obj[dto.Field] = dto.Value;
-
-            obj.WriteTo(writer);
-        }
-
-        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-        {
-            var obj = (JObject)JObject.ReadFrom(reader);
-
-
-            JProperty property = obj.Properties().FirstOrDefault();
-
-            return new DtoInfo
-            {
-                Field = property.Name,
-                Value = property.Value.Value<string>()
-            };
-        }
-
-        public override bool CanRead
-        {
-            get { return true; }
-        }
-    }
-
-
-    public class ListoConverter : JsonConverter
-    {
-
-        public override bool CanConvert(Type t)
-        {
-            return typeof(List<DtoInfo>).IsAssignableFrom(t);
-        }
-
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-        {
-            List<DtoInfo> dto = (List<DtoInfo>)value;
-
-            JObject obj = new JObject();
-
-            foreach (var item in dto)
-            {
-                obj[item.Field] = item.Value;
-            }
-
-            obj.WriteTo(writer);
-        }
-
-        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-        {
-            var obj = (JObject)JObject.ReadFrom(reader);
-
-
-            return obj.Properties().Select(a => new DtoInfo
-            {
-                Field = a.Name,
-                Value = a.Value.Value<string>()
-            }).ToList();
-        }
-
-        public override bool CanRead
-        {
-            get { return true; }
-        }
-    }
-
 
 
 
@@ -301,73 +216,6 @@ internal static class Program
             Console.WriteLine("😊");
         }
 
-
-        if (false)
-        {
-            var constr = @" ";
-
-            using OracleConnection con = new OracleConnection(constr);
-
-            con.Open();
-
-
-            var cmd = con.CreateCommand();
-            cmd.CommandText = @"
-INSERT INTO GHIS3DBA.EMR_TEMPLATE
-(EMR_TEMPLATE_ID, ORG_CODE, VALID, 
-VISIT_TYPE_CODE, VISIT_TYPE_NAME, 
-TEMP_NAME, DOC_TYPE_CODE, DOC_TYPE_NAME, 
-USED_TYPE_CODE, USED_TYPE_NAME, DEPT_CODE, DEPT_NAME, EMP_CODE, EMP_NAME, 
-TEMP_CONTENT)
-VALUES(:id, '360009083103360923', '1', 
-:VisitTypeCode, :VisitTypeName, 
-:Name, :DocTypeCode, :DocTypeName, 
-:UsedTypeCode, :UsedTypeName, :DeptCode, :DeptName, :EmpCode, :EmpName,
-:Content);
-           
-";
-
-
-
-            FolderBrowserDialog dialog = new FolderBrowserDialog();
-
-            if (dialog.ShowDialog() != DialogResult.OK)
-                return;
-
-            var path = dialog.SelectedPath;
-
-
-            var dir = new DirectoryInfo(path);
-
-
-            foreach (var type in dir.GetDirectories())
-            {
-
-
-                foreach (var cata in type.GetDirectories())
-                {
-
-                    foreach (var file in cata.GetFiles())
-                    {
-                        var xml = File.ReadAllText(file.FullName);
-
-
-
-                    }
-
-                }
-
-            }
-
-
-
-
-        }
-
-
-        Console.WriteLine("完成");
-
-
         if (false)
         {
 
@@ -423,70 +271,8 @@ Assembly.Load("System.Runtime"),
 
         }
 
-        //if (false)
-        {
-
-
-            //var constr = @"Data Source=dev.gocent.com.cn:1521/orcl;User ID=ghis3dba;Password=admin@gocent.com;";
-            var constr = @"Data Source=dev.gocent.com.cn:1521/orcl;User ID=hmisdba;Password=sa;";
-
-            using OracleConnection con = new OracleConnection(constr);
-
-            con.Open();
-
-            var cmd = con.CreateCommand();
-            cmd.CommandText = "select * from SYS_INFECTION_DICTIONARY where REMARK ='传染病'";
-
-            OracleDataAdapter adapter = new OracleDataAdapter(cmd);
-            var dt = new DataTable();
-            adapter.Fill(dt);
-
-
-
-
-
-
-
-            Configuration configuration = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            configuration.AppSettings.Settings.Clear();
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("HisBaseUrl", "http://dev.gocent.com.cn:9090/his"));
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("MsgUrl", "http://dev.gocent.com.cn:9090/his/websocket"));
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("LoginTitle", "国讯股份一体化医院信息系统"));
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("RequestMode", "Rest"));
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("ClientSettingsProvider", ""));
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("EnableWindowsFormsHighDpiAutoResizing", "true"));
-            configuration.Save();
-
-            ServiceFactory.GetService<IOAuth2Service>().Login("360009083103360923", "admin", "1");
-
-            var service = ServiceFactory.GetService<IDiagInfectionService>();
-
-            var dto = new EmrCatalogDto()
-            {
-                CatalogCode = "ZY_LCLJ",
-                CatalogName = "临床路径",
-
-                var data = dt.Rows.Cast<DataRow>().Select(dr => new DiagInfectionDto
-                {
-                    DiagCode = dr["DIAGNOSIS_CODE"].ToString(),
-                    DiagName = dr["DIAGNOSIS_NAME"].ToString(),
-                    Type = "传染病",
-                    SubType = dr["DIAGNOSIS_TYPE_NAME"].ToString(),
-
-                }).ToList();
-
-
-
-
-            service.InsertList(data);
-
-        }
-
-
         if (false)
         {
-
-
 
             int location = 1;
             if (false)
@@ -504,119 +290,22 @@ Assembly.Load("System.Runtime"),
                 ci.DateTimeFormat = di;
                 System.Threading.Thread.CurrentThread.CurrentCulture = ci;
 
-                list2.Add(item);
             }
 
         }
 
 
 
-        if (false)
-        {
 
 
-            var data = new List<Test>
-            {
-                new Test{
-                    Name="A",
-                    Check=true,
-                    Childs=new List<Test>{
-                        new Test{
-                            Name="A1",
-                            Check=true,
-                            Childs= new List<Test>{
-                                new Test{
-                                    Name="a11",
-                                    Check=true,
-                                },
-                                new Test{
-                                    Name="a12",
-                                    Check=true,
-                                },
-                            }
-                        },
-                        new Test{
-                            Name="A2",
-                            Check=true,
-                            Childs= new List<Test>{
-                                new Test{
-                                    Name="a21",
-                                    Check=false,
-                                },
-                                new Test{
-                                    Name="a22",
-                                    Check=true,
-                                },
-                            }
-                        },
-                        new Test{
-                            Name="A3",
-                            Check=true,
-                        },
-                    }
-                },
-                new Test{
-                    Name="b",
-                    Check=false,
-                    Childs=new List<Test>{
-                        new Test{
-                            Name="b1",
-                            Check=false,
-                        },
-                        new Test{
-                            Name="b2",
-                            Check=false,
-                        },
-                        new Test{
-                            Name="b3",
-                            Check=false,
-                        },
-                    }
-                },
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
 
-            var data = Clipboard.GetDataObject();
-
-            var formats = data.GetFormats();
-
-        };
-
-        var dict = new Dictionary<string, object>();
-
-
-
-        var str = 递归查询(data);
-
-
-        var c = "";
-
-        string 递归查询(List<Test> list)
-        {
-            if (list.IsNullOrEmpty())
-                return "";
-            var a = new List<string>();
-
-            foreach (var item in list)
-            {
-                if (item.Check)
-                {
-                    a.Add(item.Name + 递归查询(item.Childs));
-                }
-            }
-            if (a.Count == 0)
-                return "";
-            else if (a.Count == 1)
-                return a[0];
-            else
-                return $"（{string.Join("+", a)}）";
-        }
-
-
-
+        Application.Run(new Form2());
 
 
     }
 
-}
 
 
 
@@ -653,33 +342,152 @@ public class Test
 
 
 
-}
+    void test()
+    {
 
 
+        if (false)
+        {
 
-/*
-1
+
+            var data = new List<Test>
+            {
+                new Test
+                {
+                    Name = "A",
+                    Check = true,
+                    Childs = new List<Test>
+                    {
+                        new Test
+                        {
+                            Name = "A1",
+                            Check = true,
+                            Childs = new List<Test>
+                            {
+                                new Test
+                                {
+                                    Name = "a11",
+                                    Check = true,
+                                },
+                                new Test
+                                {
+                                    Name = "a12",
+                                    Check = true,
+                                },
+                            }
+                        },
+                        new Test
+                        {
+                            Name = "A2",
+                            Check = true,
+                            Childs = new List<Test>
+                            {
+                                new Test
+                                {
+                                    Name = "a21",
+                                    Check = false,
+                                },
+                                new Test
+                                {
+                                    Name = "a22",
+                                    Check = true,
+                                },
+                            }
+                        },
+                        new Test
+                        {
+                            Name = "A3",
+                            Check = true,
+                        },
+                    }
+                },
+                new Test
+                {
+                    Name = "b",
+                    Check = false,
+                    Childs = new List<Test>
+                    {
+                        new Test
+                        {
+                            Name = "b1",
+                            Check = false,
+                        },
+                        new Test
+                        {
+                            Name = "b2",
+                            Check = false,
+                        },
+                        new Test
+                        {
+                            Name = "b3",
+                            Check = false,
+                        },
+                    }
+                },
+
+
+            };
+
+
+            var str = 递归查询(data);
+
+
+        }
+
+    }
+
+    string 递归查询(List<Test> list)
+    {
+        if (list.IsNullOrEmpty())
+            return "";
+        var a = new List<string>();
+
+        foreach (var item in list)
+        {
+            if (item.Check)
+            {
+                a.Add(item.Name + 递归查询(item.Childs));
+            }
+        }
+        if (a.Count == 0)
+            return "";
+        else if (a.Count == 1)
+            return a[0];
+        else
+            return $"（{string.Join("+", a)}）";
+    }
+
+
+    /*
     1
-        1    1-1-1
+        1
+            1    1-1-1
+            2
+            3
+        2        1-2    1(1-1+2)
+        3
+    2
+        1
         2
         3
-    2        1-2    1(1-1+2)
     3
-2
-    1
-    2
-    3
-3
-    1
-    2
-    3
-4
-    1
-    2
-    3
+        1
+        2
+        3
+    4
+        1
+        2
+        3
 
 
 
 
- */
+     */
 
+
+
+
+
+
+
+}
