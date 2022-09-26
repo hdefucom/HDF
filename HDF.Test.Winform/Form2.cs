@@ -36,6 +36,8 @@ namespace HDF.Test.Winform
 
 
 
+
+
             Debug.WriteLine("Form2_MouseClick" + p);
         }
 
@@ -152,11 +154,12 @@ namespace HDF.Test.Winform
 
         }
 
+        private void button45_Click(object sender, EventArgs e)
+        {
+            this.ScrollControlIntoView(button101);
 
 
 
-
-
-
+        }
     }
 }

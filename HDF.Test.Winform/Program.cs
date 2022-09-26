@@ -1,29 +1,12 @@
-﻿using GHIS.Service.Common;
-using GHIS.Service.Modules.Pub.DiagInfection;
-using GHIS.Service.Modules.Pub.DiagInfection.Gen;
-using GHIS.Service.Modules.System.Oauth;
-using HDF.Common;
-using Microsoft.CodeAnalysis;
-using Microsoft.CodeAnalysis.CSharp;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Oracle.ManagedDataAccess.Client;
-using System;
-using System.Buffers;
+﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading;
-using System.Windows.Forms;
 
 namespace HDF.Test.Winform;
-
 
 
 [Serializable]
@@ -130,6 +113,10 @@ internal static class Program
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
 
+
+
+#pragma warning disable CS0162 // 检测到无法访问的代码
+#pragma warning disable CS0219 // 变量已被赋值，但从未使用过它的值
 
         if (false)
         {
@@ -276,6 +263,7 @@ internal static class Program
 
             var str2 = "\u4f60 \u597d";
 
+
             //sdfsdfsdf
 
             var str3 = "💩";
@@ -391,9 +379,9 @@ VALUES(:id, '360009083103360923', '1',
             // 配置引用
             var references = new[]
             {
-    typeof(object).Assembly,
-    Assembly.Load("netstandard"),
-    Assembly.Load("System.Runtime"),
+typeof(object).Assembly,
+Assembly.Load("netstandard"),
+Assembly.Load("System.Runtime"),
 }
             .Select(assembly => assembly.Location)
                 .Distinct()
@@ -435,11 +423,7 @@ VALUES(:id, '360009083103360923', '1',
 
         }
 
-
-
-
-
-        if (false)
+        //if (false)
         {
 
 
@@ -477,15 +461,19 @@ VALUES(:id, '360009083103360923', '1',
 
             var service = ServiceFactory.GetService<IDiagInfectionService>();
 
-
-            var data = dt.Rows.Cast<DataRow>().Select(dr => new DiagInfectionDto
+            var dto = new EmrCatalogDto()
             {
-                DiagCode = dr["DIAGNOSIS_CODE"].ToString(),
-                DiagName = dr["DIAGNOSIS_NAME"].ToString(),
-                Type = "传染病",
-                SubType = dr["DIAGNOSIS_TYPE_NAME"].ToString(),
+                CatalogCode = "ZY_LCLJ",
+                CatalogName = "临床路径",
 
-            }).ToList();
+                var data = dt.Rows.Cast<DataRow>().Select(dr => new DiagInfectionDto
+                {
+                    DiagCode = dr["DIAGNOSIS_CODE"].ToString(),
+                    DiagName = dr["DIAGNOSIS_NAME"].ToString(),
+                    Type = "传染病",
+                    SubType = dr["DIAGNOSIS_TYPE_NAME"].ToString(),
+
+                }).ToList();
 
 
 
@@ -501,17 +489,23 @@ VALUES(:id, '360009083103360923', '1',
 
 
             int location = 1;
+            if (false)
+            {
+                //DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Tahoma", 9);
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CHS");//使用DEV汉化资源文件
+                                                                                                                        //设置程序区域语言设置中日期格式
+                System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("zh-CHS");
+                System.Globalization.DateTimeFormatInfo di = (System.Globalization.DateTimeFormatInfo)System.Threading.Thread.CurrentThread.CurrentCulture.DateTimeFormat.Clone();
+                di.DateSeparator = "-";
+                di.ShortDatePattern = "yyyy-MM-dd";
+                di.LongDatePattern = "yyyy'年'M'月'd'日'";
+                di.ShortTimePattern = "H:mm:ss";
+                di.LongTimePattern = "H'时'mm'分'ss'秒'";
+                ci.DateTimeFormat = di;
+                System.Threading.Thread.CurrentThread.CurrentCulture = ci;
 
-            Interlocked.Increment(ref location);
-            Console.WriteLine(location);
-
-            Debugger.Break();
-
-            Interlocked.Increment(ref location);
-            Console.WriteLine(location);
-            Console.ReadLine();
-
-
+                list2.Add(item);
+            }
 
         }
 
@@ -580,51 +574,49 @@ VALUES(:id, '360009083103360923', '1',
                     }
                 },
 
+            var data = Clipboard.GetDataObject();
+
+            var formats = data.GetFormats();
+
+        };
+
+        var dict = new Dictionary<string, object>();
 
 
-            };
+
+        var str = 递归查询(data);
 
 
+        var c = "";
 
+        string 递归查询(List<Test> list)
+        {
+            if (list.IsNullOrEmpty())
+                return "";
+            var a = new List<string>();
 
-            var str = 递归查询(data);
-
-
-            var c = "";
-
-            string 递归查询(List<Test> list)
+            foreach (var item in list)
             {
-                if (list.IsNullOrEmpty())
-                    return "";
-                var a = new List<string>();
-
-                foreach (var item in list)
+                if (item.Check)
                 {
-                    if (item.Check)
-                    {
-                        a.Add(item.Name + 递归查询(item.Childs));
-                    }
+                    a.Add(item.Name + 递归查询(item.Childs));
                 }
-                if (a.Count == 0)
-                    return "";
-                else if (a.Count == 1)
-                    return a[0];
-                else
-                    return $"（{string.Join("+", a)}）";
             }
-
-
-
-
-
+            if (a.Count == 0)
+                return "";
+            else if (a.Count == 1)
+                return a[0];
+            else
+                return $"（{string.Join("+", a)}）";
         }
 
 
 
 
 
-        Application.Run(new Form2());
     }
+
+}
 
 
 

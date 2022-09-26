@@ -96,6 +96,7 @@
             this.button45.TabIndex = 0;
             this.button45.Text = "button1";
             this.button45.UseVisualStyleBackColor = true;
+            this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
             // button101
             // 
