@@ -3,8 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        
+        
         xmlns:local="clr-namespace:HDF.Test.WPF"
-            xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf"
+            xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf" xmlns:h="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="400">
 
@@ -60,7 +63,7 @@
                     </ControlTemplate>
 
                 </Setter.Value>
-                
+
             </Setter>
 
             <Style.Triggers>
@@ -72,19 +75,26 @@
             </Style.Triggers>
 
         </Style>
-        
-        
+
+
 
     </Window.Resources>
 
+
     <StackPanel Margin="0,0,0,0" RenderTransformOrigin="0.51,0.522">
+
+        <h:Interaction.Behaviors>
+            <local:ZoomOnMouseWheel ModifierKey="LeftCtrl" TranformMode="Layout" />
+    </h:Interaction.Behaviors>
+
+
         <Label x:Name="label1"  FontFamily="Segoe UI Emoji">😂😂😂</Label>
         <TextBlock FontFamily="Segoe UI Emoji" >😂😂😂</TextBlock>
         <emoji:TextBlock FontSize="24" Text="Hello! 💖😁🐨🐱‍🐉👩🏿‍👩🏻‍👦🏽 lol"/>
 
-        <Button Click="Button_Click" >gdsg</Button>
+        <Button Click="Button_Click" Height="20" >gdsg</Button>
 
-        <WindowsFormsHost x:Name="winformcontrolhost">
+        <WindowsFormsHost x:Name="winformcontrolhost"  Height="20" >
         </WindowsFormsHost>
 
     </StackPanel>

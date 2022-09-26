@@ -186,6 +186,7 @@
             this.Controls.Add(this.button41);
             this.Controls.Add(this.button1);
             this.Name = "Form2";
+            this.Opacity = 0.5D;
             this.Text = "Form2";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);

@@ -11,12 +11,21 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="新文件夹\SplashScreen1.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <PackageReference Include="Emoji.Wpf" Version="0.3.3" />
+	  <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Reference Include="System.Windows.Forms" />
 	  <Reference Include="WindowsFormsIntegration" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <SplashScreen Include="新文件夹\SplashScreen1.png" />
 	</ItemGroup>
 	
 

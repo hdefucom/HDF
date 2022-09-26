@@ -1,6 +1,6 @@
 ﻿using GHIS.Service.Common;
-using GHIS.Service.Modules.Emr.EmrSmallTemplateCatagory;
-using GHIS.Service.Modules.Emr.EmrSmallTemplateCatagory.Gen;
+using GHIS.Service.Modules.Pub.DiagInfection;
+using GHIS.Service.Modules.Pub.DiagInfection.Gen;
 using GHIS.Service.Modules.System.Oauth;
 using HDF.Common;
 using Microsoft.CodeAnalysis;
@@ -12,14 +12,15 @@ using System;
 using System.Buffers;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Windows.Forms;
-using System.Xml;
-using System.Xml.Serialization;
 
 namespace HDF.Test.Winform;
 
@@ -312,178 +313,6 @@ internal static class Program
             Console.WriteLine("😊");
         }
 
-        if (false)
-        {
-
-
-
-
-
-            void SaveXml(string name, string xml, string dir, string type, string user = null)
-            {
-                if (type.IsNullOrWhiteSpace())
-                    return;
-
-                var tdir = $"{dir}\\{type}";
-                if (user != null)
-                    tdir = $"{dir}\\{user}\\{type}";
-
-
-                if (!Directory.Exists(tdir))
-                    Directory.CreateDirectory(tdir);
-
-                if ((xml.Length % 4 == 0) && Regex.IsMatch(xml, @"^[a-zA-Z0-9\+/]*={0,3}$", RegexOptions.None))
-                    xml = xml.GZipDecompressString(Encoding.UTF8);
-
-
-                name = name.Replace("\r\n", "")
-                        //.Replace("\n", "")
-                        .Replace("\\", "")
-                        .Replace("/", "")
-                        .Replace(":", "")
-                        .Replace("*", "")
-                        .Replace("?", "")
-                        .Replace("\"", "")
-                        .Replace("|", "")
-                        .Replace(">", "")
-                        .Replace("<", "");
-
-                var file = $"{tdir}\\{name}.xml";
-
-                if (File.Exists(file))
-                {
-                    var dddd = Directory.GetFiles(tdir, name + "*");
-
-                    file = $"{tdir}\\{name}({dddd.Length}).xml";
-                }
-
-
-                File.WriteAllText(file, xml);
-
-            }
-
-
-            void SelectXml(OracleConnection con, string dir, string sql, string namefield, string typefield, string contentfield, string userfield = null)
-            {
-                if (!Directory.Exists(dir))
-                    Directory.CreateDirectory(dir);
-
-                var cmd = con.CreateCommand();
-
-                cmd.CommandText = sql;
-
-                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-
-                while (reader.Read())
-                {
-                    var name = reader[namefield].ToString();
-
-                    var xml = reader[contentfield].ToString();
-
-                    var type = reader[typefield].ToString();
-
-                    if (userfield != null)
-                    {
-                        var user = reader[userfield].ToString();
-                        SaveXml(name, xml, dir, type, user);
-                    }
-                    else
-                        SaveXml(name, xml, dir, type);
-                }
-            }
-
-
-
-            #region sql
-
-            /* 
-             
-             
-SELECT * FROM RECORDDETAIL --病历表
-
-
-SELECT * from template_person --type ：2科室 1个人
-
-select* from emrtemplet  a where  a.templet_id in (select c.templateid  from recorddetail c )
-
-
-SELECT 
-mr_class ,
-mr_name,
-xml_doc_new
-
-from emrtemplet a --模板表
-where  a.templet_id in (select c.templateid  from recorddetail c )
-
-
-SELECT userid,name,content FROM template_person WHERE valid='1' AND TYPE=1;
-
-SELECT DEPTID,name,content FROM template_person WHERE valid='1' AND TYPE=2;
-
-             
-             */
-
-            #endregion
-
-
-
-            var constr = @"Data Source=192.168.117.33/emr;User Id=nydba;Password=sa;";
-
-
-            using OracleConnection con = new OracleConnection(constr);
-
-
-            {
-                con.Open();
-                var dir = Application.StartupPath + "\\旧电子病历模板\\普通模板";
-
-                var sql = @"
-SELECT 
-mr_class ,
-mr_name,
-xml_doc_new
-
-from emrtemplet a
-where  a.templet_id in (select c.templateid  from recorddetail c )
-";
-
-                SelectXml(con, dir, sql, "mr_name", "mr_class", "xml_doc_new");
-
-                con.Close();
-            }
-
-
-            {
-
-                con.Open();
-                var dir = Application.StartupPath + "\\旧电子病历模板\\科室";
-
-                var sql = @"SELECT DEPTID,name || memo AS name,sortid,content FROM template_person WHERE valid='1' AND TYPE=2";
-
-                SelectXml(con, dir, sql, "name", "sortid", "content", "DEPTID");
-
-                con.Close();
-            }
-
-
-            {
-
-                con.Open();
-                var dir = Application.StartupPath + "\\旧电子病历模板\\个人";
-
-                var sql = @"
-SELECT userid,name || memo AS name,sortid,content FROM template_person WHERE valid='1' AND TYPE=1
-";
-
-                SelectXml(con, dir, sql, "name", "sortid", "content", "userid");
-
-                con.Close();
-            }
-
-
-
-
-        }
 
         if (false)
         {
@@ -614,67 +443,54 @@ VALUES(:id, '360009083103360923', '1',
         {
 
 
+            //var constr = @"Data Source=dev.gocent.com.cn:1521/orcl;User ID=ghis3dba;Password=admin@gocent.com;";
+            var constr = @"Data Source=dev.gocent.com.cn:1521/orcl;User ID=hmisdba;Password=sa;";
+
+            using OracleConnection con = new OracleConnection(constr);
+
+            con.Open();
+
+            var cmd = con.CreateCommand();
+            cmd.CommandText = "select * from SYS_INFECTION_DICTIONARY where REMARK ='传染病'";
+
+            OracleDataAdapter adapter = new OracleDataAdapter(cmd);
+            var dt = new DataTable();
+            adapter.Fill(dt);
+
+
+
+
+
+
 
             Configuration configuration = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             configuration.AppSettings.Settings.Clear();
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("HisBaseUrl", "http://192.168.117.50:9090/his"));
-            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("MsgUrl", "http://192.168.117.50:9090/his/websocket"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("HisBaseUrl", "http://dev.gocent.com.cn:9090/his"));
+            configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("MsgUrl", "http://dev.gocent.com.cn:9090/his/websocket"));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("LoginTitle", "国讯股份一体化医院信息系统"));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("RequestMode", "Rest"));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("ClientSettingsProvider", ""));
             configuration.AppSettings.Settings.Add(new KeyValueConfigurationElement("EnableWindowsFormsHighDpiAutoResizing", "true"));
             configuration.Save();
 
-            ServiceFactory.GetService<IOAuth2Service>().Login("360009083103360923", "admin", "");
+            ServiceFactory.GetService<IOAuth2Service>().Login("360009083103360923", "admin", "1");
 
-            var service = ServiceFactory.GetService<IEmrSmallTemplateCatagoryService>();
-
-
-
-            var c1 = new EmrSmallTemplateCatagoryCriteria();
-
-            var catagoryList = service.SelectList(c1);
+            var service = ServiceFactory.GetService<IDiagInfectionService>();
 
 
-
-
-            var c = new EmrSmallTemplateCriteria();
-            c.And().CatagoryType().IsNull();
-            var tempList = service.SelectEmrSmallTemplateList(c);
-
-
-
-            var list2 = new List<EmrSmallTemplateDto>();
-
-            foreach (var item in tempList)
+            var data = dt.Rows.Cast<DataRow>().Select(dr => new DiagInfectionDto
             {
+                DiagCode = dr["DIAGNOSIS_CODE"].ToString(),
+                DiagName = dr["DIAGNOSIS_NAME"].ToString(),
+                Type = "传染病",
+                SubType = dr["DIAGNOSIS_TYPE_NAME"].ToString(),
 
-                var cata = catagoryList.FirstOrDefault(c => c.TempCatagoryId == item.TempCatagoryId);
-                if (cata != null)
-                {
-                    item.CatagoryType = cata.CatagoryType;
-                    item.DeptCode = cata.DeptCode;
-                    item.DeptName = cata.DeptName;
-                    item.EmpCode = cata.EmpCode;
-                    item.EmpName = cata.EmpName;
-
-                    list2.Add(item);
-                }
-
-            }
-
-
-            var res = list2.GroupBy(t => t.TempCatagoryId);
-
-            foreach (var item in res)
-            {
-
-                // service.UpdateEmrSmallTemplateList(item.ToList(), false);
-            }
+            }).ToList();
 
 
 
 
+            service.InsertList(data);
 
         }
 
@@ -683,24 +499,125 @@ VALUES(:id, '360009083103360923', '1',
         {
 
 
-            var xml = @" <FabrikamCustomer>
-                              <Id>0001</Id>
-                              <FirstName>John</FirstName>
-                              <LastName>Dow</LastName>
-                          </FabrikamCustomer>";
 
-            Enumerable.Range(0, 30000)
-                 .Select(i => GetCustomer(i, "FabrikamCustomer", xml))
-                 .ToList();
+            int location = 1;
 
-            Console.WriteLine("处理完成！");
+            Interlocked.Increment(ref location);
+            Console.WriteLine(location);
+
+            Debugger.Break();
+
+            Interlocked.Increment(ref location);
+            Console.WriteLine(location);
             Console.ReadLine();
+
+
+
         }
 
 
 
+        if (false)
+        {
 
 
+            var data = new List<Test>
+            {
+                new Test{
+                    Name="A",
+                    Check=true,
+                    Childs=new List<Test>{
+                        new Test{
+                            Name="A1",
+                            Check=true,
+                            Childs= new List<Test>{
+                                new Test{
+                                    Name="a11",
+                                    Check=true,
+                                },
+                                new Test{
+                                    Name="a12",
+                                    Check=true,
+                                },
+                            }
+                        },
+                        new Test{
+                            Name="A2",
+                            Check=true,
+                            Childs= new List<Test>{
+                                new Test{
+                                    Name="a21",
+                                    Check=false,
+                                },
+                                new Test{
+                                    Name="a22",
+                                    Check=true,
+                                },
+                            }
+                        },
+                        new Test{
+                            Name="A3",
+                            Check=true,
+                        },
+                    }
+                },
+                new Test{
+                    Name="b",
+                    Check=false,
+                    Childs=new List<Test>{
+                        new Test{
+                            Name="b1",
+                            Check=false,
+                        },
+                        new Test{
+                            Name="b2",
+                            Check=false,
+                        },
+                        new Test{
+                            Name="b3",
+                            Check=false,
+                        },
+                    }
+                },
+
+
+
+            };
+
+
+
+
+            var str = 递归查询(data);
+
+
+            var c = "";
+
+            string 递归查询(List<Test> list)
+            {
+                if (list.IsNullOrEmpty())
+                    return "";
+                var a = new List<string>();
+
+                foreach (var item in list)
+                {
+                    if (item.Check)
+                    {
+                        a.Add(item.Name + 递归查询(item.Childs));
+                    }
+                }
+                if (a.Count == 0)
+                    return "";
+                else if (a.Count == 1)
+                    return a[0];
+                else
+                    return $"（{string.Join("+", a)}）";
+            }
+
+
+
+
+
+        }
 
 
 
@@ -712,32 +629,7 @@ VALUES(:id, '360009083103360923', '1',
 
 
 
-    public static Customer GetCustomer(int i, string rootElementName, string xml)
-    {
-        var xmlSerializer = new XmlSerializer(typeof(Customer),
-                        new XmlRootAttribute(rootElementName));
 
-        using (var textReader = new StringReader(xml))
-        {
-            using (var xmlReader = XmlReader.Create(textReader))
-            {
-                Console.WriteLine(i);
-
-                return (Customer)xmlSerializer.Deserialize(xmlReader);
-            }
-        }
-
-    }
-
-
-
-
-    public class Customer
-    {
-        public string Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-    }
 
 
 
@@ -759,8 +651,43 @@ VALUES(:id, '360009083103360923', '1',
 
 
 
+public class Test
+{
+
+    public List<Test> Childs { get; set; }
+    public string Name { get; set; }
+    public bool Check { get; set; }
 
 
 
 
+}
+
+
+
+/*
+1
+    1
+        1    1-1-1
+        2
+        3
+    2        1-2    1(1-1+2)
+    3
+2
+    1
+    2
+    3
+3
+    1
+    2
+    3
+4
+    1
+    2
+    3
+
+
+
+
+ */
 
