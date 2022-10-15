@@ -29,6 +29,12 @@ internal static class Program
         Application.SetCompatibleTextRenderingDefault(false);
 
 
+        var str111 = "１２３";
+        var str222 = "123";
+
+
+
+
 
 #pragma warning disable CS0162 // 检测到无法访问的代码
 #pragma warning disable CS0219 // 变量已被赋值，但从未使用过它的值
@@ -294,6 +300,9 @@ Assembly.Load("System.Runtime"),
 
         }
 
+
+        //SqlDependency dependency = new SqlDependency();
+        //dependency.AddCommandDependency(new SqlCommand());
 
 
 
