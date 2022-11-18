@@ -1,15 +1,19 @@
-﻿using HDF.Common;
-using Microsoft.CodeAnalysis;
+﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using System;
-using System.Collections.Generic;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.IO;
 using System.Linq;
+using System.Management;
 using System.Reflection;
 using System.Text;
 
 
 using System.Text.RegularExpressions;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HDF.Test.Winform;
@@ -300,9 +304,69 @@ Assembly.Load("System.Runtime"),
 
         }
 
+        if (false)
+        {
 
-        //SqlDependency dependency = new SqlDependency();
-        //dependency.AddCommandDependency(new SqlCommand());
+            var task = Task.Run(() =>
+            {
+
+                var info = new RAMInfo();
+
+
+                while (true)
+                {
+                    Thread.Sleep(1000);
+                    StringBuilder builder = new StringBuilder();
+                    builder.Append($"电脑内存：{RAMInfo.Instance.ComputerCurrentMemoryString}/{RAMInfo.Instance.ComputerAllMemoryString}     {RAMInfo.Instance.ComputerMemoryOccupancyString}    {Environment.NewLine}");
+
+                    builder.Append($"工作集(进程类)：{RAMInfo.Instance.ProcessWokingSetString}    ");
+                    builder.Append($"工作集：{RAMInfo.Instance.ProcessWokingMenoryString}    ");
+                    builder.Append($"私有工作集：{RAMInfo.Instance.ProcessWokingPrivateMenoryString}{Environment.NewLine}{Environment.NewLine}{Environment.NewLine}");
+
+
+                    Console.WriteLine(builder.ToString());
+
+                }
+
+            });
+
+        }
+
+        if (false)
+        {
+            var list1 = Enumerable.Range(1, 1000_0000).ToList();
+
+
+            var sw1 = Stopwatch.StartNew();
+            for (int i = 0; i < list1.Count; i++)
+            {
+                var j = list1[i];
+            }
+            sw1.Stop();
+            var t1 = sw1.ElapsedTicks;
+
+
+            var sw2 = Stopwatch.StartNew();
+            foreach (var item in list1)
+            {
+                var j = item;
+            }
+            sw2.Stop();
+            var t2 = sw2.ElapsedTicks;
+
+
+            var sw3 = Stopwatch.StartNew();
+            for (int i = 0; i < list1.Count; i++)
+            {
+                var j = list1.ElementAt(i);
+            }
+            sw3.Stop();
+            var t3 = sw3.ElapsedTicks;
+
+
+
+
+        }
 
 
 
@@ -310,11 +374,30 @@ Assembly.Load("System.Runtime"),
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
 
-        Application.Run(new Form2());
+        Application.ThreadException += (_, e) => Console.WriteLine(e);
+
+
+
+
+
+        {
+            Matrix m = new Matrix();
+
+            m.Scale(2, 2);
+
+
+            var plist = new Point[1] { new Point(5, 5) };
+
+            m.TransformPoints(plist);
+
+        }
+
+
+
+        Application.Run(new Form3());
 
 
     }
-
 
 
 
@@ -341,162 +424,106 @@ Assembly.Load("System.Runtime"),
 
 
 
-public class Test
+
+
+public class RAMInfo
 {
 
-    public List<Test> Childs { get; set; }
-    public string Name { get; set; }
-    public bool Check { get; set; }
+
+    public static RAMInfo Instance = new RAMInfo();
 
 
 
 
-    void test()
+
+    public long ComputerAllMemory { get; init; }
+
+    public string ComputerAllMemoryString { get; init; }
+
+
+
+
+
+    private PerformanceCounter currentMenory;
+
+    public long ComputerCurrentMemory => ComputerAllMemory - (long)Math.Round(currentMenory.NextValue());
+    public string ComputerCurrentMemoryString => GetRAMString(ComputerCurrentMemory);
+
+
+
+    public float ComputerMemoryOccupancy => ComputerCurrentMemory / (float)ComputerAllMemory;
+    public string ComputerMemoryOccupancyString => $"{ComputerMemoryOccupancy * 100}%";
+
+
+
+
+
+
+    public long ProcessWokingSet => Process.GetCurrentProcess().WorkingSet64;
+    public string ProcessWokingSetString => GetRAMString(ProcessWokingSet);
+
+
+    private PerformanceCounter processWokingMenory;
+
+    public long ProcessWokingMenory => (long)Math.Round(processWokingMenory.NextValue());
+    public string ProcessWokingMenoryString => GetRAMString(ProcessWokingMenory);
+
+
+
+
+    private PerformanceCounter processWokingPrivateMenory;
+
+    public long ProcessWokingPrivateMenory => (long)Math.Round(processWokingPrivateMenory.NextValue());
+    /// <summary>
+    /// 同任务管理器中显示
+    /// </summary>
+    public string ProcessWokingPrivateMenoryString => GetRAMString(ProcessWokingPrivateMenory);
+
+
+    public RAMInfo()
     {
-
-
-        if (false)
+        ManagementObjectCollection instances = new ManagementClass("Win32_ComputerSystem").GetInstances();
+        foreach (ManagementObject item in instances)
         {
-
-
-            var data = new List<Test>
+            if (item["TotalPhysicalMemory"] != null)
             {
-                new Test
-                {
-                    Name = "A",
-                    Check = true,
-                    Childs = new List<Test>
-                    {
-                        new Test
-                        {
-                            Name = "A1",
-                            Check = true,
-                            Childs = new List<Test>
-                            {
-                                new Test
-                                {
-                                    Name = "a11",
-                                    Check = true,
-                                },
-                                new Test
-                                {
-                                    Name = "a12",
-                                    Check = true,
-                                },
-                            }
-                        },
-                        new Test
-                        {
-                            Name = "A2",
-                            Check = true,
-                            Childs = new List<Test>
-                            {
-                                new Test
-                                {
-                                    Name = "a21",
-                                    Check = false,
-                                },
-                                new Test
-                                {
-                                    Name = "a22",
-                                    Check = true,
-                                },
-                            }
-                        },
-                        new Test
-                        {
-                            Name = "A3",
-                            Check = true,
-                        },
-                    }
-                },
-                new Test
-                {
-                    Name = "b",
-                    Check = false,
-                    Childs = new List<Test>
-                    {
-                        new Test
-                        {
-                            Name = "b1",
-                            Check = false,
-                        },
-                        new Test
-                        {
-                            Name = "b2",
-                            Check = false,
-                        },
-                        new Test
-                        {
-                            Name = "b3",
-                            Check = false,
-                        },
-                    }
-                },
-
-
-            };
-
-
-            var str = 递归查询(data);
-
-
-        }
-
-    }
-
-    string 递归查询(List<Test> list)
-    {
-        if (list.IsNullOrEmpty())
-            return "";
-        var a = new List<string>();
-
-        foreach (var item in list)
-        {
-            if (item.Check)
-            {
-                a.Add(item.Name + 递归查询(item.Childs));
+                ComputerAllMemory = long.Parse(item["TotalPhysicalMemory"].ToString());
+                ComputerAllMemoryString = GetRAMString(ComputerAllMemory);
             }
         }
-        if (a.Count == 0)
-            return "";
-        else if (a.Count == 1)
-            return a[0];
-        else
-            return $"（{string.Join("+", a)}）";
+
+
+        currentMenory = new PerformanceCounter("Memory", "Available Bytes");
+
+        var ps = Process.GetCurrentProcess();
+        processWokingMenory = new PerformanceCounter("Process", "Working Set", ps.ProcessName);
+        processWokingPrivateMenory = new PerformanceCounter("Process", "Working Set - Private", ps.ProcessName);
+
+
     }
 
+    private string GetRAMString(long num)
+    {
+        int ramScale = (int)Math.Floor(Math.Log(num, 1024.0));
+        double memTotal = Math.Round(num / Math.Pow(1024, ramScale), 2);
 
-    /*
-    1
-        1
-            1    1-1-1
-            2
-            3
-        2        1-2    1(1-1+2)
-        3
-    2
-        1
-        2
-        3
-    3
-        1
-        2
-        3
-    4
-        1
-        2
-        3
+        if (ramScale == 0)
+            return memTotal + "byte";
+        else if (ramScale == 1)
+            return memTotal + "KB";
+        else if (ramScale == 2)
+            return memTotal + "MB";
+        else if (ramScale == 3)
+            return memTotal + "GB";
+        else if (ramScale == 4)
+            return memTotal + "TB";
 
-
-
-
-     */
-
-
+        return memTotal.ToString();
+    }
 
 
 
 
 
 }
+

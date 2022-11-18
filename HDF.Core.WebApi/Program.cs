@@ -16,7 +16,7 @@ namespace HDF.Core.WebApi
         {
             //WebApplication.CreateBuilder(args).Build().Run
 
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run(); Assert
         }
 
         private static IHostBuilder CreateHostBuilder(string[] args) =>

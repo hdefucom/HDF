@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace HDF.Test.Winform
@@ -16,8 +17,27 @@ namespace HDF.Test.Winform
         }
 
 
+        private static void TTTT()
+        {
+
+            using var _ = LoadingForm.StartNew();
+
+
+            Thread.Sleep(5000);
+
+            //_.Dispose();
+            //_.Dispose();
+            //_.Dispose();
+            //_.Dispose();
+
+            throw new Exception();
+
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
+            TTTT();
             //this.GetType().GetMethod("button1_Click").IsPrivate;
         }
 
