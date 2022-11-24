@@ -4,6 +4,7 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Management;
@@ -376,7 +377,41 @@ Assembly.Load("System.Runtime"),
 
         Application.ThreadException += (_, e) => Console.WriteLine(e);
 
+        {
 
+
+
+            //DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Tahoma", 9);//使用DEV汉化资源文件
+            //System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-cn"); //设置程序区域语言设置中日期格式
+
+            //必须克隆，因为框架缓存对象为只读的
+            var info = (CultureInfo)CultureInfo.GetCultureInfo("zh-cn").Clone(); //设置程序区域语言设置中日期格式
+            DateTimeFormatInfo di = (DateTimeFormatInfo)info.DateTimeFormat.Clone();
+
+            di.DateSeparator = "-";
+            di.ShortDatePattern = "yyyy-MM-dd";
+            di.ShortTimePattern = "HH:mm:ss";
+            di.LongDatePattern = "yyyy'年'M'月'd'日'";
+            di.LongTimePattern = "H'时'm'分's'秒'";
+
+            di.FullDateTimePattern = "yyyy'年'M'月'd'日' H'时'm'分's'秒'";
+
+            info.DateTimeFormat = di;
+
+            Thread.CurrentThread.CurrentCulture = info;
+            Thread.CurrentThread.CurrentUICulture = info;
+
+
+
+
+            var str = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+            Console.WriteLine(str);
+
+            var dt = Convert.ToDateTime(str);
+
+
+        }
 
 
 
