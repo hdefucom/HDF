@@ -10,14 +10,15 @@
 	<ItemGroup>
 		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
 		<PackageReference Include="Gocent.Common" Version="1.0.8291.18670" />
+		<PackageReference Include="Gocent.Library.Editor" Version="0.4.0-20221129-162516" />
 		<PackageReference Include="HDF.Common" Version="1.5.0" />
 		<PackageReference Include="HDF.DotNet.Features.PropertyInitAccessor" Version="1.0.0" />
 		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.2.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Xml" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-preview.4.22229.4" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
-		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1414-prerelease" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="NPOI" Version="2.5.6" />
 		<PackageReference Include="Oracle.ManagedDataAccess" Version="21.6.1" />
@@ -31,6 +32,9 @@
 	    <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Management.dll</HintPath>
 	  </Reference>
 	  <Reference Include="System.Net.Http" />
+	  <Reference Include="System.Runtime.Caching">
+	    <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Caching.dll</HintPath>
+	  </Reference>
 	  <Reference Include="WindowsFormsIntegration" />
 	</ItemGroup>
 

@@ -46,6 +46,8 @@ namespace HDF.Core.WebApi
             });
 
 
+            var testvalue = Configuration.GetSection("TestValue");
+
             services.Configure<TokenConfig>(Configuration.GetSection("TokenConfig"));
             var token = Configuration.GetSection("TokenConfig").Get<TokenConfig>();
             services.AddSingleton<TokenConfig>(token);
@@ -88,6 +90,7 @@ namespace HDF.Core.WebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            Console.WriteLine(env.EnvironmentName);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
