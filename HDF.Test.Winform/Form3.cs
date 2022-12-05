@@ -16,6 +16,8 @@ namespace HDF.Test.Winform
         private void button1_Click(object sender, EventArgs e)
         {
             this.Invalidate();
+
+            //new Form4().ShowDialog();
         }
 
 
