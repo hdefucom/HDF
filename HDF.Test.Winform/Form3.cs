@@ -115,11 +115,15 @@ namespace HDF.Test.Winform
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            e.Graphics.DrawString(label1.Text, label1.Font, Brushes.Black, 100, 100);
+
+
             base.OnPaint(e);
             if (start.IsEmpty || current.IsEmpty || start == current)
                 return;
 
             PaintRect(start, current, Pens.Black, e.Graphics);
+
 
         }
 

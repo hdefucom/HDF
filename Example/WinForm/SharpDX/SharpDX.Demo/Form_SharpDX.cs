@@ -5,6 +5,7 @@ using SharpDX.Mathematics.Interop;
 using SharpDX.Windows;
 using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
@@ -55,7 +56,12 @@ namespace WinFormsApp1
 
 
 
+            hwndRenderControl.Paint += (_, e) =>
+            {
 
+                e.Graphics.DrawString("h啊速度hi发sad😂😂😂", new System.Drawing.Font("Segoe UI Emoji", 50f), Brushes.Black, 0, 200);
+
+            };
         }
 
 
@@ -83,20 +89,22 @@ namespace WinFormsApp1
             s.Start();
 
             hwndRenderTarget.BeginDraw();
-            hwndRenderTarget.Clear(new RawColor4(0, 0, 0, 255));
+            hwndRenderTarget.Clear(new RawColor4(this.BackColor.R, this.BackColor.G, this.BackColor.B, 255));
 
 
 
-            for (int i = 0; i < 10000; i++)
-                hwndRenderTarget.DrawText("😂😂😂",
-                    new SharpDX.DirectWrite.TextFormat(new SharpDX.DirectWrite.Factory(), "Segoe UI Emoji", 24f),
+            for (int i = 0; i < 1; i++)
+                hwndRenderTarget.DrawText("h啊速度hi发sad😂😂😂",
+                    new SharpDX.DirectWrite.TextFormat(new SharpDX.DirectWrite.Factory(), "Segoe UI Emoji", 50f),
                     new RawRectangleF(0, 0, 1000, 1000),
-                    new SolidColorBrush(hwndRenderTarget, new RawColor4(255, 255, 255, 255)),
+                    new SolidColorBrush(hwndRenderTarget, new RawColor4(0, 0, 0, 255)),
                     DrawTextOptions.EnableColorFont //启用彩色emoji的关键
                     );
 
             hwndRenderTarget.EndDraw();
             s.Stop();
+
+            hwndRenderControl.Invalidate();
 
             Console.WriteLine(s.ElapsedMilliseconds);
 
