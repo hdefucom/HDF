@@ -5,7 +5,6 @@ using SharpDX.Mathematics.Interop;
 using SharpDX.Windows;
 using System;
 using System.Diagnostics;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
@@ -59,7 +58,7 @@ namespace WinFormsApp1
             hwndRenderControl.Paint += (_, e) =>
             {
 
-                e.Graphics.DrawString("h啊速度hi发sad😂😂😂", new System.Drawing.Font("Segoe UI Emoji", 50f), Brushes.Black, 0, 200);
+                //e.Graphics.DrawString("h啊速度hi发sad😂😂😂", new System.Drawing.Font("Segoe UI Emoji", 50f), Brushes.Black, 0, 200);
 
             };
         }
@@ -100,6 +99,13 @@ namespace WinFormsApp1
                     new SolidColorBrush(hwndRenderTarget, new RawColor4(0, 0, 0, 255)),
                     DrawTextOptions.EnableColorFont //启用彩色emoji的关键
                     );
+
+            hwndRenderTarget.DrawText("=> ==> ====> == ===",
+                new SharpDX.DirectWrite.TextFormat(new SharpDX.DirectWrite.Factory(), "Fira Code", 50f),
+                new RawRectangleF(0, 200, 1000, 1000),
+                new SolidColorBrush(hwndRenderTarget, new RawColor4(0, 0, 0, 255)),
+                DrawTextOptions.EnableColorFont //启用彩色emoji的关键
+                );
 
             hwndRenderTarget.EndDraw();
             s.Stop();

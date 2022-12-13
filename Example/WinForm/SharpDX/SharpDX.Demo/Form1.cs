@@ -29,8 +29,9 @@ namespace SharpDX.Demo
             e.Graphics.Clear(Color.FromArgb(255, 0, 0, 0));
 
 
-            for (int i = 0; i < 10000; i++)
-                e.Graphics.DrawString("😂😂😂", new Font("Segoe UI Emoji", 24f), Brushes.White, 0, 0);
+            //for (int i = 0; i < 10000; i++)
+            e.Graphics.DrawString("😂😂😂", new Font("Segoe UI Emoji", 24f), Brushes.White, 0, 0);
+            e.Graphics.DrawString("==> => == ===", new Font("Fira Code", 24f), Brushes.White, 0, 50);
 
             s.Stop();
 

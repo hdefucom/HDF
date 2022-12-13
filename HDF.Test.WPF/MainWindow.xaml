@@ -88,7 +88,8 @@
     </h:Interaction.Behaviors>
 
 
-        <Label x:Name="label1"  FontFamily="Segoe UI Emoji">😂😂😂</Label>
+        <Label FontFamily="Segoe UI Emoji">😂😂😂</Label>
+        <Label x:Name="label1"  FontFamily="Fira Code">== === => ==> ---></Label>
         <TextBlock FontFamily="Segoe UI Emoji" >😂😂😂</TextBlock>
         <emoji:TextBlock FontSize="24" Text="Hello! 💖😁🐨🐱‍🐉👩🏿‍👩🏻‍👦🏽 lol"/>
 

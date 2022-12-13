@@ -23,4 +23,10 @@
 		<Reference Include="System.Management" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Form_鼠标拖拽事件实现.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	</ItemGroup>
+
 </Project>

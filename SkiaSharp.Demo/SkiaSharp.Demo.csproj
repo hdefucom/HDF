@@ -5,6 +5,7 @@
 		<TargetFramework>net48</TargetFramework>
 		<UseWindowsForms>true</UseWindowsForms>
 		<PlatformTarget>AnyCPU</PlatformTarget>
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 	<ItemGroup>

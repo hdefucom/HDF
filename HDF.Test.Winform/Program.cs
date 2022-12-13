@@ -45,6 +45,7 @@ internal static class Program
 #pragma warning disable CS0162 // 检测到无法访问的代码
 #pragma warning disable CS0219 // 变量已被赋值，但从未使用过它的值
 
+        //Unsafe Pointer , Array 内存分布
         if (false)
         {
             ////C#/.NET 中数组的长度存储于数组第一个元素之前的 8 字节内存中
@@ -176,6 +177,7 @@ internal static class Program
             }
         }
 
+        //Unicode Draw (emoji)
         if (false)
         {
             var str = "你好";
@@ -228,6 +230,7 @@ internal static class Program
             Console.WriteLine("😊");
         }
 
+        //Roslyn 动态编译
         if (false)
         {
 
@@ -283,29 +286,7 @@ Assembly.Load("System.Runtime"),
 
         }
 
-        if (false)
-        {
-
-            int location = 1;
-            if (false)
-            {
-                //DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Tahoma", 9);
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CHS");//使用DEV汉化资源文件
-                                                                                                                        //设置程序区域语言设置中日期格式
-                System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("zh-CHS");
-                System.Globalization.DateTimeFormatInfo di = (System.Globalization.DateTimeFormatInfo)System.Threading.Thread.CurrentThread.CurrentCulture.DateTimeFormat.Clone();
-                di.DateSeparator = "-";
-                di.ShortDatePattern = "yyyy-MM-dd";
-                di.LongDatePattern = "yyyy'年'M'月'd'日'";
-                di.ShortTimePattern = "H:mm:ss";
-                di.LongTimePattern = "H'时'mm'分'ss'秒'";
-                ci.DateTimeFormat = di;
-                System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-
-            }
-
-        }
-
+        //循环性能
         if (false)
         {
             var list1 = Enumerable.Range(1, 1000_0000).ToList();
@@ -342,6 +323,7 @@ Assembly.Load("System.Runtime"),
 
         }
 
+        //Global DateTime Format
         if (false)
         {
 
@@ -379,6 +361,7 @@ Assembly.Load("System.Runtime"),
 
         }
 
+        //Matrix
         if (false)
         {
             Matrix m = new Matrix();
@@ -391,6 +374,34 @@ Assembly.Load("System.Runtime"),
             m.TransformPoints(plist);
 
         }
+
+        //plugin
+        if (false)
+        {
+            //AppDomain.CurrentDomain.AssemblyLoad += (sender, e) =>
+            //{
+
+            //};
+
+
+
+            //AppDomain.CurrentDomain.AssemblyResolve += (sender, e) =>
+            //{
+            //    if (e.RequestingAssembly == null)
+            //        //return Assembly.LoadFile($"{Application.StartupPath}\\plug\\{e.Name}");
+            //        return Assembly.LoadFrom($"plug\\{e.Name}");
+            //    else
+            //        return e.RequestingAssembly;
+            //};
+
+
+            //var path = "HDefu.Test.dll";
+
+            //var a2 = Assembly.Load(path);
+
+
+        }
+
 
 
 
@@ -466,28 +477,6 @@ Assembly.Load("System.Runtime"),
 
 
         }
-
-
-
-        {
-
-
-            //😍😍🤣
-
-
-
-
-
-
-
-
-
-        }
-
-
-
-
-
 
 
 
