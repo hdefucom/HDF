@@ -9,7 +9,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="SkiaSharp.Views.WindowsForms" Version="2.88.3" />
+		<PackageReference Include="SkiaSharp.Views.WindowsForms" Version="2.88.3" />
+		<PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.3" />
 	</ItemGroup>
 
 </Project>
