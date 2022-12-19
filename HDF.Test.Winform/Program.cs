@@ -3,19 +3,24 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Management;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Net.Sockets;
 using System.Reflection;
 using System.Text;
 
 
 using System.Text.RegularExpressions;
 using System.Threading;
-using System.Web.Hosting;
+using System.Windows.Data;
 using System.Windows.Forms;
 
 namespace HDF.Test.Winform;
@@ -402,55 +407,118 @@ Assembly.Load("System.Runtime"),
 
         }
 
-
-
-
-
-        Application.EnableVisualStyles();
-        Application.SetCompatibleTextRenderingDefault(false);
-
-        Application.ThreadException += (_, e) => Console.WriteLine(e);
-
-
-
+        //环境信息，user mac ip
+        //if (false)
         {
-            //var builder = new ConfigurationBuilder();
+            static List<string> GetMacByWMI()
+            {
+                List<string> macs = new List<string>();
+                try
+                {
+                    string mac = "";
+                    ManagementClass mc = new ManagementClass("Win32_NetworkAdapterConfiguration");
+                    ManagementObjectCollection moc = mc.GetInstances();
+                    foreach (ManagementObject mo in moc)
+                    {
+                        if ((bool)mo["IPEnabled"])
+                        {
+                            mac = mo["MacAddress"].ToString();
+                            macs.Add(mac);
+                        }
+                    }
+                    moc = null;
+                    mc = null;
+                }
+                catch
+                {
+                }
 
-            //builder.SetBasePath(Directory.GetCurrentDirectory());
-
-            //builder.AddXmlFile("App.config");
-
-            //var con_env = Environment.GetEnvironmentVariable("ConfigFile");
-            //if (!con_env.IsNullOrEmpty())
-            //    builder.AddXmlFile($"App.{con_env}.config");
-
-
-            //var c = builder.Build();
-
-
-            //var val = c.GetSection("Test");
-
-
-            //正常
-
-
-
-
-            var list = Environment.GetEnvironmentVariables();
-
-            var s = HostingEnvironment.ApplicationHost;
-
-
-            var name = Environment.GetEnvironmentVariable("EnvironmentName");
-            var address = Environment.GetEnvironmentVariable("hisbaseurl");
-            var c = Environment.GetEnvironmentVariable("c");
+                return macs;
+            }
 
 
+            static List<string> GetMacByIPConfig()
+            {
+                List<string> macs = new List<string>();
+                ProcessStartInfo startInfo = new ProcessStartInfo("ipconfig", "/all");
+                startInfo.UseShellExecute = false;
+                startInfo.RedirectStandardInput = true;
+                startInfo.RedirectStandardOutput = true;
+                startInfo.RedirectStandardError = true;
+                startInfo.CreateNoWindow = true;
+                Process p = Process.Start(startInfo);
+                //截取输出流
+                StreamReader reader = p.StandardOutput;
+                string line = reader.ReadLine();
+
+                while (!reader.EndOfStream)
+                {
+                    if (!string.IsNullOrEmpty(line))
+                    {
+                        line = line.Trim();
+
+                        if (line.StartsWith("Physical Address") || line.StartsWith("物理地址"))
+                        {
+                            macs.Add(line);
+                        }
+                    }
+
+                    line = reader.ReadLine();
+                }
+
+                //等待程序执行完退出进程
+                p.WaitForExit();
+                p.Close();
+                reader.Close();
+
+                return macs;
+            }
+
+            var name = Environment.UserName;
+
+
+            var name2 = Environment.UserDomainName;
+
+            var name3 = Dns.GetHostName();
+
+
+            var res = GetMacByWMI();
+            var res2 = GetMacByIPConfig();
+
+            var stack = Environment.StackTrace;
+
+
+            var name4 = Dns.GetHostEntry(Dns.GetHostName());
+
+
+            string localIP = string.Empty;
+            using (Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, 0))
+            {
+                socket.Connect("8.8.8.8", 65530);
+                IPEndPoint endPoint = socket.LocalEndPoint as IPEndPoint;
+                localIP = endPoint.Address.ToString();
+            }
+
+
+            string output = "";
+            foreach (NetworkInterface item in NetworkInterface.GetAllNetworkInterfaces())
+            {
+                if (/*item.NetworkInterfaceType == NetworkInterfaceType.Wireless80211 &&*/ item.OperationalStatus == OperationalStatus.Up)
+                {
+                    foreach (UnicastIPAddressInformation ip in item.GetIPProperties().UnicastAddresses)
+                    {
+                        if (ip.Address.AddressFamily == AddressFamily.InterNetwork)
+                        {
+                            output = ip.Address.ToString();
+                        }
+                    }
+                }
+            }
 
         }
 
-
-
+        //正则匹配url
+        if (false)
         {
 
 
@@ -482,16 +550,98 @@ Assembly.Load("System.Runtime"),
 
 
 
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+
+        Application.ThreadException += (_, e) => Console.WriteLine(e);
+
+
+
+        {
+
+
+            IValueConverter converter = null;
+
+
+
+            var type = Environment.UserInteractive;
+            Console.WriteLine(type);
+
+
+            var str = "黄德富";
+
+            //using var stream = new MemoryStream();
+
+
+            {
+                using var stream = new FileStream(@"C:\Users\12131\Desktop\utf-8", FileMode.Create);
+
+                var bytes = Encoding.UTF8.GetBytes(str);
+
+                stream.Write(bytes, 0, bytes.Length);
+
+
+                var str2 = "\u9EC4;\u5FB7;\u5BCC;";
+                var str5 = "\u9EC4;\u5FB7;\u5BCC;";
+
+
+                var str3 = string.Join(" ", bytes.Select(a => Convert.ToString(a, 2)));
+
+                var str4 = string.Join(" ", bytes.Select(a => Convert.ToString(a, 16)));
+
+
+                //11101001 10111011 10000100    10011110 11000100
+                //11100101 10111110 10110111    01011111 10110111
+                //11100101 10101111 10001100    01011011 11001100
+
+                var c1 = 0b_10011110_11000100;
+                var c2 = 0b_01011111_10110111;
+                var c3 = 0b_01011011_11001100;
+
+
+                var c4 = 0b_11011100;
+                var c5 = 0b_11011111;
+
+                var cs1 = Convert.ToString(c4, 16);
+                var cs2 = Convert.ToString(c5, 16);
+
+            }
+
+
+
+
+            {
+                using var stream = new FileStream(@"C:\Users\12131\Desktop\utf-32", FileMode.OpenOrCreate);
+
+                var bytes = Encoding.UTF32.GetBytes(str);
+
+                stream.Write(bytes, 0, bytes.Length);
+            }
+
+            {
+                using var stream = new FileStream(@"C:\Users\12131\Desktop\utf-16", FileMode.OpenOrCreate);
+
+                var bytes = Encoding.Unicode.GetBytes(str);
+
+                stream.Write(bytes, 0, bytes.Length);
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+
 
         Application.Run(new Form3());
 
 
     }
-
-
-
-
-
 
 
 
