@@ -197,6 +197,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GHIS.Analyzers.Package", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GHIS.Analyzers.Vsix", "Example\Other\Analyzer\GHIS.Analyzers\GHIS.Analyzers.Vsix\GHIS.Analyzers.Vsix.csproj", "{7BA9C041-5787-4B04-95A8-0C1E5EE4A3AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{FA05519D-8470-45AF-A463-87448868FE41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -817,6 +819,18 @@ Global
 		{7BA9C041-5787-4B04-95A8-0C1E5EE4A3AF}.Release|x64.Build.0 = Release|Any CPU
 		{7BA9C041-5787-4B04-95A8-0C1E5EE4A3AF}.Release|x86.ActiveCfg = Release|Any CPU
 		{7BA9C041-5787-4B04-95A8-0C1E5EE4A3AF}.Release|x86.Build.0 = Release|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Debug|x64.Build.0 = Debug|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Release|x64.ActiveCfg = Release|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Release|x64.Build.0 = Release|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA05519D-8470-45AF-A463-87448868FE41}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

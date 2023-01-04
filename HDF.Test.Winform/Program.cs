@@ -4,6 +4,7 @@ using Microsoft.CodeAnalysis.CSharp;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -15,6 +16,7 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 
 
@@ -408,7 +410,7 @@ Assembly.Load("System.Runtime"),
         }
 
         //环境信息，user mac ip
-        //if (false)
+        if (false)
         {
             static List<string> GetMacByWMI()
             {
@@ -546,19 +548,23 @@ Assembly.Load("System.Runtime"),
 
         }
 
-
-
-
-
-        Application.EnableVisualStyles();
-        Application.SetCompatibleTextRenderingDefault(false);
-
-        Application.ThreadException += (_, e) => Console.WriteLine(e);
-
-
-
+        //实体特性标记验证
+        if (false)
         {
 
+
+            var validationContext = new ValidationContext(null);
+
+            var results = new List<ValidationResult>();
+
+            Validator.TryValidateObject(null, validationContext, results);
+
+
+        }
+
+        //编码解码
+        if (false)
+        {
 
             IValueConverter converter = null;
 
@@ -570,9 +576,7 @@ Assembly.Load("System.Runtime"),
 
             var str = "黄德富";
 
-            //using var stream = new MemoryStream();
-
-
+            if (false)
             {
                 using var stream = new FileStream(@"C:\Users\12131\Desktop\utf-8", FileMode.Create);
 
@@ -608,23 +612,12 @@ Assembly.Load("System.Runtime"),
             }
 
 
+        }
 
-
-            {
-                using var stream = new FileStream(@"C:\Users\12131\Desktop\utf-32", FileMode.OpenOrCreate);
-
-                var bytes = Encoding.UTF32.GetBytes(str);
-
-                stream.Write(bytes, 0, bytes.Length);
-            }
-
-            {
-                using var stream = new FileStream(@"C:\Users\12131\Desktop\utf-16", FileMode.OpenOrCreate);
-
-                var bytes = Encoding.Unicode.GetBytes(str);
-
-                stream.Write(bytes, 0, bytes.Length);
-            }
+        //GC
+        //if(false)
+        {
+            var size = GC.GetTotalMemory(false);
 
 
 
@@ -633,7 +626,40 @@ Assembly.Load("System.Runtime"),
         }
 
 
+        //文件md5
+        {
 
+
+
+            using MD5 md5 = MD5.Create();
+
+
+
+            //byte[] bytes = File.ReadAllBytes(@"C:\Users\12131\Desktop\ris.xml");
+            //byte[] encryptdata = md5.ComputeHash(bytes);
+            byte[] encryptdata = md5.ComputeHash(File.OpenRead(@"C:\Users\12131\Desktop\ris.xml"));
+            var res32 = BitConverter.ToString(encryptdata);
+            var res64 = BitConverter.ToString(encryptdata, 4, 8);
+
+
+            res32 = res32.Replace("-", "");
+
+
+
+
+            //64字节,512位
+            SHA512CryptoServiceProvider SHA512 = new SHA512CryptoServiceProvider();
+            byte[] h5 = SHA512.ComputeHash(File.OpenRead(@"E:\德芙\Chrome Download\dotnet-sdk-7.0.101-win-x64.exe"));
+            var res = BitConverter.ToString(encryptdata);
+
+            res = res.Replace("-", "");
+        }
+
+
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+
+        Application.ThreadException += (_, e) => Console.WriteLine(e);
 
 
 
@@ -652,16 +678,7 @@ Assembly.Load("System.Runtime"),
 
 
 
-
-
-
-
-
 }
 
 
 
-public class Config
-{
-    public string Test { get; set; }
-}
