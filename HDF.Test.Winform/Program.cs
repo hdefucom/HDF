@@ -207,10 +207,6 @@ internal static class Program
             //var dt = DateTime.Now;
 
 
-            var a1 = "test1";
-            var a2 = "test2";
-
-
 
         }
 
