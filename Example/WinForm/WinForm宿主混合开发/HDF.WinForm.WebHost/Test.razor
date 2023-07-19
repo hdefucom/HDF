@@ -1,0 +1,64 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop;
+@inject Button but
+@inject System.Windows.Forms.Timer timer
+@inject IJSRuntime js
+
+
+<div>
+    <h2 id="title">折线图</h2>
+</div>
+<canvas id="myChart" width="400" height="200"></canvas>
+
+
+@code {
+    List<int> data1 = new List<int>();
+    List<int> data2 = new List<int>();
+    List<int> labels = new List<int>();
+
+
+    
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await js.InvokeVoidAsync("createChart");
+        
+        await base.OnAfterRenderAsync(firstRender);
+
+
+       
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        but.Click += (s, e) => timer.Enabled = !timer.Enabled;
+
+        timer.Tick += async (s, e) =>
+        {
+            var random = new Random();
+            data1.Add(random.Next(-100, 100));
+            data2.Add(random.Next(-120, 150));
+            labels.Add(labels.Count);
+            
+            var newData1 = data1.Count > 20 ? data1.ToArray()[^20..] : data1.ToArray();
+            var newData2 = data2.Count > 20 ? data2.ToArray()[^20..] : data2.ToArray();
+            var newLabels = labels.Count > 20 ? labels.ToArray()[^20..] : labels.ToArray();
+            data1 = new List<int>(newData1);
+            data2 = new List<int>(newData2);
+            labels = new List<int>(newLabels);
+
+            await js.InvokeAsync<object>("showLines", new int[][] { newData1, newData2 }, newLabels);
+        };
+
+
+
+
+    }
+
+
+
+}

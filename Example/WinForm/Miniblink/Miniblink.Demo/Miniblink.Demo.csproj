@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D698CAA6-E2AD-42E2-9163-64AE9A85A26E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Miniblink.Demo</RootNamespace>
+    <AssemblyName>Miniblink.Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmControl.designer.cs">
+      <DependentUpon>FrmControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDevTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDevTools.designer.cs">
+      <DependentUpon>FrmDevTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDownload.designer.cs">
+      <DependentUpon>FrmDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDropFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDropFile.designer.cs">
+      <DependentUpon>FrmDropFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmbedLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmbedLoad.designer.cs">
+      <DependentUpon>FrmEmbedLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvents.designer.cs">
+      <DependentUpon>FrmEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFileLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFileLoad.designer.cs">
+      <DependentUpon>FrmFileLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHook.designer.cs">
+      <DependentUpon>FrmHook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImage.designer.cs">
+      <DependentUpon>FrmImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJsCallNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJsCallNet.designer.cs">
+      <DependentUpon>FrmJsCallNet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNetCallJs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNetCallJs.designer.cs">
+      <DependentUpon>FrmNetCallJs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunJs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunJs.designer.cs">
+      <DependentUpon>FrmRunJs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransparent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransparent.designer.cs">
+      <DependentUpon>FrmTransparent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeb.Designer.cs">
+      <DependentUpon>FrmWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWindow.designer.cs">
+      <DependentUpon>FrmWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZipLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZipLoad.designer.cs">
+      <DependentUpon>FrmZipLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmControl.resx">
+      <DependentUpon>FrmControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDevTools.resx">
+      <DependentUpon>FrmDevTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDownload.resx">
+      <DependentUpon>FrmDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDropFile.resx">
+      <DependentUpon>FrmDropFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmbedLoad.resx">
+      <DependentUpon>FrmEmbedLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvents.resx">
+      <DependentUpon>FrmEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFileLoad.resx">
+      <DependentUpon>FrmFileLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHook.resx">
+      <DependentUpon>FrmHook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImage.resx">
+      <DependentUpon>FrmImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJsCallNet.resx">
+      <DependentUpon>FrmJsCallNet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNetCallJs.resx">
+      <DependentUpon>FrmNetCallJs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunJs.resx">
+      <DependentUpon>FrmRunJs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransparent.resx">
+      <DependentUpon>FrmTransparent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeb.resx">
+      <DependentUpon>FrmWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWindow.resx">
+      <DependentUpon>FrmWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZipLoad.resx">
+      <DependentUpon>FrmZipLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Res\zipdemo.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Res\control.html" />
+    <EmbeddedResource Include="Res\css\test-css\test.css" />
+    <EmbeddedResource Include="Res\css\xspreadsheet.css" />
+    <EmbeddedResource Include="Res\drop_file.html" />
+    <EmbeddedResource Include="Res\embed_loader.html" />
+    <EmbeddedResource Include="Res\events.html" />
+    <EmbeddedResource Include="Res\hook.html" />
+    <EmbeddedResource Include="Res\iframeMain.html" />
+    <EmbeddedResource Include="Res\iframeSub.html" />
+    <EmbeddedResource Include="Res\images\chrome.png" />
+    <EmbeddedResource Include="Res\images\close.png" />
+    <EmbeddedResource Include="Res\images\runjs.png" />
+    <EmbeddedResource Include="Res\images\web.png" />
+    <EmbeddedResource Include="Res\images\xspreadsheet.svg" />
+    <EmbeddedResource Include="Res\js\hook.js" />
+    <EmbeddedResource Include="Res\js\xspreadsheet.js" />
+    <EmbeddedResource Include="Res\js_call_net.html" />
+    <EmbeddedResource Include="Res\net_call_js.html" />
+    <EmbeddedResource Include="Res\runjs.html" />
+    <EmbeddedResource Include="Res\test.html" />
+    <EmbeddedResource Include="Res\transparent.html" />
+    <EmbeddedResource Include="Res\web.html" />
+    <EmbeddedResource Include="Res\window.html" />
+    <EmbeddedResource Include="HDF\index.html" />
+    <Content Include="Webres\file_loader.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Miniblink\Miniblink.csproj">
+      <Project>{0ac04edc-d2c7-4ab0-be34-e61a565cde78}</Project>
+      <Name>Miniblink</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net472</TargetFramework>
+		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+		<LangVersion>10.0</LangVersion>
+
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ExpressionEvaluator" Version="2.0.4" />
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.36" />
+		<PackageReference Include="HDF.Common" Version="1.4.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Microsoft.CSharp" />
+		<Reference Include="PresentationCore">
+		  <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\PresentationCore.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Design" />
+		<Reference Include="System.Management" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Form_Drag.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Update="Form_鼠标拖拽事件实现.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	</ItemGroup>
+
+</Project>

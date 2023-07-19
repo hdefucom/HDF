@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<!--用于配置元素类结构，层次更加明确-->
+
+	<!--Base层次-->
+	<ItemGroup>
+		<Compile Update="Document\Element\GTextElement.cs;
+			Document\Element\GTextDocument.cs;
+			Document\Element\GTextContainerElement.cs;
+			Document\Element\GTextObjectElement.cs;">
+			<DependentUpon>Base.md</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<!--Containers层次-->
+	<ItemGroup>
+		<Compile Update="Document\Element\GTextBlockElement.cs;
+			Document\Element\GTextFieldElement.cs;
+			Document\Element\GTextParagraphElement.cs;
+			Document\Element\GTextReplaceElement.cs;">
+			<DependentUpon>Containers.md</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<!--Contents层次-->
+	<ItemGroup>
+		<Compile Update="Document\Element\Content.*.cs">
+			<DependentUpon>Contents.md</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<!--GTextDocument分布类汇总-->
+	<ItemGroup>
+		<Compile Update="Document\Element\GTextDocument.*.cs">
+			<DependentUpon>GTextDocument.cs</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+
+</Project>

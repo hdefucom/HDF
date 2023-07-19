@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net48</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<LangVersion>10.0</LangVersion>
+
+
+
+		<!--没有指定平台，WebView2无法初始化成功-->
+		<PlatformTarget>AnyCPU</PlatformTarget>
+
+		<!--<PlatformTarget>x86</PlatformTarget>-->
+
+		<CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+		
+		
+		
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="CefSharp.WinForms" Version="99.2.140" />
+		<PackageReference Include="EO.WebBrowser" Version="22.0.68" />
+		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1189-prerelease" />
+		<PackageReference Include="Tnelab.MiniBlink" Version="1.0.0" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Compile Update="Form*.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	</ItemGroup>
+
+
+</Project>
