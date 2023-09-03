@@ -11,6 +11,7 @@
 		<PackageReference Include="HDF.Common" Version="1.5.0" />
 		<PackageReference Include="HDF.DotNet.Features.PropertyInitAccessor" Version="1.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="SunnyUI" Version="3.4.2" />
 	</ItemGroup>
 
 

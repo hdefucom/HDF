@@ -31,17 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.uiComboBox1 = new Sunny.UI.UIComboBox();
+            this.testDropDownView1 = new HDF.Test.Winform.TestDropDownView();
             this.SuspendLayout();
             // 
             // button1
@@ -49,7 +46,7 @@
             this.button1.Location = new System.Drawing.Point(610, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -58,111 +55,100 @@
             // 
             this.printDialog1.UseEXDialog = true;
             // 
-            // trackBar1
+            // textBox1
             // 
-            this.trackBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.trackBar1.Location = new System.Drawing.Point(0, 405);
-            this.trackBar1.Maximum = 150;
-            this.trackBar1.Minimum = 50;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(800, 45);
-            this.trackBar1.TabIndex = 2;
-            this.trackBar1.Value = 100;
-            this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
+            this.textBox1.Location = new System.Drawing.Point(60, 101);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(103, 21);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             // 
-            // panel1
+            // comboBox1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(262, 172);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(494, 218);
-            this.panel1.TabIndex = 3;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "0"});
+            this.comboBox1.Location = new System.Drawing.Point(442, 12);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 20);
+            this.comboBox1.TabIndex = 0;
             // 
-            // label7
+            // textBox2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(22, 71);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 12);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "label1";
+            this.textBox2.Location = new System.Drawing.Point(223, 101);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(103, 21);
+            this.textBox2.TabIndex = 3;
+            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
             // 
-            // label5
+            // textBox3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(202, 26);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 12);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "label1";
+            this.textBox3.Location = new System.Drawing.Point(413, 101);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(103, 21);
+            this.textBox3.TabIndex = 4;
+            this.textBox3.Enter += new System.EventHandler(this.textBox3_Enter);
             // 
-            // label6
+            // textBox4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(43, 115);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 12);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "label1";
+            this.textBox4.Location = new System.Drawing.Point(45, 279);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 21);
+            this.textBox4.TabIndex = 5;
             // 
-            // label4
+            // dateTimePicker1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(223, 70);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 12);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "label1";
+            this.dateTimePicker1.Location = new System.Drawing.Point(565, 65);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker1.TabIndex = 6;
             // 
-            // label3
+            // uiComboBox1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(136, 46);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label1";
+            this.uiComboBox1.DataSource = null;
+            this.uiComboBox1.FillColor = System.Drawing.Color.White;
+            this.uiComboBox1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiComboBox1.Location = new System.Drawing.Point(610, 136);
+            this.uiComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiComboBox1.MinimumSize = new System.Drawing.Size(63, 0);
+            this.uiComboBox1.Name = "uiComboBox1";
+            this.uiComboBox1.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.uiComboBox1.Size = new System.Drawing.Size(150, 29);
+            this.uiComboBox1.TabIndex = 7;
+            this.uiComboBox1.Text = "uiComboBox1";
+            this.uiComboBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.uiComboBox1.Watermark = "";
             // 
-            // label2
+            // testDropDownView1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(157, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(353, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.testDropDownView1.AttachTextBox = this.textBox4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.trackBar1);
+            this.Controls.Add(this.uiComboBox1);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,14 +158,13 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PrintDialog printDialog1;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private TestDropDownView testDropDownView1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private Sunny.UI.UIComboBox uiComboBox1;
     }
 }
