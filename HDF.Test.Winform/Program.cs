@@ -1,12 +1,16 @@
 ﻿
+using OpenTelemetry.Resources;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
+using System.Text;
+using System.Threading;
+using System.Web;
 using System.Windows.Forms;
-using System.Xml;
 
 namespace HDF.Test.Winform;
 
@@ -29,17 +33,17 @@ internal static class Program
         if (false)
         {
 
-            //var path = "E:\\工作\\GHIS3-Git\\GHISRun\\GHIS.PatientVisitRecord.View.exe";
-            //var args = "0 7548222339408789506";
+            var path = "E:\\工作\\GHIS3-Git\\GHISRun\\GHIS.PatientVisitRecord.View.exe";
+            var args = "0 7548222339408789506";
 
-            ////1
-            //Process.Start(path, args);
+            //1
+            Process.Start(path, args);
 
-            ////2
-            //var info = new ProcessStartInfo();
-            //info.FileName = path;
-            //info.Arguments = args;
-            //Process.Start(info);
+            //2
+            var info = new ProcessStartInfo();
+            info.FileName = path;
+            info.Arguments = args;
+            Process.Start(info);
 
         }
 
@@ -195,20 +199,70 @@ internal static class Program
 
         }
 
+
+
         {
-            string.Format("1{0}3{1}", "2", null);//1234
+            var key = "Ek0F3rXKj5";
 
-            var a2 = "2";
-            var a4 = "4";
-            var aa = $"1{a2}3{a4}";//1234
+            var p = "UserId=1002&Url=Reports/ReportData/CreateReport/护理不良事件/";
 
 
-            var a = Color.LightGray;
-
-            var font = new Font("Aharoni", 10f, FontStyle.Regular, GraphicsUnit.Point);
+            p = HttpUtility.UrlEncode(Encrypt(p, key));
 
 
-            var sss = "123\r\n456";
+            var url = $"https://gaers.huangzw.cn/public/goto?syscode=001&request={p}";
+
+
+
+        }
+
+
+        {
+            Resource resource = ResourceBuilder
+                .CreateDefault()
+                .AddService("HDF-Test", "hdf", "0.1.0")
+                .Build();
+
+            foreach (var attribute in resource.Attributes)
+            {
+                Console.WriteLine($"{attribute.Key}={attribute.Value}");
+            }
+
+
+
+            ActivitySource.AddActivityListener(new ActivityListener
+            {
+                // 只监听 TestSource1
+                ShouldListenTo = source => source.Name == "TestSource1",
+                // 采样率为 100%
+                Sample = (ref ActivityCreationOptions<ActivityContext> options) => ActivitySamplingResult.AllDataAndRecorded,
+                // 监听 Activity 的开始和结束
+                ActivityStarted = activity =>
+                {
+                    Console.WriteLine($"Activity started: {activity.OperationName}");
+                },
+                ActivityStopped = activity =>
+                {
+                    Console.WriteLine($"Activity stopped: {activity.OperationName}");
+                }
+            });
+
+
+
+            ActivitySource source = new ActivitySource("TestSource1", "0.2.0");
+
+            using var activity = source.CreateActivity("a", ActivityKind.Client);
+            activity.Start();
+
+
+
+            Activity.Current?.AddEvent(new ActivityEvent("a do 1"));
+            Thread.Sleep(1000);
+            Activity.Current?.AddEvent(new ActivityEvent("a do 2"));
+
+
+            Activity.Current?.SetTag("logdt", DateTime.Now);
+
 
 
 
@@ -216,9 +270,6 @@ internal static class Program
 
 
 
-        XmlDocument xml = new XmlDocument();
-
-        xml.LoadXml("<a>ddd&amp;ff</a>");
 
         Application.ThreadException += (_, e) => Console.WriteLine(e);
 
@@ -231,7 +282,44 @@ internal static class Program
 
     }
 
+    public static void aaaa1(in object a)
+    {
 
+
+    }
+    public static void aaaa2(out object a)
+    {
+
+
+    }
+
+    public static void aaaa3(ref object a)
+    {
+
+
+    }
+
+
+
+    public static string Encrypt(string pToEncrypt, string sKey)
+    {
+        using (DESCryptoServiceProvider des = new DESCryptoServiceProvider())
+        {
+            byte[] inputByteArray = Encoding.UTF8.GetBytes(pToEncrypt);
+            des.Key = ASCIIEncoding.ASCII.GetBytes(sKey).Take(8).ToArray();
+            des.IV = ASCIIEncoding.ASCII.GetBytes(sKey).Take(8).ToArray();
+            System.IO.MemoryStream ms = new System.IO.MemoryStream();
+            using (CryptoStream cs = new CryptoStream(ms, des.CreateEncryptor(), CryptoStreamMode.Write))
+            {
+                cs.Write(inputByteArray, 0, inputByteArray.Length);
+                cs.FlushFinalBlock();
+                cs.Close();
+            }
+            string str = Convert.ToBase64String(ms.ToArray());
+            ms.Close();
+            return str;
+        }
+    }
 
 
 

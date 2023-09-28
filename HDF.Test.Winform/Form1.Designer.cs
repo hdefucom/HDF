@@ -39,6 +39,7 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.uiComboBox1 = new Sunny.UI.UIComboBox();
             this.testDropDownView1 = new HDF.Test.Winform.TestDropDownView();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -132,11 +133,21 @@
             // 
             this.testDropDownView1.AttachTextBox = this.textBox4;
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(565, 350);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 21);
+            this.textBox5.TabIndex = 9;
+            this.textBox5.Enter += new System.EventHandler(this.textBox5_Enter);
+            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox5_KeyDown);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.uiComboBox1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox4);
@@ -166,5 +177,6 @@
         private TestDropDownView testDropDownView1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private Sunny.UI.UIComboBox uiComboBox1;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }

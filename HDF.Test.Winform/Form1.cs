@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -169,6 +170,33 @@ public partial class Form1 : Form
             floatform2.Location = p;
             floatform2.Show(this);
         }
+    }
+
+    private void maskedTextBox1_Enter(object sender, EventArgs e)
+    {
+    }
+
+    private void textBox5_Enter(object sender, EventArgs e)
+    {
+
+        ToolStripDropDown drop = new ToolStripDropDown();
+        drop.Width = 200;
+        drop.Height = 200;
+        var txt = new TextBox();
+        txt.Size = new Size(100, 100);
+        txt.KeyDown += (_, e2) => Debug.Write(e2.KeyData);
+        var controlHost = new ToolStripControlHost(txt);
+        controlHost.Width = 100;
+        drop.Items.Add(controlHost);
+
+        drop.Show(textBox5.PointToScreen(new Point(0, textBox5.Height)));
+
+        txt.Focus();
+    }
+
+    private void textBox5_KeyDown(object sender, KeyEventArgs e)
+    {
+        Debug.Write(e.KeyData);
     }
 }
 

@@ -5,13 +5,20 @@
 		<TargetFramework>net48</TargetFramework>
 		<UseWindowsForms>true</UseWindowsForms>
 		<LangVersion>10.0</LangVersion>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="HDF.Common" Version="1.5.0" />
 		<PackageReference Include="HDF.DotNet.Features.PropertyInitAccessor" Version="1.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="OpenTelemetry" Version="1.6.0" />
+		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.6.0" />
 		<PackageReference Include="SunnyUI" Version="3.4.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="System.Net.Http" />
 	</ItemGroup>
 
 
