@@ -15,6 +15,7 @@
 		<PackageReference Include="OpenTelemetry" Version="1.6.0" />
 		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.6.0" />
 		<PackageReference Include="SunnyUI" Version="3.4.2" />
+		<PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.0-rc.1.23419.4" />
 	</ItemGroup>
 
 	<ItemGroup>

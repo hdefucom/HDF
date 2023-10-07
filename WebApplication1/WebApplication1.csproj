@@ -12,6 +12,8 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	  <PackageReference Include="OpenTelemetry" Version="1.6.0" />
+	  <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.6.0" />
   </ItemGroup>
 
 </Project>

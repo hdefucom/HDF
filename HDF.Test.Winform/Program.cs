@@ -1,6 +1,8 @@
-﻿
+﻿using OpenTelemetry;
 using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -8,7 +10,6 @@ using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading;
 using System.Web;
 using System.Windows.Forms;
 
@@ -218,51 +219,73 @@ internal static class Program
 
 
         {
-            Resource resource = ResourceBuilder
-                .CreateDefault()
-                .AddService("HDF-Test", "hdf", "0.1.0")
+            //Resource resource = ResourceBuilder
+            //    .CreateDefault()
+            //    .AddService("HDF-Test", "hdf", "0.1.0")
+            //    .Build();
+
+            //foreach (var attribute in resource.Attributes)
+            //{
+            //    Console.WriteLine($"{attribute.Key}={attribute.Value}");
+            //}
+
+
+
+            using var tracerProvider = Sdk.CreateTracerProviderBuilder()
+                .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("yy"))
+                .AddSource("HDF.Test.Winform")
+                //.ConfigureResource(builder => builder.AddService("dddddddddddd"))
+                .AddConsoleExporter(options =>
+                {
+                    options.Targets = OpenTelemetry.Exporter.ConsoleExporterOutputTargets.Console;
+                })
                 .Build();
 
-            foreach (var attribute in resource.Attributes)
-            {
-                Console.WriteLine($"{attribute.Key}={attribute.Value}");
-            }
+            var ttt = tracerProvider.GetTracer("HDF.Test.Winform");
+            var span = ttt.StartSpan("ttt222");
+            span.SetAttribute("dddddd", "bb");
+
+
+            tracerProvider.ForceFlush();
 
 
 
-            ActivitySource.AddActivityListener(new ActivityListener
-            {
-                // 只监听 TestSource1
-                ShouldListenTo = source => source.Name == "TestSource1",
-                // 采样率为 100%
-                Sample = (ref ActivityCreationOptions<ActivityContext> options) => ActivitySamplingResult.AllDataAndRecorded,
-                // 监听 Activity 的开始和结束
-                ActivityStarted = activity =>
-                {
-                    Console.WriteLine($"Activity started: {activity.OperationName}");
-                },
-                ActivityStopped = activity =>
-                {
-                    Console.WriteLine($"Activity stopped: {activity.OperationName}");
-                }
-            });
+            //ActivitySource.AddActivityListener(new ActivityListener
+            //{
+            //    // 只监听 TestSource1
+            //    ShouldListenTo = source => source.Name == "TestSource1",
+            //    // 采样率为 100%
+            //    Sample = (ref ActivityCreationOptions<ActivityContext> options) => ActivitySamplingResult.AllDataAndRecorded,
+            //    // 监听 Activity 的开始和结束
+            //    ActivityStarted = activity =>
+            //    {
+            //        Console.WriteLine($"Activity started: {activity.OperationName}");
+            //    },
+            //    ActivityStopped = activity =>
+            //    {
+            //        Console.WriteLine($"Activity stopped: {activity.OperationName}");
+            //    }
+            //});
 
 
 
-            ActivitySource source = new ActivitySource("TestSource1", "0.2.0");
+            //ActivitySource source = new ActivitySource("TestSource1", "0.2.0");
 
-            using var activity = source.CreateActivity("a", ActivityKind.Client);
-            activity.Start();
-
-
-
-            Activity.Current?.AddEvent(new ActivityEvent("a do 1"));
-            Thread.Sleep(1000);
-            Activity.Current?.AddEvent(new ActivityEvent("a do 2"));
+            //using var activity = source.CreateActivity("a", ActivityKind.Client);
+            //activity.Start();
 
 
-            Activity.Current?.SetTag("logdt", DateTime.Now);
 
+            //Activity.Current?.AddEvent(new ActivityEvent("a do 1"));
+            //Thread.Sleep(1000);
+            //Activity.Current?.AddEvent(new ActivityEvent("a do 2"));
+
+
+            //Activity.Current?.SetTag("logdt", DateTime.Now);
+
+
+
+            BitArray bitArray = new BitArray(10);
 
 
 
@@ -282,22 +305,8 @@ internal static class Program
 
     }
 
-    public static void aaaa1(in object a)
-    {
 
 
-    }
-    public static void aaaa2(out object a)
-    {
-
-
-    }
-
-    public static void aaaa3(ref object a)
-    {
-
-
-    }
 
 
 

@@ -1,10 +1,10 @@
-
 namespace WebApplication1
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -14,6 +14,14 @@ namespace WebApplication1
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+
+
+            //builder.Services.AddSignalR();
+            //builder.Services.AddDotNetify();
+            //builder.Services.AddDotNetifyPulse();
+
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -22,6 +30,15 @@ namespace WebApplication1
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+
+
+            //app.UseWebSockets();
+            //app.UseDotNetify();
+            //app.UseDotNetifyPulse();
+
+
+
 
             app.UseHttpsRedirection();
 
