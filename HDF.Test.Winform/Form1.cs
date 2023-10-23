@@ -47,7 +47,6 @@ public partial class Form1 : Form
     {
 
 
-
         /*
          StringFormat.Trimming  应该不影响测量字符大小
          

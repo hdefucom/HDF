@@ -22,6 +22,7 @@ namespace WebApplication1
 
 
 
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -47,7 +48,16 @@ namespace WebApplication1
 
             app.MapControllers();
 
+
             app.Run();
+
+
+
         }
+
+
+
+
+
     }
 }

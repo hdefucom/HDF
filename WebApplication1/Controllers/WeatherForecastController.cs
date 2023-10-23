@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace WebApplication1.Controllers
 {
@@ -30,4 +31,51 @@ namespace WebApplication1.Controllers
             .ToArray();
         }
     }
+
+
+
+
+
+
+    [ApiController]
+    [Route("[controller]/[action]")]
+    public class TestController : ControllerBase
+    {
+        public TestController()
+        {
+
+        }
+        [HttpGet(Name = "aaa")]
+        public string Get()
+        {
+            return JsonSerializer.Serialize(new { Name = "ddd", Age = 19 });
+        }
+
+
+        [HttpGet(Name = "Getbbb")]
+        public string Gbbb()
+        {//text/paint
+            return "ddd";// new { Name = "ddd", Age = 19 };
+        }
+
+
+        [HttpGet(Name = "Getaaa")]
+        public object Gaaa()
+        {//application/json
+            return new { Name = "ddd", Age = 19 };
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 }

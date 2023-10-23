@@ -2,7 +2,6 @@
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -205,7 +204,8 @@ internal static class Program
         {
             var key = "Ek0F3rXKj5";
 
-            var p = "UserId=1002&Url=Reports/ReportData/CreateReport/护理不良事件/";
+            //var p = "UserId=1002&Url=Reports/ReportData/CreateReport/护理不良事件/";
+            var p = "UserId=1002&Url=Reports/ReportData";
 
 
             p = HttpUtility.UrlEncode(Encrypt(p, key));
@@ -214,6 +214,12 @@ internal static class Program
             var url = $"https://gaers.huangzw.cn/public/goto?syscode=001&request={p}";
 
 
+            var ssss = new PaddingConverter().ConvertToString(new Padding(1, 2, 3, 4));
+
+
+
+
+            //Graphics g;g.MeasureString
 
         }
 
@@ -283,12 +289,6 @@ internal static class Program
 
             //Activity.Current?.SetTag("logdt", DateTime.Now);
 
-
-
-            BitArray bitArray = new BitArray(10);
-
-
-
         }
 
 
@@ -303,8 +303,9 @@ internal static class Program
 
 
 
-    }
 
+
+    }
 
 
 

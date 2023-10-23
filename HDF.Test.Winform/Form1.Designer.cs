@@ -40,6 +40,9 @@
             this.uiComboBox1 = new Sunny.UI.UIComboBox();
             this.testDropDownView1 = new HDF.Test.Winform.TestDropDownView();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -142,11 +145,29 @@
             this.textBox5.Enter += new System.EventHandler(this.textBox5_Enter);
             this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox5_KeyDown);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(334, 229);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(141, 142);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(275, 141);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker2.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.uiComboBox1);
             this.Controls.Add(this.dateTimePicker1);
@@ -160,6 +181,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,5 +200,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private Sunny.UI.UIComboBox uiComboBox1;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }
