@@ -6,6 +6,7 @@
 		<UseWindowsForms>true</UseWindowsForms>
 		<LangVersion>11.0</LangVersion>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+		<AssemblyVersion>1.1.1</AssemblyVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -14,6 +15,7 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="OpenTelemetry" Version="1.6.0" />
 		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.6.0" />
+		<PackageReference Include="SkiaSharp" Version="2.88.6" />
 		<PackageReference Include="SunnyUI" Version="3.4.2" />
 		<PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.0-rc.1.23419.4" />
 	</ItemGroup>

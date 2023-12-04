@@ -1,6 +1,8 @@
-﻿using OpenTelemetry;
+﻿using Newtonsoft.Json;
+using OpenTelemetry;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
+using SkiaSharp;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -58,7 +60,9 @@ internal static class Program
 
 
             //var file = @"E:\项目\HDF\HDF.Test.Winform\bin\Debug\net48\HDF.Test.Winform.exe";
-            var file = @"E:\德芙\Chrome Download\dotnet-sdk-7.0.306-win-x64.exe";
+            //var file = @"E:\德芙\Chrome Download\新建文件夹\wtsapi32.dll";
+            //var file = @"C:\Users\12131\Desktop\小米电脑管家_1.0.0.489_0977b577\wtsapi32.dll";
+            var file = @"E:\德芙\Chrome Download\新建文件夹\61Lu_XiaomiPCManager_official_website_1.0.0.489_0977b577.exe";
 
             //byte[] bytes = File.ReadAllBytes(@"C:\Users\12131\Desktop\ris.xml");
             //byte[] encryptdata = md5.ComputeHash(bytes);
@@ -70,7 +74,8 @@ internal static class Program
             res32 = res32.Replace("-", "");
 
 
-
+            //3BE15E1D089212975824E9B36D5684B0
+            //94729B848D732C732AFDB3B5A174DCFA
 
             //64字节,512位
             SHA512CryptoServiceProvider SHA512 = new SHA512CryptoServiceProvider();
@@ -205,7 +210,8 @@ internal static class Program
             var key = "Ek0F3rXKj5";
 
             //var p = "UserId=1002&Url=Reports/ReportData/CreateReport/护理不良事件/";
-            var p = "UserId=1002&Url=Reports/ReportData";
+            //var p = "UserId=1002&Url=Reports/ReportData";
+            var p = "UserId=1002&Url=";
 
 
             p = HttpUtility.UrlEncode(Encrypt(p, key));
@@ -219,8 +225,27 @@ internal static class Program
 
 
 
-            //Graphics g;g.MeasureString
 
+            Graphics g = Graphics.FromHwnd(IntPtr.Zero);
+            g.PageUnit = GraphicsUnit.Pixel;
+            var s1 = g.MeasureString("黄", new Font("宋体", 12f));
+
+
+
+            SKPaint paint = new SKPaint();
+            paint.Typeface = SKTypeface.FromFamilyName("宋体");
+            paint.TextSize = 12;
+
+
+
+            SKRect rect = new SKRect();
+            var s2 = paint.MeasureText("黄", ref rect);
+
+
+
+            var jsonstr = JsonConvert.SerializeObject(new { date = DateTime.Now });
+
+            var datestr = DateTime.Now.ToString();
         }
 
 
@@ -288,6 +313,13 @@ internal static class Program
 
 
             //Activity.Current?.SetTag("logdt", DateTime.Now);
+
+
+            ScrollableControl c;
+
+
+
+
 
         }
 

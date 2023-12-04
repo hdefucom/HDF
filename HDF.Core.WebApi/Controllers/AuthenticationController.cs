@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using HDF.Core.WebApi.Model;
+﻿using HDF.Core.WebApi.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace HDF.Core.WebApi.Controllers
 {
@@ -21,7 +18,7 @@ namespace HDF.Core.WebApi.Controllers
         {
             _token = token;
 
-            
+
         }
 
         [HttpGet]

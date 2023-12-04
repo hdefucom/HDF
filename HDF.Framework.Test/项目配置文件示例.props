@@ -38,6 +38,10 @@
 		<!--<VersionSuffix Condition="'$(Configuration)' == 'Debug'">$(Time)</VersionSuffix>-->
 		<!--1591取消缺少注释警告-->
 		<NoWarn>1701;1702;1591</NoWarn>
+
+
+		<!--.net8 产品版本附加git提交hash，默认true https://github.com/dotnet/sdk/issues/36885 -->
+		<IncludeSourceRevisionInInformationalVersion>true</IncludeSourceRevisionInInformationalVersion>
 	</PropertyGroup>
 
 	<!--打包logo图标文件-->
