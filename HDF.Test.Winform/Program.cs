@@ -13,6 +13,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace HDF.Test.Winform;
 
@@ -315,14 +316,53 @@ internal static class Program
             //Activity.Current?.SetTag("logdt", DateTime.Now);
 
 
-            ScrollableControl c;
 
+            var val = MouseButtons.Left | MouseButtons.Right;
+
+            var bbbb = val & (~MouseButtons.Left);
+
+
+
+
+            using Form form = null;
+
+
+            Stack<int> ints = new Stack<int>();
+
+
+            var a = Encoding.UTF8.GetString(Convert.FromBase64String("PGVsZW1lbnRzPjxzcGFuIGZvbnRuYW1lPSLlrovkvZMiIGZvbnRzaXplPSI0OCI+MDwvc3Bhbj48L2VsZW1lbnRzPg=="));
+
+        }
+        {
+
+
+            string xml = """<field><span fontname="宋体" fontsize="12">右侧自发性气胸</span></field>""";
+
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(xml);
+            var spans = doc.GetElementsByTagName("span");
+            if (spans.Count > 0 && spans[0] is XmlElement ele)
+            {
+                ele.InnerText = $"【xxxxx】{ele.InnerText}";
+                xml = doc.OuterXml;
+            }
 
 
 
 
         }
 
+
+
+        {
+
+
+
+
+
+
+
+        }
 
 
 
@@ -336,10 +376,7 @@ internal static class Program
 
 
 
-
     }
-
-
 
 
 
@@ -365,28 +402,6 @@ internal static class Program
 
 
 
-
-
-    static void M1(int i, string str1) { }
-    static void M1(int i, int i1) { }
-
-
-
-    static void M3<T1, T2>(T1 i, T2 i1) { }
-
-
-
-    static void Common<T>(int i, T arg)
-    {
-        if (arg is string str1)
-        {
-
-        }
-        if (arg is int i1)
-        {
-
-        }
-    }
 
 
 }
