@@ -1,9 +1,9 @@
-﻿using HDF.Framework.Text.LeetCode;
-using Microsoft.CSharp;
+﻿using Newtonsoft.Json;
 using System.Globalization;
 using System.Management;
 //using System.Collections.Concurrent;
 using System.Net;
+using System.Net.Http;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Security.Cryptography;
@@ -22,9 +22,8 @@ namespace HDF.Framework.Text
     {
 
         [STAThread]
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-
 
 
 
@@ -1338,60 +1337,299 @@ namespace HDF.Framework.Text
 
                 var len = info.LengthInTextElements;
                 var len2 = str.Length;
-
             }
 
-
-
-
-
-
-
-
-
-
-            //leetcode
+            //定时
             {
 
-                //ListNode node = new ListNode(1,
-                //    new ListNode(2,
-                //    new ListNode(3,
-                //    new ListNode(4,
-                //    new ListNode(5, null)))));
-
-                //var n = Solution5.ReverseBetween2(node, 2, 4);
 
 
+                //action(null, null);
+                //action(null, null);
+                //action(null, null);
 
-                new Solution_9_回文数().Test();
+                //Thread.Sleep(6000);
+
+                //action(null, null);
+                //action(null, null);
+                //action(null, null);
+
+
+
+
+
+                //static Func<Action<object, EventArgs>, Action<object, EventArgs>> fun1 = next =>
+                //{
+                //    var timer = true;
+                //    return async (obj, e1) =>
+                //    {
+                //        if (timer)
+                //        {
+                //            timer = false;
+                //            await Task.Run(() => { next(obj, e1); });
+                //            await Task.Delay(5000);
+                //            timer = true;
+                //        }
+                //    };
+                //};
+                //static Action<object, EventArgs> action = fun1((x, y) =>
+                //{
+                //    //这里写你的具体实现
+                //    Console.WriteLine("过5秒执行1此");
+                //});
+
+
+            }
+
+            //ai大模型
+            {
+
+
+
+
+                HttpListener listener = new HttpListener();
+                listener.Prefixes.Add("http://localhost:9996/");
+                listener.Start();
+
+                while (true)
+                {
+
+                    HttpListenerContext context = await listener.GetContextAsync();
+                    if (context.Request.RawUrl.StartsWith("/ai"))
+                        ThreadPool.QueueUserWorkItem(async (_) =>
+                        {
+                            var context1 = context;
+                            context1.Response.ContentType = "text/event-stream; charset=utf-8";
+                            context1.Response.ContentEncoding = Encoding.UTF8;
+                            context1.Response.StatusCode = 200;
+                            context1.Response.Headers.Add("Cache-Control", "no-cache");
+                            context1.Response.Headers.Add("Connection", "keep-alive");
+                            context1.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+
+                            var key = context1.Request.Url.Query.Replace("?key=", "");
+
+                            using var stream = context1.Request.InputStream;
+
+                            StreamReader sr = new StreamReader(stream);
+                            var body = sr.ReadToEnd();
+
+
+                            await SendAiResult(context1, body);
+
+                            context1.Response.OutputStream.Flush();
+                            context1.Response.OutputStream.Close();
+                        });
+                }
+
+
 
             }
 
 
-            Console.ReadLine();
+
+
+
+
+
+
+
+            var a = Console.ReadLine();
+
+
+
         }
 
 
-
-
-        class Test : IAsyncStateMachine
+        static async Task SendAiResult(HttpListenerContext context, string msg1)
         {
-            public void MoveNext()
+
+
+            var url = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
+            var key = "sk-92bb2c50f27449b0ad25211279b4176e";
+            var mode = "deepseek-r1-distill-llama-8b";
+
+
+            using HttpClient client = new HttpClient();
+
+            //using HttpContent content = new StringContent(JsonConvert.SerializeObject(new
+            //{
+            //    model = mode,
+            //    messages = new object[] {
+            //            new {
+            //                role="user",
+            //                //content="9.9和9.11谁大",
+            //                content=msg1,
+            //            },
+            //        },
+            //    stream = true,
+            //    stream_options = new
+            //    {
+            //        include_usage = true,
+            //    },
+            //}), Encoding.UTF8, "application/json");
+
+            using HttpContent content = new StringContent(msg1, Encoding.UTF8, "application/json");
+
+            var msg = new HttpRequestMessage(HttpMethod.Post, url);
+            msg.Content = content;
+            //msg.Headers.Add("Authorization", "Bearer " + key);
+            msg.Headers.Add("Authorization", context.Request.Headers["Authorization"]);
+            msg.Headers.Add("Accept", "text/event-stream");//流式输出
+
+
+            var res = await client.SendAsync(msg, HttpCompletionOption.ResponseHeadersRead);
+
+
+            res.EnsureSuccessStatusCode();
+
+            var stream = await res.Content.ReadAsStreamAsync();
+
+            using var streamReader = new StreamReader(stream);
+
+            CancellationToken token = new CancellationToken();
+            string line;
+            string result = "";
+            string result2 = "";
+
+
+            while ((line = await streamReader.ReadLineAsync()) != null && !token.IsCancellationRequested)
             {
-                throw new NotImplementedException();
+                try
+                {
+                    var bytes = Encoding.UTF8.GetBytes(line + "\n");
+                    context.Response.OutputStream.Write(bytes, 0, bytes.Length);
+                    //context.Response.OutputStream.Flush();
+                }
+                catch (HttpListenerException ex)
+                {
+                    // 处理异常，记录日志或采取必要的操作
+                    Console.WriteLine($"HttpListenerException: {ex.Message}");
+                }
+
+
+                // 处理每行数据，通常是 JSON 数据块，例如: "data: [{\"choices\":[{\"text\":\"Hello\"}]}]"
+                if (line.StartsWith("data: ")) // 移除 "data: " 前缀并解析 JSON 数据块
+                {
+                    string data = line.Substring(6);
+                    if (data == "[DONE]")
+                    {
+                        //结束标志
+                        break;
+                    }
+                    var streamObject = JsonConvert.DeserializeObject<StreamObject>(data);
+                    if (streamObject.choices.Length > 0)
+                    {
+                        var contentRes = streamObject.choices[0].delta.content;
+                        Console.Write(contentRes);
+                        //result += contentRes;
+                        //result2 += streamObject.choices[0].delta.reasoning_content;
+
+
+                    }
+                    if (streamObject.usage != null)
+                    {
+                        Console.WriteLine($"""
+                                                    
+                                                    Usage:
+                                                    prompt_tokens:{streamObject.usage.prompt_tokens}
+                                                    completion_tokens:{streamObject.usage.completion_tokens}
+                                                    total_tokens:{streamObject.usage.total_tokens}
+                                                    """);
+                    }
+
+                }
             }
 
+            Console.WriteLine("********************************************");
+            Console.WriteLine("结束");
 
-            public AsyncTaskMethodBuilder<int> builder;
+        }
 
 
 
-            public void SetStateMachine(IAsyncStateMachine stateMachine)
+
+
+
+        class StreamObject
+        {
+            public ChoiceObject[] choices { get; set; } = [];
+
+            public int created { get; set; }
+            public string model { get; set; }
+            public string id { get; set; }
+
+            public UsageObject usage { get; set; }
+
+
+
+
+
+
+
+
+        }
+
+
+        public class ChoiceObject
+        {
+            public DeltaObject delta { get; set; }
+
+            public int index { get; set; }
+            public string finish_reason { get; set; }
+
+        }
+
+        public class DeltaObject
+        {
+            public string content { get; set; }
+            public string reasoning_content { get; set; }
+
+
+        }
+        public class UsageObject
+        {
+            public int prompt_tokens { get; set; }
+            public int completion_tokens { get; set; }
+            public int total_tokens { get; set; }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        static string Encrypt(string pToEncrypt, string sKey)
+        {
+            using (DESCryptoServiceProvider des = new DESCryptoServiceProvider())
             {
-
-                throw new NotImplementedException();
+                byte[] inputByteArray = Encoding.UTF8.GetBytes(pToEncrypt);
+                des.Key = ASCIIEncoding.ASCII.GetBytes(sKey).Take(8).ToArray();
+                des.IV = ASCIIEncoding.ASCII.GetBytes(sKey).Take(8).ToArray();
+                System.IO.MemoryStream ms = new System.IO.MemoryStream();
+                using (CryptoStream cs = new CryptoStream(ms, des.CreateEncryptor(), CryptoStreamMode.Write))
+                {
+                    cs.Write(inputByteArray, 0, inputByteArray.Length);
+                    cs.FlushFinalBlock();
+                    cs.Close();
+                }
+                string str = Convert.ToBase64String(ms.ToArray());
+                ms.Close();
+                return str;
             }
         }
+
 
 
 
@@ -1517,26 +1755,6 @@ namespace HDF.Framework.Text
         {
             Console.WriteLine($"Size of {typeof(T)} is {sizeof(T)}");
         }
-
-
-
-        public static void m1(string str, int i, bool a = false)
-        {
-
-            StackFrame frame = new StackFrame(); //偏移一个百函数位度,也即是获取问当前函数的前答一个调用函数
-            MethodBase method = frame.GetMethod(); //取得专调属用函数
-
-            var parms = method.GetParameters();
-
-
-
-            CSharpCodeProvider cs = new CSharpCodeProvider();
-            foreach (var p in parms)
-            {
-                var def = p;
-            }
-        }
-
 
 
 
@@ -2227,18 +2445,18 @@ namespace HDF.Framework.Text
             /*
              * 
              * 
-请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
+    请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
 
-函数 myAtoi(string s) 的算法如下：
+    函数 myAtoi(string s) 的算法如下：
 
-1.读入字符串并丢弃无用的前符（假设还未到字符末尾）为正还是负号导空格
-2.检查下一个字，读取该字符（如果有）。 确定最终结果是负数还是正数。 如果两者都不存在，则假定结果为正。
-3.读入下一个字符，直到到达下一个非数字字符或到达输入的结尾。字符串的其余部分将被忽略。
-4.将前面步骤读入的这些数字转换为整数（即，"123" -> 123， "0032" -> 32）。如果没有读入数字，则整数为 0 。必要时更改符号（从步骤 2 开始）。
-5.如果整数数超过 32 位有符号整数范围 [−231,  231 − 1] ，需要截断这个整数，使其保持在这个范围内。具体来说，小于 −231 的整数应该被固定为 −231 ，大于 231 − 1 的整数应该被固定为 231 − 1 。
-6.返回整数作为最终结果。
+    1.读入字符串并丢弃无用的前符（假设还未到字符末尾）为正还是负号导空格
+    2.检查下一个字，读取该字符（如果有）。 确定最终结果是负数还是正数。 如果两者都不存在，则假定结果为正。
+    3.读入下一个字符，直到到达下一个非数字字符或到达输入的结尾。字符串的其余部分将被忽略。
+    4.将前面步骤读入的这些数字转换为整数（即，"123" -> 123， "0032" -> 32）。如果没有读入数字，则整数为 0 。必要时更改符号（从步骤 2 开始）。
+    5.如果整数数超过 32 位有符号整数范围 [−231,  231 − 1] ，需要截断这个整数，使其保持在这个范围内。具体来说，小于 −231 的整数应该被固定为 −231 ，大于 231 − 1 的整数应该被固定为 231 − 1 。
+    6.返回整数作为最终结果。
 
-             
+
              */
 
 

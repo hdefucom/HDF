@@ -26,6 +26,10 @@ namespace SkiaSharp.Demo
             //解决方案：安装SkiaSharp.HarfBuzz包，使用DrawShapedText提供支持
 
 
+
+
+
+
             SKPaint text_paint = new SKPaint
             {
                 //FakeBoldText = true,
@@ -34,12 +38,12 @@ namespace SkiaSharp.Demo
 
                 //TextAlign = SKTextAlign.Center,
                 //宋体，不然不支持中文绘制;
-                //Typeface = SKTypeface.FromFamilyName("微软雅黑"),
+                Typeface = SKTypeface.FromFamilyName("微软雅黑"),
                 //Typeface = SKTypeface.FromFamilyName("Fira Code"),
-                Typeface = SKTypeface.FromFamilyName("Fira Code",
-                                                SKFontStyleWeight.Normal,
-                                                SKFontStyleWidth.Normal,
-                                                SKFontStyleSlant.Upright),
+                //Typeface = SKTypeface.FromFamilyName("Fira Code",
+                //                                SKFontStyleWeight.Normal,
+                //                                SKFontStyleWidth.Normal,
+                //                                SKFontStyleSlant.Upright),
                 IsAntialias = true,
 
             };
@@ -55,7 +59,7 @@ namespace SkiaSharp.Demo
             //canvas.Save();
             //逆时针旋转45度绘制
             //canvas.RotateDegrees(-45, 250, 250);
-            //canvas.DrawText("h啊速度hi发sad😂😂😂", new SKPoint(250, 250), text_paint);
+            canvas.DrawText("h啊速度hi发sad😂😂😂", new SKPoint(250, 350), text_paint);
             canvas.DrawText($"{res}==> => == ===", new SKPoint(250, 50), text_paint);
             canvas.DrawText($"{res}==> => == ===", 250, 150, font, text_paint);
             canvas.DrawShapedText($"{res}==> => == ===", 250, 250, text_paint);

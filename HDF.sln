@@ -117,7 +117,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiaSharp.Demo", "Example\W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{1E635A74-EF69-4B6E-B165-C5240AF3EE52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF.Test.Font", "HDF.Test.Font\HDF.Test.Font.csproj", "{E459192C-24F9-467B-9290-6BA15236DDB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDF.Test.Font", "HDF.Test.Font\HDF.Test.Font.csproj", "{E459192C-24F9-467B-9290-6BA15236DDB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

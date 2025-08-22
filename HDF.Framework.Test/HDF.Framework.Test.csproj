@@ -6,7 +6,7 @@
 		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 
-		<LangVersion>10.0</LangVersion>
+		<LangVersion>latest</LangVersion>
 
 		<UseWindowsForms>true</UseWindowsForms>
 	</PropertyGroup>
@@ -15,6 +15,8 @@
 		<PackageReference Include="ExpressionEvaluator" Version="2.0.4" />
 		<PackageReference Include="HtmlAgilityPack" Version="1.11.36" />
 		<PackageReference Include="HDF.Common" Version="1.4.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Spire.PDF" Version="10.11.7" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -24,6 +26,7 @@
 		</Reference>
 		<Reference Include="System.Design" />
 		<Reference Include="System.Management" />
+		<Reference Include="System.Net.Http" />
 	</ItemGroup>
 
 	<ItemGroup>

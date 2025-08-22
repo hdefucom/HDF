@@ -107,7 +107,7 @@ namespace HDF.Core.WebApi
                 option.DocumentTitle = "HDF API";
             });
 
-            app.UseHttpsRedirection();//Https重定向
+            //app.UseHttpsRedirection();//Https重定向
 
             app.UseAuthentication();//身份验证
 
