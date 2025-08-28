@@ -33,7 +33,9 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": false,
+      "httpPort": 11080, // 固定映射到容器内 80 端口的主机端口
+      "sslPort": 11443 // 固定映射到容器内 443 端口的主机端口
     }
   },
   "$schema": "https://json.schemastore.org/launchsettings.json",

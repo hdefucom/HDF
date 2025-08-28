@@ -41,7 +41,7 @@ namespace WebApplication1
 
 
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
