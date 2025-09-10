@@ -3,6 +3,7 @@ using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml;
@@ -19,10 +20,15 @@ namespace WindowsFormsApp1
 
         public static void Start(string sql)
         {
-            //var xml11 = File.ReadAllText("C:\\Users\\12131\\Desktop\\4.txt");
-            //xml11 = xml11.GZipDecompressString(Encoding.UTF8);
+            //var xml11 = File.ReadAllText("C:\\Users\\12131\\Desktop\\5.xml");
+            ////xml11 = xml11.GZipDecompressString(Encoding.UTF8);
 
             //var list22 = Handler(xml11);
+
+            //return;
+
+
+
 
             var constr = ConfigurationManager.ConnectionStrings["EMR"].ConnectionString;
 
@@ -132,7 +138,7 @@ values (:MEDICALRECORDID, :NOOFINPAT, :REUSETYPE, :REUSEVALUE1, :CREATETIME, :RE
 
             void AddCurrentItem(string name)
             {
-                if (!string.IsNullOrEmpty(current_item) && !string.IsNullOrEmpty(current_item_value))
+                if (!string.IsNullOrWhiteSpace(current_item) && !string.IsNullOrWhiteSpace(current_item_value))
                 {
                     list.Add(new Data
                     {
@@ -149,11 +155,22 @@ values (:MEDICALRECORDID, :NOOFINPAT, :REUSETYPE, :REUSEVALUE1, :CREATETIME, :RE
                 outname = null;
                 if (xmlElement.Name == "span"
                     && xmlElement.GetAttribute("fontbold") == "1"
-                    && xmlElement.InnerText.Contains("辅助检查")
+
                     )
                 {
-                    outname = "辅助检查";
-                    return true;
+                    if (xmlElement.InnerText.Contains("辅助检查"))
+                    {
+                        outname = "辅助检查";
+                        return true;
+                    }
+
+                    var eletitle = xmlElement.InnerText.TrimEnd();
+                    if (eletitle.EndsWith(":") || eletitle.EndsWith("："))
+                    {
+                        outname = eletitle.TrimEnd(':','：');
+                        return true;
+                    }
+
                 }
 
                 return false;
