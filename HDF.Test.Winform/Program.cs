@@ -1,19 +1,14 @@
-﻿using Newtonsoft.Json;
-using OpenTelemetry;
-using OpenTelemetry.Resources;
-using OpenTelemetry.Trace;
-using SkiaSharp;
+﻿using Microsoft.CSharp;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Web;
 using System.Windows.Forms;
-using System.Xml;
 
 namespace HDF.Test.Winform;
 
@@ -206,170 +201,55 @@ internal static class Program
         }
 
 
-
+        //动态编译
+        if (false)
         {
-            var key = "Ek0F3rXKj5";
+            CSharpCodeProvider cSharpCodeProvider = new CSharpCodeProvider();
 
-            //var p = "UserId=1002&Url=Reports/ReportData/CreateReport/护理不良事件/";
-            //var p = "UserId=1002&Url=Reports/ReportData";
-            var p = "UserId=1002&Url=";
-
-
-            p = HttpUtility.UrlEncode(Encrypt(p, key));
-
-
-            var url = $"https://gaers.huangzw.cn/public/goto?syscode=001&request={p}";
-
-
-            var ssss = new PaddingConverter().ConvertToString(new Padding(1, 2, 3, 4));
-
-
-
-
-
-            Graphics g = Graphics.FromHwnd(IntPtr.Zero);
-            g.PageUnit = GraphicsUnit.Pixel;
-            var s1 = g.MeasureString("黄", new Font("宋体", 12f));
-
-
-
-            SKPaint paint = new SKPaint();
-            paint.Typeface = SKTypeface.FromFamilyName("宋体");
-            paint.TextSize = 12;
-
-
-
-            SKRect rect = new SKRect();
-            var s2 = paint.MeasureText("黄", ref rect);
-
-
-
-            var jsonstr = JsonConvert.SerializeObject(new { date = DateTime.Now });
-
-            var datestr = DateTime.Now.ToString();
-        }
-
-
-        {
-            //Resource resource = ResourceBuilder
-            //    .CreateDefault()
-            //    .AddService("HDF-Test", "hdf", "0.1.0")
-            //    .Build();
-
-            //foreach (var attribute in resource.Attributes)
-            //{
-            //    Console.WriteLine($"{attribute.Key}={attribute.Value}");
-            //}
-
-
-
-            using var tracerProvider = Sdk.CreateTracerProviderBuilder()
-                .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("yy"))
-                .AddSource("HDF.Test.Winform")
-                //.ConfigureResource(builder => builder.AddService("dddddddddddd"))
-                .AddConsoleExporter(options =>
-                {
-                    options.Targets = OpenTelemetry.Exporter.ConsoleExporterOutputTargets.Console;
-                })
-                .Build();
-
-            var ttt = tracerProvider.GetTracer("HDF.Test.Winform");
-            var span = ttt.StartSpan("ttt222");
-            span.SetAttribute("dddddd", "bb");
-
-
-            tracerProvider.ForceFlush();
-
-
-
-            //ActivitySource.AddActivityListener(new ActivityListener
-            //{
-            //    // 只监听 TestSource1
-            //    ShouldListenTo = source => source.Name == "TestSource1",
-            //    // 采样率为 100%
-            //    Sample = (ref ActivityCreationOptions<ActivityContext> options) => ActivitySamplingResult.AllDataAndRecorded,
-            //    // 监听 Activity 的开始和结束
-            //    ActivityStarted = activity =>
-            //    {
-            //        Console.WriteLine($"Activity started: {activity.OperationName}");
-            //    },
-            //    ActivityStopped = activity =>
-            //    {
-            //        Console.WriteLine($"Activity stopped: {activity.OperationName}");
-            //    }
-            //});
-
-
-
-            //ActivitySource source = new ActivitySource("TestSource1", "0.2.0");
-
-            //using var activity = source.CreateActivity("a", ActivityKind.Client);
-            //activity.Start();
-
-
-
-            //Activity.Current?.AddEvent(new ActivityEvent("a do 1"));
-            //Thread.Sleep(1000);
-            //Activity.Current?.AddEvent(new ActivityEvent("a do 2"));
-
-
-            //Activity.Current?.SetTag("logdt", DateTime.Now);
-
-
-
-            var val = MouseButtons.Left | MouseButtons.Right;
-
-            var bbbb = val & (~MouseButtons.Left);
-
-
-
-
-            using Form form = null;
-
-
-            Stack<int> ints = new Stack<int>();
-
-
-            var a = Encoding.UTF8.GetString(Convert.FromBase64String("PGVsZW1lbnRzPjxzcGFuIGZvbnRuYW1lPSLlrovkvZMiIGZvbnRzaXplPSI0OCI+MDwvc3Bhbj48L2VsZW1lbnRzPg=="));
-
-        }
-        {
-
-
-            string xml = """<field><span fontname="宋体" fontsize="12">右侧自发性气胸</span></field>""";
-
-            XmlDocument doc = new XmlDocument();
-            doc.LoadXml(xml);
-            var spans = doc.GetElementsByTagName("span");
-            if (spans.Count > 0 && spans[0] is XmlElement ele)
+            var res = cSharpCodeProvider.CompileAssemblyFromSource(new System.CodeDom.Compiler.CompilerParameters()
             {
-                ele.InnerText = $"【xxxxx】{ele.InnerText}";
-                xml = doc.OuterXml;
-            }
+                GenerateExecutable = false,
+                GenerateInMemory = true,
+                IncludeDebugInformation = false,
+            },
+         new string[] { "public class A { public int B() { return 1+1; } }" }
+                );
 
-
-
-
+            var type = res.CompiledAssembly.GetType("A");
+            var obj = Activator.CreateInstance(type);
+            var method = type.GetMethod("B");
+            var res2 = method.Invoke(obj, null);
         }
-
 
 
         {
 
 
+            var obj = new AAAA();
+
+
+            var validationContext = new ValidationContext(obj);
+
+
+            var results = new List<ValidationResult>();
+
+            var res = Validator.TryValidateObject(obj, validationContext, results);
 
 
 
+
+            AntdUI.SvgDb.Emoji = AntdUI.FluentFlat.Emoji;
 
 
         }
+
 
 
 
         Application.ThreadException += (_, e) => Console.WriteLine(e);
 
 
-        Application.Run(new Form1());
+        Application.Run(new Form3());
 
 
 
@@ -377,6 +257,28 @@ internal static class Program
 
 
     }
+
+
+    /// <summary>
+    /// 测试类型
+    /// </summary>
+    /// <c>string a="ddd"</c>
+    /// <code>dsf</code>
+    /// <example> fsdfsdfsdfsadfwerweqr</example>
+    /// <see cref="System.String"/> 
+    public class AAAA
+    {
+        [Required()]
+        public string Name { get; set; }
+    }
+
+
+
+
+
+
+
+
 
 
 
