@@ -28,65 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pageHeader1 = new AntdUI.PageHeader();
             this.PageHeader = new AntdUI.PageHeader();
-            this.pageHeader2 = new AntdUI.PageHeader();
             this.chatList = new AntdUI.Chat.ChatList();
+            this.testControl1 = new HDF.Test.Winform.TestControl();
             this.SuspendLayout();
-            // 
-            // pageHeader1
-            // 
-            this.pageHeader1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pageHeader1.DividerColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pageHeader1.Font = new System.Drawing.Font("Segoe UI Emoji", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.pageHeader1.Location = new System.Drawing.Point(12, 145);
-            this.pageHeader1.Name = "pageHeader1";
-            this.pageHeader1.ShowButton = true;
-            this.pageHeader1.ShowIcon = true;
-            this.pageHeader1.Size = new System.Drawing.Size(657, 56);
-            this.pageHeader1.SubText = "yyyyyyy";
-            this.pageHeader1.TabIndex = 0;
-            this.pageHeader1.Text = "AntdUI 1.9.12😊😂🤣❤️😍";
             // 
             // PageHeader
             // 
+            this.PageHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.PageHeader.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.PageHeader.FullBox = true;
-            this.PageHeader.Location = new System.Drawing.Point(28, 209);
+            this.PageHeader.Location = new System.Drawing.Point(0, 0);
             this.PageHeader.Name = "PageHeader";
             this.PageHeader.ShowButton = true;
             this.PageHeader.ShowIcon = true;
-            this.PageHeader.Size = new System.Drawing.Size(744, 42);
+            this.PageHeader.Size = new System.Drawing.Size(862, 42);
             this.PageHeader.SubText = "Demo";
             this.PageHeader.TabIndex = 27;
             this.PageHeader.Text = "PageHeader";
             // 
-            // pageHeader2
-            // 
-            this.pageHeader2.Location = new System.Drawing.Point(241, 53);
-            this.pageHeader2.Name = "pageHeader2";
-            this.pageHeader2.ShowButton = true;
-            this.pageHeader2.Size = new System.Drawing.Size(389, 63);
-            this.pageHeader2.TabIndex = 28;
-            this.pageHeader2.Text = "pageHeader2";
-            // 
             // chatList
             // 
-            this.chatList.Location = new System.Drawing.Point(53, 279);
+            this.chatList.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.chatList.Location = new System.Drawing.Point(0, 48);
             this.chatList.Name = "chatList";
             this.chatList.Size = new System.Drawing.Size(673, 256);
             this.chatList.TabIndex = 29;
             this.chatList.Text = "chatList";
+            // 
+            // testControl1
+            // 
+            this.testControl1.BottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
+            this.testControl1.Location = new System.Drawing.Point(366, 310);
+            this.testControl1.MouseDownSliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(239)))));
+            this.testControl1.MouseOverSliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(158)))), ((int)(((byte)(158)))));
+            this.testControl1.Name = "testControl1";
+            this.testControl1.Size = new System.Drawing.Size(36, 266);
+            this.testControl1.SliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.testControl1.SliderHeight = 100;
+            this.testControl1.SliderWidthPercent = 0.5D;
+            this.testControl1.SmallChange = 1;
+            this.testControl1.TabIndex = 30;
+            this.testControl1.Value = 0;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 588);
+            this.Controls.Add(this.testControl1);
             this.Controls.Add(this.chatList);
-            this.Controls.Add(this.pageHeader2);
             this.Controls.Add(this.PageHeader);
-            this.Controls.Add(this.pageHeader1);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -95,10 +87,8 @@
         }
 
         #endregion
-
-        private AntdUI.PageHeader pageHeader1;
         private AntdUI.PageHeader PageHeader;
-        private AntdUI.PageHeader pageHeader2;
         private AntdUI.Chat.ChatList chatList;
+        private TestControl testControl1;
     }
 }
