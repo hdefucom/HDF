@@ -21,7 +21,7 @@
 
 
 	<ItemGroup>
-		<PackageReference Include="CefSharp.WinForms" Version="99.2.140" />
+		<PackageReference Include="CefSharp.WinForms" Version="134.3.90" />
 		<PackageReference Include="EO.WebBrowser" Version="22.0.68" />
 		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1189-prerelease" />
 		<PackageReference Include="Tnelab.MiniBlink" Version="1.0.0" />
